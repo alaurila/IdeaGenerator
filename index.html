@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Game Idea Generator</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&display=swap">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <script type="module" src="js/app.js"></script>
+</head>
+<body>
+  <header class="page-header">
+    <div class="container">
+      <h1><i class="fa-solid fa-dice-d20" aria-hidden="true"></i> <span data-i18n="app.title">Game Idea Generator</span></h1>
+      <div class="toolbar">
+        <button id="roll-all" class="btn btn--primary"><i class="fa-solid fa-dice"></i> <span data-i18n="toolbar.rollAll">Roll All</span></button>
+        <button id="unlock-all" class="btn"><i class="fa-solid fa-lock-open"></i> <span data-i18n="toolbar.unlockAll">Unlock All</span></button>
+        <button id="empty-unlocked" class="btn"><i class="fa-solid fa-eye-slash"></i> <span>Empty Unlocked</span></button>
+        <button id="new-idea" class="btn"><i class="fa-solid fa-wand-magic-sparkles"></i> <span data-i18n="toolbar.newIdea">New Idea</span></button>
+        <div id="language-switch" class="lang-switch" role="group" data-i18n-aria-label="app.language"></div>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+    <details class="prompt-section">
+      <summary class="section-head">
+        <h2><i class="fa-solid fa-chevron-right prompt-chevron" aria-hidden="true"></i><i class="fa-solid fa-robot" aria-hidden="true"></i> <span data-i18n="prompt.heading">AI Prompt</span></h2>
+        <button class="btn btn--accent" data-copy-prompt><i class="fa-regular fa-copy"></i> <span data-i18n="toolbar.copyPrompt">Copy AI Prompt</span></button>
+      </summary>
+      <pre id="prompt-output" class="prompt-output"></pre>
+    </details>
+
+    <section data-i18n-aria-label="generator.label">
+      <div id="generator-grid" class="grid">
+        <p class="loading">Loading…</p>
+      </div>
+    </section>
+
+    <section class="browse-section" aria-labelledby="browse-heading">
+      <div class="section-head">
+        <h2 id="browse-heading"><i class="fa-solid fa-book-open" aria-hidden="true"></i> <span data-i18n="browse.heading">Browse Lists</span></h2>
+        <p class="section-hint" data-i18n="browse.hint"></p>
+      </div>
+      <div id="browse-grid" class="browse"></div>
+    </section>
+  </main>
+
+  <dialog id="picker" class="picker" aria-labelledby="picker-title">
+    <div class="picker-head">
+      <h2 id="picker-title" class="picker-title"></h2>
+      <button type="button" class="icon-btn picker-close" data-i18n-aria-label="picker.close"><i class="fa-solid fa-xmark"></i></button>
+    </div>
+    <div class="picker-search-wrap">
+      <i class="fa-solid fa-magnifying-glass" aria-hidden="true"></i>
+      <input type="search" class="picker-search" data-i18n-placeholder="picker.search" autocomplete="off">
+    </div>
+    <div class="picker-selected"></div>
+    <ul class="picker-list"></ul>
+    <div class="picker-footer">
+      <span class="picker-counter"></span>
+      <button type="button" class="btn btn--primary picker-apply" data-i18n="picker.apply"></button>
+    </div>
+  </dialog>
+</body>
+</html>
