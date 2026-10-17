@@ -1,4 +1,6 @@
 {
+  "easy.toggle": "Mode facile",
+  "easy.hint": "Afficher le genre, l’objectif principal, le rebondissement et deux champs aléatoires",
   "starter.emphasizeAll": "Mettre tous les champs en valeur",
   "starter.focusMain": "Mettre les champs principaux en valeur",
   "starter.heading": "Votre prochain jeu commence ici",

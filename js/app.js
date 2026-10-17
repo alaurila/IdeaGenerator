@@ -14,7 +14,7 @@ import { initBrowser, buildBrowser, refreshBrowser } from './listBrowser.js';
 import { LANGUAGES, currentLanguage, savedLanguage, loadLanguage, applyStaticTexts, t } from './i18n.js';
 import { escapeHtml } from './dom.js';
 import { readIdeaUrl, updateIdeaUrl, updateJamUrl } from './ideaUrl.js';
-import { SCHEMA_VERSION, GENERATOR_VERSION } from './ideaEngine.js';
+import { SCHEMA_VERSION, GENERATOR_VERSION, pickUnique } from './ideaEngine.js';
 import { CATEGORIES } from './config.js';
 import { jam, setJam, loadJam, saveJam, translateJamTheme } from './jamState.js';
 import { JAM_POLICY_VERSION } from './jamPolicy.js';
@@ -27,6 +27,8 @@ import { renderScores } from './scoreUi.js';
 
 const grid = document.getElementById('generator');
 const starterKeys = ['genres', 'main_goals', 'twists'];
+let easyMode = false;
+let easyExtraKeys = [];
 let emphasizeAll = false;
 try { emphasizeAll = localStorage.getItem('gameIdeaGenerator.emphasizeAll') === 'true'; } catch {}
 
@@ -37,6 +39,16 @@ function updateFieldEmphasis() {
   button.textContent = t(emphasizeAll ? 'starter.focusMain' : 'starter.emphasizeAll');
 }
 
+function updateEasyMode() {
+  document.body.classList.toggle('is-easy-mode', easyMode);
+  const visibleKeys = new Set([...starterKeys, ...easyExtraKeys]);
+  grid.querySelectorAll('.card').forEach(card => {
+    card.hidden = easyMode && !visibleKeys.has(card.dataset.key);
+  });
+  document.getElementById('browse-section').hidden = easyMode;
+  document.getElementById('easy-mode').setAttribute('aria-pressed', String(easyMode));
+}
+
 function buildGenerator() {
   buildCards(document.getElementById('generator-grid'),
     [...starterKeys.map(key => CATEGORIES.find(c => c.key === key)),
@@ -45,6 +57,7 @@ function buildGenerator() {
     card.classList.toggle('card--secondary', !starterKeys.includes(card.dataset.key));
   });
   updateFieldEmphasis();
+  updateEasyMode();
 }
 const promptEl = document.getElementById('prompt-output');
 const browser = document.getElementById('browse-grid');
@@ -185,6 +198,11 @@ async function changeLanguage(code) {
 }
 
 function bindEvents() {
+  document.getElementById('easy-mode').addEventListener('click', () => {
+    easyMode = !easyMode;
+    if (easyMode) easyExtraKeys = pickUnique(CATEGORIES.map(c => c.key).filter(key => !starterKeys.includes(key)), 2);
+    updateEasyMode();
+  });
   document.getElementById('smart-roll').addEventListener('click', startSmartRoll);
   window.addEventListener('hashchange', () => {
     const url = new URL(window.location.href);
@@ -292,6 +310,7 @@ async function start() {
   }
   bindSharing();
   document.getElementById('smart-roll').disabled = false;
+  document.getElementById('easy-mode').disabled = false;
   if (shareError) showToast(t('share.invalid'));
 }
 

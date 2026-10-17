@@ -227,6 +227,9 @@ h1 i { color: var(--accent); margin-right: 6px; }
   transition: border-color 0.15s, background 0.15s;
 }
 .card:hover { border-color: var(--border-strong); }
+.card[hidden] { display: none; }
+
+.is-easy-mode :is(#emphasize-all, #roll-all, #unlock-all, #empty-unlocked, #idea-scores) { display: none; }
 
 .is-focused .card--secondary:not(.is-locked):not(.is-excluded):not(:hover):not(:focus-within) {
   background: var(--bg-elevated);

@@ -1,4 +1,6 @@
 {
+  "easy.toggle": "Modo fácil",
+  "easy.hint": "Mostrar gênero, objetivo principal, reviravolta e dois campos aleatórios",
   "starter.emphasizeAll": "Destacar todos os campos",
   "starter.focusMain": "Destacar os campos principais",
   "starter.heading": "Seu próximo jogo começa aqui",
