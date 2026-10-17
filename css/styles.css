@@ -104,7 +104,7 @@ h1 i { color: var(--accent); margin-right: 6px; }
   scrollbar-width: thin;
 }
 .header-actions > * { flex: 0 0 auto; }
-.header-actions > :first-child { margin-left: auto; }
+.header-actions > .generator-actions { margin-left: auto; }
 .header-actions .toolbar { flex-wrap: nowrap; gap: 6px; }
 .header-actions .toolbar .btn {
   flex: 0 0 auto;

@@ -69,7 +69,7 @@ algorithm. Reordering source options does not change the hash or seeded result.
 
 ## Easy mode
 
-**Easy mode** in the top bar shows only genre, main goal, twist and two other randomly selected
+**Easy mode** at the far left of the second header row shows only genre, main goal, twist and two other randomly selected
 fields. It hides Browse Lists, idea scores, Emphasize all fields, Roll All, Unlock All and
 Empty Unlocked. It starts off on every page load. The two extra fields are chosen
 when you enable the mode and stay the same while it is active, including during rolls and
