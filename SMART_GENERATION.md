@@ -55,12 +55,15 @@ external service is involved. Ordinary generation retains its existing behavior.
 
 ## Score display
 
-A compact row after AI Prompt shows synergy, tension, novelty and interestingness on a 0–100
+A native, initially collapsed details section after AI Prompt shows synergy, tension, novelty and interestingness on a 0–100
 scale, with a conflict penalty when applicable. Numbers and small progress bars update after
 every edit, regular roll, smart search, language change or shared-link restoration. Excluded
 fields do not contribute; the panel hides when no scored selections remain. Scores are derived
 from current selections, not persisted as a separate source of truth. All five UI languages
 describe the metrics as rule-based estimates rather than a guarantee of game quality.
+Opening or closing the section changes only presentation. Scores keep updating while collapsed,
+and the open state survives rolls and language changes until the next page load. Easy mode hides
+the entire section while preserving its open state.
 
 ## Explanations and first-version boundary
 

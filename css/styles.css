@@ -124,7 +124,13 @@ h1 i { color: var(--accent); margin-right: 6px; }
 /* ---------- Compact idea scores ---------- */
 
 .idea-scores { margin: 12px 0; padding: 10px 14px; border: 1px solid var(--border); border-radius: var(--radius-sm); }
-.idea-scores h2 { margin: 0 0 6px; font-size: 12px; color: var(--text-muted); font-weight: 500; }
+.idea-scores h2 { margin: 0; font-size: 12px; color: var(--text-muted); font-weight: 500; }
+.idea-scores > summary { display: flex; align-items: center; gap: 8px; list-style: none; cursor: pointer; user-select: none; }
+.idea-scores > summary::-webkit-details-marker { display: none; }
+.idea-scores > summary::before { content: '\25B8'; color: var(--text-muted); transition: transform 0.15s; }
+.idea-scores[open] > summary { margin-bottom: 8px; }
+.idea-scores[open] > summary::before { transform: rotate(90deg); }
+.idea-scores:not([open]):hover { border-color: var(--border-strong); }
 .score-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(115px, 1fr)); gap: 8px 20px; margin: 0; }
 .score-metric { min-width: 0; }
 .score-metric dt { display: inline; font-size: 12px; color: var(--text-muted); }

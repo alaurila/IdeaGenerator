@@ -166,8 +166,10 @@ match or improve the current score. If no candidate qualifies, it keeps the curr
 It preserves locked and excluded fields, chosen counts, game jam scope and the current theme.
 Ordinary generation continues to work independently.
 
-A compact panel below AI Prompt shows synergy, tension, novelty and interestingness, with
-one to three short explanations. Conflict penalties appear only for explicit design conflicts;
+A compact, initially collapsed **Idea scores** section below AI Prompt shows synergy, tension,
+novelty and interestingness, with one to three short explanations when opened. Click its heading
+to expand or collapse it; updates and language changes preserve your choice until the next page load.
+Easy mode hides the section. Conflict penalties appear only for explicit design conflicts;
 unusual contrasts contribute positively to tension. No LLM, API key or network service is used
 for scoring, searching or explanations.
 
