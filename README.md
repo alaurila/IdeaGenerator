@@ -71,12 +71,20 @@ algorithm. Reordering source options does not change the hash or seeded result.
 
 **Easy mode** at the far left of the second header row shows only genre, main goal, twist and two other randomly selected
 fields. It hides Browse Lists, idea scores, Emphasize all fields, Roll All, Unlock All and
-Empty Unlocked. It starts off on every page load. The two extra fields are chosen
+Empty Unlocked. It starts off unless the URL contains `easy=1`. The two extra fields are chosen
 when you enable the mode and stay the same while it is active, including during rolls and
 language changes. Turning the mode off restores all 19 cards, Browse Lists, scores and controls.
 
+Open [Easy mode in English](https://alaurila.github.io/IdeaGenerator/?lang=en&easy=1) or
+[Easy mode in Finnish](https://alaurila.github.io/IdeaGenerator/?lang=fi&easy=1) directly.
+Combine `easy=1` with `seed`, `fresh=1`, jam options or a shared `#idea=` link. Copy link preserves
+the mode. The toggle adds `easy=1` when enabled and removes it when disabled; `easy=0` also opens
+the full view. Without the flag, the view starts in full mode regardless of earlier visits.
+
 This is a display setting: toggling it does not reroll anything or change values, counts,
-locks, exclusions, the AI prompt, sharing or the idea URL. Hidden fields remain part of the idea.
+locks, exclusions or the AI prompt. Hidden fields remain part of the idea and its JSON/share
+snapshot. The two extra fields are selected randomly on each activation or `easy=1` page load;
+the URL stores the mode, not the random choice of visible extra fields.
 
 ## Share an idea
 

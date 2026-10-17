@@ -1,6 +1,17 @@
 // URL parsing is independent of browser globals so consumers can reuse it.
 import { normalizeJam, JAM_DEFAULTS } from './jamPolicy.js';
 
+export function readEasyUrl(url) {
+  return url.searchParams.get('easy') === '1';
+}
+
+export function updateEasyUrl(url, enabled) {
+  const result = new URL(url);
+  if (enabled) result.searchParams.set('easy', '1');
+  else result.searchParams.delete('easy');
+  return result;
+}
+
 export function readJamUrl(url) {
   if (!url.searchParams.has('jam')) return null;
   if (url.searchParams.get('jam') !== '1') return { ...JAM_DEFAULTS };

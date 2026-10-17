@@ -13,7 +13,7 @@ import { buildPrompt } from './promptBuilder.js';
 import { initBrowser, buildBrowser, refreshBrowser } from './listBrowser.js';
 import { LANGUAGES, currentLanguage, savedLanguage, loadLanguage, applyStaticTexts, t } from './i18n.js';
 import { escapeHtml } from './dom.js';
-import { readIdeaUrl, updateIdeaUrl, updateJamUrl } from './ideaUrl.js';
+import { readIdeaUrl, updateIdeaUrl, updateJamUrl, readEasyUrl, updateEasyUrl } from './ideaUrl.js';
 import { SCHEMA_VERSION, GENERATOR_VERSION, pickUnique } from './ideaEngine.js';
 import { CATEGORIES } from './config.js';
 import { jam, setJam, loadJam, saveJam, translateJamTheme } from './jamState.js';
@@ -37,6 +37,13 @@ function updateFieldEmphasis() {
   const button = document.getElementById('emphasize-all');
   button.setAttribute('aria-pressed', String(emphasizeAll));
   button.textContent = t(emphasizeAll ? 'starter.focusMain' : 'starter.emphasizeAll');
+}
+
+function setEasyMode(enabled) {
+  if (enabled && !easyMode) {
+    easyExtraKeys = pickUnique(CATEGORIES.map(c => c.key).filter(key => !starterKeys.includes(key)), 2);
+  }
+  easyMode = enabled;
 }
 
 function updateEasyMode() {
@@ -103,6 +110,7 @@ function syncUrl() {
   let url = updateJamUrl(updateIdeaUrl(new URL(window.location.href), currentLanguage, sharedSeed), jam);
   // Keep a previously opened shared link in sync as the user edits it.
   if (url.hash.startsWith('#idea=')) url = createShareUrl(url, { state, catalog, language: currentLanguage, jam });
+  url = updateEasyUrl(url, easyMode);
   window.history.replaceState(null, '', url);
   saveJam();
   document.getElementById('idea-output').textContent = JSON.stringify({
@@ -199,9 +207,9 @@ async function changeLanguage(code) {
 
 function bindEvents() {
   document.getElementById('easy-mode').addEventListener('click', () => {
-    easyMode = !easyMode;
-    if (easyMode) easyExtraKeys = pickUnique(CATEGORIES.map(c => c.key).filter(key => !starterKeys.includes(key)), 2);
+    setEasyMode(!easyMode);
     updateEasyMode();
+    window.history.replaceState(null, '', updateEasyUrl(new URL(window.location.href), easyMode));
   });
   document.getElementById('smart-roll').addEventListener('click', startSmartRoll);
   window.addEventListener('hashchange', () => {
@@ -258,6 +266,7 @@ function bindEvents() {
 
 async function start() {
   const url = new URL(window.location.href);
+  setEasyMode(readEasyUrl(url));
   let shared, shareError = false;
   try { shared = readSharedIdea(url, LANGUAGES.map(l => l.code)); }
   catch { shareError = true; }

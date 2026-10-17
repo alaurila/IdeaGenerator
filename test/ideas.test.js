@@ -5,7 +5,7 @@ import { execFileSync } from 'node:child_process';
 import { CATEGORIES } from '../js/config.js';
 import { LANGUAGES } from '../js/i18n.js';
 import { collectOptions, generateIdea, translateSelections, SCHEMA_VERSION, GENERATOR_VERSION } from '../js/ideaEngine.js';
-import { readIdeaUrl, updateIdeaUrl } from '../js/ideaUrl.js';
+import { readIdeaUrl, updateIdeaUrl, readEasyUrl, updateEasyUrl } from '../js/ideaUrl.js';
 
 const root = new URL('../', import.meta.url);
 const readJson = async path => JSON.parse(await readFile(new URL(path, root), 'utf8'));
@@ -61,6 +61,20 @@ test('URL language takes priority and seed survives encoding, including empty se
   assert.equal(readIdeaUrl(new URL('?seed=', url), languages, 'en').seed, '');
   assert.equal(readIdeaUrl(new URL('?fresh=1&seed=old', url), languages, 'en').fresh, true);
   assert.equal(updateIdeaUrl(new URL('?fresh=1', url), 'fi', 'new').searchParams.has('fresh'), false);
+});
+
+test('Easy mode URL changes preserve replay parameters, Unicode jam themes and snapshots', () => {
+  const url = new URL('https://example.org/?lang=fi&seed=my-idea&jam=1&hours=48&other=keep#idea=snapshot');
+  url.searchParams.set('theme','Ääni & valo 🎲');
+  const original=url.href;
+  const enabled=updateEasyUrl(url,true);
+  assert.equal(readEasyUrl(enabled),true);
+  for(const [key,value] of url.searchParams)assert.equal(enabled.searchParams.get(key),value);
+  assert.equal(enabled.hash,url.hash);
+  assert.deepEqual(readIdeaUrl(enabled,['en','fi'],'en'),readIdeaUrl(url,['en','fi'],'en'));
+  assert.equal(updateEasyUrl(enabled,false).href,original);
+  assert.equal(url.href,original);
+  for(const query of ['','?easy=0','?easy=true','?easy=invalid'])assert.equal(readEasyUrl(new URL(query,url)),false);
 });
 
 test('published catalogs preserve IDs and bot entry points request fresh generation', async () => {

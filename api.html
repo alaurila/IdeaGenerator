@@ -87,6 +87,17 @@ const idea = JSON.parse(await page.locator('#idea-output').textContent());</code
     The page shows the scores and explanations; <code>#idea-output</code> contains the selected idea.
     Use the CLI's <code>--smart</code> response when you need scores and explanation text together as JSON.</p>
 
+  <h2>Easy mode URL</h2>
+  <p>Add <code>easy=1</code> to open the five-card view directly, for example
+    <a href="./?lang=en&amp;easy=1&amp;fresh=1">a fresh idea in Easy mode</a>.
+    It works with language, seed, jam and shared snapshot links. Copy link retains this flag.
+    The toggle adds or removes it without regenerating the idea. Without the flag, or with
+    <code>easy=0</code>, the full view is shown.</p>
+  <p>Easy mode changes presentation only: genre, main goal, twist and two random extra fields
+    are visible. The extra fields are chosen per activation or page load and are not stored in the
+    URL. The idea JSON and share snapshot still contain all 19 categories; explicit exclusions
+    continue to work independently.</p>
+
   <h2>Catalogs for bots without browser automation</h2>
   <p>Fetch the appropriate catalog, then generate a combination locally. These files contain all available
     options, not completed ideas. A plain HTTP request to this static site does not execute the generator.</p>

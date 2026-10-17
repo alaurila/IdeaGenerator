@@ -35,6 +35,15 @@ test('share links restore actual values, locks, exclusions, counts and custom Un
   assert.equal(resolveSharedIdea(decoded, translated).fields.genres.values[0], 'Translated label');
 });
 
+test('sharing retains Easy mode without changing the underlying idea snapshot', () => {
+  const model={state:makeState(),catalog,language:'en'};
+  const normal=createShareUrl('https://example.org/?seed=test',model);
+  const easy=createShareUrl('https://example.org/?easy=1&seed=test',model);
+  assert.equal(easy.searchParams.get('easy'),'1');
+  assert.deepEqual(readSharedIdea(easy,['en']),readSharedIdea(normal,['en']));
+  assert.equal(createShareUrl('https://example.org/?easy=0',model).searchParams.has('easy'),false);
+});
+
 test('corrupt and unavailable snapshots fail without modifying application state', () => {
   assert.equal(readSharedIdea(new URL('https://example.org/#prompt'), ['en']), null);
   for (const hash of ['#idea=', '#idea=***', '#idea=aaaaa', '#idea=' + 'a'.repeat(16001)]) {
