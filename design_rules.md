@@ -14,6 +14,8 @@
 - Provide a button to give every card equal visual emphasis. This is a presentation setting: it must not change values, locks, exclusions, the generated prompt or the idea URL.
 - Locked cards must remain visually distinguishable, including when other cards are subdued.
 - Place bot instructions at the bottom in small, muted text. Their primary language and examples are English; English is the default language.
+- Keep discovery content on the same page: three native, initially collapsed details sections for About the generator, Game jam mode and Instructions for bots. Their full English content is present in the original HTML and can be opened by any visitor without JavaScript.
+- Describe only implemented features in metadata and WebApplication JSON-LD. Do not add text hidden exclusively for search engines, fabricated ratings or separate keyword landing pages.
 
 ## Demonstrative initial state
 

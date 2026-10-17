@@ -12,6 +12,8 @@
 - Show all 19 cards at equal sizes. Emphasize genre, main goal and twist initially; other cards blend more into the background but keep their controls accessible.
 - The emphasis toggle affects presentation only. It must not change selected values, counts, locks, exclusions or the prompt.
 - English is the default language. Keep bot instructions in English at the bottom, with small, muted text.
+- Keep the app on one page. At the bottom, provide initially collapsed About the generator, Game jam mode and Instructions for bots sections, with complete English text already in the HTML.
+- Everyone can open these sections without JavaScript. Metadata and WebApplication JSON-LD describe the same visible capabilities; do not create bot-only keyword text or invented reviews.
 
 ## Example generation
 

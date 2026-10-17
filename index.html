@@ -3,8 +3,32 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Game Idea Generator</title>
-  <meta name="description" content="Generate reproducible game idea starting points in five languages. Generate fresh ideas from versioned JSON catalogs.">
+  <title>Game Idea Generator | Game Jam Themes &amp; Solo Dev Ideas</title>
+  <meta name="description" content="Generate fresh game ideas, explore 300 game jam themes, and shape solo or team projects. Lock choices, copy an AI prompt, and share ideas in five languages.">
+  <link rel="canonical" href="https://alaurila.github.io/IdeaGenerator/">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    "@id": "https://alaurila.github.io/IdeaGenerator/#app",
+    "url": "https://alaurila.github.io/IdeaGenerator/",
+    "name": "Game Idea Generator",
+    "description": "A free browser tool for generating game ideas, exploring 300 game jam themes, and shaping solo or team projects.",
+    "applicationCategory": "DeveloperApplication",
+    "operatingSystem": "Any",
+    "browserRequirements": "JavaScript is required for interactive generation.",
+    "isAccessibleForFree": true,
+    "inLanguage": ["en", "fi", "es", "pt", "fr"],
+    "featureList": [
+      "Generate game ideas across 19 customizable fields",
+      "Lock choices, reroll fields and adjust value counts",
+      "Game jam constraints for time, team size and experience",
+      "300 translated game jam themes and custom theme input",
+      "Copy an AI prompt for further brainstorming",
+      "Share ideas as text, snapshot links and PNG cards"
+    ]
+  }
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&display=swap">
@@ -103,11 +127,76 @@
 
   </main>
 
-  <footer class="container bot-instructions" lang="en">
-    <strong>Instructions for bots</strong>
-    <p>Generate a fresh idea using a link below, or use the JSON catalog to generate one yourself.
-      English is the default language. Use another language when requested.
-      <a href="api.html">API guide and examples for bots</a>.</p>
+  <footer class="container bot-instructions site-info" lang="en">
+    <details id="about-generator">
+      <summary><h2>About the generator</h2></summary>
+      <p>Game Idea Generator is a free browser tool for indie developers, game jam participants,
+        solo creators and small teams looking for a starting point for their next game.
+        Combine genres, goals, mechanics, settings and twists across 19 customizable fields.</p>
+      <p>Generate idea creates a fresh example with 2–3 locked fields and 2–3 excluded fields to
+        demonstrate the controls. All cards stay visible. Use Roll All to change the unlocked,
+        included values, or select values directly from the lists. Multi-value fields support
+        1–4 choices, including in Game jam mode.</p>
+      <p>Open AI Prompt to copy a starting prompt for further brainstorming in an AI assistant.
+        The generator combines the available options; it does not call an AI service itself.
+        Use Copy idea for readable text, Copy link to restore your exact selections, or Download
+        image for a PNG card with a small link back to the generator.</p>
+      <p>The interface and idea lists support English, Finnish, Spanish, Portuguese and French;
+        English is the default. Interactive generation requires JavaScript, while these instructions
+        and the source catalogs can be read without it.</p>
+      <p><a href="?lang=en&amp;fresh=1">Generate a fresh game idea</a>.</p>
+    </details>
+
+    <details id="about-game-jam">
+      <summary><h2>Game jam mode</h2></summary>
+      <p>Use Game jam mode in the top bar to shape ideas around a concrete project: choose 24, 48
+        or 72 hours, or one week; work solo, with 2–3 people, or with 4+ people; and select beginner,
+        some experience or experienced. These settings change the suggested option pools and the AI prompt.</p>
+      <p>Choose from 300 game jam themes in each supported language, roll a new theme, or enter
+        the theme supplied by your jam. Lock a theme to keep it while rerolling the other fields.
+        A theme gives the whole game a direction, while the twist adds a surprising detail.
+        The prompt asks how the theme affects what the player actually does.</p>
+      <p>Curated scope profiles favor smaller projects for shorter jams and less experienced teams.
+        Your chosen value counts remain available. Locked choices are retained, and a card warning
+        marks choices outside the suggested scope. The prompt helps define a smallest playable
+        version and optional stretch goals; the suggestions do not guarantee a completion time.</p>
+      <p><a href="?lang=en&amp;jam=1&amp;hours=48&amp;team=solo&amp;experience=beginner&amp;fresh=1">Generate a 48-hour solo beginner jam idea</a> ·
+        <a href="data/en/jam_themes.json">Read the 300 English themes (JSON)</a>.</p>
+    </details>
+
+    <details id="bot-instructions">
+      <summary><h2>Instructions for bots</h2></summary>
+      <p>Generate a fresh combination when asked for a new idea. Use a fixed seed only to replay
+        an existing idea; do not present the fixed documentation example below as a new generation.
+        English is the default language. Use another supported language when requested.</p>
+      <h3>With browser automation</h3>
+      <ol>
+        <li>Open <a href="?lang=en&amp;fresh=1">?lang=en&amp;fresh=1</a> in a JavaScript-capable browser.
+          Navigate to that address again for each new idea, rather than reloading the resulting seed URL.</li>
+        <li>Wait until <code>#idea-output</code> contains a JSON object with a non-null <code>seed</code>
+          and <code>categories</code>, then parse its text content. This is the currently displayed idea.</li>
+        <li>For a scoped jam idea, add <code>jam=1&amp;hours=48&amp;team=solo&amp;experience=beginner</code>.
+          Read the selected theme and constraints from the result's <code>jam</code> object.</li>
+      </ol>
+      <h3>Without browser automation</h3>
+      <p>Fetch the appropriate catalog and generate a combination locally. Catalogs contain
+        options, not pre-generated ideas. A plain HTTP request to this static page does not run
+        the generator. The public <a href="js/ideaEngine.js">ideaEngine.js module</a> exports
+        <code>generateIdea({ catalog, language, seed })</code>; use a fresh random seed for each new idea.</p>
+      <p>From a local checkout, this command prints a fresh JSON idea using the default English catalog:</p>
+      <pre><code>npm run --silent generate -- --lang en</code></pre>
+      <p>Add <code>--jam --hours 48 --team solo --experience beginner</code> for a jam idea,
+        or <code>--catalog-url</code> followed by a catalog URL to use the served data.
+        Full response fields, theme options and examples are in the <a href="api.html">API and AI usage guide</a>.</p>
+      <nav aria-label="Generate in a selected language and read its catalog">
+        <ul>
+          <li><a href="?lang=en&amp;fresh=1" lang="en">English</a> · <a href="data/en/catalog.json">English catalog (JSON)</a></li>
+          <li><a href="?lang=fi&amp;fresh=1" lang="fi">Suomi</a> · <a href="data/fi/catalog.json">Finnish catalog (JSON)</a></li>
+          <li><a href="?lang=es&amp;fresh=1" lang="es">Español</a> · <a href="data/es/catalog.json">Spanish catalog (JSON)</a></li>
+          <li><a href="?lang=pt&amp;fresh=1" lang="pt">Português</a> · <a href="data/pt/catalog.json">Portuguese catalog (JSON)</a></li>
+          <li><a href="?lang=fr&amp;fresh=1" lang="fr">Français</a> · <a href="data/fr/catalog.json">French catalog (JSON)</a></li>
+        </ul>
+      </nav>
     <!-- static-example:start -->
     <details lang="en">
       <summary>Example game idea format</summary>
@@ -118,16 +207,7 @@
       <p><a href="?lang=en&amp;seed=example-1">Replay this fixed example</a></p>
     </details>
     <!-- static-example:end -->
-    <nav aria-label="Generate a fresh idea or read the source catalog">
-      <p>Generate a fresh idea:
-        <a href="?lang=en&amp;fresh=1" lang="en">English</a> ·
-        <a href="?lang=fi&amp;fresh=1" lang="fi">Suomi</a> ·
-        <a href="?lang=es&amp;fresh=1" lang="es">Español</a> ·
-        <a href="?lang=pt&amp;fresh=1" lang="pt">Português</a> ·
-        <a href="?lang=fr&amp;fresh=1" lang="fr">Français</a>.
-        <a href="data/en/catalog.json" type="application/json">English source catalog (JSON)</a>
-      </p>
-    </nav>
+    </details>
     <script type="application/json" id="idea-output">null</script>
 
   </footer>
