@@ -5,11 +5,13 @@ Finnish, Spanish, Portuguese and French. No dependencies are needed; use Node.js
 
 ## Use online
 
-- [English (default)](https://alaurila.github.io/IdeaGenerator/?lang=en)
-- [Suomi](https://alaurila.github.io/IdeaGenerator/?lang=fi)
-- [Español](https://alaurila.github.io/IdeaGenerator/?lang=es)
-- [Português](https://alaurila.github.io/IdeaGenerator/?lang=pt)
-- [Français](https://alaurila.github.io/IdeaGenerator/?lang=fr)
+These links open Easy mode with the guided tour.
+
+- [English (default)](https://alaurila.github.io/IdeaGenerator/?lang=en&easy=1&help=1)
+- [Suomi](https://alaurila.github.io/IdeaGenerator/?lang=fi&easy=1&help=1)
+- [Español](https://alaurila.github.io/IdeaGenerator/?lang=es&easy=1&help=1)
+- [Português](https://alaurila.github.io/IdeaGenerator/?lang=pt&easy=1&help=1)
+- [Français](https://alaurila.github.io/IdeaGenerator/?lang=fr&easy=1&help=1)
 
 ## Generate a fresh idea with a bot
 
@@ -97,8 +99,8 @@ Empty Unlocked. It starts off unless the URL contains `easy=1`. The two extra fi
 when you enable the mode and stay the same while it is active, including during rolls and
 language changes. Turning the mode off restores all 19 cards, Browse Lists, scores and controls.
 
-Open [Easy mode in English](https://alaurila.github.io/IdeaGenerator/?lang=en&easy=1) or
-[Easy mode in Finnish](https://alaurila.github.io/IdeaGenerator/?lang=fi&easy=1) directly.
+Open [Easy mode with a tour in English](https://alaurila.github.io/IdeaGenerator/?lang=en&easy=1&help=1) or
+[Easy mode with a tour in Finnish](https://alaurila.github.io/IdeaGenerator/?lang=fi&easy=1&help=1) directly.
 Combine `easy=1` with `seed`, `fresh=1`, jam options or a shared `#idea=` link. Copy link preserves
 the mode. The toggle adds `easy=1` when enabled and removes it when disabled; `easy=0` also opens
 the full view. Without the flag, the view starts in full mode regardless of earlier visits.
