@@ -6,13 +6,11 @@
   "starter.generate": "Générer une idée",
   "starter.more": "Plus d'options et de listes",
   "starter.moreHint": "Explorez l'idée complète, ajustez chaque champ ou choisissez des valeurs dans les listes.",
-
   "app.title": "Game Idea Generator",
   "app.loading": "Chargement des listes…",
   "app.loadError": "Impossible de charger les listes : {error}",
   "app.loadErrorHint": "Ouvrez la page via le serveur local en lançant .\\run.ps1.",
   "app.language": "Langue",
-
   "toolbar.rollAll": "Tout tirer",
   "toolbar.unlockAll": "Tout déverrouiller",
   "toolbar.newIdea": "Nouvelle idée",
@@ -22,9 +20,7 @@
   "toolbar.showAllTitle": "Réintégrer tous les champs non verrouillés",
   "toolbar.copyPrompt": "Copier le prompt",
   "toast.copied": "Prompt copié dans le presse-papiers",
-
   "generator.label": "Générateur",
-
   "card.lockedBadge": "Verrouillé : conservé au tirage",
   "card.locked": "Verrouillé – conservé au tirage (cliquer pour déverrouiller)",
   "card.unlocked": "Déverrouillé – change au tirage",
@@ -36,9 +32,7 @@
   "card.count": "Nombre de valeurs",
   "card.less": "Moins",
   "card.more": "Plus",
-
   "prompt.heading": "Prompt pour l'IA",
-
   "picker.title": "{label} · {count} valeurs",
   "picker.search": "Rechercher…",
   "picker.close": "Fermer",
@@ -46,7 +40,6 @@
   "picker.selected": "{count} / {max} sélectionnés",
   "picker.remove": "Retirer",
   "picker.apply": "Appliquer la sélection",
-
   "browse.heading": "Parcourir les listes",
   "browse.hint": "Cliquez sur une valeur pour la placer dans le générateur.",
   "browse.selectList": "Choisir une liste",
@@ -59,7 +52,6 @@
   "browse.next": "Pages suivantes",
   "browse.random": "Position aléatoire",
   "browse.setValue": "Placer dans le générateur",
-
   "category.genres": "Genre",
   "category.settings": "Cadre",
   "category.player_roles": "Rôle du joueur",
@@ -79,10 +71,8 @@
   "category.npc_structures": "Structure des PNJ",
   "category.generative_elements": "Éléments génératifs",
   "category.technologies": "Technologie",
-
   "categoryPrompt.twists": "Rebondissement",
   "categoryPrompt.failure_types": "Échec",
-
   "prompt.intro": "Je veux imaginer un jeu à partir des points de départ suivants.",
   "prompt.sparring": "Aide-moi à développer cette idée de jeu.",
   "prompt.noGdd": "N'écris pas encore le jeu ni un long document de game design.",
@@ -99,5 +89,34 @@
     "en posant quelques bonnes questions qui aideraient à affiner l'idée",
     "si nécessaire, en proposant un ou deux changements qui rendraient l'idée plus intéressante"
   ],
-  "prompt.goal": "Le but est de trouver un concept vraiment jouable, pas de forcer l'utilisation de chaque élément généré."
+  "prompt.goal": "Le but est de trouver un concept vraiment jouable, pas de forcer l'utilisation de chaque élément généré.",
+  "jam.toggle": "Game jam",
+  "jam.heading": "Contraintes de la game jam",
+  "jam.time": "Durée",
+  "jam.hours24": "24 heures",
+  "jam.hours48": "48 heures",
+  "jam.hours72": "72 heures",
+  "jam.week": "Une semaine",
+  "jam.team": "Équipe",
+  "jam.solo": "En solo",
+  "jam.small": "2–3 personnes",
+  "jam.large": "4+ personnes",
+  "jam.experience": "Expérience",
+  "jam.beginner": "Débutant",
+  "jam.intermediate": "Un peu d’expérience",
+  "jam.experienced": "Expérimenté",
+  "jam.theme": "Thème : choisir ou écrire le vôtre",
+  "jam.themePlaceholder": "Choisir parmi 300 thèmes ou écrire le vôtre",
+  "jam.rollTheme": "Tirer un thème",
+  "jam.lockTheme": "Verrouiller le thème",
+  "jam.unlockTheme": "Déverrouiller le thème",
+  "jam.hint": "Portée réduite et quantités flexibles. Les choix hors de la portée suggérée sont signalés sur les cartes.",
+  "jam.warning": "Dépasse la portée suggérée. Envisagez de simplifier ou de tirer à nouveau ce champ.",
+  "jam.promptSummary": "Game jam : {hours} heures ; équipe : {team} ; expérience : {experience}.",
+  "jam.promptTheme": "Thème de la game jam : {theme}",
+  "jam.promptScope": "Gardez un objectif, une mécanique principale et un petit espace jouable. Représentez les idées ambitieuses par des éléments simples plutôt que de grandes simulations. Évitez les serveurs et les systèmes secondaires complexes.",
+  "jam.promptInterpret": "Faites agir le thème sur les actions du joueur. Proposez deux interprétations et choisissez-en une ; ne le limitez pas au titre ou au contexte narratif.",
+  "jam.promptBuild": "Définissez la plus petite version jouable avec trois fonctions essentielles au maximum. Séparez les objectifs facultatifs et proposez un planning adapté à la durée, à l’équipe et à l’expérience.",
+  "jam.promptWarning": "Si un choix conservé contredit les contraintes, expliquez comment le simplifier. Ne promettez pas de terminer toutes les combinaisons dans le délai.",
+  "jam.promptCounts": "Respectez le nombre de valeurs choisi pour chaque champ. Une mécanique principale unique est une suggestion de portée, pas une limite aux choix de la personne."
 }

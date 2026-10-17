@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "language": "fi",
-  "catalogVersion": "f8c336330bed78e8c30da92406df88dcd03db336f2906896bda51a650c398e3b",
+  "catalogVersion": "232d31c494efe0b928a173b0accf8a6d9c4ab0492bf98fe5717df67d61ca01b4",
   "labels": {
     "genres": "Genre",
     "settings": "Setting",
@@ -35,11 +35,24 @@
       },
       {
         "id": "genres-0003",
-        "text": "Platformer"
+        "text": "Platformer",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "genres-0004",
-        "text": "2D Platformer"
+        "text": "2D Platformer",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "genres-0005",
@@ -99,15 +112,34 @@
       },
       {
         "id": "genres-0019",
-        "text": "Shoot 'em up"
+        "text": "Shoot 'em up",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "genres-0020",
-        "text": "Bullet Hell"
+        "text": "Bullet Hell",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "genres-0021",
-        "text": "Twin-Stick Shooter"
+        "text": "Twin-Stick Shooter",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "genres-0022",
@@ -115,7 +147,13 @@
       },
       {
         "id": "genres-0023",
-        "text": "Stealth"
+        "text": "Stealth",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "genres-0024",
@@ -151,7 +189,13 @@
       },
       {
         "id": "genres-0032",
-        "text": "Point-and-Click Adventure"
+        "text": "Point-and-Click Adventure",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "genres-0033",
@@ -159,23 +203,56 @@
       },
       {
         "id": "genres-0034",
-        "text": "Text Adventure"
+        "text": "Text Adventure",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "genres-0035",
-        "text": "Interactive Fiction"
+        "text": "Interactive Fiction",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "genres-0036",
-        "text": "Visual Novel"
+        "text": "Visual Novel",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "genres-0037",
-        "text": "Walking Simulator"
+        "text": "Walking Simulator",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "genres-0038",
-        "text": "Narrative Adventure"
+        "text": "Narrative Adventure",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "genres-0039",
@@ -183,7 +260,13 @@
       },
       {
         "id": "genres-0040",
-        "text": "Choice-Driven Narrative"
+        "text": "Choice-Driven Narrative",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "genres-0041",
@@ -199,15 +282,35 @@
       },
       {
         "id": "genres-0044",
-        "text": "Escape Room Game"
+        "text": "Escape Room Game",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "genres-0045",
-        "text": "Puzzle Adventure"
+        "text": "Puzzle Adventure",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "genres-0046",
-        "text": "Hidden Object Game"
+        "text": "Hidden Object Game",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "genres-0047",
@@ -255,7 +358,13 @@
       },
       {
         "id": "genres-0058",
-        "text": "Dungeon Crawler"
+        "text": "Dungeon Crawler",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "genres-0059",
@@ -335,7 +444,13 @@
       },
       {
         "id": "genres-0078",
-        "text": "Turn-Based Tactics"
+        "text": "Turn-Based Tactics",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "genres-0079",
@@ -355,7 +470,13 @@
       },
       {
         "id": "genres-0083",
-        "text": "Tower Defense"
+        "text": "Tower Defense",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "genres-0084",
@@ -363,7 +484,13 @@
       },
       {
         "id": "genres-0085",
-        "text": "Auto Battler"
+        "text": "Auto Battler",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "genres-0086",
@@ -375,11 +502,23 @@
       },
       {
         "id": "genres-0088",
-        "text": "Deckbuilding Strategy"
+        "text": "Deckbuilding Strategy",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "genres-0089",
-        "text": "Card Strategy"
+        "text": "Card Strategy",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "genres-0090",
@@ -423,7 +562,13 @@
       },
       {
         "id": "genres-0100",
-        "text": "Dating Sim"
+        "text": "Dating Sim",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "genres-0101",
@@ -1873,19 +2018,43 @@
       },
       {
         "id": "settings-0021",
-        "text": "Kerrostalo"
+        "text": "Kerrostalo",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "settings-0022",
-        "text": "Omakotitalo"
+        "text": "Omakotitalo",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "settings-0023",
-        "text": "Kartano"
+        "text": "Kartano",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "settings-0024",
-        "text": "Linna"
+        "text": "Linna",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "settings-0025",
@@ -1893,15 +2062,34 @@
       },
       {
         "id": "settings-0026",
-        "text": "Huvila"
+        "text": "Huvila",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "settings-0027",
-        "text": "Mökki"
+        "text": "Mökki",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "settings-0028",
-        "text": "Majatalo"
+        "text": "Majatalo",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "settings-0029",
@@ -1913,7 +2101,13 @@
       },
       {
         "id": "settings-0031",
-        "text": "Hostelli"
+        "text": "Hostelli",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "settings-0032",
@@ -1933,7 +2127,13 @@
       },
       {
         "id": "settings-0036",
-        "text": "Luostari"
+        "text": "Luostari",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "settings-0037",
@@ -1941,19 +2141,46 @@
       },
       {
         "id": "settings-0038",
-        "text": "Kirkko"
+        "text": "Kirkko",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "settings-0039",
-        "text": "Hautausmaa"
+        "text": "Hautausmaa",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "settings-0040",
-        "text": "Krypta"
+        "text": "Krypta",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "settings-0041",
-        "text": "Kauppa"
+        "text": "Kauppa",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "settings-0042",
@@ -1969,7 +2196,13 @@
       },
       {
         "id": "settings-0045",
-        "text": "Kirpputori"
+        "text": "Kirpputori",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "settings-0046",
@@ -5145,7 +5378,14 @@
     "main_goals": [
       {
         "id": "main_goals-0001",
-        "text": "Selviydy"
+        "text": "Selviydy",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "main_goals-0002",
@@ -5153,7 +5393,13 @@
       },
       {
         "id": "main_goals-0003",
-        "text": "Ratkaise mysteeri"
+        "text": "Ratkaise mysteeri",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "main_goals-0004",
@@ -5161,7 +5407,13 @@
       },
       {
         "id": "main_goals-0005",
-        "text": "Paljasta salaisuus"
+        "text": "Paljasta salaisuus",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "main_goals-0006",
@@ -5169,15 +5421,35 @@
       },
       {
         "id": "main_goals-0007",
-        "text": "Estä katastrofi"
+        "text": "Estä katastrofi",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "main_goals-0008",
-        "text": "Pääse pakoon"
+        "text": "Pääse pakoon",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "main_goals-0009",
-        "text": "Löydä joku"
+        "text": "Löydä joku",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "main_goals-0010",
@@ -5185,11 +5457,24 @@
       },
       {
         "id": "main_goals-0011",
-        "text": "Pelasta joku"
+        "text": "Pelasta joku",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "main_goals-0012",
-        "text": "Suojele yhteisöä"
+        "text": "Suojele yhteisöä",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "main_goals-0013",
@@ -5197,7 +5482,13 @@
       },
       {
         "id": "main_goals-0014",
-        "text": "Puolusta aluetta"
+        "text": "Puolusta aluetta",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "main_goals-0015",
@@ -5257,11 +5548,23 @@
       },
       {
         "id": "main_goals-0029",
-        "text": "Selvitä kuka valehtelee"
+        "text": "Selvitä kuka valehtelee",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "main_goals-0030",
-        "text": "Paljasta murhaaja"
+        "text": "Paljasta murhaaja",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "main_goals-0031",
@@ -5293,15 +5596,34 @@
       },
       {
         "id": "main_goals-0038",
-        "text": "Kerää todisteet"
+        "text": "Kerää todisteet",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "main_goals-0039",
-        "text": "Ratkaise katoaminen"
+        "text": "Ratkaise katoaminen",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "main_goals-0040",
-        "text": "Löydä kadonnut esine"
+        "text": "Löydä kadonnut esine",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "main_goals-0041",
@@ -5317,7 +5639,13 @@
       },
       {
         "id": "main_goals-0044",
-        "text": "Palauta muistisi"
+        "text": "Palauta muistisi",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "main_goals-0045",
@@ -6291,7 +6619,13 @@
     "core_mechanics": [
       {
         "id": "core_mechanics-0001",
-        "text": "Keskustelu"
+        "text": "Keskustelu",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0002",
@@ -6299,27 +6633,64 @@
       },
       {
         "id": "core_mechanics-0003",
-        "text": "Tutkiminen"
+        "text": "Tutkiminen",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0004",
-        "text": "Resurssien jako"
+        "text": "Resurssien jako",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0005",
-        "text": "Kartan tutkiminen"
+        "text": "Kartan tutkiminen",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0006",
-        "text": "Dokumenttien vertailu"
+        "text": "Dokumenttien vertailu",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0007",
-        "text": "Rakentaminen"
+        "text": "Rakentaminen",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0008",
-        "text": "Ajankäyttö"
+        "text": "Ajankäyttö",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0009",
@@ -6335,15 +6706,33 @@
       },
       {
         "id": "core_mechanics-0012",
-        "text": "Vihjeiden yhdistely"
+        "text": "Vihjeiden yhdistely",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0013",
-        "text": "Todisteiden kerääminen"
+        "text": "Todisteiden kerääminen",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0014",
-        "text": "Kuulustelu"
+        "text": "Kuulustelu",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0015",
@@ -6351,11 +6740,24 @@
       },
       {
         "id": "core_mechanics-0016",
-        "text": "Päätösten tekeminen"
+        "text": "Päätösten tekeminen",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0017",
-        "text": "Neuvottelu"
+        "text": "Neuvottelu",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0018",
@@ -6375,15 +6777,33 @@
       },
       {
         "id": "core_mechanics-0022",
-        "text": "Maineen hallinta"
+        "text": "Maineen hallinta",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0023",
-        "text": "Luottamuksen rakentaminen"
+        "text": "Luottamuksen rakentaminen",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0024",
-        "text": "Ihmissuhteiden hallinta"
+        "text": "Ihmissuhteiden hallinta",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0025",
@@ -6411,7 +6831,14 @@
       },
       {
         "id": "core_mechanics-0031",
-        "text": "Asiakirjojen tarkastaminen"
+        "text": "Asiakirjojen tarkastaminen",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0032",
@@ -6419,15 +6846,36 @@
       },
       {
         "id": "core_mechanics-0033",
-        "text": "Hakemusten hyväksyminen"
+        "text": "Hakemusten hyväksyminen",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0034",
-        "text": "Hakemusten hylkääminen"
+        "text": "Hakemusten hylkääminen",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0035",
-        "text": "Passien tarkistaminen"
+        "text": "Passien tarkistaminen",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0036",
@@ -6443,15 +6891,35 @@
       },
       {
         "id": "core_mechanics-0039",
-        "text": "Hinnoittelu"
+        "text": "Hinnoittelu",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0040",
-        "text": "Ostaminen"
+        "text": "Ostaminen",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0041",
-        "text": "Myyminen"
+        "text": "Myyminen",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0042",
@@ -6467,7 +6935,13 @@
       },
       {
         "id": "core_mechanics-0045",
-        "text": "Varaston hallinta"
+        "text": "Varaston hallinta",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0046",
@@ -6503,7 +6977,13 @@
       },
       {
         "id": "core_mechanics-0054",
-        "text": "Koneiden korjaaminen"
+        "text": "Koneiden korjaaminen",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0055",
@@ -6511,11 +6991,23 @@
       },
       {
         "id": "core_mechanics-0056",
-        "text": "Vikojen diagnosointi"
+        "text": "Vikojen diagnosointi",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0057",
-        "text": "Sähkön reitittäminen"
+        "text": "Sähkön reitittäminen",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0058",
@@ -6527,11 +7019,23 @@
       },
       {
         "id": "core_mechanics-0060",
-        "text": "Johtojen yhdistäminen"
+        "text": "Johtojen yhdistäminen",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0061",
-        "text": "Piirien rakentaminen"
+        "text": "Piirien rakentaminen",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0062",
@@ -6555,7 +7059,14 @@
       },
       {
         "id": "core_mechanics-0067",
-        "text": "Salasanojen selvittäminen"
+        "text": "Salasanojen selvittäminen",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0068",
@@ -6591,7 +7102,14 @@
       },
       {
         "id": "core_mechanics-0076",
-        "text": "Mallien tunnistaminen"
+        "text": "Mallien tunnistaminen",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0077",
@@ -6607,7 +7125,13 @@
       },
       {
         "id": "core_mechanics-0080",
-        "text": "Aikajanan rakentaminen"
+        "text": "Aikajanan rakentaminen",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0081",
@@ -6623,7 +7147,13 @@
       },
       {
         "id": "core_mechanics-0084",
-        "text": "Reittien etsiminen"
+        "text": "Reittien etsiminen",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0085",
@@ -6631,7 +7161,13 @@
       },
       {
         "id": "core_mechanics-0086",
-        "text": "Paikkojen avaaminen"
+        "text": "Paikkojen avaaminen",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0087",
@@ -6639,19 +7175,46 @@
       },
       {
         "id": "core_mechanics-0088",
-        "text": "Esineiden tutkiminen"
+        "text": "Esineiden tutkiminen",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0089",
-        "text": "Ympäristön tarkkailu"
+        "text": "Ympäristön tarkkailu",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0090",
-        "text": "Yksityiskohtien havainnointi"
+        "text": "Yksityiskohtien havainnointi",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0091",
-        "text": "Äänien kuunteleminen"
+        "text": "Äänien kuunteleminen",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0092",
@@ -6671,11 +7234,23 @@
       },
       {
         "id": "core_mechanics-0096",
-        "text": "Piiloutuminen"
+        "text": "Piiloutuminen",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0097",
-        "text": "Hiipiminen"
+        "text": "Hiipiminen",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0098",
@@ -9773,67 +10348,169 @@
     "twists": [
       {
         "id": "twists-0001",
-        "text": "NPC:t muistavat aiemmat pelikerrat"
+        "text": "NPC:t muistavat aiemmat pelikerrat",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "twists-0002",
-        "text": "Yksi resurssi valehtelee"
+        "text": "Yksi resurssi valehtelee",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "twists-0003",
-        "text": "Maailma muuttuu kun sitä ei katsota"
+        "text": "Maailma muuttuu kun sitä ei katsota",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "twists-0004",
-        "text": "Pelaaja ei olekaan ihminen"
+        "text": "Pelaaja ei olekaan ihminen",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "twists-0005",
-        "text": "Kuolleet vaikuttavat maailmaan"
+        "text": "Kuolleet vaikuttavat maailmaan",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "twists-0006",
-        "text": "Osa kartasta on kuvitteellinen"
+        "text": "Osa kartasta on kuvitteellinen",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "twists-0007",
-        "text": "Tavoitteesi vaihtuu kesken pelin"
+        "text": "Tavoitteesi vaihtuu kesken pelin",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "twists-0008",
-        "text": "Pelaaja on itse yksi tutkittavista epäillyistä"
+        "text": "Pelaaja on itse yksi tutkittavista epäillyistä",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "twists-0009",
-        "text": "Pelaajan muistot ovat vääriä"
+        "text": "Pelaajan muistot ovat vääriä",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "twists-0010",
-        "text": "Kaikki NPC:t eivät näe samaa maailmaa"
+        "text": "Kaikki NPC:t eivät näe samaa maailmaa",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "twists-0011",
-        "text": "Yksi NPC tietää olevansa pelissä"
+        "text": "Yksi NPC tietää olevansa pelissä",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "twists-0012",
-        "text": "Yksi NPC valehtelee aina"
+        "text": "Yksi NPC valehtelee aina",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "twists-0013",
-        "text": "Yksi NPC kertoo aina totuuden"
+        "text": "Yksi NPC kertoo aina totuuden",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "twists-0014",
-        "text": "NPC:t vaihtavat identiteettejä keskenään"
+        "text": "NPC:t vaihtavat identiteettejä keskenään",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "twists-0015",
-        "text": "NPC voi kuolla ja palata toisena henkilönä"
+        "text": "NPC voi kuolla ja palata toisena henkilönä",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "twists-0016",
-        "text": "NPC:t voivat muistaa asioita, joita ei ole tapahtunut"
+        "text": "NPC:t voivat muistaa asioita, joita ei ole tapahtunut",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "twists-0017",
@@ -9849,7 +10526,13 @@
       },
       {
         "id": "twists-0020",
-        "text": "NPC:t voivat sabotoida käyttöliittymää"
+        "text": "NPC:t voivat sabotoida käyttöliittymää",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "twists-0021",
@@ -9861,7 +10544,13 @@
       },
       {
         "id": "twists-0023",
-        "text": "NPC:t voivat valehdella käyttöliittymän kautta"
+        "text": "NPC:t voivat valehdella käyttöliittymän kautta",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "twists-0024",
@@ -9873,11 +10562,23 @@
       },
       {
         "id": "twists-0026",
-        "text": "NPC:t muistavat tallennusten lataamisen"
+        "text": "NPC:t muistavat tallennusten lataamisen",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "twists-0027",
-        "text": "NPC:t tietävät milloin peli on pausella"
+        "text": "NPC:t tietävät milloin peli on pausella",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "twists-0028",
@@ -9897,7 +10598,14 @@
       },
       {
         "id": "twists-0032",
-        "text": "NPC:t eivät olekaan ihmisiä"
+        "text": "NPC:t eivät olekaan ihmisiä",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "twists-0033",
@@ -9905,7 +10613,14 @@
       },
       {
         "id": "twists-0034",
-        "text": "NPC:t ovat kuolleita"
+        "text": "NPC:t ovat kuolleita",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "twists-0035",
@@ -9913,7 +10628,14 @@
       },
       {
         "id": "twists-0036",
-        "text": "Pelaaja on kuollut"
+        "text": "Pelaaja on kuollut",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "twists-0037",
@@ -9921,23 +10643,56 @@
       },
       {
         "id": "twists-0038",
-        "text": "Pelaaja on simulaatiossa"
+        "text": "Pelaaja on simulaatiossa",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "twists-0039",
-        "text": "Pelaaja on tekoäly"
+        "text": "Pelaaja on tekoäly",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "twists-0040",
-        "text": "Pelaaja on klooni"
+        "text": "Pelaaja on klooni",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "twists-0041",
-        "text": "Pelaaja on toisen henkilön muisto"
+        "text": "Pelaaja on toisen henkilön muisto",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "twists-0042",
-        "text": "Pelaaja on aave"
+        "text": "Pelaaja on aave",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "twists-0043",
@@ -9945,11 +10700,23 @@
       },
       {
         "id": "twists-0044",
-        "text": "Pelaaja on kokeessa"
+        "text": "Pelaaja on kokeessa",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "twists-0045",
-        "text": "Pelaaja on vanki"
+        "text": "Pelaaja on vanki",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "twists-0046",
@@ -11095,39 +11862,96 @@
     "scales": [
       {
         "id": "scales-0001",
-        "text": "Yksi esine"
+        "text": "Yksi esine",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "scales-0002",
-        "text": "Yksi työpöytä"
+        "text": "Yksi työpöytä",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "scales-0003",
-        "text": "Yksi huone"
+        "text": "Yksi huone",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "scales-0004",
-        "text": "Yksi asunto"
+        "text": "Yksi asunto",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "scales-0005",
-        "text": "Yksi talo"
+        "text": "Yksi talo",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "scales-0006",
-        "text": "Yksi rakennus"
+        "text": "Yksi rakennus",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "scales-0007",
-        "text": "Yksi rakennuskompleksi"
+        "text": "Yksi rakennuskompleksi",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "scales-0008",
-        "text": "Yksi laiva"
+        "text": "Yksi laiva",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "scales-0009",
-        "text": "Yksi juna"
+        "text": "Yksi juna",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "scales-0010",
@@ -11135,7 +11959,13 @@
       },
       {
         "id": "scales-0011",
-        "text": "Yksi avaruusalus"
+        "text": "Yksi avaruusalus",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "scales-0012",
@@ -11143,11 +11973,23 @@
       },
       {
         "id": "scales-0013",
-        "text": "Yksi katu"
+        "text": "Yksi katu",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "scales-0014",
-        "text": "Yksi kortteli"
+        "text": "Yksi kortteli",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "scales-0015",
@@ -11259,7 +12101,13 @@
       },
       {
         "id": "scales-0042",
-        "text": "Yksi perhe"
+        "text": "Yksi perhe",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "scales-0043",
@@ -11271,7 +12119,13 @@
       },
       {
         "id": "scales-0045",
-        "text": "Yksi ystäväpiiri"
+        "text": "Yksi ystäväpiiri",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "scales-0046",
@@ -13317,11 +14171,24 @@
     "structural_formats": [
       {
         "id": "structural_formats-0001",
-        "text": "Vuoropohjainen"
+        "text": "Vuoropohjainen",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "structural_formats-0002",
-        "text": "Reaaliaikainen"
+        "text": "Reaaliaikainen",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "structural_formats-0003",
@@ -13329,15 +14196,34 @@
       },
       {
         "id": "structural_formats-0004",
-        "text": "Yksi työvuoro"
+        "text": "Yksi työvuoro",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "structural_formats-0005",
-        "text": "Roguelite-run"
+        "text": "Roguelite-run",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "structural_formats-0006",
-        "text": "Episodinen"
+        "text": "Episodinen",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "structural_formats-0007",
@@ -13349,11 +14235,25 @@
       },
       {
         "id": "structural_formats-0009",
-        "text": "Yksi päivä"
+        "text": "Yksi päivä",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "structural_formats-0010",
-        "text": "Yksi yö"
+        "text": "Yksi yö",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "structural_formats-0011",
@@ -13377,19 +14277,44 @@
       },
       {
         "id": "structural_formats-0016",
-        "text": "Aikasilmukka"
+        "text": "Aikasilmukka",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "structural_formats-0017",
-        "text": "Toistuva päivä"
+        "text": "Toistuva päivä",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "structural_formats-0018",
-        "text": "Toistuva työvuoro"
+        "text": "Toistuva työvuoro",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "structural_formats-0019",
-        "text": "Lyhyet pelisessiot"
+        "text": "Lyhyet pelisessiot",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "structural_formats-0020",
@@ -13413,19 +14338,44 @@
       },
       {
         "id": "structural_formats-0025",
-        "text": "Run-pohjainen"
+        "text": "Run-pohjainen",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "structural_formats-0026",
-        "text": "Mission-pohjainen"
+        "text": "Mission-pohjainen",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "structural_formats-0027",
-        "text": "Tehtäväpohjainen"
+        "text": "Tehtäväpohjainen",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "structural_formats-0028",
-        "text": "Case-pohjainen"
+        "text": "Case-pohjainen",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "structural_formats-0029",
@@ -13433,7 +14383,13 @@
       },
       {
         "id": "structural_formats-0030",
-        "text": "Skenaariopohjainen"
+        "text": "Skenaariopohjainen",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "structural_formats-0031",
@@ -13441,7 +14397,13 @@
       },
       {
         "id": "structural_formats-0032",
-        "text": "Huonepohjainen"
+        "text": "Huonepohjainen",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "structural_formats-0033",
@@ -13449,7 +14411,13 @@
       },
       {
         "id": "structural_formats-0034",
-        "text": "Solmupohjainen"
+        "text": "Solmupohjainen",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "structural_formats-0035",
@@ -13465,15 +14433,34 @@
       },
       {
         "id": "structural_formats-0038",
-        "text": "Lineaarinen"
+        "text": "Lineaarinen",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "structural_formats-0039",
-        "text": "Puolilineaarinen"
+        "text": "Puolilineaarinen",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "structural_formats-0040",
-        "text": "Haarautuva"
+        "text": "Haarautuva",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "structural_formats-0041",
@@ -13485,7 +14472,13 @@
       },
       {
         "id": "structural_formats-0043",
-        "text": "Suljettu ympäristö"
+        "text": "Suljettu ympäristö",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "structural_formats-0044",
@@ -13493,7 +14486,14 @@
       },
       {
         "id": "structural_formats-0045",
-        "text": "Yksi huone"
+        "text": "Yksi huone",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "structural_formats-0046",
@@ -17441,11 +18441,24 @@
     "progression": [
       {
         "id": "progression-0001",
-        "text": "Paremmat työkalut"
+        "text": "Paremmat työkalut",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "progression-0002",
-        "text": "Uusi tieto"
+        "text": "Uusi tieto",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "progression-0003",
@@ -17457,27 +18470,65 @@
       },
       {
         "id": "progression-0005",
-        "text": "Kartan avautuminen"
+        "text": "Kartan avautuminen",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "progression-0006",
-        "text": "Uudet ihmiset"
+        "text": "Uudet ihmiset",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "progression-0007",
-        "text": "Uudet säännöt"
+        "text": "Uudet säännöt",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "progression-0008",
-        "text": "Uudet kyvyt"
+        "text": "Uudet kyvyt",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "progression-0009",
-        "text": "Uudet taidot"
+        "text": "Uudet taidot",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "progression-0010",
-        "text": "Uudet toimintavaihtoehdot"
+        "text": "Uudet toimintavaihtoehdot",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "progression-0011",
@@ -17485,11 +18536,23 @@
       },
       {
         "id": "progression-0012",
-        "text": "Uudet huoneet"
+        "text": "Uudet huoneet",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "progression-0013",
-        "text": "Uudet alueet"
+        "text": "Uudet alueet",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "progression-0014",
@@ -17509,7 +18572,13 @@
       },
       {
         "id": "progression-0018",
-        "text": "Uudet teknologiat"
+        "text": "Uudet teknologiat",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "progression-0019",
@@ -17521,7 +18590,13 @@
       },
       {
         "id": "progression-0021",
-        "text": "Uudet resurssit"
+        "text": "Uudet resurssit",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "progression-0022",
@@ -17549,7 +18624,13 @@
       },
       {
         "id": "progression-0028",
-        "text": "Uudet liittolaiset"
+        "text": "Uudet liittolaiset",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "progression-0029",
@@ -17565,23 +18646,55 @@
       },
       {
         "id": "progression-0032",
-        "text": "Uudet suhteet"
+        "text": "Uudet suhteet",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "progression-0033",
-        "text": "Uudet kontaktit"
+        "text": "Uudet kontaktit",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "progression-0034",
-        "text": "Uudet tietolähteet"
+        "text": "Uudet tietolähteet",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "progression-0035",
-        "text": "Uudet salaisuudet"
+        "text": "Uudet salaisuudet",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "progression-0036",
-        "text": "Uudet vihjeet"
+        "text": "Uudet vihjeet",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "progression-0037",
@@ -17601,11 +18714,23 @@
       },
       {
         "id": "progression-0041",
-        "text": "Uudet pääsyoikeudet"
+        "text": "Uudet pääsyoikeudet",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "progression-0042",
-        "text": "Korkeampi turvaluokitus"
+        "text": "Korkeampi turvaluokitus",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "progression-0043",
@@ -18795,7 +19920,13 @@
     "npc_structures": [
       {
         "id": "npc_structures-0001",
-        "text": "Perheet"
+        "text": "Perheet",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "npc_structures-0002",
@@ -18807,7 +19938,13 @@
       },
       {
         "id": "npc_structures-0004",
-        "text": "Fraktiot"
+        "text": "Fraktiot",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "npc_structures-0005",
@@ -18815,7 +19952,13 @@
       },
       {
         "id": "npc_structures-0006",
-        "text": "Työpaikat"
+        "text": "Työpaikat",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "npc_structures-0007",
@@ -18851,7 +19994,13 @@
       },
       {
         "id": "npc_structures-0015",
-        "text": "Kyläyhteisöt"
+        "text": "Kyläyhteisöt",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "npc_structures-0016",
@@ -18859,11 +20008,23 @@
       },
       {
         "id": "npc_structures-0017",
-        "text": "Tiimit"
+        "text": "Tiimit",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "npc_structures-0018",
-        "text": "Miehistöt"
+        "text": "Miehistöt",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "npc_structures-0019",
@@ -18875,15 +20036,35 @@
       },
       {
         "id": "npc_structures-0021",
-        "text": "Ystävyyssuhteet"
+        "text": "Ystävyyssuhteet",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "npc_structures-0022",
-        "text": "Parhaat ystävät"
+        "text": "Parhaat ystävät",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "npc_structures-0023",
-        "text": "Tuttavuudet"
+        "text": "Tuttavuudet",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "npc_structures-0024",
@@ -18891,23 +20072,55 @@
       },
       {
         "id": "npc_structures-0025",
-        "text": "Mentorisuhteet"
+        "text": "Mentorisuhteet",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "npc_structures-0026",
-        "text": "Opettaja-oppilas-suhteet"
+        "text": "Opettaja-oppilas-suhteet",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "npc_structures-0027",
-        "text": "Esimies-alainen-suhteet"
+        "text": "Esimies-alainen-suhteet",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "npc_structures-0028",
-        "text": "Kollegasuhteet"
+        "text": "Kollegasuhteet",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "npc_structures-0029",
-        "text": "Kilpailijasuhteet"
+        "text": "Kilpailijasuhteet",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "npc_structures-0030",
@@ -18943,15 +20156,35 @@
       },
       {
         "id": "npc_structures-0038",
-        "text": "Luottamus"
+        "text": "Luottamus",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "npc_structures-0039",
-        "text": "Epäluottamus"
+        "text": "Epäluottamus",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "npc_structures-0040",
-        "text": "Lojaalisuus"
+        "text": "Lojaalisuus",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "npc_structures-0041",
@@ -18967,7 +20200,13 @@
       },
       {
         "id": "npc_structures-0044",
-        "text": "Romanttiset suhteet"
+        "text": "Romanttiset suhteet",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "npc_structures-0045",
@@ -20169,19 +21408,43 @@
     "generative_elements": [
       {
         "id": "generative_elements-0001",
-        "text": "Kartta"
+        "text": "Kartta",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "generative_elements-0002",
-        "text": "Hahmot"
+        "text": "Hahmot",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "generative_elements-0003",
-        "text": "Suhteet"
+        "text": "Suhteet",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "generative_elements-0004",
-        "text": "Rikos"
+        "text": "Rikos",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "generative_elements-0005",
@@ -20197,11 +21460,23 @@
       },
       {
         "id": "generative_elements-0008",
-        "text": "Salaisuudet"
+        "text": "Salaisuudet",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "generative_elements-0009",
-        "text": "Tehtävät"
+        "text": "Tehtävät",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "generative_elements-0010",
@@ -20213,11 +21488,24 @@
       },
       {
         "id": "generative_elements-0012",
-        "text": "Rakennukset"
+        "text": "Rakennukset",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "generative_elements-0013",
-        "text": "Huoneet"
+        "text": "Huoneet",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "generative_elements-0014",
@@ -20229,11 +21517,23 @@
       },
       {
         "id": "generative_elements-0016",
-        "text": "Maasto"
+        "text": "Maasto",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "generative_elements-0017",
-        "text": "Luolastot"
+        "text": "Luolastot",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "generative_elements-0018",
@@ -20249,7 +21549,14 @@
       },
       {
         "id": "generative_elements-0021",
-        "text": "Sää"
+        "text": "Sää",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "generative_elements-0022",
@@ -20257,11 +21564,24 @@
       },
       {
         "id": "generative_elements-0023",
-        "text": "Luonnonvarat"
+        "text": "Luonnonvarat",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "generative_elements-0024",
-        "text": "Resurssien sijainnit"
+        "text": "Resurssien sijainnit",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "generative_elements-0025",
@@ -20305,7 +21625,13 @@
       },
       {
         "id": "generative_elements-0035",
-        "text": "Perheet"
+        "text": "Perheet",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "generative_elements-0036",
@@ -20341,7 +21667,13 @@
       },
       {
         "id": "generative_elements-0044",
-        "text": "Ystävyyssuhteet"
+        "text": "Ystävyyssuhteet",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "generative_elements-0045",
@@ -21607,23 +22939,55 @@
     "technologies": [
       {
         "id": "technologies-0001",
-        "text": "HTML + Vanilla JavaScript + CSS"
+        "text": "HTML + Vanilla JavaScript + CSS",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "technologies-0002",
-        "text": "HTML + TypeScript + CSS"
+        "text": "HTML + TypeScript + CSS",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "technologies-0003",
-        "text": "HTML + JavaScript + Canvas API"
+        "text": "HTML + JavaScript + Canvas API",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "technologies-0004",
-        "text": "HTML + JavaScript + WebGL"
+        "text": "HTML + JavaScript + WebGL",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "technologies-0005",
-        "text": "HTML + JavaScript + Web Audio API"
+        "text": "HTML + JavaScript + Web Audio API",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "technologies-0006",
@@ -21635,15 +22999,33 @@
       },
       {
         "id": "technologies-0008",
-        "text": "HTML + JavaScript + Three.js"
+        "text": "HTML + JavaScript + Three.js",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "technologies-0009",
-        "text": "HTML + JavaScript + Phaser"
+        "text": "HTML + JavaScript + Phaser",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "technologies-0010",
-        "text": "HTML + JavaScript + PixiJS"
+        "text": "HTML + JavaScript + PixiJS",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "technologies-0011",
@@ -21659,11 +23041,23 @@
       },
       {
         "id": "technologies-0014",
-        "text": "Unity + C#"
+        "text": "Unity + C#",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "technologies-0015",
-        "text": "Unity 2D + C#"
+        "text": "Unity 2D + C#",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "technologies-0016",
@@ -21671,7 +23065,13 @@
       },
       {
         "id": "technologies-0017",
-        "text": "Unity UI + C#"
+        "text": "Unity UI + C#",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "technologies-0018",
@@ -21687,23 +23087,55 @@
       },
       {
         "id": "technologies-0021",
-        "text": "Godot + GDScript"
+        "text": "Godot + GDScript",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "technologies-0022",
-        "text": "Godot + C#"
+        "text": "Godot + C#",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "technologies-0023",
-        "text": "Godot 2D + GDScript"
+        "text": "Godot 2D + GDScript",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "technologies-0024",
-        "text": "Godot 2D + C#"
+        "text": "Godot 2D + C#",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "technologies-0025",
-        "text": "Godot 3D + GDScript"
+        "text": "Godot 3D + GDScript",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "technologies-0026",
@@ -21711,7 +23143,13 @@
       },
       {
         "id": "technologies-0027",
-        "text": "Unreal Engine + Blueprints"
+        "text": "Unreal Engine + Blueprints",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "technologies-0028",
@@ -21723,11 +23161,24 @@
       },
       {
         "id": "technologies-0030",
-        "text": "Python + Pygame"
+        "text": "Python + Pygame",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "technologies-0031",
-        "text": "Python + Arcade"
+        "text": "Python + Arcade",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "technologies-0032",
@@ -21767,11 +23218,23 @@
       },
       {
         "id": "technologies-0041",
-        "text": "C# + MonoGame"
+        "text": "C# + MonoGame",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "technologies-0042",
-        "text": "C# + Raylib"
+        "text": "C# + Raylib",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "technologies-0043",
@@ -22224,6 +23687,1224 @@
       {
         "id": "technologies-0155",
         "text": "SVG-based game"
+      }
+    ]
+  },
+  "jam": {
+    "policyVersion": 2,
+    "constrainedCategories": [
+      "genres",
+      "settings",
+      "main_goals",
+      "core_mechanics",
+      "twists",
+      "scales",
+      "structural_formats",
+      "npc_structures",
+      "generative_elements",
+      "technologies",
+      "progression"
+    ],
+    "themes": [
+      {
+        "id": "jam_theme-0001",
+        "text": "Vain yksi"
+      },
+      {
+        "id": "jam_theme-0002",
+        "text": "Kaikki on yhteydessä"
+      },
+      {
+        "id": "jam_theme-0003",
+        "text": "Takaisin alkuun"
+      },
+      {
+        "id": "jam_theme-0004",
+        "text": "Kaiku"
+      },
+      {
+        "id": "jam_theme-0005",
+        "text": "Tasapaino"
+      },
+      {
+        "id": "jam_theme-0006",
+        "text": "Et ole yksin"
+      },
+      {
+        "id": "jam_theme-0007",
+        "text": "Viimeinen valo"
+      },
+      {
+        "id": "jam_theme-0008",
+        "text": "Pieni alku"
+      },
+      {
+        "id": "jam_theme-0009",
+        "text": "Lainattua aikaa"
+      },
+      {
+        "id": "jam_theme-0010",
+        "text": "Toinen näkökulma"
+      },
+      {
+        "id": "jam_theme-0011",
+        "text": "Väärässä paikassa"
+      },
+      {
+        "id": "jam_theme-0012",
+        "text": "Näkymättömät langat"
+      },
+      {
+        "id": "jam_theme-0013",
+        "text": "Vapauden hinta"
+      },
+      {
+        "id": "jam_theme-0014",
+        "text": "Hauras rauha"
+      },
+      {
+        "id": "jam_theme-0015",
+        "text": "Kadonnut ja löydetty"
+      },
+      {
+        "id": "jam_theme-0016",
+        "text": "Pinnan alla"
+      },
+      {
+        "id": "jam_theme-0017",
+        "text": "Ei paluuta"
+      },
+      {
+        "id": "jam_theme-0018",
+        "text": "Tilaa kasvaa"
+      },
+      {
+        "id": "jam_theme-0019",
+        "text": "Toinen puoli"
+      },
+      {
+        "id": "jam_theme-0020",
+        "text": "Vielä yksi mahdollisuus"
+      },
+      {
+        "id": "jam_theme-0021",
+        "text": "Maailmojen välissä"
+      },
+      {
+        "id": "jam_theme-0022",
+        "text": "Kierteen katkaisu"
+      },
+      {
+        "id": "jam_theme-0023",
+        "text": "Odottamatonta seuraa"
+      },
+      {
+        "id": "jam_theme-0024",
+        "text": "Mikään ei kestä ikuisesti"
+      },
+      {
+        "id": "jam_theme-0025",
+        "text": "Pitkä kotimatka"
+      },
+      {
+        "id": "jam_theme-0026",
+        "text": "Piilossa näkyvillä"
+      },
+      {
+        "id": "jam_theme-0027",
+        "text": "Sanaton maailma"
+      },
+      {
+        "id": "jam_theme-0028",
+        "text": "Luota tuntemattomaan"
+      },
+      {
+        "id": "jam_theme-0029",
+        "text": "Jotakin puuttuu"
+      },
+      {
+        "id": "jam_theme-0030",
+        "text": "Liikaa hyvää"
+      },
+      {
+        "id": "jam_theme-0031",
+        "text": "Käänne"
+      },
+      {
+        "id": "jam_theme-0032",
+        "text": "Hiljaisuus"
+      },
+      {
+        "id": "jam_theme-0033",
+        "text": "Juuret"
+      },
+      {
+        "id": "jam_theme-0034",
+        "text": "Heijastus"
+      },
+      {
+        "id": "jam_theme-0035",
+        "text": "Painovoima"
+      },
+      {
+        "id": "jam_theme-0036",
+        "text": "Liikevoima"
+      },
+      {
+        "id": "jam_theme-0037",
+        "text": "Kukinta"
+      },
+      {
+        "id": "jam_theme-0038",
+        "text": "Rappeutuminen"
+      },
+      {
+        "id": "jam_theme-0039",
+        "text": "Muodonmuutos"
+      },
+      {
+        "id": "jam_theme-0040",
+        "text": "Kynnys"
+      },
+      {
+        "id": "jam_theme-0041",
+        "text": "Sirpaleet"
+      },
+      {
+        "id": "jam_theme-0042",
+        "text": "Värähtely"
+      },
+      {
+        "id": "jam_theme-0043",
+        "text": "Suoja"
+      },
+      {
+        "id": "jam_theme-0044",
+        "text": "Nälkä"
+      },
+      {
+        "id": "jam_theme-0045",
+        "text": "Kärsivällisyys"
+      },
+      {
+        "id": "jam_theme-0046",
+        "text": "Etäisyys"
+      },
+      {
+        "id": "jam_theme-0047",
+        "text": "Yhteenkuuluvuus"
+      },
+      {
+        "id": "jam_theme-0048",
+        "text": "Perintö"
+      },
+      {
+        "id": "jam_theme-0049",
+        "text": "Uteliaisuus"
+      },
+      {
+        "id": "jam_theme-0050",
+        "text": "Uhraus"
+      },
+      {
+        "id": "jam_theme-0051",
+        "text": "Rajat"
+      },
+      {
+        "id": "jam_theme-0052",
+        "text": "Rytmi"
+      },
+      {
+        "id": "jam_theme-0053",
+        "text": "Muisti"
+      },
+      {
+        "id": "jam_theme-0054",
+        "text": "Anteeksianto"
+      },
+      {
+        "id": "jam_theme-0055",
+        "text": "Kompromissi"
+      },
+      {
+        "id": "jam_theme-0056",
+        "text": "Eristys"
+      },
+      {
+        "id": "jam_theme-0057",
+        "text": "Löytäminen"
+      },
+      {
+        "id": "jam_theme-0058",
+        "text": "Pidättyvyys"
+      },
+      {
+        "id": "jam_theme-0059",
+        "text": "Jälleennäkeminen"
+      },
+      {
+        "id": "jam_theme-0060",
+        "text": "Epävarmuus"
+      },
+      {
+        "id": "jam_theme-0061",
+        "text": "Tyhjä paikka"
+      },
+      {
+        "id": "jam_theme-0062",
+        "text": "Keskeneräinen tarina"
+      },
+      {
+        "id": "jam_theme-0063",
+        "text": "Älä jätä jälkiä"
+      },
+      {
+        "id": "jam_theme-0064",
+        "text": "Tuttu muukalainen"
+      },
+      {
+        "id": "jam_theme-0065",
+        "text": "Kolikon kaksi puolta"
+      },
+      {
+        "id": "jam_theme-0066",
+        "text": "Väärä työkalu"
+      },
+      {
+        "id": "jam_theme-0067",
+        "text": "Pidätä hengitystä"
+      },
+      {
+        "id": "jam_theme-0068",
+        "text": "Tee tilaa"
+      },
+      {
+        "id": "jam_theme-0069",
+        "text": "Epätodennäköinen ystävyys"
+      },
+      {
+        "id": "jam_theme-0070",
+        "text": "Pienin ero"
+      },
+      {
+        "id": "jam_theme-0071",
+        "text": "Pidetty lupaus"
+      },
+      {
+        "id": "jam_theme-0072",
+        "text": "Seuraa halkeamia"
+      },
+      {
+        "id": "jam_theme-0073",
+        "text": "Reunan tuolla puolen"
+      },
+      {
+        "id": "jam_theme-0074",
+        "text": "Askeleen jäljessä"
+      },
+      {
+        "id": "jam_theme-0075",
+        "text": "Nurinkurin"
+      },
+      {
+        "id": "jam_theme-0076",
+        "text": "Hiljainen vallankumous"
+      },
+      {
+        "id": "jam_theme-0077",
+        "text": "Ei mitään menetettävää"
+      },
+      {
+        "id": "jam_theme-0078",
+        "text": "Kanna taakka"
+      },
+      {
+        "id": "jam_theme-0079",
+        "text": "Lainattu nimi"
+      },
+      {
+        "id": "jam_theme-0080",
+        "text": "Kun musiikki lakkaa"
+      },
+      {
+        "id": "jam_theme-0081",
+        "text": "Aloita tyhjästä"
+      },
+      {
+        "id": "jam_theme-0082",
+        "text": "Paikka jokaiselle"
+      },
+      {
+        "id": "jam_theme-0083",
+        "text": "Tiedon hinta"
+      },
+      {
+        "id": "jam_theme-0084",
+        "text": "Pidä kaikki kasassa"
+      },
+      {
+        "id": "jam_theme-0085",
+        "text": "Puuttuva pala"
+      },
+      {
+        "id": "jam_theme-0086",
+        "text": "Väärin päin"
+      },
+      {
+        "id": "jam_theme-0087",
+        "text": "Hieman ystävällisyyttä"
+      },
+      {
+        "id": "jam_theme-0088",
+        "text": "Sanan paino"
+      },
+      {
+        "id": "jam_theme-0089",
+        "text": "Ennen myrskyä"
+      },
+      {
+        "id": "jam_theme-0090",
+        "text": "Lopun jälkeen"
+      },
+      {
+        "id": "jam_theme-0091",
+        "text": "Ensimmäinen virhe"
+      },
+      {
+        "id": "jam_theme-0092",
+        "text": "Ei ohjeita"
+      },
+      {
+        "id": "jam_theme-0093",
+        "text": "Maalitolppien siirtely"
+      },
+      {
+        "id": "jam_theme-0094",
+        "text": "Toisenlaista voimaa"
+      },
+      {
+        "id": "jam_theme-0095",
+        "text": "Kun vähemmän on enemmän"
+      },
+      {
+        "id": "jam_theme-0096",
+        "text": "Jäljelle jättämämme valo"
+      },
+      {
+        "id": "jam_theme-0097",
+        "text": "Vahvempia erillään"
+      },
+      {
+        "id": "jam_theme-0098",
+        "text": "Kaikella on hintansa"
+      },
+      {
+        "id": "jam_theme-0099",
+        "text": "Ulottumattomissa"
+      },
+      {
+        "id": "jam_theme-0100",
+        "text": "Vuorotellen"
+      },
+      {
+        "id": "jam_theme-0101",
+        "text": "Avoin ovi"
+      },
+      {
+        "id": "jam_theme-0102",
+        "text": "Väärä määränpää"
+      },
+      {
+        "id": "jam_theme-0103",
+        "text": "Opettele putoamaan"
+      },
+      {
+        "id": "jam_theme-0104",
+        "text": "Vain läpikulkumatkalla"
+      },
+      {
+        "id": "jam_theme-0105",
+        "text": "Loputon jono"
+      },
+      {
+        "id": "jam_theme-0106",
+        "text": "Viimeinen toimitus"
+      },
+      {
+        "id": "jam_theme-0107",
+        "text": "Epäkunnossa"
+      },
+      {
+        "id": "jam_theme-0108",
+        "text": "Ei vakituista osoitetta"
+      },
+      {
+        "id": "jam_theme-0109",
+        "text": "Toisen roska"
+      },
+      {
+        "id": "jam_theme-0110",
+        "text": "Rivien välissä"
+      },
+      {
+        "id": "jam_theme-0111",
+        "text": "Ovi muistaa"
+      },
+      {
+        "id": "jam_theme-0112",
+        "text": "Rehellinen valhe"
+      },
+      {
+        "id": "jam_theme-0113",
+        "text": "Liian myöhään, liian aikaisin"
+      },
+      {
+        "id": "jam_theme-0114",
+        "text": "Naapurimaailma"
+      },
+      {
+        "id": "jam_theme-0115",
+        "text": "Lainattua rohkeutta"
+      },
+      {
+        "id": "jam_theme-0116",
+        "text": "Viimeinen vieras"
+      },
+      {
+        "id": "jam_theme-0117",
+        "text": "Taskuun mahtuva maailmankaikkeus"
+      },
+      {
+        "id": "jam_theme-0118",
+        "text": "Sanomatta jäänyt"
+      },
+      {
+        "id": "jam_theme-0119",
+        "text": "Vieras koti"
+      },
+      {
+        "id": "jam_theme-0120",
+        "text": "Ei mikään pikkujuttu"
+      },
+      {
+        "id": "jam_theme-0121",
+        "text": "Lyhin reitti"
+      },
+      {
+        "id": "jam_theme-0122",
+        "text": "Pidä vaihtorahat"
+      },
+      {
+        "id": "jam_theme-0123",
+        "text": "Toinen varjo"
+      },
+      {
+        "id": "jam_theme-0124",
+        "text": "Seinät kuuntelevat"
+      },
+      {
+        "id": "jam_theme-0125",
+        "text": "Tavallinen ihme"
+      },
+      {
+        "id": "jam_theme-0126",
+        "text": "Seuraa lämpöä"
+      },
+      {
+        "id": "jam_theme-0127",
+        "text": "Karttaa ei ole"
+      },
+      {
+        "id": "jam_theme-0128",
+        "text": "Mittakaavan kysymys"
+      },
+      {
+        "id": "jam_theme-0129",
+        "text": "Viimeinen siemen"
+      },
+      {
+        "id": "jam_theme-0130",
+        "text": "Mitä jää jäljelle"
+      },
+      {
+        "id": "jam_theme-0131",
+        "text": "Väärä peilikuva"
+      },
+      {
+        "id": "jam_theme-0132",
+        "text": "Tyhjä valtaistuin"
+      },
+      {
+        "id": "jam_theme-0133",
+        "text": "Vaatii kokoamista"
+      },
+      {
+        "id": "jam_theme-0134",
+        "text": "Käsittele varoen"
+      },
+      {
+        "id": "jam_theme-0135",
+        "text": "Poissaolon muoto"
+      },
+      {
+        "id": "jam_theme-0136",
+        "text": "Mahdoton kutsu"
+      },
+      {
+        "id": "jam_theme-0137",
+        "text": "Jätä ovi auki"
+      },
+      {
+        "id": "jam_theme-0138",
+        "text": "Kasvukivut"
+      },
+      {
+        "id": "jam_theme-0139",
+        "text": "Näkymätön vieras"
+      },
+      {
+        "id": "jam_theme-0140",
+        "text": "Kadonnut tunti"
+      },
+      {
+        "id": "jam_theme-0141",
+        "text": "Jaettu taakka"
+      },
+      {
+        "id": "jam_theme-0142",
+        "text": "Pidä etäisyyttä"
+      },
+      {
+        "id": "jam_theme-0143",
+        "text": "Pienin sankari"
+      },
+      {
+        "id": "jam_theme-0144",
+        "text": "Mielenmuutos"
+      },
+      {
+        "id": "jam_theme-0145",
+        "text": "Jokainen sekunti ratkaisee"
+      },
+      {
+        "id": "jam_theme-0146",
+        "text": "Sattumanvarainen alku"
+      },
+      {
+        "id": "jam_theme-0147",
+        "text": "Kun kukaan ei katso"
+      },
+      {
+        "id": "jam_theme-0148",
+        "text": "Unohtunut sääntö"
+      },
+      {
+        "id": "jam_theme-0149",
+        "text": "Virheistä tehty"
+      },
+      {
+        "id": "jam_theme-0150",
+        "text": "Väliin jäävä tila"
+      },
+      {
+        "id": "jam_theme-0151",
+        "text": "Kodin ääni"
+      },
+      {
+        "id": "jam_theme-0152",
+        "text": "Seuraava sukupolvi"
+      },
+      {
+        "id": "jam_theme-0153",
+        "text": "Kadonnut käännöksessä"
+      },
+      {
+        "id": "jam_theme-0154",
+        "text": "Vääränlaista taikuutta"
+      },
+      {
+        "id": "jam_theme-0155",
+        "text": "Viimeinen palvelus"
+      },
+      {
+        "id": "jam_theme-0156",
+        "text": "Lempeä törmäys"
+      },
+      {
+        "id": "jam_theme-0157",
+        "text": "Ensimmäinen vierailija"
+      },
+      {
+        "id": "jam_theme-0158",
+        "text": "Maailma pidättää hengitystään"
+      },
+      {
+        "id": "jam_theme-0159",
+        "text": "Ei voittajia"
+      },
+      {
+        "id": "jam_theme-0160",
+        "text": "Päästä irti"
+      },
+      {
+        "id": "jam_theme-0161",
+        "text": "Merkitsemätön paketti"
+      },
+      {
+        "id": "jam_theme-0162",
+        "text": "Pienin kapina"
+      },
+      {
+        "id": "jam_theme-0163",
+        "text": "Viimeinen lämmin paikka"
+      },
+      {
+        "id": "jam_theme-0164",
+        "text": "Lainattu tulevaisuus"
+      },
+      {
+        "id": "jam_theme-0165",
+        "text": "Väärä vuodenaika"
+      },
+      {
+        "id": "jam_theme-0166",
+        "text": "Keskeneräinen silta"
+      },
+      {
+        "id": "jam_theme-0167",
+        "text": "Ole kuin kotonasi"
+      },
+      {
+        "id": "jam_theme-0168",
+        "text": "Salainen ainesosa"
+      },
+      {
+        "id": "jam_theme-0169",
+        "text": "Hieman liian pitkälle"
+      },
+      {
+        "id": "jam_theme-0170",
+        "text": "Ensimmäiset jäähyväiset"
+      },
+      {
+        "id": "jam_theme-0171",
+        "text": "Kohtalon langat"
+      },
+      {
+        "id": "jam_theme-0172",
+        "text": "Maailma laatikossa"
+      },
+      {
+        "id": "jam_theme-0173",
+        "text": "Ei-toivotut lahjat"
+      },
+      {
+        "id": "jam_theme-0174",
+        "text": "Väärä numero"
+      },
+      {
+        "id": "jam_theme-0175",
+        "text": "Viimeinen sivu"
+      },
+      {
+        "id": "jam_theme-0176",
+        "text": "Tyhjä lupaus"
+      },
+      {
+        "id": "jam_theme-0177",
+        "text": "Ajoituskysymys"
+      },
+      {
+        "id": "jam_theme-0178",
+        "text": "Pienin maailma"
+      },
+      {
+        "id": "jam_theme-0179",
+        "text": "Valitsematon tie"
+      },
+      {
+        "id": "jam_theme-0180",
+        "text": "Myrsky vesilasissa"
+      },
+      {
+        "id": "jam_theme-0181",
+        "text": "Toivon muoto"
+      },
+      {
+        "id": "jam_theme-0182",
+        "text": "Viimeinen pisara"
+      },
+      {
+        "id": "jam_theme-0183",
+        "text": "Kenen vuoro?"
+      },
+      {
+        "id": "jam_theme-0184",
+        "text": "Tavallinen päivä"
+      },
+      {
+        "id": "jam_theme-0185",
+        "text": "Jotakin lainattua"
+      },
+      {
+        "id": "jam_theme-0186",
+        "text": "Väärä ovi"
+      },
+      {
+        "id": "jam_theme-0187",
+        "text": "Pitkä hiljaisuus"
+      },
+      {
+        "id": "jam_theme-0188",
+        "text": "Seuraa tuoksua"
+      },
+      {
+        "id": "jam_theme-0189",
+        "text": "Tyhjät kehykset"
+      },
+      {
+        "id": "jam_theme-0190",
+        "text": "Palautusosoite"
+      },
+      {
+        "id": "jam_theme-0191",
+        "text": "Tehty hajoamaan"
+      },
+      {
+        "id": "jam_theme-0192",
+        "text": "Väärä vastaus"
+      },
+      {
+        "id": "jam_theme-0193",
+        "text": "Lepopaikka"
+      },
+      {
+        "id": "jam_theme-0194",
+        "text": "Viimeinen pyyntö"
+      },
+      {
+        "id": "jam_theme-0195",
+        "text": "Äänen väri"
+      },
+      {
+        "id": "jam_theme-0196",
+        "text": "Rikkinäinen kompassi"
+      },
+      {
+        "id": "jam_theme-0197",
+        "text": "Ei sitä miltä näyttää"
+      },
+      {
+        "id": "jam_theme-0198",
+        "text": "Käsi johon tarttua"
+      },
+      {
+        "id": "jam_theme-0199",
+        "text": "Pienin kipinä"
+      },
+      {
+        "id": "jam_theme-0200",
+        "text": "Väärä sankari"
+      },
+      {
+        "id": "jam_theme-0201",
+        "text": "Käytetyt unelmat"
+      },
+      {
+        "id": "jam_theme-0202",
+        "text": "Unohdettu kieli"
+      },
+      {
+        "id": "jam_theme-0203",
+        "text": "Kutsu kadota"
+      },
+      {
+        "id": "jam_theme-0204",
+        "text": "Viimeinen turvallinen sana"
+      },
+      {
+        "id": "jam_theme-0205",
+        "text": "Tähtikatto"
+      },
+      {
+        "id": "jam_theme-0206",
+        "text": "Näkymätön raja"
+      },
+      {
+        "id": "jam_theme-0207",
+        "text": "Mikään ei sovi"
+      },
+      {
+        "id": "jam_theme-0208",
+        "text": "Hiljaisuuden paino"
+      },
+      {
+        "id": "jam_theme-0209",
+        "text": "Mahdoton oikotie"
+      },
+      {
+        "id": "jam_theme-0210",
+        "text": "Muukalaisen askeleet"
+      },
+      {
+        "id": "jam_theme-0211",
+        "text": "Vuorovesi kääntyy"
+      },
+      {
+        "id": "jam_theme-0212",
+        "text": "Viimeinen harjoitus"
+      },
+      {
+        "id": "jam_theme-0213",
+        "text": "Epäilyksen siemenet"
+      },
+      {
+        "id": "jam_theme-0214",
+        "text": "Tyhjä pesä"
+      },
+      {
+        "id": "jam_theme-0215",
+        "text": "Ei suoria viivoja"
+      },
+      {
+        "id": "jam_theme-0216",
+        "text": "Ystävällisyyden varjo"
+      },
+      {
+        "id": "jam_theme-0217",
+        "text": "Unohtunut vieras"
+      },
+      {
+        "id": "jam_theme-0218",
+        "text": "Väärä vuosisata"
+      },
+      {
+        "id": "jam_theme-0219",
+        "text": "Jotakin pelastettavaa"
+      },
+      {
+        "id": "jam_theme-0220",
+        "text": "Unen rajalla"
+      },
+      {
+        "id": "jam_theme-0221",
+        "text": "Väliaikainen koti"
+      },
+      {
+        "id": "jam_theme-0222",
+        "text": "Katkennut yhteys"
+      },
+      {
+        "id": "jam_theme-0223",
+        "text": "Viimeinen todistaja"
+      },
+      {
+        "id": "jam_theme-0224",
+        "text": "Tehty jaettavaksi"
+      },
+      {
+        "id": "jam_theme-0225",
+        "text": "Unohtunut polku"
+      },
+      {
+        "id": "jam_theme-0226",
+        "text": "Väärä toive"
+      },
+      {
+        "id": "jam_theme-0227",
+        "text": "Uusin silmin"
+      },
+      {
+        "id": "jam_theme-0228",
+        "text": "Viimeinen korjaus"
+      },
+      {
+        "id": "jam_theme-0229",
+        "text": "Näkymätön yleisö"
+      },
+      {
+        "id": "jam_theme-0230",
+        "text": "Maailma sateen jälkeen"
+      },
+      {
+        "id": "jam_theme-0231",
+        "text": "Liikaa avaimia"
+      },
+      {
+        "id": "jam_theme-0232",
+        "text": "Lintujen kieli"
+      },
+      {
+        "id": "jam_theme-0233",
+        "text": "Viimeinen sato"
+      },
+      {
+        "id": "jam_theme-0234",
+        "text": "Lainattu sydämenlyönti"
+      },
+      {
+        "id": "jam_theme-0235",
+        "text": "Unohtunut lupaus"
+      },
+      {
+        "id": "jam_theme-0236",
+        "text": "Kesken jääneet jäähyväiset"
+      },
+      {
+        "id": "jam_theme-0237",
+        "text": "Väärä koko"
+      },
+      {
+        "id": "jam_theme-0238",
+        "text": "Näkymätön työ"
+      },
+      {
+        "id": "jam_theme-0239",
+        "text": "Kipinä pimeässä"
+      },
+      {
+        "id": "jam_theme-0240",
+        "text": "Ensimmäinen jalanjälki"
+      },
+      {
+        "id": "jam_theme-0241",
+        "text": "Viimeinen suojapaikka"
+      },
+      {
+        "id": "jam_theme-0242",
+        "text": "Väärä rytmi"
+      },
+      {
+        "id": "jam_theme-0243",
+        "text": "Lainatut siivet"
+      },
+      {
+        "id": "jam_theme-0244",
+        "text": "Maailma kuuntelee"
+      },
+      {
+        "id": "jam_theme-0245",
+        "text": "Tuhat pientä askelta"
+      },
+      {
+        "id": "jam_theme-0246",
+        "text": "Viimeinen lautta"
+      },
+      {
+        "id": "jam_theme-0247",
+        "text": "Unohtunut puutarha"
+      },
+      {
+        "id": "jam_theme-0248",
+        "text": "Lahja ei kenellekään"
+      },
+      {
+        "id": "jam_theme-0249",
+        "text": "Aamunkoiton väärällä puolella"
+      },
+      {
+        "id": "jam_theme-0250",
+        "text": "Odottamisen taito"
+      },
+      {
+        "id": "jam_theme-0251",
+        "text": "Puuttuva nimi"
+      },
+      {
+        "id": "jam_theme-0252",
+        "text": "Viimeinen esitys"
+      },
+      {
+        "id": "jam_theme-0253",
+        "text": "Näkymätön haava"
+      },
+      {
+        "id": "jam_theme-0254",
+        "text": "Maailma takaperin"
+      },
+      {
+        "id": "jam_theme-0255",
+        "text": "Liikkuva paikka"
+      },
+      {
+        "id": "jam_theme-0256",
+        "text": "Unohtunut sävelmä"
+      },
+      {
+        "id": "jam_theme-0257",
+        "text": "Lainattu ääni"
+      },
+      {
+        "id": "jam_theme-0258",
+        "text": "Viimeinen kysymys"
+      },
+      {
+        "id": "jam_theme-0259",
+        "text": "Väärä väri"
+      },
+      {
+        "id": "jam_theme-0260",
+        "text": "Tyhjä horisontti"
+      },
+      {
+        "id": "jam_theme-0261",
+        "text": "Maailma alapuolella"
+      },
+      {
+        "id": "jam_theme-0262",
+        "text": "Sanaton viesti"
+      },
+      {
+        "id": "jam_theme-0263",
+        "text": "Viimeinen tulitikku"
+      },
+      {
+        "id": "jam_theme-0264",
+        "text": "Unohtunut askare"
+      },
+      {
+        "id": "jam_theme-0265",
+        "text": "Väärä suunta"
+      },
+      {
+        "id": "jam_theme-0266",
+        "text": "Odottamaton perintö"
+      },
+      {
+        "id": "jam_theme-0267",
+        "text": "Tyhjä näyttämö"
+      },
+      {
+        "id": "jam_theme-0268",
+        "text": "Varjoton maailma"
+      },
+      {
+        "id": "jam_theme-0269",
+        "text": "Viimeinen signaali"
+      },
+      {
+        "id": "jam_theme-0270",
+        "text": "Unohtuneet kasvot"
+      },
+      {
+        "id": "jam_theme-0271",
+        "text": "Lainattu kesä"
+      },
+      {
+        "id": "jam_theme-0272",
+        "text": "Väärä tarina"
+      },
+      {
+        "id": "jam_theme-0273",
+        "text": "Kutsu jäädä"
+      },
+      {
+        "id": "jam_theme-0274",
+        "text": "Höyhenen paino"
+      },
+      {
+        "id": "jam_theme-0275",
+        "text": "Viimeinen ylitys"
+      },
+      {
+        "id": "jam_theme-0276",
+        "text": "Unohtunut juhla"
+      },
+      {
+        "id": "jam_theme-0277",
+        "text": "Maailma yläpuolella"
+      },
+      {
+        "id": "jam_theme-0278",
+        "text": "Lainattu tunti"
+      },
+      {
+        "id": "jam_theme-0279",
+        "text": "Väärä kysymys"
+      },
+      {
+        "id": "jam_theme-0280",
+        "text": "Viimeinen lumi"
+      },
+      {
+        "id": "jam_theme-0281",
+        "text": "Näkymätön silta"
+      },
+      {
+        "id": "jam_theme-0282",
+        "text": "Unohtunut taito"
+      },
+      {
+        "id": "jam_theme-0283",
+        "text": "Kelloton maailma"
+      },
+      {
+        "id": "jam_theme-0284",
+        "text": "Vääränlainen aarre"
+      },
+      {
+        "id": "jam_theme-0285",
+        "text": "Lainattu suoja"
+      },
+      {
+        "id": "jam_theme-0286",
+        "text": "Viimeinen tapaaminen"
+      },
+      {
+        "id": "jam_theme-0287",
+        "text": "Näkymätön tie"
+      },
+      {
+        "id": "jam_theme-0288",
+        "text": "Unohtunut resepti"
+      },
+      {
+        "id": "jam_theme-0289",
+        "text": "Unohtava maailma"
+      },
+      {
+        "id": "jam_theme-0290",
+        "text": "Vääränlaista hiljaisuutta"
+      },
+      {
+        "id": "jam_theme-0291",
+        "text": "Viimeinen lyhty"
+      },
+      {
+        "id": "jam_theme-0292",
+        "text": "Sanaton sopimus"
+      },
+      {
+        "id": "jam_theme-0293",
+        "text": "Unohtunut tarkoitus"
+      },
+      {
+        "id": "jam_theme-0294",
+        "text": "Epävireinen maailma"
+      },
+      {
+        "id": "jam_theme-0295",
+        "text": "Vääränlaista onnea"
+      },
+      {
+        "id": "jam_theme-0296",
+        "text": "Lainattu loppu"
+      },
+      {
+        "id": "jam_theme-0297",
+        "text": "Viimeinen pieni asia"
+      },
+      {
+        "id": "jam_theme-0298",
+        "text": "Näkymätön lahja"
+      },
+      {
+        "id": "jam_theme-0299",
+        "text": "Unohtunut huominen"
+      },
+      {
+        "id": "jam_theme-0300",
+        "text": "Aloita uudelleen, toisin"
       }
     ]
   }

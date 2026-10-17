@@ -6,13 +6,11 @@
   "starter.generate": "Generate idea",
   "starter.more": "More options and lists",
   "starter.moreHint": "Explore the full idea, adjust individual fields or choose values from the lists.",
-
   "app.title": "Game Idea Generator",
   "app.loading": "Loading lists…",
   "app.loadError": "Failed to load lists: {error}",
   "app.loadErrorHint": "Open the page through the local server by running .\\run.ps1.",
   "app.language": "Language",
-
   "toolbar.rollAll": "Roll All",
   "toolbar.unlockAll": "Unlock All",
   "toolbar.newIdea": "New Idea",
@@ -22,9 +20,7 @@
   "toolbar.showAllTitle": "Bring all unlocked fields back",
   "toolbar.copyPrompt": "Copy AI Prompt",
   "toast.copied": "AI prompt copied to clipboard",
-
   "generator.label": "Generator",
-
   "card.lockedBadge": "Locked: kept on roll",
   "card.locked": "Locked – kept on roll (click to unlock)",
   "card.unlocked": "Unlocked – changes on roll",
@@ -36,9 +32,7 @@
   "card.count": "Number of values",
   "card.less": "Fewer",
   "card.more": "More",
-
   "prompt.heading": "AI Prompt",
-
   "picker.title": "{label} · {count} values",
   "picker.search": "Search…",
   "picker.close": "Close",
@@ -46,7 +40,6 @@
   "picker.selected": "{count} / {max} selected",
   "picker.remove": "Remove",
   "picker.apply": "Apply selection",
-
   "browse.heading": "Browse Lists",
   "browse.hint": "Click a value to set it in the generator.",
   "browse.selectList": "Choose list",
@@ -59,7 +52,6 @@
   "browse.next": "Next pages",
   "browse.random": "Random position",
   "browse.setValue": "Set in generator",
-
   "category.genres": "Genre",
   "category.settings": "Setting",
   "category.player_roles": "Player role",
@@ -79,10 +71,8 @@
   "category.npc_structures": "NPC structure",
   "category.generative_elements": "Generative elements",
   "category.technologies": "Technology",
-
   "categoryPrompt.twists": "Twist",
   "categoryPrompt.failure_types": "Failure",
-
   "prompt.intro": "I want to brainstorm a game based on the following starting points.",
   "prompt.sparring": "Help me develop this game idea.",
   "prompt.noGdd": "Don't write the game or a long game design document yet.",
@@ -99,5 +89,34 @@
     "asking a few good questions that would help refine the idea",
     "if needed, suggesting one or two changes that would make the idea more interesting"
   ],
-  "prompt.goal": "The goal is to find a genuinely playable concept, not to force in every generated element."
+  "prompt.goal": "The goal is to find a genuinely playable concept, not to force in every generated element.",
+  "jam.toggle": "Game jam",
+  "jam.heading": "Game jam constraints",
+  "jam.time": "Time",
+  "jam.hours24": "24 hours",
+  "jam.hours48": "48 hours",
+  "jam.hours72": "72 hours",
+  "jam.week": "One week",
+  "jam.team": "Team",
+  "jam.solo": "Solo",
+  "jam.small": "2–3 people",
+  "jam.large": "4+ people",
+  "jam.experience": "Experience",
+  "jam.beginner": "Beginner",
+  "jam.intermediate": "Some experience",
+  "jam.experienced": "Experienced",
+  "jam.theme": "Theme — choose or write your own",
+  "jam.themePlaceholder": "Choose from 300 themes or write your own",
+  "jam.rollTheme": "Roll theme",
+  "jam.lockTheme": "Lock theme",
+  "jam.unlockTheme": "Unlock theme",
+  "jam.hint": "Small scope, flexible value counts. Retained choices outside the suggested scope are marked on their cards.",
+  "jam.warning": "Outside the suggested jam scope. Consider simplifying or rolling this field.",
+  "jam.promptSummary": "Game jam: {hours} hours; team: {team}; experience: {experience}.",
+  "jam.promptTheme": "Game jam theme: {theme}",
+  "jam.promptScope": "Keep one main goal, one core mechanic and a small playable space. Interpret ambitious setting or story elements through simple assets rather than large simulations. Avoid online infrastructure and elaborate secondary systems.",
+  "jam.promptInterpret": "Make the jam theme affect what the player actually does. Suggest two possible interpretations and choose one; a theme is not just a title or backstory.",
+  "jam.promptBuild": "Define the smallest playable version with at most three essential features, then separate optional stretch goals. Give a rough time plan suitable for the selected time, team and experience.",
+  "jam.promptWarning": "If a retained choice conflicts with the jam scope, explain how to simplify it. Do not promise that every combination can be completed within the time limit.",
+  "jam.promptCounts": "Respect the selected number of values in each category. A single core loop is a scope suggestion, not a limit on the user's selections."
 }

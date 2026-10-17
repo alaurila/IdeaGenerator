@@ -3,6 +3,7 @@
 import { CATEGORIES } from './config.js';
 import { state } from './state.js';
 import { t, tList, categoryPromptLabel } from './i18n.js';
+import { jam } from './jamState.js';
 
 // Teknologiakohtainen lisäohje: pidetään ideointi realistisena valitulle alustalle.
 function technologyGuidance(tech) {
@@ -31,6 +32,11 @@ export function buildPrompt() {
 
   return [
     t('prompt.intro'),
+    jam.enabled && [
+      t('jam.promptSummary', { hours: jam.hours, team: t(`jam.${jam.team}`), experience: t(`jam.${jam.experience}`) }),
+      t('jam.promptTheme', { theme: jam.themeText }),
+      t('jam.promptScope'), t('jam.promptCounts'), t('jam.promptInterpret'), t('jam.promptBuild'), t('jam.promptWarning')
+    ].join('\n'),
     sections.join('\n'),
     t('prompt.sparring'),
     t('prompt.noGdd'),

@@ -6,13 +6,11 @@
   "starter.generate": "Generar idea",
   "starter.more": "Más opciones y listas",
   "starter.moreHint": "Explora la idea completa, ajusta cada campo o elige valores de las listas.",
-
   "app.title": "Game Idea Generator",
   "app.loading": "Cargando listas…",
   "app.loadError": "No se pudieron cargar las listas: {error}",
   "app.loadErrorHint": "Abre la página a través del servidor local ejecutando .\\run.ps1.",
   "app.language": "Idioma",
-
   "toolbar.rollAll": "Tirar todo",
   "toolbar.unlockAll": "Desbloquear todo",
   "toolbar.newIdea": "Nueva idea",
@@ -22,9 +20,7 @@
   "toolbar.showAllTitle": "Volver a incluir todos los campos desbloqueados",
   "toolbar.copyPrompt": "Copiar prompt",
   "toast.copied": "Prompt copiado al portapapeles",
-
   "generator.label": "Generador",
-
   "card.lockedBadge": "Bloqueado: se mantiene al tirar",
   "card.locked": "Bloqueado – se mantiene al tirar (clic para desbloquear)",
   "card.unlocked": "Desbloqueado – cambia al tirar",
@@ -36,9 +32,7 @@
   "card.count": "Número de valores",
   "card.less": "Menos",
   "card.more": "Más",
-
   "prompt.heading": "Prompt para IA",
-
   "picker.title": "{label} · {count} valores",
   "picker.search": "Buscar…",
   "picker.close": "Cerrar",
@@ -46,7 +40,6 @@
   "picker.selected": "{count} / {max} seleccionados",
   "picker.remove": "Quitar",
   "picker.apply": "Aplicar selección",
-
   "browse.heading": "Explorar listas",
   "browse.hint": "Haz clic en un valor para ponerlo en el generador.",
   "browse.selectList": "Elegir lista",
@@ -59,7 +52,6 @@
   "browse.next": "Páginas siguientes",
   "browse.random": "Posición aleatoria",
   "browse.setValue": "Poner en el generador",
-
   "category.genres": "Género",
   "category.settings": "Escenario",
   "category.player_roles": "Rol del jugador",
@@ -79,10 +71,8 @@
   "category.npc_structures": "Estructura de PNJ",
   "category.generative_elements": "Elementos generativos",
   "category.technologies": "Tecnología",
-
   "categoryPrompt.twists": "Giro",
   "categoryPrompt.failure_types": "Fracaso",
-
   "prompt.intro": "Quiero hacer una lluvia de ideas para un juego a partir de los siguientes puntos de partida.",
   "prompt.sparring": "Ayúdame a desarrollar esta idea de juego.",
   "prompt.noGdd": "No escribas todavía el juego ni un documento de diseño largo.",
@@ -99,5 +89,34 @@
     "planteando algunas buenas preguntas que ayuden a afinar la idea",
     "si hace falta, proponiendo uno o dos cambios que harían la idea más interesante"
   ],
-  "prompt.goal": "El objetivo es encontrar un concepto realmente jugable, no forzar el uso de cada elemento generado."
+  "prompt.goal": "El objetivo es encontrar un concepto realmente jugable, no forzar el uso de cada elemento generado.",
+  "jam.toggle": "Game jam",
+  "jam.heading": "Límites de la game jam",
+  "jam.time": "Tiempo",
+  "jam.hours24": "24 horas",
+  "jam.hours48": "48 horas",
+  "jam.hours72": "72 horas",
+  "jam.week": "Una semana",
+  "jam.team": "Equipo",
+  "jam.solo": "En solitario",
+  "jam.small": "2–3 personas",
+  "jam.large": "4+ personas",
+  "jam.experience": "Experiencia",
+  "jam.beginner": "Principiante",
+  "jam.intermediate": "Algo de experiencia",
+  "jam.experienced": "Con experiencia",
+  "jam.theme": "Tema: elige o escribe el tuyo",
+  "jam.themePlaceholder": "Elige entre 300 temas o escribe el tuyo",
+  "jam.rollTheme": "Sortear tema",
+  "jam.lockTheme": "Bloquear tema",
+  "jam.unlockTheme": "Desbloquear tema",
+  "jam.hint": "Alcance reducido y cantidades flexibles. Las elecciones fuera del alcance sugerido se indican en sus tarjetas.",
+  "jam.warning": "Fuera del alcance sugerido. Considera simplificar o volver a sortear este campo.",
+  "jam.promptSummary": "Game jam: {hours} horas; equipo: {team}; experiencia: {experience}.",
+  "jam.promptTheme": "Tema de la game jam: {theme}",
+  "jam.promptScope": "Limita el juego a un objetivo, una mecánica principal y un espacio pequeño. Representa los elementos ambiciosos con recursos sencillos en vez de grandes simulaciones. Evita servidores y sistemas secundarios complejos.",
+  "jam.promptInterpret": "Haz que el tema afecte las acciones del jugador. Propón dos interpretaciones y elige una; no lo limites al título o a la historia de fondo.",
+  "jam.promptBuild": "Define la versión mínima jugable con un máximo de tres funciones esenciales. Separa los objetivos opcionales y propone un horario aproximado acorde con el tiempo, el equipo y la experiencia.",
+  "jam.promptWarning": "Si una elección conservada entra en conflicto con los límites, explica cómo simplificarla. No prometas terminar cualquier combinación dentro del plazo.",
+  "jam.promptCounts": "Respeta la cantidad de valores seleccionada en cada campo. Una sola mecánica principal es una sugerencia de alcance, no un límite a las elecciones del usuario."
 }

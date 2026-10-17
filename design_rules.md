@@ -4,7 +4,7 @@
 
 - Keep AI Prompt first, immediately below the top bar.
 - Keep AI Prompt compact. Place “Your next game starts here” in the top bar as a small orange tagline. Do not show a separate introductory hint.
-- Use one Generate idea button; do not add a separate New Idea button. Generation respects existing locks and exclusions.
+- Use one Generate idea button; do not add a separate New Idea button. Generate idea creates a fresh demonstration with two or three locked fields and two or three excluded fields. Roll All respects existing locks and exclusions.
 - Keep the generator action buttons in the top bar, with Generate idea immediately next to the language selector.
 - Show all 19 generator fields at once as equally sized cards. Do not hide fields or their controls inside a “More options” section.
 - Keep locks, individual rolls, list selection, exclusions and value counts accessible on the cards.
@@ -22,7 +22,18 @@ The original first-visit example deliberately left some fields empty and locked 
 - A locked field visibly demonstrates that its value survives subsequent rolls.
 - Distinguish empty/excluded fields from subdued cards: subdued cards are still included in generation and the AI prompt; excluded fields are not.
 - Explicit seeded URLs must reproduce the requested idea rather than silently applying a different demonstration state.
-- On the first visit without a saved idea, populate a new example with two locked fields and two or three excluded fields. Keep genre, main goal and twist populated.
+- On the first visit without a saved idea and on every Generate idea click, populate a new example with two or three locked fields and two or three excluded fields. Keep genre, main goal and twist populated.
 - Restore saved user state on later visits. Explicit seeded URLs and `fresh=1` bypass the demonstration and produce a complete, reproducible idea.
 
 The demonstration state is implemented independently of the pure generator used by bots and seeded URLs.
+
+## Game jam mode
+
+- Keep the Game jam toggle in the top bar. Its compact constraint panel appears below AI Prompt.
+- Keep all 19 cards visible and equally sized in both modes.
+- Provide 300 localized themes with stable IDs per supported language, a theme roll, custom text and a lock.
+- A theme directs the overall game and player actions; it does not replace the twist.
+- Entering a custom theme or selecting a theme locks it. Unlocking permits subsequent rolls to change it.
+- Preserve locked user choices on constraint and language changes. Flag retained choices outside the suggested scope rather than silently changing them.
+- Include jam constraints and theme interpretation in the AI prompt and in reproducible URL/JSON output.
+- Keep the normal 1–4 value controls usable in every jam configuration. Retain selected counts during mode and constraint changes and generation; scope warnings are advisory, not count limits.

@@ -25,6 +25,7 @@
           <button id="generate-idea" class="btn btn--primary"><i class="fa-solid fa-wand-magic-sparkles" aria-hidden="true"></i> <span data-i18n="starter.generate">Generate idea</span></button>
         </div>
         <div class="toolbar">
+          <button id="jam-toggle" class="btn" aria-pressed="false" aria-controls="jam-panel" data-i18n="jam.toggle">Game jam</button>
           <button id="emphasize-all" class="btn" aria-pressed="false">Emphasize all fields</button>
           <button id="roll-all" class="btn"><i class="fa-solid fa-dice" aria-hidden="true"></i> <span data-i18n="toolbar.rollAll">Roll All</span></button>
           <button id="unlock-all" class="btn"><i class="fa-solid fa-lock-open" aria-hidden="true"></i> <span data-i18n="toolbar.unlockAll">Unlock All</span></button>
@@ -42,6 +43,41 @@
       </summary>
       <pre id="prompt-output" class="prompt-output"></pre>
     </details>
+
+    <section id="jam-panel" class="jam-panel" hidden aria-labelledby="jam-heading">
+      <h2 id="jam-heading" data-i18n="jam.heading">Game jam constraints</h2>
+      <div class="jam-controls">
+        <label><span data-i18n="jam.time">Time</span>
+          <select id="jam-hours">
+            <option value="24" data-i18n="jam.hours24">24 hours</option>
+            <option value="48" data-i18n="jam.hours48">48 hours</option>
+            <option value="72" data-i18n="jam.hours72">72 hours</option>
+            <option value="168" data-i18n="jam.week">One week</option>
+          </select>
+        </label>
+        <label><span data-i18n="jam.team">Team</span>
+          <select id="jam-team">
+            <option value="solo" data-i18n="jam.solo">Solo</option>
+            <option value="small" data-i18n="jam.small">2–3 people</option>
+            <option value="large" data-i18n="jam.large">4+ people</option>
+          </select>
+        </label>
+        <label><span data-i18n="jam.experience">Experience</span>
+          <select id="jam-experience">
+            <option value="beginner" data-i18n="jam.beginner">Beginner</option>
+            <option value="intermediate" data-i18n="jam.intermediate">Some experience</option>
+            <option value="experienced" data-i18n="jam.experienced">Experienced</option>
+          </select>
+        </label>
+        <label class="jam-theme-field"><span data-i18n="jam.theme">Theme — choose or write your own</span>
+          <input id="jam-theme" type="text" maxlength="200" list="jam-theme-list" autocomplete="off" data-i18n-placeholder="jam.themePlaceholder" placeholder="Choose from 300 themes or write your own">
+          <datalist id="jam-theme-list"></datalist>
+        </label>
+        <button id="jam-theme-roll" class="btn" data-i18n="jam.rollTheme">Roll theme</button>
+        <button id="jam-theme-lock" class="btn" aria-pressed="false" data-i18n="jam.lockTheme">Lock theme</button>
+      </div>
+      <p class="section-hint" data-i18n="jam.hint">One core mechanic and a small scope. Locked choices stay; warnings flag choices outside the suggested scope.</p>
+    </section>
 
     <section id="generator" data-i18n-aria-label="generator.label">
         <div id="generator-grid" class="grid idea-grid">

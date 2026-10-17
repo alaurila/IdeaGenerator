@@ -4,6 +4,9 @@ import { CATEGORIES, CATEGORY_BY_KEY, MIN_COUNT, MAX_COUNT } from './config.js';
 import { state } from './state.js';
 import { el, escapeHtml } from './dom.js';
 import { t, categoryLabel } from './i18n.js';
+import { jam } from './jamState.js';
+import { catalog } from './dataLoader.js';
+import { jamOptions } from './jamPolicy.js';
 
 export function buildCards(container, categories = CATEGORIES) {
   container.innerHTML = categories.map(c => `
@@ -14,6 +17,7 @@ export function buildCards(container, categories = CATEGORIES) {
         <span class="card-lock-badge" title="${t('card.lockedBadge')}"><i class="fa-solid fa-lock"></i></span>
       </header>
       <ul class="card-values" aria-live="polite"></ul>
+      <p class="card-warning" hidden></p>
       <footer class="card-actions">
         <button class="icon-btn" data-action="lock"></button>
         <button class="icon-btn" data-action="roll" title="${t('card.roll')}"><i class="fa-solid fa-dice"></i></button>
@@ -39,6 +43,10 @@ function updateCard(card) {
 
   card.classList.toggle('is-locked', entry.locked && !entry.excluded);
   card.classList.toggle('is-excluded', entry.excluded);
+  const allowed = jamOptions(catalog, key, jam).map(v => v.text);
+  const warning = card.querySelector('.card-warning');
+  warning.hidden = !jam.enabled || entry.excluded || entry.values.every(value => allowed.includes(value));
+  warning.textContent = t('jam.warning');
 
   const valuesEl = card.querySelector('.card-values');
   valuesEl.innerHTML = entry.excluded

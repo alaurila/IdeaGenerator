@@ -54,6 +54,40 @@ Schema version 2 replaces the earlier string values with option records. The cat
 is a SHA-256 hash of the normalized category contents; generator version 1 identifies the current
 algorithm. Reordering source options does not change the hash or seeded result.
 
+## Game jam mode
+
+Use **Game jam** in the top bar to show the compact constraints panel below AI Prompt.
+Choose 24, 48 or 72 hours, or one week; solo, 2–3 or 4+ people; and the team's experience.
+The generator uses curated scope profiles for genres, locations, goals, mechanics, twists,
+scale, structure, NPC relationships, procedural elements, progression and technology. It draws
+the usual number of options per category in jam mode. The 1–4 value controls remain available;
+jam settings, rerolls and Generate idea retain the selected counts. If a scope-filtered pool is
+too small, it expands to satisfy the count. Retained user choices outside the suggested scope show
+a warning instead of being silently replaced. Roll All preserves locks and exclusions.
+
+There are **300 themes per language** in `data/<language>/jam_themes.json`, included in the
+catalog's `jam.themes` array. Roll a theme, select one from the input suggestions, or type your
+own (up to 200 characters). Selecting or typing a theme locks it automatically. Unlock it to
+let subsequent rolls change it. Theme IDs translate between languages; custom text stays as entered.
+The AI prompt includes the theme, constraints, a playable minimum, essential features and
+optional stretch goals. These profiles guide scope; they do not guarantee a completion time.
+
+Fresh browser example: `?lang=en&jam=1&hours=48&team=solo&experience=beginner&fresh=1`.
+An explicit `seed` replays the same jam combination. The address also retains the selected
+`themeId` (or custom `theme`) and `themeLock=1` when locked. Saved browser state retains jam settings.
+Generate idea makes the usual demonstration with 2–3 locks and 2–3 exclusions, including in jam mode.
+
+```sh
+npm run --silent generate -- --jam --hours 48 --team solo --experience beginner
+npm run --silent generate -- --jam --theme "Echo" --seed my-jam-idea
+npm run --silent generate -- --jam --theme-id jam_theme-0004 --lang fi
+```
+
+Bot responses optionally add `jam` containing the constraints, theme and `policyVersion`.
+`data/jam_profiles.json` maintains curated tiers by permanent option IDs. The catalog stores
+the resulting `jam.level` and `jam.tags` on profiled options and lists the constrained categories.
+Its content hash covers the categories, theme translations and jam policy version.
+
 ## Maintain option identifiers
 
 Source files under `data/<language>/` now store `{ id, text }` records in their existing groups.
@@ -73,10 +107,10 @@ the complete JSON response to archive a particular historical idea.
 Open `?lang=en&seed=my-idea-123` to reproduce an idea. An explicit supported `lang` takes
 priority over the saved language; an explicit `seed` takes priority over the saved idea.
 Without a seed the app restores a saved idea, or creates a demonstration if none is available.
-The first-visit demonstration uses default counts, locks two fields and excludes two
+The first-visit demonstration uses default counts; Generate idea retains selected counts. Both lock two or three fields and exclude two
 or three others to illustrate the controls. Genre, main goal and twist stay populated.
 This example has no replay seed. Explicit seeded URLs and `fresh=1` generate complete ideas
-without demonstration locks or exclusions. Generate idea respects existing locks and exclusions.
+without demonstration locks or exclusions. Roll All respects existing locks and exclusions.
 Changing the language keeps the seed for an unedited generated idea. Manual value changes,
 rolls or exclusions remove the seed because it no longer represents the displayed idea.
 The language remains in the URL. A manually edited idea still persists locally, but is not

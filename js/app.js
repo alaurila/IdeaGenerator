@@ -1,7 +1,7 @@
 // Sovelluksen käynnistys: lataa kielen ja datan, palauttaa tilan ja kytkee tapahtumat.
 
 import { catalog, loadAllLists } from './dataLoader.js';
-import { state, initState, subscribe } from './state.js';
+import { state, initState, subscribe, commit } from './state.js';
 import {
   rollAll, rollCategory, fillMissing, newIdea, exampleIdea, unlockAll,
   toggleLock, changeCount, toggleExcluded, translateValues,
@@ -13,9 +13,12 @@ import { buildPrompt } from './promptBuilder.js';
 import { initBrowser, buildBrowser, refreshBrowser } from './listBrowser.js';
 import { LANGUAGES, currentLanguage, savedLanguage, loadLanguage, applyStaticTexts, t } from './i18n.js';
 import { escapeHtml } from './dom.js';
-import { readIdeaUrl, updateIdeaUrl } from './ideaUrl.js';
+import { readIdeaUrl, updateIdeaUrl, updateJamUrl } from './ideaUrl.js';
 import { SCHEMA_VERSION, GENERATOR_VERSION } from './ideaEngine.js';
 import { CATEGORIES } from './config.js';
+import { jam, setJam, loadJam, saveJam, translateJamTheme } from './jamState.js';
+import { JAM_POLICY_VERSION } from './jamPolicy.js';
+import { bindJam, renderJam } from './jamUi.js';
 
 const grid = document.getElementById('generator');
 const starterKeys = ['genres', 'main_goals', 'twists'];
@@ -46,21 +49,24 @@ let sharedSeed = null;
 let sharedSnapshot = null;
 
 function ideaSnapshot() {
-  return JSON.stringify(Object.entries(state).map(([key, entry]) =>
-    [key, entry.values, entry.excluded]));
+  return JSON.stringify({ fields: Object.entries(state).map(([key, entry]) =>
+    [key, entry.values, entry.excluded]), jam });
 }
 
 function syncUrl() {
   // An edited idea can no longer be reproduced with its original seed.
   if (sharedSnapshot !== ideaSnapshot()) sharedSeed = null;
-  const url = updateIdeaUrl(new URL(window.location.href), currentLanguage, sharedSeed);
+  const url = updateJamUrl(updateIdeaUrl(new URL(window.location.href), currentLanguage, sharedSeed), jam);
   window.history.replaceState(null, '', url);
+  saveJam();
   document.getElementById('idea-output').textContent = JSON.stringify({
     schemaVersion: SCHEMA_VERSION,
     generatorVersion: GENERATOR_VERSION,
     catalogVersion: catalog.catalogVersion,
     language: currentLanguage,
     seed: sharedSeed,
+    ...(jam.enabled ? { jam: { ...jam, policyVersion: JAM_POLICY_VERSION,
+      theme: { id: jam.themeId, text: jam.themeText } } } : {}),
     categories: Object.fromEntries(Object.entries(state).map(([key, entry]) =>
       [key, entry.excluded ? [] : entry.values.map((text, index) => ({
         id: entry.ids?.[index] ?? catalog.categories[key].find(option => option.text === text)?.id,
@@ -114,6 +120,7 @@ function render(changedKeys) {
   updateCards(grid, changedKeys);
   updateEmptyUnlockedButton();
   promptEl.textContent = buildPrompt();
+  renderJam();
   refreshBrowser();
   syncUrl();
 }
@@ -143,23 +150,27 @@ async function changeLanguage(code) {
     showToast(error.message);
     return;
   }
+  translateJamTheme(catalog);
   renderLanguage();
-  if (seed !== null) startNewIdea(seed);
-  else translateValues(oldCatalog);
+  translateValues(oldCatalog);
+  if (seed !== null) {
+    sharedSeed = seed;
+    sharedSnapshot = ideaSnapshot();
+    syncUrl();
+  }
 }
 
 function bindEvents() {
+  bindJam(patch => {
+    setJam(patch);
+    rollAll();
+  }, () => commit());
   document.getElementById('emphasize-all').addEventListener('click', () => {
     emphasizeAll = !emphasizeAll;
     updateFieldEmphasis();
     try { localStorage.setItem('gameIdeaGenerator.emphasizeAll', String(emphasizeAll)); } catch {}
   });
-  document.getElementById('generate-idea').addEventListener('click', () => {
-    const customized = CATEGORIES.some(c => state[c.key].locked || state[c.key].excluded ||
-      state[c.key].count !== (c.multi ? (c.defaultCount ?? 1) : 1));
-    if (customized) rollAll();
-    else startNewIdea();
-  });
+  document.getElementById('generate-idea').addEventListener('click', startExampleIdea);
   document.getElementById('roll-all').addEventListener('click', rollAll);
   document.getElementById('unlock-all').addEventListener('click', unlockAll);
   emptyUnlockedBtn.addEventListener('click', toggleUnlockedExcluded);
@@ -197,6 +208,7 @@ async function start() {
   }
 
   const restored = initState();
+  loadJam(new URL(window.location.href), catalog);
   applyStaticTexts();
   renderLanguageSwitch();
   buildGenerator();
@@ -212,6 +224,8 @@ async function start() {
   } else if (restored) {
     fillMissing();
     render([]);
+  } else if (jam.enabled) {
+    startNewIdea();
   } else {
     startExampleIdea();
   }

@@ -6,13 +6,11 @@
   "starter.generate": "Arvo peli-idea",
   "starter.more": "Lisävalinnat ja listat",
   "starter.moreHint": "Tutki koko ideaa, muokkaa yksittäisiä kenttiä tai valitse arvoja listoista.",
-
   "app.title": "Game Idea Generator",
   "app.loading": "Ladataan listoja…",
   "app.loadError": "Listojen lataus epäonnistui: {error}",
   "app.loadErrorHint": "Käynnistä sivu paikallisen palvelimen kautta komennolla .\\run.ps1.",
   "app.language": "Kieli",
-
   "toolbar.rollAll": "Roll All",
   "toolbar.unlockAll": "Unlock All",
   "toolbar.newIdea": "New Idea",
@@ -22,9 +20,7 @@
   "toolbar.showAllTitle": "Ota kaikki lukitsemattomat kentät takaisin mukaan",
   "toolbar.copyPrompt": "Copy AI Prompt",
   "toast.copied": "AI-prompt kopioitu leikepöydälle",
-
   "generator.label": "Generaattori",
-
   "card.lockedBadge": "Lukittu: säilyy rollissa",
   "card.locked": "Lukittu – säilyy rollissa (avaa klikkaamalla)",
   "card.unlocked": "Lukitsematon – muuttuu rollissa",
@@ -36,9 +32,7 @@
   "card.count": "Arvojen määrä",
   "card.less": "Vähemmän",
   "card.more": "Enemmän",
-
   "prompt.heading": "AI Prompt",
-
   "picker.title": "{label} · {count} arvoa",
   "picker.search": "Hae…",
   "picker.close": "Sulje",
@@ -46,7 +40,6 @@
   "picker.selected": "{count} / {max} valittu",
   "picker.remove": "Poista",
   "picker.apply": "Käytä valintoja",
-
   "browse.heading": "Browse Lists",
   "browse.hint": "Klikkaa arvoa asettaaksesi sen generaattoriin.",
   "browse.selectList": "Valitse lista",
@@ -59,7 +52,6 @@
   "browse.next": "Seuraavat sivut",
   "browse.random": "Satunnainen kohta",
   "browse.setValue": "Aseta generaattoriin",
-
   "category.genres": "Genre",
   "category.settings": "Setting",
   "category.player_roles": "Pelaajan rooli",
@@ -79,10 +71,8 @@
   "category.npc_structures": "NPC-rakenne",
   "category.generative_elements": "Generatiiviset elementit",
   "category.technologies": "Teknologia",
-
   "categoryPrompt.twists": "Twist",
   "categoryPrompt.failure_types": "Epäonnistuminen",
-
   "prompt.intro": "Haluan ideoida peliä seuraavien lähtökohtien perusteella.",
   "prompt.sparring": "Sparraile tätä peli-ideaa kanssani.",
   "prompt.noGdd": "Älä kirjoita vielä peliä tai pitkää game design documentia.",
@@ -99,5 +89,34 @@
     "esittämällä muutama hyvä kysymys, joiden avulla ideaa kannattaa tarkentaa",
     "ehdottamalla tarvittaessa yhtä tai kahta muutosta, jotka tekisivät ideasta kiinnostavamman"
   ],
-  "prompt.goal": "Tavoitteena on löytää ideasta oikeasti pelattava konsepti, ei väkisin käyttää jokaista generoitua elementtiä."
+  "prompt.goal": "Tavoitteena on löytää ideasta oikeasti pelattava konsepti, ei väkisin käyttää jokaista generoitua elementtiä.",
+  "jam.toggle": "Game jam",
+  "jam.heading": "Game jamin rajaukset",
+  "jam.time": "Aika",
+  "jam.hours24": "24 tuntia",
+  "jam.hours48": "48 tuntia",
+  "jam.hours72": "72 tuntia",
+  "jam.week": "Viikko",
+  "jam.team": "Tiimi",
+  "jam.solo": "Yksin",
+  "jam.small": "2–3 henkilöä",
+  "jam.large": "4+ henkilöä",
+  "jam.experience": "Kokemus",
+  "jam.beginner": "Aloittelija",
+  "jam.intermediate": "Jonkin verran",
+  "jam.experienced": "Kokenut",
+  "jam.theme": "Teema — valitse tai kirjoita oma",
+  "jam.themePlaceholder": "Valitse 300 teemasta tai kirjoita oma",
+  "jam.rollTheme": "Arvo teema",
+  "jam.lockTheme": "Lukitse teema",
+  "jam.unlockTheme": "Avaa teeman lukitus",
+  "jam.hint": "Pieni laajuus, vapaa arvojen määrä. Ehdotettua laajuutta ylittävät valinnat merkitään kortteihin.",
+  "jam.warning": "Ylittää ehdotetun jamilaajuuden. Harkitse yksinkertaistamista tai uutta arvontaa.",
+  "jam.promptSummary": "Game jam: {hours} tuntia; tiimi: {team}; kokemus: {experience}.",
+  "jam.promptTheme": "Game jamin teema: {theme}",
+  "jam.promptScope": "Pidä mukana yksi päätavoite, yksi ydinmekaniikka ja pieni pelitila. Toteuta suuret ympäristö- tai tarinaideat yksinkertaisilla elementeillä laajojen simulaatioiden sijaan. Vältä verkkopalvelimia ja monimutkaisia sivujärjestelmiä.",
+  "jam.promptInterpret": "Näytä, miten teema vaikuttaa pelaajan tekemiseen. Ehdota kahta tulkintaa ja valitse niistä yksi. Pelkkä nimi tai taustatarina ei riitä.",
+  "jam.promptBuild": "Määrittele pienin pelattava versio ja korkeintaan kolme välttämätöntä ominaisuutta. Erottele lisäideat ja ehdota karkea aikataulu valitulle ajalle, tiimille ja kokemustasolle.",
+  "jam.promptWarning": "Jos säilytetty valinta on jamirajojen kanssa ristiriidassa, ehdota sen yksinkertaistamista. Älä lupaa kaikkien yhdistelmien valmistuvan aikarajassa.",
+  "jam.promptCounts": "Kunnioita kunkin kentän valittua arvojen määrää. Yksi ydinmekaniikka on laajuussuositus, ei rajoitus käyttäjän valinnoille."
 }

@@ -54,6 +54,41 @@ const idea = JSON.parse(await page.locator('#idea-output').textContent());</code
     To reproduce the module's results in another language, port its seeded algorithm and sort each category by ID
     before sampling. Never report the fixed documentation example as a newly generated idea.</p>
 
+  <h2>Game jam generation</h2>
+  <p>Enable <strong>Game jam</strong> in the top bar, or open
+    <a href="./?lang=en&amp;jam=1&amp;hours=48&amp;team=solo&amp;experience=beginner&amp;fresh=1">a fresh 48-hour solo beginner jam idea</a>.
+    All 19 cards remain visible. The constraints panel follows AI Prompt.</p>
+  <p>URL parameters: <code>jam=1</code>, <code>hours=24|48|72|168</code>, <code>team=solo|small|large</code>,
+    <code>experience=beginner|intermediate|experienced</code>, optional <code>themeId</code> or custom
+    <code>theme</code>, and <code>themeLock=1</code>. A fresh seed gives a fresh unlocked theme;
+    a locked theme stays while the other fields roll. Custom theme text is limited to 200 characters.</p>
+  <p>Each catalog includes <code>jam.themes</code>: 300 localized themes with shared permanent IDs.
+    They are also available in <a href="data/en/jam_themes.json">data/en/jam_themes.json</a>
+    (replace <code>en</code> with another supported language). Profiled category options have optional
+    <code>jam.level</code> and <code>jam.tags</code>. <code>jam.constrainedCategories</code> lists categories
+    whose random pool is restricted, and <code>jam.policyVersion</code> identifies the policy.</p>
+  <pre><code>const idea = generateIdea({
+  catalog,
+  language: 'en',
+  seed: crypto.randomUUID(),
+  jam: {
+    enabled: true, hours: 48, team: 'solo', experience: 'beginner',
+    themeId: 'jam_theme-0004', themeLocked: true
+  }
+});</code></pre>
+  <p>For a custom locked theme, use <code>themeText</code> instead of <code>themeId</code>.
+    Jam results add a <code>jam</code> object containing settings and the selected <code>theme: { id, text }</code>.
+    A custom theme has <code>id: null</code>. Jam generation uses the normal category counts;
+    optionally pass <code>counts: { genres: 4, core_mechanics: 3 }</code> to the pure generator.
+    The usual 1–4 value controls remain available regardless of jam constraints. Filtered pools
+    expand when necessary to honor the chosen counts. Generation otherwise draws
+    using curated complexity tiers constrained by time, team size and experience. Scope guidance is approximate.</p>
+  <pre><code>npm run --silent generate -- --jam --hours 48 --team solo --experience beginner
+node scripts/generate-idea.js --jam --theme "Echo" --seed my-jam-idea</code></pre>
+  <p>Generate idea creates a demonstration with 2–3 locked and 2–3 excluded fields.
+    Roll All preserves locks and exclusions; retained out-of-scope selections receive a card warning.
+    Use <code>fresh=1</code> or a seed URL for full reproducible results.</p>
+
   <h2>Versioned response format</h2>
   <p>Every idea contains the following fields. The categories below are an abbreviated illustration;
     generated ideas contain every category listed in the catalog.</p>
@@ -77,7 +112,7 @@ const idea = JSON.parse(await page.locator('#idea-output').textContent());</code
   </ul>
   <p>A catalog contains
     <code>schemaVersion</code>, <code>catalogVersion</code>, <code>language</code>, <code>labels</code> (category titles)
-    and <code>categories</code> (all options).</p>
+    and <code>categories</code> (all options), plus the <code>jam</code> catalog described above.</p>
   <p>Match options across languages by <code>id</code>. IDs are stored in the source files and remain unchanged
     when labels are corrected or lists reordered. Never treat array positions or translated labels as identifiers.</p>
 
@@ -102,7 +137,7 @@ const idea = generateIdea({
   <h2>Open or share the same idea</h2>
   <p><a href="./?lang=en&amp;seed=my-idea-123">Open the English example</a> using
     <code>?lang=en&amp;seed=my-idea-123</code> on the home page. The language and seed override saved browser state.
-    First visits without a saved idea demonstrate the controls with two locks and two
+    First visits without a saved idea and Generate idea demonstrate the controls with two or three locks and two
     or three excluded fields; these demonstrations have no replay seed. Use <code>fresh=1</code> for a complete
     seeded idea without demonstration locks or exclusions. Editing values or excluding categories removes the seed.</p>
   <p>The same seed, language, catalog content and generator version produce the same result.

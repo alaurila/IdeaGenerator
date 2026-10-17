@@ -5,12 +5,15 @@ import { lists, catalog } from './dataLoader.js';
 import { state, commit } from './state.js';
 import { generateIdea, pickUnique, translateSelections } from './ideaEngine.js';
 import { currentLanguage } from './i18n.js';
+import { jam, rollJamTheme, acceptJamIdea } from './jamState.js';
+import { jamSelectionOptions } from './jamPolicy.js';
 
 // Palauttaa true, jos kenttä arvottiin (lukittua tai pois jätettyä ei arvota).
 function rollInto(key) {
   const entry = state[key];
   if (entry.locked || entry.excluded) return false;
-  entry.values = pickUnique(lists[key], entry.count, entry.values);
+  const pool = jamSelectionOptions(catalog, key, jam, entry.count).map(v => v.text);
+  entry.values = pickUnique(pool, entry.count, entry.values);
   return true;
 }
 
@@ -19,6 +22,7 @@ export function rollCategory(key) {
 }
 
 export function rollAll() {
+  if (jam.enabled) rollJamTheme(catalog);
   const rolled = CATEGORIES.map(c => c.key).filter(rollInto);
   commit(rolled);
 }
@@ -54,6 +58,7 @@ export function fillMissing() {
 }
 
 function applyIdea(idea) {
+  acceptJamIdea(idea);
   CATEGORIES.forEach(({ key }) => {
     const values = idea.categories[key].map(option => option.text);
     Object.assign(state[key], { values, ids: idea.categories[key].map(option => option.id),
@@ -63,7 +68,7 @@ function applyIdea(idea) {
 
 // A fresh idea is reproducible from its language and seed, independent of storage.
 export function newIdea(seed = crypto.randomUUID()) {
-  const idea = generateIdea({ catalog, language: currentLanguage, seed });
+  const idea = generateIdea({ catalog, language: currentLanguage, seed, jam });
   applyIdea(idea);
   commit(CATEGORIES.map(c => c.key));
   return idea;
@@ -71,8 +76,9 @@ export function newIdea(seed = crypto.randomUUID()) {
 
 // Demonstrate locks and exclusions without changing the pure generator's output.
 export function exampleIdea() {
-  applyIdea(generateIdea({ catalog, language: currentLanguage, seed: crypto.randomUUID() }));
-  const locked = pickUnique(CATEGORIES.map(c => c.key), 2);
+  const counts = Object.fromEntries(CATEGORIES.map(c => [c.key, state[c.key].count]));
+  applyIdea(generateIdea({ catalog, language: currentLanguage, seed: crypto.randomUUID(), jam, counts }));
+  const locked = pickUnique(CATEGORIES.map(c => c.key), 2 + Math.floor(Math.random() * 2));
   locked.forEach(key => { state[key].locked = true; });
   // Keep the three introductory fields populated so the example remains readable.
   const candidates = CATEGORIES.map(c => c.key)
@@ -104,7 +110,8 @@ export function changeCount(key, delta) {
   if (entry.values.length > next) {
     entry.values = entry.values.slice(0, next);
   } else {
-    const extra = pickUnique(lists[key].filter(v => !entry.values.includes(v)), next - entry.values.length);
+    const pool = jamSelectionOptions(catalog, key, jam, next).map(v => v.text);
+    const extra = pickUnique(pool.filter(v => !entry.values.includes(v)), next - entry.values.length);
     entry.values = [...entry.values, ...extra];
   }
   commit([key]);

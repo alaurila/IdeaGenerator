@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
   "language": "fr",
-  "catalogVersion": "2065ce0699ab10224cb049760079ff9d1d57d1c77e086735c91b6a3b8f0762a2",
+  "catalogVersion": "7a6e9673c544585c74c1f169f92b03b473e9c51e8530498ff25e2d5067d1f783",
   "labels": {
     "genres": "Genre",
     "settings": "Cadre",
@@ -35,11 +35,24 @@
       },
       {
         "id": "genres-0003",
-        "text": "Plateforme"
+        "text": "Plateforme",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "genres-0004",
-        "text": "Plateforme 2D"
+        "text": "Plateforme 2D",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "genres-0005",
@@ -99,15 +112,34 @@
       },
       {
         "id": "genres-0019",
-        "text": "Shoot 'em up"
+        "text": "Shoot 'em up",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "genres-0020",
-        "text": "Bullet hell"
+        "text": "Bullet hell",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "genres-0021",
-        "text": "Twin-stick shooter"
+        "text": "Twin-stick shooter",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "genres-0022",
@@ -115,7 +147,13 @@
       },
       {
         "id": "genres-0023",
-        "text": "Infiltration"
+        "text": "Infiltration",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "genres-0024",
@@ -151,7 +189,13 @@
       },
       {
         "id": "genres-0032",
-        "text": "Point-and-click"
+        "text": "Point-and-click",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "genres-0033",
@@ -159,23 +203,56 @@
       },
       {
         "id": "genres-0034",
-        "text": "Aventure textuelle"
+        "text": "Aventure textuelle",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "genres-0035",
-        "text": "Fiction interactive"
+        "text": "Fiction interactive",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "genres-0036",
-        "text": "Visual novel"
+        "text": "Visual novel",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "genres-0037",
-        "text": "Walking simulator"
+        "text": "Walking simulator",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "genres-0038",
-        "text": "Aventure narrative"
+        "text": "Aventure narrative",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "genres-0039",
@@ -183,7 +260,13 @@
       },
       {
         "id": "genres-0040",
-        "text": "Récit à choix"
+        "text": "Récit à choix",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "genres-0041",
@@ -199,15 +282,35 @@
       },
       {
         "id": "genres-0044",
-        "text": "Jeu d'escape game"
+        "text": "Jeu d'escape game",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "genres-0045",
-        "text": "Aventure à énigmes"
+        "text": "Aventure à énigmes",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "genres-0046",
-        "text": "Jeu d'objets cachés"
+        "text": "Jeu d'objets cachés",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "genres-0047",
@@ -255,7 +358,13 @@
       },
       {
         "id": "genres-0058",
-        "text": "Dungeon crawler"
+        "text": "Dungeon crawler",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "genres-0059",
@@ -335,7 +444,13 @@
       },
       {
         "id": "genres-0078",
-        "text": "Tactique au tour par tour"
+        "text": "Tactique au tour par tour",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "genres-0079",
@@ -355,7 +470,13 @@
       },
       {
         "id": "genres-0083",
-        "text": "Tower defense"
+        "text": "Tower defense",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "genres-0084",
@@ -363,7 +484,13 @@
       },
       {
         "id": "genres-0085",
-        "text": "Auto battler"
+        "text": "Auto battler",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "genres-0086",
@@ -375,11 +502,23 @@
       },
       {
         "id": "genres-0088",
-        "text": "Stratégie de deckbuilding"
+        "text": "Stratégie de deckbuilding",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "genres-0089",
-        "text": "Stratégie de cartes"
+        "text": "Stratégie de cartes",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "genres-0090",
@@ -423,7 +562,13 @@
       },
       {
         "id": "genres-0100",
-        "text": "Simulation de drague"
+        "text": "Simulation de drague",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "genres-0101",
@@ -1873,19 +2018,43 @@
       },
       {
         "id": "settings-0021",
-        "text": "Immeuble d'habitation"
+        "text": "Immeuble d'habitation",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "settings-0022",
-        "text": "Maison individuelle"
+        "text": "Maison individuelle",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "settings-0023",
-        "text": "Manoir"
+        "text": "Manoir",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "settings-0024",
-        "text": "Château"
+        "text": "Château",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "settings-0025",
@@ -1893,15 +2062,34 @@
       },
       {
         "id": "settings-0026",
-        "text": "Villa"
+        "text": "Villa",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "settings-0027",
-        "text": "Cabane"
+        "text": "Cabane",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "settings-0028",
-        "text": "Auberge"
+        "text": "Auberge",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "settings-0029",
@@ -1913,7 +2101,13 @@
       },
       {
         "id": "settings-0031",
-        "text": "Auberge de jeunesse"
+        "text": "Auberge de jeunesse",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "settings-0032",
@@ -1933,7 +2127,13 @@
       },
       {
         "id": "settings-0036",
-        "text": "Monastère"
+        "text": "Monastère",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "settings-0037",
@@ -1941,19 +2141,46 @@
       },
       {
         "id": "settings-0038",
-        "text": "Église"
+        "text": "Église",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "settings-0039",
-        "text": "Cimetière"
+        "text": "Cimetière",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "settings-0040",
-        "text": "Crypte"
+        "text": "Crypte",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "settings-0041",
-        "text": "Boutique"
+        "text": "Boutique",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "settings-0042",
@@ -1969,7 +2196,13 @@
       },
       {
         "id": "settings-0045",
-        "text": "Marché aux puces"
+        "text": "Marché aux puces",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "settings-0046",
@@ -5145,7 +5378,14 @@
     "main_goals": [
       {
         "id": "main_goals-0001",
-        "text": "Survivre"
+        "text": "Survivre",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "main_goals-0002",
@@ -5153,7 +5393,13 @@
       },
       {
         "id": "main_goals-0003",
-        "text": "Résoudre un mystère"
+        "text": "Résoudre un mystère",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "main_goals-0004",
@@ -5161,7 +5407,13 @@
       },
       {
         "id": "main_goals-0005",
-        "text": "Percer un secret"
+        "text": "Percer un secret",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "main_goals-0006",
@@ -5169,15 +5421,35 @@
       },
       {
         "id": "main_goals-0007",
-        "text": "Empêcher une catastrophe"
+        "text": "Empêcher une catastrophe",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "main_goals-0008",
-        "text": "S'échapper"
+        "text": "S'échapper",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "main_goals-0009",
-        "text": "Retrouver quelqu'un"
+        "text": "Retrouver quelqu'un",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "main_goals-0010",
@@ -5185,11 +5457,24 @@
       },
       {
         "id": "main_goals-0011",
-        "text": "Sauver quelqu'un"
+        "text": "Sauver quelqu'un",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "main_goals-0012",
-        "text": "Protéger la communauté"
+        "text": "Protéger la communauté",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "main_goals-0013",
@@ -5197,7 +5482,13 @@
       },
       {
         "id": "main_goals-0014",
-        "text": "Défendre un territoire"
+        "text": "Défendre un territoire",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "main_goals-0015",
@@ -5257,11 +5548,23 @@
       },
       {
         "id": "main_goals-0029",
-        "text": "Découvrir qui ment"
+        "text": "Découvrir qui ment",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "main_goals-0030",
-        "text": "Démasquer le meurtrier"
+        "text": "Démasquer le meurtrier",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "main_goals-0031",
@@ -5293,15 +5596,34 @@
       },
       {
         "id": "main_goals-0038",
-        "text": "Rassembler des preuves"
+        "text": "Rassembler des preuves",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "main_goals-0039",
-        "text": "Élucider une disparition"
+        "text": "Élucider une disparition",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "main_goals-0040",
-        "text": "Retrouver un objet perdu"
+        "text": "Retrouver un objet perdu",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "main_goals-0041",
@@ -5317,7 +5639,13 @@
       },
       {
         "id": "main_goals-0044",
-        "text": "Retrouver la mémoire"
+        "text": "Retrouver la mémoire",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "main_goals-0045",
@@ -6291,7 +6619,13 @@
     "core_mechanics": [
       {
         "id": "core_mechanics-0001",
-        "text": "Conversation"
+        "text": "Conversation",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0002",
@@ -6299,27 +6633,64 @@
       },
       {
         "id": "core_mechanics-0003",
-        "text": "Enquête"
+        "text": "Enquête",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0004",
-        "text": "Répartition des ressources"
+        "text": "Répartition des ressources",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0005",
-        "text": "Exploration de la carte"
+        "text": "Exploration de la carte",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0006",
-        "text": "Comparaison de documents"
+        "text": "Comparaison de documents",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0007",
-        "text": "Construction"
+        "text": "Construction",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0008",
-        "text": "Gestion du temps"
+        "text": "Gestion du temps",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0009",
@@ -6335,15 +6706,33 @@
       },
       {
         "id": "core_mechanics-0012",
-        "text": "Recoupement d'indices"
+        "text": "Recoupement d'indices",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0013",
-        "text": "Collecte de preuves"
+        "text": "Collecte de preuves",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0014",
-        "text": "Interrogatoire"
+        "text": "Interrogatoire",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0015",
@@ -6351,11 +6740,24 @@
       },
       {
         "id": "core_mechanics-0016",
-        "text": "Prise de décision"
+        "text": "Prise de décision",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0017",
-        "text": "Négociation"
+        "text": "Négociation",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0018",
@@ -6375,15 +6777,33 @@
       },
       {
         "id": "core_mechanics-0022",
-        "text": "Gestion de la réputation"
+        "text": "Gestion de la réputation",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0023",
-        "text": "Construction de la confiance"
+        "text": "Construction de la confiance",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0024",
-        "text": "Gestion des relations"
+        "text": "Gestion des relations",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0025",
@@ -6411,7 +6831,14 @@
       },
       {
         "id": "core_mechanics-0031",
-        "text": "Inspection de documents"
+        "text": "Inspection de documents",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0032",
@@ -6419,15 +6846,36 @@
       },
       {
         "id": "core_mechanics-0033",
-        "text": "Approbation de demandes"
+        "text": "Approbation de demandes",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0034",
-        "text": "Rejet de demandes"
+        "text": "Rejet de demandes",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0035",
-        "text": "Contrôle des passeports"
+        "text": "Contrôle des passeports",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0036",
@@ -6443,15 +6891,35 @@
       },
       {
         "id": "core_mechanics-0039",
-        "text": "Fixation des prix"
+        "text": "Fixation des prix",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0040",
-        "text": "Achat"
+        "text": "Achat",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0041",
-        "text": "Vente"
+        "text": "Vente",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0042",
@@ -6467,7 +6935,13 @@
       },
       {
         "id": "core_mechanics-0045",
-        "text": "Gestion des stocks"
+        "text": "Gestion des stocks",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0046",
@@ -6503,7 +6977,13 @@
       },
       {
         "id": "core_mechanics-0054",
-        "text": "Réparation de machines"
+        "text": "Réparation de machines",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0055",
@@ -6511,11 +6991,23 @@
       },
       {
         "id": "core_mechanics-0056",
-        "text": "Diagnostic des pannes"
+        "text": "Diagnostic des pannes",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0057",
-        "text": "Acheminement de l'électricité"
+        "text": "Acheminement de l'électricité",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0058",
@@ -6527,11 +7019,23 @@
       },
       {
         "id": "core_mechanics-0060",
-        "text": "Raccordement de câbles"
+        "text": "Raccordement de câbles",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0061",
-        "text": "Construction de circuits"
+        "text": "Construction de circuits",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0062",
@@ -6555,7 +7059,14 @@
       },
       {
         "id": "core_mechanics-0067",
-        "text": "Découverte de mots de passe"
+        "text": "Découverte de mots de passe",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0068",
@@ -6591,7 +7102,14 @@
       },
       {
         "id": "core_mechanics-0076",
-        "text": "Reconnaissance de schémas"
+        "text": "Reconnaissance de schémas",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0077",
@@ -6607,7 +7125,13 @@
       },
       {
         "id": "core_mechanics-0080",
-        "text": "Construction d'une chronologie"
+        "text": "Construction d'une chronologie",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0081",
@@ -6623,7 +7147,13 @@
       },
       {
         "id": "core_mechanics-0084",
-        "text": "Recherche d'itinéraires"
+        "text": "Recherche d'itinéraires",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0085",
@@ -6631,7 +7161,13 @@
       },
       {
         "id": "core_mechanics-0086",
-        "text": "Déverrouillage de lieux"
+        "text": "Déverrouillage de lieux",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0087",
@@ -6639,19 +7175,46 @@
       },
       {
         "id": "core_mechanics-0088",
-        "text": "Examen d'objets"
+        "text": "Examen d'objets",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0089",
-        "text": "Observation de l'environnement"
+        "text": "Observation de l'environnement",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0090",
-        "text": "Repérage des détails"
+        "text": "Repérage des détails",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0091",
-        "text": "Écoute des sons"
+        "text": "Écoute des sons",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0092",
@@ -6671,11 +7234,23 @@
       },
       {
         "id": "core_mechanics-0096",
-        "text": "Se cacher"
+        "text": "Se cacher",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0097",
-        "text": "Infiltration discrète"
+        "text": "Infiltration discrète",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "core_mechanics-0098",
@@ -9773,67 +10348,169 @@
     "twists": [
       {
         "id": "twists-0001",
-        "text": "Les PNJ se souviennent des parties précédentes"
+        "text": "Les PNJ se souviennent des parties précédentes",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "twists-0002",
-        "text": "Une ressource ment"
+        "text": "Une ressource ment",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "twists-0003",
-        "text": "Le monde change quand personne ne regarde"
+        "text": "Le monde change quand personne ne regarde",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "twists-0004",
-        "text": "Le joueur n'est pas humain"
+        "text": "Le joueur n'est pas humain",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "twists-0005",
-        "text": "Les morts influencent le monde"
+        "text": "Les morts influencent le monde",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "twists-0006",
-        "text": "Une partie de la carte est imaginaire"
+        "text": "Une partie de la carte est imaginaire",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "twists-0007",
-        "text": "Ton objectif change en cours de partie"
+        "text": "Ton objectif change en cours de partie",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "twists-0008",
-        "text": "Le joueur est l'un des suspects de l'enquête"
+        "text": "Le joueur est l'un des suspects de l'enquête",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "twists-0009",
-        "text": "Les souvenirs du joueur sont faux"
+        "text": "Les souvenirs du joueur sont faux",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "twists-0010",
-        "text": "Tous les PNJ ne voient pas le même monde"
+        "text": "Tous les PNJ ne voient pas le même monde",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "twists-0011",
-        "text": "Un PNJ sait qu'il est dans un jeu"
+        "text": "Un PNJ sait qu'il est dans un jeu",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "twists-0012",
-        "text": "Un PNJ ment toujours"
+        "text": "Un PNJ ment toujours",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "twists-0013",
-        "text": "Un PNJ dit toujours la vérité"
+        "text": "Un PNJ dit toujours la vérité",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "twists-0014",
-        "text": "Les PNJ échangent leurs identités"
+        "text": "Les PNJ échangent leurs identités",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "twists-0015",
-        "text": "Un PNJ peut mourir et revenir sous les traits d'une autre personne"
+        "text": "Un PNJ peut mourir et revenir sous les traits d'une autre personne",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "twists-0016",
-        "text": "Les PNJ peuvent se souvenir de choses qui ne sont jamais arrivées"
+        "text": "Les PNJ peuvent se souvenir de choses qui ne sont jamais arrivées",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "twists-0017",
@@ -9849,7 +10526,13 @@
       },
       {
         "id": "twists-0020",
-        "text": "Les PNJ peuvent saboter l'interface"
+        "text": "Les PNJ peuvent saboter l'interface",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "twists-0021",
@@ -9861,7 +10544,13 @@
       },
       {
         "id": "twists-0023",
-        "text": "Les PNJ peuvent mentir via l'interface"
+        "text": "Les PNJ peuvent mentir via l'interface",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "twists-0024",
@@ -9873,11 +10562,23 @@
       },
       {
         "id": "twists-0026",
-        "text": "Les PNJ se souviennent du chargement des sauvegardes"
+        "text": "Les PNJ se souviennent du chargement des sauvegardes",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "twists-0027",
-        "text": "Les PNJ savent quand le jeu est en pause"
+        "text": "Les PNJ savent quand le jeu est en pause",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "twists-0028",
@@ -9897,7 +10598,14 @@
       },
       {
         "id": "twists-0032",
-        "text": "Les PNJ ne sont pas humains"
+        "text": "Les PNJ ne sont pas humains",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "twists-0033",
@@ -9905,7 +10613,14 @@
       },
       {
         "id": "twists-0034",
-        "text": "Les PNJ sont morts"
+        "text": "Les PNJ sont morts",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "twists-0035",
@@ -9913,7 +10628,14 @@
       },
       {
         "id": "twists-0036",
-        "text": "Le joueur est mort"
+        "text": "Le joueur est mort",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "twists-0037",
@@ -9921,23 +10643,56 @@
       },
       {
         "id": "twists-0038",
-        "text": "Le joueur est dans une simulation"
+        "text": "Le joueur est dans une simulation",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "twists-0039",
-        "text": "Le joueur est une IA"
+        "text": "Le joueur est une IA",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "twists-0040",
-        "text": "Le joueur est un clone"
+        "text": "Le joueur est un clone",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "twists-0041",
-        "text": "Le joueur est le souvenir de quelqu'un d'autre"
+        "text": "Le joueur est le souvenir de quelqu'un d'autre",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "twists-0042",
-        "text": "Le joueur est un fantôme"
+        "text": "Le joueur est un fantôme",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "twists-0043",
@@ -9945,11 +10700,23 @@
       },
       {
         "id": "twists-0044",
-        "text": "Le joueur fait partie d'une expérience"
+        "text": "Le joueur fait partie d'une expérience",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "twists-0045",
-        "text": "Le joueur est un prisonnier"
+        "text": "Le joueur est un prisonnier",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "twists-0046",
@@ -11095,39 +11862,96 @@
     "scales": [
       {
         "id": "scales-0001",
-        "text": "Un seul objet"
+        "text": "Un seul objet",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "scales-0002",
-        "text": "Un seul bureau"
+        "text": "Un seul bureau",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "scales-0003",
-        "text": "Une seule pièce"
+        "text": "Une seule pièce",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "scales-0004",
-        "text": "Un seul appartement"
+        "text": "Un seul appartement",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "scales-0005",
-        "text": "Une seule maison"
+        "text": "Une seule maison",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "scales-0006",
-        "text": "Un seul bâtiment"
+        "text": "Un seul bâtiment",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "scales-0007",
-        "text": "Un seul complexe de bâtiments"
+        "text": "Un seul complexe de bâtiments",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "scales-0008",
-        "text": "Un seul navire"
+        "text": "Un seul navire",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "scales-0009",
-        "text": "Un seul train"
+        "text": "Un seul train",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "scales-0010",
@@ -11135,7 +11959,13 @@
       },
       {
         "id": "scales-0011",
-        "text": "Un seul vaisseau spatial"
+        "text": "Un seul vaisseau spatial",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "scales-0012",
@@ -11143,11 +11973,23 @@
       },
       {
         "id": "scales-0013",
-        "text": "Une seule rue"
+        "text": "Une seule rue",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "scales-0014",
-        "text": "Un seul pâté de maisons"
+        "text": "Un seul pâté de maisons",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "scales-0015",
@@ -11259,7 +12101,13 @@
       },
       {
         "id": "scales-0042",
-        "text": "Une seule famille"
+        "text": "Une seule famille",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "scales-0043",
@@ -11271,7 +12119,13 @@
       },
       {
         "id": "scales-0045",
-        "text": "Un seul cercle d'amis"
+        "text": "Un seul cercle d'amis",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "scales-0046",
@@ -13317,11 +14171,24 @@
     "structural_formats": [
       {
         "id": "structural_formats-0001",
-        "text": "Au tour par tour"
+        "text": "Au tour par tour",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "structural_formats-0002",
-        "text": "En temps réel"
+        "text": "En temps réel",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "structural_formats-0003",
@@ -13329,15 +14196,34 @@
       },
       {
         "id": "structural_formats-0004",
-        "text": "Un seul poste de travail"
+        "text": "Un seul poste de travail",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "structural_formats-0005",
-        "text": "Partie roguelite"
+        "text": "Partie roguelite",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "structural_formats-0006",
-        "text": "Épisodique"
+        "text": "Épisodique",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "structural_formats-0007",
@@ -13349,11 +14235,25 @@
       },
       {
         "id": "structural_formats-0009",
-        "text": "Une seule journée"
+        "text": "Une seule journée",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "structural_formats-0010",
-        "text": "Une seule nuit"
+        "text": "Une seule nuit",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "structural_formats-0011",
@@ -13377,19 +14277,44 @@
       },
       {
         "id": "structural_formats-0016",
-        "text": "Boucle temporelle"
+        "text": "Boucle temporelle",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "structural_formats-0017",
-        "text": "Journée qui se répète"
+        "text": "Journée qui se répète",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "structural_formats-0018",
-        "text": "Poste de travail qui se répète"
+        "text": "Poste de travail qui se répète",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "structural_formats-0019",
-        "text": "Sessions de jeu courtes"
+        "text": "Sessions de jeu courtes",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "structural_formats-0020",
@@ -13413,19 +14338,44 @@
       },
       {
         "id": "structural_formats-0025",
-        "text": "Basé sur des parties"
+        "text": "Basé sur des parties",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "structural_formats-0026",
-        "text": "Basé sur des missions"
+        "text": "Basé sur des missions",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "structural_formats-0027",
-        "text": "Basé sur des tâches"
+        "text": "Basé sur des tâches",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "structural_formats-0028",
-        "text": "Basé sur des affaires"
+        "text": "Basé sur des affaires",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "structural_formats-0029",
@@ -13433,7 +14383,13 @@
       },
       {
         "id": "structural_formats-0030",
-        "text": "Basé sur des scénarios"
+        "text": "Basé sur des scénarios",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "structural_formats-0031",
@@ -13441,7 +14397,13 @@
       },
       {
         "id": "structural_formats-0032",
-        "text": "Basé sur des pièces"
+        "text": "Basé sur des pièces",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "structural_formats-0033",
@@ -13449,7 +14411,13 @@
       },
       {
         "id": "structural_formats-0034",
-        "text": "Basé sur des nœuds"
+        "text": "Basé sur des nœuds",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "structural_formats-0035",
@@ -13465,15 +14433,34 @@
       },
       {
         "id": "structural_formats-0038",
-        "text": "Linéaire"
+        "text": "Linéaire",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "structural_formats-0039",
-        "text": "Semi-linéaire"
+        "text": "Semi-linéaire",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "structural_formats-0040",
-        "text": "Ramifié"
+        "text": "Ramifié",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "structural_formats-0041",
@@ -13485,7 +14472,13 @@
       },
       {
         "id": "structural_formats-0043",
-        "text": "Environnement clos"
+        "text": "Environnement clos",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "structural_formats-0044",
@@ -13493,7 +14486,14 @@
       },
       {
         "id": "structural_formats-0045",
-        "text": "Une seule pièce"
+        "text": "Une seule pièce",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "structural_formats-0046",
@@ -17441,11 +18441,24 @@
     "progression": [
       {
         "id": "progression-0001",
-        "text": "De meilleurs outils"
+        "text": "De meilleurs outils",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "progression-0002",
-        "text": "De nouvelles informations"
+        "text": "De nouvelles informations",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "progression-0003",
@@ -17457,27 +18470,65 @@
       },
       {
         "id": "progression-0005",
-        "text": "La carte qui s'ouvre"
+        "text": "La carte qui s'ouvre",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "progression-0006",
-        "text": "De nouvelles personnes"
+        "text": "De nouvelles personnes",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "progression-0007",
-        "text": "De nouvelles règles"
+        "text": "De nouvelles règles",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "progression-0008",
-        "text": "De nouvelles capacités"
+        "text": "De nouvelles capacités",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "progression-0009",
-        "text": "De nouvelles compétences"
+        "text": "De nouvelles compétences",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "progression-0010",
-        "text": "De nouvelles options d'action"
+        "text": "De nouvelles options d'action",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "progression-0011",
@@ -17485,11 +18536,23 @@
       },
       {
         "id": "progression-0012",
-        "text": "De nouvelles pièces"
+        "text": "De nouvelles pièces",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "progression-0013",
-        "text": "De nouvelles zones"
+        "text": "De nouvelles zones",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "progression-0014",
@@ -17509,7 +18572,13 @@
       },
       {
         "id": "progression-0018",
-        "text": "De nouvelles technologies"
+        "text": "De nouvelles technologies",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "progression-0019",
@@ -17521,7 +18590,13 @@
       },
       {
         "id": "progression-0021",
-        "text": "De nouvelles ressources"
+        "text": "De nouvelles ressources",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "progression-0022",
@@ -17549,7 +18624,13 @@
       },
       {
         "id": "progression-0028",
-        "text": "De nouveaux alliés"
+        "text": "De nouveaux alliés",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "progression-0029",
@@ -17565,23 +18646,55 @@
       },
       {
         "id": "progression-0032",
-        "text": "De nouvelles relations"
+        "text": "De nouvelles relations",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "progression-0033",
-        "text": "De nouveaux contacts"
+        "text": "De nouveaux contacts",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "progression-0034",
-        "text": "De nouvelles sources d'information"
+        "text": "De nouvelles sources d'information",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "progression-0035",
-        "text": "De nouveaux secrets"
+        "text": "De nouveaux secrets",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "progression-0036",
-        "text": "De nouveaux indices"
+        "text": "De nouveaux indices",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "progression-0037",
@@ -17601,11 +18714,23 @@
       },
       {
         "id": "progression-0041",
-        "text": "De nouveaux droits d'accès"
+        "text": "De nouveaux droits d'accès",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "progression-0042",
-        "text": "Une habilitation de sécurité supérieure"
+        "text": "Une habilitation de sécurité supérieure",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "progression-0043",
@@ -18795,7 +19920,13 @@
     "npc_structures": [
       {
         "id": "npc_structures-0001",
-        "text": "Familles"
+        "text": "Familles",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "npc_structures-0002",
@@ -18807,7 +19938,13 @@
       },
       {
         "id": "npc_structures-0004",
-        "text": "Factions"
+        "text": "Factions",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "npc_structures-0005",
@@ -18815,7 +19952,13 @@
       },
       {
         "id": "npc_structures-0006",
-        "text": "Lieux de travail"
+        "text": "Lieux de travail",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "npc_structures-0007",
@@ -18851,7 +19994,13 @@
       },
       {
         "id": "npc_structures-0015",
-        "text": "Communautés villageoises"
+        "text": "Communautés villageoises",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "npc_structures-0016",
@@ -18859,11 +20008,23 @@
       },
       {
         "id": "npc_structures-0017",
-        "text": "Équipes"
+        "text": "Équipes",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "npc_structures-0018",
-        "text": "Équipages"
+        "text": "Équipages",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "npc_structures-0019",
@@ -18875,15 +20036,35 @@
       },
       {
         "id": "npc_structures-0021",
-        "text": "Amitiés"
+        "text": "Amitiés",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "npc_structures-0022",
-        "text": "Meilleurs amis"
+        "text": "Meilleurs amis",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "npc_structures-0023",
-        "text": "Connaissances"
+        "text": "Connaissances",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "npc_structures-0024",
@@ -18891,23 +20072,55 @@
       },
       {
         "id": "npc_structures-0025",
-        "text": "Relations de mentorat"
+        "text": "Relations de mentorat",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "npc_structures-0026",
-        "text": "Relations professeur–élève"
+        "text": "Relations professeur–élève",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "npc_structures-0027",
-        "text": "Relations chef–subordonné"
+        "text": "Relations chef–subordonné",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "npc_structures-0028",
-        "text": "Relations entre collègues"
+        "text": "Relations entre collègues",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "npc_structures-0029",
-        "text": "Relations de rivalité"
+        "text": "Relations de rivalité",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "npc_structures-0030",
@@ -18943,15 +20156,35 @@
       },
       {
         "id": "npc_structures-0038",
-        "text": "Confiance"
+        "text": "Confiance",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "npc_structures-0039",
-        "text": "Méfiance"
+        "text": "Méfiance",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "npc_structures-0040",
-        "text": "Loyauté"
+        "text": "Loyauté",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "npc_structures-0041",
@@ -18967,7 +20200,13 @@
       },
       {
         "id": "npc_structures-0044",
-        "text": "Relations amoureuses"
+        "text": "Relations amoureuses",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "npc_structures-0045",
@@ -20169,19 +21408,43 @@
     "generative_elements": [
       {
         "id": "generative_elements-0001",
-        "text": "Carte"
+        "text": "Carte",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "generative_elements-0002",
-        "text": "Personnages"
+        "text": "Personnages",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "generative_elements-0003",
-        "text": "Relations"
+        "text": "Relations",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "generative_elements-0004",
-        "text": "Crime"
+        "text": "Crime",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "generative_elements-0005",
@@ -20197,11 +21460,23 @@
       },
       {
         "id": "generative_elements-0008",
-        "text": "Secrets"
+        "text": "Secrets",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "generative_elements-0009",
-        "text": "Quêtes"
+        "text": "Quêtes",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "generative_elements-0010",
@@ -20213,11 +21488,24 @@
       },
       {
         "id": "generative_elements-0012",
-        "text": "Bâtiments"
+        "text": "Bâtiments",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "generative_elements-0013",
-        "text": "Pièces"
+        "text": "Pièces",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "generative_elements-0014",
@@ -20229,11 +21517,23 @@
       },
       {
         "id": "generative_elements-0016",
-        "text": "Terrain"
+        "text": "Terrain",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "generative_elements-0017",
-        "text": "Donjons"
+        "text": "Donjons",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "generative_elements-0018",
@@ -20249,7 +21549,14 @@
       },
       {
         "id": "generative_elements-0021",
-        "text": "Météo"
+        "text": "Météo",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "generative_elements-0022",
@@ -20257,11 +21564,24 @@
       },
       {
         "id": "generative_elements-0023",
-        "text": "Ressources naturelles"
+        "text": "Ressources naturelles",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "generative_elements-0024",
-        "text": "Emplacements des ressources"
+        "text": "Emplacements des ressources",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "generative_elements-0025",
@@ -20305,7 +21625,13 @@
       },
       {
         "id": "generative_elements-0035",
-        "text": "Familles"
+        "text": "Familles",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "generative_elements-0036",
@@ -20341,7 +21667,13 @@
       },
       {
         "id": "generative_elements-0044",
-        "text": "Amitiés"
+        "text": "Amitiés",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "generative_elements-0045",
@@ -21607,23 +22939,55 @@
     "technologies": [
       {
         "id": "technologies-0001",
-        "text": "HTML + Vanilla JavaScript + CSS"
+        "text": "HTML + Vanilla JavaScript + CSS",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "technologies-0002",
-        "text": "HTML + TypeScript + CSS"
+        "text": "HTML + TypeScript + CSS",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "technologies-0003",
-        "text": "HTML + JavaScript + Canvas API"
+        "text": "HTML + JavaScript + Canvas API",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "technologies-0004",
-        "text": "HTML + JavaScript + WebGL"
+        "text": "HTML + JavaScript + WebGL",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "technologies-0005",
-        "text": "HTML + JavaScript + Web Audio API"
+        "text": "HTML + JavaScript + Web Audio API",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "technologies-0006",
@@ -21635,15 +22999,33 @@
       },
       {
         "id": "technologies-0008",
-        "text": "HTML + JavaScript + Three.js"
+        "text": "HTML + JavaScript + Three.js",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "technologies-0009",
-        "text": "HTML + JavaScript + Phaser"
+        "text": "HTML + JavaScript + Phaser",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "technologies-0010",
-        "text": "HTML + JavaScript + PixiJS"
+        "text": "HTML + JavaScript + PixiJS",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "technologies-0011",
@@ -21659,11 +23041,23 @@
       },
       {
         "id": "technologies-0014",
-        "text": "Unity + C#"
+        "text": "Unity + C#",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "technologies-0015",
-        "text": "Unity 2D + C#"
+        "text": "Unity 2D + C#",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "technologies-0016",
@@ -21671,7 +23065,13 @@
       },
       {
         "id": "technologies-0017",
-        "text": "Unity UI + C#"
+        "text": "Unity UI + C#",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "technologies-0018",
@@ -21687,23 +23087,55 @@
       },
       {
         "id": "technologies-0021",
-        "text": "Godot + GDScript"
+        "text": "Godot + GDScript",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "technologies-0022",
-        "text": "Godot + C#"
+        "text": "Godot + C#",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "technologies-0023",
-        "text": "Godot 2D + GDScript"
+        "text": "Godot 2D + GDScript",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "technologies-0024",
-        "text": "Godot 2D + C#"
+        "text": "Godot 2D + C#",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "technologies-0025",
-        "text": "Godot 3D + GDScript"
+        "text": "Godot 3D + GDScript",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "technologies-0026",
@@ -21711,7 +23143,13 @@
       },
       {
         "id": "technologies-0027",
-        "text": "Unreal Engine + Blueprints"
+        "text": "Unreal Engine + Blueprints",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "technologies-0028",
@@ -21723,11 +23161,24 @@
       },
       {
         "id": "technologies-0030",
-        "text": "Python + Pygame"
+        "text": "Python + Pygame",
+        "jam": {
+          "level": 0,
+          "tags": [
+            "smallScope",
+            "beginnerFriendly"
+          ]
+        }
       },
       {
         "id": "technologies-0031",
-        "text": "Python + Arcade"
+        "text": "Python + Arcade",
+        "jam": {
+          "level": 1,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "technologies-0032",
@@ -21767,11 +23218,23 @@
       },
       {
         "id": "technologies-0041",
-        "text": "C# + MonoGame"
+        "text": "C# + MonoGame",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "technologies-0042",
-        "text": "C# + Raylib"
+        "text": "C# + Raylib",
+        "jam": {
+          "level": 2,
+          "tags": [
+            "smallScope"
+          ]
+        }
       },
       {
         "id": "technologies-0043",
@@ -22224,6 +23687,1224 @@
       {
         "id": "technologies-0155",
         "text": "Jeu basé sur SVG"
+      }
+    ]
+  },
+  "jam": {
+    "policyVersion": 2,
+    "constrainedCategories": [
+      "genres",
+      "settings",
+      "main_goals",
+      "core_mechanics",
+      "twists",
+      "scales",
+      "structural_formats",
+      "npc_structures",
+      "generative_elements",
+      "technologies",
+      "progression"
+    ],
+    "themes": [
+      {
+        "id": "jam_theme-0001",
+        "text": "Un seul"
+      },
+      {
+        "id": "jam_theme-0002",
+        "text": "Tout est lié"
+      },
+      {
+        "id": "jam_theme-0003",
+        "text": "Retour au début"
+      },
+      {
+        "id": "jam_theme-0004",
+        "text": "Écho"
+      },
+      {
+        "id": "jam_theme-0005",
+        "text": "Équilibre"
+      },
+      {
+        "id": "jam_theme-0006",
+        "text": "Vous n'êtes pas seul"
+      },
+      {
+        "id": "jam_theme-0007",
+        "text": "La dernière lumière"
+      },
+      {
+        "id": "jam_theme-0008",
+        "text": "Petits débuts"
+      },
+      {
+        "id": "jam_theme-0009",
+        "text": "Du temps emprunté"
+      },
+      {
+        "id": "jam_theme-0010",
+        "text": "Un autre point de vue"
+      },
+      {
+        "id": "jam_theme-0011",
+        "text": "Hors de sa place"
+      },
+      {
+        "id": "jam_theme-0012",
+        "text": "Fils invisibles"
+      },
+      {
+        "id": "jam_theme-0013",
+        "text": "Le prix de la liberté"
+      },
+      {
+        "id": "jam_theme-0014",
+        "text": "Une paix fragile"
+      },
+      {
+        "id": "jam_theme-0015",
+        "text": "Objets trouvés"
+      },
+      {
+        "id": "jam_theme-0016",
+        "text": "Sous la surface"
+      },
+      {
+        "id": "jam_theme-0017",
+        "text": "Sans retour"
+      },
+      {
+        "id": "jam_theme-0018",
+        "text": "De la place pour grandir"
+      },
+      {
+        "id": "jam_theme-0019",
+        "text": "L'autre côté"
+      },
+      {
+        "id": "jam_theme-0020",
+        "text": "Une dernière chance"
+      },
+      {
+        "id": "jam_theme-0021",
+        "text": "Entre les mondes"
+      },
+      {
+        "id": "jam_theme-0022",
+        "text": "Briser le cycle"
+      },
+      {
+        "id": "jam_theme-0023",
+        "text": "Compagnie inattendue"
+      },
+      {
+        "id": "jam_theme-0024",
+        "text": "Rien ne dure toujours"
+      },
+      {
+        "id": "jam_theme-0025",
+        "text": "Le long chemin du retour"
+      },
+      {
+        "id": "jam_theme-0026",
+        "text": "Caché en pleine vue"
+      },
+      {
+        "id": "jam_theme-0027",
+        "text": "Un monde sans mots"
+      },
+      {
+        "id": "jam_theme-0028",
+        "text": "Faire confiance à l'inconnu"
+      },
+      {
+        "id": "jam_theme-0029",
+        "text": "Il manque quelque chose"
+      },
+      {
+        "id": "jam_theme-0030",
+        "text": "Trop d'une bonne chose"
+      },
+      {
+        "id": "jam_theme-0031",
+        "text": "Renversement"
+      },
+      {
+        "id": "jam_theme-0032",
+        "text": "Silence"
+      },
+      {
+        "id": "jam_theme-0033",
+        "text": "Racines"
+      },
+      {
+        "id": "jam_theme-0034",
+        "text": "Reflet"
+      },
+      {
+        "id": "jam_theme-0035",
+        "text": "Gravité"
+      },
+      {
+        "id": "jam_theme-0036",
+        "text": "Élan"
+      },
+      {
+        "id": "jam_theme-0037",
+        "text": "Floraison"
+      },
+      {
+        "id": "jam_theme-0038",
+        "text": "Déclin"
+      },
+      {
+        "id": "jam_theme-0039",
+        "text": "Transformation"
+      },
+      {
+        "id": "jam_theme-0040",
+        "text": "Seuil"
+      },
+      {
+        "id": "jam_theme-0041",
+        "text": "Fragments"
+      },
+      {
+        "id": "jam_theme-0042",
+        "text": "Résonance"
+      },
+      {
+        "id": "jam_theme-0043",
+        "text": "Abri"
+      },
+      {
+        "id": "jam_theme-0044",
+        "text": "Faim"
+      },
+      {
+        "id": "jam_theme-0045",
+        "text": "Patience"
+      },
+      {
+        "id": "jam_theme-0046",
+        "text": "Distance"
+      },
+      {
+        "id": "jam_theme-0047",
+        "text": "Appartenance"
+      },
+      {
+        "id": "jam_theme-0048",
+        "text": "Héritage"
+      },
+      {
+        "id": "jam_theme-0049",
+        "text": "Curiosité"
+      },
+      {
+        "id": "jam_theme-0050",
+        "text": "Sacrifice"
+      },
+      {
+        "id": "jam_theme-0051",
+        "text": "Frontières"
+      },
+      {
+        "id": "jam_theme-0052",
+        "text": "Rythme"
+      },
+      {
+        "id": "jam_theme-0053",
+        "text": "Mémoire"
+      },
+      {
+        "id": "jam_theme-0054",
+        "text": "Pardon"
+      },
+      {
+        "id": "jam_theme-0055",
+        "text": "Compromis"
+      },
+      {
+        "id": "jam_theme-0056",
+        "text": "Isolement"
+      },
+      {
+        "id": "jam_theme-0057",
+        "text": "Découverte"
+      },
+      {
+        "id": "jam_theme-0058",
+        "text": "Retenue"
+      },
+      {
+        "id": "jam_theme-0059",
+        "text": "Retrouvailles"
+      },
+      {
+        "id": "jam_theme-0060",
+        "text": "Incertitude"
+      },
+      {
+        "id": "jam_theme-0061",
+        "text": "Une place vide"
+      },
+      {
+        "id": "jam_theme-0062",
+        "text": "L'histoire inachevée"
+      },
+      {
+        "id": "jam_theme-0063",
+        "text": "Ne laisser aucune trace"
+      },
+      {
+        "id": "jam_theme-0064",
+        "text": "Un inconnu familier"
+      },
+      {
+        "id": "jam_theme-0065",
+        "text": "Les deux faces d'une pièce"
+      },
+      {
+        "id": "jam_theme-0066",
+        "text": "Le mauvais outil"
+      },
+      {
+        "id": "jam_theme-0067",
+        "text": "Retenir son souffle"
+      },
+      {
+        "id": "jam_theme-0068",
+        "text": "Faire de la place"
+      },
+      {
+        "id": "jam_theme-0069",
+        "text": "Une amitié improbable"
+      },
+      {
+        "id": "jam_theme-0070",
+        "text": "La plus petite différence"
+      },
+      {
+        "id": "jam_theme-0071",
+        "text": "Une promesse tenue"
+      },
+      {
+        "id": "jam_theme-0072",
+        "text": "Suivre les fissures"
+      },
+      {
+        "id": "jam_theme-0073",
+        "text": "Au-delà du bord"
+      },
+      {
+        "id": "jam_theme-0074",
+        "text": "Un pas de retard"
+      },
+      {
+        "id": "jam_theme-0075",
+        "text": "À l'envers"
+      },
+      {
+        "id": "jam_theme-0076",
+        "text": "La révolution silencieuse"
+      },
+      {
+        "id": "jam_theme-0077",
+        "text": "Rien à perdre"
+      },
+      {
+        "id": "jam_theme-0078",
+        "text": "Porter le poids"
+      },
+      {
+        "id": "jam_theme-0079",
+        "text": "Un nom emprunté"
+      },
+      {
+        "id": "jam_theme-0080",
+        "text": "Quand la musique s'arrête"
+      },
+      {
+        "id": "jam_theme-0081",
+        "text": "Partir de rien"
+      },
+      {
+        "id": "jam_theme-0082",
+        "text": "Une place pour chacun"
+      },
+      {
+        "id": "jam_theme-0083",
+        "text": "Le prix du savoir"
+      },
+      {
+        "id": "jam_theme-0084",
+        "text": "Maintenir l'ensemble"
+      },
+      {
+        "id": "jam_theme-0085",
+        "text": "La pièce manquante"
+      },
+      {
+        "id": "jam_theme-0086",
+        "text": "Dans le mauvais sens"
+      },
+      {
+        "id": "jam_theme-0087",
+        "text": "Un peu de gentillesse"
+      },
+      {
+        "id": "jam_theme-0088",
+        "text": "Le poids d'un mot"
+      },
+      {
+        "id": "jam_theme-0089",
+        "text": "Avant la tempête"
+      },
+      {
+        "id": "jam_theme-0090",
+        "text": "Après la fin"
+      },
+      {
+        "id": "jam_theme-0091",
+        "text": "La première erreur"
+      },
+      {
+        "id": "jam_theme-0092",
+        "text": "Sans instructions"
+      },
+      {
+        "id": "jam_theme-0093",
+        "text": "Changer les règles"
+      },
+      {
+        "id": "jam_theme-0094",
+        "text": "Une autre forme de force"
+      },
+      {
+        "id": "jam_theme-0095",
+        "text": "Quand moins vaut plus"
+      },
+      {
+        "id": "jam_theme-0096",
+        "text": "La lumière que nous laissons"
+      },
+      {
+        "id": "jam_theme-0097",
+        "text": "Plus forts séparément"
+      },
+      {
+        "id": "jam_theme-0098",
+        "text": "Tout a un prix"
+      },
+      {
+        "id": "jam_theme-0099",
+        "text": "Hors de portée"
+      },
+      {
+        "id": "jam_theme-0100",
+        "text": "Chacun son tour"
+      },
+      {
+        "id": "jam_theme-0101",
+        "text": "Une porte ouverte"
+      },
+      {
+        "id": "jam_theme-0102",
+        "text": "La mauvaise destination"
+      },
+      {
+        "id": "jam_theme-0103",
+        "text": "Apprendre à tomber"
+      },
+      {
+        "id": "jam_theme-0104",
+        "text": "De passage"
+      },
+      {
+        "id": "jam_theme-0105",
+        "text": "Une file sans fin"
+      },
+      {
+        "id": "jam_theme-0106",
+        "text": "La dernière livraison"
+      },
+      {
+        "id": "jam_theme-0107",
+        "text": "Hors service"
+      },
+      {
+        "id": "jam_theme-0108",
+        "text": "Sans adresse fixe"
+      },
+      {
+        "id": "jam_theme-0109",
+        "text": "Les déchets des autres"
+      },
+      {
+        "id": "jam_theme-0110",
+        "text": "Entre les lignes"
+      },
+      {
+        "id": "jam_theme-0111",
+        "text": "La porte se souvient"
+      },
+      {
+        "id": "jam_theme-0112",
+        "text": "Un mensonge honnête"
+      },
+      {
+        "id": "jam_theme-0113",
+        "text": "Trop tard, trop tôt"
+      },
+      {
+        "id": "jam_theme-0114",
+        "text": "Le monde d'à côté"
+      },
+      {
+        "id": "jam_theme-0115",
+        "text": "Du courage emprunté"
+      },
+      {
+        "id": "jam_theme-0116",
+        "text": "Le dernier invité"
+      },
+      {
+        "id": "jam_theme-0117",
+        "text": "Un univers de poche"
+      },
+      {
+        "id": "jam_theme-0118",
+        "text": "Les non-dits"
+      },
+      {
+        "id": "jam_theme-0119",
+        "text": "Un foyer inconnu"
+      },
+      {
+        "id": "jam_theme-0120",
+        "text": "Pas une mince affaire"
+      },
+      {
+        "id": "jam_theme-0121",
+        "text": "Le chemin le plus court"
+      },
+      {
+        "id": "jam_theme-0122",
+        "text": "Gardez la monnaie"
+      },
+      {
+        "id": "jam_theme-0123",
+        "text": "Une deuxième ombre"
+      },
+      {
+        "id": "jam_theme-0124",
+        "text": "Les murs écoutent"
+      },
+      {
+        "id": "jam_theme-0125",
+        "text": "Un miracle ordinaire"
+      },
+      {
+        "id": "jam_theme-0126",
+        "text": "Suivre la chaleur"
+      },
+      {
+        "id": "jam_theme-0127",
+        "text": "Il n'y a pas de carte"
+      },
+      {
+        "id": "jam_theme-0128",
+        "text": "Une question d'échelle"
+      },
+      {
+        "id": "jam_theme-0129",
+        "text": "La dernière graine"
+      },
+      {
+        "id": "jam_theme-0130",
+        "text": "Ce qui reste"
+      },
+      {
+        "id": "jam_theme-0131",
+        "text": "Le mauvais reflet"
+      },
+      {
+        "id": "jam_theme-0132",
+        "text": "Le trône vide"
+      },
+      {
+        "id": "jam_theme-0133",
+        "text": "À assembler soi-même"
+      },
+      {
+        "id": "jam_theme-0134",
+        "text": "À manipuler avec soin"
+      },
+      {
+        "id": "jam_theme-0135",
+        "text": "La forme de l'absence"
+      },
+      {
+        "id": "jam_theme-0136",
+        "text": "Une invitation impossible"
+      },
+      {
+        "id": "jam_theme-0137",
+        "text": "Laisser la porte ouverte"
+      },
+      {
+        "id": "jam_theme-0138",
+        "text": "Les douleurs de la croissance"
+      },
+      {
+        "id": "jam_theme-0139",
+        "text": "L'invité invisible"
+      },
+      {
+        "id": "jam_theme-0140",
+        "text": "L'heure perdue"
+      },
+      {
+        "id": "jam_theme-0141",
+        "text": "Un fardeau partagé"
+      },
+      {
+        "id": "jam_theme-0142",
+        "text": "Garder ses distances"
+      },
+      {
+        "id": "jam_theme-0143",
+        "text": "Le plus petit héros"
+      },
+      {
+        "id": "jam_theme-0144",
+        "text": "Un changement d'avis"
+      },
+      {
+        "id": "jam_theme-0145",
+        "text": "Chaque seconde compte"
+      },
+      {
+        "id": "jam_theme-0146",
+        "text": "Un début accidentel"
+      },
+      {
+        "id": "jam_theme-0147",
+        "text": "Quand personne ne regarde"
+      },
+      {
+        "id": "jam_theme-0148",
+        "text": "La règle oubliée"
+      },
+      {
+        "id": "jam_theme-0149",
+        "text": "Fait d'erreurs"
+      },
+      {
+        "id": "jam_theme-0150",
+        "text": "L'espace entre les choses"
+      },
+      {
+        "id": "jam_theme-0151",
+        "text": "Le son du foyer"
+      },
+      {
+        "id": "jam_theme-0152",
+        "text": "La prochaine génération"
+      },
+      {
+        "id": "jam_theme-0153",
+        "text": "Perdu dans la traduction"
+      },
+      {
+        "id": "jam_theme-0154",
+        "text": "La mauvaise sorte de magie"
+      },
+      {
+        "id": "jam_theme-0155",
+        "text": "La dernière faveur"
+      },
+      {
+        "id": "jam_theme-0156",
+        "text": "Une douce collision"
+      },
+      {
+        "id": "jam_theme-0157",
+        "text": "Le premier visiteur"
+      },
+      {
+        "id": "jam_theme-0158",
+        "text": "Le monde retient son souffle"
+      },
+      {
+        "id": "jam_theme-0159",
+        "text": "Sans vainqueurs"
+      },
+      {
+        "id": "jam_theme-0160",
+        "text": "Lâcher prise"
+      },
+      {
+        "id": "jam_theme-0161",
+        "text": "Un colis sans étiquette"
+      },
+      {
+        "id": "jam_theme-0162",
+        "text": "La plus petite rébellion"
+      },
+      {
+        "id": "jam_theme-0163",
+        "text": "Le dernier endroit chaud"
+      },
+      {
+        "id": "jam_theme-0164",
+        "text": "Un avenir emprunté"
+      },
+      {
+        "id": "jam_theme-0165",
+        "text": "La mauvaise saison"
+      },
+      {
+        "id": "jam_theme-0166",
+        "text": "Le pont inachevé"
+      },
+      {
+        "id": "jam_theme-0167",
+        "text": "Faites comme chez vous"
+      },
+      {
+        "id": "jam_theme-0168",
+        "text": "L'ingrédient secret"
+      },
+      {
+        "id": "jam_theme-0169",
+        "text": "Un peu trop loin"
+      },
+      {
+        "id": "jam_theme-0170",
+        "text": "Le premier adieu"
+      },
+      {
+        "id": "jam_theme-0171",
+        "text": "Les fils du destin"
+      },
+      {
+        "id": "jam_theme-0172",
+        "text": "Un monde dans une boîte"
+      },
+      {
+        "id": "jam_theme-0173",
+        "text": "Des cadeaux indésirables"
+      },
+      {
+        "id": "jam_theme-0174",
+        "text": "Le mauvais numéro"
+      },
+      {
+        "id": "jam_theme-0175",
+        "text": "La dernière page"
+      },
+      {
+        "id": "jam_theme-0176",
+        "text": "Une promesse en l'air"
+      },
+      {
+        "id": "jam_theme-0177",
+        "text": "Une question de timing"
+      },
+      {
+        "id": "jam_theme-0178",
+        "text": "Le plus petit monde"
+      },
+      {
+        "id": "jam_theme-0179",
+        "text": "Le chemin non emprunté"
+      },
+      {
+        "id": "jam_theme-0180",
+        "text": "Une tempête dans un verre d'eau"
+      },
+      {
+        "id": "jam_theme-0181",
+        "text": "La forme de l'espoir"
+      },
+      {
+        "id": "jam_theme-0182",
+        "text": "La dernière goutte"
+      },
+      {
+        "id": "jam_theme-0183",
+        "text": "À qui le tour ?"
+      },
+      {
+        "id": "jam_theme-0184",
+        "text": "Une journée ordinaire"
+      },
+      {
+        "id": "jam_theme-0185",
+        "text": "Quelque chose d'emprunté"
+      },
+      {
+        "id": "jam_theme-0186",
+        "text": "La mauvaise porte"
+      },
+      {
+        "id": "jam_theme-0187",
+        "text": "Le long silence"
+      },
+      {
+        "id": "jam_theme-0188",
+        "text": "Suivre l'odeur"
+      },
+      {
+        "id": "jam_theme-0189",
+        "text": "Le cadre vide"
+      },
+      {
+        "id": "jam_theme-0190",
+        "text": "L'adresse de retour"
+      },
+      {
+        "id": "jam_theme-0191",
+        "text": "Conçu pour casser"
+      },
+      {
+        "id": "jam_theme-0192",
+        "text": "La mauvaise réponse"
+      },
+      {
+        "id": "jam_theme-0193",
+        "text": "Un endroit pour se reposer"
+      },
+      {
+        "id": "jam_theme-0194",
+        "text": "Une dernière demande"
+      },
+      {
+        "id": "jam_theme-0195",
+        "text": "La couleur du son"
+      },
+      {
+        "id": "jam_theme-0196",
+        "text": "Une boussole cassée"
+      },
+      {
+        "id": "jam_theme-0197",
+        "text": "Les apparences trompent"
+      },
+      {
+        "id": "jam_theme-0198",
+        "text": "Une main à tenir"
+      },
+      {
+        "id": "jam_theme-0199",
+        "text": "La plus petite étincelle"
+      },
+      {
+        "id": "jam_theme-0200",
+        "text": "Le mauvais héros"
+      },
+      {
+        "id": "jam_theme-0201",
+        "text": "Des rêves d'occasion"
+      },
+      {
+        "id": "jam_theme-0202",
+        "text": "La langue oubliée"
+      },
+      {
+        "id": "jam_theme-0203",
+        "text": "Une invitation à disparaître"
+      },
+      {
+        "id": "jam_theme-0204",
+        "text": "Le dernier mot sûr"
+      },
+      {
+        "id": "jam_theme-0205",
+        "text": "Un toit d'étoiles"
+      },
+      {
+        "id": "jam_theme-0206",
+        "text": "La frontière invisible"
+      },
+      {
+        "id": "jam_theme-0207",
+        "text": "Rien ne s'emboîte"
+      },
+      {
+        "id": "jam_theme-0208",
+        "text": "Le poids du silence"
+      },
+      {
+        "id": "jam_theme-0209",
+        "text": "Le raccourci impossible"
+      },
+      {
+        "id": "jam_theme-0210",
+        "text": "Les pas d'un inconnu"
+      },
+      {
+        "id": "jam_theme-0211",
+        "text": "Le vent tourne"
+      },
+      {
+        "id": "jam_theme-0212",
+        "text": "La dernière répétition"
+      },
+      {
+        "id": "jam_theme-0213",
+        "text": "Les graines du doute"
+      },
+      {
+        "id": "jam_theme-0214",
+        "text": "Le nid vide"
+      },
+      {
+        "id": "jam_theme-0215",
+        "text": "Pas de lignes droites"
+      },
+      {
+        "id": "jam_theme-0216",
+        "text": "Une ombre de gentillesse"
+      },
+      {
+        "id": "jam_theme-0217",
+        "text": "L'invité oublié"
+      },
+      {
+        "id": "jam_theme-0218",
+        "text": "Le mauvais siècle"
+      },
+      {
+        "id": "jam_theme-0219",
+        "text": "Quelque chose à sauver"
+      },
+      {
+        "id": "jam_theme-0220",
+        "text": "Au bord du sommeil"
+      },
+      {
+        "id": "jam_theme-0221",
+        "text": "Un foyer provisoire"
+      },
+      {
+        "id": "jam_theme-0222",
+        "text": "Le lien rompu"
+      },
+      {
+        "id": "jam_theme-0223",
+        "text": "Le dernier témoin"
+      },
+      {
+        "id": "jam_theme-0224",
+        "text": "Fait pour être partagé"
+      },
+      {
+        "id": "jam_theme-0225",
+        "text": "Le sentier oublié"
+      },
+      {
+        "id": "jam_theme-0226",
+        "text": "Le mauvais souhait"
+      },
+      {
+        "id": "jam_theme-0227",
+        "text": "Un regard neuf"
+      },
+      {
+        "id": "jam_theme-0228",
+        "text": "La dernière réparation"
+      },
+      {
+        "id": "jam_theme-0229",
+        "text": "Le public invisible"
+      },
+      {
+        "id": "jam_theme-0230",
+        "text": "Le monde après la pluie"
+      },
+      {
+        "id": "jam_theme-0231",
+        "text": "Trop de clés"
+      },
+      {
+        "id": "jam_theme-0232",
+        "text": "Le langage des oiseaux"
+      },
+      {
+        "id": "jam_theme-0233",
+        "text": "La dernière récolte"
+      },
+      {
+        "id": "jam_theme-0234",
+        "text": "Un battement emprunté"
+      },
+      {
+        "id": "jam_theme-0235",
+        "text": "La promesse oubliée"
+      },
+      {
+        "id": "jam_theme-0236",
+        "text": "Un adieu inachevé"
+      },
+      {
+        "id": "jam_theme-0237",
+        "text": "La mauvaise taille"
+      },
+      {
+        "id": "jam_theme-0238",
+        "text": "Le travail invisible"
+      },
+      {
+        "id": "jam_theme-0239",
+        "text": "Une étincelle dans le noir"
+      },
+      {
+        "id": "jam_theme-0240",
+        "text": "La première empreinte"
+      },
+      {
+        "id": "jam_theme-0241",
+        "text": "Le dernier refuge"
+      },
+      {
+        "id": "jam_theme-0242",
+        "text": "Le mauvais rythme"
+      },
+      {
+        "id": "jam_theme-0243",
+        "text": "Des ailes empruntées"
+      },
+      {
+        "id": "jam_theme-0244",
+        "text": "Le monde écoute"
+      },
+      {
+        "id": "jam_theme-0245",
+        "text": "Mille petits pas"
+      },
+      {
+        "id": "jam_theme-0246",
+        "text": "Le dernier bac"
+      },
+      {
+        "id": "jam_theme-0247",
+        "text": "Le jardin oublié"
+      },
+      {
+        "id": "jam_theme-0248",
+        "text": "Un cadeau pour personne"
+      },
+      {
+        "id": "jam_theme-0249",
+        "text": "Du mauvais côté de l'aube"
+      },
+      {
+        "id": "jam_theme-0250",
+        "text": "L'art d'attendre"
+      },
+      {
+        "id": "jam_theme-0251",
+        "text": "Un nom manquant"
+      },
+      {
+        "id": "jam_theme-0252",
+        "text": "La dernière représentation"
+      },
+      {
+        "id": "jam_theme-0253",
+        "text": "Une blessure invisible"
+      },
+      {
+        "id": "jam_theme-0254",
+        "text": "Le monde à rebours"
+      },
+      {
+        "id": "jam_theme-0255",
+        "text": "Un lieu qui se déplace"
+      },
+      {
+        "id": "jam_theme-0256",
+        "text": "La mélodie oubliée"
+      },
+      {
+        "id": "jam_theme-0257",
+        "text": "Une voix empruntée"
+      },
+      {
+        "id": "jam_theme-0258",
+        "text": "La dernière question"
+      },
+      {
+        "id": "jam_theme-0259",
+        "text": "La mauvaise couleur"
+      },
+      {
+        "id": "jam_theme-0260",
+        "text": "Un horizon vide"
+      },
+      {
+        "id": "jam_theme-0261",
+        "text": "Le monde d'en bas"
+      },
+      {
+        "id": "jam_theme-0262",
+        "text": "Un message sans mots"
+      },
+      {
+        "id": "jam_theme-0263",
+        "text": "La dernière allumette"
+      },
+      {
+        "id": "jam_theme-0264",
+        "text": "La corvée oubliée"
+      },
+      {
+        "id": "jam_theme-0265",
+        "text": "La mauvaise direction"
+      },
+      {
+        "id": "jam_theme-0266",
+        "text": "Un héritage inattendu"
+      },
+      {
+        "id": "jam_theme-0267",
+        "text": "La scène vide"
+      },
+      {
+        "id": "jam_theme-0268",
+        "text": "Un monde sans ombres"
+      },
+      {
+        "id": "jam_theme-0269",
+        "text": "Le dernier signal"
+      },
+      {
+        "id": "jam_theme-0270",
+        "text": "Le visage oublié"
+      },
+      {
+        "id": "jam_theme-0271",
+        "text": "Un été emprunté"
+      },
+      {
+        "id": "jam_theme-0272",
+        "text": "La mauvaise histoire"
+      },
+      {
+        "id": "jam_theme-0273",
+        "text": "Une invitation à rester"
+      },
+      {
+        "id": "jam_theme-0274",
+        "text": "Le poids d'une plume"
+      },
+      {
+        "id": "jam_theme-0275",
+        "text": "La dernière traversée"
+      },
+      {
+        "id": "jam_theme-0276",
+        "text": "La fête oubliée"
+      },
+      {
+        "id": "jam_theme-0277",
+        "text": "Le monde d'en haut"
+      },
+      {
+        "id": "jam_theme-0278",
+        "text": "Une heure empruntée"
+      },
+      {
+        "id": "jam_theme-0279",
+        "text": "La mauvaise question"
+      },
+      {
+        "id": "jam_theme-0280",
+        "text": "La dernière neige"
+      },
+      {
+        "id": "jam_theme-0281",
+        "text": "Un pont invisible"
+      },
+      {
+        "id": "jam_theme-0282",
+        "text": "Le savoir-faire oublié"
+      },
+      {
+        "id": "jam_theme-0283",
+        "text": "Un monde sans horloges"
+      },
+      {
+        "id": "jam_theme-0284",
+        "text": "La mauvaise sorte de trésor"
+      },
+      {
+        "id": "jam_theme-0285",
+        "text": "Un abri emprunté"
+      },
+      {
+        "id": "jam_theme-0286",
+        "text": "Le dernier rendez-vous"
+      },
+      {
+        "id": "jam_theme-0287",
+        "text": "La route invisible"
+      },
+      {
+        "id": "jam_theme-0288",
+        "text": "La recette oubliée"
+      },
+      {
+        "id": "jam_theme-0289",
+        "text": "Un monde qui oublie"
+      },
+      {
+        "id": "jam_theme-0290",
+        "text": "La mauvaise sorte de silence"
+      },
+      {
+        "id": "jam_theme-0291",
+        "text": "La dernière lanterne"
+      },
+      {
+        "id": "jam_theme-0292",
+        "text": "Un accord tacite"
+      },
+      {
+        "id": "jam_theme-0293",
+        "text": "Le but oublié"
+      },
+      {
+        "id": "jam_theme-0294",
+        "text": "Un monde désaccordé"
+      },
+      {
+        "id": "jam_theme-0295",
+        "text": "La mauvaise sorte de chance"
+      },
+      {
+        "id": "jam_theme-0296",
+        "text": "Une fin empruntée"
+      },
+      {
+        "id": "jam_theme-0297",
+        "text": "La dernière petite chose"
+      },
+      {
+        "id": "jam_theme-0298",
+        "text": "Le cadeau invisible"
+      },
+      {
+        "id": "jam_theme-0299",
+        "text": "Le lendemain oublié"
+      },
+      {
+        "id": "jam_theme-0300",
+        "text": "Recommencer autrement"
       }
     ]
   }

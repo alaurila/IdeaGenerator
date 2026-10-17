@@ -1,5 +1,6 @@
 // Pure generation: no DOM, storage, network or shared application state.
-import { CATEGORIES } from './config.js';
+import { CATEGORIES, MIN_COUNT, MAX_COUNT } from './config.js';
+import { normalizeJam, jamSelectionOptions, resolveJamTheme, JAM_POLICY_VERSION } from './jamPolicy.js';
 
 export const SCHEMA_VERSION = 2;
 export const GENERATOR_VERSION = 1;
@@ -61,7 +62,7 @@ export function pickUnique(list, count, avoid = [], random = Math.random) {
   return picked;
 }
 
-export function generateIdea({ catalog, language, seed }) {
+export function generateIdea({ catalog, language, seed, jam: jamInput, counts = {} }) {
   if (typeof language !== 'string' || typeof seed !== 'string') {
     throw new TypeError('language and seed must be strings');
   }
@@ -70,6 +71,8 @@ export function generateIdea({ catalog, language, seed }) {
       catalog.language !== language) {
     throw new TypeError('Unsupported catalog version or language');
   }
+  const jam = normalizeJam(jamInput);
+  if (jam.enabled && catalog.jam?.policyVersion !== JAM_POLICY_VERSION) throw new TypeError('Unsupported game jam catalog');
   const categories = Object.fromEntries(CATEGORIES.map(category => {
     const values = catalog.categories?.[category.key];
     if (!Array.isArray(values) || !values.length || values.some(v =>
@@ -77,11 +80,16 @@ export function generateIdea({ catalog, language, seed }) {
       new Set(values.map(v => v.id)).size !== values.length) {
       throw new TypeError(`Missing or invalid catalog category: ${category.key}`);
     }
-    const count = category.multi ? (category.defaultCount ?? 1) : 1;
+    const count = counts[category.key] ?? (category.multi ? (category.defaultCount ?? 1) : 1);
+    if (!Number.isInteger(count) || count < MIN_COUNT || count > (category.multi ? MAX_COUNT : 1)) {
+      throw new TypeError(`Invalid count: ${category.key}`);
+    }
     // Sorting IDs makes source file reordering irrelevant to seeded results.
-    const ordered = [...values].sort((a, b) => a.id < b.id ? -1 : a.id > b.id ? 1 : 0);
-    return [category.key, pickUnique(ordered, count, [], random).map(value => ({ ...value }))];
+    const ordered = [...jamSelectionOptions(catalog, category.key, jam, count)].sort((a, b) => a.id < b.id ? -1 : a.id > b.id ? 1 : 0);
+    return [category.key, pickUnique(ordered, count, [], random).map(({ id, text }) => ({ id, text }))];
   }));
   return { schemaVersion: SCHEMA_VERSION, generatorVersion: GENERATOR_VERSION,
-    catalogVersion: catalog.catalogVersion, language, seed, categories };
+    catalogVersion: catalog.catalogVersion, language, seed, categories,
+    ...(jam.enabled ? { jam: { ...jam, policyVersion: JAM_POLICY_VERSION,
+      theme: resolveJamTheme(jam, catalog.jam.themes, seededRandom(`theme:${seed}`)) } } : {}) };
 }
