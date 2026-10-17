@@ -53,16 +53,33 @@ export function fillMissing() {
   if (filled.length) commit(filled);
 }
 
-// A fresh idea is reproducible from its language and seed, independent of storage.
-export function newIdea(seed = crypto.randomUUID()) {
-  const idea = generateIdea({ catalog, language: currentLanguage, seed });
+function applyIdea(idea) {
   CATEGORIES.forEach(({ key }) => {
     const values = idea.categories[key].map(option => option.text);
     Object.assign(state[key], { values, ids: idea.categories[key].map(option => option.id),
       count: values.length, locked: false, excluded: false });
   });
+}
+
+// A fresh idea is reproducible from its language and seed, independent of storage.
+export function newIdea(seed = crypto.randomUUID()) {
+  const idea = generateIdea({ catalog, language: currentLanguage, seed });
+  applyIdea(idea);
   commit(CATEGORIES.map(c => c.key));
   return idea;
+}
+
+// Demonstrate locks and exclusions without changing the pure generator's output.
+export function exampleIdea() {
+  applyIdea(generateIdea({ catalog, language: currentLanguage, seed: crypto.randomUUID() }));
+  const locked = pickUnique(CATEGORIES.map(c => c.key), 2);
+  locked.forEach(key => { state[key].locked = true; });
+  // Keep the three introductory fields populated so the example remains readable.
+  const candidates = CATEGORIES.map(c => c.key)
+    .filter(key => !locked.includes(key) && !['genres', 'main_goals', 'twists'].includes(key));
+  pickUnique(candidates, 2 + Math.floor(Math.random() * 2))
+    .forEach(key => { state[key].excluded = true; });
+  commit(CATEGORIES.map(c => c.key));
 }
 
 export function unlockAll() {

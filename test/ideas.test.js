@@ -100,7 +100,7 @@ test('saved selections survive label edits and language switches by ID; old stor
       path === 'data/fi/catalog.json' ? fi : path === 'data/en/catalog.json' ? en : {} });
     const loader = await import('../js/dataLoader.js');
     const { state, initState } = await import('../js/state.js');
-    const { newIdea, translateValues } = await import('../js/generator.js');
+    const { newIdea, exampleIdea, rollAll, toggleExcluded, translateValues } = await import('../js/generator.js');
     const { loadLanguage } = await import('../js/i18n.js');
     await loadLanguage('fi');
     await loader.loadAllLists('fi');
@@ -123,6 +123,26 @@ test('saved selections survive label edits and language switches by ID; old stor
     const expected = [...state.player_roles.values];
     assert.equal(initState(), true);
     assert.deepEqual(state.player_roles.values, expected);
+
+    await loadLanguage('en');
+    exampleIdea();
+    const locked = Object.keys(state).filter(key => state[key].locked);
+    const excluded = Object.keys(state).filter(key => state[key].excluded);
+    assert.equal(locked.length, 2);
+    assert.ok(excluded.length === 2 || excluded.length === 3);
+    assert.ok(locked.every(key => !state[key].excluded && state[key].values.length));
+    assert.ok(['genres', 'main_goals', 'twists'].every(key => !state[key].excluded));
+    const kept = Object.fromEntries([...locked, ...excluded].map(key => [key, [...state[key].values]]));
+    rollAll();
+    for (const [key, values] of Object.entries(kept)) assert.deepEqual(state[key].values, values);
+    const savedExample = structuredClone(state);
+    assert.equal(initState(), true);
+    assert.deepEqual(state, savedExample);
+    toggleExcluded(excluded[0]);
+    assert.equal(state[excluded[0]].excluded, false);
+    assert.ok(state[excluded[0]].values.length);
+    newIdea('explicit-replay');
+    assert.ok(Object.values(state).every(entry => !entry.locked && !entry.excluded && entry.values.length));
   } finally {
     for (const [key, value] of Object.entries(originalGlobals)) {
       if (value === undefined) delete globalThis[key];

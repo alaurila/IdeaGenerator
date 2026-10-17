@@ -1,4 +1,12 @@
 {
+  "starter.emphasizeAll": "Korosta kaikkia kenttiä",
+  "starter.focusMain": "Korosta vain pääkenttiä",
+  "starter.heading": "Seuraava pelisi alkaa tästä",
+  "starter.hint": "Kaikki kentät ovat mukana ideassa. Lukitse kiinnostavat osat ja arvo loput uudelleen.",
+  "starter.generate": "Arvo peli-idea",
+  "starter.more": "Lisävalinnat ja listat",
+  "starter.moreHint": "Tutki koko ideaa, muokkaa yksittäisiä kenttiä tai valitse arvoja listoista.",
+
   "app.title": "Game Idea Generator",
   "app.loading": "Ladataan listoja…",
   "app.loadError": "Listojen lataus epäonnistui: {error}",

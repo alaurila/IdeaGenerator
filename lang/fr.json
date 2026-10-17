@@ -1,4 +1,12 @@
 {
+  "starter.emphasizeAll": "Mettre tous les champs en valeur",
+  "starter.focusMain": "Mettre les champs principaux en valeur",
+  "starter.heading": "Votre prochain jeu commence ici",
+  "starter.hint": "Tous les champs font partie de l'idée. Verrouillez ce qui vous plaît et tirez le reste au sort.",
+  "starter.generate": "Générer une idée",
+  "starter.more": "Plus d'options et de listes",
+  "starter.moreHint": "Explorez l'idée complète, ajustez chaque champ ou choisissez des valeurs dans les listes.",
+
   "app.title": "Game Idea Generator",
   "app.loading": "Chargement des listes…",
   "app.loadError": "Impossible de charger les listes : {error}",

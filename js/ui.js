@@ -5,8 +5,8 @@ import { state } from './state.js';
 import { el, escapeHtml } from './dom.js';
 import { t, categoryLabel } from './i18n.js';
 
-export function buildCards(container) {
-  container.innerHTML = CATEGORIES.map(c => `
+export function buildCards(container, categories = CATEGORIES) {
+  container.innerHTML = categories.map(c => `
     <article class="card${c.multi ? ' card--multi' : ''}" data-key="${c.key}">
       <header class="card-head">
         <i class="fa-solid ${c.icon} card-icon" aria-hidden="true"></i>

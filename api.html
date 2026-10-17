@@ -102,7 +102,9 @@ const idea = generateIdea({
   <h2>Open or share the same idea</h2>
   <p><a href="./?lang=en&amp;seed=my-idea-123">Open the English example</a> using
     <code>?lang=en&amp;seed=my-idea-123</code> on the home page. The language and seed override saved browser state.
-    New Idea creates a seed and updates the address bar. Editing values or excluding categories removes the seed.</p>
+    First visits without a saved idea demonstrate the controls with two locks and two
+    or three excluded fields; these demonstrations have no replay seed. Use <code>fresh=1</code> for a complete
+    seeded idea without demonstration locks or exclusions. Editing values or excluding categories removes the seed.</p>
   <p>The same seed, language, catalog content and generator version produce the same result.
     Reordering source options does not affect it. Changes to available options or the generation algorithm may change
     results. Seeded URLs use the currently published catalog; they do not archive old catalog versions.

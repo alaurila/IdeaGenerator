@@ -1,4 +1,12 @@
 {
+  "starter.emphasizeAll": "Emphasize all fields",
+  "starter.focusMain": "Focus on main fields",
+  "starter.heading": "Your next game starts here",
+  "starter.hint": "All fields are part of the idea. Lock what you like and roll the rest.",
+  "starter.generate": "Generate idea",
+  "starter.more": "More options and lists",
+  "starter.moreHint": "Explore the full idea, adjust individual fields or choose values from the lists.",
+
   "app.title": "Game Idea Generator",
   "app.loading": "Loading lists…",
   "app.loadError": "Failed to load lists: {error}",

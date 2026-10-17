@@ -72,8 +72,11 @@ the complete JSON response to archive a particular historical idea.
 
 Open `?lang=en&seed=my-idea-123` to reproduce an idea. An explicit supported `lang` takes
 priority over the saved language; an explicit `seed` takes priority over the saved idea.
-Without a seed the app restores a saved idea, or generates a new one if none is available.
-New Idea resets counts, locks and exclusions, generates a seed and updates the address bar.
+Without a seed the app restores a saved idea, or creates a demonstration if none is available.
+The first-visit demonstration uses default counts, locks two fields and excludes two
+or three others to illustrate the controls. Genre, main goal and twist stay populated.
+This example has no replay seed. Explicit seeded URLs and `fresh=1` generate complete ideas
+without demonstration locks or exclusions. Generate idea respects existing locks and exclusions.
 Changing the language keeps the seed for an unedited generated idea. Manual value changes,
 rolls or exclusions remove the seed because it no longer represents the displayed idea.
 The language remains in the URL. A manually edited idea still persists locally, but is not

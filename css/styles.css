@@ -90,6 +90,9 @@ h1 i { color: var(--accent); margin-right: 6px; }
 .lang-btn.is-active { background: var(--accent-soft); color: var(--accent-strong); }
 
 .toolbar { display: flex; flex-wrap: wrap; gap: 10px; }
+.header-actions { display: flex; flex-direction: column; align-items: flex-end; gap: 10px; }
+.language-generate { display: flex; align-items: center; flex-wrap: wrap; gap: 10px; }
+.language-generate .lang-switch { margin-left: 0; }
 
 /* ---------- Buttons ---------- */
 
@@ -144,6 +147,9 @@ h1 i { color: var(--accent); margin-right: 6px; }
 
 :focus-visible { outline: 2px solid var(--accent-strong); outline-offset: 2px; }
 
+.page-header #starter-heading { margin: 4px 0 0; font-family: var(--font-display); font-size: 20px; color: #ffab66; }
+.idea-grid { grid-auto-rows: 1fr; }
+
 /* ---------- Grid & cards ---------- */
 
 .grid {
@@ -164,6 +170,15 @@ h1 i { color: var(--accent); margin-right: 6px; }
   transition: border-color 0.15s, background 0.15s;
 }
 .card:hover { border-color: var(--border-strong); }
+
+.is-focused .card--secondary:not(.is-locked):not(.is-excluded):not(:hover):not(:focus-within) {
+  background: var(--bg-elevated);
+  border-color: #222735;
+  box-shadow: none;
+}
+.is-focused .card--secondary:not(.is-locked):not(:hover):not(:focus-within) .card-values {
+  color: var(--text-muted);
+}
 
 .card.is-excluded {
   background: transparent;
@@ -270,8 +285,8 @@ h1 i { color: var(--accent); margin-right: 6px; }
 .section-hint { margin: 0; color: var(--text-muted); font-size: 14px; }
 
 .prompt-section {
-  margin: 0 0 14px;
-  padding: 8px 14px;
+  margin: 0 0 8px;
+  padding: 6px 12px;
   border: 1px solid rgba(139, 124, 255, 0.4);
   border-radius: var(--radius);
   background: linear-gradient(180deg, rgba(139, 124, 255, 0.08), var(--bg-elevated) 120px);
@@ -283,8 +298,9 @@ h1 i { color: var(--accent); margin-right: 6px; }
   user-select: none;
 }
 .prompt-section > summary::-webkit-details-marker { display: none; }
-.prompt-section > summary h2 { font-size: 16px; }
-.prompt-section > summary .btn { padding: 6px 12px; font-size: 12px; }
+.prompt-section > summary h2 { font-size: 14px; }
+.prompt-section > summary h2 i { font-size: 16px; }
+.prompt-section > summary .btn { padding: 5px 10px; font-size: 11px; }
 .prompt-section[open] > summary { margin-bottom: 10px; }
 .prompt-chevron { font-size: 12px !important; color: var(--text-muted) !important; transition: transform 0.15s; }
 .prompt-section[open] .prompt-chevron { transform: rotate(90deg); }
@@ -294,13 +310,13 @@ h1 i { color: var(--accent); margin-right: 6px; }
   margin: 0;
   max-height: 380px;
   overflow: auto;
-  padding: 18px 20px;
+  padding: 12px 14px;
   background: #0b0d13;
   border: 1px solid var(--border);
   border-radius: var(--radius-sm);
   font-family: var(--font-mono);
-  font-size: 13.5px;
-  line-height: 1.6;
+  font-size: 12.5px;
+  line-height: 1.5;
   white-space: pre-wrap;
   word-break: break-word;
   color: #d4d9e4;
@@ -563,6 +579,9 @@ h1 i { color: var(--accent); margin-right: 6px; }
 
 @media (max-width: 520px) {
   .container { padding: 0 16px; }
+  .header-actions { width: 100%; align-items: stretch; }
+  .language-generate .lang-btn { padding: 8px; }
+  .language-generate .btn { padding: 10px 12px; font-size: 13px; }
   .grid, .browse-pages { grid-template-columns: 1fr; }
   .toolbar .btn { flex: 1 1 calc(50% - 10px); justify-content: center; }
   .toolbar .btn--primary { flex-basis: 100%; }

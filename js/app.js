@@ -3,7 +3,7 @@
 import { catalog, loadAllLists } from './dataLoader.js';
 import { state, initState, subscribe } from './state.js';
 import {
-  rollAll, rollCategory, fillMissing, newIdea, unlockAll,
+  rollAll, rollCategory, fillMissing, newIdea, exampleIdea, unlockAll,
   toggleLock, changeCount, toggleExcluded, translateValues,
   toggleUnlockedExcluded, allUnlockedExcluded
 } from './generator.js';
@@ -15,8 +15,29 @@ import { LANGUAGES, currentLanguage, savedLanguage, loadLanguage, applyStaticTex
 import { escapeHtml } from './dom.js';
 import { readIdeaUrl, updateIdeaUrl } from './ideaUrl.js';
 import { SCHEMA_VERSION, GENERATOR_VERSION } from './ideaEngine.js';
+import { CATEGORIES } from './config.js';
 
-const grid = document.getElementById('generator-grid');
+const grid = document.getElementById('generator');
+const starterKeys = ['genres', 'main_goals', 'twists'];
+let emphasizeAll = false;
+try { emphasizeAll = localStorage.getItem('gameIdeaGenerator.emphasizeAll') === 'true'; } catch {}
+
+function updateFieldEmphasis() {
+  grid.classList.toggle('is-focused', !emphasizeAll);
+  const button = document.getElementById('emphasize-all');
+  button.setAttribute('aria-pressed', String(emphasizeAll));
+  button.textContent = t(emphasizeAll ? 'starter.focusMain' : 'starter.emphasizeAll');
+}
+
+function buildGenerator() {
+  buildCards(document.getElementById('generator-grid'),
+    [...starterKeys.map(key => CATEGORIES.find(c => c.key === key)),
+      ...CATEGORIES.filter(c => !starterKeys.includes(c.key))]);
+  grid.querySelectorAll('.card').forEach(card => {
+    card.classList.toggle('card--secondary', !starterKeys.includes(card.dataset.key));
+  });
+  updateFieldEmphasis();
+}
 const promptEl = document.getElementById('prompt-output');
 const browser = document.getElementById('browse-grid');
 const languageSwitch = document.getElementById('language-switch');
@@ -53,6 +74,12 @@ function startNewIdea(seed) {
   sharedSeed = idea.seed;
   sharedSnapshot = ideaSnapshot();
   syncUrl();
+}
+
+function startExampleIdea() {
+  sharedSeed = null;
+  sharedSnapshot = null;
+  exampleIdea();
 }
 
 async function copyText(text) {
@@ -101,7 +128,7 @@ function renderLanguageSwitch() {
 function renderLanguage() {
   applyStaticTexts();
   renderLanguageSwitch();
-  buildCards(grid);
+  buildGenerator();
   buildBrowser();
   render([]);
 }
@@ -122,9 +149,19 @@ async function changeLanguage(code) {
 }
 
 function bindEvents() {
+  document.getElementById('emphasize-all').addEventListener('click', () => {
+    emphasizeAll = !emphasizeAll;
+    updateFieldEmphasis();
+    try { localStorage.setItem('gameIdeaGenerator.emphasizeAll', String(emphasizeAll)); } catch {}
+  });
+  document.getElementById('generate-idea').addEventListener('click', () => {
+    const customized = CATEGORIES.some(c => state[c.key].locked || state[c.key].excluded ||
+      state[c.key].count !== (c.multi ? (c.defaultCount ?? 1) : 1));
+    if (customized) rollAll();
+    else startNewIdea();
+  });
   document.getElementById('roll-all').addEventListener('click', rollAll);
   document.getElementById('unlock-all').addEventListener('click', unlockAll);
-  document.getElementById('new-idea').addEventListener('click', () => startNewIdea());
   emptyUnlockedBtn.addEventListener('click', toggleUnlockedExcluded);
   document.querySelectorAll('[data-copy-prompt]').forEach(btn => btn.addEventListener('click', copyPrompt));
 
@@ -162,7 +199,7 @@ async function start() {
   const restored = initState();
   applyStaticTexts();
   renderLanguageSwitch();
-  buildCards(grid);
+  buildGenerator();
   initBrowser(browser);
   initPicker();
   bindEvents();
@@ -176,7 +213,7 @@ async function start() {
     fillMissing();
     render([]);
   } else {
-    startNewIdea();
+    startExampleIdea();
   }
 }
 

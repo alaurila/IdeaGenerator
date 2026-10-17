@@ -1,4 +1,12 @@
 {
+  "starter.emphasizeAll": "Destacar todos los campos",
+  "starter.focusMain": "Destacar los campos principales",
+  "starter.heading": "Tu próximo juego empieza aquí",
+  "starter.hint": "Todos los campos forman parte de la idea. Bloquea lo que te guste y vuelve a sortear el resto.",
+  "starter.generate": "Generar idea",
+  "starter.more": "Más opciones y listas",
+  "starter.moreHint": "Explora la idea completa, ajusta cada campo o elige valores de las listas.",
+
   "app.title": "Game Idea Generator",
   "app.loading": "Cargando listas…",
   "app.loadError": "No se pudieron cargar las listas: {error}",
