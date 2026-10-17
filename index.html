@@ -52,6 +52,7 @@
       <div class="header-actions">
         <div class="toolbar">
           <button id="easy-mode" class="btn" disabled aria-pressed="false" aria-controls="generator-grid browse-section" data-i18n="easy.toggle" data-i18n-title="easy.hint">Easy mode</button>
+          <button id="start-tour" class="btn btn--help" disabled aria-haspopup="dialog" aria-controls="tour-bubble" data-i18n-title="tour.start"><span class="help-icon" aria-hidden="true">?</span><span data-i18n="tour.help">Help</span></button>
         </div>
         <div class="toolbar generator-actions">
           <button id="jam-toggle" class="btn" aria-pressed="false" aria-controls="jam-panel" data-i18n="jam.toggle">Game jam mode</button>
@@ -60,7 +61,6 @@
           <button id="smart-roll" class="btn btn--accent" disabled><span aria-hidden="true">🔥</span> <span data-i18n="smart.action">Find a more interesting mix</span></button>
           <button id="unlock-all" class="btn"><i class="fa-solid fa-lock-open" aria-hidden="true"></i> <span data-i18n="toolbar.unlockAll">Unlock All</span></button>
           <button id="empty-unlocked" class="btn"><i class="fa-solid fa-eye-slash" aria-hidden="true"></i> <span>Empty Unlocked</span></button>
-          <button id="start-tour" class="btn" disabled aria-haspopup="dialog" aria-controls="tour-bubble" data-i18n="tour.help">Help</button>
         </div>
         <div class="toolbar share-actions" role="group" data-i18n-aria-label="share.actions" aria-label="Share this idea">
           <button id="copy-idea" class="btn" disabled><i class="fa-regular fa-copy" aria-hidden="true"></i> <span data-i18n="share.copy">Copy idea</span></button>
@@ -81,7 +81,7 @@
     </details>
 
     <details id="idea-scores" class="idea-scores" hidden aria-labelledby="scores-heading">
-      <summary><h2 id="scores-heading" data-i18n="smart.heading">Idea scores</h2></summary>
+      <summary><h2 id="scores-heading" data-i18n="smart.heading">Idea scores</h2><span class="score-summary" aria-live="polite" aria-atomic="true"></span></summary>
       <dl class="score-grid" aria-live="polite" aria-atomic="true"></dl>
       <p class="score-hint" data-i18n="smart.scope">Rule-based estimates for genre, setting, core mechanics, mood and twist.</p>
       <ul class="score-explanations"></ul>

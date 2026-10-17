@@ -116,6 +116,9 @@ h1 i { color: var(--accent); margin-right: 6px; }
   text-transform: none;
   white-space: nowrap;
 }
+.header-actions .btn--help { color: #ffbd8a; border-color: rgba(255, 171, 102, 0.7); background: rgba(255, 171, 102, 0.14); font-weight: 700; }
+.header-actions .btn--help:hover, .header-actions .btn--help:focus-visible { color: #ffcfab; border-color: #ffab66; background: rgba(255, 171, 102, 0.24); }
+.help-icon { display: inline-grid; place-items: center; width: 15px; height: 15px; border-radius: 50%; background: #ffab66; color: var(--bg); font-size: 11px; font-weight: 800; line-height: 1; }
 .language-generate { display: flex; align-items: center; flex-wrap: nowrap; gap: 8px; }
 .language-generate .lang-switch { margin-left: 0; height: 36px; }
 .language-generate .lang-btn { padding: 7px 10px; font-size: 12px; }
@@ -125,7 +128,14 @@ h1 i { color: var(--accent); margin-right: 6px; }
 
 .idea-scores { margin: 12px 0; padding: 10px 14px; border: 1px solid var(--border); border-radius: var(--radius-sm); }
 .idea-scores h2 { margin: 0; font-size: 12px; color: var(--text-muted); font-weight: 500; }
-.idea-scores > summary { display: flex; align-items: center; gap: 8px; list-style: none; cursor: pointer; user-select: none; }
+.idea-scores > summary { display: flex; align-items: center; flex-wrap: wrap; gap: 6px 12px; list-style: none; cursor: pointer; user-select: none; }
+.idea-scores > summary h2, .idea-scores > summary::before { flex-shrink: 0; }
+.score-summary { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: 4px 16px; margin-left: auto; color: var(--text-muted); font-size: 12px; }
+.score-summary-item { display: inline-flex; gap: 5px; white-space: nowrap; }
+.score-summary-item strong { color: var(--text); font-weight: 600; font-variant-numeric: tabular-nums; }
+.score-summary-item--total strong { color: var(--accent-strong); }
+.score-summary-max { color: var(--text-muted); font-size: 10px; }
+.idea-scores[open] .score-summary { display: none; }
 .idea-scores > summary::-webkit-details-marker { display: none; }
 .idea-scores > summary::before { content: '\25B8'; color: var(--text-muted); transition: transform 0.15s; }
 .idea-scores[open] > summary { margin-bottom: 8px; }
@@ -690,6 +700,7 @@ h1 i { color: var(--accent); margin-right: 6px; }
   .header-top-row { flex-direction: column; align-items: stretch; gap: 10px; }
   .header-top-row .language-generate { align-self: flex-end; }
   .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .score-summary { flex-basis: 100%; margin-left: 0; justify-content: flex-start; gap: 4px 12px; }
 }
 
 @media (max-width: 520px) {

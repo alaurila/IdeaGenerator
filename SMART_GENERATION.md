@@ -64,6 +64,8 @@ describe the metrics as rule-based estimates rather than a guarantee of game qua
 Opening or closing the section changes only presentation. Scores keep updating while collapsed,
 and the open state survives rolls and language changes until the next page load. Easy mode hides
 the entire section while preserving its open state.
+When collapsed, its summary still shows the current metric names and numeric values out of 100;
+the full bars and explanations appear when opened. The header values use the same scoring result.
 
 ## Explanations and first-version boundary
 

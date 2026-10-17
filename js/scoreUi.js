@@ -11,6 +11,11 @@ export function renderScores(state, catalog) {
   const scores = scoreIdea(idea);
   const metrics = ['synergy', 'tension', 'novelty', 'total'];
   if (scores.conflict) metrics.push('conflict');
+  section.querySelector('.score-summary').innerHTML = metrics.map(key => `
+    <span class="score-summary-item${key === 'total' ? ' score-summary-item--total' : ''}">
+      <span>${escapeHtml(t(`smart.${key}`))}:</span>
+      <span><strong data-summary-score="${key}">${scores[key]}</strong><span class="score-summary-max">/100</span></span>
+    </span>`).join('');
   section.querySelector('.score-grid').innerHTML = metrics.map(key => `
     <div class="score-metric${key === 'total' ? ' score-metric--total' : ''}">
       <dt id="score-label-${key}">${escapeHtml(t(`smart.${key}`))}</dt>

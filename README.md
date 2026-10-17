@@ -69,7 +69,7 @@ algorithm. Reordering source options does not change the hash or seeded result.
 
 ## Guided tour
 
-**Help** in the secondary header row starts a nine-step tour with small arrowed speech bubbles
+The orange **Help** button beside Easy mode at the left of the secondary header row starts a nine-step tour with small arrowed speech bubbles
 beside the relevant controls. It covers Easy mode, generating an idea, locking fields, copying
 the idea, copying AI Prompt, expanding the full view, idea scores, Smart Roll and Game jam mode.
 The highlighted control remains usable; Back, Next, Skip tour and Escape are available throughout.
@@ -197,6 +197,8 @@ Ordinary generation continues to work independently.
 A compact, initially collapsed **Idea scores** section below AI Prompt shows synergy, tension,
 novelty and interestingness, with one to three short explanations when opened. Click its heading
 to expand or collapse it; updates and language changes preserve your choice until the next page load.
+When collapsed, the heading still shows each metric as a compact name and value out of 100,
+including a conflict penalty when applicable. Opening the section reveals the bars and explanations.
 Easy mode hides the section. Conflict penalties appear only for explicit design conflicts;
 unusual contrasts contribute positively to tension. No LLM, API key or network service is used
 for scoring, searching or explanations.
