@@ -1,4 +1,8 @@
 {
+  "newIdea.title": "Gerar uma nova ideia de jogo?",
+  "newIdea.message": "Isso substitui a ideia atual, incluindo os campos bloqueados e vazios.",
+  "newIdea.cancel": "Cancelar",
+  "newIdea.confirm": "Gerar nova ideia",
   "easy.toggle": "Modo fácil",
   "easy.hint": "Mostrar gênero, objetivo principal, reviravolta e dois campos aleatórios",
   "starter.emphasizeAll": "Destacar todos os campos",

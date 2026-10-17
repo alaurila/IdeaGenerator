@@ -1,4 +1,8 @@
 {
+  "newIdea.title": "Haluatko varmasti arpoa uuden peli-idean?",
+  "newIdea.message": "Nykyinen idea korvataan uudella. Myös lukitukset ja tyhjäksi jätetyt kentät arvotaan uudelleen.",
+  "newIdea.cancel": "Peruuta",
+  "newIdea.confirm": "Arvo uusi idea",
   "easy.toggle": "Helppo tila",
   "easy.hint": "Näytä genre, päätavoite, twist ja kaksi satunnaista kenttää",
   "starter.emphasizeAll": "Korosta kaikkia kenttiä",

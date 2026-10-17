@@ -159,6 +159,9 @@ priority over the saved language; an explicit `seed` takes priority over the sav
 Without a seed the app restores a saved idea, or creates a demonstration if none is available.
 The first-visit demonstration uses default counts; Generate idea retains selected counts. Both lock two or three fields and exclude two
 or three others to illustrate the controls. Genre, main goal and twist stay populated.
+Clicking Generate idea opens a confirmation dialog before replacing the current idea, including
+its locks and exclusions. Cancel or Escape keeps the current idea. Initial generation and explicit
+seed/fresh URLs do not require confirmation.
 This example has no replay seed. Explicit seeded URLs and `fresh=1` generate complete ideas
 without demonstration locks or exclusions. Roll All respects existing locks and exclusions.
 Changing the language keeps the seed for an unedited generated idea. Manual value changes,

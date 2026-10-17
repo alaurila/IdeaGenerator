@@ -1,4 +1,8 @@
 {
+  "newIdea.title": "Generate a new game idea?",
+  "newIdea.message": "This replaces the current idea, including its locks and empty fields.",
+  "newIdea.cancel": "Cancel",
+  "newIdea.confirm": "Generate new idea",
   "easy.toggle": "Easy mode",
   "easy.hint": "Show genre, main goal, twist and two random fields",
   "starter.emphasizeAll": "Emphasize all fields",

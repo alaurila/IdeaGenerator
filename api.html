@@ -156,7 +156,8 @@ const idea = JSON.parse(await page.locator('#idea-output').textContent());</code
     using curated complexity tiers constrained by time, team size and experience. Scope guidance is approximate.</p>
   <pre><code>npm run --silent generate -- --jam --hours 48 --team solo --experience beginner
 node scripts/generate-idea.js --jam --theme "Echo" --seed my-jam-idea</code></pre>
-  <p>Generate idea creates a demonstration with 2–3 locked and 2–3 excluded fields.
+  <p>Generate idea asks for confirmation, then creates a demonstration with 2–3 locked and 2–3 excluded fields.
+    Cancel or Escape preserves the current idea. Initial generation and explicit seed/fresh URLs do not prompt.
     Roll All preserves locks and exclusions; retained out-of-scope selections receive a card warning.
     Use <code>fresh=1</code> or a seed URL for full reproducible results.</p>
 

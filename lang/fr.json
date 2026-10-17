@@ -1,4 +1,8 @@
 {
+  "newIdea.title": "Générer une nouvelle idée de jeu ?",
+  "newIdea.message": "Cela remplace l’idée actuelle, y compris les champs verrouillés et vides.",
+  "newIdea.cancel": "Annuler",
+  "newIdea.confirm": "Générer une nouvelle idée",
   "easy.toggle": "Mode facile",
   "easy.hint": "Afficher le genre, l’objectif principal, le rebondissement et deux champs aléatoires",
   "starter.emphasizeAll": "Mettre tous les champs en valeur",

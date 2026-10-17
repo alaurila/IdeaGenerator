@@ -238,7 +238,16 @@ function bindEvents() {
     updateFieldEmphasis();
     try { localStorage.setItem('gameIdeaGenerator.emphasizeAll', String(emphasizeAll)); } catch {}
   });
-  document.getElementById('generate-idea').addEventListener('click', startExampleIdea);
+  const newIdeaDialog = document.getElementById('new-idea-dialog');
+  document.getElementById('generate-idea').addEventListener('click', () => {
+    newIdeaDialog.returnValue = '';
+    if (!newIdeaDialog.open) newIdeaDialog.showModal();
+  });
+  newIdeaDialog.addEventListener('close', () => {
+    const confirmed = newIdeaDialog.returnValue === 'generate';
+    newIdeaDialog.returnValue = '';
+    if (confirmed) startExampleIdea();
+  });
   document.getElementById('roll-all').addEventListener('click', rollAll);
   document.getElementById('unlock-all').addEventListener('click', unlockAll);
   emptyUnlockedBtn.addEventListener('click', toggleUnlockedExcluded);
