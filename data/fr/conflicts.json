@@ -1,261 +1,1032 @@
 {
   "conflicts": [
-    "Pénurie",
-    "Rival",
-    "Catastrophe naturelle",
-    "Meurtre",
-    "Crise politique",
-    "Rébellion interne",
-    "Maladie",
-    "Trahison",
-    "Pression du temps",
-    "Panne du système",
-    "Manque de ressources",
-    "Pénurie de nourriture",
-    "Pénurie d'eau",
-    "Pénurie d'énergie",
-    "Pénurie de médicaments",
-    "Pénurie de main-d'œuvre",
-    "Manque d'argent",
-    "Manque de place",
-    "Surpopulation",
-    "Dépopulation",
-    "Effondrement économique",
-    "Faillite",
-    "Crise de la dette",
-    "Inflation",
-    "Krach boursier",
-    "Grève",
-    "Conflit social",
-    "Rupture de la chaîne d'approvisionnement",
-    "Arrêt de la production",
-    "Sabotage",
-    "Vol",
-    "Braquage",
-    "Chantage",
-    "Enlèvement",
-    "Contrebande",
-    "Corruption",
-    "Espionnage",
-    "Fuite d'informations",
-    "Violation de données",
-    "Usurpation d'identité",
-    "Contrefaçon",
-    "Complot",
-    "Dissimulation",
-    "Destruction de preuves",
-    "Mensonges",
-    "Manque de confiance",
-    "Crise de loyauté",
-    "Crise de réputation",
-    "Scandale médiatique",
-    "Désinformation",
-    "Propagande",
-    "Propagation de rumeurs",
-    "Panique",
-    "Effondrement du moral",
-    "Crise de leadership",
-    "Lutte de pouvoir",
-    "Crise de succession",
-    "Coup d'État",
-    "Révolution",
-    "Guerre civile",
-    "Conflit frontalier",
-    "Guerre",
-    "Guerre froide",
-    "Occupation",
-    "Siège",
-    "Attentat terroriste",
-    "Insurrection",
-    "Séparatisme",
-    "Crise diplomatique",
-    "Guerre commerciale",
-    "Crise des sanctions",
-    "Différend entre alliés",
-    "Crise électorale",
-    "Chute du gouvernement",
-    "Abus de pouvoir illégal",
-    "Conflit entre la loi et la morale",
-    "Conflit entre autorités",
-    "Troubles civils",
-    "Manifestations",
-    "Émeutes",
-    "Protestation violente",
-    "Lutte des classes",
-    "Conflit de générations",
-    "Conflit religieux",
-    "Conflit culturel",
-    "Conflit ethnique",
-    "Conflit entre habitants et nouveaux venus",
-    "Dispute familiale",
-    "Querelle entre clans",
-    "Crise de couple",
-    "Jalousie",
-    "Divorce",
-    "Litige successoral",
-    "Conflit parent–enfant",
-    "Amitié brisée",
-    "Harcèlement au travail",
-    "Lutte de pouvoir au travail",
-    "Conflit entre salariés et direction",
-    "Conflit entre un client et une entreprise",
-    "Organisations rivales",
-    "Familles rivales",
-    "Villes rivales",
-    "Nations rivales",
-    "Religions rivales",
-    "Groupes de recherche rivaux",
-    "Entreprises rivales",
-    "Organisations criminelles rivales",
-    "IA rivales",
-    "Colonies rivales",
-    "Fausse accusation",
-    "Ennemi inconnu",
-    "Ennemi caché",
-    "Traître au sein du groupe",
-    "Agent double",
-    "Ennemi déguisé",
-    "Personne disparue",
-    "Objet perdu",
-    "Information perdue",
-    "Mémoire perdue",
-    "Temps perdu",
-    "Passé inconnu",
-    "Crise d'identité",
-    "Amnésie",
-    "Perte du sens de la réalité",
-    "Information peu fiable",
-    "Témoignages contradictoires",
-    "Fausse piste",
-    "Manque de preuves",
-    "Preuves contradictoires",
-    "Crime non résolu",
-    "Tueur en série",
-    "Série de disparitions",
-    "Mort étrange",
-    "Accident maquillé",
-    "Suicide maquillé",
-    "Recherche interdite",
-    "Expérience secrète",
-    "Invention dangereuse",
-    "La recherche échappe à tout contrôle",
-    "L'IA échappe à tout contrôle",
-    "Révolte des robots",
-    "Défaillance de l'automatisation",
-    "Bug logiciel",
-    "Panne du système informatique",
-    "Panne du réseau",
-    "Coupure de courant",
-    "Panne du réacteur",
-    "Panne du moteur",
-    "Panne du système d'oxygène",
-    "Panne du système de pression",
-    "Panne du système d'eau",
-    "Panne du chauffage",
-    "Panne du système de sécurité",
-    "Panne du système de navigation",
-    "Panne du système de communication",
-    "Dommages structurels",
-    "Risque d'effondrement du bâtiment",
-    "Brèche dans la coque",
-    "Incendie",
-    "Explosion",
-    "Tempête",
-    "Inondation",
-    "Tremblement de terre",
-    "Tsunami",
-    "Éruption volcanique",
-    "Feu de forêt",
-    "Ouragan",
-    "Blizzard",
-    "Canicule",
-    "Grand froid",
-    "Sécheresse",
-    "Glissement de terrain",
-    "Avalanche",
-    "Impact de météorite",
-    "Éruption solaire",
-    "Tempête de radiations",
-    "Débris spatiaux",
-    "Anomalie gravitationnelle",
-    "Menace d'un trou noir",
-    "Effondrement du climat de la planète",
-    "Effondrement de l'écosystème",
-    "Pollution",
-    "Environnement toxique",
-    "Contamination de l'eau",
-    "Pollution de l'air",
-    "Épidémie",
-    "Pandémie",
-    "Maladie inconnue",
-    "Propagation d'une infection",
-    "Résistance aux médicaments",
-    "Empoisonnement",
-    "Exposition aux radiations",
-    "Famine",
-    "Crise de santé mentale",
-    "Épidémie d'insomnie",
-    "Hystérie collective",
-    "Infestation de parasites",
-    "Maladie génétique",
-    "Mutation",
-    "Organisme extraterrestre",
-    "Forme de vie inconnue",
-    "Attaque de monstres",
-    "Attaque d'une horde d'animaux",
-    "Infection zombie",
-    "Menace vampirique",
-    "Hantise",
-    "Malédiction",
-    "Possession",
-    "Phénomène surnaturel",
-    "Distorsion de la réalité",
-    "Boucle temporelle",
-    "Paradoxe temporel",
-    "L'histoire change",
-    "Collision de réalités parallèles",
-    "Les souvenirs changent",
-    "Les rêves se mêlent à la réalité",
-    "La simulation se désagrège",
-    "Les règles du monde se brisent",
-    "Les PNJ se comportent anormalement",
-    "L'existence du joueur est remise en question",
-    "Le temps presse",
-    "Course contre la montre",
-    "Échéance",
-    "Catastrophe imminente",
-    "Attaque imminente",
-    "Faillite imminente",
-    "Hiver imminent",
-    "Épidémie imminente",
-    "Exécution imminente",
-    "Révélation imminente",
-    "Évacuation imminente",
-    "Fin du monde imminente",
-    "Décision impossible",
-    "Deux mauvais choix",
-    "Dilemme moral",
-    "La loi contre la justice",
-    "L'individu contre la communauté",
-    "La sécurité contre la liberté",
-    "La vérité contre la stabilité",
-    "L'amour contre le devoir",
-    "La carrière contre la famille",
-    "La survie contre la morale",
-    "Le gain à court terme contre le long terme",
-    "La violence contre une solution pacifique",
-    "Le bien commun contre l'intérêt personnel",
-    "La nature contre l'industrie",
-    "La technologie contre l'humanité",
-    "La science contre la foi",
-    "La tradition contre la réforme",
-    "Le pouvoir central contre l'autonomie locale",
-    "L'humain contre la machine",
-    "L'humain contre la nature",
-    "L'humain contre la société",
-    "L'humain contre lui-même",
-    "L'humain contre le destin",
-    "L'humain contre le temps",
-    "L'humain contre l'inconnu"
+    {
+      "id": "conflicts-0001",
+      "text": "Pénurie"
+    },
+    {
+      "id": "conflicts-0002",
+      "text": "Rival"
+    },
+    {
+      "id": "conflicts-0003",
+      "text": "Catastrophe naturelle"
+    },
+    {
+      "id": "conflicts-0004",
+      "text": "Meurtre"
+    },
+    {
+      "id": "conflicts-0005",
+      "text": "Crise politique"
+    },
+    {
+      "id": "conflicts-0006",
+      "text": "Rébellion interne"
+    },
+    {
+      "id": "conflicts-0007",
+      "text": "Maladie"
+    },
+    {
+      "id": "conflicts-0008",
+      "text": "Trahison"
+    },
+    {
+      "id": "conflicts-0009",
+      "text": "Pression du temps"
+    },
+    {
+      "id": "conflicts-0010",
+      "text": "Panne du système"
+    },
+    {
+      "id": "conflicts-0011",
+      "text": "Manque de ressources"
+    },
+    {
+      "id": "conflicts-0012",
+      "text": "Pénurie de nourriture"
+    },
+    {
+      "id": "conflicts-0013",
+      "text": "Pénurie d'eau"
+    },
+    {
+      "id": "conflicts-0014",
+      "text": "Pénurie d'énergie"
+    },
+    {
+      "id": "conflicts-0015",
+      "text": "Pénurie de médicaments"
+    },
+    {
+      "id": "conflicts-0016",
+      "text": "Pénurie de main-d'œuvre"
+    },
+    {
+      "id": "conflicts-0017",
+      "text": "Manque d'argent"
+    },
+    {
+      "id": "conflicts-0018",
+      "text": "Manque de place"
+    },
+    {
+      "id": "conflicts-0019",
+      "text": "Surpopulation"
+    },
+    {
+      "id": "conflicts-0020",
+      "text": "Dépopulation"
+    },
+    {
+      "id": "conflicts-0021",
+      "text": "Effondrement économique"
+    },
+    {
+      "id": "conflicts-0022",
+      "text": "Faillite"
+    },
+    {
+      "id": "conflicts-0023",
+      "text": "Crise de la dette"
+    },
+    {
+      "id": "conflicts-0024",
+      "text": "Inflation"
+    },
+    {
+      "id": "conflicts-0025",
+      "text": "Krach boursier"
+    },
+    {
+      "id": "conflicts-0026",
+      "text": "Grève"
+    },
+    {
+      "id": "conflicts-0027",
+      "text": "Conflit social"
+    },
+    {
+      "id": "conflicts-0028",
+      "text": "Rupture de la chaîne d'approvisionnement"
+    },
+    {
+      "id": "conflicts-0029",
+      "text": "Arrêt de la production"
+    },
+    {
+      "id": "conflicts-0030",
+      "text": "Sabotage"
+    },
+    {
+      "id": "conflicts-0031",
+      "text": "Vol"
+    },
+    {
+      "id": "conflicts-0032",
+      "text": "Braquage"
+    },
+    {
+      "id": "conflicts-0033",
+      "text": "Chantage"
+    },
+    {
+      "id": "conflicts-0034",
+      "text": "Enlèvement"
+    },
+    {
+      "id": "conflicts-0035",
+      "text": "Contrebande"
+    },
+    {
+      "id": "conflicts-0036",
+      "text": "Corruption"
+    },
+    {
+      "id": "conflicts-0037",
+      "text": "Espionnage"
+    },
+    {
+      "id": "conflicts-0038",
+      "text": "Fuite d'informations"
+    },
+    {
+      "id": "conflicts-0039",
+      "text": "Violation de données"
+    },
+    {
+      "id": "conflicts-0040",
+      "text": "Usurpation d'identité"
+    },
+    {
+      "id": "conflicts-0041",
+      "text": "Contrefaçon"
+    },
+    {
+      "id": "conflicts-0042",
+      "text": "Complot"
+    },
+    {
+      "id": "conflicts-0043",
+      "text": "Dissimulation"
+    },
+    {
+      "id": "conflicts-0044",
+      "text": "Destruction de preuves"
+    },
+    {
+      "id": "conflicts-0045",
+      "text": "Mensonges"
+    },
+    {
+      "id": "conflicts-0046",
+      "text": "Manque de confiance"
+    },
+    {
+      "id": "conflicts-0047",
+      "text": "Crise de loyauté"
+    },
+    {
+      "id": "conflicts-0048",
+      "text": "Crise de réputation"
+    },
+    {
+      "id": "conflicts-0049",
+      "text": "Scandale médiatique"
+    },
+    {
+      "id": "conflicts-0050",
+      "text": "Désinformation"
+    },
+    {
+      "id": "conflicts-0051",
+      "text": "Propagande"
+    },
+    {
+      "id": "conflicts-0052",
+      "text": "Propagation de rumeurs"
+    },
+    {
+      "id": "conflicts-0053",
+      "text": "Panique"
+    },
+    {
+      "id": "conflicts-0054",
+      "text": "Effondrement du moral"
+    },
+    {
+      "id": "conflicts-0055",
+      "text": "Crise de leadership"
+    },
+    {
+      "id": "conflicts-0056",
+      "text": "Lutte de pouvoir"
+    },
+    {
+      "id": "conflicts-0057",
+      "text": "Crise de succession"
+    },
+    {
+      "id": "conflicts-0058",
+      "text": "Coup d'État"
+    },
+    {
+      "id": "conflicts-0059",
+      "text": "Révolution"
+    },
+    {
+      "id": "conflicts-0060",
+      "text": "Guerre civile"
+    },
+    {
+      "id": "conflicts-0061",
+      "text": "Conflit frontalier"
+    },
+    {
+      "id": "conflicts-0062",
+      "text": "Guerre"
+    },
+    {
+      "id": "conflicts-0063",
+      "text": "Guerre froide"
+    },
+    {
+      "id": "conflicts-0064",
+      "text": "Occupation"
+    },
+    {
+      "id": "conflicts-0065",
+      "text": "Siège"
+    },
+    {
+      "id": "conflicts-0066",
+      "text": "Attentat terroriste"
+    },
+    {
+      "id": "conflicts-0067",
+      "text": "Insurrection"
+    },
+    {
+      "id": "conflicts-0068",
+      "text": "Séparatisme"
+    },
+    {
+      "id": "conflicts-0069",
+      "text": "Crise diplomatique"
+    },
+    {
+      "id": "conflicts-0070",
+      "text": "Guerre commerciale"
+    },
+    {
+      "id": "conflicts-0071",
+      "text": "Crise des sanctions"
+    },
+    {
+      "id": "conflicts-0072",
+      "text": "Différend entre alliés"
+    },
+    {
+      "id": "conflicts-0073",
+      "text": "Crise électorale"
+    },
+    {
+      "id": "conflicts-0074",
+      "text": "Chute du gouvernement"
+    },
+    {
+      "id": "conflicts-0075",
+      "text": "Abus de pouvoir illégal"
+    },
+    {
+      "id": "conflicts-0076",
+      "text": "Conflit entre la loi et la morale"
+    },
+    {
+      "id": "conflicts-0077",
+      "text": "Conflit entre autorités"
+    },
+    {
+      "id": "conflicts-0078",
+      "text": "Troubles civils"
+    },
+    {
+      "id": "conflicts-0079",
+      "text": "Manifestations"
+    },
+    {
+      "id": "conflicts-0080",
+      "text": "Émeutes"
+    },
+    {
+      "id": "conflicts-0081",
+      "text": "Protestation violente"
+    },
+    {
+      "id": "conflicts-0082",
+      "text": "Lutte des classes"
+    },
+    {
+      "id": "conflicts-0083",
+      "text": "Conflit de générations"
+    },
+    {
+      "id": "conflicts-0084",
+      "text": "Conflit religieux"
+    },
+    {
+      "id": "conflicts-0085",
+      "text": "Conflit culturel"
+    },
+    {
+      "id": "conflicts-0086",
+      "text": "Conflit ethnique"
+    },
+    {
+      "id": "conflicts-0087",
+      "text": "Conflit entre habitants et nouveaux venus"
+    },
+    {
+      "id": "conflicts-0088",
+      "text": "Dispute familiale"
+    },
+    {
+      "id": "conflicts-0089",
+      "text": "Querelle entre clans"
+    },
+    {
+      "id": "conflicts-0090",
+      "text": "Crise de couple"
+    },
+    {
+      "id": "conflicts-0091",
+      "text": "Jalousie"
+    },
+    {
+      "id": "conflicts-0092",
+      "text": "Divorce"
+    },
+    {
+      "id": "conflicts-0093",
+      "text": "Litige successoral"
+    },
+    {
+      "id": "conflicts-0094",
+      "text": "Conflit parent–enfant"
+    },
+    {
+      "id": "conflicts-0095",
+      "text": "Amitié brisée"
+    },
+    {
+      "id": "conflicts-0096",
+      "text": "Harcèlement au travail"
+    },
+    {
+      "id": "conflicts-0097",
+      "text": "Lutte de pouvoir au travail"
+    },
+    {
+      "id": "conflicts-0098",
+      "text": "Conflit entre salariés et direction"
+    },
+    {
+      "id": "conflicts-0099",
+      "text": "Conflit entre un client et une entreprise"
+    },
+    {
+      "id": "conflicts-0100",
+      "text": "Organisations rivales"
+    },
+    {
+      "id": "conflicts-0101",
+      "text": "Familles rivales"
+    },
+    {
+      "id": "conflicts-0102",
+      "text": "Villes rivales"
+    },
+    {
+      "id": "conflicts-0103",
+      "text": "Nations rivales"
+    },
+    {
+      "id": "conflicts-0104",
+      "text": "Religions rivales"
+    },
+    {
+      "id": "conflicts-0105",
+      "text": "Groupes de recherche rivaux"
+    },
+    {
+      "id": "conflicts-0106",
+      "text": "Entreprises rivales"
+    },
+    {
+      "id": "conflicts-0107",
+      "text": "Organisations criminelles rivales"
+    },
+    {
+      "id": "conflicts-0108",
+      "text": "IA rivales"
+    },
+    {
+      "id": "conflicts-0109",
+      "text": "Colonies rivales"
+    },
+    {
+      "id": "conflicts-0110",
+      "text": "Fausse accusation"
+    },
+    {
+      "id": "conflicts-0111",
+      "text": "Ennemi inconnu"
+    },
+    {
+      "id": "conflicts-0112",
+      "text": "Ennemi caché"
+    },
+    {
+      "id": "conflicts-0113",
+      "text": "Traître au sein du groupe"
+    },
+    {
+      "id": "conflicts-0114",
+      "text": "Agent double"
+    },
+    {
+      "id": "conflicts-0115",
+      "text": "Ennemi déguisé"
+    },
+    {
+      "id": "conflicts-0116",
+      "text": "Personne disparue"
+    },
+    {
+      "id": "conflicts-0117",
+      "text": "Objet perdu"
+    },
+    {
+      "id": "conflicts-0118",
+      "text": "Information perdue"
+    },
+    {
+      "id": "conflicts-0119",
+      "text": "Mémoire perdue"
+    },
+    {
+      "id": "conflicts-0120",
+      "text": "Temps perdu"
+    },
+    {
+      "id": "conflicts-0121",
+      "text": "Passé inconnu"
+    },
+    {
+      "id": "conflicts-0122",
+      "text": "Crise d'identité"
+    },
+    {
+      "id": "conflicts-0123",
+      "text": "Amnésie"
+    },
+    {
+      "id": "conflicts-0124",
+      "text": "Perte du sens de la réalité"
+    },
+    {
+      "id": "conflicts-0125",
+      "text": "Information peu fiable"
+    },
+    {
+      "id": "conflicts-0126",
+      "text": "Témoignages contradictoires"
+    },
+    {
+      "id": "conflicts-0127",
+      "text": "Fausse piste"
+    },
+    {
+      "id": "conflicts-0128",
+      "text": "Manque de preuves"
+    },
+    {
+      "id": "conflicts-0129",
+      "text": "Preuves contradictoires"
+    },
+    {
+      "id": "conflicts-0130",
+      "text": "Crime non résolu"
+    },
+    {
+      "id": "conflicts-0131",
+      "text": "Tueur en série"
+    },
+    {
+      "id": "conflicts-0132",
+      "text": "Série de disparitions"
+    },
+    {
+      "id": "conflicts-0133",
+      "text": "Mort étrange"
+    },
+    {
+      "id": "conflicts-0134",
+      "text": "Accident maquillé"
+    },
+    {
+      "id": "conflicts-0135",
+      "text": "Suicide maquillé"
+    },
+    {
+      "id": "conflicts-0136",
+      "text": "Recherche interdite"
+    },
+    {
+      "id": "conflicts-0137",
+      "text": "Expérience secrète"
+    },
+    {
+      "id": "conflicts-0138",
+      "text": "Invention dangereuse"
+    },
+    {
+      "id": "conflicts-0139",
+      "text": "La recherche échappe à tout contrôle"
+    },
+    {
+      "id": "conflicts-0140",
+      "text": "L'IA échappe à tout contrôle"
+    },
+    {
+      "id": "conflicts-0141",
+      "text": "Révolte des robots"
+    },
+    {
+      "id": "conflicts-0142",
+      "text": "Défaillance de l'automatisation"
+    },
+    {
+      "id": "conflicts-0143",
+      "text": "Bug logiciel"
+    },
+    {
+      "id": "conflicts-0144",
+      "text": "Panne du système informatique"
+    },
+    {
+      "id": "conflicts-0145",
+      "text": "Panne du réseau"
+    },
+    {
+      "id": "conflicts-0146",
+      "text": "Coupure de courant"
+    },
+    {
+      "id": "conflicts-0147",
+      "text": "Panne du réacteur"
+    },
+    {
+      "id": "conflicts-0148",
+      "text": "Panne du moteur"
+    },
+    {
+      "id": "conflicts-0149",
+      "text": "Panne du système d'oxygène"
+    },
+    {
+      "id": "conflicts-0150",
+      "text": "Panne du système de pression"
+    },
+    {
+      "id": "conflicts-0151",
+      "text": "Panne du système d'eau"
+    },
+    {
+      "id": "conflicts-0152",
+      "text": "Panne du chauffage"
+    },
+    {
+      "id": "conflicts-0153",
+      "text": "Panne du système de sécurité"
+    },
+    {
+      "id": "conflicts-0154",
+      "text": "Panne du système de navigation"
+    },
+    {
+      "id": "conflicts-0155",
+      "text": "Panne du système de communication"
+    },
+    {
+      "id": "conflicts-0156",
+      "text": "Dommages structurels"
+    },
+    {
+      "id": "conflicts-0157",
+      "text": "Risque d'effondrement du bâtiment"
+    },
+    {
+      "id": "conflicts-0158",
+      "text": "Brèche dans la coque"
+    },
+    {
+      "id": "conflicts-0159",
+      "text": "Incendie"
+    },
+    {
+      "id": "conflicts-0160",
+      "text": "Explosion"
+    },
+    {
+      "id": "conflicts-0161",
+      "text": "Tempête"
+    },
+    {
+      "id": "conflicts-0162",
+      "text": "Inondation"
+    },
+    {
+      "id": "conflicts-0163",
+      "text": "Tremblement de terre"
+    },
+    {
+      "id": "conflicts-0164",
+      "text": "Tsunami"
+    },
+    {
+      "id": "conflicts-0165",
+      "text": "Éruption volcanique"
+    },
+    {
+      "id": "conflicts-0166",
+      "text": "Feu de forêt"
+    },
+    {
+      "id": "conflicts-0167",
+      "text": "Ouragan"
+    },
+    {
+      "id": "conflicts-0168",
+      "text": "Blizzard"
+    },
+    {
+      "id": "conflicts-0169",
+      "text": "Canicule"
+    },
+    {
+      "id": "conflicts-0170",
+      "text": "Grand froid"
+    },
+    {
+      "id": "conflicts-0171",
+      "text": "Sécheresse"
+    },
+    {
+      "id": "conflicts-0172",
+      "text": "Glissement de terrain"
+    },
+    {
+      "id": "conflicts-0173",
+      "text": "Avalanche"
+    },
+    {
+      "id": "conflicts-0174",
+      "text": "Impact de météorite"
+    },
+    {
+      "id": "conflicts-0175",
+      "text": "Éruption solaire"
+    },
+    {
+      "id": "conflicts-0176",
+      "text": "Tempête de radiations"
+    },
+    {
+      "id": "conflicts-0177",
+      "text": "Débris spatiaux"
+    },
+    {
+      "id": "conflicts-0178",
+      "text": "Anomalie gravitationnelle"
+    },
+    {
+      "id": "conflicts-0179",
+      "text": "Menace d'un trou noir"
+    },
+    {
+      "id": "conflicts-0180",
+      "text": "Effondrement du climat de la planète"
+    },
+    {
+      "id": "conflicts-0181",
+      "text": "Effondrement de l'écosystème"
+    },
+    {
+      "id": "conflicts-0182",
+      "text": "Pollution"
+    },
+    {
+      "id": "conflicts-0183",
+      "text": "Environnement toxique"
+    },
+    {
+      "id": "conflicts-0184",
+      "text": "Contamination de l'eau"
+    },
+    {
+      "id": "conflicts-0185",
+      "text": "Pollution de l'air"
+    },
+    {
+      "id": "conflicts-0186",
+      "text": "Épidémie"
+    },
+    {
+      "id": "conflicts-0187",
+      "text": "Pandémie"
+    },
+    {
+      "id": "conflicts-0188",
+      "text": "Maladie inconnue"
+    },
+    {
+      "id": "conflicts-0189",
+      "text": "Propagation d'une infection"
+    },
+    {
+      "id": "conflicts-0190",
+      "text": "Résistance aux médicaments"
+    },
+    {
+      "id": "conflicts-0191",
+      "text": "Empoisonnement"
+    },
+    {
+      "id": "conflicts-0192",
+      "text": "Exposition aux radiations"
+    },
+    {
+      "id": "conflicts-0193",
+      "text": "Famine"
+    },
+    {
+      "id": "conflicts-0194",
+      "text": "Crise de santé mentale"
+    },
+    {
+      "id": "conflicts-0195",
+      "text": "Épidémie d'insomnie"
+    },
+    {
+      "id": "conflicts-0196",
+      "text": "Hystérie collective"
+    },
+    {
+      "id": "conflicts-0197",
+      "text": "Infestation de parasites"
+    },
+    {
+      "id": "conflicts-0198",
+      "text": "Maladie génétique"
+    },
+    {
+      "id": "conflicts-0199",
+      "text": "Mutation"
+    },
+    {
+      "id": "conflicts-0200",
+      "text": "Organisme extraterrestre"
+    },
+    {
+      "id": "conflicts-0201",
+      "text": "Forme de vie inconnue"
+    },
+    {
+      "id": "conflicts-0202",
+      "text": "Attaque de monstres"
+    },
+    {
+      "id": "conflicts-0203",
+      "text": "Attaque d'une horde d'animaux"
+    },
+    {
+      "id": "conflicts-0204",
+      "text": "Infection zombie"
+    },
+    {
+      "id": "conflicts-0205",
+      "text": "Menace vampirique"
+    },
+    {
+      "id": "conflicts-0206",
+      "text": "Hantise"
+    },
+    {
+      "id": "conflicts-0207",
+      "text": "Malédiction"
+    },
+    {
+      "id": "conflicts-0208",
+      "text": "Possession"
+    },
+    {
+      "id": "conflicts-0209",
+      "text": "Phénomène surnaturel"
+    },
+    {
+      "id": "conflicts-0210",
+      "text": "Distorsion de la réalité"
+    },
+    {
+      "id": "conflicts-0211",
+      "text": "Boucle temporelle"
+    },
+    {
+      "id": "conflicts-0212",
+      "text": "Paradoxe temporel"
+    },
+    {
+      "id": "conflicts-0213",
+      "text": "L'histoire change"
+    },
+    {
+      "id": "conflicts-0214",
+      "text": "Collision de réalités parallèles"
+    },
+    {
+      "id": "conflicts-0215",
+      "text": "Les souvenirs changent"
+    },
+    {
+      "id": "conflicts-0216",
+      "text": "Les rêves se mêlent à la réalité"
+    },
+    {
+      "id": "conflicts-0217",
+      "text": "La simulation se désagrège"
+    },
+    {
+      "id": "conflicts-0218",
+      "text": "Les règles du monde se brisent"
+    },
+    {
+      "id": "conflicts-0219",
+      "text": "Les PNJ se comportent anormalement"
+    },
+    {
+      "id": "conflicts-0220",
+      "text": "L'existence du joueur est remise en question"
+    },
+    {
+      "id": "conflicts-0221",
+      "text": "Le temps presse"
+    },
+    {
+      "id": "conflicts-0222",
+      "text": "Course contre la montre"
+    },
+    {
+      "id": "conflicts-0223",
+      "text": "Échéance"
+    },
+    {
+      "id": "conflicts-0224",
+      "text": "Catastrophe imminente"
+    },
+    {
+      "id": "conflicts-0225",
+      "text": "Attaque imminente"
+    },
+    {
+      "id": "conflicts-0226",
+      "text": "Faillite imminente"
+    },
+    {
+      "id": "conflicts-0227",
+      "text": "Hiver imminent"
+    },
+    {
+      "id": "conflicts-0228",
+      "text": "Épidémie imminente"
+    },
+    {
+      "id": "conflicts-0229",
+      "text": "Exécution imminente"
+    },
+    {
+      "id": "conflicts-0230",
+      "text": "Révélation imminente"
+    },
+    {
+      "id": "conflicts-0231",
+      "text": "Évacuation imminente"
+    },
+    {
+      "id": "conflicts-0232",
+      "text": "Fin du monde imminente"
+    },
+    {
+      "id": "conflicts-0233",
+      "text": "Décision impossible"
+    },
+    {
+      "id": "conflicts-0234",
+      "text": "Deux mauvais choix"
+    },
+    {
+      "id": "conflicts-0235",
+      "text": "Dilemme moral"
+    },
+    {
+      "id": "conflicts-0236",
+      "text": "La loi contre la justice"
+    },
+    {
+      "id": "conflicts-0237",
+      "text": "L'individu contre la communauté"
+    },
+    {
+      "id": "conflicts-0238",
+      "text": "La sécurité contre la liberté"
+    },
+    {
+      "id": "conflicts-0239",
+      "text": "La vérité contre la stabilité"
+    },
+    {
+      "id": "conflicts-0240",
+      "text": "L'amour contre le devoir"
+    },
+    {
+      "id": "conflicts-0241",
+      "text": "La carrière contre la famille"
+    },
+    {
+      "id": "conflicts-0242",
+      "text": "La survie contre la morale"
+    },
+    {
+      "id": "conflicts-0243",
+      "text": "Le gain à court terme contre le long terme"
+    },
+    {
+      "id": "conflicts-0244",
+      "text": "La violence contre une solution pacifique"
+    },
+    {
+      "id": "conflicts-0245",
+      "text": "Le bien commun contre l'intérêt personnel"
+    },
+    {
+      "id": "conflicts-0246",
+      "text": "La nature contre l'industrie"
+    },
+    {
+      "id": "conflicts-0247",
+      "text": "La technologie contre l'humanité"
+    },
+    {
+      "id": "conflicts-0248",
+      "text": "La science contre la foi"
+    },
+    {
+      "id": "conflicts-0249",
+      "text": "La tradition contre la réforme"
+    },
+    {
+      "id": "conflicts-0250",
+      "text": "Le pouvoir central contre l'autonomie locale"
+    },
+    {
+      "id": "conflicts-0251",
+      "text": "L'humain contre la machine"
+    },
+    {
+      "id": "conflicts-0252",
+      "text": "L'humain contre la nature"
+    },
+    {
+      "id": "conflicts-0253",
+      "text": "L'humain contre la société"
+    },
+    {
+      "id": "conflicts-0254",
+      "text": "L'humain contre lui-même"
+    },
+    {
+      "id": "conflicts-0255",
+      "text": "L'humain contre le destin"
+    },
+    {
+      "id": "conflicts-0256",
+      "text": "L'humain contre le temps"
+    },
+    {
+      "id": "conflicts-0257",
+      "text": "L'humain contre l'inconnu"
+    }
   ]
 }

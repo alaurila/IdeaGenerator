@@ -1,261 +1,1032 @@
 {
   "conflicts": [
-    "Escasez",
-    "Rival",
-    "Desastre natural",
-    "Asesinato",
-    "Crisis política",
-    "Rebelión interna",
-    "Enfermedad",
-    "Traición",
-    "Presión de tiempo",
-    "Fallo del sistema",
-    "Falta de recursos",
-    "Escasez de alimentos",
-    "Escasez de agua",
-    "Escasez de energía",
-    "Escasez de medicamentos",
-    "Escasez de mano de obra",
-    "Falta de dinero",
-    "Falta de espacio",
-    "Superpoblación",
-    "Despoblación",
-    "Colapso económico",
-    "Bancarrota",
-    "Crisis de deuda",
-    "Inflación",
-    "Desplome del mercado",
-    "Huelga",
-    "Conflicto laboral",
-    "Ruptura de la cadena de suministro",
-    "Parón de producción",
-    "Sabotaje",
-    "Robo",
-    "Atraco",
-    "Chantaje",
-    "Secuestro",
-    "Contrabando",
-    "Corrupción",
-    "Espionaje",
-    "Filtración de información",
-    "Brecha de datos",
-    "Robo de identidad",
-    "Falsificación",
-    "Conspiración",
-    "Encubrimiento",
-    "Destrucción de pruebas",
-    "Mentiras",
-    "Falta de confianza",
-    "Crisis de lealtad",
-    "Crisis de reputación",
-    "Escándalo mediático",
-    "Desinformación",
-    "Propaganda",
-    "Propagación de rumores",
-    "Pánico",
-    "Colapso de la moral",
-    "Crisis de liderazgo",
-    "Lucha por el poder",
-    "Crisis sucesoria",
-    "Golpe de Estado",
-    "Revolución",
-    "Guerra civil",
-    "Disputa fronteriza",
-    "Guerra",
-    "Guerra fría",
-    "Ocupación",
-    "Asedio",
-    "Atentado terrorista",
-    "Insurgencia",
-    "Separatismo",
-    "Crisis diplomática",
-    "Guerra comercial",
-    "Crisis de sanciones",
-    "Disputa entre aliados",
-    "Crisis electoral",
-    "Caída del gobierno",
-    "Abuso ilegal del poder",
-    "Conflicto entre la ley y la moral",
-    "Conflicto entre autoridades",
-    "Disturbios civiles",
-    "Manifestaciones",
-    "Revueltas",
-    "Protesta violenta",
-    "Conflicto de clases",
-    "Conflicto generacional",
-    "Conflicto religioso",
-    "Conflicto cultural",
-    "Conflicto étnico",
-    "Conflicto entre locales y recién llegados",
-    "Riña familiar",
-    "Enemistad entre clanes",
-    "Crisis de pareja",
-    "Celos",
-    "Divorcio",
-    "Disputa por una herencia",
-    "Conflicto entre padres e hijos",
-    "Amistad rota",
-    "Acoso laboral",
-    "Lucha de poder en el trabajo",
-    "Conflicto entre empleados y dirección",
-    "Conflicto entre un cliente y una empresa",
-    "Organizaciones rivales",
-    "Familias rivales",
-    "Ciudades rivales",
-    "Naciones rivales",
-    "Religiones rivales",
-    "Grupos de investigación rivales",
-    "Empresas rivales",
-    "Organizaciones criminales rivales",
-    "IA rivales",
-    "Colonias rivales",
-    "Acusación falsa",
-    "Enemigo desconocido",
-    "Enemigo oculto",
-    "Traidor dentro del grupo",
-    "Agente doble",
-    "Enemigo disfrazado",
-    "Persona desaparecida",
-    "Objeto perdido",
-    "Información perdida",
-    "Memoria perdida",
-    "Tiempo perdido",
-    "Pasado desconocido",
-    "Crisis de identidad",
-    "Amnesia",
-    "Pérdida del sentido de la realidad",
-    "Información poco fiable",
-    "Testimonios contradictorios",
-    "Pista falsa",
-    "Falta de pruebas",
-    "Pruebas contradictorias",
-    "Crimen sin resolver",
-    "Asesino en serie",
-    "Serie de desapariciones",
-    "Muerte extraña",
-    "Accidente simulado",
-    "Suicidio simulado",
-    "Investigación prohibida",
-    "Experimento secreto",
-    "Invento peligroso",
-    "La investigación se descontrola",
-    "La IA se descontrola",
-    "Rebelión de los robots",
-    "Fallo de la automatización",
-    "Error de software",
-    "Caída del sistema informático",
-    "Caída de la red",
-    "Apagón",
-    "Avería del reactor",
-    "Avería del motor",
-    "Fallo del sistema de oxígeno",
-    "Fallo del sistema de presión",
-    "Fallo del sistema de agua",
-    "Fallo de la calefacción",
-    "Fallo del sistema de seguridad",
-    "Fallo del sistema de navegación",
-    "Fallo del sistema de comunicaciones",
-    "Daño estructural",
-    "Riesgo de derrumbe del edificio",
-    "Daño en el casco",
-    "Incendio",
-    "Explosión",
-    "Tormenta",
-    "Inundación",
-    "Terremoto",
-    "Tsunami",
-    "Erupción volcánica",
-    "Incendio forestal",
-    "Huracán",
-    "Ventisca",
-    "Ola de calor",
-    "Helada extrema",
-    "Sequía",
-    "Corrimiento de tierras",
-    "Avalancha",
-    "Impacto de meteorito",
-    "Llamarada solar",
-    "Tormenta de radiación",
-    "Basura espacial",
-    "Anomalía gravitatoria",
-    "Amenaza de un agujero negro",
-    "Colapso del clima del planeta",
-    "Colapso del ecosistema",
-    "Contaminación",
-    "Entorno tóxico",
-    "Contaminación del agua",
-    "Contaminación del aire",
-    "Epidemia",
-    "Pandemia",
-    "Enfermedad desconocida",
-    "Propagación de una infección",
-    "Resistencia a los fármacos",
-    "Envenenamiento",
-    "Exposición a la radiación",
-    "Hambruna",
-    "Crisis de salud mental",
-    "Epidemia de insomnio",
-    "Histeria colectiva",
-    "Plaga de parásitos",
-    "Trastorno genético",
-    "Mutación",
-    "Organismo alienígena",
-    "Forma de vida desconocida",
-    "Ataque de monstruos",
-    "Ataque de una manada de animales",
-    "Infección zombi",
-    "Amenaza vampírica",
-    "Encantamiento de un lugar",
-    "Maldición",
-    "Posesión",
-    "Fenómeno sobrenatural",
-    "Distorsión de la realidad",
-    "Bucle temporal",
-    "Paradoja temporal",
-    "La historia cambia",
-    "Choque de realidades paralelas",
-    "Los recuerdos cambian",
-    "Los sueños se mezclan con la realidad",
-    "La simulación se desmorona",
-    "Las reglas del mundo se rompen",
-    "Los PNJ se comportan de forma extraña",
-    "Se pone en duda la existencia del jugador",
-    "Se acaba el tiempo",
-    "Carrera contra el tiempo",
-    "Fecha límite",
-    "Desastre inminente",
-    "Ataque inminente",
-    "Bancarrota inminente",
-    "Invierno inminente",
-    "Epidemia inminente",
-    "Ejecución inminente",
-    "Descubrimiento inminente",
-    "Evacuación inminente",
-    "Fin del mundo inminente",
-    "Decisión imposible",
-    "Dos malas opciones",
-    "Dilema moral",
-    "Ley contra justicia",
-    "Individuo contra comunidad",
-    "Seguridad contra libertad",
-    "Verdad contra estabilidad",
-    "Amor contra deber",
-    "Carrera contra familia",
-    "Supervivencia contra moral",
-    "Beneficio a corto plazo contra largo plazo",
-    "Violencia contra solución pacífica",
-    "Bien común contra interés propio",
-    "Naturaleza contra industria",
-    "Tecnología contra humanidad",
-    "Ciencia contra fe",
-    "Tradición contra reforma",
-    "Gobierno central contra autonomía local",
-    "Humano contra máquina",
-    "Humano contra naturaleza",
-    "Humano contra sociedad",
-    "Humano contra sí mismo",
-    "Humano contra el destino",
-    "Humano contra el tiempo",
-    "Humano contra lo desconocido"
+    {
+      "id": "conflicts-0001",
+      "text": "Escasez"
+    },
+    {
+      "id": "conflicts-0002",
+      "text": "Rival"
+    },
+    {
+      "id": "conflicts-0003",
+      "text": "Desastre natural"
+    },
+    {
+      "id": "conflicts-0004",
+      "text": "Asesinato"
+    },
+    {
+      "id": "conflicts-0005",
+      "text": "Crisis política"
+    },
+    {
+      "id": "conflicts-0006",
+      "text": "Rebelión interna"
+    },
+    {
+      "id": "conflicts-0007",
+      "text": "Enfermedad"
+    },
+    {
+      "id": "conflicts-0008",
+      "text": "Traición"
+    },
+    {
+      "id": "conflicts-0009",
+      "text": "Presión de tiempo"
+    },
+    {
+      "id": "conflicts-0010",
+      "text": "Fallo del sistema"
+    },
+    {
+      "id": "conflicts-0011",
+      "text": "Falta de recursos"
+    },
+    {
+      "id": "conflicts-0012",
+      "text": "Escasez de alimentos"
+    },
+    {
+      "id": "conflicts-0013",
+      "text": "Escasez de agua"
+    },
+    {
+      "id": "conflicts-0014",
+      "text": "Escasez de energía"
+    },
+    {
+      "id": "conflicts-0015",
+      "text": "Escasez de medicamentos"
+    },
+    {
+      "id": "conflicts-0016",
+      "text": "Escasez de mano de obra"
+    },
+    {
+      "id": "conflicts-0017",
+      "text": "Falta de dinero"
+    },
+    {
+      "id": "conflicts-0018",
+      "text": "Falta de espacio"
+    },
+    {
+      "id": "conflicts-0019",
+      "text": "Superpoblación"
+    },
+    {
+      "id": "conflicts-0020",
+      "text": "Despoblación"
+    },
+    {
+      "id": "conflicts-0021",
+      "text": "Colapso económico"
+    },
+    {
+      "id": "conflicts-0022",
+      "text": "Bancarrota"
+    },
+    {
+      "id": "conflicts-0023",
+      "text": "Crisis de deuda"
+    },
+    {
+      "id": "conflicts-0024",
+      "text": "Inflación"
+    },
+    {
+      "id": "conflicts-0025",
+      "text": "Desplome del mercado"
+    },
+    {
+      "id": "conflicts-0026",
+      "text": "Huelga"
+    },
+    {
+      "id": "conflicts-0027",
+      "text": "Conflicto laboral"
+    },
+    {
+      "id": "conflicts-0028",
+      "text": "Ruptura de la cadena de suministro"
+    },
+    {
+      "id": "conflicts-0029",
+      "text": "Parón de producción"
+    },
+    {
+      "id": "conflicts-0030",
+      "text": "Sabotaje"
+    },
+    {
+      "id": "conflicts-0031",
+      "text": "Robo"
+    },
+    {
+      "id": "conflicts-0032",
+      "text": "Atraco"
+    },
+    {
+      "id": "conflicts-0033",
+      "text": "Chantaje"
+    },
+    {
+      "id": "conflicts-0034",
+      "text": "Secuestro"
+    },
+    {
+      "id": "conflicts-0035",
+      "text": "Contrabando"
+    },
+    {
+      "id": "conflicts-0036",
+      "text": "Corrupción"
+    },
+    {
+      "id": "conflicts-0037",
+      "text": "Espionaje"
+    },
+    {
+      "id": "conflicts-0038",
+      "text": "Filtración de información"
+    },
+    {
+      "id": "conflicts-0039",
+      "text": "Brecha de datos"
+    },
+    {
+      "id": "conflicts-0040",
+      "text": "Robo de identidad"
+    },
+    {
+      "id": "conflicts-0041",
+      "text": "Falsificación"
+    },
+    {
+      "id": "conflicts-0042",
+      "text": "Conspiración"
+    },
+    {
+      "id": "conflicts-0043",
+      "text": "Encubrimiento"
+    },
+    {
+      "id": "conflicts-0044",
+      "text": "Destrucción de pruebas"
+    },
+    {
+      "id": "conflicts-0045",
+      "text": "Mentiras"
+    },
+    {
+      "id": "conflicts-0046",
+      "text": "Falta de confianza"
+    },
+    {
+      "id": "conflicts-0047",
+      "text": "Crisis de lealtad"
+    },
+    {
+      "id": "conflicts-0048",
+      "text": "Crisis de reputación"
+    },
+    {
+      "id": "conflicts-0049",
+      "text": "Escándalo mediático"
+    },
+    {
+      "id": "conflicts-0050",
+      "text": "Desinformación"
+    },
+    {
+      "id": "conflicts-0051",
+      "text": "Propaganda"
+    },
+    {
+      "id": "conflicts-0052",
+      "text": "Propagación de rumores"
+    },
+    {
+      "id": "conflicts-0053",
+      "text": "Pánico"
+    },
+    {
+      "id": "conflicts-0054",
+      "text": "Colapso de la moral"
+    },
+    {
+      "id": "conflicts-0055",
+      "text": "Crisis de liderazgo"
+    },
+    {
+      "id": "conflicts-0056",
+      "text": "Lucha por el poder"
+    },
+    {
+      "id": "conflicts-0057",
+      "text": "Crisis sucesoria"
+    },
+    {
+      "id": "conflicts-0058",
+      "text": "Golpe de Estado"
+    },
+    {
+      "id": "conflicts-0059",
+      "text": "Revolución"
+    },
+    {
+      "id": "conflicts-0060",
+      "text": "Guerra civil"
+    },
+    {
+      "id": "conflicts-0061",
+      "text": "Disputa fronteriza"
+    },
+    {
+      "id": "conflicts-0062",
+      "text": "Guerra"
+    },
+    {
+      "id": "conflicts-0063",
+      "text": "Guerra fría"
+    },
+    {
+      "id": "conflicts-0064",
+      "text": "Ocupación"
+    },
+    {
+      "id": "conflicts-0065",
+      "text": "Asedio"
+    },
+    {
+      "id": "conflicts-0066",
+      "text": "Atentado terrorista"
+    },
+    {
+      "id": "conflicts-0067",
+      "text": "Insurgencia"
+    },
+    {
+      "id": "conflicts-0068",
+      "text": "Separatismo"
+    },
+    {
+      "id": "conflicts-0069",
+      "text": "Crisis diplomática"
+    },
+    {
+      "id": "conflicts-0070",
+      "text": "Guerra comercial"
+    },
+    {
+      "id": "conflicts-0071",
+      "text": "Crisis de sanciones"
+    },
+    {
+      "id": "conflicts-0072",
+      "text": "Disputa entre aliados"
+    },
+    {
+      "id": "conflicts-0073",
+      "text": "Crisis electoral"
+    },
+    {
+      "id": "conflicts-0074",
+      "text": "Caída del gobierno"
+    },
+    {
+      "id": "conflicts-0075",
+      "text": "Abuso ilegal del poder"
+    },
+    {
+      "id": "conflicts-0076",
+      "text": "Conflicto entre la ley y la moral"
+    },
+    {
+      "id": "conflicts-0077",
+      "text": "Conflicto entre autoridades"
+    },
+    {
+      "id": "conflicts-0078",
+      "text": "Disturbios civiles"
+    },
+    {
+      "id": "conflicts-0079",
+      "text": "Manifestaciones"
+    },
+    {
+      "id": "conflicts-0080",
+      "text": "Revueltas"
+    },
+    {
+      "id": "conflicts-0081",
+      "text": "Protesta violenta"
+    },
+    {
+      "id": "conflicts-0082",
+      "text": "Conflicto de clases"
+    },
+    {
+      "id": "conflicts-0083",
+      "text": "Conflicto generacional"
+    },
+    {
+      "id": "conflicts-0084",
+      "text": "Conflicto religioso"
+    },
+    {
+      "id": "conflicts-0085",
+      "text": "Conflicto cultural"
+    },
+    {
+      "id": "conflicts-0086",
+      "text": "Conflicto étnico"
+    },
+    {
+      "id": "conflicts-0087",
+      "text": "Conflicto entre locales y recién llegados"
+    },
+    {
+      "id": "conflicts-0088",
+      "text": "Riña familiar"
+    },
+    {
+      "id": "conflicts-0089",
+      "text": "Enemistad entre clanes"
+    },
+    {
+      "id": "conflicts-0090",
+      "text": "Crisis de pareja"
+    },
+    {
+      "id": "conflicts-0091",
+      "text": "Celos"
+    },
+    {
+      "id": "conflicts-0092",
+      "text": "Divorcio"
+    },
+    {
+      "id": "conflicts-0093",
+      "text": "Disputa por una herencia"
+    },
+    {
+      "id": "conflicts-0094",
+      "text": "Conflicto entre padres e hijos"
+    },
+    {
+      "id": "conflicts-0095",
+      "text": "Amistad rota"
+    },
+    {
+      "id": "conflicts-0096",
+      "text": "Acoso laboral"
+    },
+    {
+      "id": "conflicts-0097",
+      "text": "Lucha de poder en el trabajo"
+    },
+    {
+      "id": "conflicts-0098",
+      "text": "Conflicto entre empleados y dirección"
+    },
+    {
+      "id": "conflicts-0099",
+      "text": "Conflicto entre un cliente y una empresa"
+    },
+    {
+      "id": "conflicts-0100",
+      "text": "Organizaciones rivales"
+    },
+    {
+      "id": "conflicts-0101",
+      "text": "Familias rivales"
+    },
+    {
+      "id": "conflicts-0102",
+      "text": "Ciudades rivales"
+    },
+    {
+      "id": "conflicts-0103",
+      "text": "Naciones rivales"
+    },
+    {
+      "id": "conflicts-0104",
+      "text": "Religiones rivales"
+    },
+    {
+      "id": "conflicts-0105",
+      "text": "Grupos de investigación rivales"
+    },
+    {
+      "id": "conflicts-0106",
+      "text": "Empresas rivales"
+    },
+    {
+      "id": "conflicts-0107",
+      "text": "Organizaciones criminales rivales"
+    },
+    {
+      "id": "conflicts-0108",
+      "text": "IA rivales"
+    },
+    {
+      "id": "conflicts-0109",
+      "text": "Colonias rivales"
+    },
+    {
+      "id": "conflicts-0110",
+      "text": "Acusación falsa"
+    },
+    {
+      "id": "conflicts-0111",
+      "text": "Enemigo desconocido"
+    },
+    {
+      "id": "conflicts-0112",
+      "text": "Enemigo oculto"
+    },
+    {
+      "id": "conflicts-0113",
+      "text": "Traidor dentro del grupo"
+    },
+    {
+      "id": "conflicts-0114",
+      "text": "Agente doble"
+    },
+    {
+      "id": "conflicts-0115",
+      "text": "Enemigo disfrazado"
+    },
+    {
+      "id": "conflicts-0116",
+      "text": "Persona desaparecida"
+    },
+    {
+      "id": "conflicts-0117",
+      "text": "Objeto perdido"
+    },
+    {
+      "id": "conflicts-0118",
+      "text": "Información perdida"
+    },
+    {
+      "id": "conflicts-0119",
+      "text": "Memoria perdida"
+    },
+    {
+      "id": "conflicts-0120",
+      "text": "Tiempo perdido"
+    },
+    {
+      "id": "conflicts-0121",
+      "text": "Pasado desconocido"
+    },
+    {
+      "id": "conflicts-0122",
+      "text": "Crisis de identidad"
+    },
+    {
+      "id": "conflicts-0123",
+      "text": "Amnesia"
+    },
+    {
+      "id": "conflicts-0124",
+      "text": "Pérdida del sentido de la realidad"
+    },
+    {
+      "id": "conflicts-0125",
+      "text": "Información poco fiable"
+    },
+    {
+      "id": "conflicts-0126",
+      "text": "Testimonios contradictorios"
+    },
+    {
+      "id": "conflicts-0127",
+      "text": "Pista falsa"
+    },
+    {
+      "id": "conflicts-0128",
+      "text": "Falta de pruebas"
+    },
+    {
+      "id": "conflicts-0129",
+      "text": "Pruebas contradictorias"
+    },
+    {
+      "id": "conflicts-0130",
+      "text": "Crimen sin resolver"
+    },
+    {
+      "id": "conflicts-0131",
+      "text": "Asesino en serie"
+    },
+    {
+      "id": "conflicts-0132",
+      "text": "Serie de desapariciones"
+    },
+    {
+      "id": "conflicts-0133",
+      "text": "Muerte extraña"
+    },
+    {
+      "id": "conflicts-0134",
+      "text": "Accidente simulado"
+    },
+    {
+      "id": "conflicts-0135",
+      "text": "Suicidio simulado"
+    },
+    {
+      "id": "conflicts-0136",
+      "text": "Investigación prohibida"
+    },
+    {
+      "id": "conflicts-0137",
+      "text": "Experimento secreto"
+    },
+    {
+      "id": "conflicts-0138",
+      "text": "Invento peligroso"
+    },
+    {
+      "id": "conflicts-0139",
+      "text": "La investigación se descontrola"
+    },
+    {
+      "id": "conflicts-0140",
+      "text": "La IA se descontrola"
+    },
+    {
+      "id": "conflicts-0141",
+      "text": "Rebelión de los robots"
+    },
+    {
+      "id": "conflicts-0142",
+      "text": "Fallo de la automatización"
+    },
+    {
+      "id": "conflicts-0143",
+      "text": "Error de software"
+    },
+    {
+      "id": "conflicts-0144",
+      "text": "Caída del sistema informático"
+    },
+    {
+      "id": "conflicts-0145",
+      "text": "Caída de la red"
+    },
+    {
+      "id": "conflicts-0146",
+      "text": "Apagón"
+    },
+    {
+      "id": "conflicts-0147",
+      "text": "Avería del reactor"
+    },
+    {
+      "id": "conflicts-0148",
+      "text": "Avería del motor"
+    },
+    {
+      "id": "conflicts-0149",
+      "text": "Fallo del sistema de oxígeno"
+    },
+    {
+      "id": "conflicts-0150",
+      "text": "Fallo del sistema de presión"
+    },
+    {
+      "id": "conflicts-0151",
+      "text": "Fallo del sistema de agua"
+    },
+    {
+      "id": "conflicts-0152",
+      "text": "Fallo de la calefacción"
+    },
+    {
+      "id": "conflicts-0153",
+      "text": "Fallo del sistema de seguridad"
+    },
+    {
+      "id": "conflicts-0154",
+      "text": "Fallo del sistema de navegación"
+    },
+    {
+      "id": "conflicts-0155",
+      "text": "Fallo del sistema de comunicaciones"
+    },
+    {
+      "id": "conflicts-0156",
+      "text": "Daño estructural"
+    },
+    {
+      "id": "conflicts-0157",
+      "text": "Riesgo de derrumbe del edificio"
+    },
+    {
+      "id": "conflicts-0158",
+      "text": "Daño en el casco"
+    },
+    {
+      "id": "conflicts-0159",
+      "text": "Incendio"
+    },
+    {
+      "id": "conflicts-0160",
+      "text": "Explosión"
+    },
+    {
+      "id": "conflicts-0161",
+      "text": "Tormenta"
+    },
+    {
+      "id": "conflicts-0162",
+      "text": "Inundación"
+    },
+    {
+      "id": "conflicts-0163",
+      "text": "Terremoto"
+    },
+    {
+      "id": "conflicts-0164",
+      "text": "Tsunami"
+    },
+    {
+      "id": "conflicts-0165",
+      "text": "Erupción volcánica"
+    },
+    {
+      "id": "conflicts-0166",
+      "text": "Incendio forestal"
+    },
+    {
+      "id": "conflicts-0167",
+      "text": "Huracán"
+    },
+    {
+      "id": "conflicts-0168",
+      "text": "Ventisca"
+    },
+    {
+      "id": "conflicts-0169",
+      "text": "Ola de calor"
+    },
+    {
+      "id": "conflicts-0170",
+      "text": "Helada extrema"
+    },
+    {
+      "id": "conflicts-0171",
+      "text": "Sequía"
+    },
+    {
+      "id": "conflicts-0172",
+      "text": "Corrimiento de tierras"
+    },
+    {
+      "id": "conflicts-0173",
+      "text": "Avalancha"
+    },
+    {
+      "id": "conflicts-0174",
+      "text": "Impacto de meteorito"
+    },
+    {
+      "id": "conflicts-0175",
+      "text": "Llamarada solar"
+    },
+    {
+      "id": "conflicts-0176",
+      "text": "Tormenta de radiación"
+    },
+    {
+      "id": "conflicts-0177",
+      "text": "Basura espacial"
+    },
+    {
+      "id": "conflicts-0178",
+      "text": "Anomalía gravitatoria"
+    },
+    {
+      "id": "conflicts-0179",
+      "text": "Amenaza de un agujero negro"
+    },
+    {
+      "id": "conflicts-0180",
+      "text": "Colapso del clima del planeta"
+    },
+    {
+      "id": "conflicts-0181",
+      "text": "Colapso del ecosistema"
+    },
+    {
+      "id": "conflicts-0182",
+      "text": "Contaminación"
+    },
+    {
+      "id": "conflicts-0183",
+      "text": "Entorno tóxico"
+    },
+    {
+      "id": "conflicts-0184",
+      "text": "Contaminación del agua"
+    },
+    {
+      "id": "conflicts-0185",
+      "text": "Contaminación del aire"
+    },
+    {
+      "id": "conflicts-0186",
+      "text": "Epidemia"
+    },
+    {
+      "id": "conflicts-0187",
+      "text": "Pandemia"
+    },
+    {
+      "id": "conflicts-0188",
+      "text": "Enfermedad desconocida"
+    },
+    {
+      "id": "conflicts-0189",
+      "text": "Propagación de una infección"
+    },
+    {
+      "id": "conflicts-0190",
+      "text": "Resistencia a los fármacos"
+    },
+    {
+      "id": "conflicts-0191",
+      "text": "Envenenamiento"
+    },
+    {
+      "id": "conflicts-0192",
+      "text": "Exposición a la radiación"
+    },
+    {
+      "id": "conflicts-0193",
+      "text": "Hambruna"
+    },
+    {
+      "id": "conflicts-0194",
+      "text": "Crisis de salud mental"
+    },
+    {
+      "id": "conflicts-0195",
+      "text": "Epidemia de insomnio"
+    },
+    {
+      "id": "conflicts-0196",
+      "text": "Histeria colectiva"
+    },
+    {
+      "id": "conflicts-0197",
+      "text": "Plaga de parásitos"
+    },
+    {
+      "id": "conflicts-0198",
+      "text": "Trastorno genético"
+    },
+    {
+      "id": "conflicts-0199",
+      "text": "Mutación"
+    },
+    {
+      "id": "conflicts-0200",
+      "text": "Organismo alienígena"
+    },
+    {
+      "id": "conflicts-0201",
+      "text": "Forma de vida desconocida"
+    },
+    {
+      "id": "conflicts-0202",
+      "text": "Ataque de monstruos"
+    },
+    {
+      "id": "conflicts-0203",
+      "text": "Ataque de una manada de animales"
+    },
+    {
+      "id": "conflicts-0204",
+      "text": "Infección zombi"
+    },
+    {
+      "id": "conflicts-0205",
+      "text": "Amenaza vampírica"
+    },
+    {
+      "id": "conflicts-0206",
+      "text": "Encantamiento de un lugar"
+    },
+    {
+      "id": "conflicts-0207",
+      "text": "Maldición"
+    },
+    {
+      "id": "conflicts-0208",
+      "text": "Posesión"
+    },
+    {
+      "id": "conflicts-0209",
+      "text": "Fenómeno sobrenatural"
+    },
+    {
+      "id": "conflicts-0210",
+      "text": "Distorsión de la realidad"
+    },
+    {
+      "id": "conflicts-0211",
+      "text": "Bucle temporal"
+    },
+    {
+      "id": "conflicts-0212",
+      "text": "Paradoja temporal"
+    },
+    {
+      "id": "conflicts-0213",
+      "text": "La historia cambia"
+    },
+    {
+      "id": "conflicts-0214",
+      "text": "Choque de realidades paralelas"
+    },
+    {
+      "id": "conflicts-0215",
+      "text": "Los recuerdos cambian"
+    },
+    {
+      "id": "conflicts-0216",
+      "text": "Los sueños se mezclan con la realidad"
+    },
+    {
+      "id": "conflicts-0217",
+      "text": "La simulación se desmorona"
+    },
+    {
+      "id": "conflicts-0218",
+      "text": "Las reglas del mundo se rompen"
+    },
+    {
+      "id": "conflicts-0219",
+      "text": "Los PNJ se comportan de forma extraña"
+    },
+    {
+      "id": "conflicts-0220",
+      "text": "Se pone en duda la existencia del jugador"
+    },
+    {
+      "id": "conflicts-0221",
+      "text": "Se acaba el tiempo"
+    },
+    {
+      "id": "conflicts-0222",
+      "text": "Carrera contra el tiempo"
+    },
+    {
+      "id": "conflicts-0223",
+      "text": "Fecha límite"
+    },
+    {
+      "id": "conflicts-0224",
+      "text": "Desastre inminente"
+    },
+    {
+      "id": "conflicts-0225",
+      "text": "Ataque inminente"
+    },
+    {
+      "id": "conflicts-0226",
+      "text": "Bancarrota inminente"
+    },
+    {
+      "id": "conflicts-0227",
+      "text": "Invierno inminente"
+    },
+    {
+      "id": "conflicts-0228",
+      "text": "Epidemia inminente"
+    },
+    {
+      "id": "conflicts-0229",
+      "text": "Ejecución inminente"
+    },
+    {
+      "id": "conflicts-0230",
+      "text": "Descubrimiento inminente"
+    },
+    {
+      "id": "conflicts-0231",
+      "text": "Evacuación inminente"
+    },
+    {
+      "id": "conflicts-0232",
+      "text": "Fin del mundo inminente"
+    },
+    {
+      "id": "conflicts-0233",
+      "text": "Decisión imposible"
+    },
+    {
+      "id": "conflicts-0234",
+      "text": "Dos malas opciones"
+    },
+    {
+      "id": "conflicts-0235",
+      "text": "Dilema moral"
+    },
+    {
+      "id": "conflicts-0236",
+      "text": "Ley contra justicia"
+    },
+    {
+      "id": "conflicts-0237",
+      "text": "Individuo contra comunidad"
+    },
+    {
+      "id": "conflicts-0238",
+      "text": "Seguridad contra libertad"
+    },
+    {
+      "id": "conflicts-0239",
+      "text": "Verdad contra estabilidad"
+    },
+    {
+      "id": "conflicts-0240",
+      "text": "Amor contra deber"
+    },
+    {
+      "id": "conflicts-0241",
+      "text": "Carrera contra familia"
+    },
+    {
+      "id": "conflicts-0242",
+      "text": "Supervivencia contra moral"
+    },
+    {
+      "id": "conflicts-0243",
+      "text": "Beneficio a corto plazo contra largo plazo"
+    },
+    {
+      "id": "conflicts-0244",
+      "text": "Violencia contra solución pacífica"
+    },
+    {
+      "id": "conflicts-0245",
+      "text": "Bien común contra interés propio"
+    },
+    {
+      "id": "conflicts-0246",
+      "text": "Naturaleza contra industria"
+    },
+    {
+      "id": "conflicts-0247",
+      "text": "Tecnología contra humanidad"
+    },
+    {
+      "id": "conflicts-0248",
+      "text": "Ciencia contra fe"
+    },
+    {
+      "id": "conflicts-0249",
+      "text": "Tradición contra reforma"
+    },
+    {
+      "id": "conflicts-0250",
+      "text": "Gobierno central contra autonomía local"
+    },
+    {
+      "id": "conflicts-0251",
+      "text": "Humano contra máquina"
+    },
+    {
+      "id": "conflicts-0252",
+      "text": "Humano contra naturaleza"
+    },
+    {
+      "id": "conflicts-0253",
+      "text": "Humano contra sociedad"
+    },
+    {
+      "id": "conflicts-0254",
+      "text": "Humano contra sí mismo"
+    },
+    {
+      "id": "conflicts-0255",
+      "text": "Humano contra el destino"
+    },
+    {
+      "id": "conflicts-0256",
+      "text": "Humano contra el tiempo"
+    },
+    {
+      "id": "conflicts-0257",
+      "text": "Humano contra lo desconocido"
+    }
   ]
 }

@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Generate fresh game ideas with a bot: catalogs, command-line generation and browser automation.">
+  <title>Game Idea Generator — API and AI guide</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body><main class="container">
+  <h1>API and AI usage guide</h1>
+  <p><a href="./">Interactive generator</a>. To get a new game idea, generate a fresh combination from a catalog
+    using a newly generated seed for each request. The fixed example on the home page illustrates the data format.
+    Use a fixed seed only when someone explicitly asks to reproduce an existing idea.</p>
+
+  <p>English (<code>en</code>) is the default language. Choose another supported language when requested.</p>
+
+  <h2>Generate a fresh idea from a terminal</h2>
+  <p>In a local checkout, run the following command. It prints a new versioned idea as JSON to standard output
+    each time, using a random UUID seed. It does not select a pre-generated idea.</p>
+  <pre><code>npm run --silent generate -- --lang en</code></pre>
+  <p>To read the currently published catalog instead of the local copy:</p>
+  <pre><code>node scripts/generate-idea.js --lang en --catalog-url https://alaurila.github.io/IdeaGenerator/data/en/catalog.json</code></pre>
+  <p>Only pass <code>--seed my-idea-123</code> when replaying a specific idea.</p>
+
+  <h2>Generate using browser automation</h2>
+  <p>Open <a href="./?lang=en&amp;fresh=1">?lang=en&amp;fresh=1</a> in a JavaScript-capable browser.
+    Every navigation to that address generates a fresh seed and overrides previously saved state, even if a
+    <code>seed</code> parameter was also supplied. The address then changes to the reproducible seeded URL.</p>
+  <p>Wait until <code>#idea-output</code> contains a JSON object, then parse its text content. This is the actual
+    currently displayed idea. The following Playwright example assumes an existing <code>page</code>:</p>
+  <pre><code>await page.goto('https://alaurila.github.io/IdeaGenerator/?lang=en&amp;fresh=1');
+await page.waitForFunction(() =&gt; {
+  const text = document.getElementById('idea-output')?.textContent;
+  return text &amp;&amp; JSON.parse(text)?.seed !== null &amp;&amp; JSON.parse(text)?.categories;
+});
+const idea = JSON.parse(await page.locator('#idea-output').textContent());</code></pre>
+  <p>After manual edits, the current-idea JSON uses <code>seed: null</code> and an empty array for excluded categories.
+    JSON is populated at runtime; fetching the original HTML without running JavaScript returns no generated idea.</p>
+
+  <h2>Catalogs for bots without browser automation</h2>
+  <p>Fetch the appropriate catalog, then generate a combination locally. These files contain all available
+    options, not completed ideas. A plain HTTP request to this static site does not execute the generator.</p>
+  <ul>
+    <li><a href="data/en/catalog.json">English / en (default)</a></li>
+    <li><a href="data/fi/catalog.json">Suomi / fi</a></li>
+    <li><a href="data/es/catalog.json">Espa?ol / es</a></li>
+    <li><a href="data/pt/catalog.json">Portugu?s / pt</a></li>
+    <li><a href="data/fr/catalog.json">Fran?ais / fr</a></li>
+  </ul>
+  <p>Use the pure generation module described below, or sample options yourself if you cannot run JavaScript.
+    For the default category counts, choose two distinct options for <code>genres</code>, <code>core_mechanics</code>,
+    <code>moods</code>, <code>npc_structures</code> and <code>generative_elements</code>, and one for every other category.
+    To reproduce the module's results in another language, port its seeded algorithm and sort each category by ID
+    before sampling. Never report the fixed documentation example as a newly generated idea.</p>
+
+  <h2>Versioned response format</h2>
+  <p>Every idea contains the following fields. The categories below are an abbreviated illustration;
+    generated ideas contain every category listed in the catalog.</p>
+  <pre><code>{
+  "schemaVersion": 2,
+  "generatorVersion": 1,
+  "catalogVersion": "&lt;SHA-256 of the normalized catalog categories&gt;",
+  "language": "en",
+  "seed": "my-idea-123",
+  "categories": {
+    "player_roles": [{ "id": "player_roles-0001", "text": "&lt;translated label&gt;" }]
+  }
+}</code></pre>
+  <ul>
+    <li><code>schemaVersion</code>: JSON contract version. Version 2 uses option objects instead of strings.</li>
+    <li><code>generatorVersion</code>: generation algorithm version, currently 1.</li>
+    <li><code>catalogVersion</code>: content hash of categories and their translated options. Each language has its own hash.</li>
+    <li><code>language</code>: one of <code>en, fi, es, pt, fr</code>.</li>
+    <li><code>seed</code>: a string, including the empty string, used for deterministic generation.</li>
+    <li><code>categories</code>: stable category keys mapping to arrays of options. Every option has a permanent <code>id</code> and a localized <code>text</code>.</li>
+  </ul>
+  <p>A catalog contains
+    <code>schemaVersion</code>, <code>catalogVersion</code>, <code>language</code>, <code>labels</code> (category titles)
+    and <code>categories</code> (all options).</p>
+  <p>Match options across languages by <code>id</code>. IDs are stored in the source files and remain unchanged
+    when labels are corrected or lists reordered. Never treat array positions or translated labels as identifiers.</p>
+
+  <h2>Generate a fresh idea without a browser</h2>
+  <p>Import the public ES module and fetch a catalog. The function performs no network or storage operations.</p>
+  <pre><code>import { generateIdea } from './js/ideaEngine.js';
+
+const response = await fetch(
+  'https://alaurila.github.io/IdeaGenerator/data/en/catalog.json'
+);
+if (!response.ok) throw new Error(`Catalog: HTTP ${response.status}`);
+const catalog = await response.json();
+const idea = generateIdea({
+  catalog,
+  language: 'en',
+  seed: crypto.randomUUID() // A fresh seed for every new idea.
+});</code></pre>
+  <p>The import above is relative to a local copy of the project. Browser modules can also import
+    <a href="js/ideaEngine.js">js/ideaEngine.js</a> from this site.
+    Unsupported schema versions, mismatched catalog languages and invalid categories throw an error.</p>
+
+  <h2>Open or share the same idea</h2>
+  <p><a href="./?lang=en&amp;seed=my-idea-123">Open the English example</a> using
+    <code>?lang=en&amp;seed=my-idea-123</code> on the home page. The language and seed override saved browser state.
+    New Idea creates a seed and updates the address bar. Editing values or excluding categories removes the seed.</p>
+  <p>The same seed, language, catalog content and generator version produce the same result.
+    Reordering source options does not affect it. Changes to available options or the generation algorithm may change
+    results. Seeded URLs use the currently published catalog; they do not archive old catalog versions.
+    Store the complete idea JSON if exact long-term preservation is required.</p>
+</main></body></html>

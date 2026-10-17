@@ -1,238 +1,940 @@
 {
   "player_knowledge": [
-    "You see everything",
-    "You only know what concerns your own role",
-    "Information arrives as reports",
-    "NPCs lie",
-    "Some of the data is unreliable",
-    "You only see your own location",
-    "You only see your own organization's information",
-    "You only see what your character could realistically know",
-    "You see the world from a god's-eye view",
-    "You see the map but not the events",
-    "You see the events but not their causes",
-    "You see the consequences but not the decisions behind them",
-    "You see the decisions but not their consequences in advance",
-    "You see all resources precisely",
-    "You only see resources as estimates",
-    "You see resources with a delay",
-    "You only see the most important indicators",
-    "Some indicators are hidden",
-    "Some indicators show false information",
-    "Indicators are rounded",
-    "Indicators may be out of date",
-    "Indicators depend on the quality of reporting",
-    "Information comes through rumors",
-    "Information comes from newspapers",
-    "Information comes from the radio",
-    "Information comes from emails",
-    "Information comes from letters",
-    "Information comes from phone calls",
-    "Information comes from conversations",
-    "Information comes from security cameras",
-    "Information comes from sensors",
-    "Information comes from intelligence reports",
-    "Information comes from employee reports",
-    "Information comes from citizens' tip-offs",
-    "Information comes from official documents",
-    "Information comes from unofficial sources",
-    "Information comes from several conflicting sources",
-    "You must piece information together yourself from different sources",
-    "You only get information by asking the right people",
-    "You only get information by examining the environment",
-    "You only get information by spending time",
-    "You only get information by paying",
-    "You get information in exchange for favors",
-    "You get information through blackmail",
-    "You get information through espionage",
-    "You get information by breaking into systems",
-    "You get information through research",
-    "You get information by chance",
-    "Information is only available in certain places",
-    "Information is only available at certain times",
-    "Information is only available from certain factions",
-    "Information is classified by security level",
-    "Access to information depends on your position",
-    "Access to information depends on your reputation",
-    "Access to information depends on trust",
-    "Access to information depends on money",
-    "Access to information depends on relationships",
-    "Access to information depends on political power",
-    "Access to information depends on technical skill",
-    "Access to information depends on physical location",
-    "The player knows more than the character",
-    "The character knows more than the player",
-    "The player and the character know different things",
-    "The player gets information the character cannot use directly",
-    "The player has to play dumb",
-    "The player doesn't know their own true goals",
-    "The player doesn't know their own identity",
-    "The player doesn't know who is giving them orders",
-    "The player doesn't know why the mission matters",
-    "The player doesn't know whether the briefing is true",
-    "The player doesn't know who is an ally",
-    "The player doesn't know who is an enemy",
-    "The player doesn't know who is lying",
-    "The player doesn't know who is telling the truth",
-    "The player doesn't know which NPCs know each other",
-    "The player doesn't know the NPCs' true goals",
-    "The player doesn't know the NPCs' opinions",
-    "The player doesn't know the NPCs' loyalties",
-    "The player doesn't know what the NPCs fear",
-    "The player doesn't know the NPCs' secrets",
-    "The player doesn't know the NPCs' financial situation",
-    "The player doesn't know where the NPCs are",
-    "The player only sometimes sees where the NPCs are",
-    "NPC schedules must be learned",
-    "NPC relationships must be deduced",
-    "NPC motives must be deduced",
-    "NPCs' state of mind must be deduced",
-    "NPCs can lie outright",
-    "NPCs can leave things unsaid",
-    "NPCs can misremember",
-    "NPCs can misinterpret events",
-    "NPCs can believe rumors",
-    "NPCs can pass on false information unintentionally",
-    "NPCs can spread disinformation on purpose",
-    "NPCs can change their story",
-    "NPCs can agree on a shared lie",
-    "NPCs can give conflicting testimonies",
-    "An NPC's reliability must be assessed",
-    "What an NPC knows depends on their position",
-    "What an NPC knows depends on their location",
-    "What an NPC knows depends on their relationships",
-    "An NPC's information may be out of date",
-    "NPCs know things about the player that the player doesn't",
-    "NPCs may know more than the player",
-    "NPCs may know less than they believe",
-    "NPCs can hide information from each other",
-    "NPCs share information among themselves",
-    "Information spreads through the social network",
-    "Rumors change as they spread",
-    "Information gets distorted with every intermediary",
-    "The player sees where information came from",
-    "The player doesn't see where information came from",
-    "The player sees a reliability rating for each source",
-    "The player must judge the reliability of sources themselves",
-    "A source's reliability can change",
-    "A reliable source can lie once",
-    "An unreliable source can sometimes be the only one that's right",
-    "Official information is usually reliable",
-    "Official information may be propaganda",
-    "Official information is deliberately false",
-    "Unofficial information can be more valuable than official information",
-    "Secret information can be false",
-    "Classified information isn't necessarily true",
-    "Several conflicting pieces of information can each be partly true",
-    "The truth can never be known for certain",
-    "The truth can be fully uncovered",
-    "The truth can only be uncovered with enough evidence",
-    "The truth changes during the game",
-    "The truth depends on perspective",
-    "The truth depends on who interprets the events",
-    "The player must build their own theory",
-    "The player must mark their suspicions themselves",
-    "The player must connect the clues",
-    "The player must build a timeline",
-    "The player must build a family tree",
-    "The player must build a network of relationships",
-    "The player must keep their own notebook",
-    "The game keeps an automatic database of discovered information",
-    "The game's database also contains false information",
-    "The player can correct entries in the database",
-    "The player can mark information as confirmed",
-    "The player can mark information as suspicious",
-    "The player can link sources to the same claim",
-    "The player can forget information over time",
-    "The character can forget information",
-    "Memory is a limited resource",
-    "Memory can be distorted",
-    "Memory can be manipulated",
-    "Memories can be lost",
-    "Memories can return later",
-    "The player gets flashbacks",
-    "Flashbacks can be unreliable",
-    "Dreams contain clues",
-    "Dreams contain both true and false information",
-    "Hallucinations blend with reality",
-    "The player doesn't always know whether an event is real",
-    "The map only shows known areas",
-    "The map updates through exploration",
-    "The map can be inaccurate",
-    "The map can be out of date",
-    "The map can be deliberately wrong",
-    "The map's information depends on who made it",
-    "The player only sees their field of view",
-    "Fog of war hides unknown areas",
-    "Fog of war returns to areas over time",
-    "The player remembers areas seen before",
-    "The player doesn't know what happens elsewhere in the world",
-    "World events come to light afterwards",
-    "World events appear as news",
-    "World events appear as changes in resources",
-    "World events show in NPC behavior",
-    "World events must be inferred indirectly",
-    "The player sees all strategic events",
-    "The player only sees their own faction's reports",
-    "The player only sees enemy information through intelligence",
-    "Enemy unit counts appear as estimates",
-    "Enemy resources are unknown",
-    "Enemy plans can be intercepted",
-    "Intelligence can be wrong",
-    "Spies can feed false information",
-    "The player's own organization can distort reports",
-    "Subordinates hide bad news",
-    "Subordinates embellish statistics",
-    "Statistics can look good even when the situation is bad",
-    "Indicators can be manipulated",
-    "The player only sees aggregated numbers",
-    "The player can drill down into details",
-    "Detailed information costs time",
-    "Detailed information costs resources",
-    "Too much information overwhelms the player",
-    "The player must choose what to follow",
-    "You can't follow everything at once",
-    "Important events can go unnoticed",
-    "There are too many alerts",
-    "The player must prioritize reports",
-    "Some reports are useless",
-    "Some reports that look useless contain critical clues",
-    "Information arrives with a delay",
-    "Information can get lost on the way",
-    "A message can change on the way",
-    "Communication can be cut off",
-    "Communication only works at certain times",
-    "Communication has a limited range",
-    "Information must be carried physically",
-    "A messenger can go missing",
-    "A document can be a forgery",
-    "A document may have been altered",
-    "A signature may be forged",
-    "A timestamp may be wrong",
-    "A photo may have been manipulated",
-    "Video footage can be incomplete",
-    "Security cameras don't show everything",
-    "Security cameras have blind spots",
-    "Cameras can be sabotaged",
-    "Camera footage can be faked",
-    "A sensor can be broken",
-    "A sensor can give false positives",
-    "A sensor can miss things",
-    "Several sensors must be compared with each other",
-    "You only get information about events you choose to investigate",
-    "Information left uninvestigated is lost",
-    "The player can only ask a limited number of questions",
-    "The player can only interview some of the NPCs",
-    "The player can't revisit every decision",
-    "A wrong conclusion can lock away the right information",
-    "Information opens up new questions",
-    "New information can overturn an old theory",
-    "Information can change the goal of the mission",
-    "Information can reveal a new enemy",
-    "Information can reveal that there is no enemy at all",
-    "In the end the player knows almost everything",
-    "In the end the player only knows part of the truth",
-    "Some ambiguity deliberately remains at the end of the game",
-    "The player must make the final decision based on uncertain information"
+    {
+      "id": "player_knowledge-0001",
+      "text": "You see everything"
+    },
+    {
+      "id": "player_knowledge-0002",
+      "text": "You only know what concerns your own role"
+    },
+    {
+      "id": "player_knowledge-0003",
+      "text": "Information arrives as reports"
+    },
+    {
+      "id": "player_knowledge-0004",
+      "text": "NPCs lie"
+    },
+    {
+      "id": "player_knowledge-0005",
+      "text": "Some of the data is unreliable"
+    },
+    {
+      "id": "player_knowledge-0006",
+      "text": "You only see your own location"
+    },
+    {
+      "id": "player_knowledge-0007",
+      "text": "You only see your own organization's information"
+    },
+    {
+      "id": "player_knowledge-0008",
+      "text": "You only see what your character could realistically know"
+    },
+    {
+      "id": "player_knowledge-0009",
+      "text": "You see the world from a god's-eye view"
+    },
+    {
+      "id": "player_knowledge-0010",
+      "text": "You see the map but not the events"
+    },
+    {
+      "id": "player_knowledge-0011",
+      "text": "You see the events but not their causes"
+    },
+    {
+      "id": "player_knowledge-0012",
+      "text": "You see the consequences but not the decisions behind them"
+    },
+    {
+      "id": "player_knowledge-0013",
+      "text": "You see the decisions but not their consequences in advance"
+    },
+    {
+      "id": "player_knowledge-0014",
+      "text": "You see all resources precisely"
+    },
+    {
+      "id": "player_knowledge-0015",
+      "text": "You only see resources as estimates"
+    },
+    {
+      "id": "player_knowledge-0016",
+      "text": "You see resources with a delay"
+    },
+    {
+      "id": "player_knowledge-0017",
+      "text": "You only see the most important indicators"
+    },
+    {
+      "id": "player_knowledge-0018",
+      "text": "Some indicators are hidden"
+    },
+    {
+      "id": "player_knowledge-0019",
+      "text": "Some indicators show false information"
+    },
+    {
+      "id": "player_knowledge-0020",
+      "text": "Indicators are rounded"
+    },
+    {
+      "id": "player_knowledge-0021",
+      "text": "Indicators may be out of date"
+    },
+    {
+      "id": "player_knowledge-0022",
+      "text": "Indicators depend on the quality of reporting"
+    },
+    {
+      "id": "player_knowledge-0023",
+      "text": "Information comes through rumors"
+    },
+    {
+      "id": "player_knowledge-0024",
+      "text": "Information comes from newspapers"
+    },
+    {
+      "id": "player_knowledge-0025",
+      "text": "Information comes from the radio"
+    },
+    {
+      "id": "player_knowledge-0026",
+      "text": "Information comes from emails"
+    },
+    {
+      "id": "player_knowledge-0027",
+      "text": "Information comes from letters"
+    },
+    {
+      "id": "player_knowledge-0028",
+      "text": "Information comes from phone calls"
+    },
+    {
+      "id": "player_knowledge-0029",
+      "text": "Information comes from conversations"
+    },
+    {
+      "id": "player_knowledge-0030",
+      "text": "Information comes from security cameras"
+    },
+    {
+      "id": "player_knowledge-0031",
+      "text": "Information comes from sensors"
+    },
+    {
+      "id": "player_knowledge-0032",
+      "text": "Information comes from intelligence reports"
+    },
+    {
+      "id": "player_knowledge-0033",
+      "text": "Information comes from employee reports"
+    },
+    {
+      "id": "player_knowledge-0034",
+      "text": "Information comes from citizens' tip-offs"
+    },
+    {
+      "id": "player_knowledge-0035",
+      "text": "Information comes from official documents"
+    },
+    {
+      "id": "player_knowledge-0036",
+      "text": "Information comes from unofficial sources"
+    },
+    {
+      "id": "player_knowledge-0037",
+      "text": "Information comes from several conflicting sources"
+    },
+    {
+      "id": "player_knowledge-0038",
+      "text": "You must piece information together yourself from different sources"
+    },
+    {
+      "id": "player_knowledge-0039",
+      "text": "You only get information by asking the right people"
+    },
+    {
+      "id": "player_knowledge-0040",
+      "text": "You only get information by examining the environment"
+    },
+    {
+      "id": "player_knowledge-0041",
+      "text": "You only get information by spending time"
+    },
+    {
+      "id": "player_knowledge-0042",
+      "text": "You only get information by paying"
+    },
+    {
+      "id": "player_knowledge-0043",
+      "text": "You get information in exchange for favors"
+    },
+    {
+      "id": "player_knowledge-0044",
+      "text": "You get information through blackmail"
+    },
+    {
+      "id": "player_knowledge-0045",
+      "text": "You get information through espionage"
+    },
+    {
+      "id": "player_knowledge-0046",
+      "text": "You get information by breaking into systems"
+    },
+    {
+      "id": "player_knowledge-0047",
+      "text": "You get information through research"
+    },
+    {
+      "id": "player_knowledge-0048",
+      "text": "You get information by chance"
+    },
+    {
+      "id": "player_knowledge-0049",
+      "text": "Information is only available in certain places"
+    },
+    {
+      "id": "player_knowledge-0050",
+      "text": "Information is only available at certain times"
+    },
+    {
+      "id": "player_knowledge-0051",
+      "text": "Information is only available from certain factions"
+    },
+    {
+      "id": "player_knowledge-0052",
+      "text": "Information is classified by security level"
+    },
+    {
+      "id": "player_knowledge-0053",
+      "text": "Access to information depends on your position"
+    },
+    {
+      "id": "player_knowledge-0054",
+      "text": "Access to information depends on your reputation"
+    },
+    {
+      "id": "player_knowledge-0055",
+      "text": "Access to information depends on trust"
+    },
+    {
+      "id": "player_knowledge-0056",
+      "text": "Access to information depends on money"
+    },
+    {
+      "id": "player_knowledge-0057",
+      "text": "Access to information depends on relationships"
+    },
+    {
+      "id": "player_knowledge-0058",
+      "text": "Access to information depends on political power"
+    },
+    {
+      "id": "player_knowledge-0059",
+      "text": "Access to information depends on technical skill"
+    },
+    {
+      "id": "player_knowledge-0060",
+      "text": "Access to information depends on physical location"
+    },
+    {
+      "id": "player_knowledge-0061",
+      "text": "The player knows more than the character"
+    },
+    {
+      "id": "player_knowledge-0062",
+      "text": "The character knows more than the player"
+    },
+    {
+      "id": "player_knowledge-0063",
+      "text": "The player and the character know different things"
+    },
+    {
+      "id": "player_knowledge-0064",
+      "text": "The player gets information the character cannot use directly"
+    },
+    {
+      "id": "player_knowledge-0065",
+      "text": "The player has to play dumb"
+    },
+    {
+      "id": "player_knowledge-0066",
+      "text": "The player doesn't know their own true goals"
+    },
+    {
+      "id": "player_knowledge-0067",
+      "text": "The player doesn't know their own identity"
+    },
+    {
+      "id": "player_knowledge-0068",
+      "text": "The player doesn't know who is giving them orders"
+    },
+    {
+      "id": "player_knowledge-0069",
+      "text": "The player doesn't know why the mission matters"
+    },
+    {
+      "id": "player_knowledge-0070",
+      "text": "The player doesn't know whether the briefing is true"
+    },
+    {
+      "id": "player_knowledge-0071",
+      "text": "The player doesn't know who is an ally"
+    },
+    {
+      "id": "player_knowledge-0072",
+      "text": "The player doesn't know who is an enemy"
+    },
+    {
+      "id": "player_knowledge-0073",
+      "text": "The player doesn't know who is lying"
+    },
+    {
+      "id": "player_knowledge-0074",
+      "text": "The player doesn't know who is telling the truth"
+    },
+    {
+      "id": "player_knowledge-0075",
+      "text": "The player doesn't know which NPCs know each other"
+    },
+    {
+      "id": "player_knowledge-0076",
+      "text": "The player doesn't know the NPCs' true goals"
+    },
+    {
+      "id": "player_knowledge-0077",
+      "text": "The player doesn't know the NPCs' opinions"
+    },
+    {
+      "id": "player_knowledge-0078",
+      "text": "The player doesn't know the NPCs' loyalties"
+    },
+    {
+      "id": "player_knowledge-0079",
+      "text": "The player doesn't know what the NPCs fear"
+    },
+    {
+      "id": "player_knowledge-0080",
+      "text": "The player doesn't know the NPCs' secrets"
+    },
+    {
+      "id": "player_knowledge-0081",
+      "text": "The player doesn't know the NPCs' financial situation"
+    },
+    {
+      "id": "player_knowledge-0082",
+      "text": "The player doesn't know where the NPCs are"
+    },
+    {
+      "id": "player_knowledge-0083",
+      "text": "The player only sometimes sees where the NPCs are"
+    },
+    {
+      "id": "player_knowledge-0084",
+      "text": "NPC schedules must be learned"
+    },
+    {
+      "id": "player_knowledge-0085",
+      "text": "NPC relationships must be deduced"
+    },
+    {
+      "id": "player_knowledge-0086",
+      "text": "NPC motives must be deduced"
+    },
+    {
+      "id": "player_knowledge-0087",
+      "text": "NPCs' state of mind must be deduced"
+    },
+    {
+      "id": "player_knowledge-0088",
+      "text": "NPCs can lie outright"
+    },
+    {
+      "id": "player_knowledge-0089",
+      "text": "NPCs can leave things unsaid"
+    },
+    {
+      "id": "player_knowledge-0090",
+      "text": "NPCs can misremember"
+    },
+    {
+      "id": "player_knowledge-0091",
+      "text": "NPCs can misinterpret events"
+    },
+    {
+      "id": "player_knowledge-0092",
+      "text": "NPCs can believe rumors"
+    },
+    {
+      "id": "player_knowledge-0093",
+      "text": "NPCs can pass on false information unintentionally"
+    },
+    {
+      "id": "player_knowledge-0094",
+      "text": "NPCs can spread disinformation on purpose"
+    },
+    {
+      "id": "player_knowledge-0095",
+      "text": "NPCs can change their story"
+    },
+    {
+      "id": "player_knowledge-0096",
+      "text": "NPCs can agree on a shared lie"
+    },
+    {
+      "id": "player_knowledge-0097",
+      "text": "NPCs can give conflicting testimonies"
+    },
+    {
+      "id": "player_knowledge-0098",
+      "text": "An NPC's reliability must be assessed"
+    },
+    {
+      "id": "player_knowledge-0099",
+      "text": "What an NPC knows depends on their position"
+    },
+    {
+      "id": "player_knowledge-0100",
+      "text": "What an NPC knows depends on their location"
+    },
+    {
+      "id": "player_knowledge-0101",
+      "text": "What an NPC knows depends on their relationships"
+    },
+    {
+      "id": "player_knowledge-0102",
+      "text": "An NPC's information may be out of date"
+    },
+    {
+      "id": "player_knowledge-0103",
+      "text": "NPCs know things about the player that the player doesn't"
+    },
+    {
+      "id": "player_knowledge-0104",
+      "text": "NPCs may know more than the player"
+    },
+    {
+      "id": "player_knowledge-0105",
+      "text": "NPCs may know less than they believe"
+    },
+    {
+      "id": "player_knowledge-0106",
+      "text": "NPCs can hide information from each other"
+    },
+    {
+      "id": "player_knowledge-0107",
+      "text": "NPCs share information among themselves"
+    },
+    {
+      "id": "player_knowledge-0108",
+      "text": "Information spreads through the social network"
+    },
+    {
+      "id": "player_knowledge-0109",
+      "text": "Rumors change as they spread"
+    },
+    {
+      "id": "player_knowledge-0110",
+      "text": "Information gets distorted with every intermediary"
+    },
+    {
+      "id": "player_knowledge-0111",
+      "text": "The player sees where information came from"
+    },
+    {
+      "id": "player_knowledge-0112",
+      "text": "The player doesn't see where information came from"
+    },
+    {
+      "id": "player_knowledge-0113",
+      "text": "The player sees a reliability rating for each source"
+    },
+    {
+      "id": "player_knowledge-0114",
+      "text": "The player must judge the reliability of sources themselves"
+    },
+    {
+      "id": "player_knowledge-0115",
+      "text": "A source's reliability can change"
+    },
+    {
+      "id": "player_knowledge-0116",
+      "text": "A reliable source can lie once"
+    },
+    {
+      "id": "player_knowledge-0117",
+      "text": "An unreliable source can sometimes be the only one that's right"
+    },
+    {
+      "id": "player_knowledge-0118",
+      "text": "Official information is usually reliable"
+    },
+    {
+      "id": "player_knowledge-0119",
+      "text": "Official information may be propaganda"
+    },
+    {
+      "id": "player_knowledge-0120",
+      "text": "Official information is deliberately false"
+    },
+    {
+      "id": "player_knowledge-0121",
+      "text": "Unofficial information can be more valuable than official information"
+    },
+    {
+      "id": "player_knowledge-0122",
+      "text": "Secret information can be false"
+    },
+    {
+      "id": "player_knowledge-0123",
+      "text": "Classified information isn't necessarily true"
+    },
+    {
+      "id": "player_knowledge-0124",
+      "text": "Several conflicting pieces of information can each be partly true"
+    },
+    {
+      "id": "player_knowledge-0125",
+      "text": "The truth can never be known for certain"
+    },
+    {
+      "id": "player_knowledge-0126",
+      "text": "The truth can be fully uncovered"
+    },
+    {
+      "id": "player_knowledge-0127",
+      "text": "The truth can only be uncovered with enough evidence"
+    },
+    {
+      "id": "player_knowledge-0128",
+      "text": "The truth changes during the game"
+    },
+    {
+      "id": "player_knowledge-0129",
+      "text": "The truth depends on perspective"
+    },
+    {
+      "id": "player_knowledge-0130",
+      "text": "The truth depends on who interprets the events"
+    },
+    {
+      "id": "player_knowledge-0131",
+      "text": "The player must build their own theory"
+    },
+    {
+      "id": "player_knowledge-0132",
+      "text": "The player must mark their suspicions themselves"
+    },
+    {
+      "id": "player_knowledge-0133",
+      "text": "The player must connect the clues"
+    },
+    {
+      "id": "player_knowledge-0134",
+      "text": "The player must build a timeline"
+    },
+    {
+      "id": "player_knowledge-0135",
+      "text": "The player must build a family tree"
+    },
+    {
+      "id": "player_knowledge-0136",
+      "text": "The player must build a network of relationships"
+    },
+    {
+      "id": "player_knowledge-0137",
+      "text": "The player must keep their own notebook"
+    },
+    {
+      "id": "player_knowledge-0138",
+      "text": "The game keeps an automatic database of discovered information"
+    },
+    {
+      "id": "player_knowledge-0139",
+      "text": "The game's database also contains false information"
+    },
+    {
+      "id": "player_knowledge-0140",
+      "text": "The player can correct entries in the database"
+    },
+    {
+      "id": "player_knowledge-0141",
+      "text": "The player can mark information as confirmed"
+    },
+    {
+      "id": "player_knowledge-0142",
+      "text": "The player can mark information as suspicious"
+    },
+    {
+      "id": "player_knowledge-0143",
+      "text": "The player can link sources to the same claim"
+    },
+    {
+      "id": "player_knowledge-0144",
+      "text": "The player can forget information over time"
+    },
+    {
+      "id": "player_knowledge-0145",
+      "text": "The character can forget information"
+    },
+    {
+      "id": "player_knowledge-0146",
+      "text": "Memory is a limited resource"
+    },
+    {
+      "id": "player_knowledge-0147",
+      "text": "Memory can be distorted"
+    },
+    {
+      "id": "player_knowledge-0148",
+      "text": "Memory can be manipulated"
+    },
+    {
+      "id": "player_knowledge-0149",
+      "text": "Memories can be lost"
+    },
+    {
+      "id": "player_knowledge-0150",
+      "text": "Memories can return later"
+    },
+    {
+      "id": "player_knowledge-0151",
+      "text": "The player gets flashbacks"
+    },
+    {
+      "id": "player_knowledge-0152",
+      "text": "Flashbacks can be unreliable"
+    },
+    {
+      "id": "player_knowledge-0153",
+      "text": "Dreams contain clues"
+    },
+    {
+      "id": "player_knowledge-0154",
+      "text": "Dreams contain both true and false information"
+    },
+    {
+      "id": "player_knowledge-0155",
+      "text": "Hallucinations blend with reality"
+    },
+    {
+      "id": "player_knowledge-0156",
+      "text": "The player doesn't always know whether an event is real"
+    },
+    {
+      "id": "player_knowledge-0157",
+      "text": "The map only shows known areas"
+    },
+    {
+      "id": "player_knowledge-0158",
+      "text": "The map updates through exploration"
+    },
+    {
+      "id": "player_knowledge-0159",
+      "text": "The map can be inaccurate"
+    },
+    {
+      "id": "player_knowledge-0160",
+      "text": "The map can be out of date"
+    },
+    {
+      "id": "player_knowledge-0161",
+      "text": "The map can be deliberately wrong"
+    },
+    {
+      "id": "player_knowledge-0162",
+      "text": "The map's information depends on who made it"
+    },
+    {
+      "id": "player_knowledge-0163",
+      "text": "The player only sees their field of view"
+    },
+    {
+      "id": "player_knowledge-0164",
+      "text": "Fog of war hides unknown areas"
+    },
+    {
+      "id": "player_knowledge-0165",
+      "text": "Fog of war returns to areas over time"
+    },
+    {
+      "id": "player_knowledge-0166",
+      "text": "The player remembers areas seen before"
+    },
+    {
+      "id": "player_knowledge-0167",
+      "text": "The player doesn't know what happens elsewhere in the world"
+    },
+    {
+      "id": "player_knowledge-0168",
+      "text": "World events come to light afterwards"
+    },
+    {
+      "id": "player_knowledge-0169",
+      "text": "World events appear as news"
+    },
+    {
+      "id": "player_knowledge-0170",
+      "text": "World events appear as changes in resources"
+    },
+    {
+      "id": "player_knowledge-0171",
+      "text": "World events show in NPC behavior"
+    },
+    {
+      "id": "player_knowledge-0172",
+      "text": "World events must be inferred indirectly"
+    },
+    {
+      "id": "player_knowledge-0173",
+      "text": "The player sees all strategic events"
+    },
+    {
+      "id": "player_knowledge-0174",
+      "text": "The player only sees their own faction's reports"
+    },
+    {
+      "id": "player_knowledge-0175",
+      "text": "The player only sees enemy information through intelligence"
+    },
+    {
+      "id": "player_knowledge-0176",
+      "text": "Enemy unit counts appear as estimates"
+    },
+    {
+      "id": "player_knowledge-0177",
+      "text": "Enemy resources are unknown"
+    },
+    {
+      "id": "player_knowledge-0178",
+      "text": "Enemy plans can be intercepted"
+    },
+    {
+      "id": "player_knowledge-0179",
+      "text": "Intelligence can be wrong"
+    },
+    {
+      "id": "player_knowledge-0180",
+      "text": "Spies can feed false information"
+    },
+    {
+      "id": "player_knowledge-0181",
+      "text": "The player's own organization can distort reports"
+    },
+    {
+      "id": "player_knowledge-0182",
+      "text": "Subordinates hide bad news"
+    },
+    {
+      "id": "player_knowledge-0183",
+      "text": "Subordinates embellish statistics"
+    },
+    {
+      "id": "player_knowledge-0184",
+      "text": "Statistics can look good even when the situation is bad"
+    },
+    {
+      "id": "player_knowledge-0185",
+      "text": "Indicators can be manipulated"
+    },
+    {
+      "id": "player_knowledge-0186",
+      "text": "The player only sees aggregated numbers"
+    },
+    {
+      "id": "player_knowledge-0187",
+      "text": "The player can drill down into details"
+    },
+    {
+      "id": "player_knowledge-0188",
+      "text": "Detailed information costs time"
+    },
+    {
+      "id": "player_knowledge-0189",
+      "text": "Detailed information costs resources"
+    },
+    {
+      "id": "player_knowledge-0190",
+      "text": "Too much information overwhelms the player"
+    },
+    {
+      "id": "player_knowledge-0191",
+      "text": "The player must choose what to follow"
+    },
+    {
+      "id": "player_knowledge-0192",
+      "text": "You can't follow everything at once"
+    },
+    {
+      "id": "player_knowledge-0193",
+      "text": "Important events can go unnoticed"
+    },
+    {
+      "id": "player_knowledge-0194",
+      "text": "There are too many alerts"
+    },
+    {
+      "id": "player_knowledge-0195",
+      "text": "The player must prioritize reports"
+    },
+    {
+      "id": "player_knowledge-0196",
+      "text": "Some reports are useless"
+    },
+    {
+      "id": "player_knowledge-0197",
+      "text": "Some reports that look useless contain critical clues"
+    },
+    {
+      "id": "player_knowledge-0198",
+      "text": "Information arrives with a delay"
+    },
+    {
+      "id": "player_knowledge-0199",
+      "text": "Information can get lost on the way"
+    },
+    {
+      "id": "player_knowledge-0200",
+      "text": "A message can change on the way"
+    },
+    {
+      "id": "player_knowledge-0201",
+      "text": "Communication can be cut off"
+    },
+    {
+      "id": "player_knowledge-0202",
+      "text": "Communication only works at certain times"
+    },
+    {
+      "id": "player_knowledge-0203",
+      "text": "Communication has a limited range"
+    },
+    {
+      "id": "player_knowledge-0204",
+      "text": "Information must be carried physically"
+    },
+    {
+      "id": "player_knowledge-0205",
+      "text": "A messenger can go missing"
+    },
+    {
+      "id": "player_knowledge-0206",
+      "text": "A document can be a forgery"
+    },
+    {
+      "id": "player_knowledge-0207",
+      "text": "A document may have been altered"
+    },
+    {
+      "id": "player_knowledge-0208",
+      "text": "A signature may be forged"
+    },
+    {
+      "id": "player_knowledge-0209",
+      "text": "A timestamp may be wrong"
+    },
+    {
+      "id": "player_knowledge-0210",
+      "text": "A photo may have been manipulated"
+    },
+    {
+      "id": "player_knowledge-0211",
+      "text": "Video footage can be incomplete"
+    },
+    {
+      "id": "player_knowledge-0212",
+      "text": "Security cameras don't show everything"
+    },
+    {
+      "id": "player_knowledge-0213",
+      "text": "Security cameras have blind spots"
+    },
+    {
+      "id": "player_knowledge-0214",
+      "text": "Cameras can be sabotaged"
+    },
+    {
+      "id": "player_knowledge-0215",
+      "text": "Camera footage can be faked"
+    },
+    {
+      "id": "player_knowledge-0216",
+      "text": "A sensor can be broken"
+    },
+    {
+      "id": "player_knowledge-0217",
+      "text": "A sensor can give false positives"
+    },
+    {
+      "id": "player_knowledge-0218",
+      "text": "A sensor can miss things"
+    },
+    {
+      "id": "player_knowledge-0219",
+      "text": "Several sensors must be compared with each other"
+    },
+    {
+      "id": "player_knowledge-0220",
+      "text": "You only get information about events you choose to investigate"
+    },
+    {
+      "id": "player_knowledge-0221",
+      "text": "Information left uninvestigated is lost"
+    },
+    {
+      "id": "player_knowledge-0222",
+      "text": "The player can only ask a limited number of questions"
+    },
+    {
+      "id": "player_knowledge-0223",
+      "text": "The player can only interview some of the NPCs"
+    },
+    {
+      "id": "player_knowledge-0224",
+      "text": "The player can't revisit every decision"
+    },
+    {
+      "id": "player_knowledge-0225",
+      "text": "A wrong conclusion can lock away the right information"
+    },
+    {
+      "id": "player_knowledge-0226",
+      "text": "Information opens up new questions"
+    },
+    {
+      "id": "player_knowledge-0227",
+      "text": "New information can overturn an old theory"
+    },
+    {
+      "id": "player_knowledge-0228",
+      "text": "Information can change the goal of the mission"
+    },
+    {
+      "id": "player_knowledge-0229",
+      "text": "Information can reveal a new enemy"
+    },
+    {
+      "id": "player_knowledge-0230",
+      "text": "Information can reveal that there is no enemy at all"
+    },
+    {
+      "id": "player_knowledge-0231",
+      "text": "In the end the player knows almost everything"
+    },
+    {
+      "id": "player_knowledge-0232",
+      "text": "In the end the player only knows part of the truth"
+    },
+    {
+      "id": "player_knowledge-0233",
+      "text": "Some ambiguity deliberately remains at the end of the game"
+    },
+    {
+      "id": "player_knowledge-0234",
+      "text": "The player must make the final decision based on uncertain information"
+    }
   ]
 }

@@ -1,290 +1,1148 @@
 {
   "main_goals": [
-    "Survivre",
-    "Devenir riche",
-    "Résoudre un mystère",
-    "Garder l'organisation unie",
-    "Percer un secret",
-    "Bâtir une communauté",
-    "Empêcher une catastrophe",
-    "S'échapper",
-    "Retrouver quelqu'un",
-    "Manipuler le système",
-    "Sauver quelqu'un",
-    "Protéger la communauté",
-    "Conquérir un territoire",
-    "Défendre un territoire",
-    "Accéder au pouvoir",
-    "Conserver son pouvoir",
-    "Gagner les élections",
-    "Renverser le régime",
-    "Bâtir un royaume",
-    "Diriger une nation",
-    "Créer une nouvelle société",
-    "Maintenir la paix",
-    "Gagner la guerre",
-    "Empêcher une guerre",
-    "Former une alliance",
-    "Briser une alliance",
-    "Rétablir l'ordre",
-    "Semer le chaos",
-    "Découvrir qui ment",
-    "Démasquer le meurtrier",
-    "Prouver son innocence",
-    "Couvrir un crime",
-    "Commettre le crime parfait",
-    "Fuir la justice",
-    "Arrêter un criminel",
-    "Bâtir un réseau criminel",
-    "Détruire un réseau criminel",
-    "Rassembler des preuves",
-    "Élucider une disparition",
-    "Retrouver un objet perdu",
-    "Retrouver une personne disparue",
-    "Découvrir la vérité sur le passé",
-    "Découvrir sa propre identité",
-    "Retrouver la mémoire",
-    "Découvrir ce qui s'est passé",
-    "Découvrir qui l'on est",
-    "Découvrir où l'on est",
-    "Découvrir pourquoi on est là",
-    "Quitter les lieux",
-    "Rentrer chez soi",
-    "Atteindre un sanctuaire",
-    "S'échapper avant l'échéance",
-    "Trouver une issue",
-    "Ouvrir une zone scellée",
-    "Entrer par effraction",
-    "S'évader",
-    "Infiltrer une organisation",
-    "Saboter le système",
-    "Réparer le système",
-    "Faire tourner le système",
-    "Redémarrer le système",
-    "Empêcher le système de s'effondrer",
-    "Automatiser le système",
-    "Optimiser la production",
-    "Faire grandir l'entreprise",
-    "Sauver l'entreprise de la faillite",
-    "Fonder une entreprise",
-    "Dominer le marché",
-    "Bâtir un monopole",
-    "Maximiser les profits",
-    "Rembourser ses dettes",
-    "Amasser une fortune",
-    "Gagner une somme d'argent précise",
-    "Atteindre l'indépendance financière",
-    "Bâtir une ville",
-    "Transformer un village en ville",
-    "Fonder une colonie",
-    "Maintenir la colonie en vie",
-    "Construire une base",
-    "Agrandir la base",
-    "Construire un foyer",
-    "Construire un refuge sûr",
-    "Construire une infrastructure fonctionnelle",
-    "Construire une chaîne de production",
-    "Construire un réseau de transport",
-    "Bâtir une société à partir de rien",
-    "Terraformer une planète",
-    "Coloniser une planète",
-    "Explorer le monde",
-    "Cartographier la zone",
-    "Découvrir un nouveau lieu",
-    "Découvrir un nouveau monde",
-    "Atteindre le bord de la carte",
-    "Explorer chaque région",
-    "Rassembler toutes les informations importantes",
-    "Documenter le monde",
-    "Trouver un site ancien",
-    "Trouver une civilisation perdue",
-    "Trouver un artefact",
-    "Activer un artefact",
-    "Détruire un artefact",
-    "Empêcher l'utilisation de l'artefact",
-    "Résoudre une énigme ancienne",
-    "Dévoiler un complot",
-    "Ourdir un complot",
-    "Déjouer un complot",
-    "Manipuler les gens",
-    "Manipuler les marchés",
-    "Manipuler la politique",
-    "Manipuler les médias",
-    "Répandre une rumeur",
-    "Étouffer une rumeur",
-    "Changer l'opinion publique",
-    "Accroître son influence",
-    "Atteindre la gloire absolue",
-    "Restaurer sa réputation",
-    "Garder ses secrets cachés",
-    "Révéler les secrets des autres",
-    "Rassembler un maximum d'informations",
-    "Contrôler la circulation de l'information",
-    "Empêcher l'information de se répandre",
-    "Diffuser l'information",
-    "Bâtir un réseau d'espionnage",
-    "Démasquer les espions",
-    "Voler des renseignements",
-    "Empêcher une fuite",
-    "Trouver le traître",
-    "Préserver la loyauté",
-    "Gagner la confiance",
-    "Trahir la confiance",
-    "Réconcilier les gens",
-    "Briser une relation",
-    "Nouer une amitié",
-    "Trouver l'amour",
-    "Fonder une famille",
-    "Garder la famille unie",
-    "Sauver un mariage",
-    "Bâtir une dynastie",
-    "Perpétuer la lignée",
-    "Découvrir l'histoire de sa famille",
-    "Retrouver sa famille biologique",
-    "Réconcilier la famille",
-    "Créer une famille influente",
-    "Garder l'équipage en vie",
-    "Garder l'équipage satisfait",
-    "Maintenir le moral au plus haut",
-    "Empêcher une mutinerie",
-    "Mener une rébellion",
-    "Trouver un chef",
-    "Devenir le chef",
-    "Renoncer au pouvoir sans danger",
-    "Garder tout le monde en vie",
-    "Sauver le plus de monde possible",
-    "Choisir qui survit",
-    "Survivre un nombre de jours donné",
-    "Survivre à l'hiver",
-    "Survivre à la nuit",
-    "Survivre à l'épidémie",
-    "Survivre au siège",
-    "Survivre à une catastrophe naturelle",
-    "Survivre dans l'espace",
-    "Survivre sur une île déserte",
-    "Survivre dans une ville hostile",
-    "Trouver de la nourriture",
-    "Trouver de l'eau",
-    "Maintenir des ressources suffisantes",
-    "Faire durer les ressources jusqu'au bout",
-    "Créer un approvisionnement alimentaire durable",
-    "Créer une production d'énergie fonctionnelle",
-    "Rétablir l'électricité",
-    "Rétablir l'approvisionnement en eau",
-    "Rétablir les communications",
-    "Réparer le vaisseau spatial",
-    "Réparer le véhicule",
-    "Réparer la ville",
-    "Démarrer le réacteur",
-    "Arrêter le réacteur",
-    "Empêcher un accident nucléaire",
-    "Empêcher une épidémie",
-    "Enrayer l'épidémie",
-    "Trouver un remède",
-    "Sauver le patient",
-    "Guérir la communauté",
-    "Faire fonctionner l'hôpital",
-    "Gérer la crise",
-    "Évacuer la zone",
-    "Coordonner une opération de sauvetage",
-    "Empêcher le bâtiment de s'effondrer",
-    "Empêcher un incendie",
-    "Éteindre l'incendie",
-    "Empêcher une inondation",
-    "Empêcher une catastrophe écologique",
-    "Protéger la nature",
-    "Restaurer l'écosystème",
-    "Élever une espèce",
-    "Empêcher l'extinction d'une espèce",
-    "Éradiquer une espèce dangereuse",
-    "Étudier un organisme inconnu",
-    "Comprendre une forme de vie extraterrestre",
-    "Créer une nouvelle espèce",
-    "Faire croître la population",
-    "Équilibrer l'écosystème",
-    "Réaliser une percée technologique",
-    "Rechercher toutes les technologies",
-    "Construire une nouvelle invention",
-    "Créer une IA",
-    "Arrêter une IA",
-    "Libérer une IA",
-    "Garder une IA sous contrôle",
-    "Prouver que l'on est conscient",
-    "Cacher sa conscience",
-    "Sortir de la simulation",
-    "Faire tourner la simulation",
-    "Découvrir si l'on est dans une simulation",
-    "Enfreindre les règles de la simulation",
-    "Réparer la ligne temporelle",
-    "Changer l'histoire",
-    "Empêcher que l'histoire soit modifiée",
-    "Retourner à sa propre époque",
-    "Briser la boucle temporelle",
-    "Entretenir la boucle temporelle",
-    "Sauver l'avenir",
-    "Changer l'avenir",
-    "Empêcher la fin du monde",
-    "Provoquer la fin du monde",
-    "Se préparer à la fin du monde",
-    "Bâtir un nouveau monde après la catastrophe",
-    "Trouver d'autres survivants",
-    "Unir les communautés dispersées",
-    "Fonder un nouvel État",
-    "Restaurer l'ancien État",
-    "Créer une nouvelle religion",
-    "Faire grandir une secte",
-    "Démanteler une secte",
-    "Démasquer un faux prophète",
-    "Accomplir une prophétie",
-    "Empêcher une prophétie",
-    "Prouver qu'une prophétie est fausse",
-    "Atteindre l'immortalité",
-    "Briser une malédiction",
-    "Jeter une malédiction",
-    "Échapper à la mort",
-    "Trouver un moyen de mourir",
-    "Ramener les morts à la vie",
-    "Aider un esprit à trouver le repos",
-    "Rassembler les âmes perdues",
-    "S'échapper de l'au-delà",
-    "Gagner sa place au paradis",
-    "Éviter de finir en enfer",
-    "Organiser le monde des morts",
-    "Élucider un phénomène surnaturel",
-    "Prouver qu'un phénomène surnaturel est réel",
-    "Prouver qu'un phénomène surnaturel n'est pas réel",
-    "Créer un chef-d'œuvre",
-    "Bâtir le meilleur restaurant du monde",
-    "Bâtir le meilleur hôtel du monde",
-    "Diriger la meilleure équipe sportive",
-    "Gagner le championnat",
-    "Battre un record",
-    "Devenir célèbre",
-    "Devenir une légende",
-    "Créer une œuvre d'art",
-    "Achever l'œuvre de sa vie",
-    "Résoudre un problème impossible",
-    "Réaliser une performance parfaite",
-    "Tout collectionner",
-    "Compléter toute la collection",
-    "Compléter les archives",
-    "Trouver tous les secrets",
-    "Débloquer toutes les zones",
-    "Atteindre le grade le plus élevé",
-    "Accomplir la mission sans que personne ne s'en aperçoive",
-    "Accomplir la mission sans violence",
-    "Accomplir la mission avant la fin du temps imparti",
-    "Satisfaire toutes les parties",
-    "Trouver un compromis impossible",
-    "Choisir le moindre mal",
-    "Décider qui mérite ton aide",
-    "Décider de quel côté tu es",
-    "Changer le système de l'intérieur",
-    "Détruire le système de l'intérieur",
-    "Prendre le contrôle du système",
-    "Échapper au système",
-    "Prouver que le système est corrompu",
-    "Garder la vérité cachée",
-    "Révéler la vérité au monde"
+    {
+      "id": "main_goals-0001",
+      "text": "Survivre"
+    },
+    {
+      "id": "main_goals-0002",
+      "text": "Devenir riche"
+    },
+    {
+      "id": "main_goals-0003",
+      "text": "Résoudre un mystère"
+    },
+    {
+      "id": "main_goals-0004",
+      "text": "Garder l'organisation unie"
+    },
+    {
+      "id": "main_goals-0005",
+      "text": "Percer un secret"
+    },
+    {
+      "id": "main_goals-0006",
+      "text": "Bâtir une communauté"
+    },
+    {
+      "id": "main_goals-0007",
+      "text": "Empêcher une catastrophe"
+    },
+    {
+      "id": "main_goals-0008",
+      "text": "S'échapper"
+    },
+    {
+      "id": "main_goals-0009",
+      "text": "Retrouver quelqu'un"
+    },
+    {
+      "id": "main_goals-0010",
+      "text": "Manipuler le système"
+    },
+    {
+      "id": "main_goals-0011",
+      "text": "Sauver quelqu'un"
+    },
+    {
+      "id": "main_goals-0012",
+      "text": "Protéger la communauté"
+    },
+    {
+      "id": "main_goals-0013",
+      "text": "Conquérir un territoire"
+    },
+    {
+      "id": "main_goals-0014",
+      "text": "Défendre un territoire"
+    },
+    {
+      "id": "main_goals-0015",
+      "text": "Accéder au pouvoir"
+    },
+    {
+      "id": "main_goals-0016",
+      "text": "Conserver son pouvoir"
+    },
+    {
+      "id": "main_goals-0017",
+      "text": "Gagner les élections"
+    },
+    {
+      "id": "main_goals-0018",
+      "text": "Renverser le régime"
+    },
+    {
+      "id": "main_goals-0019",
+      "text": "Bâtir un royaume"
+    },
+    {
+      "id": "main_goals-0020",
+      "text": "Diriger une nation"
+    },
+    {
+      "id": "main_goals-0021",
+      "text": "Créer une nouvelle société"
+    },
+    {
+      "id": "main_goals-0022",
+      "text": "Maintenir la paix"
+    },
+    {
+      "id": "main_goals-0023",
+      "text": "Gagner la guerre"
+    },
+    {
+      "id": "main_goals-0024",
+      "text": "Empêcher une guerre"
+    },
+    {
+      "id": "main_goals-0025",
+      "text": "Former une alliance"
+    },
+    {
+      "id": "main_goals-0026",
+      "text": "Briser une alliance"
+    },
+    {
+      "id": "main_goals-0027",
+      "text": "Rétablir l'ordre"
+    },
+    {
+      "id": "main_goals-0028",
+      "text": "Semer le chaos"
+    },
+    {
+      "id": "main_goals-0029",
+      "text": "Découvrir qui ment"
+    },
+    {
+      "id": "main_goals-0030",
+      "text": "Démasquer le meurtrier"
+    },
+    {
+      "id": "main_goals-0031",
+      "text": "Prouver son innocence"
+    },
+    {
+      "id": "main_goals-0032",
+      "text": "Couvrir un crime"
+    },
+    {
+      "id": "main_goals-0033",
+      "text": "Commettre le crime parfait"
+    },
+    {
+      "id": "main_goals-0034",
+      "text": "Fuir la justice"
+    },
+    {
+      "id": "main_goals-0035",
+      "text": "Arrêter un criminel"
+    },
+    {
+      "id": "main_goals-0036",
+      "text": "Bâtir un réseau criminel"
+    },
+    {
+      "id": "main_goals-0037",
+      "text": "Détruire un réseau criminel"
+    },
+    {
+      "id": "main_goals-0038",
+      "text": "Rassembler des preuves"
+    },
+    {
+      "id": "main_goals-0039",
+      "text": "Élucider une disparition"
+    },
+    {
+      "id": "main_goals-0040",
+      "text": "Retrouver un objet perdu"
+    },
+    {
+      "id": "main_goals-0041",
+      "text": "Retrouver une personne disparue"
+    },
+    {
+      "id": "main_goals-0042",
+      "text": "Découvrir la vérité sur le passé"
+    },
+    {
+      "id": "main_goals-0043",
+      "text": "Découvrir sa propre identité"
+    },
+    {
+      "id": "main_goals-0044",
+      "text": "Retrouver la mémoire"
+    },
+    {
+      "id": "main_goals-0045",
+      "text": "Découvrir ce qui s'est passé"
+    },
+    {
+      "id": "main_goals-0046",
+      "text": "Découvrir qui l'on est"
+    },
+    {
+      "id": "main_goals-0047",
+      "text": "Découvrir où l'on est"
+    },
+    {
+      "id": "main_goals-0048",
+      "text": "Découvrir pourquoi on est là"
+    },
+    {
+      "id": "main_goals-0049",
+      "text": "Quitter les lieux"
+    },
+    {
+      "id": "main_goals-0050",
+      "text": "Rentrer chez soi"
+    },
+    {
+      "id": "main_goals-0051",
+      "text": "Atteindre un sanctuaire"
+    },
+    {
+      "id": "main_goals-0052",
+      "text": "S'échapper avant l'échéance"
+    },
+    {
+      "id": "main_goals-0053",
+      "text": "Trouver une issue"
+    },
+    {
+      "id": "main_goals-0054",
+      "text": "Ouvrir une zone scellée"
+    },
+    {
+      "id": "main_goals-0055",
+      "text": "Entrer par effraction"
+    },
+    {
+      "id": "main_goals-0056",
+      "text": "S'évader"
+    },
+    {
+      "id": "main_goals-0057",
+      "text": "Infiltrer une organisation"
+    },
+    {
+      "id": "main_goals-0058",
+      "text": "Saboter le système"
+    },
+    {
+      "id": "main_goals-0059",
+      "text": "Réparer le système"
+    },
+    {
+      "id": "main_goals-0060",
+      "text": "Faire tourner le système"
+    },
+    {
+      "id": "main_goals-0061",
+      "text": "Redémarrer le système"
+    },
+    {
+      "id": "main_goals-0062",
+      "text": "Empêcher le système de s'effondrer"
+    },
+    {
+      "id": "main_goals-0063",
+      "text": "Automatiser le système"
+    },
+    {
+      "id": "main_goals-0064",
+      "text": "Optimiser la production"
+    },
+    {
+      "id": "main_goals-0065",
+      "text": "Faire grandir l'entreprise"
+    },
+    {
+      "id": "main_goals-0066",
+      "text": "Sauver l'entreprise de la faillite"
+    },
+    {
+      "id": "main_goals-0067",
+      "text": "Fonder une entreprise"
+    },
+    {
+      "id": "main_goals-0068",
+      "text": "Dominer le marché"
+    },
+    {
+      "id": "main_goals-0069",
+      "text": "Bâtir un monopole"
+    },
+    {
+      "id": "main_goals-0070",
+      "text": "Maximiser les profits"
+    },
+    {
+      "id": "main_goals-0071",
+      "text": "Rembourser ses dettes"
+    },
+    {
+      "id": "main_goals-0072",
+      "text": "Amasser une fortune"
+    },
+    {
+      "id": "main_goals-0073",
+      "text": "Gagner une somme d'argent précise"
+    },
+    {
+      "id": "main_goals-0074",
+      "text": "Atteindre l'indépendance financière"
+    },
+    {
+      "id": "main_goals-0075",
+      "text": "Bâtir une ville"
+    },
+    {
+      "id": "main_goals-0076",
+      "text": "Transformer un village en ville"
+    },
+    {
+      "id": "main_goals-0077",
+      "text": "Fonder une colonie"
+    },
+    {
+      "id": "main_goals-0078",
+      "text": "Maintenir la colonie en vie"
+    },
+    {
+      "id": "main_goals-0079",
+      "text": "Construire une base"
+    },
+    {
+      "id": "main_goals-0080",
+      "text": "Agrandir la base"
+    },
+    {
+      "id": "main_goals-0081",
+      "text": "Construire un foyer"
+    },
+    {
+      "id": "main_goals-0082",
+      "text": "Construire un refuge sûr"
+    },
+    {
+      "id": "main_goals-0083",
+      "text": "Construire une infrastructure fonctionnelle"
+    },
+    {
+      "id": "main_goals-0084",
+      "text": "Construire une chaîne de production"
+    },
+    {
+      "id": "main_goals-0085",
+      "text": "Construire un réseau de transport"
+    },
+    {
+      "id": "main_goals-0086",
+      "text": "Bâtir une société à partir de rien"
+    },
+    {
+      "id": "main_goals-0087",
+      "text": "Terraformer une planète"
+    },
+    {
+      "id": "main_goals-0088",
+      "text": "Coloniser une planète"
+    },
+    {
+      "id": "main_goals-0089",
+      "text": "Explorer le monde"
+    },
+    {
+      "id": "main_goals-0090",
+      "text": "Cartographier la zone"
+    },
+    {
+      "id": "main_goals-0091",
+      "text": "Découvrir un nouveau lieu"
+    },
+    {
+      "id": "main_goals-0092",
+      "text": "Découvrir un nouveau monde"
+    },
+    {
+      "id": "main_goals-0093",
+      "text": "Atteindre le bord de la carte"
+    },
+    {
+      "id": "main_goals-0094",
+      "text": "Explorer chaque région"
+    },
+    {
+      "id": "main_goals-0095",
+      "text": "Rassembler toutes les informations importantes"
+    },
+    {
+      "id": "main_goals-0096",
+      "text": "Documenter le monde"
+    },
+    {
+      "id": "main_goals-0097",
+      "text": "Trouver un site ancien"
+    },
+    {
+      "id": "main_goals-0098",
+      "text": "Trouver une civilisation perdue"
+    },
+    {
+      "id": "main_goals-0099",
+      "text": "Trouver un artefact"
+    },
+    {
+      "id": "main_goals-0100",
+      "text": "Activer un artefact"
+    },
+    {
+      "id": "main_goals-0101",
+      "text": "Détruire un artefact"
+    },
+    {
+      "id": "main_goals-0102",
+      "text": "Empêcher l'utilisation de l'artefact"
+    },
+    {
+      "id": "main_goals-0103",
+      "text": "Résoudre une énigme ancienne"
+    },
+    {
+      "id": "main_goals-0104",
+      "text": "Dévoiler un complot"
+    },
+    {
+      "id": "main_goals-0105",
+      "text": "Ourdir un complot"
+    },
+    {
+      "id": "main_goals-0106",
+      "text": "Déjouer un complot"
+    },
+    {
+      "id": "main_goals-0107",
+      "text": "Manipuler les gens"
+    },
+    {
+      "id": "main_goals-0108",
+      "text": "Manipuler les marchés"
+    },
+    {
+      "id": "main_goals-0109",
+      "text": "Manipuler la politique"
+    },
+    {
+      "id": "main_goals-0110",
+      "text": "Manipuler les médias"
+    },
+    {
+      "id": "main_goals-0111",
+      "text": "Répandre une rumeur"
+    },
+    {
+      "id": "main_goals-0112",
+      "text": "Étouffer une rumeur"
+    },
+    {
+      "id": "main_goals-0113",
+      "text": "Changer l'opinion publique"
+    },
+    {
+      "id": "main_goals-0114",
+      "text": "Accroître son influence"
+    },
+    {
+      "id": "main_goals-0115",
+      "text": "Atteindre la gloire absolue"
+    },
+    {
+      "id": "main_goals-0116",
+      "text": "Restaurer sa réputation"
+    },
+    {
+      "id": "main_goals-0117",
+      "text": "Garder ses secrets cachés"
+    },
+    {
+      "id": "main_goals-0118",
+      "text": "Révéler les secrets des autres"
+    },
+    {
+      "id": "main_goals-0119",
+      "text": "Rassembler un maximum d'informations"
+    },
+    {
+      "id": "main_goals-0120",
+      "text": "Contrôler la circulation de l'information"
+    },
+    {
+      "id": "main_goals-0121",
+      "text": "Empêcher l'information de se répandre"
+    },
+    {
+      "id": "main_goals-0122",
+      "text": "Diffuser l'information"
+    },
+    {
+      "id": "main_goals-0123",
+      "text": "Bâtir un réseau d'espionnage"
+    },
+    {
+      "id": "main_goals-0124",
+      "text": "Démasquer les espions"
+    },
+    {
+      "id": "main_goals-0125",
+      "text": "Voler des renseignements"
+    },
+    {
+      "id": "main_goals-0126",
+      "text": "Empêcher une fuite"
+    },
+    {
+      "id": "main_goals-0127",
+      "text": "Trouver le traître"
+    },
+    {
+      "id": "main_goals-0128",
+      "text": "Préserver la loyauté"
+    },
+    {
+      "id": "main_goals-0129",
+      "text": "Gagner la confiance"
+    },
+    {
+      "id": "main_goals-0130",
+      "text": "Trahir la confiance"
+    },
+    {
+      "id": "main_goals-0131",
+      "text": "Réconcilier les gens"
+    },
+    {
+      "id": "main_goals-0132",
+      "text": "Briser une relation"
+    },
+    {
+      "id": "main_goals-0133",
+      "text": "Nouer une amitié"
+    },
+    {
+      "id": "main_goals-0134",
+      "text": "Trouver l'amour"
+    },
+    {
+      "id": "main_goals-0135",
+      "text": "Fonder une famille"
+    },
+    {
+      "id": "main_goals-0136",
+      "text": "Garder la famille unie"
+    },
+    {
+      "id": "main_goals-0137",
+      "text": "Sauver un mariage"
+    },
+    {
+      "id": "main_goals-0138",
+      "text": "Bâtir une dynastie"
+    },
+    {
+      "id": "main_goals-0139",
+      "text": "Perpétuer la lignée"
+    },
+    {
+      "id": "main_goals-0140",
+      "text": "Découvrir l'histoire de sa famille"
+    },
+    {
+      "id": "main_goals-0141",
+      "text": "Retrouver sa famille biologique"
+    },
+    {
+      "id": "main_goals-0142",
+      "text": "Réconcilier la famille"
+    },
+    {
+      "id": "main_goals-0143",
+      "text": "Créer une famille influente"
+    },
+    {
+      "id": "main_goals-0144",
+      "text": "Garder l'équipage en vie"
+    },
+    {
+      "id": "main_goals-0145",
+      "text": "Garder l'équipage satisfait"
+    },
+    {
+      "id": "main_goals-0146",
+      "text": "Maintenir le moral au plus haut"
+    },
+    {
+      "id": "main_goals-0147",
+      "text": "Empêcher une mutinerie"
+    },
+    {
+      "id": "main_goals-0148",
+      "text": "Mener une rébellion"
+    },
+    {
+      "id": "main_goals-0149",
+      "text": "Trouver un chef"
+    },
+    {
+      "id": "main_goals-0150",
+      "text": "Devenir le chef"
+    },
+    {
+      "id": "main_goals-0151",
+      "text": "Renoncer au pouvoir sans danger"
+    },
+    {
+      "id": "main_goals-0152",
+      "text": "Garder tout le monde en vie"
+    },
+    {
+      "id": "main_goals-0153",
+      "text": "Sauver le plus de monde possible"
+    },
+    {
+      "id": "main_goals-0154",
+      "text": "Choisir qui survit"
+    },
+    {
+      "id": "main_goals-0155",
+      "text": "Survivre un nombre de jours donné"
+    },
+    {
+      "id": "main_goals-0156",
+      "text": "Survivre à l'hiver"
+    },
+    {
+      "id": "main_goals-0157",
+      "text": "Survivre à la nuit"
+    },
+    {
+      "id": "main_goals-0158",
+      "text": "Survivre à l'épidémie"
+    },
+    {
+      "id": "main_goals-0159",
+      "text": "Survivre au siège"
+    },
+    {
+      "id": "main_goals-0160",
+      "text": "Survivre à une catastrophe naturelle"
+    },
+    {
+      "id": "main_goals-0161",
+      "text": "Survivre dans l'espace"
+    },
+    {
+      "id": "main_goals-0162",
+      "text": "Survivre sur une île déserte"
+    },
+    {
+      "id": "main_goals-0163",
+      "text": "Survivre dans une ville hostile"
+    },
+    {
+      "id": "main_goals-0164",
+      "text": "Trouver de la nourriture"
+    },
+    {
+      "id": "main_goals-0165",
+      "text": "Trouver de l'eau"
+    },
+    {
+      "id": "main_goals-0166",
+      "text": "Maintenir des ressources suffisantes"
+    },
+    {
+      "id": "main_goals-0167",
+      "text": "Faire durer les ressources jusqu'au bout"
+    },
+    {
+      "id": "main_goals-0168",
+      "text": "Créer un approvisionnement alimentaire durable"
+    },
+    {
+      "id": "main_goals-0169",
+      "text": "Créer une production d'énergie fonctionnelle"
+    },
+    {
+      "id": "main_goals-0170",
+      "text": "Rétablir l'électricité"
+    },
+    {
+      "id": "main_goals-0171",
+      "text": "Rétablir l'approvisionnement en eau"
+    },
+    {
+      "id": "main_goals-0172",
+      "text": "Rétablir les communications"
+    },
+    {
+      "id": "main_goals-0173",
+      "text": "Réparer le vaisseau spatial"
+    },
+    {
+      "id": "main_goals-0174",
+      "text": "Réparer le véhicule"
+    },
+    {
+      "id": "main_goals-0175",
+      "text": "Réparer la ville"
+    },
+    {
+      "id": "main_goals-0176",
+      "text": "Démarrer le réacteur"
+    },
+    {
+      "id": "main_goals-0177",
+      "text": "Arrêter le réacteur"
+    },
+    {
+      "id": "main_goals-0178",
+      "text": "Empêcher un accident nucléaire"
+    },
+    {
+      "id": "main_goals-0179",
+      "text": "Empêcher une épidémie"
+    },
+    {
+      "id": "main_goals-0180",
+      "text": "Enrayer l'épidémie"
+    },
+    {
+      "id": "main_goals-0181",
+      "text": "Trouver un remède"
+    },
+    {
+      "id": "main_goals-0182",
+      "text": "Sauver le patient"
+    },
+    {
+      "id": "main_goals-0183",
+      "text": "Guérir la communauté"
+    },
+    {
+      "id": "main_goals-0184",
+      "text": "Faire fonctionner l'hôpital"
+    },
+    {
+      "id": "main_goals-0185",
+      "text": "Gérer la crise"
+    },
+    {
+      "id": "main_goals-0186",
+      "text": "Évacuer la zone"
+    },
+    {
+      "id": "main_goals-0187",
+      "text": "Coordonner une opération de sauvetage"
+    },
+    {
+      "id": "main_goals-0188",
+      "text": "Empêcher le bâtiment de s'effondrer"
+    },
+    {
+      "id": "main_goals-0189",
+      "text": "Empêcher un incendie"
+    },
+    {
+      "id": "main_goals-0190",
+      "text": "Éteindre l'incendie"
+    },
+    {
+      "id": "main_goals-0191",
+      "text": "Empêcher une inondation"
+    },
+    {
+      "id": "main_goals-0192",
+      "text": "Empêcher une catastrophe écologique"
+    },
+    {
+      "id": "main_goals-0193",
+      "text": "Protéger la nature"
+    },
+    {
+      "id": "main_goals-0194",
+      "text": "Restaurer l'écosystème"
+    },
+    {
+      "id": "main_goals-0195",
+      "text": "Élever une espèce"
+    },
+    {
+      "id": "main_goals-0196",
+      "text": "Empêcher l'extinction d'une espèce"
+    },
+    {
+      "id": "main_goals-0197",
+      "text": "Éradiquer une espèce dangereuse"
+    },
+    {
+      "id": "main_goals-0198",
+      "text": "Étudier un organisme inconnu"
+    },
+    {
+      "id": "main_goals-0199",
+      "text": "Comprendre une forme de vie extraterrestre"
+    },
+    {
+      "id": "main_goals-0200",
+      "text": "Créer une nouvelle espèce"
+    },
+    {
+      "id": "main_goals-0201",
+      "text": "Faire croître la population"
+    },
+    {
+      "id": "main_goals-0202",
+      "text": "Équilibrer l'écosystème"
+    },
+    {
+      "id": "main_goals-0203",
+      "text": "Réaliser une percée technologique"
+    },
+    {
+      "id": "main_goals-0204",
+      "text": "Rechercher toutes les technologies"
+    },
+    {
+      "id": "main_goals-0205",
+      "text": "Construire une nouvelle invention"
+    },
+    {
+      "id": "main_goals-0206",
+      "text": "Créer une IA"
+    },
+    {
+      "id": "main_goals-0207",
+      "text": "Arrêter une IA"
+    },
+    {
+      "id": "main_goals-0208",
+      "text": "Libérer une IA"
+    },
+    {
+      "id": "main_goals-0209",
+      "text": "Garder une IA sous contrôle"
+    },
+    {
+      "id": "main_goals-0210",
+      "text": "Prouver que l'on est conscient"
+    },
+    {
+      "id": "main_goals-0211",
+      "text": "Cacher sa conscience"
+    },
+    {
+      "id": "main_goals-0212",
+      "text": "Sortir de la simulation"
+    },
+    {
+      "id": "main_goals-0213",
+      "text": "Faire tourner la simulation"
+    },
+    {
+      "id": "main_goals-0214",
+      "text": "Découvrir si l'on est dans une simulation"
+    },
+    {
+      "id": "main_goals-0215",
+      "text": "Enfreindre les règles de la simulation"
+    },
+    {
+      "id": "main_goals-0216",
+      "text": "Réparer la ligne temporelle"
+    },
+    {
+      "id": "main_goals-0217",
+      "text": "Changer l'histoire"
+    },
+    {
+      "id": "main_goals-0218",
+      "text": "Empêcher que l'histoire soit modifiée"
+    },
+    {
+      "id": "main_goals-0219",
+      "text": "Retourner à sa propre époque"
+    },
+    {
+      "id": "main_goals-0220",
+      "text": "Briser la boucle temporelle"
+    },
+    {
+      "id": "main_goals-0221",
+      "text": "Entretenir la boucle temporelle"
+    },
+    {
+      "id": "main_goals-0222",
+      "text": "Sauver l'avenir"
+    },
+    {
+      "id": "main_goals-0223",
+      "text": "Changer l'avenir"
+    },
+    {
+      "id": "main_goals-0224",
+      "text": "Empêcher la fin du monde"
+    },
+    {
+      "id": "main_goals-0225",
+      "text": "Provoquer la fin du monde"
+    },
+    {
+      "id": "main_goals-0226",
+      "text": "Se préparer à la fin du monde"
+    },
+    {
+      "id": "main_goals-0227",
+      "text": "Bâtir un nouveau monde après la catastrophe"
+    },
+    {
+      "id": "main_goals-0228",
+      "text": "Trouver d'autres survivants"
+    },
+    {
+      "id": "main_goals-0229",
+      "text": "Unir les communautés dispersées"
+    },
+    {
+      "id": "main_goals-0230",
+      "text": "Fonder un nouvel État"
+    },
+    {
+      "id": "main_goals-0231",
+      "text": "Restaurer l'ancien État"
+    },
+    {
+      "id": "main_goals-0232",
+      "text": "Créer une nouvelle religion"
+    },
+    {
+      "id": "main_goals-0233",
+      "text": "Faire grandir une secte"
+    },
+    {
+      "id": "main_goals-0234",
+      "text": "Démanteler une secte"
+    },
+    {
+      "id": "main_goals-0235",
+      "text": "Démasquer un faux prophète"
+    },
+    {
+      "id": "main_goals-0236",
+      "text": "Accomplir une prophétie"
+    },
+    {
+      "id": "main_goals-0237",
+      "text": "Empêcher une prophétie"
+    },
+    {
+      "id": "main_goals-0238",
+      "text": "Prouver qu'une prophétie est fausse"
+    },
+    {
+      "id": "main_goals-0239",
+      "text": "Atteindre l'immortalité"
+    },
+    {
+      "id": "main_goals-0240",
+      "text": "Briser une malédiction"
+    },
+    {
+      "id": "main_goals-0241",
+      "text": "Jeter une malédiction"
+    },
+    {
+      "id": "main_goals-0242",
+      "text": "Échapper à la mort"
+    },
+    {
+      "id": "main_goals-0243",
+      "text": "Trouver un moyen de mourir"
+    },
+    {
+      "id": "main_goals-0244",
+      "text": "Ramener les morts à la vie"
+    },
+    {
+      "id": "main_goals-0245",
+      "text": "Aider un esprit à trouver le repos"
+    },
+    {
+      "id": "main_goals-0246",
+      "text": "Rassembler les âmes perdues"
+    },
+    {
+      "id": "main_goals-0247",
+      "text": "S'échapper de l'au-delà"
+    },
+    {
+      "id": "main_goals-0248",
+      "text": "Gagner sa place au paradis"
+    },
+    {
+      "id": "main_goals-0249",
+      "text": "Éviter de finir en enfer"
+    },
+    {
+      "id": "main_goals-0250",
+      "text": "Organiser le monde des morts"
+    },
+    {
+      "id": "main_goals-0251",
+      "text": "Élucider un phénomène surnaturel"
+    },
+    {
+      "id": "main_goals-0252",
+      "text": "Prouver qu'un phénomène surnaturel est réel"
+    },
+    {
+      "id": "main_goals-0253",
+      "text": "Prouver qu'un phénomène surnaturel n'est pas réel"
+    },
+    {
+      "id": "main_goals-0254",
+      "text": "Créer un chef-d'œuvre"
+    },
+    {
+      "id": "main_goals-0255",
+      "text": "Bâtir le meilleur restaurant du monde"
+    },
+    {
+      "id": "main_goals-0256",
+      "text": "Bâtir le meilleur hôtel du monde"
+    },
+    {
+      "id": "main_goals-0257",
+      "text": "Diriger la meilleure équipe sportive"
+    },
+    {
+      "id": "main_goals-0258",
+      "text": "Gagner le championnat"
+    },
+    {
+      "id": "main_goals-0259",
+      "text": "Battre un record"
+    },
+    {
+      "id": "main_goals-0260",
+      "text": "Devenir célèbre"
+    },
+    {
+      "id": "main_goals-0261",
+      "text": "Devenir une légende"
+    },
+    {
+      "id": "main_goals-0262",
+      "text": "Créer une œuvre d'art"
+    },
+    {
+      "id": "main_goals-0263",
+      "text": "Achever l'œuvre de sa vie"
+    },
+    {
+      "id": "main_goals-0264",
+      "text": "Résoudre un problème impossible"
+    },
+    {
+      "id": "main_goals-0265",
+      "text": "Réaliser une performance parfaite"
+    },
+    {
+      "id": "main_goals-0266",
+      "text": "Tout collectionner"
+    },
+    {
+      "id": "main_goals-0267",
+      "text": "Compléter toute la collection"
+    },
+    {
+      "id": "main_goals-0268",
+      "text": "Compléter les archives"
+    },
+    {
+      "id": "main_goals-0269",
+      "text": "Trouver tous les secrets"
+    },
+    {
+      "id": "main_goals-0270",
+      "text": "Débloquer toutes les zones"
+    },
+    {
+      "id": "main_goals-0271",
+      "text": "Atteindre le grade le plus élevé"
+    },
+    {
+      "id": "main_goals-0272",
+      "text": "Accomplir la mission sans que personne ne s'en aperçoive"
+    },
+    {
+      "id": "main_goals-0273",
+      "text": "Accomplir la mission sans violence"
+    },
+    {
+      "id": "main_goals-0274",
+      "text": "Accomplir la mission avant la fin du temps imparti"
+    },
+    {
+      "id": "main_goals-0275",
+      "text": "Satisfaire toutes les parties"
+    },
+    {
+      "id": "main_goals-0276",
+      "text": "Trouver un compromis impossible"
+    },
+    {
+      "id": "main_goals-0277",
+      "text": "Choisir le moindre mal"
+    },
+    {
+      "id": "main_goals-0278",
+      "text": "Décider qui mérite ton aide"
+    },
+    {
+      "id": "main_goals-0279",
+      "text": "Décider de quel côté tu es"
+    },
+    {
+      "id": "main_goals-0280",
+      "text": "Changer le système de l'intérieur"
+    },
+    {
+      "id": "main_goals-0281",
+      "text": "Détruire le système de l'intérieur"
+    },
+    {
+      "id": "main_goals-0282",
+      "text": "Prendre le contrôle du système"
+    },
+    {
+      "id": "main_goals-0283",
+      "text": "Échapper au système"
+    },
+    {
+      "id": "main_goals-0284",
+      "text": "Prouver que le système est corrompu"
+    },
+    {
+      "id": "main_goals-0285",
+      "text": "Garder la vérité cachée"
+    },
+    {
+      "id": "main_goals-0286",
+      "text": "Révéler la vérité au monde"
+    }
   ]
 }

@@ -1,234 +1,924 @@
 {
   "structural_formats": [
-    "Vuoropohjainen",
-    "Reaaliaikainen",
-    "Päiväsykli",
-    "Yksi työvuoro",
-    "Roguelite-run",
-    "Episodinen",
-    "Avoin sandbox",
-    "Kampanja",
-    "Yksi päivä",
-    "Yksi yö",
-    "Yksi viikko",
-    "Yksi kuukausi",
-    "Yksi vuosi",
-    "Usean vuoden kampanja",
-    "Sukupolvien yli etenevä",
-    "Aikasilmukka",
-    "Toistuva päivä",
-    "Toistuva työvuoro",
-    "Lyhyet pelisessiot",
-    "Pitkä yhtenäinen pelikerta",
-    "Checkpoint-pohjainen",
-    "Tallennus milloin vain",
-    "Permadeath",
-    "Ironman-tila",
-    "Run-pohjainen",
-    "Mission-pohjainen",
-    "Tehtäväpohjainen",
-    "Case-pohjainen",
-    "Tapauskohtainen",
-    "Skenaariopohjainen",
-    "Karttapohjainen",
-    "Huonepohjainen",
-    "Aluepohjainen",
-    "Solmupohjainen",
-    "Hub-pohjainen",
-    "Hub + tehtävät",
-    "Hub + avoimet alueet",
-    "Lineaarinen",
-    "Puolilineaarinen",
-    "Haarautuva",
-    "Täysin avoin",
-    "Avoin maailma",
-    "Suljettu ympäristö",
-    "Yksi rakennus",
-    "Yksi huone",
-    "Yksi ajoneuvo",
-    "Yksi organisaatio",
-    "Yksi kaupunki",
-    "Useita alueita",
-    "Useita rinnakkaisia näkökulmia",
-    "Useita pelattavia hahmoja",
-    "Yksi pysyvä hahmo",
-    "Vaihtuva pelihahmo",
-    "Hahmo vaihtuu jokaisessa luvussa",
-    "Hahmo vaihtuu kuoleman jälkeen",
-    "Dynastiamalli",
-    "Periytyvä kampanja",
-    "Generatiivinen kampanja",
-    "Proseduraalinen kampanja",
-    "Käsikirjoitettu kampanja",
-    "Käsikirjoitettu alku, avoin loppu",
-    "Avoin alku, käsikirjoitettu loppu",
-    "Emergent narrative",
-    "Procedural narrative",
-    "Tarina syntyy simulaatiosta",
-    "Tarina syntyy pelaajan valinnoista",
-    "Valintapohjainen rakenne",
-    "Dialogivetoinen rakenne",
-    "Dokumenttivetoinen rakenne",
-    "Korttipohjainen rakenne",
-    "Työpöytäpohjainen rakenne",
-    "Komentokeskuspohjainen",
-    "Valvomopohjainen",
-    "Karttanäkymäpohjainen",
-    "Taulukkopohjainen",
-    "Dashboard-pohjainen",
-    "Päiväkirjapohjainen",
-    "Raporttipohjainen",
-    "Viestipohjainen",
-    "Sähköpostipohjainen",
-    "Chat-pohjainen",
-    "Puhelinpohjainen",
-    "Radioyhteyspohjainen",
-    "Valvontakamerapohjainen",
-    "Dokumenttien käsittelyyn perustuva",
-    "Työjonopohjainen",
-    "Asiakasjonopohjainen",
-    "Simulaatio etenee itsenäisesti",
-    "Simulaatio etenee vain pelaajan toimilla",
-    "Aika pysähtyy valikoissa",
-    "Aika kulkee jatkuvasti",
-    "Pause-and-play",
-    "Real-time with pause",
-    "Hidas reaaliaika",
-    "Nopea reaaliaika",
-    "Tick-pohjainen",
-    "Minuuttipohjainen",
-    "Tuntipohjainen",
-    "Päiväpohjainen",
-    "Viikkopohjainen",
-    "Kuukausipohjainen",
-    "Vuorot jaettu toimintapisteisiin",
-    "Vuorot jaettu vaiheisiin",
-    "Vuorot samanaikaisilla valinnoilla",
-    "WeGo-rakenne",
-    "Yksi toiminto per vuoro",
-    "Useita toimintoja per vuoro",
-    "Toimintapistejärjestelmä",
-    "Korttivuorot",
-    "Noppavuorot",
-    "Tapahtumakorttipohjainen",
-    "Päivittäiset tapahtumat",
-    "Satunnaiset tapahtumat",
-    "Aikataulutetut tapahtumat",
-    "Reaktiiviset tapahtumat",
-    "Ketjutetut tapahtumat",
-    "Skenaario vaihtuu päivittäin",
-    "Skenaario vaihtuu viikoittain",
-    "Roguelike-run",
-    "Roguelite-run",
-    "Run + meta-progressio",
-    "Run ilman meta-progressiota",
-    "Lyhyt 10–20 minuutin run",
-    "Keskipitkä 30–60 minuutin run",
-    "Pitkä usean tunnin run",
-    "Endless mode",
-    "Survival mode",
-    "Score attack",
-    "Time attack",
-    "Challenge mode",
-    "Daily challenge",
-    "Weekly challenge",
-    "Sandbox mode",
-    "Creative mode",
-    "Scenario editor",
-    "Free play",
-    "Campaign + sandbox",
-    "Campaign + endless mode",
-    "Campaign + skenaariot",
-    "Campaign + roguelite",
-    "Story mode",
-    "Arcade mode",
-    "Simulation mode",
-    "Hardcore mode",
-    "Casual mode",
-    "Asynkroninen",
-    "Synkroninen",
-    "Yksinpeli",
-    "Paikallinen moninpeli",
-    "Online co-op",
-    "Asymmetrinen moninpeli",
-    "Yksi pelaaja ohjaa järjestelmää",
-    "Useat pelaajat ohjaavat eri rooleja",
-    "Yksi pelaaja vastaan simulaatio",
-    "Yksi pelaaja vastaan toinen pelaaja",
-    "Yksi pelaaja vastaan maailma",
-    "Pelimaailma jatkuu ilman pelaajaa",
-    "Peli etenee reaaliajassa myös suljettuna",
-    "Aika etenee vain kun pelaaja on aktiivinen",
-    "Reaaliaikainen kalenteri",
-    "Fiktiivinen kalenteri",
-    "Vuodenaikasykli",
-    "Sääsykli",
-    "Päivä-yö-sykli",
-    "Työviikkosykli",
-    "Sukupolvisykli",
-    "Vaali- ja hallituskausisykli",
-    "Sotakampanjasykli",
-    "Epidemiasykli",
-    "Tuotantosykli",
-    "Markkinasykli",
-    "Kausirakenne",
-    "Lukurakenne",
-    "Näytösrakenne",
-    "Episodit",
-    "Kausittaiset episodit",
-    "Antologia",
-    "Jokainen jakso eri hahmolla",
-    "Jokainen jakso eri paikassa",
-    "Jokainen jakso eri aikakaudella",
-    "Jokainen pelikerta eri maailmassa",
-    "Jokainen pelikerta sama maailma eri lähtötilanteella",
-    "Sama maailma muuttuu pelikertojen välillä",
-    "Meta-maailma säilyy runien välillä",
-    "NPC:t säilyvät runien välillä",
-    "Kartta säilyy runien välillä",
-    "Maailma nollautuu runin jälkeen",
-    "Maailma muuttuu pysyvästi runin jälkeen",
-    "Yksi päätös kerrallaan",
-    "Ketjutetut päätökset",
-    "Päätökset määräajassa",
-    "Päätökset ilman aikapainetta",
-    "Salaiset päätökset",
-    "Julkiset päätökset",
-    "Samanaikaiset päätökset",
-    "Äänestyspohjainen",
-    "Neuvottelupohjainen",
-    "Suunnittelu + toteutus",
-    "Suunnitteluvaihe + reaaliaikainen vaihe",
-    "Päivä suunnittelua, yö toteutusta",
-    "Päivä hallintoa, yö tutkimista",
-    "Päivä rakentamista, yö selviytymistä",
-    "Päivä sosiaalista peliä, yö stealthia",
-    "Vuorotteleva management + action",
-    "Vuorotteleva tutkiminen + hallinto",
-    "Vuorotteleva tarina + simulaatio",
-    "Monikerroksinen pelirakenne",
-    "Strateginen kartta + taktinen näkymä",
-    "Kaupunki + yksittäiset rakennukset",
-    "Organisaatiotaso + yksilötaso",
-    "Makrotaso + mikrotaso",
-    "Nykyhetki + takaumat",
-    "Nykyhetki + tulevaisuus",
-    "Useita aikajanoja rinnakkain",
-    "Aikajana hyppii eteen ja taakse",
-    "Epälineaarinen kronologia",
-    "Tutkiminen paljastaa menneisyyden",
-    "Pelaajan valinnat avaavat eri luvut",
-    "Salaisuudet avaavat uusia pelikerroksia",
-    "Uudet mekaniikat avautuvat vaiheittain",
-    "Säännöt muuttuvat kampanjan aikana",
-    "Peliformaatti muuttuu tarinan aikana",
-    "Genre muuttuu pelin edetessä",
-    "Yksi pitkä kriisi",
-    "Jatkuva kriisinhallinta",
-    "Sarja pieniä kriisejä",
-    "Kriisi pahenee vaiheittain",
-    "Rauhallinen alku, kiihtyvä loppu",
-    "Kiireinen alku, avoin loppupeli",
-    "Rakentamisvaihe, kriisivaihe, jälleenrakennusvaihe"
+    {
+      "id": "structural_formats-0001",
+      "text": "Vuoropohjainen"
+    },
+    {
+      "id": "structural_formats-0002",
+      "text": "Reaaliaikainen"
+    },
+    {
+      "id": "structural_formats-0003",
+      "text": "Päiväsykli"
+    },
+    {
+      "id": "structural_formats-0004",
+      "text": "Yksi työvuoro"
+    },
+    {
+      "id": "structural_formats-0005",
+      "text": "Roguelite-run"
+    },
+    {
+      "id": "structural_formats-0006",
+      "text": "Episodinen"
+    },
+    {
+      "id": "structural_formats-0007",
+      "text": "Avoin sandbox"
+    },
+    {
+      "id": "structural_formats-0008",
+      "text": "Kampanja"
+    },
+    {
+      "id": "structural_formats-0009",
+      "text": "Yksi päivä"
+    },
+    {
+      "id": "structural_formats-0010",
+      "text": "Yksi yö"
+    },
+    {
+      "id": "structural_formats-0011",
+      "text": "Yksi viikko"
+    },
+    {
+      "id": "structural_formats-0012",
+      "text": "Yksi kuukausi"
+    },
+    {
+      "id": "structural_formats-0013",
+      "text": "Yksi vuosi"
+    },
+    {
+      "id": "structural_formats-0014",
+      "text": "Usean vuoden kampanja"
+    },
+    {
+      "id": "structural_formats-0015",
+      "text": "Sukupolvien yli etenevä"
+    },
+    {
+      "id": "structural_formats-0016",
+      "text": "Aikasilmukka"
+    },
+    {
+      "id": "structural_formats-0017",
+      "text": "Toistuva päivä"
+    },
+    {
+      "id": "structural_formats-0018",
+      "text": "Toistuva työvuoro"
+    },
+    {
+      "id": "structural_formats-0019",
+      "text": "Lyhyet pelisessiot"
+    },
+    {
+      "id": "structural_formats-0020",
+      "text": "Pitkä yhtenäinen pelikerta"
+    },
+    {
+      "id": "structural_formats-0021",
+      "text": "Checkpoint-pohjainen"
+    },
+    {
+      "id": "structural_formats-0022",
+      "text": "Tallennus milloin vain"
+    },
+    {
+      "id": "structural_formats-0023",
+      "text": "Permadeath"
+    },
+    {
+      "id": "structural_formats-0024",
+      "text": "Ironman-tila"
+    },
+    {
+      "id": "structural_formats-0025",
+      "text": "Run-pohjainen"
+    },
+    {
+      "id": "structural_formats-0026",
+      "text": "Mission-pohjainen"
+    },
+    {
+      "id": "structural_formats-0027",
+      "text": "Tehtäväpohjainen"
+    },
+    {
+      "id": "structural_formats-0028",
+      "text": "Case-pohjainen"
+    },
+    {
+      "id": "structural_formats-0029",
+      "text": "Tapauskohtainen"
+    },
+    {
+      "id": "structural_formats-0030",
+      "text": "Skenaariopohjainen"
+    },
+    {
+      "id": "structural_formats-0031",
+      "text": "Karttapohjainen"
+    },
+    {
+      "id": "structural_formats-0032",
+      "text": "Huonepohjainen"
+    },
+    {
+      "id": "structural_formats-0033",
+      "text": "Aluepohjainen"
+    },
+    {
+      "id": "structural_formats-0034",
+      "text": "Solmupohjainen"
+    },
+    {
+      "id": "structural_formats-0035",
+      "text": "Hub-pohjainen"
+    },
+    {
+      "id": "structural_formats-0036",
+      "text": "Hub + tehtävät"
+    },
+    {
+      "id": "structural_formats-0037",
+      "text": "Hub + avoimet alueet"
+    },
+    {
+      "id": "structural_formats-0038",
+      "text": "Lineaarinen"
+    },
+    {
+      "id": "structural_formats-0039",
+      "text": "Puolilineaarinen"
+    },
+    {
+      "id": "structural_formats-0040",
+      "text": "Haarautuva"
+    },
+    {
+      "id": "structural_formats-0041",
+      "text": "Täysin avoin"
+    },
+    {
+      "id": "structural_formats-0042",
+      "text": "Avoin maailma"
+    },
+    {
+      "id": "structural_formats-0043",
+      "text": "Suljettu ympäristö"
+    },
+    {
+      "id": "structural_formats-0044",
+      "text": "Yksi rakennus"
+    },
+    {
+      "id": "structural_formats-0045",
+      "text": "Yksi huone"
+    },
+    {
+      "id": "structural_formats-0046",
+      "text": "Yksi ajoneuvo"
+    },
+    {
+      "id": "structural_formats-0047",
+      "text": "Yksi organisaatio"
+    },
+    {
+      "id": "structural_formats-0048",
+      "text": "Yksi kaupunki"
+    },
+    {
+      "id": "structural_formats-0049",
+      "text": "Useita alueita"
+    },
+    {
+      "id": "structural_formats-0050",
+      "text": "Useita rinnakkaisia näkökulmia"
+    },
+    {
+      "id": "structural_formats-0051",
+      "text": "Useita pelattavia hahmoja"
+    },
+    {
+      "id": "structural_formats-0052",
+      "text": "Yksi pysyvä hahmo"
+    },
+    {
+      "id": "structural_formats-0053",
+      "text": "Vaihtuva pelihahmo"
+    },
+    {
+      "id": "structural_formats-0054",
+      "text": "Hahmo vaihtuu jokaisessa luvussa"
+    },
+    {
+      "id": "structural_formats-0055",
+      "text": "Hahmo vaihtuu kuoleman jälkeen"
+    },
+    {
+      "id": "structural_formats-0056",
+      "text": "Dynastiamalli"
+    },
+    {
+      "id": "structural_formats-0057",
+      "text": "Periytyvä kampanja"
+    },
+    {
+      "id": "structural_formats-0058",
+      "text": "Generatiivinen kampanja"
+    },
+    {
+      "id": "structural_formats-0059",
+      "text": "Proseduraalinen kampanja"
+    },
+    {
+      "id": "structural_formats-0060",
+      "text": "Käsikirjoitettu kampanja"
+    },
+    {
+      "id": "structural_formats-0061",
+      "text": "Käsikirjoitettu alku, avoin loppu"
+    },
+    {
+      "id": "structural_formats-0062",
+      "text": "Avoin alku, käsikirjoitettu loppu"
+    },
+    {
+      "id": "structural_formats-0063",
+      "text": "Emergent narrative"
+    },
+    {
+      "id": "structural_formats-0064",
+      "text": "Procedural narrative"
+    },
+    {
+      "id": "structural_formats-0065",
+      "text": "Tarina syntyy simulaatiosta"
+    },
+    {
+      "id": "structural_formats-0066",
+      "text": "Tarina syntyy pelaajan valinnoista"
+    },
+    {
+      "id": "structural_formats-0067",
+      "text": "Valintapohjainen rakenne"
+    },
+    {
+      "id": "structural_formats-0068",
+      "text": "Dialogivetoinen rakenne"
+    },
+    {
+      "id": "structural_formats-0069",
+      "text": "Dokumenttivetoinen rakenne"
+    },
+    {
+      "id": "structural_formats-0070",
+      "text": "Korttipohjainen rakenne"
+    },
+    {
+      "id": "structural_formats-0071",
+      "text": "Työpöytäpohjainen rakenne"
+    },
+    {
+      "id": "structural_formats-0072",
+      "text": "Komentokeskuspohjainen"
+    },
+    {
+      "id": "structural_formats-0073",
+      "text": "Valvomopohjainen"
+    },
+    {
+      "id": "structural_formats-0074",
+      "text": "Karttanäkymäpohjainen"
+    },
+    {
+      "id": "structural_formats-0075",
+      "text": "Taulukkopohjainen"
+    },
+    {
+      "id": "structural_formats-0076",
+      "text": "Dashboard-pohjainen"
+    },
+    {
+      "id": "structural_formats-0077",
+      "text": "Päiväkirjapohjainen"
+    },
+    {
+      "id": "structural_formats-0078",
+      "text": "Raporttipohjainen"
+    },
+    {
+      "id": "structural_formats-0079",
+      "text": "Viestipohjainen"
+    },
+    {
+      "id": "structural_formats-0080",
+      "text": "Sähköpostipohjainen"
+    },
+    {
+      "id": "structural_formats-0081",
+      "text": "Chat-pohjainen"
+    },
+    {
+      "id": "structural_formats-0082",
+      "text": "Puhelinpohjainen"
+    },
+    {
+      "id": "structural_formats-0083",
+      "text": "Radioyhteyspohjainen"
+    },
+    {
+      "id": "structural_formats-0084",
+      "text": "Valvontakamerapohjainen"
+    },
+    {
+      "id": "structural_formats-0085",
+      "text": "Dokumenttien käsittelyyn perustuva"
+    },
+    {
+      "id": "structural_formats-0086",
+      "text": "Työjonopohjainen"
+    },
+    {
+      "id": "structural_formats-0087",
+      "text": "Asiakasjonopohjainen"
+    },
+    {
+      "id": "structural_formats-0088",
+      "text": "Simulaatio etenee itsenäisesti"
+    },
+    {
+      "id": "structural_formats-0089",
+      "text": "Simulaatio etenee vain pelaajan toimilla"
+    },
+    {
+      "id": "structural_formats-0090",
+      "text": "Aika pysähtyy valikoissa"
+    },
+    {
+      "id": "structural_formats-0091",
+      "text": "Aika kulkee jatkuvasti"
+    },
+    {
+      "id": "structural_formats-0092",
+      "text": "Pause-and-play"
+    },
+    {
+      "id": "structural_formats-0093",
+      "text": "Real-time with pause"
+    },
+    {
+      "id": "structural_formats-0094",
+      "text": "Hidas reaaliaika"
+    },
+    {
+      "id": "structural_formats-0095",
+      "text": "Nopea reaaliaika"
+    },
+    {
+      "id": "structural_formats-0096",
+      "text": "Tick-pohjainen"
+    },
+    {
+      "id": "structural_formats-0097",
+      "text": "Minuuttipohjainen"
+    },
+    {
+      "id": "structural_formats-0098",
+      "text": "Tuntipohjainen"
+    },
+    {
+      "id": "structural_formats-0099",
+      "text": "Päiväpohjainen"
+    },
+    {
+      "id": "structural_formats-0100",
+      "text": "Viikkopohjainen"
+    },
+    {
+      "id": "structural_formats-0101",
+      "text": "Kuukausipohjainen"
+    },
+    {
+      "id": "structural_formats-0102",
+      "text": "Vuorot jaettu toimintapisteisiin"
+    },
+    {
+      "id": "structural_formats-0103",
+      "text": "Vuorot jaettu vaiheisiin"
+    },
+    {
+      "id": "structural_formats-0104",
+      "text": "Vuorot samanaikaisilla valinnoilla"
+    },
+    {
+      "id": "structural_formats-0105",
+      "text": "WeGo-rakenne"
+    },
+    {
+      "id": "structural_formats-0106",
+      "text": "Yksi toiminto per vuoro"
+    },
+    {
+      "id": "structural_formats-0107",
+      "text": "Useita toimintoja per vuoro"
+    },
+    {
+      "id": "structural_formats-0108",
+      "text": "Toimintapistejärjestelmä"
+    },
+    {
+      "id": "structural_formats-0109",
+      "text": "Korttivuorot"
+    },
+    {
+      "id": "structural_formats-0110",
+      "text": "Noppavuorot"
+    },
+    {
+      "id": "structural_formats-0111",
+      "text": "Tapahtumakorttipohjainen"
+    },
+    {
+      "id": "structural_formats-0112",
+      "text": "Päivittäiset tapahtumat"
+    },
+    {
+      "id": "structural_formats-0113",
+      "text": "Satunnaiset tapahtumat"
+    },
+    {
+      "id": "structural_formats-0114",
+      "text": "Aikataulutetut tapahtumat"
+    },
+    {
+      "id": "structural_formats-0115",
+      "text": "Reaktiiviset tapahtumat"
+    },
+    {
+      "id": "structural_formats-0116",
+      "text": "Ketjutetut tapahtumat"
+    },
+    {
+      "id": "structural_formats-0117",
+      "text": "Skenaario vaihtuu päivittäin"
+    },
+    {
+      "id": "structural_formats-0118",
+      "text": "Skenaario vaihtuu viikoittain"
+    },
+    {
+      "id": "structural_formats-0119",
+      "text": "Roguelike-run"
+    },
+    {
+      "id": "structural_formats-0120",
+      "text": "Roguelite-run"
+    },
+    {
+      "id": "structural_formats-0121",
+      "text": "Run + meta-progressio"
+    },
+    {
+      "id": "structural_formats-0122",
+      "text": "Run ilman meta-progressiota"
+    },
+    {
+      "id": "structural_formats-0123",
+      "text": "Lyhyt 10–20 minuutin run"
+    },
+    {
+      "id": "structural_formats-0124",
+      "text": "Keskipitkä 30–60 minuutin run"
+    },
+    {
+      "id": "structural_formats-0125",
+      "text": "Pitkä usean tunnin run"
+    },
+    {
+      "id": "structural_formats-0126",
+      "text": "Endless mode"
+    },
+    {
+      "id": "structural_formats-0127",
+      "text": "Survival mode"
+    },
+    {
+      "id": "structural_formats-0128",
+      "text": "Score attack"
+    },
+    {
+      "id": "structural_formats-0129",
+      "text": "Time attack"
+    },
+    {
+      "id": "structural_formats-0130",
+      "text": "Challenge mode"
+    },
+    {
+      "id": "structural_formats-0131",
+      "text": "Daily challenge"
+    },
+    {
+      "id": "structural_formats-0132",
+      "text": "Weekly challenge"
+    },
+    {
+      "id": "structural_formats-0133",
+      "text": "Sandbox mode"
+    },
+    {
+      "id": "structural_formats-0134",
+      "text": "Creative mode"
+    },
+    {
+      "id": "structural_formats-0135",
+      "text": "Scenario editor"
+    },
+    {
+      "id": "structural_formats-0136",
+      "text": "Free play"
+    },
+    {
+      "id": "structural_formats-0137",
+      "text": "Campaign + sandbox"
+    },
+    {
+      "id": "structural_formats-0138",
+      "text": "Campaign + endless mode"
+    },
+    {
+      "id": "structural_formats-0139",
+      "text": "Campaign + skenaariot"
+    },
+    {
+      "id": "structural_formats-0140",
+      "text": "Campaign + roguelite"
+    },
+    {
+      "id": "structural_formats-0141",
+      "text": "Story mode"
+    },
+    {
+      "id": "structural_formats-0142",
+      "text": "Arcade mode"
+    },
+    {
+      "id": "structural_formats-0143",
+      "text": "Simulation mode"
+    },
+    {
+      "id": "structural_formats-0144",
+      "text": "Hardcore mode"
+    },
+    {
+      "id": "structural_formats-0145",
+      "text": "Casual mode"
+    },
+    {
+      "id": "structural_formats-0146",
+      "text": "Asynkroninen"
+    },
+    {
+      "id": "structural_formats-0147",
+      "text": "Synkroninen"
+    },
+    {
+      "id": "structural_formats-0148",
+      "text": "Yksinpeli"
+    },
+    {
+      "id": "structural_formats-0149",
+      "text": "Paikallinen moninpeli"
+    },
+    {
+      "id": "structural_formats-0150",
+      "text": "Online co-op"
+    },
+    {
+      "id": "structural_formats-0151",
+      "text": "Asymmetrinen moninpeli"
+    },
+    {
+      "id": "structural_formats-0152",
+      "text": "Yksi pelaaja ohjaa järjestelmää"
+    },
+    {
+      "id": "structural_formats-0153",
+      "text": "Useat pelaajat ohjaavat eri rooleja"
+    },
+    {
+      "id": "structural_formats-0154",
+      "text": "Yksi pelaaja vastaan simulaatio"
+    },
+    {
+      "id": "structural_formats-0155",
+      "text": "Yksi pelaaja vastaan toinen pelaaja"
+    },
+    {
+      "id": "structural_formats-0156",
+      "text": "Yksi pelaaja vastaan maailma"
+    },
+    {
+      "id": "structural_formats-0157",
+      "text": "Pelimaailma jatkuu ilman pelaajaa"
+    },
+    {
+      "id": "structural_formats-0158",
+      "text": "Peli etenee reaaliajassa myös suljettuna"
+    },
+    {
+      "id": "structural_formats-0159",
+      "text": "Aika etenee vain kun pelaaja on aktiivinen"
+    },
+    {
+      "id": "structural_formats-0160",
+      "text": "Reaaliaikainen kalenteri"
+    },
+    {
+      "id": "structural_formats-0161",
+      "text": "Fiktiivinen kalenteri"
+    },
+    {
+      "id": "structural_formats-0162",
+      "text": "Vuodenaikasykli"
+    },
+    {
+      "id": "structural_formats-0163",
+      "text": "Sääsykli"
+    },
+    {
+      "id": "structural_formats-0164",
+      "text": "Päivä-yö-sykli"
+    },
+    {
+      "id": "structural_formats-0165",
+      "text": "Työviikkosykli"
+    },
+    {
+      "id": "structural_formats-0166",
+      "text": "Sukupolvisykli"
+    },
+    {
+      "id": "structural_formats-0167",
+      "text": "Vaali- ja hallituskausisykli"
+    },
+    {
+      "id": "structural_formats-0168",
+      "text": "Sotakampanjasykli"
+    },
+    {
+      "id": "structural_formats-0169",
+      "text": "Epidemiasykli"
+    },
+    {
+      "id": "structural_formats-0170",
+      "text": "Tuotantosykli"
+    },
+    {
+      "id": "structural_formats-0171",
+      "text": "Markkinasykli"
+    },
+    {
+      "id": "structural_formats-0172",
+      "text": "Kausirakenne"
+    },
+    {
+      "id": "structural_formats-0173",
+      "text": "Lukurakenne"
+    },
+    {
+      "id": "structural_formats-0174",
+      "text": "Näytösrakenne"
+    },
+    {
+      "id": "structural_formats-0175",
+      "text": "Episodit"
+    },
+    {
+      "id": "structural_formats-0176",
+      "text": "Kausittaiset episodit"
+    },
+    {
+      "id": "structural_formats-0177",
+      "text": "Antologia"
+    },
+    {
+      "id": "structural_formats-0178",
+      "text": "Jokainen jakso eri hahmolla"
+    },
+    {
+      "id": "structural_formats-0179",
+      "text": "Jokainen jakso eri paikassa"
+    },
+    {
+      "id": "structural_formats-0180",
+      "text": "Jokainen jakso eri aikakaudella"
+    },
+    {
+      "id": "structural_formats-0181",
+      "text": "Jokainen pelikerta eri maailmassa"
+    },
+    {
+      "id": "structural_formats-0182",
+      "text": "Jokainen pelikerta sama maailma eri lähtötilanteella"
+    },
+    {
+      "id": "structural_formats-0183",
+      "text": "Sama maailma muuttuu pelikertojen välillä"
+    },
+    {
+      "id": "structural_formats-0184",
+      "text": "Meta-maailma säilyy runien välillä"
+    },
+    {
+      "id": "structural_formats-0185",
+      "text": "NPC:t säilyvät runien välillä"
+    },
+    {
+      "id": "structural_formats-0186",
+      "text": "Kartta säilyy runien välillä"
+    },
+    {
+      "id": "structural_formats-0187",
+      "text": "Maailma nollautuu runin jälkeen"
+    },
+    {
+      "id": "structural_formats-0188",
+      "text": "Maailma muuttuu pysyvästi runin jälkeen"
+    },
+    {
+      "id": "structural_formats-0189",
+      "text": "Yksi päätös kerrallaan"
+    },
+    {
+      "id": "structural_formats-0190",
+      "text": "Ketjutetut päätökset"
+    },
+    {
+      "id": "structural_formats-0191",
+      "text": "Päätökset määräajassa"
+    },
+    {
+      "id": "structural_formats-0192",
+      "text": "Päätökset ilman aikapainetta"
+    },
+    {
+      "id": "structural_formats-0193",
+      "text": "Salaiset päätökset"
+    },
+    {
+      "id": "structural_formats-0194",
+      "text": "Julkiset päätökset"
+    },
+    {
+      "id": "structural_formats-0195",
+      "text": "Samanaikaiset päätökset"
+    },
+    {
+      "id": "structural_formats-0196",
+      "text": "Äänestyspohjainen"
+    },
+    {
+      "id": "structural_formats-0197",
+      "text": "Neuvottelupohjainen"
+    },
+    {
+      "id": "structural_formats-0198",
+      "text": "Suunnittelu + toteutus"
+    },
+    {
+      "id": "structural_formats-0199",
+      "text": "Suunnitteluvaihe + reaaliaikainen vaihe"
+    },
+    {
+      "id": "structural_formats-0200",
+      "text": "Päivä suunnittelua, yö toteutusta"
+    },
+    {
+      "id": "structural_formats-0201",
+      "text": "Päivä hallintoa, yö tutkimista"
+    },
+    {
+      "id": "structural_formats-0202",
+      "text": "Päivä rakentamista, yö selviytymistä"
+    },
+    {
+      "id": "structural_formats-0203",
+      "text": "Päivä sosiaalista peliä, yö stealthia"
+    },
+    {
+      "id": "structural_formats-0204",
+      "text": "Vuorotteleva management + action"
+    },
+    {
+      "id": "structural_formats-0205",
+      "text": "Vuorotteleva tutkiminen + hallinto"
+    },
+    {
+      "id": "structural_formats-0206",
+      "text": "Vuorotteleva tarina + simulaatio"
+    },
+    {
+      "id": "structural_formats-0207",
+      "text": "Monikerroksinen pelirakenne"
+    },
+    {
+      "id": "structural_formats-0208",
+      "text": "Strateginen kartta + taktinen näkymä"
+    },
+    {
+      "id": "structural_formats-0209",
+      "text": "Kaupunki + yksittäiset rakennukset"
+    },
+    {
+      "id": "structural_formats-0210",
+      "text": "Organisaatiotaso + yksilötaso"
+    },
+    {
+      "id": "structural_formats-0211",
+      "text": "Makrotaso + mikrotaso"
+    },
+    {
+      "id": "structural_formats-0212",
+      "text": "Nykyhetki + takaumat"
+    },
+    {
+      "id": "structural_formats-0213",
+      "text": "Nykyhetki + tulevaisuus"
+    },
+    {
+      "id": "structural_formats-0214",
+      "text": "Useita aikajanoja rinnakkain"
+    },
+    {
+      "id": "structural_formats-0215",
+      "text": "Aikajana hyppii eteen ja taakse"
+    },
+    {
+      "id": "structural_formats-0216",
+      "text": "Epälineaarinen kronologia"
+    },
+    {
+      "id": "structural_formats-0217",
+      "text": "Tutkiminen paljastaa menneisyyden"
+    },
+    {
+      "id": "structural_formats-0218",
+      "text": "Pelaajan valinnat avaavat eri luvut"
+    },
+    {
+      "id": "structural_formats-0219",
+      "text": "Salaisuudet avaavat uusia pelikerroksia"
+    },
+    {
+      "id": "structural_formats-0220",
+      "text": "Uudet mekaniikat avautuvat vaiheittain"
+    },
+    {
+      "id": "structural_formats-0221",
+      "text": "Säännöt muuttuvat kampanjan aikana"
+    },
+    {
+      "id": "structural_formats-0222",
+      "text": "Peliformaatti muuttuu tarinan aikana"
+    },
+    {
+      "id": "structural_formats-0223",
+      "text": "Genre muuttuu pelin edetessä"
+    },
+    {
+      "id": "structural_formats-0224",
+      "text": "Yksi pitkä kriisi"
+    },
+    {
+      "id": "structural_formats-0225",
+      "text": "Jatkuva kriisinhallinta"
+    },
+    {
+      "id": "structural_formats-0226",
+      "text": "Sarja pieniä kriisejä"
+    },
+    {
+      "id": "structural_formats-0227",
+      "text": "Kriisi pahenee vaiheittain"
+    },
+    {
+      "id": "structural_formats-0228",
+      "text": "Rauhallinen alku, kiihtyvä loppu"
+    },
+    {
+      "id": "structural_formats-0229",
+      "text": "Kiireinen alku, avoin loppupeli"
+    },
+    {
+      "id": "structural_formats-0230",
+      "text": "Rakentamisvaihe, kriisivaihe, jälleenrakennusvaihe"
+    }
   ]
 }

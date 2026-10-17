@@ -1,334 +1,1324 @@
 {
   "twists": [
-    "Os NPCs se lembram das partidas anteriores",
-    "Um recurso mente",
-    "O mundo muda quando ninguém está olhando",
-    "O jogador não é humano",
-    "Os mortos influenciam o mundo",
-    "Parte do mapa é imaginária",
-    "Seu objetivo muda no meio do jogo",
-    "O jogador é um dos suspeitos investigados",
-    "As memórias do jogador são falsas",
-    "Nem todos os NPCs veem o mesmo mundo",
-    "Um NPC sabe que está em um jogo",
-    "Um NPC sempre mente",
-    "Um NPC sempre diz a verdade",
-    "Os NPCs trocam de identidade entre si",
-    "Um NPC pode morrer e voltar como outra pessoa",
-    "Os NPCs podem se lembrar de coisas que nunca aconteceram",
-    "Os NPCs aprendem os hábitos do jogador",
-    "Os NPCs começam a copiar o comportamento do jogador",
-    "Os NPCs criam teorias sobre o jogador",
-    "Os NPCs podem sabotar a interface",
-    "Os NPCs se comunicam entre si sem o jogador saber",
-    "Os NPCs fundam uma organização secreta",
-    "Os NPCs podem mentir pela interface",
-    "Os NPCs mudam seus próprios objetivos",
-    "Os NPCs podem sair das regras do jogo",
-    "Os NPCs se lembram de quando os saves são carregados",
-    "Os NPCs sabem quando o jogo está pausado",
-    "Os NPCs podem prever as decisões futuras do jogador",
-    "Os NPCs tentam fazer o jogador parar de jogar",
-    "Os NPCs tentam manipular o jogador",
-    "Os NPCs criam suas próprias missões para o jogador",
-    "Os NPCs não são humanos",
-    "Todos os NPCs são versões diferentes da mesma pessoa",
-    "Os NPCs estão mortos",
-    "Os NPCs são cópias de pessoas reais geradas por IA",
-    "O jogador está morto",
-    "O jogador está em coma",
-    "O jogador está em uma simulação",
-    "O jogador é uma IA",
-    "O jogador é um clone",
-    "O jogador é a memória de outra pessoa",
-    "O jogador é um fantasma",
-    "O jogador é uma alucinação",
-    "O jogador faz parte de um experimento",
-    "O jogador é um prisioneiro",
-    "O jogador é o administrador do sistema",
-    "O jogador causou a crise",
-    "O jogador é o antagonista da história",
-    "O jogador trabalha para o inimigo sem saber",
-    "O jogador sempre esteve do lado errado",
-    "A missão do jogador é moralmente o oposto do que parece",
-    "O empregador do jogador não existe",
-    "A identidade do jogador muda no meio do jogo",
-    "O jogador às vezes acorda como outra pessoa",
-    "O jogador tem múltiplas personalidades",
-    "O jogador não pode confiar nas próprias percepções",
-    "As memórias do jogador se atualizam junto com o mundo",
-    "O conhecimento do jogador sobre o mundo fica desatualizado de propósito",
-    "A interface do jogador não é confiável",
-    "O mapa do jogador mente",
-    "A lista de missões do jogador mente",
-    "Os indicadores de recursos do jogador estão parcialmente errados",
-    "A pontuação do jogador não significa o que ele pensa",
-    "Um elemento da interface faz parte do mundo do jogo",
-    "A interface muda com a história",
-    "A interface começa a se desfazer",
-    "A interface mostra informações diferentes em cada partida",
-    "Os menus contêm pistas ocultas",
-    "Os arquivos de save fazem parte da história",
-    "Os acontecimentos de saves antigos afetam novos jogos",
-    "O jogo se lembra dos saves que você apagou",
-    "Um novo jogo não começa realmente do zero",
-    "O game over continua a história",
-    "Perder abre novas possibilidades",
-    "Vencer pode ser a solução errada",
-    "O verdadeiro objetivo do jogo só é revelado após a primeira partida",
-    "O final do jogo muda as regras da partida seguinte",
-    "Cada partida se passa no mesmo mundo em uma época diferente",
-    "Cada partida é o mesmo acontecimento sob outra perspectiva",
-    "O personagem jogável de uma partida anterior se torna um NPC",
-    "As decisões de uma partida anterior se tornam história",
-    "Os fracassos passados se tornam lendas do mundo",
-    "O jogo distorce os acontecimentos de partidas anteriores",
-    "O antagonista de uma partida anterior era o seu próprio personagem",
-    "O mundo é sempre um pouco diferente depois de carregar",
-    "O mundo muda toda vez que você sai de um cômodo",
-    "O mundo muda toda vez que você dorme",
-    "O mundo muda toda vez que você abre um menu",
-    "O mundo muda em tempo real mesmo quando você não está jogando",
-    "O mundo é diferente para cada NPC",
-    "O mundo tem áreas que não existem até serem descobertas",
-    "O mundo tem lugares que desaparecem do mapa",
-    "O mundo tem cômodos cujo número muda",
-    "Um prédio é maior por dentro do que por fora",
-    "O mapa forma uma geometria impossível",
-    "Dois lugares diferentes são o mesmo lugar",
-    "O mesmo cômodo existe em vários prédios",
-    "O mundo se curva sobre si mesmo",
-    "O tempo passa em velocidades diferentes em áreas diferentes",
-    "Em alguns lugares o tempo corre para trás",
-    "Em alguns lugares o tempo não passa",
-    "Um dia se repete, mas o mundo se lembra dele",
-    "A linha do tempo se ramifica a partir das decisões do jogador",
-    "Várias linhas do tempo existem ao mesmo tempo",
-    "O jogador recebe mensagens do futuro",
-    "O jogador recebe mensagens do seu eu do passado",
-    "O jogador pode enviar informações para o passado",
-    "O futuro afeta o passado",
-    "Os acontecimentos ocorrem antes das suas causas",
-    "A morte acontece antes do assassinato",
-    "As provas aparecem antes do crime",
-    "Um NPC se lembra do futuro",
-    "O tempo para para todos, menos para um personagem",
-    "O calendário pula dias sem explicação",
-    "Dias inteiros desaparecem da história",
-    "O relógio mostra uma hora diferente para cada personagem",
-    "A história é reescrita sem que ninguém perceba",
-    "O mundo tem duas histórias contraditórias",
-    "Os documentos escritos mudam com o tempo",
-    "As fotografias mudam",
-    "Os mapas mudam",
-    "Os registros civis mudam",
-    "Os mortos desaparecem dos arquivos",
-    "Os vivos aparecem no registro de óbitos",
-    "A árvore genealógica muda no meio do jogo",
-    "A mesma pessoa aparece em épocas diferentes",
-    "Alguém não envelhece",
-    "Alguém nasce antes dos próprios pais",
-    "Alguém é seu próprio antepassado",
-    "Todos os moradores da cidade descendem de uma única pessoa",
-    "Uma pessoa está ausente de todos os registros oficiais",
-    "Todos se lembram de uma pessoa que não existe",
-    "Ninguém se lembra de uma pessoa que claramente existe",
-    "O jogador desaparece da memória das pessoas",
-    "O jogador pode apagar pessoas da história",
-    "Mudar memórias muda o mundo",
-    "Uma mentira se torna verdade se pessoas suficientes acreditarem nela",
-    "Um boato muda o mundo físico",
-    "A reputação afeta a realidade",
-    "As crenças definem as leis da física",
-    "O resultado de uma votação muda o passado",
-    "A legislação muda as leis da natureza",
-    "Uma regra escrita se torna realidade",
-    "Os nomes dão propriedades às coisas",
-    "Esquecer o nome de alguém o apaga do mundo",
-    "Dar nome a um objeto muda como ele funciona",
-    "Uma estrada desenhada no mapa aparece no mundo",
-    "Um prédio apagado do arquivo desaparece da cidade",
-    "A contabilidade determina o que existe fisicamente",
-    "Os cortes no orçamento removem coisas da realidade",
-    "O dinheiro só existe se alguém acreditar no seu valor",
-    "Um recurso é, na verdade, algo completamente diferente",
-    "O dinheiro é o tempo de vida das pessoas",
-    "A energia são memórias",
-    "A comida é limitada, mas a população não sabe disso",
-    "O oxigênio é compartilhado entre todas as áreas",
-    "A informação é um recurso físico",
-    "Os segredos podem ser trocados como moeda",
-    "A confiança funciona como um recurso concreto",
-    "A reputação pode passar de uma pessoa para outra",
-    "O tempo pode ser comprado e vendido",
-    "Anos de vida podem ser trocados por recursos",
-    "As memórias podem ser usadas como forma de pagamento",
-    "Os trabalhadores são ao mesmo tempo recurso e indivíduos",
-    "Os mortos podem ser usados como mão de obra",
-    "Um recurso importante só se regenera quando alguém morre",
-    "A quantidade de um recurso depende de quem a mede",
-    "O depósito contém uma quantidade diferente de bens para cada pessoa",
-    "Um recurso só cresce quando não é usado",
-    "Um recurso diminui se sua quantidade for verificada",
-    "Um recurso é destruído se sua existência for revelada",
-    "Um recurso é compartilhado com o inimigo",
-    "O sucesso do inimigo também aumenta os recursos do jogador",
-    "O jogador precisa ajudar o inimigo para sobreviver",
-    "O antagonista tenta deter uma ameaça ainda pior",
-    "O inimigo diz a verdade",
-    "Um aliado é a verdadeira ameaça",
-    "A pessoa a ser resgatada não quer ser resgatada",
-    "A pessoa desaparecida está se escondendo por vontade própria",
-    "A vítima do assassinato não está morta",
-    "O assassino não sabe que cometeu um assassinato",
-    "O assassinato nunca aconteceu",
-    "O assassinato só acontece se o jogador o investigar",
-    "Investigar causa o crime",
-    "Encontrar a solução piora a situação",
-    "Resolver o mistério destrói as provas",
-    "A resposta certa muda durante a investigação",
-    "As provas se adaptam à teoria do jogador",
-    "Várias soluções contraditórias são verdadeiras ao mesmo tempo",
-    "O crime é um ato coletivo sem um único culpado",
-    "A vítima e o assassino são a mesma pessoa",
-    "O investigador é o assassino",
-    "O jogador encenou a própria investigação",
-    "Todos os crimes levam ao mesmo acontecimento",
-    "Os casos não resolvidos afetam uns aos outros",
-    "Um caso aparentemente pequeno faz parte de um problema global",
-    "A conspiração global acaba sendo uma coincidência",
-    "A teoria da conspiração acaba sendo parcialmente verdadeira",
-    "Cada membro da conspiração acredita numa conspiração diferente",
-    "Ninguém comanda a conspiração",
-    "A organização funciona sem que ninguém entenda o todo",
-    "A burocracia é o verdadeiro antagonista",
-    "O sistema funciona perfeitamente, mas o objetivo está errado",
-    "A falha do sistema é um recurso intencional",
-    "Consertá-lo quebra algo mais importante",
-    "O próprio sistema mantém a crise",
-    "A catástrofe é a única coisa que mantém a sociedade unida",
-    "Acabar com a crise causaria uma crise maior",
-    "Todos tentam resolver uma versão diferente do mesmo problema",
-    "Um departamento da organização não sabe que os outros existem",
-    "O líder da organização não existe",
-    "As ordens são enviadas por um sistema automático",
-    "As regras surgiram por acidente e ninguém se atreve a mudá-las",
-    "Um antigo protocolo de emergência governa toda a sociedade",
-    "A cidade ainda funciona segundo as ordens de um líder desaparecido",
-    "O Estado deixou de existir, mas as autoridades não sabem",
-    "A guerra já acabou, mas a linha de frente não sabe",
-    "A catástrofe nunca aconteceu de verdade",
-    "O fim do mundo foi um acontecimento local",
-    "O mundo lá fora está perfeitamente bem",
-    "O mundo lá fora está muito pior do que dizem ao jogador",
-    "O refúgio é mais perigoso do que o mundo lá fora",
-    "A zona perigosa é, na verdade, segura",
-    "A zona proibida foi construída para proteger quem está dentro do mundo lá fora",
-    "A quarentena é uma mentira",
-    "O motivo da quarentena é totalmente diferente do que se diz",
-    "A doença se transmite pela informação, não pela biologia",
-    "A doença se espalha pela fala",
-    "A doença se espalha pelas memórias",
-    "A doença deixa as pessoas mais saudáveis, mas muda sua personalidade",
-    "A cura é mais perigosa do que a doença",
-    "A doença faz parte do equilíbrio do ecossistema",
-    "Os mortos não ficam mortos, mas não são zumbis",
-    "Os mortos podem votar",
-    "Os mortos ainda possuem bens",
-    "Os mortos continuam trabalhando por meio de cópias digitais",
-    "É possível entrevistar as memórias dos mortos",
-    "Os mortos podem mudar seus testamentos",
-    "Os mortos enviam mensagens do futuro",
-    "O cemitério funciona como uma rede",
-    "Os fantasmas não sabem que são fantasmas",
-    "Os vivos são, na verdade, uma minoria no mundo",
-    "O além é um sistema burocrático",
-    "A morte é um erro administrativo",
-    "Alguém está morto no papel, mas continua vivo",
-    "Alguém está vivo no papel, mas morreu há anos",
-    "A existência legal de uma pessoa importa mais do que a física",
-    "Mudar um documento muda a identidade de uma pessoa",
-    "O passaporte determina em quem a pessoa se transforma",
-    "Um nome falso começa a substituir a pessoa real",
-    "A mesma identidade pertence a várias pessoas",
-    "Todos na cidade usam identidades emprestadas",
-    "O nome do jogador não é o seu próprio nome",
-    "Não existe verdade objetiva no jogo",
-    "A verdade depende de quem pergunta",
-    "Todos os narradores são pouco confiáveis",
-    "O jogador precisa escolher qual versão da verdade se torna oficial",
-    "A verdade oficial muda os acontecimentos futuros",
-    "A história é decidida pelo arquivista, não pelo vencedor",
-    "O jogador pode reescrever um acontecimento no seu relatório",
-    "Um acontecimento não relatado deixa de existir",
-    "Um relatório escrito tem mais poder do que o que realmente aconteceu",
-    "As estatísticas começam a influenciar o comportamento das pessoas",
-    "A meta de um indicador muda o comportamento das pessoas de forma absurda",
-    "Os NPCs se otimizam contra os indicadores do jogador",
-    "Os objetivos do jogador causam sistematicamente o comportamento errado",
-    "A melhor estratégia é não fazer nada",
-    "O sistema do jogo pune quem joga de forma eficiente demais",
-    "O sucesso alimenta uma ameaça oculta",
-    "O fracasso mantém o mundo estável",
-    "Vencer acelera o fim do mundo",
-    "O jogador está destinado a perder",
-    "O jogador precisa manter dois sistemas opostos em equilíbrio",
-    "Resolver um problema sempre cria outro",
-    "O equilíbrio perfeito é impossível",
-    "O jogo só continua enquanto houver problemas",
-    "O trabalho do jogador mantém o problema que ele tenta resolver",
-    "O jogador cria as missões que recebe",
-    "O jogador envia ordens ao seu eu do passado",
-    "O chefe do jogador é o jogador do futuro",
-    "O inimigo do jogador é uma versão anterior do jogador",
-    "O sucessor do jogador é uma versão futura do jogador",
-    "Todos os personagens são ramos da mesma consciência",
-    "O mundo existe na mente de uma única pessoa",
-    "O mundo é o sonho coletivo de uma cidade",
-    "O mundo são dados de treinamento para uma IA",
-    "O mundo é um backup corrompido",
-    "O mundo é regenerado toda noite",
-    "O mundo é um museu em que o jogador é uma peça exposta",
-    "O mundo é uma reconstrução histórica",
-    "O mundo é um teste cujo propósito nunca é revelado",
-    "O mundo é o jogo de outra pessoa",
-    "Uma plateia invisível acompanha as decisões do jogador",
-    "A plateia influencia os acontecimentos",
-    "Os espectadores fazem parte do mundo do jogo",
-    "O jogador recebe uma avaliação a cada decisão",
-    "A moral do jogador é medida em segredo",
-    "A pontuação real só é revelada no final",
-    "Os atos que o jogador acha bons contam como ruins nos indicadores do jogo",
-    "O sistema moral do jogo muda conforme a cultura",
-    "O bem e o mal trocam de significado no meio do jogo",
-    "As regras mudam sem aviso",
-    "O jogo adiciona uma regra nova a cada dia",
-    "O jogador precisa deduzir sozinho as regras do jogo",
-    "Nem todas as regras do jogo são reveladas",
-    "Algumas instruções estão erradas de propósito",
-    "O método ensinado pelo tutorial está errado",
-    "O personagem do tutorial é o inimigo",
-    "O tutorial acontece no final da história",
-    "A primeira hora é uma simulação falsa",
-    "O jogo começa pelo final e avança em direção ao começo",
-    "O último dia do jogo é sempre o primeiro",
-    "O objetivo desaparece completamente no meio do jogo",
-    "O jogador precisa definir sozinho um novo objetivo",
-    "Vários objetivos principais se contradizem",
-    "Alcançar o objetivo o torna irrelevante",
-    "O jogador percebe que nunca teve uma missão",
-    "O mundo do jogo tenta impedir que a trama principal comece",
-    "A trama principal é totalmente opcional",
-    "Uma missão secundária acaba sendo a trama principal",
-    "A simulação de fundo importa mais do que a história roteirizada",
-    "Toda a história surge da simulação",
-    "Nenhum acontecimento é escrito de antemão",
-    "O mistério do jogo é gerado durante a partida",
-    "O assassino só é escolhido quando a investigação começa",
-    "O mundo do jogo decide o segredo com base nas teorias do jogador",
-    "O jogo constrói o antagonista a partir do NPC mais hostil ao jogador",
-    "O personagem favorito do jogador pode se tornar o adversário final",
-    "O grupo que o jogador mais ajuda fica poderoso demais",
-    "Um pequeno problema que o jogador ignorou se torna a principal ameaça"
+    {
+      "id": "twists-0001",
+      "text": "Os NPCs se lembram das partidas anteriores"
+    },
+    {
+      "id": "twists-0002",
+      "text": "Um recurso mente"
+    },
+    {
+      "id": "twists-0003",
+      "text": "O mundo muda quando ninguém está olhando"
+    },
+    {
+      "id": "twists-0004",
+      "text": "O jogador não é humano"
+    },
+    {
+      "id": "twists-0005",
+      "text": "Os mortos influenciam o mundo"
+    },
+    {
+      "id": "twists-0006",
+      "text": "Parte do mapa é imaginária"
+    },
+    {
+      "id": "twists-0007",
+      "text": "Seu objetivo muda no meio do jogo"
+    },
+    {
+      "id": "twists-0008",
+      "text": "O jogador é um dos suspeitos investigados"
+    },
+    {
+      "id": "twists-0009",
+      "text": "As memórias do jogador são falsas"
+    },
+    {
+      "id": "twists-0010",
+      "text": "Nem todos os NPCs veem o mesmo mundo"
+    },
+    {
+      "id": "twists-0011",
+      "text": "Um NPC sabe que está em um jogo"
+    },
+    {
+      "id": "twists-0012",
+      "text": "Um NPC sempre mente"
+    },
+    {
+      "id": "twists-0013",
+      "text": "Um NPC sempre diz a verdade"
+    },
+    {
+      "id": "twists-0014",
+      "text": "Os NPCs trocam de identidade entre si"
+    },
+    {
+      "id": "twists-0015",
+      "text": "Um NPC pode morrer e voltar como outra pessoa"
+    },
+    {
+      "id": "twists-0016",
+      "text": "Os NPCs podem se lembrar de coisas que nunca aconteceram"
+    },
+    {
+      "id": "twists-0017",
+      "text": "Os NPCs aprendem os hábitos do jogador"
+    },
+    {
+      "id": "twists-0018",
+      "text": "Os NPCs começam a copiar o comportamento do jogador"
+    },
+    {
+      "id": "twists-0019",
+      "text": "Os NPCs criam teorias sobre o jogador"
+    },
+    {
+      "id": "twists-0020",
+      "text": "Os NPCs podem sabotar a interface"
+    },
+    {
+      "id": "twists-0021",
+      "text": "Os NPCs se comunicam entre si sem o jogador saber"
+    },
+    {
+      "id": "twists-0022",
+      "text": "Os NPCs fundam uma organização secreta"
+    },
+    {
+      "id": "twists-0023",
+      "text": "Os NPCs podem mentir pela interface"
+    },
+    {
+      "id": "twists-0024",
+      "text": "Os NPCs mudam seus próprios objetivos"
+    },
+    {
+      "id": "twists-0025",
+      "text": "Os NPCs podem sair das regras do jogo"
+    },
+    {
+      "id": "twists-0026",
+      "text": "Os NPCs se lembram de quando os saves são carregados"
+    },
+    {
+      "id": "twists-0027",
+      "text": "Os NPCs sabem quando o jogo está pausado"
+    },
+    {
+      "id": "twists-0028",
+      "text": "Os NPCs podem prever as decisões futuras do jogador"
+    },
+    {
+      "id": "twists-0029",
+      "text": "Os NPCs tentam fazer o jogador parar de jogar"
+    },
+    {
+      "id": "twists-0030",
+      "text": "Os NPCs tentam manipular o jogador"
+    },
+    {
+      "id": "twists-0031",
+      "text": "Os NPCs criam suas próprias missões para o jogador"
+    },
+    {
+      "id": "twists-0032",
+      "text": "Os NPCs não são humanos"
+    },
+    {
+      "id": "twists-0033",
+      "text": "Todos os NPCs são versões diferentes da mesma pessoa"
+    },
+    {
+      "id": "twists-0034",
+      "text": "Os NPCs estão mortos"
+    },
+    {
+      "id": "twists-0035",
+      "text": "Os NPCs são cópias de pessoas reais geradas por IA"
+    },
+    {
+      "id": "twists-0036",
+      "text": "O jogador está morto"
+    },
+    {
+      "id": "twists-0037",
+      "text": "O jogador está em coma"
+    },
+    {
+      "id": "twists-0038",
+      "text": "O jogador está em uma simulação"
+    },
+    {
+      "id": "twists-0039",
+      "text": "O jogador é uma IA"
+    },
+    {
+      "id": "twists-0040",
+      "text": "O jogador é um clone"
+    },
+    {
+      "id": "twists-0041",
+      "text": "O jogador é a memória de outra pessoa"
+    },
+    {
+      "id": "twists-0042",
+      "text": "O jogador é um fantasma"
+    },
+    {
+      "id": "twists-0043",
+      "text": "O jogador é uma alucinação"
+    },
+    {
+      "id": "twists-0044",
+      "text": "O jogador faz parte de um experimento"
+    },
+    {
+      "id": "twists-0045",
+      "text": "O jogador é um prisioneiro"
+    },
+    {
+      "id": "twists-0046",
+      "text": "O jogador é o administrador do sistema"
+    },
+    {
+      "id": "twists-0047",
+      "text": "O jogador causou a crise"
+    },
+    {
+      "id": "twists-0048",
+      "text": "O jogador é o antagonista da história"
+    },
+    {
+      "id": "twists-0049",
+      "text": "O jogador trabalha para o inimigo sem saber"
+    },
+    {
+      "id": "twists-0050",
+      "text": "O jogador sempre esteve do lado errado"
+    },
+    {
+      "id": "twists-0051",
+      "text": "A missão do jogador é moralmente o oposto do que parece"
+    },
+    {
+      "id": "twists-0052",
+      "text": "O empregador do jogador não existe"
+    },
+    {
+      "id": "twists-0053",
+      "text": "A identidade do jogador muda no meio do jogo"
+    },
+    {
+      "id": "twists-0054",
+      "text": "O jogador às vezes acorda como outra pessoa"
+    },
+    {
+      "id": "twists-0055",
+      "text": "O jogador tem múltiplas personalidades"
+    },
+    {
+      "id": "twists-0056",
+      "text": "O jogador não pode confiar nas próprias percepções"
+    },
+    {
+      "id": "twists-0057",
+      "text": "As memórias do jogador se atualizam junto com o mundo"
+    },
+    {
+      "id": "twists-0058",
+      "text": "O conhecimento do jogador sobre o mundo fica desatualizado de propósito"
+    },
+    {
+      "id": "twists-0059",
+      "text": "A interface do jogador não é confiável"
+    },
+    {
+      "id": "twists-0060",
+      "text": "O mapa do jogador mente"
+    },
+    {
+      "id": "twists-0061",
+      "text": "A lista de missões do jogador mente"
+    },
+    {
+      "id": "twists-0062",
+      "text": "Os indicadores de recursos do jogador estão parcialmente errados"
+    },
+    {
+      "id": "twists-0063",
+      "text": "A pontuação do jogador não significa o que ele pensa"
+    },
+    {
+      "id": "twists-0064",
+      "text": "Um elemento da interface faz parte do mundo do jogo"
+    },
+    {
+      "id": "twists-0065",
+      "text": "A interface muda com a história"
+    },
+    {
+      "id": "twists-0066",
+      "text": "A interface começa a se desfazer"
+    },
+    {
+      "id": "twists-0067",
+      "text": "A interface mostra informações diferentes em cada partida"
+    },
+    {
+      "id": "twists-0068",
+      "text": "Os menus contêm pistas ocultas"
+    },
+    {
+      "id": "twists-0069",
+      "text": "Os arquivos de save fazem parte da história"
+    },
+    {
+      "id": "twists-0070",
+      "text": "Os acontecimentos de saves antigos afetam novos jogos"
+    },
+    {
+      "id": "twists-0071",
+      "text": "O jogo se lembra dos saves que você apagou"
+    },
+    {
+      "id": "twists-0072",
+      "text": "Um novo jogo não começa realmente do zero"
+    },
+    {
+      "id": "twists-0073",
+      "text": "O game over continua a história"
+    },
+    {
+      "id": "twists-0074",
+      "text": "Perder abre novas possibilidades"
+    },
+    {
+      "id": "twists-0075",
+      "text": "Vencer pode ser a solução errada"
+    },
+    {
+      "id": "twists-0076",
+      "text": "O verdadeiro objetivo do jogo só é revelado após a primeira partida"
+    },
+    {
+      "id": "twists-0077",
+      "text": "O final do jogo muda as regras da partida seguinte"
+    },
+    {
+      "id": "twists-0078",
+      "text": "Cada partida se passa no mesmo mundo em uma época diferente"
+    },
+    {
+      "id": "twists-0079",
+      "text": "Cada partida é o mesmo acontecimento sob outra perspectiva"
+    },
+    {
+      "id": "twists-0080",
+      "text": "O personagem jogável de uma partida anterior se torna um NPC"
+    },
+    {
+      "id": "twists-0081",
+      "text": "As decisões de uma partida anterior se tornam história"
+    },
+    {
+      "id": "twists-0082",
+      "text": "Os fracassos passados se tornam lendas do mundo"
+    },
+    {
+      "id": "twists-0083",
+      "text": "O jogo distorce os acontecimentos de partidas anteriores"
+    },
+    {
+      "id": "twists-0084",
+      "text": "O antagonista de uma partida anterior era o seu próprio personagem"
+    },
+    {
+      "id": "twists-0085",
+      "text": "O mundo é sempre um pouco diferente depois de carregar"
+    },
+    {
+      "id": "twists-0086",
+      "text": "O mundo muda toda vez que você sai de um cômodo"
+    },
+    {
+      "id": "twists-0087",
+      "text": "O mundo muda toda vez que você dorme"
+    },
+    {
+      "id": "twists-0088",
+      "text": "O mundo muda toda vez que você abre um menu"
+    },
+    {
+      "id": "twists-0089",
+      "text": "O mundo muda em tempo real mesmo quando você não está jogando"
+    },
+    {
+      "id": "twists-0090",
+      "text": "O mundo é diferente para cada NPC"
+    },
+    {
+      "id": "twists-0091",
+      "text": "O mundo tem áreas que não existem até serem descobertas"
+    },
+    {
+      "id": "twists-0092",
+      "text": "O mundo tem lugares que desaparecem do mapa"
+    },
+    {
+      "id": "twists-0093",
+      "text": "O mundo tem cômodos cujo número muda"
+    },
+    {
+      "id": "twists-0094",
+      "text": "Um prédio é maior por dentro do que por fora"
+    },
+    {
+      "id": "twists-0095",
+      "text": "O mapa forma uma geometria impossível"
+    },
+    {
+      "id": "twists-0096",
+      "text": "Dois lugares diferentes são o mesmo lugar"
+    },
+    {
+      "id": "twists-0097",
+      "text": "O mesmo cômodo existe em vários prédios"
+    },
+    {
+      "id": "twists-0098",
+      "text": "O mundo se curva sobre si mesmo"
+    },
+    {
+      "id": "twists-0099",
+      "text": "O tempo passa em velocidades diferentes em áreas diferentes"
+    },
+    {
+      "id": "twists-0100",
+      "text": "Em alguns lugares o tempo corre para trás"
+    },
+    {
+      "id": "twists-0101",
+      "text": "Em alguns lugares o tempo não passa"
+    },
+    {
+      "id": "twists-0102",
+      "text": "Um dia se repete, mas o mundo se lembra dele"
+    },
+    {
+      "id": "twists-0103",
+      "text": "A linha do tempo se ramifica a partir das decisões do jogador"
+    },
+    {
+      "id": "twists-0104",
+      "text": "Várias linhas do tempo existem ao mesmo tempo"
+    },
+    {
+      "id": "twists-0105",
+      "text": "O jogador recebe mensagens do futuro"
+    },
+    {
+      "id": "twists-0106",
+      "text": "O jogador recebe mensagens do seu eu do passado"
+    },
+    {
+      "id": "twists-0107",
+      "text": "O jogador pode enviar informações para o passado"
+    },
+    {
+      "id": "twists-0108",
+      "text": "O futuro afeta o passado"
+    },
+    {
+      "id": "twists-0109",
+      "text": "Os acontecimentos ocorrem antes das suas causas"
+    },
+    {
+      "id": "twists-0110",
+      "text": "A morte acontece antes do assassinato"
+    },
+    {
+      "id": "twists-0111",
+      "text": "As provas aparecem antes do crime"
+    },
+    {
+      "id": "twists-0112",
+      "text": "Um NPC se lembra do futuro"
+    },
+    {
+      "id": "twists-0113",
+      "text": "O tempo para para todos, menos para um personagem"
+    },
+    {
+      "id": "twists-0114",
+      "text": "O calendário pula dias sem explicação"
+    },
+    {
+      "id": "twists-0115",
+      "text": "Dias inteiros desaparecem da história"
+    },
+    {
+      "id": "twists-0116",
+      "text": "O relógio mostra uma hora diferente para cada personagem"
+    },
+    {
+      "id": "twists-0117",
+      "text": "A história é reescrita sem que ninguém perceba"
+    },
+    {
+      "id": "twists-0118",
+      "text": "O mundo tem duas histórias contraditórias"
+    },
+    {
+      "id": "twists-0119",
+      "text": "Os documentos escritos mudam com o tempo"
+    },
+    {
+      "id": "twists-0120",
+      "text": "As fotografias mudam"
+    },
+    {
+      "id": "twists-0121",
+      "text": "Os mapas mudam"
+    },
+    {
+      "id": "twists-0122",
+      "text": "Os registros civis mudam"
+    },
+    {
+      "id": "twists-0123",
+      "text": "Os mortos desaparecem dos arquivos"
+    },
+    {
+      "id": "twists-0124",
+      "text": "Os vivos aparecem no registro de óbitos"
+    },
+    {
+      "id": "twists-0125",
+      "text": "A árvore genealógica muda no meio do jogo"
+    },
+    {
+      "id": "twists-0126",
+      "text": "A mesma pessoa aparece em épocas diferentes"
+    },
+    {
+      "id": "twists-0127",
+      "text": "Alguém não envelhece"
+    },
+    {
+      "id": "twists-0128",
+      "text": "Alguém nasce antes dos próprios pais"
+    },
+    {
+      "id": "twists-0129",
+      "text": "Alguém é seu próprio antepassado"
+    },
+    {
+      "id": "twists-0130",
+      "text": "Todos os moradores da cidade descendem de uma única pessoa"
+    },
+    {
+      "id": "twists-0131",
+      "text": "Uma pessoa está ausente de todos os registros oficiais"
+    },
+    {
+      "id": "twists-0132",
+      "text": "Todos se lembram de uma pessoa que não existe"
+    },
+    {
+      "id": "twists-0133",
+      "text": "Ninguém se lembra de uma pessoa que claramente existe"
+    },
+    {
+      "id": "twists-0134",
+      "text": "O jogador desaparece da memória das pessoas"
+    },
+    {
+      "id": "twists-0135",
+      "text": "O jogador pode apagar pessoas da história"
+    },
+    {
+      "id": "twists-0136",
+      "text": "Mudar memórias muda o mundo"
+    },
+    {
+      "id": "twists-0137",
+      "text": "Uma mentira se torna verdade se pessoas suficientes acreditarem nela"
+    },
+    {
+      "id": "twists-0138",
+      "text": "Um boato muda o mundo físico"
+    },
+    {
+      "id": "twists-0139",
+      "text": "A reputação afeta a realidade"
+    },
+    {
+      "id": "twists-0140",
+      "text": "As crenças definem as leis da física"
+    },
+    {
+      "id": "twists-0141",
+      "text": "O resultado de uma votação muda o passado"
+    },
+    {
+      "id": "twists-0142",
+      "text": "A legislação muda as leis da natureza"
+    },
+    {
+      "id": "twists-0143",
+      "text": "Uma regra escrita se torna realidade"
+    },
+    {
+      "id": "twists-0144",
+      "text": "Os nomes dão propriedades às coisas"
+    },
+    {
+      "id": "twists-0145",
+      "text": "Esquecer o nome de alguém o apaga do mundo"
+    },
+    {
+      "id": "twists-0146",
+      "text": "Dar nome a um objeto muda como ele funciona"
+    },
+    {
+      "id": "twists-0147",
+      "text": "Uma estrada desenhada no mapa aparece no mundo"
+    },
+    {
+      "id": "twists-0148",
+      "text": "Um prédio apagado do arquivo desaparece da cidade"
+    },
+    {
+      "id": "twists-0149",
+      "text": "A contabilidade determina o que existe fisicamente"
+    },
+    {
+      "id": "twists-0150",
+      "text": "Os cortes no orçamento removem coisas da realidade"
+    },
+    {
+      "id": "twists-0151",
+      "text": "O dinheiro só existe se alguém acreditar no seu valor"
+    },
+    {
+      "id": "twists-0152",
+      "text": "Um recurso é, na verdade, algo completamente diferente"
+    },
+    {
+      "id": "twists-0153",
+      "text": "O dinheiro é o tempo de vida das pessoas"
+    },
+    {
+      "id": "twists-0154",
+      "text": "A energia são memórias"
+    },
+    {
+      "id": "twists-0155",
+      "text": "A comida é limitada, mas a população não sabe disso"
+    },
+    {
+      "id": "twists-0156",
+      "text": "O oxigênio é compartilhado entre todas as áreas"
+    },
+    {
+      "id": "twists-0157",
+      "text": "A informação é um recurso físico"
+    },
+    {
+      "id": "twists-0158",
+      "text": "Os segredos podem ser trocados como moeda"
+    },
+    {
+      "id": "twists-0159",
+      "text": "A confiança funciona como um recurso concreto"
+    },
+    {
+      "id": "twists-0160",
+      "text": "A reputação pode passar de uma pessoa para outra"
+    },
+    {
+      "id": "twists-0161",
+      "text": "O tempo pode ser comprado e vendido"
+    },
+    {
+      "id": "twists-0162",
+      "text": "Anos de vida podem ser trocados por recursos"
+    },
+    {
+      "id": "twists-0163",
+      "text": "As memórias podem ser usadas como forma de pagamento"
+    },
+    {
+      "id": "twists-0164",
+      "text": "Os trabalhadores são ao mesmo tempo recurso e indivíduos"
+    },
+    {
+      "id": "twists-0165",
+      "text": "Os mortos podem ser usados como mão de obra"
+    },
+    {
+      "id": "twists-0166",
+      "text": "Um recurso importante só se regenera quando alguém morre"
+    },
+    {
+      "id": "twists-0167",
+      "text": "A quantidade de um recurso depende de quem a mede"
+    },
+    {
+      "id": "twists-0168",
+      "text": "O depósito contém uma quantidade diferente de bens para cada pessoa"
+    },
+    {
+      "id": "twists-0169",
+      "text": "Um recurso só cresce quando não é usado"
+    },
+    {
+      "id": "twists-0170",
+      "text": "Um recurso diminui se sua quantidade for verificada"
+    },
+    {
+      "id": "twists-0171",
+      "text": "Um recurso é destruído se sua existência for revelada"
+    },
+    {
+      "id": "twists-0172",
+      "text": "Um recurso é compartilhado com o inimigo"
+    },
+    {
+      "id": "twists-0173",
+      "text": "O sucesso do inimigo também aumenta os recursos do jogador"
+    },
+    {
+      "id": "twists-0174",
+      "text": "O jogador precisa ajudar o inimigo para sobreviver"
+    },
+    {
+      "id": "twists-0175",
+      "text": "O antagonista tenta deter uma ameaça ainda pior"
+    },
+    {
+      "id": "twists-0176",
+      "text": "O inimigo diz a verdade"
+    },
+    {
+      "id": "twists-0177",
+      "text": "Um aliado é a verdadeira ameaça"
+    },
+    {
+      "id": "twists-0178",
+      "text": "A pessoa a ser resgatada não quer ser resgatada"
+    },
+    {
+      "id": "twists-0179",
+      "text": "A pessoa desaparecida está se escondendo por vontade própria"
+    },
+    {
+      "id": "twists-0180",
+      "text": "A vítima do assassinato não está morta"
+    },
+    {
+      "id": "twists-0181",
+      "text": "O assassino não sabe que cometeu um assassinato"
+    },
+    {
+      "id": "twists-0182",
+      "text": "O assassinato nunca aconteceu"
+    },
+    {
+      "id": "twists-0183",
+      "text": "O assassinato só acontece se o jogador o investigar"
+    },
+    {
+      "id": "twists-0184",
+      "text": "Investigar causa o crime"
+    },
+    {
+      "id": "twists-0185",
+      "text": "Encontrar a solução piora a situação"
+    },
+    {
+      "id": "twists-0186",
+      "text": "Resolver o mistério destrói as provas"
+    },
+    {
+      "id": "twists-0187",
+      "text": "A resposta certa muda durante a investigação"
+    },
+    {
+      "id": "twists-0188",
+      "text": "As provas se adaptam à teoria do jogador"
+    },
+    {
+      "id": "twists-0189",
+      "text": "Várias soluções contraditórias são verdadeiras ao mesmo tempo"
+    },
+    {
+      "id": "twists-0190",
+      "text": "O crime é um ato coletivo sem um único culpado"
+    },
+    {
+      "id": "twists-0191",
+      "text": "A vítima e o assassino são a mesma pessoa"
+    },
+    {
+      "id": "twists-0192",
+      "text": "O investigador é o assassino"
+    },
+    {
+      "id": "twists-0193",
+      "text": "O jogador encenou a própria investigação"
+    },
+    {
+      "id": "twists-0194",
+      "text": "Todos os crimes levam ao mesmo acontecimento"
+    },
+    {
+      "id": "twists-0195",
+      "text": "Os casos não resolvidos afetam uns aos outros"
+    },
+    {
+      "id": "twists-0196",
+      "text": "Um caso aparentemente pequeno faz parte de um problema global"
+    },
+    {
+      "id": "twists-0197",
+      "text": "A conspiração global acaba sendo uma coincidência"
+    },
+    {
+      "id": "twists-0198",
+      "text": "A teoria da conspiração acaba sendo parcialmente verdadeira"
+    },
+    {
+      "id": "twists-0199",
+      "text": "Cada membro da conspiração acredita numa conspiração diferente"
+    },
+    {
+      "id": "twists-0200",
+      "text": "Ninguém comanda a conspiração"
+    },
+    {
+      "id": "twists-0201",
+      "text": "A organização funciona sem que ninguém entenda o todo"
+    },
+    {
+      "id": "twists-0202",
+      "text": "A burocracia é o verdadeiro antagonista"
+    },
+    {
+      "id": "twists-0203",
+      "text": "O sistema funciona perfeitamente, mas o objetivo está errado"
+    },
+    {
+      "id": "twists-0204",
+      "text": "A falha do sistema é um recurso intencional"
+    },
+    {
+      "id": "twists-0205",
+      "text": "Consertá-lo quebra algo mais importante"
+    },
+    {
+      "id": "twists-0206",
+      "text": "O próprio sistema mantém a crise"
+    },
+    {
+      "id": "twists-0207",
+      "text": "A catástrofe é a única coisa que mantém a sociedade unida"
+    },
+    {
+      "id": "twists-0208",
+      "text": "Acabar com a crise causaria uma crise maior"
+    },
+    {
+      "id": "twists-0209",
+      "text": "Todos tentam resolver uma versão diferente do mesmo problema"
+    },
+    {
+      "id": "twists-0210",
+      "text": "Um departamento da organização não sabe que os outros existem"
+    },
+    {
+      "id": "twists-0211",
+      "text": "O líder da organização não existe"
+    },
+    {
+      "id": "twists-0212",
+      "text": "As ordens são enviadas por um sistema automático"
+    },
+    {
+      "id": "twists-0213",
+      "text": "As regras surgiram por acidente e ninguém se atreve a mudá-las"
+    },
+    {
+      "id": "twists-0214",
+      "text": "Um antigo protocolo de emergência governa toda a sociedade"
+    },
+    {
+      "id": "twists-0215",
+      "text": "A cidade ainda funciona segundo as ordens de um líder desaparecido"
+    },
+    {
+      "id": "twists-0216",
+      "text": "O Estado deixou de existir, mas as autoridades não sabem"
+    },
+    {
+      "id": "twists-0217",
+      "text": "A guerra já acabou, mas a linha de frente não sabe"
+    },
+    {
+      "id": "twists-0218",
+      "text": "A catástrofe nunca aconteceu de verdade"
+    },
+    {
+      "id": "twists-0219",
+      "text": "O fim do mundo foi um acontecimento local"
+    },
+    {
+      "id": "twists-0220",
+      "text": "O mundo lá fora está perfeitamente bem"
+    },
+    {
+      "id": "twists-0221",
+      "text": "O mundo lá fora está muito pior do que dizem ao jogador"
+    },
+    {
+      "id": "twists-0222",
+      "text": "O refúgio é mais perigoso do que o mundo lá fora"
+    },
+    {
+      "id": "twists-0223",
+      "text": "A zona perigosa é, na verdade, segura"
+    },
+    {
+      "id": "twists-0224",
+      "text": "A zona proibida foi construída para proteger quem está dentro do mundo lá fora"
+    },
+    {
+      "id": "twists-0225",
+      "text": "A quarentena é uma mentira"
+    },
+    {
+      "id": "twists-0226",
+      "text": "O motivo da quarentena é totalmente diferente do que se diz"
+    },
+    {
+      "id": "twists-0227",
+      "text": "A doença se transmite pela informação, não pela biologia"
+    },
+    {
+      "id": "twists-0228",
+      "text": "A doença se espalha pela fala"
+    },
+    {
+      "id": "twists-0229",
+      "text": "A doença se espalha pelas memórias"
+    },
+    {
+      "id": "twists-0230",
+      "text": "A doença deixa as pessoas mais saudáveis, mas muda sua personalidade"
+    },
+    {
+      "id": "twists-0231",
+      "text": "A cura é mais perigosa do que a doença"
+    },
+    {
+      "id": "twists-0232",
+      "text": "A doença faz parte do equilíbrio do ecossistema"
+    },
+    {
+      "id": "twists-0233",
+      "text": "Os mortos não ficam mortos, mas não são zumbis"
+    },
+    {
+      "id": "twists-0234",
+      "text": "Os mortos podem votar"
+    },
+    {
+      "id": "twists-0235",
+      "text": "Os mortos ainda possuem bens"
+    },
+    {
+      "id": "twists-0236",
+      "text": "Os mortos continuam trabalhando por meio de cópias digitais"
+    },
+    {
+      "id": "twists-0237",
+      "text": "É possível entrevistar as memórias dos mortos"
+    },
+    {
+      "id": "twists-0238",
+      "text": "Os mortos podem mudar seus testamentos"
+    },
+    {
+      "id": "twists-0239",
+      "text": "Os mortos enviam mensagens do futuro"
+    },
+    {
+      "id": "twists-0240",
+      "text": "O cemitério funciona como uma rede"
+    },
+    {
+      "id": "twists-0241",
+      "text": "Os fantasmas não sabem que são fantasmas"
+    },
+    {
+      "id": "twists-0242",
+      "text": "Os vivos são, na verdade, uma minoria no mundo"
+    },
+    {
+      "id": "twists-0243",
+      "text": "O além é um sistema burocrático"
+    },
+    {
+      "id": "twists-0244",
+      "text": "A morte é um erro administrativo"
+    },
+    {
+      "id": "twists-0245",
+      "text": "Alguém está morto no papel, mas continua vivo"
+    },
+    {
+      "id": "twists-0246",
+      "text": "Alguém está vivo no papel, mas morreu há anos"
+    },
+    {
+      "id": "twists-0247",
+      "text": "A existência legal de uma pessoa importa mais do que a física"
+    },
+    {
+      "id": "twists-0248",
+      "text": "Mudar um documento muda a identidade de uma pessoa"
+    },
+    {
+      "id": "twists-0249",
+      "text": "O passaporte determina em quem a pessoa se transforma"
+    },
+    {
+      "id": "twists-0250",
+      "text": "Um nome falso começa a substituir a pessoa real"
+    },
+    {
+      "id": "twists-0251",
+      "text": "A mesma identidade pertence a várias pessoas"
+    },
+    {
+      "id": "twists-0252",
+      "text": "Todos na cidade usam identidades emprestadas"
+    },
+    {
+      "id": "twists-0253",
+      "text": "O nome do jogador não é o seu próprio nome"
+    },
+    {
+      "id": "twists-0254",
+      "text": "Não existe verdade objetiva no jogo"
+    },
+    {
+      "id": "twists-0255",
+      "text": "A verdade depende de quem pergunta"
+    },
+    {
+      "id": "twists-0256",
+      "text": "Todos os narradores são pouco confiáveis"
+    },
+    {
+      "id": "twists-0257",
+      "text": "O jogador precisa escolher qual versão da verdade se torna oficial"
+    },
+    {
+      "id": "twists-0258",
+      "text": "A verdade oficial muda os acontecimentos futuros"
+    },
+    {
+      "id": "twists-0259",
+      "text": "A história é decidida pelo arquivista, não pelo vencedor"
+    },
+    {
+      "id": "twists-0260",
+      "text": "O jogador pode reescrever um acontecimento no seu relatório"
+    },
+    {
+      "id": "twists-0261",
+      "text": "Um acontecimento não relatado deixa de existir"
+    },
+    {
+      "id": "twists-0262",
+      "text": "Um relatório escrito tem mais poder do que o que realmente aconteceu"
+    },
+    {
+      "id": "twists-0263",
+      "text": "As estatísticas começam a influenciar o comportamento das pessoas"
+    },
+    {
+      "id": "twists-0264",
+      "text": "A meta de um indicador muda o comportamento das pessoas de forma absurda"
+    },
+    {
+      "id": "twists-0265",
+      "text": "Os NPCs se otimizam contra os indicadores do jogador"
+    },
+    {
+      "id": "twists-0266",
+      "text": "Os objetivos do jogador causam sistematicamente o comportamento errado"
+    },
+    {
+      "id": "twists-0267",
+      "text": "A melhor estratégia é não fazer nada"
+    },
+    {
+      "id": "twists-0268",
+      "text": "O sistema do jogo pune quem joga de forma eficiente demais"
+    },
+    {
+      "id": "twists-0269",
+      "text": "O sucesso alimenta uma ameaça oculta"
+    },
+    {
+      "id": "twists-0270",
+      "text": "O fracasso mantém o mundo estável"
+    },
+    {
+      "id": "twists-0271",
+      "text": "Vencer acelera o fim do mundo"
+    },
+    {
+      "id": "twists-0272",
+      "text": "O jogador está destinado a perder"
+    },
+    {
+      "id": "twists-0273",
+      "text": "O jogador precisa manter dois sistemas opostos em equilíbrio"
+    },
+    {
+      "id": "twists-0274",
+      "text": "Resolver um problema sempre cria outro"
+    },
+    {
+      "id": "twists-0275",
+      "text": "O equilíbrio perfeito é impossível"
+    },
+    {
+      "id": "twists-0276",
+      "text": "O jogo só continua enquanto houver problemas"
+    },
+    {
+      "id": "twists-0277",
+      "text": "O trabalho do jogador mantém o problema que ele tenta resolver"
+    },
+    {
+      "id": "twists-0278",
+      "text": "O jogador cria as missões que recebe"
+    },
+    {
+      "id": "twists-0279",
+      "text": "O jogador envia ordens ao seu eu do passado"
+    },
+    {
+      "id": "twists-0280",
+      "text": "O chefe do jogador é o jogador do futuro"
+    },
+    {
+      "id": "twists-0281",
+      "text": "O inimigo do jogador é uma versão anterior do jogador"
+    },
+    {
+      "id": "twists-0282",
+      "text": "O sucessor do jogador é uma versão futura do jogador"
+    },
+    {
+      "id": "twists-0283",
+      "text": "Todos os personagens são ramos da mesma consciência"
+    },
+    {
+      "id": "twists-0284",
+      "text": "O mundo existe na mente de uma única pessoa"
+    },
+    {
+      "id": "twists-0285",
+      "text": "O mundo é o sonho coletivo de uma cidade"
+    },
+    {
+      "id": "twists-0286",
+      "text": "O mundo são dados de treinamento para uma IA"
+    },
+    {
+      "id": "twists-0287",
+      "text": "O mundo é um backup corrompido"
+    },
+    {
+      "id": "twists-0288",
+      "text": "O mundo é regenerado toda noite"
+    },
+    {
+      "id": "twists-0289",
+      "text": "O mundo é um museu em que o jogador é uma peça exposta"
+    },
+    {
+      "id": "twists-0290",
+      "text": "O mundo é uma reconstrução histórica"
+    },
+    {
+      "id": "twists-0291",
+      "text": "O mundo é um teste cujo propósito nunca é revelado"
+    },
+    {
+      "id": "twists-0292",
+      "text": "O mundo é o jogo de outra pessoa"
+    },
+    {
+      "id": "twists-0293",
+      "text": "Uma plateia invisível acompanha as decisões do jogador"
+    },
+    {
+      "id": "twists-0294",
+      "text": "A plateia influencia os acontecimentos"
+    },
+    {
+      "id": "twists-0295",
+      "text": "Os espectadores fazem parte do mundo do jogo"
+    },
+    {
+      "id": "twists-0296",
+      "text": "O jogador recebe uma avaliação a cada decisão"
+    },
+    {
+      "id": "twists-0297",
+      "text": "A moral do jogador é medida em segredo"
+    },
+    {
+      "id": "twists-0298",
+      "text": "A pontuação real só é revelada no final"
+    },
+    {
+      "id": "twists-0299",
+      "text": "Os atos que o jogador acha bons contam como ruins nos indicadores do jogo"
+    },
+    {
+      "id": "twists-0300",
+      "text": "O sistema moral do jogo muda conforme a cultura"
+    },
+    {
+      "id": "twists-0301",
+      "text": "O bem e o mal trocam de significado no meio do jogo"
+    },
+    {
+      "id": "twists-0302",
+      "text": "As regras mudam sem aviso"
+    },
+    {
+      "id": "twists-0303",
+      "text": "O jogo adiciona uma regra nova a cada dia"
+    },
+    {
+      "id": "twists-0304",
+      "text": "O jogador precisa deduzir sozinho as regras do jogo"
+    },
+    {
+      "id": "twists-0305",
+      "text": "Nem todas as regras do jogo são reveladas"
+    },
+    {
+      "id": "twists-0306",
+      "text": "Algumas instruções estão erradas de propósito"
+    },
+    {
+      "id": "twists-0307",
+      "text": "O método ensinado pelo tutorial está errado"
+    },
+    {
+      "id": "twists-0308",
+      "text": "O personagem do tutorial é o inimigo"
+    },
+    {
+      "id": "twists-0309",
+      "text": "O tutorial acontece no final da história"
+    },
+    {
+      "id": "twists-0310",
+      "text": "A primeira hora é uma simulação falsa"
+    },
+    {
+      "id": "twists-0311",
+      "text": "O jogo começa pelo final e avança em direção ao começo"
+    },
+    {
+      "id": "twists-0312",
+      "text": "O último dia do jogo é sempre o primeiro"
+    },
+    {
+      "id": "twists-0313",
+      "text": "O objetivo desaparece completamente no meio do jogo"
+    },
+    {
+      "id": "twists-0314",
+      "text": "O jogador precisa definir sozinho um novo objetivo"
+    },
+    {
+      "id": "twists-0315",
+      "text": "Vários objetivos principais se contradizem"
+    },
+    {
+      "id": "twists-0316",
+      "text": "Alcançar o objetivo o torna irrelevante"
+    },
+    {
+      "id": "twists-0317",
+      "text": "O jogador percebe que nunca teve uma missão"
+    },
+    {
+      "id": "twists-0318",
+      "text": "O mundo do jogo tenta impedir que a trama principal comece"
+    },
+    {
+      "id": "twists-0319",
+      "text": "A trama principal é totalmente opcional"
+    },
+    {
+      "id": "twists-0320",
+      "text": "Uma missão secundária acaba sendo a trama principal"
+    },
+    {
+      "id": "twists-0321",
+      "text": "A simulação de fundo importa mais do que a história roteirizada"
+    },
+    {
+      "id": "twists-0322",
+      "text": "Toda a história surge da simulação"
+    },
+    {
+      "id": "twists-0323",
+      "text": "Nenhum acontecimento é escrito de antemão"
+    },
+    {
+      "id": "twists-0324",
+      "text": "O mistério do jogo é gerado durante a partida"
+    },
+    {
+      "id": "twists-0325",
+      "text": "O assassino só é escolhido quando a investigação começa"
+    },
+    {
+      "id": "twists-0326",
+      "text": "O mundo do jogo decide o segredo com base nas teorias do jogador"
+    },
+    {
+      "id": "twists-0327",
+      "text": "O jogo constrói o antagonista a partir do NPC mais hostil ao jogador"
+    },
+    {
+      "id": "twists-0328",
+      "text": "O personagem favorito do jogador pode se tornar o adversário final"
+    },
+    {
+      "id": "twists-0329",
+      "text": "O grupo que o jogador mais ajuda fica poderoso demais"
+    },
+    {
+      "id": "twists-0330",
+      "text": "Um pequeno problema que o jogador ignorou se torna a principal ameaça"
+    }
   ]
 }

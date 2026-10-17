@@ -1,309 +1,1224 @@
 {
   "key_resources": [
-    "Argent",
-    "Temps",
-    "Confiance",
-    "Réputation",
-    "Nourriture",
-    "Électricité",
-    "Information",
-    "Influence",
-    "Oxygène",
-    "Personnel",
-    "Moral",
-    "Secrets",
-    "Eau",
-    "Carburant",
-    "Médicaments",
-    "Matières premières",
-    "Énergie",
-    "Chaleur",
-    "Abri",
-    "Sécurité",
-    "Santé",
-    "Endurance",
-    "Main-d'œuvre",
-    "Heures de travail",
-    "Expertise",
-    "Expérience",
-    "Points de recherche",
-    "Technologie",
-    "Données",
-    "Preuves",
-    "Indices",
-    "Documents",
-    "Contacts",
-    "Réseaux",
-    "Alliés",
-    "Loyauté",
-    "Peur",
-    "Prestige",
-    "Popularité",
-    "Popularité auprès du peuple",
-    "Capital politique",
-    "Influence diplomatique",
-    "Crédibilité",
-    "Autorité",
-    "Légitimité",
-    "Respect",
-    "Dissuasion",
-    "Dette",
-    "Flux de trésorerie",
-    "Bénéfice",
-    "Actions",
-    "Part de marché",
-    "Clients",
-    "Commandes",
-    "Stocks",
-    "Capacité de transport",
-    "Capacité de production",
-    "Espace de chargement",
-    "Espace habitable",
-    "Matériaux de construction",
-    "Métal",
-    "Bois",
-    "Pierre",
-    "Béton",
-    "Plastique",
-    "Électronique",
-    "Pièces de rechange",
-    "Outils",
-    "Munitions",
-    "Armes",
-    "Véhicules",
-    "Navires",
-    "Avions",
-    "Robots",
-    "Machines",
-    "Bâtiments",
-    "Terrain",
-    "Terres agricoles",
-    "Forêt",
-    "Minerais",
-    "Pétrole",
-    "Gaz",
-    "Uranium",
-    "Énergie solaire",
-    "Énergie éolienne",
-    "Charge de la batterie",
-    "Capacité des générateurs",
-    "Pression de l'eau",
-    "Pression de l'air",
-    "Température",
-    "Humidité",
-    "Sûreté radiologique",
-    "Qualité de l'air",
-    "Réserve d'oxygène",
-    "Capacité de CO2",
-    "Capacité de traitement des déchets",
-    "Lits d'hôpital",
-    "Couchages",
-    "Personnel médical",
-    "Dons de sang",
-    "Vaccins",
-    "Capacité de quarantaine",
-    "Confiance des patients",
-    "Population",
-    "Natalité",
-    "Population en âge de travailler",
-    "Population qualifiée",
-    "Satisfaction des habitants",
-    "Bonheur",
-    "Espoir",
-    "Stress",
-    "Peur dans la communauté",
-    "Esprit de communauté",
-    "Ordre",
-    "Stabilité",
-    "Agitation",
-    "Fidélité",
-    "Discipline",
-    "Motivation",
-    "Concentration",
-    "Sommeil",
-    "Santé mentale",
-    "Condition physique",
-    "Faim",
-    "Soif",
-    "Fatigue",
-    "Froid",
-    "Exposition à la chaleur",
-    "Protection contre l'environnement",
-    "Lumière du jour",
-    "Obscurité",
-    "Silence",
-    "Niveau sonore",
-    "Vie privée",
-    "Attention",
-    "Soupçons",
-    "Niveau de recherche",
-    "Intérêt de la police",
-    "Probabilité d'être pris",
-    "Identité de couverture",
-    "Anonymat",
-    "Chiffrement",
-    "Habilitation de sécurité",
-    "Droits d'accès",
-    "Clés",
-    "Autorisations de passage",
-    "Mots de passe",
-    "Matériel de chantage",
-    "Kompromat",
-    "Désinformation",
-    "Propagande",
-    "Rumeurs",
-    "Attention du public",
-    "Intérêt des médias",
-    "Contrôle du récit",
-    "Fuites",
-    "Capacité de censure",
-    "Valeur médiatique",
-    "Véracité",
-    "Confidentialité",
-    "Relations",
-    "Amis",
-    "Ennemis",
-    "Liens familiaux",
-    "Intérêt amoureux",
-    "Obligations",
-    "Faveurs",
-    "Dettes envers des personnes",
-    "Réputation auprès de différents groupes",
-    "Relations avec les factions",
-    "Relations diplomatiques",
-    "Relations commerciales",
-    "Alliances",
-    "Influence religieuse",
-    "Loyauté de la secte",
-    "Adeptes",
-    "Membres",
-    "Bénévoles",
-    "Électeurs",
-    "Partisans",
-    "Agents",
-    "Espions",
-    "Informateurs",
-    "Gardes",
-    "Soldats",
-    "Officiers",
-    "Employés",
-    "Ingénieurs",
-    "Chercheurs",
-    "Chauffeurs",
-    "Équipage",
-    "Points de commandement",
-    "Points d'action",
-    "Points de déplacement",
-    "Points de construction",
-    "Points de diplomatie",
-    "Points de recherche",
-    "Points d'influence",
-    "Points de réputation",
-    "Points d'expérience",
-    "Points de compétence",
-    "Niveaux",
-    "Cartes",
-    "Dés",
-    "Actions par tour",
-    "Décisions disponibles",
-    "Opportunités",
-    "Possibilités",
-    "Budget de risque",
-    "Marge d'erreur",
-    "Temps avant l'échéance",
-    "Temps avant la catastrophe",
-    "Temps avant d'être démasqué",
-    "Temps avant la faillite",
-    "Temps avant l'attaque",
-    "Temps avant l'hiver",
-    "Temps avant l'aube",
-    "Temps avant la mort",
-    "Mémoire",
-    "Identité",
-    "Raison",
-    "Sens de la réalité",
-    "Volonté",
-    "Âme",
-    "Vitalité",
-    "Magie",
-    "Mana",
-    "Malédictions",
-    "Bénédictions",
-    "Âmes",
-    "Croyance",
-    "Foi",
-    "Sainteté",
-    "Corruption",
-    "Chaos",
-    "Énergie de l'ordre",
-    "Paradoxes temporels",
-    "Intégrité de la ligne temporelle",
-    "Nombre de souvenirs",
-    "Rêves",
-    "Cauchemars",
-    "Nombre de sauts temporels",
-    "Stabilité de la réalité",
-    "Intégrité de la simulation",
-    "Puissance de traitement",
-    "Espace de stockage",
-    "Bande passante",
-    "Capacité des serveurs",
-    "Puissance de calcul",
-    "Batterie du robot",
-    "Intégrité du système",
-    "Pièces de rechange",
-    "Capacité de maintenance",
-    "Temps de réparation",
-    "Intégrité structurelle",
-    "Intégrité de la base",
-    "Intégrité du vaisseau",
-    "Puissance du moteur",
-    "Réserve de carburant",
-    "Production d'oxygène",
-    "Production alimentaire",
-    "Capacité d'épuration de l'eau",
-    "Données de recherche",
-    "Données cartographiques",
-    "Données de navigation",
-    "Données des capteurs",
-    "Contacts radar",
-    "Contacts sonar",
-    "Données météorologiques",
-    "Matériel génétique",
-    "Échantillons",
-    "Artefacts",
-    "Vestiges anciens",
-    "Objets rares",
-    "Objets de collection",
-    "Intégrité de la chaîne de preuves",
-    "Nombre de suspects",
-    "Affaires non résolues",
-    "Demandes en attente",
-    "File de travail",
-    "File de clients",
-    "Cellules de prison",
-    "Chambres d'hôtel",
-    "Places au restaurant",
-    "Emplacements d'entrepôt",
-    "Capacité ferroviaire",
-    "Créneaux aéroportuaires",
-    "Capacité portuaire",
-    "Capacité de circulation",
-    "Occupation des sols",
-    "Stabilité politique",
-    "Stabilité économique",
-    "Puissance militaire",
-    "Capacité de défense",
-    "Capacité de renseignement",
-    "Crédibilité diplomatique",
-    "Lassitude de la guerre",
-    "Moral national",
-    "Ressources stratégiques",
-    "Lignes de ravitaillement",
-    "Réserves de munitions",
-    "Réserves",
-    "Terres libres",
-    "Soutien de la population",
-    "Influence culturelle"
+    {
+      "id": "key_resources-0001",
+      "text": "Argent"
+    },
+    {
+      "id": "key_resources-0002",
+      "text": "Temps"
+    },
+    {
+      "id": "key_resources-0003",
+      "text": "Confiance"
+    },
+    {
+      "id": "key_resources-0004",
+      "text": "Réputation"
+    },
+    {
+      "id": "key_resources-0005",
+      "text": "Nourriture"
+    },
+    {
+      "id": "key_resources-0006",
+      "text": "Électricité"
+    },
+    {
+      "id": "key_resources-0007",
+      "text": "Information"
+    },
+    {
+      "id": "key_resources-0008",
+      "text": "Influence"
+    },
+    {
+      "id": "key_resources-0009",
+      "text": "Oxygène"
+    },
+    {
+      "id": "key_resources-0010",
+      "text": "Personnel"
+    },
+    {
+      "id": "key_resources-0011",
+      "text": "Moral"
+    },
+    {
+      "id": "key_resources-0012",
+      "text": "Secrets"
+    },
+    {
+      "id": "key_resources-0013",
+      "text": "Eau"
+    },
+    {
+      "id": "key_resources-0014",
+      "text": "Carburant"
+    },
+    {
+      "id": "key_resources-0015",
+      "text": "Médicaments"
+    },
+    {
+      "id": "key_resources-0016",
+      "text": "Matières premières"
+    },
+    {
+      "id": "key_resources-0017",
+      "text": "Énergie"
+    },
+    {
+      "id": "key_resources-0018",
+      "text": "Chaleur"
+    },
+    {
+      "id": "key_resources-0019",
+      "text": "Abri"
+    },
+    {
+      "id": "key_resources-0020",
+      "text": "Sécurité"
+    },
+    {
+      "id": "key_resources-0021",
+      "text": "Santé"
+    },
+    {
+      "id": "key_resources-0022",
+      "text": "Endurance"
+    },
+    {
+      "id": "key_resources-0023",
+      "text": "Main-d'œuvre"
+    },
+    {
+      "id": "key_resources-0024",
+      "text": "Heures de travail"
+    },
+    {
+      "id": "key_resources-0025",
+      "text": "Expertise"
+    },
+    {
+      "id": "key_resources-0026",
+      "text": "Expérience"
+    },
+    {
+      "id": "key_resources-0027",
+      "text": "Points de recherche"
+    },
+    {
+      "id": "key_resources-0028",
+      "text": "Technologie"
+    },
+    {
+      "id": "key_resources-0029",
+      "text": "Données"
+    },
+    {
+      "id": "key_resources-0030",
+      "text": "Preuves"
+    },
+    {
+      "id": "key_resources-0031",
+      "text": "Indices"
+    },
+    {
+      "id": "key_resources-0032",
+      "text": "Documents"
+    },
+    {
+      "id": "key_resources-0033",
+      "text": "Contacts"
+    },
+    {
+      "id": "key_resources-0034",
+      "text": "Réseaux"
+    },
+    {
+      "id": "key_resources-0035",
+      "text": "Alliés"
+    },
+    {
+      "id": "key_resources-0036",
+      "text": "Loyauté"
+    },
+    {
+      "id": "key_resources-0037",
+      "text": "Peur"
+    },
+    {
+      "id": "key_resources-0038",
+      "text": "Prestige"
+    },
+    {
+      "id": "key_resources-0039",
+      "text": "Popularité"
+    },
+    {
+      "id": "key_resources-0040",
+      "text": "Popularité auprès du peuple"
+    },
+    {
+      "id": "key_resources-0041",
+      "text": "Capital politique"
+    },
+    {
+      "id": "key_resources-0042",
+      "text": "Influence diplomatique"
+    },
+    {
+      "id": "key_resources-0043",
+      "text": "Crédibilité"
+    },
+    {
+      "id": "key_resources-0044",
+      "text": "Autorité"
+    },
+    {
+      "id": "key_resources-0045",
+      "text": "Légitimité"
+    },
+    {
+      "id": "key_resources-0046",
+      "text": "Respect"
+    },
+    {
+      "id": "key_resources-0047",
+      "text": "Dissuasion"
+    },
+    {
+      "id": "key_resources-0048",
+      "text": "Dette"
+    },
+    {
+      "id": "key_resources-0049",
+      "text": "Flux de trésorerie"
+    },
+    {
+      "id": "key_resources-0050",
+      "text": "Bénéfice"
+    },
+    {
+      "id": "key_resources-0051",
+      "text": "Actions"
+    },
+    {
+      "id": "key_resources-0052",
+      "text": "Part de marché"
+    },
+    {
+      "id": "key_resources-0053",
+      "text": "Clients"
+    },
+    {
+      "id": "key_resources-0054",
+      "text": "Commandes"
+    },
+    {
+      "id": "key_resources-0055",
+      "text": "Stocks"
+    },
+    {
+      "id": "key_resources-0056",
+      "text": "Capacité de transport"
+    },
+    {
+      "id": "key_resources-0057",
+      "text": "Capacité de production"
+    },
+    {
+      "id": "key_resources-0058",
+      "text": "Espace de chargement"
+    },
+    {
+      "id": "key_resources-0059",
+      "text": "Espace habitable"
+    },
+    {
+      "id": "key_resources-0060",
+      "text": "Matériaux de construction"
+    },
+    {
+      "id": "key_resources-0061",
+      "text": "Métal"
+    },
+    {
+      "id": "key_resources-0062",
+      "text": "Bois"
+    },
+    {
+      "id": "key_resources-0063",
+      "text": "Pierre"
+    },
+    {
+      "id": "key_resources-0064",
+      "text": "Béton"
+    },
+    {
+      "id": "key_resources-0065",
+      "text": "Plastique"
+    },
+    {
+      "id": "key_resources-0066",
+      "text": "Électronique"
+    },
+    {
+      "id": "key_resources-0067",
+      "text": "Pièces de rechange"
+    },
+    {
+      "id": "key_resources-0068",
+      "text": "Outils"
+    },
+    {
+      "id": "key_resources-0069",
+      "text": "Munitions"
+    },
+    {
+      "id": "key_resources-0070",
+      "text": "Armes"
+    },
+    {
+      "id": "key_resources-0071",
+      "text": "Véhicules"
+    },
+    {
+      "id": "key_resources-0072",
+      "text": "Navires"
+    },
+    {
+      "id": "key_resources-0073",
+      "text": "Avions"
+    },
+    {
+      "id": "key_resources-0074",
+      "text": "Robots"
+    },
+    {
+      "id": "key_resources-0075",
+      "text": "Machines"
+    },
+    {
+      "id": "key_resources-0076",
+      "text": "Bâtiments"
+    },
+    {
+      "id": "key_resources-0077",
+      "text": "Terrain"
+    },
+    {
+      "id": "key_resources-0078",
+      "text": "Terres agricoles"
+    },
+    {
+      "id": "key_resources-0079",
+      "text": "Forêt"
+    },
+    {
+      "id": "key_resources-0080",
+      "text": "Minerais"
+    },
+    {
+      "id": "key_resources-0081",
+      "text": "Pétrole"
+    },
+    {
+      "id": "key_resources-0082",
+      "text": "Gaz"
+    },
+    {
+      "id": "key_resources-0083",
+      "text": "Uranium"
+    },
+    {
+      "id": "key_resources-0084",
+      "text": "Énergie solaire"
+    },
+    {
+      "id": "key_resources-0085",
+      "text": "Énergie éolienne"
+    },
+    {
+      "id": "key_resources-0086",
+      "text": "Charge de la batterie"
+    },
+    {
+      "id": "key_resources-0087",
+      "text": "Capacité des générateurs"
+    },
+    {
+      "id": "key_resources-0088",
+      "text": "Pression de l'eau"
+    },
+    {
+      "id": "key_resources-0089",
+      "text": "Pression de l'air"
+    },
+    {
+      "id": "key_resources-0090",
+      "text": "Température"
+    },
+    {
+      "id": "key_resources-0091",
+      "text": "Humidité"
+    },
+    {
+      "id": "key_resources-0092",
+      "text": "Sûreté radiologique"
+    },
+    {
+      "id": "key_resources-0093",
+      "text": "Qualité de l'air"
+    },
+    {
+      "id": "key_resources-0094",
+      "text": "Réserve d'oxygène"
+    },
+    {
+      "id": "key_resources-0095",
+      "text": "Capacité de CO2"
+    },
+    {
+      "id": "key_resources-0096",
+      "text": "Capacité de traitement des déchets"
+    },
+    {
+      "id": "key_resources-0097",
+      "text": "Lits d'hôpital"
+    },
+    {
+      "id": "key_resources-0098",
+      "text": "Couchages"
+    },
+    {
+      "id": "key_resources-0099",
+      "text": "Personnel médical"
+    },
+    {
+      "id": "key_resources-0100",
+      "text": "Dons de sang"
+    },
+    {
+      "id": "key_resources-0101",
+      "text": "Vaccins"
+    },
+    {
+      "id": "key_resources-0102",
+      "text": "Capacité de quarantaine"
+    },
+    {
+      "id": "key_resources-0103",
+      "text": "Confiance des patients"
+    },
+    {
+      "id": "key_resources-0104",
+      "text": "Population"
+    },
+    {
+      "id": "key_resources-0105",
+      "text": "Natalité"
+    },
+    {
+      "id": "key_resources-0106",
+      "text": "Population en âge de travailler"
+    },
+    {
+      "id": "key_resources-0107",
+      "text": "Population qualifiée"
+    },
+    {
+      "id": "key_resources-0108",
+      "text": "Satisfaction des habitants"
+    },
+    {
+      "id": "key_resources-0109",
+      "text": "Bonheur"
+    },
+    {
+      "id": "key_resources-0110",
+      "text": "Espoir"
+    },
+    {
+      "id": "key_resources-0111",
+      "text": "Stress"
+    },
+    {
+      "id": "key_resources-0112",
+      "text": "Peur dans la communauté"
+    },
+    {
+      "id": "key_resources-0113",
+      "text": "Esprit de communauté"
+    },
+    {
+      "id": "key_resources-0114",
+      "text": "Ordre"
+    },
+    {
+      "id": "key_resources-0115",
+      "text": "Stabilité"
+    },
+    {
+      "id": "key_resources-0116",
+      "text": "Agitation"
+    },
+    {
+      "id": "key_resources-0117",
+      "text": "Fidélité"
+    },
+    {
+      "id": "key_resources-0118",
+      "text": "Discipline"
+    },
+    {
+      "id": "key_resources-0119",
+      "text": "Motivation"
+    },
+    {
+      "id": "key_resources-0120",
+      "text": "Concentration"
+    },
+    {
+      "id": "key_resources-0121",
+      "text": "Sommeil"
+    },
+    {
+      "id": "key_resources-0122",
+      "text": "Santé mentale"
+    },
+    {
+      "id": "key_resources-0123",
+      "text": "Condition physique"
+    },
+    {
+      "id": "key_resources-0124",
+      "text": "Faim"
+    },
+    {
+      "id": "key_resources-0125",
+      "text": "Soif"
+    },
+    {
+      "id": "key_resources-0126",
+      "text": "Fatigue"
+    },
+    {
+      "id": "key_resources-0127",
+      "text": "Froid"
+    },
+    {
+      "id": "key_resources-0128",
+      "text": "Exposition à la chaleur"
+    },
+    {
+      "id": "key_resources-0129",
+      "text": "Protection contre l'environnement"
+    },
+    {
+      "id": "key_resources-0130",
+      "text": "Lumière du jour"
+    },
+    {
+      "id": "key_resources-0131",
+      "text": "Obscurité"
+    },
+    {
+      "id": "key_resources-0132",
+      "text": "Silence"
+    },
+    {
+      "id": "key_resources-0133",
+      "text": "Niveau sonore"
+    },
+    {
+      "id": "key_resources-0134",
+      "text": "Vie privée"
+    },
+    {
+      "id": "key_resources-0135",
+      "text": "Attention"
+    },
+    {
+      "id": "key_resources-0136",
+      "text": "Soupçons"
+    },
+    {
+      "id": "key_resources-0137",
+      "text": "Niveau de recherche"
+    },
+    {
+      "id": "key_resources-0138",
+      "text": "Intérêt de la police"
+    },
+    {
+      "id": "key_resources-0139",
+      "text": "Probabilité d'être pris"
+    },
+    {
+      "id": "key_resources-0140",
+      "text": "Identité de couverture"
+    },
+    {
+      "id": "key_resources-0141",
+      "text": "Anonymat"
+    },
+    {
+      "id": "key_resources-0142",
+      "text": "Chiffrement"
+    },
+    {
+      "id": "key_resources-0143",
+      "text": "Habilitation de sécurité"
+    },
+    {
+      "id": "key_resources-0144",
+      "text": "Droits d'accès"
+    },
+    {
+      "id": "key_resources-0145",
+      "text": "Clés"
+    },
+    {
+      "id": "key_resources-0146",
+      "text": "Autorisations de passage"
+    },
+    {
+      "id": "key_resources-0147",
+      "text": "Mots de passe"
+    },
+    {
+      "id": "key_resources-0148",
+      "text": "Matériel de chantage"
+    },
+    {
+      "id": "key_resources-0149",
+      "text": "Kompromat"
+    },
+    {
+      "id": "key_resources-0150",
+      "text": "Désinformation"
+    },
+    {
+      "id": "key_resources-0151",
+      "text": "Propagande"
+    },
+    {
+      "id": "key_resources-0152",
+      "text": "Rumeurs"
+    },
+    {
+      "id": "key_resources-0153",
+      "text": "Attention du public"
+    },
+    {
+      "id": "key_resources-0154",
+      "text": "Intérêt des médias"
+    },
+    {
+      "id": "key_resources-0155",
+      "text": "Contrôle du récit"
+    },
+    {
+      "id": "key_resources-0156",
+      "text": "Fuites"
+    },
+    {
+      "id": "key_resources-0157",
+      "text": "Capacité de censure"
+    },
+    {
+      "id": "key_resources-0158",
+      "text": "Valeur médiatique"
+    },
+    {
+      "id": "key_resources-0159",
+      "text": "Véracité"
+    },
+    {
+      "id": "key_resources-0160",
+      "text": "Confidentialité"
+    },
+    {
+      "id": "key_resources-0161",
+      "text": "Relations"
+    },
+    {
+      "id": "key_resources-0162",
+      "text": "Amis"
+    },
+    {
+      "id": "key_resources-0163",
+      "text": "Ennemis"
+    },
+    {
+      "id": "key_resources-0164",
+      "text": "Liens familiaux"
+    },
+    {
+      "id": "key_resources-0165",
+      "text": "Intérêt amoureux"
+    },
+    {
+      "id": "key_resources-0166",
+      "text": "Obligations"
+    },
+    {
+      "id": "key_resources-0167",
+      "text": "Faveurs"
+    },
+    {
+      "id": "key_resources-0168",
+      "text": "Dettes envers des personnes"
+    },
+    {
+      "id": "key_resources-0169",
+      "text": "Réputation auprès de différents groupes"
+    },
+    {
+      "id": "key_resources-0170",
+      "text": "Relations avec les factions"
+    },
+    {
+      "id": "key_resources-0171",
+      "text": "Relations diplomatiques"
+    },
+    {
+      "id": "key_resources-0172",
+      "text": "Relations commerciales"
+    },
+    {
+      "id": "key_resources-0173",
+      "text": "Alliances"
+    },
+    {
+      "id": "key_resources-0174",
+      "text": "Influence religieuse"
+    },
+    {
+      "id": "key_resources-0175",
+      "text": "Loyauté de la secte"
+    },
+    {
+      "id": "key_resources-0176",
+      "text": "Adeptes"
+    },
+    {
+      "id": "key_resources-0177",
+      "text": "Membres"
+    },
+    {
+      "id": "key_resources-0178",
+      "text": "Bénévoles"
+    },
+    {
+      "id": "key_resources-0179",
+      "text": "Électeurs"
+    },
+    {
+      "id": "key_resources-0180",
+      "text": "Partisans"
+    },
+    {
+      "id": "key_resources-0181",
+      "text": "Agents"
+    },
+    {
+      "id": "key_resources-0182",
+      "text": "Espions"
+    },
+    {
+      "id": "key_resources-0183",
+      "text": "Informateurs"
+    },
+    {
+      "id": "key_resources-0184",
+      "text": "Gardes"
+    },
+    {
+      "id": "key_resources-0185",
+      "text": "Soldats"
+    },
+    {
+      "id": "key_resources-0186",
+      "text": "Officiers"
+    },
+    {
+      "id": "key_resources-0187",
+      "text": "Employés"
+    },
+    {
+      "id": "key_resources-0188",
+      "text": "Ingénieurs"
+    },
+    {
+      "id": "key_resources-0189",
+      "text": "Chercheurs"
+    },
+    {
+      "id": "key_resources-0190",
+      "text": "Chauffeurs"
+    },
+    {
+      "id": "key_resources-0191",
+      "text": "Équipage"
+    },
+    {
+      "id": "key_resources-0192",
+      "text": "Points de commandement"
+    },
+    {
+      "id": "key_resources-0193",
+      "text": "Points d'action"
+    },
+    {
+      "id": "key_resources-0194",
+      "text": "Points de déplacement"
+    },
+    {
+      "id": "key_resources-0195",
+      "text": "Points de construction"
+    },
+    {
+      "id": "key_resources-0196",
+      "text": "Points de diplomatie"
+    },
+    {
+      "id": "key_resources-0197",
+      "text": "Points de recherche"
+    },
+    {
+      "id": "key_resources-0198",
+      "text": "Points d'influence"
+    },
+    {
+      "id": "key_resources-0199",
+      "text": "Points de réputation"
+    },
+    {
+      "id": "key_resources-0200",
+      "text": "Points d'expérience"
+    },
+    {
+      "id": "key_resources-0201",
+      "text": "Points de compétence"
+    },
+    {
+      "id": "key_resources-0202",
+      "text": "Niveaux"
+    },
+    {
+      "id": "key_resources-0203",
+      "text": "Cartes"
+    },
+    {
+      "id": "key_resources-0204",
+      "text": "Dés"
+    },
+    {
+      "id": "key_resources-0205",
+      "text": "Actions par tour"
+    },
+    {
+      "id": "key_resources-0206",
+      "text": "Décisions disponibles"
+    },
+    {
+      "id": "key_resources-0207",
+      "text": "Opportunités"
+    },
+    {
+      "id": "key_resources-0208",
+      "text": "Possibilités"
+    },
+    {
+      "id": "key_resources-0209",
+      "text": "Budget de risque"
+    },
+    {
+      "id": "key_resources-0210",
+      "text": "Marge d'erreur"
+    },
+    {
+      "id": "key_resources-0211",
+      "text": "Temps avant l'échéance"
+    },
+    {
+      "id": "key_resources-0212",
+      "text": "Temps avant la catastrophe"
+    },
+    {
+      "id": "key_resources-0213",
+      "text": "Temps avant d'être démasqué"
+    },
+    {
+      "id": "key_resources-0214",
+      "text": "Temps avant la faillite"
+    },
+    {
+      "id": "key_resources-0215",
+      "text": "Temps avant l'attaque"
+    },
+    {
+      "id": "key_resources-0216",
+      "text": "Temps avant l'hiver"
+    },
+    {
+      "id": "key_resources-0217",
+      "text": "Temps avant l'aube"
+    },
+    {
+      "id": "key_resources-0218",
+      "text": "Temps avant la mort"
+    },
+    {
+      "id": "key_resources-0219",
+      "text": "Mémoire"
+    },
+    {
+      "id": "key_resources-0220",
+      "text": "Identité"
+    },
+    {
+      "id": "key_resources-0221",
+      "text": "Raison"
+    },
+    {
+      "id": "key_resources-0222",
+      "text": "Sens de la réalité"
+    },
+    {
+      "id": "key_resources-0223",
+      "text": "Volonté"
+    },
+    {
+      "id": "key_resources-0224",
+      "text": "Âme"
+    },
+    {
+      "id": "key_resources-0225",
+      "text": "Vitalité"
+    },
+    {
+      "id": "key_resources-0226",
+      "text": "Magie"
+    },
+    {
+      "id": "key_resources-0227",
+      "text": "Mana"
+    },
+    {
+      "id": "key_resources-0228",
+      "text": "Malédictions"
+    },
+    {
+      "id": "key_resources-0229",
+      "text": "Bénédictions"
+    },
+    {
+      "id": "key_resources-0230",
+      "text": "Âmes"
+    },
+    {
+      "id": "key_resources-0231",
+      "text": "Croyance"
+    },
+    {
+      "id": "key_resources-0232",
+      "text": "Foi"
+    },
+    {
+      "id": "key_resources-0233",
+      "text": "Sainteté"
+    },
+    {
+      "id": "key_resources-0234",
+      "text": "Corruption"
+    },
+    {
+      "id": "key_resources-0235",
+      "text": "Chaos"
+    },
+    {
+      "id": "key_resources-0236",
+      "text": "Énergie de l'ordre"
+    },
+    {
+      "id": "key_resources-0237",
+      "text": "Paradoxes temporels"
+    },
+    {
+      "id": "key_resources-0238",
+      "text": "Intégrité de la ligne temporelle"
+    },
+    {
+      "id": "key_resources-0239",
+      "text": "Nombre de souvenirs"
+    },
+    {
+      "id": "key_resources-0240",
+      "text": "Rêves"
+    },
+    {
+      "id": "key_resources-0241",
+      "text": "Cauchemars"
+    },
+    {
+      "id": "key_resources-0242",
+      "text": "Nombre de sauts temporels"
+    },
+    {
+      "id": "key_resources-0243",
+      "text": "Stabilité de la réalité"
+    },
+    {
+      "id": "key_resources-0244",
+      "text": "Intégrité de la simulation"
+    },
+    {
+      "id": "key_resources-0245",
+      "text": "Puissance de traitement"
+    },
+    {
+      "id": "key_resources-0246",
+      "text": "Espace de stockage"
+    },
+    {
+      "id": "key_resources-0247",
+      "text": "Bande passante"
+    },
+    {
+      "id": "key_resources-0248",
+      "text": "Capacité des serveurs"
+    },
+    {
+      "id": "key_resources-0249",
+      "text": "Puissance de calcul"
+    },
+    {
+      "id": "key_resources-0250",
+      "text": "Batterie du robot"
+    },
+    {
+      "id": "key_resources-0251",
+      "text": "Intégrité du système"
+    },
+    {
+      "id": "key_resources-0252",
+      "text": "Pièces de rechange"
+    },
+    {
+      "id": "key_resources-0253",
+      "text": "Capacité de maintenance"
+    },
+    {
+      "id": "key_resources-0254",
+      "text": "Temps de réparation"
+    },
+    {
+      "id": "key_resources-0255",
+      "text": "Intégrité structurelle"
+    },
+    {
+      "id": "key_resources-0256",
+      "text": "Intégrité de la base"
+    },
+    {
+      "id": "key_resources-0257",
+      "text": "Intégrité du vaisseau"
+    },
+    {
+      "id": "key_resources-0258",
+      "text": "Puissance du moteur"
+    },
+    {
+      "id": "key_resources-0259",
+      "text": "Réserve de carburant"
+    },
+    {
+      "id": "key_resources-0260",
+      "text": "Production d'oxygène"
+    },
+    {
+      "id": "key_resources-0261",
+      "text": "Production alimentaire"
+    },
+    {
+      "id": "key_resources-0262",
+      "text": "Capacité d'épuration de l'eau"
+    },
+    {
+      "id": "key_resources-0263",
+      "text": "Données de recherche"
+    },
+    {
+      "id": "key_resources-0264",
+      "text": "Données cartographiques"
+    },
+    {
+      "id": "key_resources-0265",
+      "text": "Données de navigation"
+    },
+    {
+      "id": "key_resources-0266",
+      "text": "Données des capteurs"
+    },
+    {
+      "id": "key_resources-0267",
+      "text": "Contacts radar"
+    },
+    {
+      "id": "key_resources-0268",
+      "text": "Contacts sonar"
+    },
+    {
+      "id": "key_resources-0269",
+      "text": "Données météorologiques"
+    },
+    {
+      "id": "key_resources-0270",
+      "text": "Matériel génétique"
+    },
+    {
+      "id": "key_resources-0271",
+      "text": "Échantillons"
+    },
+    {
+      "id": "key_resources-0272",
+      "text": "Artefacts"
+    },
+    {
+      "id": "key_resources-0273",
+      "text": "Vestiges anciens"
+    },
+    {
+      "id": "key_resources-0274",
+      "text": "Objets rares"
+    },
+    {
+      "id": "key_resources-0275",
+      "text": "Objets de collection"
+    },
+    {
+      "id": "key_resources-0276",
+      "text": "Intégrité de la chaîne de preuves"
+    },
+    {
+      "id": "key_resources-0277",
+      "text": "Nombre de suspects"
+    },
+    {
+      "id": "key_resources-0278",
+      "text": "Affaires non résolues"
+    },
+    {
+      "id": "key_resources-0279",
+      "text": "Demandes en attente"
+    },
+    {
+      "id": "key_resources-0280",
+      "text": "File de travail"
+    },
+    {
+      "id": "key_resources-0281",
+      "text": "File de clients"
+    },
+    {
+      "id": "key_resources-0282",
+      "text": "Cellules de prison"
+    },
+    {
+      "id": "key_resources-0283",
+      "text": "Chambres d'hôtel"
+    },
+    {
+      "id": "key_resources-0284",
+      "text": "Places au restaurant"
+    },
+    {
+      "id": "key_resources-0285",
+      "text": "Emplacements d'entrepôt"
+    },
+    {
+      "id": "key_resources-0286",
+      "text": "Capacité ferroviaire"
+    },
+    {
+      "id": "key_resources-0287",
+      "text": "Créneaux aéroportuaires"
+    },
+    {
+      "id": "key_resources-0288",
+      "text": "Capacité portuaire"
+    },
+    {
+      "id": "key_resources-0289",
+      "text": "Capacité de circulation"
+    },
+    {
+      "id": "key_resources-0290",
+      "text": "Occupation des sols"
+    },
+    {
+      "id": "key_resources-0291",
+      "text": "Stabilité politique"
+    },
+    {
+      "id": "key_resources-0292",
+      "text": "Stabilité économique"
+    },
+    {
+      "id": "key_resources-0293",
+      "text": "Puissance militaire"
+    },
+    {
+      "id": "key_resources-0294",
+      "text": "Capacité de défense"
+    },
+    {
+      "id": "key_resources-0295",
+      "text": "Capacité de renseignement"
+    },
+    {
+      "id": "key_resources-0296",
+      "text": "Crédibilité diplomatique"
+    },
+    {
+      "id": "key_resources-0297",
+      "text": "Lassitude de la guerre"
+    },
+    {
+      "id": "key_resources-0298",
+      "text": "Moral national"
+    },
+    {
+      "id": "key_resources-0299",
+      "text": "Ressources stratégiques"
+    },
+    {
+      "id": "key_resources-0300",
+      "text": "Lignes de ravitaillement"
+    },
+    {
+      "id": "key_resources-0301",
+      "text": "Réserves de munitions"
+    },
+    {
+      "id": "key_resources-0302",
+      "text": "Réserves"
+    },
+    {
+      "id": "key_resources-0303",
+      "text": "Terres libres"
+    },
+    {
+      "id": "key_resources-0304",
+      "text": "Soutien de la population"
+    },
+    {
+      "id": "key_resources-0305",
+      "text": "Influence culturelle"
+    }
   ]
 }

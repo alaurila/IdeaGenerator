@@ -1,234 +1,924 @@
 {
   "structural_formats": [
-    "Por turnos",
-    "Em tempo real",
-    "Ciclo diário",
-    "Um único turno de trabalho",
-    "Partida roguelite",
-    "Episódico",
-    "Sandbox aberto",
-    "Campanha",
-    "Um único dia",
-    "Uma única noite",
-    "Uma única semana",
-    "Um único mês",
-    "Um único ano",
-    "Campanha de vários anos",
-    "Ao longo de gerações",
-    "Loop temporal",
-    "Dia que se repete",
-    "Turno de trabalho que se repete",
-    "Sessões de jogo curtas",
-    "Uma sessão longa e contínua",
-    "Baseado em checkpoints",
-    "Salvar a qualquer momento",
-    "Morte permanente",
-    "Modo Ironman",
-    "Baseado em partidas",
-    "Baseado em missões",
-    "Baseado em tarefas",
-    "Baseado em casos",
-    "Incidente por incidente",
-    "Baseado em cenários",
-    "Baseado em mapas",
-    "Baseado em cômodos",
-    "Baseado em áreas",
-    "Baseado em nós",
-    "Baseado em um hub",
-    "Hub + missões",
-    "Hub + áreas abertas",
-    "Linear",
-    "Semilinear",
-    "Ramificado",
-    "Totalmente aberto",
-    "Mundo aberto",
-    "Ambiente fechado",
-    "Um único prédio",
-    "Um único cômodo",
-    "Um único veículo",
-    "Uma única organização",
-    "Uma única cidade",
-    "Várias áreas",
-    "Várias perspectivas paralelas",
-    "Vários personagens jogáveis",
-    "Um personagem persistente",
-    "Personagem jogável que muda",
-    "O personagem muda a cada capítulo",
-    "O personagem muda após a morte",
-    "Modelo dinástico",
-    "Campanha legado",
-    "Campanha generativa",
-    "Campanha procedural",
-    "Campanha roteirizada",
-    "Início roteirizado, final aberto",
-    "Início aberto, final roteirizado",
-    "Narrativa emergente",
-    "Narrativa procedural",
-    "A história surge da simulação",
-    "A história surge das escolhas do jogador",
-    "Estrutura baseada em escolhas",
-    "Estrutura guiada por diálogos",
-    "Estrutura guiada por documentos",
-    "Estrutura baseada em cartas",
-    "Estrutura baseada em uma mesa de trabalho",
-    "Baseado em um centro de comando",
-    "Baseado em uma sala de controle",
-    "Baseado em visão de mapa",
-    "Baseado em planilhas",
-    "Baseado em um painel de controle",
-    "Baseado em um diário",
-    "Baseado em relatórios",
-    "Baseado em mensagens",
-    "Baseado em e-mails",
-    "Baseado em chat",
-    "Baseado em telefone",
-    "Baseado em rádio",
-    "Baseado em câmeras de segurança",
-    "Baseado no processamento de documentos",
-    "Baseado em uma fila de trabalho",
-    "Baseado em uma fila de clientes",
-    "A simulação avança sozinha",
-    "A simulação só avança com as ações do jogador",
-    "O tempo para nos menus",
-    "O tempo corre continuamente",
-    "Pausar e jogar",
-    "Tempo real com pausa",
-    "Tempo real lento",
-    "Tempo real rápido",
-    "Baseado em ticks",
-    "Baseado em minutos",
-    "Baseado em horas",
-    "Baseado em dias",
-    "Baseado em semanas",
-    "Baseado em meses",
-    "Turnos divididos em pontos de ação",
-    "Turnos divididos em fases",
-    "Turnos com escolhas simultâneas",
-    "Estrutura WeGo",
-    "Uma ação por turno",
-    "Várias ações por turno",
-    "Sistema de pontos de ação",
-    "Turnos com cartas",
-    "Turnos com dados",
-    "Baseado em cartas de evento",
-    "Eventos diários",
-    "Eventos aleatórios",
-    "Eventos programados",
-    "Eventos reativos",
-    "Eventos encadeados",
-    "O cenário muda todo dia",
-    "O cenário muda toda semana",
-    "Partida roguelike",
-    "Partida roguelite",
-    "Partida + metaprogressão",
-    "Partida sem metaprogressão",
-    "Partida curta de 10–20 minutos",
-    "Partida média de 30–60 minutos",
-    "Partida longa de várias horas",
-    "Modo infinito",
-    "Modo sobrevivência",
-    "Ataque de pontuação",
-    "Contra o relógio",
-    "Modo desafio",
-    "Desafio diário",
-    "Desafio semanal",
-    "Modo sandbox",
-    "Modo criativo",
-    "Editor de cenários",
-    "Jogo livre",
-    "Campanha + sandbox",
-    "Campanha + modo infinito",
-    "Campanha + cenários",
-    "Campanha + roguelite",
-    "Modo história",
-    "Modo arcade",
-    "Modo simulação",
-    "Modo hardcore",
-    "Modo casual",
-    "Assíncrono",
-    "Síncrono",
-    "Um jogador",
-    "Multijogador local",
-    "Cooperativo online",
-    "Multijogador assimétrico",
-    "Um jogador controla o sistema",
-    "Vários jogadores controlam papéis diferentes",
-    "Um jogador contra a simulação",
-    "Um jogador contra outro jogador",
-    "Um jogador contra o mundo",
-    "O mundo do jogo continua sem o jogador",
-    "O jogo avança em tempo real mesmo fechado",
-    "O tempo só avança enquanto o jogador está ativo",
-    "Calendário em tempo real",
-    "Calendário fictício",
-    "Ciclo das estações",
-    "Ciclo climático",
-    "Ciclo de dia e noite",
-    "Ciclo de semana de trabalho",
-    "Ciclo de gerações",
-    "Ciclo de eleições e mandatos",
-    "Ciclo de campanha militar",
-    "Ciclo de epidemias",
-    "Ciclo de produção",
-    "Ciclo de mercado",
-    "Estrutura por temporadas",
-    "Estrutura por capítulos",
-    "Estrutura por atos",
-    "Episódios",
-    "Episódios por temporada",
-    "Antologia",
-    "Cada episódio com um personagem diferente",
-    "Cada episódio em um lugar diferente",
-    "Cada episódio em uma época diferente",
-    "Cada partida em um mundo diferente",
-    "Cada partida no mesmo mundo com uma situação inicial diferente",
-    "O mesmo mundo muda entre partidas",
-    "O metamundo persiste entre partidas",
-    "Os NPCs persistem entre partidas",
-    "O mapa persiste entre partidas",
-    "O mundo é reiniciado após cada partida",
-    "O mundo muda permanentemente após cada partida",
-    "Uma decisão de cada vez",
-    "Decisões encadeadas",
-    "Decisões com limite de tempo",
-    "Decisões sem pressão de tempo",
-    "Decisões secretas",
-    "Decisões públicas",
-    "Decisões simultâneas",
-    "Baseado em votação",
-    "Baseado em negociação",
-    "Planejamento + execução",
-    "Fase de planejamento + fase em tempo real",
-    "Planejar de dia, executar à noite",
-    "Administrar de dia, investigar à noite",
-    "Construir de dia, sobreviver à noite",
-    "Jogo social de dia, furtividade à noite",
-    "Gestão e ação alternadas",
-    "Investigação e administração alternadas",
-    "História e simulação alternadas",
-    "Estrutura de jogo em várias camadas",
-    "Mapa estratégico + visão tática",
-    "Cidade + prédios individuais",
-    "Nível da organização + nível individual",
-    "Nível macro + nível micro",
-    "Presente + flashbacks",
-    "Presente + futuro",
-    "Várias linhas do tempo em paralelo",
-    "A linha do tempo salta para frente e para trás",
-    "Cronologia não linear",
-    "A investigação revela o passado",
-    "As escolhas do jogador desbloqueiam capítulos diferentes",
-    "Os segredos desbloqueiam novas camadas do jogo",
-    "Novas mecânicas são desbloqueadas passo a passo",
-    "As regras mudam durante a campanha",
-    "O formato do jogo muda durante a história",
-    "O gênero muda conforme o jogo avança",
-    "Uma única crise longa",
-    "Gestão de crise constante",
-    "Uma série de pequenas crises",
-    "A crise piora passo a passo",
-    "Início calmo, final acelerado",
-    "Início agitado, final de jogo aberto",
-    "Fase de construção, fase de crise, fase de reconstrução"
+    {
+      "id": "structural_formats-0001",
+      "text": "Por turnos"
+    },
+    {
+      "id": "structural_formats-0002",
+      "text": "Em tempo real"
+    },
+    {
+      "id": "structural_formats-0003",
+      "text": "Ciclo diário"
+    },
+    {
+      "id": "structural_formats-0004",
+      "text": "Um único turno de trabalho"
+    },
+    {
+      "id": "structural_formats-0005",
+      "text": "Partida roguelite"
+    },
+    {
+      "id": "structural_formats-0006",
+      "text": "Episódico"
+    },
+    {
+      "id": "structural_formats-0007",
+      "text": "Sandbox aberto"
+    },
+    {
+      "id": "structural_formats-0008",
+      "text": "Campanha"
+    },
+    {
+      "id": "structural_formats-0009",
+      "text": "Um único dia"
+    },
+    {
+      "id": "structural_formats-0010",
+      "text": "Uma única noite"
+    },
+    {
+      "id": "structural_formats-0011",
+      "text": "Uma única semana"
+    },
+    {
+      "id": "structural_formats-0012",
+      "text": "Um único mês"
+    },
+    {
+      "id": "structural_formats-0013",
+      "text": "Um único ano"
+    },
+    {
+      "id": "structural_formats-0014",
+      "text": "Campanha de vários anos"
+    },
+    {
+      "id": "structural_formats-0015",
+      "text": "Ao longo de gerações"
+    },
+    {
+      "id": "structural_formats-0016",
+      "text": "Loop temporal"
+    },
+    {
+      "id": "structural_formats-0017",
+      "text": "Dia que se repete"
+    },
+    {
+      "id": "structural_formats-0018",
+      "text": "Turno de trabalho que se repete"
+    },
+    {
+      "id": "structural_formats-0019",
+      "text": "Sessões de jogo curtas"
+    },
+    {
+      "id": "structural_formats-0020",
+      "text": "Uma sessão longa e contínua"
+    },
+    {
+      "id": "structural_formats-0021",
+      "text": "Baseado em checkpoints"
+    },
+    {
+      "id": "structural_formats-0022",
+      "text": "Salvar a qualquer momento"
+    },
+    {
+      "id": "structural_formats-0023",
+      "text": "Morte permanente"
+    },
+    {
+      "id": "structural_formats-0024",
+      "text": "Modo Ironman"
+    },
+    {
+      "id": "structural_formats-0025",
+      "text": "Baseado em partidas"
+    },
+    {
+      "id": "structural_formats-0026",
+      "text": "Baseado em missões"
+    },
+    {
+      "id": "structural_formats-0027",
+      "text": "Baseado em tarefas"
+    },
+    {
+      "id": "structural_formats-0028",
+      "text": "Baseado em casos"
+    },
+    {
+      "id": "structural_formats-0029",
+      "text": "Incidente por incidente"
+    },
+    {
+      "id": "structural_formats-0030",
+      "text": "Baseado em cenários"
+    },
+    {
+      "id": "structural_formats-0031",
+      "text": "Baseado em mapas"
+    },
+    {
+      "id": "structural_formats-0032",
+      "text": "Baseado em cômodos"
+    },
+    {
+      "id": "structural_formats-0033",
+      "text": "Baseado em áreas"
+    },
+    {
+      "id": "structural_formats-0034",
+      "text": "Baseado em nós"
+    },
+    {
+      "id": "structural_formats-0035",
+      "text": "Baseado em um hub"
+    },
+    {
+      "id": "structural_formats-0036",
+      "text": "Hub + missões"
+    },
+    {
+      "id": "structural_formats-0037",
+      "text": "Hub + áreas abertas"
+    },
+    {
+      "id": "structural_formats-0038",
+      "text": "Linear"
+    },
+    {
+      "id": "structural_formats-0039",
+      "text": "Semilinear"
+    },
+    {
+      "id": "structural_formats-0040",
+      "text": "Ramificado"
+    },
+    {
+      "id": "structural_formats-0041",
+      "text": "Totalmente aberto"
+    },
+    {
+      "id": "structural_formats-0042",
+      "text": "Mundo aberto"
+    },
+    {
+      "id": "structural_formats-0043",
+      "text": "Ambiente fechado"
+    },
+    {
+      "id": "structural_formats-0044",
+      "text": "Um único prédio"
+    },
+    {
+      "id": "structural_formats-0045",
+      "text": "Um único cômodo"
+    },
+    {
+      "id": "structural_formats-0046",
+      "text": "Um único veículo"
+    },
+    {
+      "id": "structural_formats-0047",
+      "text": "Uma única organização"
+    },
+    {
+      "id": "structural_formats-0048",
+      "text": "Uma única cidade"
+    },
+    {
+      "id": "structural_formats-0049",
+      "text": "Várias áreas"
+    },
+    {
+      "id": "structural_formats-0050",
+      "text": "Várias perspectivas paralelas"
+    },
+    {
+      "id": "structural_formats-0051",
+      "text": "Vários personagens jogáveis"
+    },
+    {
+      "id": "structural_formats-0052",
+      "text": "Um personagem persistente"
+    },
+    {
+      "id": "structural_formats-0053",
+      "text": "Personagem jogável que muda"
+    },
+    {
+      "id": "structural_formats-0054",
+      "text": "O personagem muda a cada capítulo"
+    },
+    {
+      "id": "structural_formats-0055",
+      "text": "O personagem muda após a morte"
+    },
+    {
+      "id": "structural_formats-0056",
+      "text": "Modelo dinástico"
+    },
+    {
+      "id": "structural_formats-0057",
+      "text": "Campanha legado"
+    },
+    {
+      "id": "structural_formats-0058",
+      "text": "Campanha generativa"
+    },
+    {
+      "id": "structural_formats-0059",
+      "text": "Campanha procedural"
+    },
+    {
+      "id": "structural_formats-0060",
+      "text": "Campanha roteirizada"
+    },
+    {
+      "id": "structural_formats-0061",
+      "text": "Início roteirizado, final aberto"
+    },
+    {
+      "id": "structural_formats-0062",
+      "text": "Início aberto, final roteirizado"
+    },
+    {
+      "id": "structural_formats-0063",
+      "text": "Narrativa emergente"
+    },
+    {
+      "id": "structural_formats-0064",
+      "text": "Narrativa procedural"
+    },
+    {
+      "id": "structural_formats-0065",
+      "text": "A história surge da simulação"
+    },
+    {
+      "id": "structural_formats-0066",
+      "text": "A história surge das escolhas do jogador"
+    },
+    {
+      "id": "structural_formats-0067",
+      "text": "Estrutura baseada em escolhas"
+    },
+    {
+      "id": "structural_formats-0068",
+      "text": "Estrutura guiada por diálogos"
+    },
+    {
+      "id": "structural_formats-0069",
+      "text": "Estrutura guiada por documentos"
+    },
+    {
+      "id": "structural_formats-0070",
+      "text": "Estrutura baseada em cartas"
+    },
+    {
+      "id": "structural_formats-0071",
+      "text": "Estrutura baseada em uma mesa de trabalho"
+    },
+    {
+      "id": "structural_formats-0072",
+      "text": "Baseado em um centro de comando"
+    },
+    {
+      "id": "structural_formats-0073",
+      "text": "Baseado em uma sala de controle"
+    },
+    {
+      "id": "structural_formats-0074",
+      "text": "Baseado em visão de mapa"
+    },
+    {
+      "id": "structural_formats-0075",
+      "text": "Baseado em planilhas"
+    },
+    {
+      "id": "structural_formats-0076",
+      "text": "Baseado em um painel de controle"
+    },
+    {
+      "id": "structural_formats-0077",
+      "text": "Baseado em um diário"
+    },
+    {
+      "id": "structural_formats-0078",
+      "text": "Baseado em relatórios"
+    },
+    {
+      "id": "structural_formats-0079",
+      "text": "Baseado em mensagens"
+    },
+    {
+      "id": "structural_formats-0080",
+      "text": "Baseado em e-mails"
+    },
+    {
+      "id": "structural_formats-0081",
+      "text": "Baseado em chat"
+    },
+    {
+      "id": "structural_formats-0082",
+      "text": "Baseado em telefone"
+    },
+    {
+      "id": "structural_formats-0083",
+      "text": "Baseado em rádio"
+    },
+    {
+      "id": "structural_formats-0084",
+      "text": "Baseado em câmeras de segurança"
+    },
+    {
+      "id": "structural_formats-0085",
+      "text": "Baseado no processamento de documentos"
+    },
+    {
+      "id": "structural_formats-0086",
+      "text": "Baseado em uma fila de trabalho"
+    },
+    {
+      "id": "structural_formats-0087",
+      "text": "Baseado em uma fila de clientes"
+    },
+    {
+      "id": "structural_formats-0088",
+      "text": "A simulação avança sozinha"
+    },
+    {
+      "id": "structural_formats-0089",
+      "text": "A simulação só avança com as ações do jogador"
+    },
+    {
+      "id": "structural_formats-0090",
+      "text": "O tempo para nos menus"
+    },
+    {
+      "id": "structural_formats-0091",
+      "text": "O tempo corre continuamente"
+    },
+    {
+      "id": "structural_formats-0092",
+      "text": "Pausar e jogar"
+    },
+    {
+      "id": "structural_formats-0093",
+      "text": "Tempo real com pausa"
+    },
+    {
+      "id": "structural_formats-0094",
+      "text": "Tempo real lento"
+    },
+    {
+      "id": "structural_formats-0095",
+      "text": "Tempo real rápido"
+    },
+    {
+      "id": "structural_formats-0096",
+      "text": "Baseado em ticks"
+    },
+    {
+      "id": "structural_formats-0097",
+      "text": "Baseado em minutos"
+    },
+    {
+      "id": "structural_formats-0098",
+      "text": "Baseado em horas"
+    },
+    {
+      "id": "structural_formats-0099",
+      "text": "Baseado em dias"
+    },
+    {
+      "id": "structural_formats-0100",
+      "text": "Baseado em semanas"
+    },
+    {
+      "id": "structural_formats-0101",
+      "text": "Baseado em meses"
+    },
+    {
+      "id": "structural_formats-0102",
+      "text": "Turnos divididos em pontos de ação"
+    },
+    {
+      "id": "structural_formats-0103",
+      "text": "Turnos divididos em fases"
+    },
+    {
+      "id": "structural_formats-0104",
+      "text": "Turnos com escolhas simultâneas"
+    },
+    {
+      "id": "structural_formats-0105",
+      "text": "Estrutura WeGo"
+    },
+    {
+      "id": "structural_formats-0106",
+      "text": "Uma ação por turno"
+    },
+    {
+      "id": "structural_formats-0107",
+      "text": "Várias ações por turno"
+    },
+    {
+      "id": "structural_formats-0108",
+      "text": "Sistema de pontos de ação"
+    },
+    {
+      "id": "structural_formats-0109",
+      "text": "Turnos com cartas"
+    },
+    {
+      "id": "structural_formats-0110",
+      "text": "Turnos com dados"
+    },
+    {
+      "id": "structural_formats-0111",
+      "text": "Baseado em cartas de evento"
+    },
+    {
+      "id": "structural_formats-0112",
+      "text": "Eventos diários"
+    },
+    {
+      "id": "structural_formats-0113",
+      "text": "Eventos aleatórios"
+    },
+    {
+      "id": "structural_formats-0114",
+      "text": "Eventos programados"
+    },
+    {
+      "id": "structural_formats-0115",
+      "text": "Eventos reativos"
+    },
+    {
+      "id": "structural_formats-0116",
+      "text": "Eventos encadeados"
+    },
+    {
+      "id": "structural_formats-0117",
+      "text": "O cenário muda todo dia"
+    },
+    {
+      "id": "structural_formats-0118",
+      "text": "O cenário muda toda semana"
+    },
+    {
+      "id": "structural_formats-0119",
+      "text": "Partida roguelike"
+    },
+    {
+      "id": "structural_formats-0120",
+      "text": "Partida roguelite"
+    },
+    {
+      "id": "structural_formats-0121",
+      "text": "Partida + metaprogressão"
+    },
+    {
+      "id": "structural_formats-0122",
+      "text": "Partida sem metaprogressão"
+    },
+    {
+      "id": "structural_formats-0123",
+      "text": "Partida curta de 10–20 minutos"
+    },
+    {
+      "id": "structural_formats-0124",
+      "text": "Partida média de 30–60 minutos"
+    },
+    {
+      "id": "structural_formats-0125",
+      "text": "Partida longa de várias horas"
+    },
+    {
+      "id": "structural_formats-0126",
+      "text": "Modo infinito"
+    },
+    {
+      "id": "structural_formats-0127",
+      "text": "Modo sobrevivência"
+    },
+    {
+      "id": "structural_formats-0128",
+      "text": "Ataque de pontuação"
+    },
+    {
+      "id": "structural_formats-0129",
+      "text": "Contra o relógio"
+    },
+    {
+      "id": "structural_formats-0130",
+      "text": "Modo desafio"
+    },
+    {
+      "id": "structural_formats-0131",
+      "text": "Desafio diário"
+    },
+    {
+      "id": "structural_formats-0132",
+      "text": "Desafio semanal"
+    },
+    {
+      "id": "structural_formats-0133",
+      "text": "Modo sandbox"
+    },
+    {
+      "id": "structural_formats-0134",
+      "text": "Modo criativo"
+    },
+    {
+      "id": "structural_formats-0135",
+      "text": "Editor de cenários"
+    },
+    {
+      "id": "structural_formats-0136",
+      "text": "Jogo livre"
+    },
+    {
+      "id": "structural_formats-0137",
+      "text": "Campanha + sandbox"
+    },
+    {
+      "id": "structural_formats-0138",
+      "text": "Campanha + modo infinito"
+    },
+    {
+      "id": "structural_formats-0139",
+      "text": "Campanha + cenários"
+    },
+    {
+      "id": "structural_formats-0140",
+      "text": "Campanha + roguelite"
+    },
+    {
+      "id": "structural_formats-0141",
+      "text": "Modo história"
+    },
+    {
+      "id": "structural_formats-0142",
+      "text": "Modo arcade"
+    },
+    {
+      "id": "structural_formats-0143",
+      "text": "Modo simulação"
+    },
+    {
+      "id": "structural_formats-0144",
+      "text": "Modo hardcore"
+    },
+    {
+      "id": "structural_formats-0145",
+      "text": "Modo casual"
+    },
+    {
+      "id": "structural_formats-0146",
+      "text": "Assíncrono"
+    },
+    {
+      "id": "structural_formats-0147",
+      "text": "Síncrono"
+    },
+    {
+      "id": "structural_formats-0148",
+      "text": "Um jogador"
+    },
+    {
+      "id": "structural_formats-0149",
+      "text": "Multijogador local"
+    },
+    {
+      "id": "structural_formats-0150",
+      "text": "Cooperativo online"
+    },
+    {
+      "id": "structural_formats-0151",
+      "text": "Multijogador assimétrico"
+    },
+    {
+      "id": "structural_formats-0152",
+      "text": "Um jogador controla o sistema"
+    },
+    {
+      "id": "structural_formats-0153",
+      "text": "Vários jogadores controlam papéis diferentes"
+    },
+    {
+      "id": "structural_formats-0154",
+      "text": "Um jogador contra a simulação"
+    },
+    {
+      "id": "structural_formats-0155",
+      "text": "Um jogador contra outro jogador"
+    },
+    {
+      "id": "structural_formats-0156",
+      "text": "Um jogador contra o mundo"
+    },
+    {
+      "id": "structural_formats-0157",
+      "text": "O mundo do jogo continua sem o jogador"
+    },
+    {
+      "id": "structural_formats-0158",
+      "text": "O jogo avança em tempo real mesmo fechado"
+    },
+    {
+      "id": "structural_formats-0159",
+      "text": "O tempo só avança enquanto o jogador está ativo"
+    },
+    {
+      "id": "structural_formats-0160",
+      "text": "Calendário em tempo real"
+    },
+    {
+      "id": "structural_formats-0161",
+      "text": "Calendário fictício"
+    },
+    {
+      "id": "structural_formats-0162",
+      "text": "Ciclo das estações"
+    },
+    {
+      "id": "structural_formats-0163",
+      "text": "Ciclo climático"
+    },
+    {
+      "id": "structural_formats-0164",
+      "text": "Ciclo de dia e noite"
+    },
+    {
+      "id": "structural_formats-0165",
+      "text": "Ciclo de semana de trabalho"
+    },
+    {
+      "id": "structural_formats-0166",
+      "text": "Ciclo de gerações"
+    },
+    {
+      "id": "structural_formats-0167",
+      "text": "Ciclo de eleições e mandatos"
+    },
+    {
+      "id": "structural_formats-0168",
+      "text": "Ciclo de campanha militar"
+    },
+    {
+      "id": "structural_formats-0169",
+      "text": "Ciclo de epidemias"
+    },
+    {
+      "id": "structural_formats-0170",
+      "text": "Ciclo de produção"
+    },
+    {
+      "id": "structural_formats-0171",
+      "text": "Ciclo de mercado"
+    },
+    {
+      "id": "structural_formats-0172",
+      "text": "Estrutura por temporadas"
+    },
+    {
+      "id": "structural_formats-0173",
+      "text": "Estrutura por capítulos"
+    },
+    {
+      "id": "structural_formats-0174",
+      "text": "Estrutura por atos"
+    },
+    {
+      "id": "structural_formats-0175",
+      "text": "Episódios"
+    },
+    {
+      "id": "structural_formats-0176",
+      "text": "Episódios por temporada"
+    },
+    {
+      "id": "structural_formats-0177",
+      "text": "Antologia"
+    },
+    {
+      "id": "structural_formats-0178",
+      "text": "Cada episódio com um personagem diferente"
+    },
+    {
+      "id": "structural_formats-0179",
+      "text": "Cada episódio em um lugar diferente"
+    },
+    {
+      "id": "structural_formats-0180",
+      "text": "Cada episódio em uma época diferente"
+    },
+    {
+      "id": "structural_formats-0181",
+      "text": "Cada partida em um mundo diferente"
+    },
+    {
+      "id": "structural_formats-0182",
+      "text": "Cada partida no mesmo mundo com uma situação inicial diferente"
+    },
+    {
+      "id": "structural_formats-0183",
+      "text": "O mesmo mundo muda entre partidas"
+    },
+    {
+      "id": "structural_formats-0184",
+      "text": "O metamundo persiste entre partidas"
+    },
+    {
+      "id": "structural_formats-0185",
+      "text": "Os NPCs persistem entre partidas"
+    },
+    {
+      "id": "structural_formats-0186",
+      "text": "O mapa persiste entre partidas"
+    },
+    {
+      "id": "structural_formats-0187",
+      "text": "O mundo é reiniciado após cada partida"
+    },
+    {
+      "id": "structural_formats-0188",
+      "text": "O mundo muda permanentemente após cada partida"
+    },
+    {
+      "id": "structural_formats-0189",
+      "text": "Uma decisão de cada vez"
+    },
+    {
+      "id": "structural_formats-0190",
+      "text": "Decisões encadeadas"
+    },
+    {
+      "id": "structural_formats-0191",
+      "text": "Decisões com limite de tempo"
+    },
+    {
+      "id": "structural_formats-0192",
+      "text": "Decisões sem pressão de tempo"
+    },
+    {
+      "id": "structural_formats-0193",
+      "text": "Decisões secretas"
+    },
+    {
+      "id": "structural_formats-0194",
+      "text": "Decisões públicas"
+    },
+    {
+      "id": "structural_formats-0195",
+      "text": "Decisões simultâneas"
+    },
+    {
+      "id": "structural_formats-0196",
+      "text": "Baseado em votação"
+    },
+    {
+      "id": "structural_formats-0197",
+      "text": "Baseado em negociação"
+    },
+    {
+      "id": "structural_formats-0198",
+      "text": "Planejamento + execução"
+    },
+    {
+      "id": "structural_formats-0199",
+      "text": "Fase de planejamento + fase em tempo real"
+    },
+    {
+      "id": "structural_formats-0200",
+      "text": "Planejar de dia, executar à noite"
+    },
+    {
+      "id": "structural_formats-0201",
+      "text": "Administrar de dia, investigar à noite"
+    },
+    {
+      "id": "structural_formats-0202",
+      "text": "Construir de dia, sobreviver à noite"
+    },
+    {
+      "id": "structural_formats-0203",
+      "text": "Jogo social de dia, furtividade à noite"
+    },
+    {
+      "id": "structural_formats-0204",
+      "text": "Gestão e ação alternadas"
+    },
+    {
+      "id": "structural_formats-0205",
+      "text": "Investigação e administração alternadas"
+    },
+    {
+      "id": "structural_formats-0206",
+      "text": "História e simulação alternadas"
+    },
+    {
+      "id": "structural_formats-0207",
+      "text": "Estrutura de jogo em várias camadas"
+    },
+    {
+      "id": "structural_formats-0208",
+      "text": "Mapa estratégico + visão tática"
+    },
+    {
+      "id": "structural_formats-0209",
+      "text": "Cidade + prédios individuais"
+    },
+    {
+      "id": "structural_formats-0210",
+      "text": "Nível da organização + nível individual"
+    },
+    {
+      "id": "structural_formats-0211",
+      "text": "Nível macro + nível micro"
+    },
+    {
+      "id": "structural_formats-0212",
+      "text": "Presente + flashbacks"
+    },
+    {
+      "id": "structural_formats-0213",
+      "text": "Presente + futuro"
+    },
+    {
+      "id": "structural_formats-0214",
+      "text": "Várias linhas do tempo em paralelo"
+    },
+    {
+      "id": "structural_formats-0215",
+      "text": "A linha do tempo salta para frente e para trás"
+    },
+    {
+      "id": "structural_formats-0216",
+      "text": "Cronologia não linear"
+    },
+    {
+      "id": "structural_formats-0217",
+      "text": "A investigação revela o passado"
+    },
+    {
+      "id": "structural_formats-0218",
+      "text": "As escolhas do jogador desbloqueiam capítulos diferentes"
+    },
+    {
+      "id": "structural_formats-0219",
+      "text": "Os segredos desbloqueiam novas camadas do jogo"
+    },
+    {
+      "id": "structural_formats-0220",
+      "text": "Novas mecânicas são desbloqueadas passo a passo"
+    },
+    {
+      "id": "structural_formats-0221",
+      "text": "As regras mudam durante a campanha"
+    },
+    {
+      "id": "structural_formats-0222",
+      "text": "O formato do jogo muda durante a história"
+    },
+    {
+      "id": "structural_formats-0223",
+      "text": "O gênero muda conforme o jogo avança"
+    },
+    {
+      "id": "structural_formats-0224",
+      "text": "Uma única crise longa"
+    },
+    {
+      "id": "structural_formats-0225",
+      "text": "Gestão de crise constante"
+    },
+    {
+      "id": "structural_formats-0226",
+      "text": "Uma série de pequenas crises"
+    },
+    {
+      "id": "structural_formats-0227",
+      "text": "A crise piora passo a passo"
+    },
+    {
+      "id": "structural_formats-0228",
+      "text": "Início calmo, final acelerado"
+    },
+    {
+      "id": "structural_formats-0229",
+      "text": "Início agitado, final de jogo aberto"
+    },
+    {
+      "id": "structural_formats-0230",
+      "text": "Fase de construção, fase de crise, fase de reconstrução"
+    }
   ]
 }

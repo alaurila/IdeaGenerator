@@ -1,342 +1,1356 @@
 {
   "progression": [
-    "Better tools",
-    "New information",
-    "Greater responsibility",
-    "Organizational growth",
-    "The map opening up",
-    "New people",
-    "New rules",
-    "New abilities",
-    "New skills",
-    "New courses of action",
-    "New buildings",
-    "New rooms",
-    "New areas",
-    "New cities",
-    "New countries",
-    "New planets",
-    "New eras",
-    "New technologies",
-    "New research directions",
-    "New production chains",
-    "New resources",
-    "New markets",
-    "New customers",
-    "New employees",
-    "New experts",
-    "New departments",
-    "New organizations",
-    "New allies",
-    "New enemies",
-    "New competitors",
-    "New factions",
-    "New relationships",
-    "New contacts",
-    "New sources of information",
-    "New secrets",
-    "New clues",
-    "New evidence",
-    "New investigation methods",
-    "New reports",
-    "New databases",
-    "New access rights",
-    "Higher security clearance",
-    "Better reputation",
-    "Greater influence",
-    "Greater political power",
-    "Greater economic power",
-    "Greater military power",
-    "Higher social standing",
-    "Higher rank",
-    "Promotion",
-    "New title",
-    "New office",
-    "Leadership position",
-    "Getting your own subordinates",
-    "Leading a larger team",
-    "Leading several departments",
-    "Leading an entire organization",
-    "Running a city",
-    "Running a state",
-    "Leading a civilization",
-    "Moving from small decisions to bigger ones",
-    "Moving from local problems to strategic ones",
-    "Moving from the individual level to the organizational level",
-    "Moving from the organizational level to the societal level",
-    "Moving from the micro level to the macro level",
-    "Ever harder decisions",
-    "Ever greater consequences",
-    "Ever shorter deadlines",
-    "Ever more complex situations",
-    "Ever more simultaneous problems",
-    "Ever more resources to manage",
-    "Ever more people to manage",
-    "An ever larger map",
-    "An ever larger organization",
-    "An ever larger population",
-    "Ever larger production",
-    "An ever larger budget",
-    "Ever greater risks",
-    "Ever greater responsibility for failure",
-    "A better inventory",
-    "A larger inventory",
-    "Better equipment",
-    "Rarer equipment",
-    "Better weapons",
-    "Better protective gear",
-    "Better sensors",
-    "Better cameras",
-    "Better vehicles",
-    "Better machines",
-    "Better robots",
-    "Better computers",
-    "Better software",
-    "Better automation",
-    "Better infrastructure",
-    "Better energy production",
-    "Better water supply",
-    "Better logistics",
-    "Better transport routes",
-    "Better storage",
-    "Better security",
-    "Better defenses",
-    "Better healthcare",
-    "Better education",
-    "Better intelligence",
-    "Better research capability",
-    "Better production efficiency",
-    "Better resource efficiency",
-    "Better worker efficiency",
-    "Better morale",
-    "Better trust",
-    "Better reputation with different groups",
-    "Better diplomatic relations",
-    "Better trade terms",
-    "Better prices",
-    "Better contracts",
-    "Better loans",
-    "Better supply chains",
-    "Greater cash flow",
-    "Greater income",
-    "Larger stockpiles",
-    "Larger resource reserves",
-    "Larger staff",
-    "Greater capacity",
-    "Greater freedom of action",
-    "Greater decision-making power",
-    "Unlocking new commands",
-    "Unlocking new dialogue options",
-    "Unlocking new research questions",
-    "Unlocking new mission types",
-    "Unlocking new building types",
-    "Unlocking new actions",
-    "Unlocking new abilities",
-    "Unlocking new strategies",
-    "Unlocking new routes",
-    "Unlocking new trade routes",
-    "Unlocking new connections",
-    "Unlocking new information channels",
-    "Unlocking new political options",
-    "Unlocking new laws",
-    "Unlocking new diplomatic options",
-    "Unlocking new research tiers",
-    "Unlocking new tech trees",
-    "Unlocking new crafting recipes",
-    "Unlocking new building recipes",
-    "Crafting new items",
-    "Upgrading items",
-    "Upgrading tools",
-    "Upgrading vehicles",
-    "Upgrading buildings",
-    "Upgrading the base",
-    "Upgrading the city",
-    "Upgrading the spaceship",
-    "Improving organizational processes",
-    "Automating work processes",
-    "Removing unnecessary work steps",
-    "Building new workflows",
-    "Unlocking delegation",
-    "Unlocking automation",
-    "Giving subordinates more independence",
-    "Delegating tasks to an AI",
-    "Automating routine tasks",
-    "The player moves from doer to leader",
-    "The player moves from leader to strategist",
-    "The player moves from observer to influencer",
-    "The player moves from outsider to insider",
-    "The player moves from beginner to expert",
-    "The player moves from unknown to famous",
-    "The player moves from poor to rich",
-    "The player moves from weak to powerful",
-    "The player moves from dependent to independent",
-    "The player moves from hunted to hunter",
-    "The player moves from employee to owner",
-    "The player moves from citizen to politician",
-    "The player moves from soldier to commander",
-    "The player moves from researcher to research director",
-    "The player moves from detective to lead investigator",
-    "The player moves from entrepreneur to head of a conglomerate",
-    "The player moves from village chief to ruler",
-    "The player moves from local actor to global actor",
-    "Character level-ups",
-    "Accumulating experience points",
-    "Earning skill points",
-    "Developing attributes",
-    "Choosing a specialization",
-    "Unlocking new perks",
-    "Unlocking new passive bonuses",
-    "Unlocking new active abilities",
-    "Old abilities growing stronger",
-    "Combining abilities",
-    "Developing a skill tree",
-    "Role specialization",
-    "Career development",
-    "Earning certifications",
-    "Completing training",
-    "Earning academic degrees",
-    "Earning rank insignia",
-    "Winning awards",
-    "Reaching reputation levels",
-    "Unlocking achievements",
-    "Unlocking new endings",
-    "Unlocking new starting situations",
-    "Unlocking new playable characters",
-    "Unlocking new factions",
-    "Unlocking new difficulty levels",
-    "Unlocking new scenarios",
-    "Unlocking new campaigns",
-    "Accumulating meta-progression",
-    "Permanent upgrades between playthroughs",
-    "Permanent knowledge between playthroughs",
-    "Permanent NPC relationships between playthroughs",
-    "A persistent world between playthroughs",
-    "Permanent buildings between playthroughs",
-    "Permanent consequences between playthroughs",
-    "New starting resources between playthroughs",
-    "New starting characters between playthroughs",
-    "New starting abilities between playthroughs",
-    "New mutators between playthroughs",
-    "The world's history growing between playthroughs",
-    "A previous player character becomes an NPC",
-    "Past achievements become world history",
-    "A chain of generations",
-    "Passing the legacy on to the next character",
-    "Inheriting property",
-    "Partially inheriting skills",
-    "Inheriting reputation",
-    "Inheriting debts",
-    "Inheriting secrets",
-    "Inheriting enmities",
-    "Inheriting relationships",
-    "Inheriting an organization",
-    "Growth of the dynasty",
-    "Growth of the family's influence",
-    "Branching of the family line",
-    "Growth of the community",
-    "Growth of the village",
-    "Growth of the city",
-    "Expansion of the state",
-    "Expansion of the empire",
-    "Growth of the colony",
-    "Population growth",
-    "Growth of residential areas",
-    "Growth of production areas",
-    "Growth of the trade network",
-    "Growth of the transport network",
-    "Growth of the intelligence network",
-    "Growth of the contact network",
-    "Growth of the spy network",
-    "Growth of the criminal network",
-    "Growth of political support",
-    "Growth of a religious movement",
-    "Growth of the cult",
-    "Growth of the army",
-    "Growth of the fleet",
-    "Growth of the research organization",
-    "Growth of the company",
-    "Growth of the market area",
-    "Growth of the customer base",
-    "Growth of the product range",
-    "Growth of the range of services",
-    "The map opening up gradually",
-    "Fog of war lifting",
-    "Discovering hidden areas",
-    "Discovering secret rooms",
-    "Discovering new floors",
-    "Discovering new routes",
-    "Discovering new worlds",
-    "Discovering new dimensions",
-    "Discovering new timelines",
-    "Discovering new layers of history",
-    "The past being revealed",
-    "NPC backgrounds being revealed",
-    "Secrets being revealed",
-    "The true nature of the organization being revealed",
-    "The true nature of the world being revealed",
-    "The player's own past being revealed",
-    "The player's identity being revealed",
-    "The antagonist's motives being revealed",
-    "The true cause of the conflict being revealed",
-    "New rules being revealed",
-    "Understanding hidden rules",
-    "A deeper understanding of the game's systems",
-    "New mechanics being added",
-    "Old mechanics combining",
-    "Mechanics changing",
-    "Rules growing more complex",
-    "Rules simplifying through automation",
-    "New constraints emerging",
-    "Old constraints disappearing",
-    "New moral problems emerging",
-    "New responsibilities emerging",
-    "New risks emerging",
-    "New enemy types emerging",
-    "New disasters becoming possible",
-    "New political conflicts emerging",
-    "New social conflicts emerging",
-    "New resource problems emerging",
-    "The reach of the player's decisions grows",
-    "The player's decisions become more irreversible",
-    "The player's decisions become more visible",
-    "The player's responsibility for people grows",
-    "The player's responsibility for the economy grows",
-    "The player's responsibility for security grows",
-    "The player's responsibility for politics grows",
-    "The player's responsibility for history grows",
-    "The player's responsibility for the whole world grows",
-    "Delegating new problems",
-    "Old problems becoming automatic",
-    "The player's focus shifts from details to the big picture",
-    "The player's focus shifts from survival to growth",
-    "The player's focus shifts from growth to power struggle",
-    "The player's focus shifts from power struggle to legacy",
-    "The player's focus shifts from local to global",
-    "The player's focus shifts from material to social",
-    "The player's focus shifts from social to political",
-    "The player's focus shifts from political to existential",
-    "The world reacts ever more strongly to the player",
-    "NPCs recognize the player's reputation",
-    "NPCs change their behavior based on the player's history",
-    "New conversations open up based on reputation",
-    "New opportunities open up based on relationships",
-    "New risks arise based on reputation",
-    "The player becomes a public figure",
-    "The player becomes a wielder of power",
-    "The player becomes a symbol",
-    "The player becomes a legend",
-    "The player becomes a historical figure",
-    "Myths arise from the player's deeds",
-    "The player's decisions become the starting point for future generations",
-    "The player builds something bigger than themselves",
-    "The player prepares for their successor",
-    "The player chooses a successor",
-    "The player trains a successor",
-    "The player hands responsibility over to a successor",
-    "The player's death doesn't end the game",
-    "The game continues with the next generation",
-    "The game continues with the next leader",
-    "The game continues with a new organization",
-    "The game continues in a changed world"
+    {
+      "id": "progression-0001",
+      "text": "Better tools"
+    },
+    {
+      "id": "progression-0002",
+      "text": "New information"
+    },
+    {
+      "id": "progression-0003",
+      "text": "Greater responsibility"
+    },
+    {
+      "id": "progression-0004",
+      "text": "Organizational growth"
+    },
+    {
+      "id": "progression-0005",
+      "text": "The map opening up"
+    },
+    {
+      "id": "progression-0006",
+      "text": "New people"
+    },
+    {
+      "id": "progression-0007",
+      "text": "New rules"
+    },
+    {
+      "id": "progression-0008",
+      "text": "New abilities"
+    },
+    {
+      "id": "progression-0009",
+      "text": "New skills"
+    },
+    {
+      "id": "progression-0010",
+      "text": "New courses of action"
+    },
+    {
+      "id": "progression-0011",
+      "text": "New buildings"
+    },
+    {
+      "id": "progression-0012",
+      "text": "New rooms"
+    },
+    {
+      "id": "progression-0013",
+      "text": "New areas"
+    },
+    {
+      "id": "progression-0014",
+      "text": "New cities"
+    },
+    {
+      "id": "progression-0015",
+      "text": "New countries"
+    },
+    {
+      "id": "progression-0016",
+      "text": "New planets"
+    },
+    {
+      "id": "progression-0017",
+      "text": "New eras"
+    },
+    {
+      "id": "progression-0018",
+      "text": "New technologies"
+    },
+    {
+      "id": "progression-0019",
+      "text": "New research directions"
+    },
+    {
+      "id": "progression-0020",
+      "text": "New production chains"
+    },
+    {
+      "id": "progression-0021",
+      "text": "New resources"
+    },
+    {
+      "id": "progression-0022",
+      "text": "New markets"
+    },
+    {
+      "id": "progression-0023",
+      "text": "New customers"
+    },
+    {
+      "id": "progression-0024",
+      "text": "New employees"
+    },
+    {
+      "id": "progression-0025",
+      "text": "New experts"
+    },
+    {
+      "id": "progression-0026",
+      "text": "New departments"
+    },
+    {
+      "id": "progression-0027",
+      "text": "New organizations"
+    },
+    {
+      "id": "progression-0028",
+      "text": "New allies"
+    },
+    {
+      "id": "progression-0029",
+      "text": "New enemies"
+    },
+    {
+      "id": "progression-0030",
+      "text": "New competitors"
+    },
+    {
+      "id": "progression-0031",
+      "text": "New factions"
+    },
+    {
+      "id": "progression-0032",
+      "text": "New relationships"
+    },
+    {
+      "id": "progression-0033",
+      "text": "New contacts"
+    },
+    {
+      "id": "progression-0034",
+      "text": "New sources of information"
+    },
+    {
+      "id": "progression-0035",
+      "text": "New secrets"
+    },
+    {
+      "id": "progression-0036",
+      "text": "New clues"
+    },
+    {
+      "id": "progression-0037",
+      "text": "New evidence"
+    },
+    {
+      "id": "progression-0038",
+      "text": "New investigation methods"
+    },
+    {
+      "id": "progression-0039",
+      "text": "New reports"
+    },
+    {
+      "id": "progression-0040",
+      "text": "New databases"
+    },
+    {
+      "id": "progression-0041",
+      "text": "New access rights"
+    },
+    {
+      "id": "progression-0042",
+      "text": "Higher security clearance"
+    },
+    {
+      "id": "progression-0043",
+      "text": "Better reputation"
+    },
+    {
+      "id": "progression-0044",
+      "text": "Greater influence"
+    },
+    {
+      "id": "progression-0045",
+      "text": "Greater political power"
+    },
+    {
+      "id": "progression-0046",
+      "text": "Greater economic power"
+    },
+    {
+      "id": "progression-0047",
+      "text": "Greater military power"
+    },
+    {
+      "id": "progression-0048",
+      "text": "Higher social standing"
+    },
+    {
+      "id": "progression-0049",
+      "text": "Higher rank"
+    },
+    {
+      "id": "progression-0050",
+      "text": "Promotion"
+    },
+    {
+      "id": "progression-0051",
+      "text": "New title"
+    },
+    {
+      "id": "progression-0052",
+      "text": "New office"
+    },
+    {
+      "id": "progression-0053",
+      "text": "Leadership position"
+    },
+    {
+      "id": "progression-0054",
+      "text": "Getting your own subordinates"
+    },
+    {
+      "id": "progression-0055",
+      "text": "Leading a larger team"
+    },
+    {
+      "id": "progression-0056",
+      "text": "Leading several departments"
+    },
+    {
+      "id": "progression-0057",
+      "text": "Leading an entire organization"
+    },
+    {
+      "id": "progression-0058",
+      "text": "Running a city"
+    },
+    {
+      "id": "progression-0059",
+      "text": "Running a state"
+    },
+    {
+      "id": "progression-0060",
+      "text": "Leading a civilization"
+    },
+    {
+      "id": "progression-0061",
+      "text": "Moving from small decisions to bigger ones"
+    },
+    {
+      "id": "progression-0062",
+      "text": "Moving from local problems to strategic ones"
+    },
+    {
+      "id": "progression-0063",
+      "text": "Moving from the individual level to the organizational level"
+    },
+    {
+      "id": "progression-0064",
+      "text": "Moving from the organizational level to the societal level"
+    },
+    {
+      "id": "progression-0065",
+      "text": "Moving from the micro level to the macro level"
+    },
+    {
+      "id": "progression-0066",
+      "text": "Ever harder decisions"
+    },
+    {
+      "id": "progression-0067",
+      "text": "Ever greater consequences"
+    },
+    {
+      "id": "progression-0068",
+      "text": "Ever shorter deadlines"
+    },
+    {
+      "id": "progression-0069",
+      "text": "Ever more complex situations"
+    },
+    {
+      "id": "progression-0070",
+      "text": "Ever more simultaneous problems"
+    },
+    {
+      "id": "progression-0071",
+      "text": "Ever more resources to manage"
+    },
+    {
+      "id": "progression-0072",
+      "text": "Ever more people to manage"
+    },
+    {
+      "id": "progression-0073",
+      "text": "An ever larger map"
+    },
+    {
+      "id": "progression-0074",
+      "text": "An ever larger organization"
+    },
+    {
+      "id": "progression-0075",
+      "text": "An ever larger population"
+    },
+    {
+      "id": "progression-0076",
+      "text": "Ever larger production"
+    },
+    {
+      "id": "progression-0077",
+      "text": "An ever larger budget"
+    },
+    {
+      "id": "progression-0078",
+      "text": "Ever greater risks"
+    },
+    {
+      "id": "progression-0079",
+      "text": "Ever greater responsibility for failure"
+    },
+    {
+      "id": "progression-0080",
+      "text": "A better inventory"
+    },
+    {
+      "id": "progression-0081",
+      "text": "A larger inventory"
+    },
+    {
+      "id": "progression-0082",
+      "text": "Better equipment"
+    },
+    {
+      "id": "progression-0083",
+      "text": "Rarer equipment"
+    },
+    {
+      "id": "progression-0084",
+      "text": "Better weapons"
+    },
+    {
+      "id": "progression-0085",
+      "text": "Better protective gear"
+    },
+    {
+      "id": "progression-0086",
+      "text": "Better sensors"
+    },
+    {
+      "id": "progression-0087",
+      "text": "Better cameras"
+    },
+    {
+      "id": "progression-0088",
+      "text": "Better vehicles"
+    },
+    {
+      "id": "progression-0089",
+      "text": "Better machines"
+    },
+    {
+      "id": "progression-0090",
+      "text": "Better robots"
+    },
+    {
+      "id": "progression-0091",
+      "text": "Better computers"
+    },
+    {
+      "id": "progression-0092",
+      "text": "Better software"
+    },
+    {
+      "id": "progression-0093",
+      "text": "Better automation"
+    },
+    {
+      "id": "progression-0094",
+      "text": "Better infrastructure"
+    },
+    {
+      "id": "progression-0095",
+      "text": "Better energy production"
+    },
+    {
+      "id": "progression-0096",
+      "text": "Better water supply"
+    },
+    {
+      "id": "progression-0097",
+      "text": "Better logistics"
+    },
+    {
+      "id": "progression-0098",
+      "text": "Better transport routes"
+    },
+    {
+      "id": "progression-0099",
+      "text": "Better storage"
+    },
+    {
+      "id": "progression-0100",
+      "text": "Better security"
+    },
+    {
+      "id": "progression-0101",
+      "text": "Better defenses"
+    },
+    {
+      "id": "progression-0102",
+      "text": "Better healthcare"
+    },
+    {
+      "id": "progression-0103",
+      "text": "Better education"
+    },
+    {
+      "id": "progression-0104",
+      "text": "Better intelligence"
+    },
+    {
+      "id": "progression-0105",
+      "text": "Better research capability"
+    },
+    {
+      "id": "progression-0106",
+      "text": "Better production efficiency"
+    },
+    {
+      "id": "progression-0107",
+      "text": "Better resource efficiency"
+    },
+    {
+      "id": "progression-0108",
+      "text": "Better worker efficiency"
+    },
+    {
+      "id": "progression-0109",
+      "text": "Better morale"
+    },
+    {
+      "id": "progression-0110",
+      "text": "Better trust"
+    },
+    {
+      "id": "progression-0111",
+      "text": "Better reputation with different groups"
+    },
+    {
+      "id": "progression-0112",
+      "text": "Better diplomatic relations"
+    },
+    {
+      "id": "progression-0113",
+      "text": "Better trade terms"
+    },
+    {
+      "id": "progression-0114",
+      "text": "Better prices"
+    },
+    {
+      "id": "progression-0115",
+      "text": "Better contracts"
+    },
+    {
+      "id": "progression-0116",
+      "text": "Better loans"
+    },
+    {
+      "id": "progression-0117",
+      "text": "Better supply chains"
+    },
+    {
+      "id": "progression-0118",
+      "text": "Greater cash flow"
+    },
+    {
+      "id": "progression-0119",
+      "text": "Greater income"
+    },
+    {
+      "id": "progression-0120",
+      "text": "Larger stockpiles"
+    },
+    {
+      "id": "progression-0121",
+      "text": "Larger resource reserves"
+    },
+    {
+      "id": "progression-0122",
+      "text": "Larger staff"
+    },
+    {
+      "id": "progression-0123",
+      "text": "Greater capacity"
+    },
+    {
+      "id": "progression-0124",
+      "text": "Greater freedom of action"
+    },
+    {
+      "id": "progression-0125",
+      "text": "Greater decision-making power"
+    },
+    {
+      "id": "progression-0126",
+      "text": "Unlocking new commands"
+    },
+    {
+      "id": "progression-0127",
+      "text": "Unlocking new dialogue options"
+    },
+    {
+      "id": "progression-0128",
+      "text": "Unlocking new research questions"
+    },
+    {
+      "id": "progression-0129",
+      "text": "Unlocking new mission types"
+    },
+    {
+      "id": "progression-0130",
+      "text": "Unlocking new building types"
+    },
+    {
+      "id": "progression-0131",
+      "text": "Unlocking new actions"
+    },
+    {
+      "id": "progression-0132",
+      "text": "Unlocking new abilities"
+    },
+    {
+      "id": "progression-0133",
+      "text": "Unlocking new strategies"
+    },
+    {
+      "id": "progression-0134",
+      "text": "Unlocking new routes"
+    },
+    {
+      "id": "progression-0135",
+      "text": "Unlocking new trade routes"
+    },
+    {
+      "id": "progression-0136",
+      "text": "Unlocking new connections"
+    },
+    {
+      "id": "progression-0137",
+      "text": "Unlocking new information channels"
+    },
+    {
+      "id": "progression-0138",
+      "text": "Unlocking new political options"
+    },
+    {
+      "id": "progression-0139",
+      "text": "Unlocking new laws"
+    },
+    {
+      "id": "progression-0140",
+      "text": "Unlocking new diplomatic options"
+    },
+    {
+      "id": "progression-0141",
+      "text": "Unlocking new research tiers"
+    },
+    {
+      "id": "progression-0142",
+      "text": "Unlocking new tech trees"
+    },
+    {
+      "id": "progression-0143",
+      "text": "Unlocking new crafting recipes"
+    },
+    {
+      "id": "progression-0144",
+      "text": "Unlocking new building recipes"
+    },
+    {
+      "id": "progression-0145",
+      "text": "Crafting new items"
+    },
+    {
+      "id": "progression-0146",
+      "text": "Upgrading items"
+    },
+    {
+      "id": "progression-0147",
+      "text": "Upgrading tools"
+    },
+    {
+      "id": "progression-0148",
+      "text": "Upgrading vehicles"
+    },
+    {
+      "id": "progression-0149",
+      "text": "Upgrading buildings"
+    },
+    {
+      "id": "progression-0150",
+      "text": "Upgrading the base"
+    },
+    {
+      "id": "progression-0151",
+      "text": "Upgrading the city"
+    },
+    {
+      "id": "progression-0152",
+      "text": "Upgrading the spaceship"
+    },
+    {
+      "id": "progression-0153",
+      "text": "Improving organizational processes"
+    },
+    {
+      "id": "progression-0154",
+      "text": "Automating work processes"
+    },
+    {
+      "id": "progression-0155",
+      "text": "Removing unnecessary work steps"
+    },
+    {
+      "id": "progression-0156",
+      "text": "Building new workflows"
+    },
+    {
+      "id": "progression-0157",
+      "text": "Unlocking delegation"
+    },
+    {
+      "id": "progression-0158",
+      "text": "Unlocking automation"
+    },
+    {
+      "id": "progression-0159",
+      "text": "Giving subordinates more independence"
+    },
+    {
+      "id": "progression-0160",
+      "text": "Delegating tasks to an AI"
+    },
+    {
+      "id": "progression-0161",
+      "text": "Automating routine tasks"
+    },
+    {
+      "id": "progression-0162",
+      "text": "The player moves from doer to leader"
+    },
+    {
+      "id": "progression-0163",
+      "text": "The player moves from leader to strategist"
+    },
+    {
+      "id": "progression-0164",
+      "text": "The player moves from observer to influencer"
+    },
+    {
+      "id": "progression-0165",
+      "text": "The player moves from outsider to insider"
+    },
+    {
+      "id": "progression-0166",
+      "text": "The player moves from beginner to expert"
+    },
+    {
+      "id": "progression-0167",
+      "text": "The player moves from unknown to famous"
+    },
+    {
+      "id": "progression-0168",
+      "text": "The player moves from poor to rich"
+    },
+    {
+      "id": "progression-0169",
+      "text": "The player moves from weak to powerful"
+    },
+    {
+      "id": "progression-0170",
+      "text": "The player moves from dependent to independent"
+    },
+    {
+      "id": "progression-0171",
+      "text": "The player moves from hunted to hunter"
+    },
+    {
+      "id": "progression-0172",
+      "text": "The player moves from employee to owner"
+    },
+    {
+      "id": "progression-0173",
+      "text": "The player moves from citizen to politician"
+    },
+    {
+      "id": "progression-0174",
+      "text": "The player moves from soldier to commander"
+    },
+    {
+      "id": "progression-0175",
+      "text": "The player moves from researcher to research director"
+    },
+    {
+      "id": "progression-0176",
+      "text": "The player moves from detective to lead investigator"
+    },
+    {
+      "id": "progression-0177",
+      "text": "The player moves from entrepreneur to head of a conglomerate"
+    },
+    {
+      "id": "progression-0178",
+      "text": "The player moves from village chief to ruler"
+    },
+    {
+      "id": "progression-0179",
+      "text": "The player moves from local actor to global actor"
+    },
+    {
+      "id": "progression-0180",
+      "text": "Character level-ups"
+    },
+    {
+      "id": "progression-0181",
+      "text": "Accumulating experience points"
+    },
+    {
+      "id": "progression-0182",
+      "text": "Earning skill points"
+    },
+    {
+      "id": "progression-0183",
+      "text": "Developing attributes"
+    },
+    {
+      "id": "progression-0184",
+      "text": "Choosing a specialization"
+    },
+    {
+      "id": "progression-0185",
+      "text": "Unlocking new perks"
+    },
+    {
+      "id": "progression-0186",
+      "text": "Unlocking new passive bonuses"
+    },
+    {
+      "id": "progression-0187",
+      "text": "Unlocking new active abilities"
+    },
+    {
+      "id": "progression-0188",
+      "text": "Old abilities growing stronger"
+    },
+    {
+      "id": "progression-0189",
+      "text": "Combining abilities"
+    },
+    {
+      "id": "progression-0190",
+      "text": "Developing a skill tree"
+    },
+    {
+      "id": "progression-0191",
+      "text": "Role specialization"
+    },
+    {
+      "id": "progression-0192",
+      "text": "Career development"
+    },
+    {
+      "id": "progression-0193",
+      "text": "Earning certifications"
+    },
+    {
+      "id": "progression-0194",
+      "text": "Completing training"
+    },
+    {
+      "id": "progression-0195",
+      "text": "Earning academic degrees"
+    },
+    {
+      "id": "progression-0196",
+      "text": "Earning rank insignia"
+    },
+    {
+      "id": "progression-0197",
+      "text": "Winning awards"
+    },
+    {
+      "id": "progression-0198",
+      "text": "Reaching reputation levels"
+    },
+    {
+      "id": "progression-0199",
+      "text": "Unlocking achievements"
+    },
+    {
+      "id": "progression-0200",
+      "text": "Unlocking new endings"
+    },
+    {
+      "id": "progression-0201",
+      "text": "Unlocking new starting situations"
+    },
+    {
+      "id": "progression-0202",
+      "text": "Unlocking new playable characters"
+    },
+    {
+      "id": "progression-0203",
+      "text": "Unlocking new factions"
+    },
+    {
+      "id": "progression-0204",
+      "text": "Unlocking new difficulty levels"
+    },
+    {
+      "id": "progression-0205",
+      "text": "Unlocking new scenarios"
+    },
+    {
+      "id": "progression-0206",
+      "text": "Unlocking new campaigns"
+    },
+    {
+      "id": "progression-0207",
+      "text": "Accumulating meta-progression"
+    },
+    {
+      "id": "progression-0208",
+      "text": "Permanent upgrades between playthroughs"
+    },
+    {
+      "id": "progression-0209",
+      "text": "Permanent knowledge between playthroughs"
+    },
+    {
+      "id": "progression-0210",
+      "text": "Permanent NPC relationships between playthroughs"
+    },
+    {
+      "id": "progression-0211",
+      "text": "A persistent world between playthroughs"
+    },
+    {
+      "id": "progression-0212",
+      "text": "Permanent buildings between playthroughs"
+    },
+    {
+      "id": "progression-0213",
+      "text": "Permanent consequences between playthroughs"
+    },
+    {
+      "id": "progression-0214",
+      "text": "New starting resources between playthroughs"
+    },
+    {
+      "id": "progression-0215",
+      "text": "New starting characters between playthroughs"
+    },
+    {
+      "id": "progression-0216",
+      "text": "New starting abilities between playthroughs"
+    },
+    {
+      "id": "progression-0217",
+      "text": "New mutators between playthroughs"
+    },
+    {
+      "id": "progression-0218",
+      "text": "The world's history growing between playthroughs"
+    },
+    {
+      "id": "progression-0219",
+      "text": "A previous player character becomes an NPC"
+    },
+    {
+      "id": "progression-0220",
+      "text": "Past achievements become world history"
+    },
+    {
+      "id": "progression-0221",
+      "text": "A chain of generations"
+    },
+    {
+      "id": "progression-0222",
+      "text": "Passing the legacy on to the next character"
+    },
+    {
+      "id": "progression-0223",
+      "text": "Inheriting property"
+    },
+    {
+      "id": "progression-0224",
+      "text": "Partially inheriting skills"
+    },
+    {
+      "id": "progression-0225",
+      "text": "Inheriting reputation"
+    },
+    {
+      "id": "progression-0226",
+      "text": "Inheriting debts"
+    },
+    {
+      "id": "progression-0227",
+      "text": "Inheriting secrets"
+    },
+    {
+      "id": "progression-0228",
+      "text": "Inheriting enmities"
+    },
+    {
+      "id": "progression-0229",
+      "text": "Inheriting relationships"
+    },
+    {
+      "id": "progression-0230",
+      "text": "Inheriting an organization"
+    },
+    {
+      "id": "progression-0231",
+      "text": "Growth of the dynasty"
+    },
+    {
+      "id": "progression-0232",
+      "text": "Growth of the family's influence"
+    },
+    {
+      "id": "progression-0233",
+      "text": "Branching of the family line"
+    },
+    {
+      "id": "progression-0234",
+      "text": "Growth of the community"
+    },
+    {
+      "id": "progression-0235",
+      "text": "Growth of the village"
+    },
+    {
+      "id": "progression-0236",
+      "text": "Growth of the city"
+    },
+    {
+      "id": "progression-0237",
+      "text": "Expansion of the state"
+    },
+    {
+      "id": "progression-0238",
+      "text": "Expansion of the empire"
+    },
+    {
+      "id": "progression-0239",
+      "text": "Growth of the colony"
+    },
+    {
+      "id": "progression-0240",
+      "text": "Population growth"
+    },
+    {
+      "id": "progression-0241",
+      "text": "Growth of residential areas"
+    },
+    {
+      "id": "progression-0242",
+      "text": "Growth of production areas"
+    },
+    {
+      "id": "progression-0243",
+      "text": "Growth of the trade network"
+    },
+    {
+      "id": "progression-0244",
+      "text": "Growth of the transport network"
+    },
+    {
+      "id": "progression-0245",
+      "text": "Growth of the intelligence network"
+    },
+    {
+      "id": "progression-0246",
+      "text": "Growth of the contact network"
+    },
+    {
+      "id": "progression-0247",
+      "text": "Growth of the spy network"
+    },
+    {
+      "id": "progression-0248",
+      "text": "Growth of the criminal network"
+    },
+    {
+      "id": "progression-0249",
+      "text": "Growth of political support"
+    },
+    {
+      "id": "progression-0250",
+      "text": "Growth of a religious movement"
+    },
+    {
+      "id": "progression-0251",
+      "text": "Growth of the cult"
+    },
+    {
+      "id": "progression-0252",
+      "text": "Growth of the army"
+    },
+    {
+      "id": "progression-0253",
+      "text": "Growth of the fleet"
+    },
+    {
+      "id": "progression-0254",
+      "text": "Growth of the research organization"
+    },
+    {
+      "id": "progression-0255",
+      "text": "Growth of the company"
+    },
+    {
+      "id": "progression-0256",
+      "text": "Growth of the market area"
+    },
+    {
+      "id": "progression-0257",
+      "text": "Growth of the customer base"
+    },
+    {
+      "id": "progression-0258",
+      "text": "Growth of the product range"
+    },
+    {
+      "id": "progression-0259",
+      "text": "Growth of the range of services"
+    },
+    {
+      "id": "progression-0260",
+      "text": "The map opening up gradually"
+    },
+    {
+      "id": "progression-0261",
+      "text": "Fog of war lifting"
+    },
+    {
+      "id": "progression-0262",
+      "text": "Discovering hidden areas"
+    },
+    {
+      "id": "progression-0263",
+      "text": "Discovering secret rooms"
+    },
+    {
+      "id": "progression-0264",
+      "text": "Discovering new floors"
+    },
+    {
+      "id": "progression-0265",
+      "text": "Discovering new routes"
+    },
+    {
+      "id": "progression-0266",
+      "text": "Discovering new worlds"
+    },
+    {
+      "id": "progression-0267",
+      "text": "Discovering new dimensions"
+    },
+    {
+      "id": "progression-0268",
+      "text": "Discovering new timelines"
+    },
+    {
+      "id": "progression-0269",
+      "text": "Discovering new layers of history"
+    },
+    {
+      "id": "progression-0270",
+      "text": "The past being revealed"
+    },
+    {
+      "id": "progression-0271",
+      "text": "NPC backgrounds being revealed"
+    },
+    {
+      "id": "progression-0272",
+      "text": "Secrets being revealed"
+    },
+    {
+      "id": "progression-0273",
+      "text": "The true nature of the organization being revealed"
+    },
+    {
+      "id": "progression-0274",
+      "text": "The true nature of the world being revealed"
+    },
+    {
+      "id": "progression-0275",
+      "text": "The player's own past being revealed"
+    },
+    {
+      "id": "progression-0276",
+      "text": "The player's identity being revealed"
+    },
+    {
+      "id": "progression-0277",
+      "text": "The antagonist's motives being revealed"
+    },
+    {
+      "id": "progression-0278",
+      "text": "The true cause of the conflict being revealed"
+    },
+    {
+      "id": "progression-0279",
+      "text": "New rules being revealed"
+    },
+    {
+      "id": "progression-0280",
+      "text": "Understanding hidden rules"
+    },
+    {
+      "id": "progression-0281",
+      "text": "A deeper understanding of the game's systems"
+    },
+    {
+      "id": "progression-0282",
+      "text": "New mechanics being added"
+    },
+    {
+      "id": "progression-0283",
+      "text": "Old mechanics combining"
+    },
+    {
+      "id": "progression-0284",
+      "text": "Mechanics changing"
+    },
+    {
+      "id": "progression-0285",
+      "text": "Rules growing more complex"
+    },
+    {
+      "id": "progression-0286",
+      "text": "Rules simplifying through automation"
+    },
+    {
+      "id": "progression-0287",
+      "text": "New constraints emerging"
+    },
+    {
+      "id": "progression-0288",
+      "text": "Old constraints disappearing"
+    },
+    {
+      "id": "progression-0289",
+      "text": "New moral problems emerging"
+    },
+    {
+      "id": "progression-0290",
+      "text": "New responsibilities emerging"
+    },
+    {
+      "id": "progression-0291",
+      "text": "New risks emerging"
+    },
+    {
+      "id": "progression-0292",
+      "text": "New enemy types emerging"
+    },
+    {
+      "id": "progression-0293",
+      "text": "New disasters becoming possible"
+    },
+    {
+      "id": "progression-0294",
+      "text": "New political conflicts emerging"
+    },
+    {
+      "id": "progression-0295",
+      "text": "New social conflicts emerging"
+    },
+    {
+      "id": "progression-0296",
+      "text": "New resource problems emerging"
+    },
+    {
+      "id": "progression-0297",
+      "text": "The reach of the player's decisions grows"
+    },
+    {
+      "id": "progression-0298",
+      "text": "The player's decisions become more irreversible"
+    },
+    {
+      "id": "progression-0299",
+      "text": "The player's decisions become more visible"
+    },
+    {
+      "id": "progression-0300",
+      "text": "The player's responsibility for people grows"
+    },
+    {
+      "id": "progression-0301",
+      "text": "The player's responsibility for the economy grows"
+    },
+    {
+      "id": "progression-0302",
+      "text": "The player's responsibility for security grows"
+    },
+    {
+      "id": "progression-0303",
+      "text": "The player's responsibility for politics grows"
+    },
+    {
+      "id": "progression-0304",
+      "text": "The player's responsibility for history grows"
+    },
+    {
+      "id": "progression-0305",
+      "text": "The player's responsibility for the whole world grows"
+    },
+    {
+      "id": "progression-0306",
+      "text": "Delegating new problems"
+    },
+    {
+      "id": "progression-0307",
+      "text": "Old problems becoming automatic"
+    },
+    {
+      "id": "progression-0308",
+      "text": "The player's focus shifts from details to the big picture"
+    },
+    {
+      "id": "progression-0309",
+      "text": "The player's focus shifts from survival to growth"
+    },
+    {
+      "id": "progression-0310",
+      "text": "The player's focus shifts from growth to power struggle"
+    },
+    {
+      "id": "progression-0311",
+      "text": "The player's focus shifts from power struggle to legacy"
+    },
+    {
+      "id": "progression-0312",
+      "text": "The player's focus shifts from local to global"
+    },
+    {
+      "id": "progression-0313",
+      "text": "The player's focus shifts from material to social"
+    },
+    {
+      "id": "progression-0314",
+      "text": "The player's focus shifts from social to political"
+    },
+    {
+      "id": "progression-0315",
+      "text": "The player's focus shifts from political to existential"
+    },
+    {
+      "id": "progression-0316",
+      "text": "The world reacts ever more strongly to the player"
+    },
+    {
+      "id": "progression-0317",
+      "text": "NPCs recognize the player's reputation"
+    },
+    {
+      "id": "progression-0318",
+      "text": "NPCs change their behavior based on the player's history"
+    },
+    {
+      "id": "progression-0319",
+      "text": "New conversations open up based on reputation"
+    },
+    {
+      "id": "progression-0320",
+      "text": "New opportunities open up based on relationships"
+    },
+    {
+      "id": "progression-0321",
+      "text": "New risks arise based on reputation"
+    },
+    {
+      "id": "progression-0322",
+      "text": "The player becomes a public figure"
+    },
+    {
+      "id": "progression-0323",
+      "text": "The player becomes a wielder of power"
+    },
+    {
+      "id": "progression-0324",
+      "text": "The player becomes a symbol"
+    },
+    {
+      "id": "progression-0325",
+      "text": "The player becomes a legend"
+    },
+    {
+      "id": "progression-0326",
+      "text": "The player becomes a historical figure"
+    },
+    {
+      "id": "progression-0327",
+      "text": "Myths arise from the player's deeds"
+    },
+    {
+      "id": "progression-0328",
+      "text": "The player's decisions become the starting point for future generations"
+    },
+    {
+      "id": "progression-0329",
+      "text": "The player builds something bigger than themselves"
+    },
+    {
+      "id": "progression-0330",
+      "text": "The player prepares for their successor"
+    },
+    {
+      "id": "progression-0331",
+      "text": "The player chooses a successor"
+    },
+    {
+      "id": "progression-0332",
+      "text": "The player trains a successor"
+    },
+    {
+      "id": "progression-0333",
+      "text": "The player hands responsibility over to a successor"
+    },
+    {
+      "id": "progression-0334",
+      "text": "The player's death doesn't end the game"
+    },
+    {
+      "id": "progression-0335",
+      "text": "The game continues with the next generation"
+    },
+    {
+      "id": "progression-0336",
+      "text": "The game continues with the next leader"
+    },
+    {
+      "id": "progression-0337",
+      "text": "The game continues with a new organization"
+    },
+    {
+      "id": "progression-0338",
+      "text": "The game continues in a changed world"
+    }
   ]
 }

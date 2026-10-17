@@ -1,396 +1,1434 @@
 {
   "places": {
     "settlements": [
-      "Cidade",
-      "Cidade pequena",
-      "Vila",
-      "Subúrbio",
-      "Favela",
-      "Centro da cidade",
-      "Cidade velha",
-      "Zona industrial",
-      "Cidade portuária",
-      "Cidade de fronteira",
-      "Cidade mineira",
-      "Cidade universitária",
-      "Cidade turística",
-      "Cidade abandonada",
-      "Cidade subterrânea",
-      "Cidade flutuante",
-      "Cidade espacial",
-      "Cidade sob uma cúpula",
-      "Megacidade",
-      "Cidade-estado"
+      {
+        "id": "settings-0001",
+        "text": "Cidade"
+      },
+      {
+        "id": "settings-0002",
+        "text": "Cidade pequena"
+      },
+      {
+        "id": "settings-0003",
+        "text": "Vila"
+      },
+      {
+        "id": "settings-0004",
+        "text": "Subúrbio"
+      },
+      {
+        "id": "settings-0005",
+        "text": "Favela"
+      },
+      {
+        "id": "settings-0006",
+        "text": "Centro da cidade"
+      },
+      {
+        "id": "settings-0007",
+        "text": "Cidade velha"
+      },
+      {
+        "id": "settings-0008",
+        "text": "Zona industrial"
+      },
+      {
+        "id": "settings-0009",
+        "text": "Cidade portuária"
+      },
+      {
+        "id": "settings-0010",
+        "text": "Cidade de fronteira"
+      },
+      {
+        "id": "settings-0011",
+        "text": "Cidade mineira"
+      },
+      {
+        "id": "settings-0012",
+        "text": "Cidade universitária"
+      },
+      {
+        "id": "settings-0013",
+        "text": "Cidade turística"
+      },
+      {
+        "id": "settings-0014",
+        "text": "Cidade abandonada"
+      },
+      {
+        "id": "settings-0015",
+        "text": "Cidade subterrânea"
+      },
+      {
+        "id": "settings-0016",
+        "text": "Cidade flutuante"
+      },
+      {
+        "id": "settings-0017",
+        "text": "Cidade espacial"
+      },
+      {
+        "id": "settings-0018",
+        "text": "Cidade sob uma cúpula"
+      },
+      {
+        "id": "settings-0019",
+        "text": "Megacidade"
+      },
+      {
+        "id": "settings-0020",
+        "text": "Cidade-estado"
+      }
     ],
     "residential_and_religious": [
-      "Prédio de apartamentos",
-      "Casa térrea",
-      "Casarão",
-      "Castelo",
-      "Palácio",
-      "Mansão de campo",
-      "Cabana",
-      "Estalagem",
-      "Hotel",
-      "Motel",
-      "Albergue",
-      "Alojamento estudantil",
-      "Orfanato",
-      "Asilo de idosos",
-      "Abrigo para vítimas",
-      "Mosteiro",
-      "Templo",
-      "Igreja",
-      "Cemitério",
-      "Cripta"
+      {
+        "id": "settings-0021",
+        "text": "Prédio de apartamentos"
+      },
+      {
+        "id": "settings-0022",
+        "text": "Casa térrea"
+      },
+      {
+        "id": "settings-0023",
+        "text": "Casarão"
+      },
+      {
+        "id": "settings-0024",
+        "text": "Castelo"
+      },
+      {
+        "id": "settings-0025",
+        "text": "Palácio"
+      },
+      {
+        "id": "settings-0026",
+        "text": "Mansão de campo"
+      },
+      {
+        "id": "settings-0027",
+        "text": "Cabana"
+      },
+      {
+        "id": "settings-0028",
+        "text": "Estalagem"
+      },
+      {
+        "id": "settings-0029",
+        "text": "Hotel"
+      },
+      {
+        "id": "settings-0030",
+        "text": "Motel"
+      },
+      {
+        "id": "settings-0031",
+        "text": "Albergue"
+      },
+      {
+        "id": "settings-0032",
+        "text": "Alojamento estudantil"
+      },
+      {
+        "id": "settings-0033",
+        "text": "Orfanato"
+      },
+      {
+        "id": "settings-0034",
+        "text": "Asilo de idosos"
+      },
+      {
+        "id": "settings-0035",
+        "text": "Abrigo para vítimas"
+      },
+      {
+        "id": "settings-0036",
+        "text": "Mosteiro"
+      },
+      {
+        "id": "settings-0037",
+        "text": "Templo"
+      },
+      {
+        "id": "settings-0038",
+        "text": "Igreja"
+      },
+      {
+        "id": "settings-0039",
+        "text": "Cemitério"
+      },
+      {
+        "id": "settings-0040",
+        "text": "Cripta"
+      }
     ],
     "commercial_and_leisure": [
-      "Loja",
-      "Supermercado",
-      "Shopping center",
-      "Loja de departamentos",
-      "Feira de usados",
-      "Antiquário",
-      "Casa de penhores",
-      "Casa de leilões",
-      "Bar",
-      "Pub",
-      "Restaurante",
-      "Café",
-      "Boate",
-      "Cassino",
-      "Bordel",
-      "Barbearia",
-      "Lavanderia",
-      "Farmácia",
-      "Oficina mecânica"
+      {
+        "id": "settings-0041",
+        "text": "Loja"
+      },
+      {
+        "id": "settings-0042",
+        "text": "Supermercado"
+      },
+      {
+        "id": "settings-0043",
+        "text": "Shopping center"
+      },
+      {
+        "id": "settings-0044",
+        "text": "Loja de departamentos"
+      },
+      {
+        "id": "settings-0045",
+        "text": "Feira de usados"
+      },
+      {
+        "id": "settings-0046",
+        "text": "Antiquário"
+      },
+      {
+        "id": "settings-0047",
+        "text": "Casa de penhores"
+      },
+      {
+        "id": "settings-0048",
+        "text": "Casa de leilões"
+      },
+      {
+        "id": "settings-0049",
+        "text": "Bar"
+      },
+      {
+        "id": "settings-0050",
+        "text": "Pub"
+      },
+      {
+        "id": "settings-0051",
+        "text": "Restaurante"
+      },
+      {
+        "id": "settings-0052",
+        "text": "Café"
+      },
+      {
+        "id": "settings-0053",
+        "text": "Boate"
+      },
+      {
+        "id": "settings-0054",
+        "text": "Cassino"
+      },
+      {
+        "id": "settings-0055",
+        "text": "Bordel"
+      },
+      {
+        "id": "settings-0056",
+        "text": "Barbearia"
+      },
+      {
+        "id": "settings-0057",
+        "text": "Lavanderia"
+      },
+      {
+        "id": "settings-0058",
+        "text": "Farmácia"
+      },
+      {
+        "id": "settings-0059",
+        "text": "Oficina mecânica"
+      }
     ],
     "offices_and_culture": [
-      "Escritório",
-      "Órgão público",
-      "Ministério",
-      "Prefeitura",
-      "Repartição municipal",
-      "Receita federal",
-      "Banco",
-      "Seguradora",
-      "Escritório de advocacia",
-      "Redação de jornal",
-      "Estação de rádio",
-      "Estúdio de TV",
-      "Agência de publicidade",
-      "Arquivo",
-      "Biblioteca",
-      "Museu",
-      "Galeria",
-      "Teatro",
-      "Cinema"
+      {
+        "id": "settings-0060",
+        "text": "Escritório"
+      },
+      {
+        "id": "settings-0061",
+        "text": "Órgão público"
+      },
+      {
+        "id": "settings-0062",
+        "text": "Ministério"
+      },
+      {
+        "id": "settings-0063",
+        "text": "Prefeitura"
+      },
+      {
+        "id": "settings-0064",
+        "text": "Repartição municipal"
+      },
+      {
+        "id": "settings-0065",
+        "text": "Receita federal"
+      },
+      {
+        "id": "settings-0066",
+        "text": "Banco"
+      },
+      {
+        "id": "settings-0067",
+        "text": "Seguradora"
+      },
+      {
+        "id": "settings-0068",
+        "text": "Escritório de advocacia"
+      },
+      {
+        "id": "settings-0069",
+        "text": "Redação de jornal"
+      },
+      {
+        "id": "settings-0070",
+        "text": "Estação de rádio"
+      },
+      {
+        "id": "settings-0071",
+        "text": "Estúdio de TV"
+      },
+      {
+        "id": "settings-0072",
+        "text": "Agência de publicidade"
+      },
+      {
+        "id": "settings-0073",
+        "text": "Arquivo"
+      },
+      {
+        "id": "settings-0074",
+        "text": "Biblioteca"
+      },
+      {
+        "id": "settings-0075",
+        "text": "Museu"
+      },
+      {
+        "id": "settings-0076",
+        "text": "Galeria"
+      },
+      {
+        "id": "settings-0077",
+        "text": "Teatro"
+      },
+      {
+        "id": "settings-0078",
+        "text": "Cinema"
+      }
     ],
     "institutions": [
-      "Escola",
-      "Universidade",
-      "Internato",
-      "Creche",
-      "Quartel do exército",
-      "Delegacia",
-      "Quartel de bombeiros",
-      "Fórum",
-      "Prisão",
-      "Hospital psiquiátrico",
-      "Hospital",
-      "Clínica",
-      "Sala de autópsia",
-      "Laboratório",
-      "Instituto de pesquisa",
-      "Centro de pesquisa secreto"
+      {
+        "id": "settings-0079",
+        "text": "Escola"
+      },
+      {
+        "id": "settings-0080",
+        "text": "Universidade"
+      },
+      {
+        "id": "settings-0081",
+        "text": "Internato"
+      },
+      {
+        "id": "settings-0082",
+        "text": "Creche"
+      },
+      {
+        "id": "settings-0083",
+        "text": "Quartel do exército"
+      },
+      {
+        "id": "settings-0084",
+        "text": "Delegacia"
+      },
+      {
+        "id": "settings-0085",
+        "text": "Quartel de bombeiros"
+      },
+      {
+        "id": "settings-0086",
+        "text": "Fórum"
+      },
+      {
+        "id": "settings-0087",
+        "text": "Prisão"
+      },
+      {
+        "id": "settings-0088",
+        "text": "Hospital psiquiátrico"
+      },
+      {
+        "id": "settings-0089",
+        "text": "Hospital"
+      },
+      {
+        "id": "settings-0090",
+        "text": "Clínica"
+      },
+      {
+        "id": "settings-0091",
+        "text": "Sala de autópsia"
+      },
+      {
+        "id": "settings-0092",
+        "text": "Laboratório"
+      },
+      {
+        "id": "settings-0093",
+        "text": "Instituto de pesquisa"
+      },
+      {
+        "id": "settings-0094",
+        "text": "Centro de pesquisa secreto"
+      }
     ],
     "industry_and_infrastructure": [
-      "Fábrica",
-      "Usina elétrica",
-      "Usina nuclear",
-      "Usina hidrelétrica",
-      "Refinaria",
-      "Mina",
-      "Serraria",
-      "Estaleiro",
-      "Depósito",
-      "Centro logístico",
-      "Centro de distribuição",
-      "Estação de resíduos",
-      "Lixão",
-      "Centro de reciclagem",
-      "Data center",
-      "Sala de servidores"
+      {
+        "id": "settings-0095",
+        "text": "Fábrica"
+      },
+      {
+        "id": "settings-0096",
+        "text": "Usina elétrica"
+      },
+      {
+        "id": "settings-0097",
+        "text": "Usina nuclear"
+      },
+      {
+        "id": "settings-0098",
+        "text": "Usina hidrelétrica"
+      },
+      {
+        "id": "settings-0099",
+        "text": "Refinaria"
+      },
+      {
+        "id": "settings-0100",
+        "text": "Mina"
+      },
+      {
+        "id": "settings-0101",
+        "text": "Serraria"
+      },
+      {
+        "id": "settings-0102",
+        "text": "Estaleiro"
+      },
+      {
+        "id": "settings-0103",
+        "text": "Depósito"
+      },
+      {
+        "id": "settings-0104",
+        "text": "Centro logístico"
+      },
+      {
+        "id": "settings-0105",
+        "text": "Centro de distribuição"
+      },
+      {
+        "id": "settings-0106",
+        "text": "Estação de resíduos"
+      },
+      {
+        "id": "settings-0107",
+        "text": "Lixão"
+      },
+      {
+        "id": "settings-0108",
+        "text": "Centro de reciclagem"
+      },
+      {
+        "id": "settings-0109",
+        "text": "Data center"
+      },
+      {
+        "id": "settings-0110",
+        "text": "Sala de servidores"
+      }
     ],
     "transport_locations": [
-      "Estação de trem",
-      "Estação de metrô",
-      "Rodoviária",
-      "Aeroporto",
-      "Porto",
-      "Terminal de balsas",
-      "Posto de gasolina",
-      "Parada de beira de estrada",
-      "Posto de fronteira",
-      "Alfândega",
-      "Rodovia",
-      "Estrada vicinal",
-      "Ferrovia",
-      "Túnel",
-      "Ponte",
-      "Canal"
+      {
+        "id": "settings-0111",
+        "text": "Estação de trem"
+      },
+      {
+        "id": "settings-0112",
+        "text": "Estação de metrô"
+      },
+      {
+        "id": "settings-0113",
+        "text": "Rodoviária"
+      },
+      {
+        "id": "settings-0114",
+        "text": "Aeroporto"
+      },
+      {
+        "id": "settings-0115",
+        "text": "Porto"
+      },
+      {
+        "id": "settings-0116",
+        "text": "Terminal de balsas"
+      },
+      {
+        "id": "settings-0117",
+        "text": "Posto de gasolina"
+      },
+      {
+        "id": "settings-0118",
+        "text": "Parada de beira de estrada"
+      },
+      {
+        "id": "settings-0119",
+        "text": "Posto de fronteira"
+      },
+      {
+        "id": "settings-0120",
+        "text": "Alfândega"
+      },
+      {
+        "id": "settings-0121",
+        "text": "Rodovia"
+      },
+      {
+        "id": "settings-0122",
+        "text": "Estrada vicinal"
+      },
+      {
+        "id": "settings-0123",
+        "text": "Ferrovia"
+      },
+      {
+        "id": "settings-0124",
+        "text": "Túnel"
+      },
+      {
+        "id": "settings-0125",
+        "text": "Ponte"
+      },
+      {
+        "id": "settings-0126",
+        "text": "Canal"
+      }
     ],
     "vehicles": [
-      "Trem",
-      "Metrô",
-      "Ônibus",
-      "Táxi",
-      "Avião",
-      "Helicóptero",
-      "Navio",
-      "Navio de cruzeiro",
-      "Navio cargueiro",
-      "Submarino",
-      "Plataforma de petróleo",
-      "Nave espacial",
-      "Estação espacial",
-      "Nave geracional",
-      "Bote salva-vidas",
-      "Trem blindado"
+      {
+        "id": "settings-0127",
+        "text": "Trem"
+      },
+      {
+        "id": "settings-0128",
+        "text": "Metrô"
+      },
+      {
+        "id": "settings-0129",
+        "text": "Ônibus"
+      },
+      {
+        "id": "settings-0130",
+        "text": "Táxi"
+      },
+      {
+        "id": "settings-0131",
+        "text": "Avião"
+      },
+      {
+        "id": "settings-0132",
+        "text": "Helicóptero"
+      },
+      {
+        "id": "settings-0133",
+        "text": "Navio"
+      },
+      {
+        "id": "settings-0134",
+        "text": "Navio de cruzeiro"
+      },
+      {
+        "id": "settings-0135",
+        "text": "Navio cargueiro"
+      },
+      {
+        "id": "settings-0136",
+        "text": "Submarino"
+      },
+      {
+        "id": "settings-0137",
+        "text": "Plataforma de petróleo"
+      },
+      {
+        "id": "settings-0138",
+        "text": "Nave espacial"
+      },
+      {
+        "id": "settings-0139",
+        "text": "Estação espacial"
+      },
+      {
+        "id": "settings-0140",
+        "text": "Nave geracional"
+      },
+      {
+        "id": "settings-0141",
+        "text": "Bote salva-vidas"
+      },
+      {
+        "id": "settings-0142",
+        "text": "Trem blindado"
+      }
     ],
     "nature": [
-      "Floresta",
-      "Floresta tropical",
-      "Deserto",
-      "Tundra",
-      "Taiga",
-      "Pântano",
-      "Montanhas",
-      "Cânion",
-      "Caverna",
-      "Geleira",
-      "Ilha",
-      "Ilha deserta",
-      "Arquipélago",
-      "Praia",
-      "Rio",
-      "Lago",
-      "Fundo do mar",
-      "Vulcão",
-      "Cratera",
-      "Natureza selvagem"
+      {
+        "id": "settings-0143",
+        "text": "Floresta"
+      },
+      {
+        "id": "settings-0144",
+        "text": "Floresta tropical"
+      },
+      {
+        "id": "settings-0145",
+        "text": "Deserto"
+      },
+      {
+        "id": "settings-0146",
+        "text": "Tundra"
+      },
+      {
+        "id": "settings-0147",
+        "text": "Taiga"
+      },
+      {
+        "id": "settings-0148",
+        "text": "Pântano"
+      },
+      {
+        "id": "settings-0149",
+        "text": "Montanhas"
+      },
+      {
+        "id": "settings-0150",
+        "text": "Cânion"
+      },
+      {
+        "id": "settings-0151",
+        "text": "Caverna"
+      },
+      {
+        "id": "settings-0152",
+        "text": "Geleira"
+      },
+      {
+        "id": "settings-0153",
+        "text": "Ilha"
+      },
+      {
+        "id": "settings-0154",
+        "text": "Ilha deserta"
+      },
+      {
+        "id": "settings-0155",
+        "text": "Arquipélago"
+      },
+      {
+        "id": "settings-0156",
+        "text": "Praia"
+      },
+      {
+        "id": "settings-0157",
+        "text": "Rio"
+      },
+      {
+        "id": "settings-0158",
+        "text": "Lago"
+      },
+      {
+        "id": "settings-0159",
+        "text": "Fundo do mar"
+      },
+      {
+        "id": "settings-0160",
+        "text": "Vulcão"
+      },
+      {
+        "id": "settings-0161",
+        "text": "Cratera"
+      },
+      {
+        "id": "settings-0162",
+        "text": "Natureza selvagem"
+      }
     ],
     "rural_and_agricultural": [
-      "Parque nacional",
-      "Reserva natural",
-      "Área de caça",
-      "Vila de pescadores",
-      "Fazenda",
-      "Rancho",
-      "Vinícola",
-      "Estufa",
-      "Jardim",
-      "Pomar",
-      "Fazenda de caça"
+      {
+        "id": "settings-0163",
+        "text": "Parque nacional"
+      },
+      {
+        "id": "settings-0164",
+        "text": "Reserva natural"
+      },
+      {
+        "id": "settings-0165",
+        "text": "Área de caça"
+      },
+      {
+        "id": "settings-0166",
+        "text": "Vila de pescadores"
+      },
+      {
+        "id": "settings-0167",
+        "text": "Fazenda"
+      },
+      {
+        "id": "settings-0168",
+        "text": "Rancho"
+      },
+      {
+        "id": "settings-0169",
+        "text": "Vinícola"
+      },
+      {
+        "id": "settings-0170",
+        "text": "Estufa"
+      },
+      {
+        "id": "settings-0171",
+        "text": "Jardim"
+      },
+      {
+        "id": "settings-0172",
+        "text": "Pomar"
+      },
+      {
+        "id": "settings-0173",
+        "text": "Fazenda de caça"
+      }
     ],
     "entertainment_and_sports": [
-      "Parque de diversões",
-      "Parque temático",
-      "Zoológico",
-      "Aquário",
-      "Circo",
-      "Área de festival",
-      "Centro de convenções",
-      "Estádio",
-      "Ginásio esportivo",
-      "Autódromo",
-      "Campo de golfe",
-      "Estação de esqui",
-      "Spa termal",
-      "Resort",
-      "Camping"
+      {
+        "id": "settings-0174",
+        "text": "Parque de diversões"
+      },
+      {
+        "id": "settings-0175",
+        "text": "Parque temático"
+      },
+      {
+        "id": "settings-0176",
+        "text": "Zoológico"
+      },
+      {
+        "id": "settings-0177",
+        "text": "Aquário"
+      },
+      {
+        "id": "settings-0178",
+        "text": "Circo"
+      },
+      {
+        "id": "settings-0179",
+        "text": "Área de festival"
+      },
+      {
+        "id": "settings-0180",
+        "text": "Centro de convenções"
+      },
+      {
+        "id": "settings-0181",
+        "text": "Estádio"
+      },
+      {
+        "id": "settings-0182",
+        "text": "Ginásio esportivo"
+      },
+      {
+        "id": "settings-0183",
+        "text": "Autódromo"
+      },
+      {
+        "id": "settings-0184",
+        "text": "Campo de golfe"
+      },
+      {
+        "id": "settings-0185",
+        "text": "Estação de esqui"
+      },
+      {
+        "id": "settings-0186",
+        "text": "Spa termal"
+      },
+      {
+        "id": "settings-0187",
+        "text": "Resort"
+      },
+      {
+        "id": "settings-0188",
+        "text": "Camping"
+      }
     ],
     "military_and_security": [
-      "Bunker",
-      "Abrigo da defesa civil",
-      "Abrigo antiaéreo",
-      "Silo de mísseis",
-      "Centro de comando",
-      "Estação de radar",
-      "Base militar",
-      "Posto avançado",
-      "Posto da guarda de fronteira",
-      "Torre de vigia",
-      "Fortaleza",
-      "Trincheira",
-      "Campo de batalha",
-      "Cidade ocupada",
-      "Zona desmilitarizada"
+      {
+        "id": "settings-0189",
+        "text": "Bunker"
+      },
+      {
+        "id": "settings-0190",
+        "text": "Abrigo da defesa civil"
+      },
+      {
+        "id": "settings-0191",
+        "text": "Abrigo antiaéreo"
+      },
+      {
+        "id": "settings-0192",
+        "text": "Silo de mísseis"
+      },
+      {
+        "id": "settings-0193",
+        "text": "Centro de comando"
+      },
+      {
+        "id": "settings-0194",
+        "text": "Estação de radar"
+      },
+      {
+        "id": "settings-0195",
+        "text": "Base militar"
+      },
+      {
+        "id": "settings-0196",
+        "text": "Posto avançado"
+      },
+      {
+        "id": "settings-0197",
+        "text": "Posto da guarda de fronteira"
+      },
+      {
+        "id": "settings-0198",
+        "text": "Torre de vigia"
+      },
+      {
+        "id": "settings-0199",
+        "text": "Fortaleza"
+      },
+      {
+        "id": "settings-0200",
+        "text": "Trincheira"
+      },
+      {
+        "id": "settings-0201",
+        "text": "Campo de batalha"
+      },
+      {
+        "id": "settings-0202",
+        "text": "Cidade ocupada"
+      },
+      {
+        "id": "settings-0203",
+        "text": "Zona desmilitarizada"
+      }
     ],
     "political_and_power": [
-      "Partido político",
-      "Parlamento",
-      "Palácio presidencial",
-      "Casa real",
-      "Corte real",
-      "Missão diplomática",
-      "Embaixada",
-      "Serviço secreto",
-      "Agência de inteligência",
-      "Movimento revolucionário",
-      "Movimento insurgente",
-      "Resistência clandestina"
+      {
+        "id": "settings-0204",
+        "text": "Partido político"
+      },
+      {
+        "id": "settings-0205",
+        "text": "Parlamento"
+      },
+      {
+        "id": "settings-0206",
+        "text": "Palácio presidencial"
+      },
+      {
+        "id": "settings-0207",
+        "text": "Casa real"
+      },
+      {
+        "id": "settings-0208",
+        "text": "Corte real"
+      },
+      {
+        "id": "settings-0209",
+        "text": "Missão diplomática"
+      },
+      {
+        "id": "settings-0210",
+        "text": "Embaixada"
+      },
+      {
+        "id": "settings-0211",
+        "text": "Serviço secreto"
+      },
+      {
+        "id": "settings-0212",
+        "text": "Agência de inteligência"
+      },
+      {
+        "id": "settings-0213",
+        "text": "Movimento revolucionário"
+      },
+      {
+        "id": "settings-0214",
+        "text": "Movimento insurgente"
+      },
+      {
+        "id": "settings-0215",
+        "text": "Resistência clandestina"
+      }
     ],
     "organizations": [
-      "Empresa",
-      "Startup",
-      "Corporação multinacional",
-      "Empresa familiar",
-      "Organização criminosa",
-      "Máfia",
-      "Gangue",
-      "Seita",
-      "Sociedade secreta",
-      "Sindicato",
-      "Comunidade religiosa",
-      "Sociedade científica",
-      "Comunidade",
-      "Comuna",
-      "Colônia"
+      {
+        "id": "settings-0216",
+        "text": "Empresa"
+      },
+      {
+        "id": "settings-0217",
+        "text": "Startup"
+      },
+      {
+        "id": "settings-0218",
+        "text": "Corporação multinacional"
+      },
+      {
+        "id": "settings-0219",
+        "text": "Empresa familiar"
+      },
+      {
+        "id": "settings-0220",
+        "text": "Organização criminosa"
+      },
+      {
+        "id": "settings-0221",
+        "text": "Máfia"
+      },
+      {
+        "id": "settings-0222",
+        "text": "Gangue"
+      },
+      {
+        "id": "settings-0223",
+        "text": "Seita"
+      },
+      {
+        "id": "settings-0224",
+        "text": "Sociedade secreta"
+      },
+      {
+        "id": "settings-0225",
+        "text": "Sindicato"
+      },
+      {
+        "id": "settings-0226",
+        "text": "Comunidade religiosa"
+      },
+      {
+        "id": "settings-0227",
+        "text": "Sociedade científica"
+      },
+      {
+        "id": "settings-0228",
+        "text": "Comunidade"
+      },
+      {
+        "id": "settings-0229",
+        "text": "Comuna"
+      },
+      {
+        "id": "settings-0230",
+        "text": "Colônia"
+      }
     ],
     "social_units": [
-      "Família",
-      "Clã",
-      "Dinastia",
-      "Bairro",
-      "Local de trabalho",
-      "Sala de aula",
-      "Time de futebol",
-      "Unidade militar",
-      "Divisão da delegacia",
-      "Ala hospitalar",
-      "Tripulação de nave espacial",
-      "Grupo de sobreviventes",
-      "Bando criminoso"
+      {
+        "id": "settings-0231",
+        "text": "Família"
+      },
+      {
+        "id": "settings-0232",
+        "text": "Clã"
+      },
+      {
+        "id": "settings-0233",
+        "text": "Dinastia"
+      },
+      {
+        "id": "settings-0234",
+        "text": "Bairro"
+      },
+      {
+        "id": "settings-0235",
+        "text": "Local de trabalho"
+      },
+      {
+        "id": "settings-0236",
+        "text": "Sala de aula"
+      },
+      {
+        "id": "settings-0237",
+        "text": "Time de futebol"
+      },
+      {
+        "id": "settings-0238",
+        "text": "Unidade militar"
+      },
+      {
+        "id": "settings-0239",
+        "text": "Divisão da delegacia"
+      },
+      {
+        "id": "settings-0240",
+        "text": "Ala hospitalar"
+      },
+      {
+        "id": "settings-0241",
+        "text": "Tripulação de nave espacial"
+      },
+      {
+        "id": "settings-0242",
+        "text": "Grupo de sobreviventes"
+      },
+      {
+        "id": "settings-0243",
+        "text": "Bando criminoso"
+      }
     ],
     "digital_and_virtual": [
-      "Internet",
-      "Redes sociais",
-      "Fórum de discussão",
-      "Serviço de chat",
-      "Mundo virtual",
-      "Mundo de MMORPG",
-      "Realidade simulada",
-      "Metaverso",
-      "Banco de dados",
-      "Rede de computadores",
-      "Sistema operacional",
-      "Mundo interior de uma IA"
+      {
+        "id": "settings-0244",
+        "text": "Internet"
+      },
+      {
+        "id": "settings-0245",
+        "text": "Redes sociais"
+      },
+      {
+        "id": "settings-0246",
+        "text": "Fórum de discussão"
+      },
+      {
+        "id": "settings-0247",
+        "text": "Serviço de chat"
+      },
+      {
+        "id": "settings-0248",
+        "text": "Mundo virtual"
+      },
+      {
+        "id": "settings-0249",
+        "text": "Mundo de MMORPG"
+      },
+      {
+        "id": "settings-0250",
+        "text": "Realidade simulada"
+      },
+      {
+        "id": "settings-0251",
+        "text": "Metaverso"
+      },
+      {
+        "id": "settings-0252",
+        "text": "Banco de dados"
+      },
+      {
+        "id": "settings-0253",
+        "text": "Rede de computadores"
+      },
+      {
+        "id": "settings-0254",
+        "text": "Sistema operacional"
+      },
+      {
+        "id": "settings-0255",
+        "text": "Mundo interior de uma IA"
+      }
     ],
     "mental_and_abstract_worlds": [
-      "Mente humana",
-      "Sonho",
-      "Pesadelo",
-      "Lembrança",
-      "Subconsciente",
-      "Imaginação",
-      "Mente coletiva",
-      "Alucinação",
-      "Os últimos minutos de uma pessoa à beira da morte",
-      "Arquivo de memórias"
+      {
+        "id": "settings-0256",
+        "text": "Mente humana"
+      },
+      {
+        "id": "settings-0257",
+        "text": "Sonho"
+      },
+      {
+        "id": "settings-0258",
+        "text": "Pesadelo"
+      },
+      {
+        "id": "settings-0259",
+        "text": "Lembrança"
+      },
+      {
+        "id": "settings-0260",
+        "text": "Subconsciente"
+      },
+      {
+        "id": "settings-0261",
+        "text": "Imaginação"
+      },
+      {
+        "id": "settings-0262",
+        "text": "Mente coletiva"
+      },
+      {
+        "id": "settings-0263",
+        "text": "Alucinação"
+      },
+      {
+        "id": "settings-0264",
+        "text": "Os últimos minutos de uma pessoa à beira da morte"
+      },
+      {
+        "id": "settings-0265",
+        "text": "Arquivo de memórias"
+      }
     ],
     "time_based_settings": [
-      "O passado",
-      "O futuro",
-      "História alternativa",
-      "Realidade paralela",
-      "Loop temporal",
-      "Um único dia",
-      "Uma única noite",
-      "A última semana antes de uma catástrofe",
-      "O primeiro dia depois de uma catástrofe",
-      "Uma linha do tempo que atravessa gerações"
+      {
+        "id": "settings-0266",
+        "text": "O passado"
+      },
+      {
+        "id": "settings-0267",
+        "text": "O futuro"
+      },
+      {
+        "id": "settings-0268",
+        "text": "História alternativa"
+      },
+      {
+        "id": "settings-0269",
+        "text": "Realidade paralela"
+      },
+      {
+        "id": "settings-0270",
+        "text": "Loop temporal"
+      },
+      {
+        "id": "settings-0271",
+        "text": "Um único dia"
+      },
+      {
+        "id": "settings-0272",
+        "text": "Uma única noite"
+      },
+      {
+        "id": "settings-0273",
+        "text": "A última semana antes de uma catástrofe"
+      },
+      {
+        "id": "settings-0274",
+        "text": "O primeiro dia depois de uma catástrofe"
+      },
+      {
+        "id": "settings-0275",
+        "text": "Uma linha do tempo que atravessa gerações"
+      }
     ],
     "supernatural_and_metaphysical": [
-      "Céu",
-      "Inferno",
-      "Purgatório",
-      "O além",
-      "Limbo",
-      "Mundo espiritual",
-      "Mundo dos deuses",
-      "Mundo dos sonhos",
-      "Mundo das sombras",
-      "Mundo do espelho",
-      "Dimensão paralela",
-      "O vazio"
+      {
+        "id": "settings-0276",
+        "text": "Céu"
+      },
+      {
+        "id": "settings-0277",
+        "text": "Inferno"
+      },
+      {
+        "id": "settings-0278",
+        "text": "Purgatório"
+      },
+      {
+        "id": "settings-0279",
+        "text": "O além"
+      },
+      {
+        "id": "settings-0280",
+        "text": "Limbo"
+      },
+      {
+        "id": "settings-0281",
+        "text": "Mundo espiritual"
+      },
+      {
+        "id": "settings-0282",
+        "text": "Mundo dos deuses"
+      },
+      {
+        "id": "settings-0283",
+        "text": "Mundo dos sonhos"
+      },
+      {
+        "id": "settings-0284",
+        "text": "Mundo das sombras"
+      },
+      {
+        "id": "settings-0285",
+        "text": "Mundo do espelho"
+      },
+      {
+        "id": "settings-0286",
+        "text": "Dimensão paralela"
+      },
+      {
+        "id": "settings-0287",
+        "text": "O vazio"
+      }
     ],
     "space": [
-      "Planeta",
-      "Lua",
-      "Asteroide",
-      "Cometa",
-      "Estação espacial",
-      "Colônia em Marte",
-      "Base lunar",
-      "Planeta alienígena",
-      "Planeta em terraformação",
-      "Campo de detritos espaciais",
-      "Arredores de um buraco negro",
-      "Nave geracional",
-      "Estrutura de Dyson",
-      "Mundo artificial gigante"
+      {
+        "id": "settings-0288",
+        "text": "Planeta"
+      },
+      {
+        "id": "settings-0289",
+        "text": "Lua"
+      },
+      {
+        "id": "settings-0290",
+        "text": "Asteroide"
+      },
+      {
+        "id": "settings-0291",
+        "text": "Cometa"
+      },
+      {
+        "id": "settings-0292",
+        "text": "Estação espacial"
+      },
+      {
+        "id": "settings-0293",
+        "text": "Colônia em Marte"
+      },
+      {
+        "id": "settings-0294",
+        "text": "Base lunar"
+      },
+      {
+        "id": "settings-0295",
+        "text": "Planeta alienígena"
+      },
+      {
+        "id": "settings-0296",
+        "text": "Planeta em terraformação"
+      },
+      {
+        "id": "settings-0297",
+        "text": "Campo de detritos espaciais"
+      },
+      {
+        "id": "settings-0298",
+        "text": "Arredores de um buraco negro"
+      },
+      {
+        "id": "settings-0299",
+        "text": "Nave geracional"
+      },
+      {
+        "id": "settings-0300",
+        "text": "Estrutura de Dyson"
+      },
+      {
+        "id": "settings-0301",
+        "text": "Mundo artificial gigante"
+      }
     ],
     "historical_settings": [
-      "Vila medieval",
-      "Reino feudal",
-      "Cidade antiga",
-      "Cidade romana",
-      "Vila viking",
-      "Cidade do Velho Oeste",
-      "Metrópole dos anos 20",
-      "Cidadezinha dos anos 50",
-      "Estado da Guerra Fria",
-      "Cidade de estilo soviético",
-      "Subúrbio dos anos 80",
-      "Escritório dos anos 90",
-      "Sociedade pós-apocalíptica"
+      {
+        "id": "settings-0302",
+        "text": "Vila medieval"
+      },
+      {
+        "id": "settings-0303",
+        "text": "Reino feudal"
+      },
+      {
+        "id": "settings-0304",
+        "text": "Cidade antiga"
+      },
+      {
+        "id": "settings-0305",
+        "text": "Cidade romana"
+      },
+      {
+        "id": "settings-0306",
+        "text": "Vila viking"
+      },
+      {
+        "id": "settings-0307",
+        "text": "Cidade do Velho Oeste"
+      },
+      {
+        "id": "settings-0308",
+        "text": "Metrópole dos anos 20"
+      },
+      {
+        "id": "settings-0309",
+        "text": "Cidadezinha dos anos 50"
+      },
+      {
+        "id": "settings-0310",
+        "text": "Estado da Guerra Fria"
+      },
+      {
+        "id": "settings-0311",
+        "text": "Cidade de estilo soviético"
+      },
+      {
+        "id": "settings-0312",
+        "text": "Subúrbio dos anos 80"
+      },
+      {
+        "id": "settings-0313",
+        "text": "Escritório dos anos 90"
+      },
+      {
+        "id": "settings-0314",
+        "text": "Sociedade pós-apocalíptica"
+      }
     ],
     "small_scale_settings": [
-      "Um mundo do tamanho de um quarteirão",
-      "Um único prédio",
-      "Um único cômodo",
-      "Uma única mesa de trabalho",
-      "Um único elevador",
-      "Um único vagão de trem",
-      "Uma única ala hospitalar",
-      "Uma única sala de comando",
-      "Uma única sala de controle",
-      "Um único arquivo",
-      "Uma única loja",
-      "Um único restaurante"
+      {
+        "id": "settings-0315",
+        "text": "Um mundo do tamanho de um quarteirão"
+      },
+      {
+        "id": "settings-0316",
+        "text": "Um único prédio"
+      },
+      {
+        "id": "settings-0317",
+        "text": "Um único cômodo"
+      },
+      {
+        "id": "settings-0318",
+        "text": "Uma única mesa de trabalho"
+      },
+      {
+        "id": "settings-0319",
+        "text": "Um único elevador"
+      },
+      {
+        "id": "settings-0320",
+        "text": "Um único vagão de trem"
+      },
+      {
+        "id": "settings-0321",
+        "text": "Uma única ala hospitalar"
+      },
+      {
+        "id": "settings-0322",
+        "text": "Uma única sala de comando"
+      },
+      {
+        "id": "settings-0323",
+        "text": "Uma única sala de controle"
+      },
+      {
+        "id": "settings-0324",
+        "text": "Um único arquivo"
+      },
+      {
+        "id": "settings-0325",
+        "text": "Uma única loja"
+      },
+      {
+        "id": "settings-0326",
+        "text": "Um único restaurante"
+      }
     ],
     "abstract_game_spaces": [
-      "Um orçamento",
-      "Um organograma",
-      "Uma árvore genealógica",
-      "Uma rede de relacionamentos",
-      "Um sistema político",
-      "Um sistema econômico",
-      "Uma bolsa de valores",
-      "Uma cadeia de suprimentos",
-      "Um feed de notícias",
-      "Uma rede de boatos",
-      "Uma investigação criminal",
-      "Um julgamento",
-      "Uma campanha eleitoral",
-      "Uma guerra",
-      "Negociações de paz",
-      "Uma epidemia",
-      "Uma catástrofe",
-      "A falência de uma empresa",
-      "Um golpe de Estado",
-      "Uma briga de família"
+      {
+        "id": "settings-0327",
+        "text": "Um orçamento"
+      },
+      {
+        "id": "settings-0328",
+        "text": "Um organograma"
+      },
+      {
+        "id": "settings-0329",
+        "text": "Uma árvore genealógica"
+      },
+      {
+        "id": "settings-0330",
+        "text": "Uma rede de relacionamentos"
+      },
+      {
+        "id": "settings-0331",
+        "text": "Um sistema político"
+      },
+      {
+        "id": "settings-0332",
+        "text": "Um sistema econômico"
+      },
+      {
+        "id": "settings-0333",
+        "text": "Uma bolsa de valores"
+      },
+      {
+        "id": "settings-0334",
+        "text": "Uma cadeia de suprimentos"
+      },
+      {
+        "id": "settings-0335",
+        "text": "Um feed de notícias"
+      },
+      {
+        "id": "settings-0336",
+        "text": "Uma rede de boatos"
+      },
+      {
+        "id": "settings-0337",
+        "text": "Uma investigação criminal"
+      },
+      {
+        "id": "settings-0338",
+        "text": "Um julgamento"
+      },
+      {
+        "id": "settings-0339",
+        "text": "Uma campanha eleitoral"
+      },
+      {
+        "id": "settings-0340",
+        "text": "Uma guerra"
+      },
+      {
+        "id": "settings-0341",
+        "text": "Negociações de paz"
+      },
+      {
+        "id": "settings-0342",
+        "text": "Uma epidemia"
+      },
+      {
+        "id": "settings-0343",
+        "text": "Uma catástrofe"
+      },
+      {
+        "id": "settings-0344",
+        "text": "A falência de uma empresa"
+      },
+      {
+        "id": "settings-0345",
+        "text": "Um golpe de Estado"
+      },
+      {
+        "id": "settings-0346",
+        "text": "Uma briga de família"
+      }
     ]
   }
 }

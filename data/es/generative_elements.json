@@ -1,363 +1,1440 @@
 {
   "generative_elements": [
-    "Mapa",
-    "Personajes",
-    "Relaciones",
-    "Crimen",
-    "Economía",
-    "Situación política",
-    "Catástrofe",
-    "Secretos",
-    "Misiones",
-    "Ciudades",
-    "Pueblos",
-    "Edificios",
-    "Habitaciones",
-    "Calles",
-    "Barrios",
-    "Terreno",
-    "Mazmorras",
-    "Islas",
-    "Planetas",
-    "Sistemas solares",
-    "Clima",
-    "Estaciones del año",
-    "Recursos naturales",
-    "Ubicación de recursos",
-    "Rutas comerciales",
-    "Red de transporte",
-    "Cadenas de producción",
-    "Infraestructura",
-    "Empresas",
-    "Organizaciones",
-    "Facciones",
-    "Partidos políticos",
-    "Bandas",
-    "Sectas",
-    "Familias",
-    "Clanes",
-    "Dinastías",
-    "Árboles genealógicos",
-    "Nacimientos",
-    "Muertes",
-    "Matrimonios",
-    "Divorcios",
-    "Herencias",
-    "Amistades",
-    "Enemistades",
-    "Relaciones románticas",
-    "Rivalidades",
-    "Lealtades",
-    "Deudas",
-    "Favores",
-    "Confianza",
-    "Reputación",
-    "Motivos",
-    "Personalidades",
-    "Miedos",
-    "Deseos",
-    "Objetivos",
-    "Objetivos ocultos",
-    "Profesiones",
-    "Lugares de trabajo",
-    "Roles",
-    "Rangos",
-    "Habilidades",
-    "Trasfondos",
-    "Historias de vida",
-    "Recuerdos",
-    "Traumas",
-    "Creencias",
-    "Valores",
-    "Ideologías",
-    "Religiones",
-    "Culturas",
-    "Idiomas",
-    "Nombres",
-    "Apellidos",
-    "Topónimos",
-    "Nombres de organizaciones",
-    "Nombres de empresas",
-    "Nombres de productos",
-    "Nombres de periódicos",
-    "Nombres de barcos",
-    "Nombres de naves espaciales",
-    "Acontecimientos históricos",
-    "Guerras",
-    "Rebeliones",
-    "Revoluciones",
-    "Golpes de Estado",
-    "Elecciones",
-    "Coaliciones de gobierno",
-    "Cambios legislativos",
-    "Escándalos",
-    "Crisis diplomáticas",
-    "Alianzas",
-    "Tratados de paz",
-    "Sanciones",
-    "Guerras comerciales",
-    "Conflictos políticos",
-    "Líderes",
-    "Gobernantes",
-    "Ministros",
-    "Políticos",
-    "Resultados electorales",
-    "Índices de aprobación",
-    "Encuestas de opinión",
-    "Propaganda",
-    "Rumores",
-    "Noticias",
-    "Artículos de prensa",
-    "Emisiones de radio",
-    "Debates en redes sociales",
-    "Mensajes",
-    "Cartas",
-    "Correos electrónicos",
-    "Diarios",
-    "Informes",
-    "Documentos",
-    "Documentos oficiales",
-    "Documentos falsificados",
-    "Pruebas",
-    "Pistas",
-    "Pistas contradictorias",
-    "Pistas falsas",
-    "Declaraciones de testigos",
-    "Sospechosos",
-    "Víctimas",
-    "Asesinos",
-    "Móvil del crimen",
-    "Hora del crimen",
-    "Escena del crimen",
-    "Método del crimen",
-    "Encubrimiento del crimen",
-    "Errores cometidos por el criminal",
-    "Redes criminales",
-    "Rutas de contrabando",
-    "Redes de corrupción",
-    "Espías",
-    "Agentes dobles",
-    "Fuentes de información",
-    "Conspiraciones",
-    "Miembros de conspiraciones",
-    "Objetivos de las conspiraciones",
-    "Métodos de las conspiraciones",
-    "Reuniones secretas",
-    "Escondites",
-    "Habitaciones secretas",
-    "Pasadizos secretos",
-    "Alijos",
-    "Artefactos",
-    "Tesoros",
-    "Objetos raros",
-    "Equipo",
-    "Herramientas",
-    "Armas",
-    "Recetas",
-    "Recetas de crafteo",
-    "Planos",
-    "Tecnologías",
-    "Árboles tecnológicos",
-    "Inventos",
-    "Medicamentos",
-    "Enfermedades",
-    "Epidemias",
-    "Rasgos de mutación",
-    "Ecosistemas",
-    "Especies vegetales",
-    "Especies animales",
-    "Formas de vida alienígenas",
-    "Rasgos genéticos",
-    "Fenómenos meteorológicos",
-    "Tormentas",
-    "Inundaciones",
-    "Incendios",
-    "Terremotos",
-    "Erupciones volcánicas",
-    "Sequías",
-    "Tormentas de radiación",
-    "Impactos de meteoritos",
-    "Fallos técnicos",
-    "Fallos del sistema",
-    "Apagones",
-    "Averías de motor",
-    "Averías del reactor",
-    "Fugas de oxígeno",
-    "Daños en el casco",
-    "Sabotajes",
-    "Accidentes",
-    "Situaciones de rescate",
-    "Crisis",
-    "Cadenas de crisis",
-    "Eventos aleatorios",
-    "Eventos diarios",
-    "Eventos semanales",
-    "Eventos raros",
-    "Eventos globales",
-    "Eventos locales",
-    "Eventos personales",
-    "Eventos sociales",
-    "Eventos laborales",
-    "Eventos familiares",
-    "Fiestas",
-    "Funerales",
-    "Bodas",
-    "Cumpleaños",
-    "Reuniones",
-    "Negociaciones",
-    "Huelgas",
-    "Manifestaciones",
-    "Revueltas",
-    "Eventos deportivos",
-    "Festivales",
-    "Días de mercado",
-    "Subastas",
-    "Situaciones comerciales",
-    "Fluctuaciones de precios",
-    "Crisis de mercado",
-    "Ciclos económicos",
-    "Inflación",
-    "Desempleo",
-    "Crisis de deuda",
-    "Quiebras de empresas",
-    "Adquisiciones de empresas",
-    "Nuevas empresas",
-    "Interrupciones de la producción",
-    "Escasez de recursos",
-    "Demanda de consumo",
-    "Impuestos",
-    "Presupuestos",
-    "Salarios",
-    "Precios",
-    "Alquileres",
-    "Cotizaciones bursátiles",
-    "Tipos de cambio",
-    "Cadenas de misiones",
-    "Misiones principales",
-    "Misiones secundarias",
-    "Misiones personales",
-    "Misiones de facción",
-    "Encargos de trabajo",
-    "Misiones de investigación",
-    "Misiones de rescate",
-    "Misiones secretas",
-    "Misiones con tiempo límite",
-    "Decisiones morales",
-    "Recompensas de misiones",
-    "Consecuencias de misiones",
-    "Fracasos de misiones",
-    "Personajes que dan misiones",
-    "Objetivos de misiones",
-    "Ubicaciones de misiones",
-    "Obstáculos de misiones",
-    "Formas de resolver misiones",
-    "Diálogos",
-    "Temas de conversación",
-    "Opciones de diálogo",
-    "Respuestas de PNJ",
-    "Debates",
-    "Negociaciones",
-    "Interrogatorios",
-    "Mentiras",
-    "Confesiones",
-    "Consecuencias de las amenazas",
-    "Consecuencias del soborno",
-    "Situaciones sociales",
-    "Estatus social",
-    "Jerarquía social",
-    "Normas sociales",
-    "Tabúes",
-    "Costumbres",
-    "Tradiciones",
-    "Rituales",
-    "Leyes",
-    "Reglas",
-    "Castigos",
-    "Recompensas",
-    "Burocracia",
-    "Trámites de permisos",
-    "Solicitudes",
-    "Papeleo",
-    "Turnos de trabajo",
-    "Horarios",
-    "Rutinas de PNJ",
-    "Movimientos de PNJ",
-    "Agendas diarias de PNJ",
-    "Necesidades de PNJ",
-    "Prioridades de PNJ",
-    "Decisiones de PNJ",
-    "Conflictos entre PNJ",
-    "Alianzas entre PNJ",
-    "Traiciones de PNJ",
-    "Opiniones de PNJ",
-    "Recuerdos de PNJ",
-    "Rumores de PNJ",
-    "Crisis personales de PNJ",
-    "Carrera profesional de PNJ",
-    "Crímenes de PNJ",
-    "Muerte de un PNJ",
-    "Desaparición de un PNJ",
-    "Mudanza de un PNJ",
-    "Ascenso de un PNJ",
-    "Despido de un PNJ",
-    "Deserción de un PNJ",
-    "Radicalización de un PNJ",
-    "Conversión religiosa de un PNJ",
-    "Cambio político de un PNJ",
-    "Evolución de la población",
-    "Migración",
-    "Natalidad",
-    "Mortalidad",
-    "Relevo generacional",
-    "Cambio cultural",
-    "Crecimiento de la ciudad",
-    "Decadencia urbana",
-    "Cambios de uso de los edificios",
-    "Edificios abandonados",
-    "Edificios nuevos",
-    "Desarrollo de infraestructuras",
-    "Desarrollo tecnológico",
-    "Desarrollo social",
-    "Fronteras del reino",
-    "Líneas del frente",
-    "Control territorial",
-    "Relaciones diplomáticas",
-    "Equilibrio de poder entre facciones",
-    "Nivel de delincuencia",
-    "Situación de seguridad",
-    "Opinión pública",
-    "Moral",
-    "Confianza en las instituciones",
-    "Previsiones de futuro",
-    "Historia",
-    "Historia alternativa",
-    "Líneas temporales",
-    "Líneas temporales paralelas",
-    "Paradojas temporales",
-    "Acontecimientos históricos cambiantes",
-    "Historia de distintas partidas",
-    "Los recuerdos del mundo",
-    "Efectos de las partidas anteriores del jugador",
-    "Misterios procedimentales",
-    "Asesinatos procedimentales",
-    "Conspiraciones procedimentales",
-    "Catástrofes procedimentales",
-    "Crisis políticas procedimentales",
-    "Dramas de relaciones procedimentales",
-    "Sagas familiares procedimentales",
-    "Dramas laborales procedimentales",
-    "Causas de guerra procedimentales",
-    "Negociaciones de paz procedimentales",
-    "Eventos mundiales procedimentales",
-    "Trama principal procedimental",
-    "Subtrama procedimental",
-    "Antagonista procedimental",
-    "Final procedimental",
-    "Condiciones de victoria procedimentales",
-    "Fracasos procedimentales",
-    "Dilemas morales procedimentales",
-    "Objetivos personales procedimentales",
-    "Objetivos organizativos procedimentales",
-    "Objetivos mundiales procedimentales"
+    {
+      "id": "generative_elements-0001",
+      "text": "Mapa"
+    },
+    {
+      "id": "generative_elements-0002",
+      "text": "Personajes"
+    },
+    {
+      "id": "generative_elements-0003",
+      "text": "Relaciones"
+    },
+    {
+      "id": "generative_elements-0004",
+      "text": "Crimen"
+    },
+    {
+      "id": "generative_elements-0005",
+      "text": "Economía"
+    },
+    {
+      "id": "generative_elements-0006",
+      "text": "Situación política"
+    },
+    {
+      "id": "generative_elements-0007",
+      "text": "Catástrofe"
+    },
+    {
+      "id": "generative_elements-0008",
+      "text": "Secretos"
+    },
+    {
+      "id": "generative_elements-0009",
+      "text": "Misiones"
+    },
+    {
+      "id": "generative_elements-0010",
+      "text": "Ciudades"
+    },
+    {
+      "id": "generative_elements-0011",
+      "text": "Pueblos"
+    },
+    {
+      "id": "generative_elements-0012",
+      "text": "Edificios"
+    },
+    {
+      "id": "generative_elements-0013",
+      "text": "Habitaciones"
+    },
+    {
+      "id": "generative_elements-0014",
+      "text": "Calles"
+    },
+    {
+      "id": "generative_elements-0015",
+      "text": "Barrios"
+    },
+    {
+      "id": "generative_elements-0016",
+      "text": "Terreno"
+    },
+    {
+      "id": "generative_elements-0017",
+      "text": "Mazmorras"
+    },
+    {
+      "id": "generative_elements-0018",
+      "text": "Islas"
+    },
+    {
+      "id": "generative_elements-0019",
+      "text": "Planetas"
+    },
+    {
+      "id": "generative_elements-0020",
+      "text": "Sistemas solares"
+    },
+    {
+      "id": "generative_elements-0021",
+      "text": "Clima"
+    },
+    {
+      "id": "generative_elements-0022",
+      "text": "Estaciones del año"
+    },
+    {
+      "id": "generative_elements-0023",
+      "text": "Recursos naturales"
+    },
+    {
+      "id": "generative_elements-0024",
+      "text": "Ubicación de recursos"
+    },
+    {
+      "id": "generative_elements-0025",
+      "text": "Rutas comerciales"
+    },
+    {
+      "id": "generative_elements-0026",
+      "text": "Red de transporte"
+    },
+    {
+      "id": "generative_elements-0027",
+      "text": "Cadenas de producción"
+    },
+    {
+      "id": "generative_elements-0028",
+      "text": "Infraestructura"
+    },
+    {
+      "id": "generative_elements-0029",
+      "text": "Empresas"
+    },
+    {
+      "id": "generative_elements-0030",
+      "text": "Organizaciones"
+    },
+    {
+      "id": "generative_elements-0031",
+      "text": "Facciones"
+    },
+    {
+      "id": "generative_elements-0032",
+      "text": "Partidos políticos"
+    },
+    {
+      "id": "generative_elements-0033",
+      "text": "Bandas"
+    },
+    {
+      "id": "generative_elements-0034",
+      "text": "Sectas"
+    },
+    {
+      "id": "generative_elements-0035",
+      "text": "Familias"
+    },
+    {
+      "id": "generative_elements-0036",
+      "text": "Clanes"
+    },
+    {
+      "id": "generative_elements-0037",
+      "text": "Dinastías"
+    },
+    {
+      "id": "generative_elements-0038",
+      "text": "Árboles genealógicos"
+    },
+    {
+      "id": "generative_elements-0039",
+      "text": "Nacimientos"
+    },
+    {
+      "id": "generative_elements-0040",
+      "text": "Muertes"
+    },
+    {
+      "id": "generative_elements-0041",
+      "text": "Matrimonios"
+    },
+    {
+      "id": "generative_elements-0042",
+      "text": "Divorcios"
+    },
+    {
+      "id": "generative_elements-0043",
+      "text": "Herencias"
+    },
+    {
+      "id": "generative_elements-0044",
+      "text": "Amistades"
+    },
+    {
+      "id": "generative_elements-0045",
+      "text": "Enemistades"
+    },
+    {
+      "id": "generative_elements-0046",
+      "text": "Relaciones románticas"
+    },
+    {
+      "id": "generative_elements-0047",
+      "text": "Rivalidades"
+    },
+    {
+      "id": "generative_elements-0048",
+      "text": "Lealtades"
+    },
+    {
+      "id": "generative_elements-0049",
+      "text": "Deudas"
+    },
+    {
+      "id": "generative_elements-0050",
+      "text": "Favores"
+    },
+    {
+      "id": "generative_elements-0051",
+      "text": "Confianza"
+    },
+    {
+      "id": "generative_elements-0052",
+      "text": "Reputación"
+    },
+    {
+      "id": "generative_elements-0053",
+      "text": "Motivos"
+    },
+    {
+      "id": "generative_elements-0054",
+      "text": "Personalidades"
+    },
+    {
+      "id": "generative_elements-0055",
+      "text": "Miedos"
+    },
+    {
+      "id": "generative_elements-0056",
+      "text": "Deseos"
+    },
+    {
+      "id": "generative_elements-0057",
+      "text": "Objetivos"
+    },
+    {
+      "id": "generative_elements-0058",
+      "text": "Objetivos ocultos"
+    },
+    {
+      "id": "generative_elements-0059",
+      "text": "Profesiones"
+    },
+    {
+      "id": "generative_elements-0060",
+      "text": "Lugares de trabajo"
+    },
+    {
+      "id": "generative_elements-0061",
+      "text": "Roles"
+    },
+    {
+      "id": "generative_elements-0062",
+      "text": "Rangos"
+    },
+    {
+      "id": "generative_elements-0063",
+      "text": "Habilidades"
+    },
+    {
+      "id": "generative_elements-0064",
+      "text": "Trasfondos"
+    },
+    {
+      "id": "generative_elements-0065",
+      "text": "Historias de vida"
+    },
+    {
+      "id": "generative_elements-0066",
+      "text": "Recuerdos"
+    },
+    {
+      "id": "generative_elements-0067",
+      "text": "Traumas"
+    },
+    {
+      "id": "generative_elements-0068",
+      "text": "Creencias"
+    },
+    {
+      "id": "generative_elements-0069",
+      "text": "Valores"
+    },
+    {
+      "id": "generative_elements-0070",
+      "text": "Ideologías"
+    },
+    {
+      "id": "generative_elements-0071",
+      "text": "Religiones"
+    },
+    {
+      "id": "generative_elements-0072",
+      "text": "Culturas"
+    },
+    {
+      "id": "generative_elements-0073",
+      "text": "Idiomas"
+    },
+    {
+      "id": "generative_elements-0074",
+      "text": "Nombres"
+    },
+    {
+      "id": "generative_elements-0075",
+      "text": "Apellidos"
+    },
+    {
+      "id": "generative_elements-0076",
+      "text": "Topónimos"
+    },
+    {
+      "id": "generative_elements-0077",
+      "text": "Nombres de organizaciones"
+    },
+    {
+      "id": "generative_elements-0078",
+      "text": "Nombres de empresas"
+    },
+    {
+      "id": "generative_elements-0079",
+      "text": "Nombres de productos"
+    },
+    {
+      "id": "generative_elements-0080",
+      "text": "Nombres de periódicos"
+    },
+    {
+      "id": "generative_elements-0081",
+      "text": "Nombres de barcos"
+    },
+    {
+      "id": "generative_elements-0082",
+      "text": "Nombres de naves espaciales"
+    },
+    {
+      "id": "generative_elements-0083",
+      "text": "Acontecimientos históricos"
+    },
+    {
+      "id": "generative_elements-0084",
+      "text": "Guerras"
+    },
+    {
+      "id": "generative_elements-0085",
+      "text": "Rebeliones"
+    },
+    {
+      "id": "generative_elements-0086",
+      "text": "Revoluciones"
+    },
+    {
+      "id": "generative_elements-0087",
+      "text": "Golpes de Estado"
+    },
+    {
+      "id": "generative_elements-0088",
+      "text": "Elecciones"
+    },
+    {
+      "id": "generative_elements-0089",
+      "text": "Coaliciones de gobierno"
+    },
+    {
+      "id": "generative_elements-0090",
+      "text": "Cambios legislativos"
+    },
+    {
+      "id": "generative_elements-0091",
+      "text": "Escándalos"
+    },
+    {
+      "id": "generative_elements-0092",
+      "text": "Crisis diplomáticas"
+    },
+    {
+      "id": "generative_elements-0093",
+      "text": "Alianzas"
+    },
+    {
+      "id": "generative_elements-0094",
+      "text": "Tratados de paz"
+    },
+    {
+      "id": "generative_elements-0095",
+      "text": "Sanciones"
+    },
+    {
+      "id": "generative_elements-0096",
+      "text": "Guerras comerciales"
+    },
+    {
+      "id": "generative_elements-0097",
+      "text": "Conflictos políticos"
+    },
+    {
+      "id": "generative_elements-0098",
+      "text": "Líderes"
+    },
+    {
+      "id": "generative_elements-0099",
+      "text": "Gobernantes"
+    },
+    {
+      "id": "generative_elements-0100",
+      "text": "Ministros"
+    },
+    {
+      "id": "generative_elements-0101",
+      "text": "Políticos"
+    },
+    {
+      "id": "generative_elements-0102",
+      "text": "Resultados electorales"
+    },
+    {
+      "id": "generative_elements-0103",
+      "text": "Índices de aprobación"
+    },
+    {
+      "id": "generative_elements-0104",
+      "text": "Encuestas de opinión"
+    },
+    {
+      "id": "generative_elements-0105",
+      "text": "Propaganda"
+    },
+    {
+      "id": "generative_elements-0106",
+      "text": "Rumores"
+    },
+    {
+      "id": "generative_elements-0107",
+      "text": "Noticias"
+    },
+    {
+      "id": "generative_elements-0108",
+      "text": "Artículos de prensa"
+    },
+    {
+      "id": "generative_elements-0109",
+      "text": "Emisiones de radio"
+    },
+    {
+      "id": "generative_elements-0110",
+      "text": "Debates en redes sociales"
+    },
+    {
+      "id": "generative_elements-0111",
+      "text": "Mensajes"
+    },
+    {
+      "id": "generative_elements-0112",
+      "text": "Cartas"
+    },
+    {
+      "id": "generative_elements-0113",
+      "text": "Correos electrónicos"
+    },
+    {
+      "id": "generative_elements-0114",
+      "text": "Diarios"
+    },
+    {
+      "id": "generative_elements-0115",
+      "text": "Informes"
+    },
+    {
+      "id": "generative_elements-0116",
+      "text": "Documentos"
+    },
+    {
+      "id": "generative_elements-0117",
+      "text": "Documentos oficiales"
+    },
+    {
+      "id": "generative_elements-0118",
+      "text": "Documentos falsificados"
+    },
+    {
+      "id": "generative_elements-0119",
+      "text": "Pruebas"
+    },
+    {
+      "id": "generative_elements-0120",
+      "text": "Pistas"
+    },
+    {
+      "id": "generative_elements-0121",
+      "text": "Pistas contradictorias"
+    },
+    {
+      "id": "generative_elements-0122",
+      "text": "Pistas falsas"
+    },
+    {
+      "id": "generative_elements-0123",
+      "text": "Declaraciones de testigos"
+    },
+    {
+      "id": "generative_elements-0124",
+      "text": "Sospechosos"
+    },
+    {
+      "id": "generative_elements-0125",
+      "text": "Víctimas"
+    },
+    {
+      "id": "generative_elements-0126",
+      "text": "Asesinos"
+    },
+    {
+      "id": "generative_elements-0127",
+      "text": "Móvil del crimen"
+    },
+    {
+      "id": "generative_elements-0128",
+      "text": "Hora del crimen"
+    },
+    {
+      "id": "generative_elements-0129",
+      "text": "Escena del crimen"
+    },
+    {
+      "id": "generative_elements-0130",
+      "text": "Método del crimen"
+    },
+    {
+      "id": "generative_elements-0131",
+      "text": "Encubrimiento del crimen"
+    },
+    {
+      "id": "generative_elements-0132",
+      "text": "Errores cometidos por el criminal"
+    },
+    {
+      "id": "generative_elements-0133",
+      "text": "Redes criminales"
+    },
+    {
+      "id": "generative_elements-0134",
+      "text": "Rutas de contrabando"
+    },
+    {
+      "id": "generative_elements-0135",
+      "text": "Redes de corrupción"
+    },
+    {
+      "id": "generative_elements-0136",
+      "text": "Espías"
+    },
+    {
+      "id": "generative_elements-0137",
+      "text": "Agentes dobles"
+    },
+    {
+      "id": "generative_elements-0138",
+      "text": "Fuentes de información"
+    },
+    {
+      "id": "generative_elements-0139",
+      "text": "Conspiraciones"
+    },
+    {
+      "id": "generative_elements-0140",
+      "text": "Miembros de conspiraciones"
+    },
+    {
+      "id": "generative_elements-0141",
+      "text": "Objetivos de las conspiraciones"
+    },
+    {
+      "id": "generative_elements-0142",
+      "text": "Métodos de las conspiraciones"
+    },
+    {
+      "id": "generative_elements-0143",
+      "text": "Reuniones secretas"
+    },
+    {
+      "id": "generative_elements-0144",
+      "text": "Escondites"
+    },
+    {
+      "id": "generative_elements-0145",
+      "text": "Habitaciones secretas"
+    },
+    {
+      "id": "generative_elements-0146",
+      "text": "Pasadizos secretos"
+    },
+    {
+      "id": "generative_elements-0147",
+      "text": "Alijos"
+    },
+    {
+      "id": "generative_elements-0148",
+      "text": "Artefactos"
+    },
+    {
+      "id": "generative_elements-0149",
+      "text": "Tesoros"
+    },
+    {
+      "id": "generative_elements-0150",
+      "text": "Objetos raros"
+    },
+    {
+      "id": "generative_elements-0151",
+      "text": "Equipo"
+    },
+    {
+      "id": "generative_elements-0152",
+      "text": "Herramientas"
+    },
+    {
+      "id": "generative_elements-0153",
+      "text": "Armas"
+    },
+    {
+      "id": "generative_elements-0154",
+      "text": "Recetas"
+    },
+    {
+      "id": "generative_elements-0155",
+      "text": "Recetas de crafteo"
+    },
+    {
+      "id": "generative_elements-0156",
+      "text": "Planos"
+    },
+    {
+      "id": "generative_elements-0157",
+      "text": "Tecnologías"
+    },
+    {
+      "id": "generative_elements-0158",
+      "text": "Árboles tecnológicos"
+    },
+    {
+      "id": "generative_elements-0159",
+      "text": "Inventos"
+    },
+    {
+      "id": "generative_elements-0160",
+      "text": "Medicamentos"
+    },
+    {
+      "id": "generative_elements-0161",
+      "text": "Enfermedades"
+    },
+    {
+      "id": "generative_elements-0162",
+      "text": "Epidemias"
+    },
+    {
+      "id": "generative_elements-0163",
+      "text": "Rasgos de mutación"
+    },
+    {
+      "id": "generative_elements-0164",
+      "text": "Ecosistemas"
+    },
+    {
+      "id": "generative_elements-0165",
+      "text": "Especies vegetales"
+    },
+    {
+      "id": "generative_elements-0166",
+      "text": "Especies animales"
+    },
+    {
+      "id": "generative_elements-0167",
+      "text": "Formas de vida alienígenas"
+    },
+    {
+      "id": "generative_elements-0168",
+      "text": "Rasgos genéticos"
+    },
+    {
+      "id": "generative_elements-0169",
+      "text": "Fenómenos meteorológicos"
+    },
+    {
+      "id": "generative_elements-0170",
+      "text": "Tormentas"
+    },
+    {
+      "id": "generative_elements-0171",
+      "text": "Inundaciones"
+    },
+    {
+      "id": "generative_elements-0172",
+      "text": "Incendios"
+    },
+    {
+      "id": "generative_elements-0173",
+      "text": "Terremotos"
+    },
+    {
+      "id": "generative_elements-0174",
+      "text": "Erupciones volcánicas"
+    },
+    {
+      "id": "generative_elements-0175",
+      "text": "Sequías"
+    },
+    {
+      "id": "generative_elements-0176",
+      "text": "Tormentas de radiación"
+    },
+    {
+      "id": "generative_elements-0177",
+      "text": "Impactos de meteoritos"
+    },
+    {
+      "id": "generative_elements-0178",
+      "text": "Fallos técnicos"
+    },
+    {
+      "id": "generative_elements-0179",
+      "text": "Fallos del sistema"
+    },
+    {
+      "id": "generative_elements-0180",
+      "text": "Apagones"
+    },
+    {
+      "id": "generative_elements-0181",
+      "text": "Averías de motor"
+    },
+    {
+      "id": "generative_elements-0182",
+      "text": "Averías del reactor"
+    },
+    {
+      "id": "generative_elements-0183",
+      "text": "Fugas de oxígeno"
+    },
+    {
+      "id": "generative_elements-0184",
+      "text": "Daños en el casco"
+    },
+    {
+      "id": "generative_elements-0185",
+      "text": "Sabotajes"
+    },
+    {
+      "id": "generative_elements-0186",
+      "text": "Accidentes"
+    },
+    {
+      "id": "generative_elements-0187",
+      "text": "Situaciones de rescate"
+    },
+    {
+      "id": "generative_elements-0188",
+      "text": "Crisis"
+    },
+    {
+      "id": "generative_elements-0189",
+      "text": "Cadenas de crisis"
+    },
+    {
+      "id": "generative_elements-0190",
+      "text": "Eventos aleatorios"
+    },
+    {
+      "id": "generative_elements-0191",
+      "text": "Eventos diarios"
+    },
+    {
+      "id": "generative_elements-0192",
+      "text": "Eventos semanales"
+    },
+    {
+      "id": "generative_elements-0193",
+      "text": "Eventos raros"
+    },
+    {
+      "id": "generative_elements-0194",
+      "text": "Eventos globales"
+    },
+    {
+      "id": "generative_elements-0195",
+      "text": "Eventos locales"
+    },
+    {
+      "id": "generative_elements-0196",
+      "text": "Eventos personales"
+    },
+    {
+      "id": "generative_elements-0197",
+      "text": "Eventos sociales"
+    },
+    {
+      "id": "generative_elements-0198",
+      "text": "Eventos laborales"
+    },
+    {
+      "id": "generative_elements-0199",
+      "text": "Eventos familiares"
+    },
+    {
+      "id": "generative_elements-0200",
+      "text": "Fiestas"
+    },
+    {
+      "id": "generative_elements-0201",
+      "text": "Funerales"
+    },
+    {
+      "id": "generative_elements-0202",
+      "text": "Bodas"
+    },
+    {
+      "id": "generative_elements-0203",
+      "text": "Cumpleaños"
+    },
+    {
+      "id": "generative_elements-0204",
+      "text": "Reuniones"
+    },
+    {
+      "id": "generative_elements-0205",
+      "text": "Negociaciones"
+    },
+    {
+      "id": "generative_elements-0206",
+      "text": "Huelgas"
+    },
+    {
+      "id": "generative_elements-0207",
+      "text": "Manifestaciones"
+    },
+    {
+      "id": "generative_elements-0208",
+      "text": "Revueltas"
+    },
+    {
+      "id": "generative_elements-0209",
+      "text": "Eventos deportivos"
+    },
+    {
+      "id": "generative_elements-0210",
+      "text": "Festivales"
+    },
+    {
+      "id": "generative_elements-0211",
+      "text": "Días de mercado"
+    },
+    {
+      "id": "generative_elements-0212",
+      "text": "Subastas"
+    },
+    {
+      "id": "generative_elements-0213",
+      "text": "Situaciones comerciales"
+    },
+    {
+      "id": "generative_elements-0214",
+      "text": "Fluctuaciones de precios"
+    },
+    {
+      "id": "generative_elements-0215",
+      "text": "Crisis de mercado"
+    },
+    {
+      "id": "generative_elements-0216",
+      "text": "Ciclos económicos"
+    },
+    {
+      "id": "generative_elements-0217",
+      "text": "Inflación"
+    },
+    {
+      "id": "generative_elements-0218",
+      "text": "Desempleo"
+    },
+    {
+      "id": "generative_elements-0219",
+      "text": "Crisis de deuda"
+    },
+    {
+      "id": "generative_elements-0220",
+      "text": "Quiebras de empresas"
+    },
+    {
+      "id": "generative_elements-0221",
+      "text": "Adquisiciones de empresas"
+    },
+    {
+      "id": "generative_elements-0222",
+      "text": "Nuevas empresas"
+    },
+    {
+      "id": "generative_elements-0223",
+      "text": "Interrupciones de la producción"
+    },
+    {
+      "id": "generative_elements-0224",
+      "text": "Escasez de recursos"
+    },
+    {
+      "id": "generative_elements-0225",
+      "text": "Demanda de consumo"
+    },
+    {
+      "id": "generative_elements-0226",
+      "text": "Impuestos"
+    },
+    {
+      "id": "generative_elements-0227",
+      "text": "Presupuestos"
+    },
+    {
+      "id": "generative_elements-0228",
+      "text": "Salarios"
+    },
+    {
+      "id": "generative_elements-0229",
+      "text": "Precios"
+    },
+    {
+      "id": "generative_elements-0230",
+      "text": "Alquileres"
+    },
+    {
+      "id": "generative_elements-0231",
+      "text": "Cotizaciones bursátiles"
+    },
+    {
+      "id": "generative_elements-0232",
+      "text": "Tipos de cambio"
+    },
+    {
+      "id": "generative_elements-0233",
+      "text": "Cadenas de misiones"
+    },
+    {
+      "id": "generative_elements-0234",
+      "text": "Misiones principales"
+    },
+    {
+      "id": "generative_elements-0235",
+      "text": "Misiones secundarias"
+    },
+    {
+      "id": "generative_elements-0236",
+      "text": "Misiones personales"
+    },
+    {
+      "id": "generative_elements-0237",
+      "text": "Misiones de facción"
+    },
+    {
+      "id": "generative_elements-0238",
+      "text": "Encargos de trabajo"
+    },
+    {
+      "id": "generative_elements-0239",
+      "text": "Misiones de investigación"
+    },
+    {
+      "id": "generative_elements-0240",
+      "text": "Misiones de rescate"
+    },
+    {
+      "id": "generative_elements-0241",
+      "text": "Misiones secretas"
+    },
+    {
+      "id": "generative_elements-0242",
+      "text": "Misiones con tiempo límite"
+    },
+    {
+      "id": "generative_elements-0243",
+      "text": "Decisiones morales"
+    },
+    {
+      "id": "generative_elements-0244",
+      "text": "Recompensas de misiones"
+    },
+    {
+      "id": "generative_elements-0245",
+      "text": "Consecuencias de misiones"
+    },
+    {
+      "id": "generative_elements-0246",
+      "text": "Fracasos de misiones"
+    },
+    {
+      "id": "generative_elements-0247",
+      "text": "Personajes que dan misiones"
+    },
+    {
+      "id": "generative_elements-0248",
+      "text": "Objetivos de misiones"
+    },
+    {
+      "id": "generative_elements-0249",
+      "text": "Ubicaciones de misiones"
+    },
+    {
+      "id": "generative_elements-0250",
+      "text": "Obstáculos de misiones"
+    },
+    {
+      "id": "generative_elements-0251",
+      "text": "Formas de resolver misiones"
+    },
+    {
+      "id": "generative_elements-0252",
+      "text": "Diálogos"
+    },
+    {
+      "id": "generative_elements-0253",
+      "text": "Temas de conversación"
+    },
+    {
+      "id": "generative_elements-0254",
+      "text": "Opciones de diálogo"
+    },
+    {
+      "id": "generative_elements-0255",
+      "text": "Respuestas de PNJ"
+    },
+    {
+      "id": "generative_elements-0256",
+      "text": "Debates"
+    },
+    {
+      "id": "generative_elements-0257",
+      "text": "Negociaciones"
+    },
+    {
+      "id": "generative_elements-0258",
+      "text": "Interrogatorios"
+    },
+    {
+      "id": "generative_elements-0259",
+      "text": "Mentiras"
+    },
+    {
+      "id": "generative_elements-0260",
+      "text": "Confesiones"
+    },
+    {
+      "id": "generative_elements-0261",
+      "text": "Consecuencias de las amenazas"
+    },
+    {
+      "id": "generative_elements-0262",
+      "text": "Consecuencias del soborno"
+    },
+    {
+      "id": "generative_elements-0263",
+      "text": "Situaciones sociales"
+    },
+    {
+      "id": "generative_elements-0264",
+      "text": "Estatus social"
+    },
+    {
+      "id": "generative_elements-0265",
+      "text": "Jerarquía social"
+    },
+    {
+      "id": "generative_elements-0266",
+      "text": "Normas sociales"
+    },
+    {
+      "id": "generative_elements-0267",
+      "text": "Tabúes"
+    },
+    {
+      "id": "generative_elements-0268",
+      "text": "Costumbres"
+    },
+    {
+      "id": "generative_elements-0269",
+      "text": "Tradiciones"
+    },
+    {
+      "id": "generative_elements-0270",
+      "text": "Rituales"
+    },
+    {
+      "id": "generative_elements-0271",
+      "text": "Leyes"
+    },
+    {
+      "id": "generative_elements-0272",
+      "text": "Reglas"
+    },
+    {
+      "id": "generative_elements-0273",
+      "text": "Castigos"
+    },
+    {
+      "id": "generative_elements-0274",
+      "text": "Recompensas"
+    },
+    {
+      "id": "generative_elements-0275",
+      "text": "Burocracia"
+    },
+    {
+      "id": "generative_elements-0276",
+      "text": "Trámites de permisos"
+    },
+    {
+      "id": "generative_elements-0277",
+      "text": "Solicitudes"
+    },
+    {
+      "id": "generative_elements-0278",
+      "text": "Papeleo"
+    },
+    {
+      "id": "generative_elements-0279",
+      "text": "Turnos de trabajo"
+    },
+    {
+      "id": "generative_elements-0280",
+      "text": "Horarios"
+    },
+    {
+      "id": "generative_elements-0281",
+      "text": "Rutinas de PNJ"
+    },
+    {
+      "id": "generative_elements-0282",
+      "text": "Movimientos de PNJ"
+    },
+    {
+      "id": "generative_elements-0283",
+      "text": "Agendas diarias de PNJ"
+    },
+    {
+      "id": "generative_elements-0284",
+      "text": "Necesidades de PNJ"
+    },
+    {
+      "id": "generative_elements-0285",
+      "text": "Prioridades de PNJ"
+    },
+    {
+      "id": "generative_elements-0286",
+      "text": "Decisiones de PNJ"
+    },
+    {
+      "id": "generative_elements-0287",
+      "text": "Conflictos entre PNJ"
+    },
+    {
+      "id": "generative_elements-0288",
+      "text": "Alianzas entre PNJ"
+    },
+    {
+      "id": "generative_elements-0289",
+      "text": "Traiciones de PNJ"
+    },
+    {
+      "id": "generative_elements-0290",
+      "text": "Opiniones de PNJ"
+    },
+    {
+      "id": "generative_elements-0291",
+      "text": "Recuerdos de PNJ"
+    },
+    {
+      "id": "generative_elements-0292",
+      "text": "Rumores de PNJ"
+    },
+    {
+      "id": "generative_elements-0293",
+      "text": "Crisis personales de PNJ"
+    },
+    {
+      "id": "generative_elements-0294",
+      "text": "Carrera profesional de PNJ"
+    },
+    {
+      "id": "generative_elements-0295",
+      "text": "Crímenes de PNJ"
+    },
+    {
+      "id": "generative_elements-0296",
+      "text": "Muerte de un PNJ"
+    },
+    {
+      "id": "generative_elements-0297",
+      "text": "Desaparición de un PNJ"
+    },
+    {
+      "id": "generative_elements-0298",
+      "text": "Mudanza de un PNJ"
+    },
+    {
+      "id": "generative_elements-0299",
+      "text": "Ascenso de un PNJ"
+    },
+    {
+      "id": "generative_elements-0300",
+      "text": "Despido de un PNJ"
+    },
+    {
+      "id": "generative_elements-0301",
+      "text": "Deserción de un PNJ"
+    },
+    {
+      "id": "generative_elements-0302",
+      "text": "Radicalización de un PNJ"
+    },
+    {
+      "id": "generative_elements-0303",
+      "text": "Conversión religiosa de un PNJ"
+    },
+    {
+      "id": "generative_elements-0304",
+      "text": "Cambio político de un PNJ"
+    },
+    {
+      "id": "generative_elements-0305",
+      "text": "Evolución de la población"
+    },
+    {
+      "id": "generative_elements-0306",
+      "text": "Migración"
+    },
+    {
+      "id": "generative_elements-0307",
+      "text": "Natalidad"
+    },
+    {
+      "id": "generative_elements-0308",
+      "text": "Mortalidad"
+    },
+    {
+      "id": "generative_elements-0309",
+      "text": "Relevo generacional"
+    },
+    {
+      "id": "generative_elements-0310",
+      "text": "Cambio cultural"
+    },
+    {
+      "id": "generative_elements-0311",
+      "text": "Crecimiento de la ciudad"
+    },
+    {
+      "id": "generative_elements-0312",
+      "text": "Decadencia urbana"
+    },
+    {
+      "id": "generative_elements-0313",
+      "text": "Cambios de uso de los edificios"
+    },
+    {
+      "id": "generative_elements-0314",
+      "text": "Edificios abandonados"
+    },
+    {
+      "id": "generative_elements-0315",
+      "text": "Edificios nuevos"
+    },
+    {
+      "id": "generative_elements-0316",
+      "text": "Desarrollo de infraestructuras"
+    },
+    {
+      "id": "generative_elements-0317",
+      "text": "Desarrollo tecnológico"
+    },
+    {
+      "id": "generative_elements-0318",
+      "text": "Desarrollo social"
+    },
+    {
+      "id": "generative_elements-0319",
+      "text": "Fronteras del reino"
+    },
+    {
+      "id": "generative_elements-0320",
+      "text": "Líneas del frente"
+    },
+    {
+      "id": "generative_elements-0321",
+      "text": "Control territorial"
+    },
+    {
+      "id": "generative_elements-0322",
+      "text": "Relaciones diplomáticas"
+    },
+    {
+      "id": "generative_elements-0323",
+      "text": "Equilibrio de poder entre facciones"
+    },
+    {
+      "id": "generative_elements-0324",
+      "text": "Nivel de delincuencia"
+    },
+    {
+      "id": "generative_elements-0325",
+      "text": "Situación de seguridad"
+    },
+    {
+      "id": "generative_elements-0326",
+      "text": "Opinión pública"
+    },
+    {
+      "id": "generative_elements-0327",
+      "text": "Moral"
+    },
+    {
+      "id": "generative_elements-0328",
+      "text": "Confianza en las instituciones"
+    },
+    {
+      "id": "generative_elements-0329",
+      "text": "Previsiones de futuro"
+    },
+    {
+      "id": "generative_elements-0330",
+      "text": "Historia"
+    },
+    {
+      "id": "generative_elements-0331",
+      "text": "Historia alternativa"
+    },
+    {
+      "id": "generative_elements-0332",
+      "text": "Líneas temporales"
+    },
+    {
+      "id": "generative_elements-0333",
+      "text": "Líneas temporales paralelas"
+    },
+    {
+      "id": "generative_elements-0334",
+      "text": "Paradojas temporales"
+    },
+    {
+      "id": "generative_elements-0335",
+      "text": "Acontecimientos históricos cambiantes"
+    },
+    {
+      "id": "generative_elements-0336",
+      "text": "Historia de distintas partidas"
+    },
+    {
+      "id": "generative_elements-0337",
+      "text": "Los recuerdos del mundo"
+    },
+    {
+      "id": "generative_elements-0338",
+      "text": "Efectos de las partidas anteriores del jugador"
+    },
+    {
+      "id": "generative_elements-0339",
+      "text": "Misterios procedimentales"
+    },
+    {
+      "id": "generative_elements-0340",
+      "text": "Asesinatos procedimentales"
+    },
+    {
+      "id": "generative_elements-0341",
+      "text": "Conspiraciones procedimentales"
+    },
+    {
+      "id": "generative_elements-0342",
+      "text": "Catástrofes procedimentales"
+    },
+    {
+      "id": "generative_elements-0343",
+      "text": "Crisis políticas procedimentales"
+    },
+    {
+      "id": "generative_elements-0344",
+      "text": "Dramas de relaciones procedimentales"
+    },
+    {
+      "id": "generative_elements-0345",
+      "text": "Sagas familiares procedimentales"
+    },
+    {
+      "id": "generative_elements-0346",
+      "text": "Dramas laborales procedimentales"
+    },
+    {
+      "id": "generative_elements-0347",
+      "text": "Causas de guerra procedimentales"
+    },
+    {
+      "id": "generative_elements-0348",
+      "text": "Negociaciones de paz procedimentales"
+    },
+    {
+      "id": "generative_elements-0349",
+      "text": "Eventos mundiales procedimentales"
+    },
+    {
+      "id": "generative_elements-0350",
+      "text": "Trama principal procedimental"
+    },
+    {
+      "id": "generative_elements-0351",
+      "text": "Subtrama procedimental"
+    },
+    {
+      "id": "generative_elements-0352",
+      "text": "Antagonista procedimental"
+    },
+    {
+      "id": "generative_elements-0353",
+      "text": "Final procedimental"
+    },
+    {
+      "id": "generative_elements-0354",
+      "text": "Condiciones de victoria procedimentales"
+    },
+    {
+      "id": "generative_elements-0355",
+      "text": "Fracasos procedimentales"
+    },
+    {
+      "id": "generative_elements-0356",
+      "text": "Dilemas morales procedimentales"
+    },
+    {
+      "id": "generative_elements-0357",
+      "text": "Objetivos personales procedimentales"
+    },
+    {
+      "id": "generative_elements-0358",
+      "text": "Objetivos organizativos procedimentales"
+    },
+    {
+      "id": "generative_elements-0359",
+      "text": "Objetivos mundiales procedimentales"
+    }
   ]
 }

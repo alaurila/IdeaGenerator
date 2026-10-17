@@ -1,238 +1,940 @@
 {
   "player_knowledge": [
-    "Näet kaiken",
-    "Tiedät vain oman roolisi asiat",
-    "Tieto tulee raportteina",
-    "NPC:t valehtelevat",
-    "Osa datasta on epäluotettavaa",
-    "Näet vain oman sijaintisi",
-    "Näet vain oman organisaatiosi tiedot",
-    "Näet vain sen mitä hahmosi voisi realistisesti tietää",
-    "Näet maailman jumalnäkymästä",
-    "Näet kartan mutta et tapahtumia",
-    "Näet tapahtumat mutta et niiden syitä",
-    "Näet seuraukset mutta et päätöksiä niiden taustalla",
-    "Näet päätökset mutta et niiden seurauksia etukäteen",
-    "Näet kaikki resurssit tarkasti",
-    "Näet resurssit vain arvioina",
-    "Näet resurssit viiveellä",
-    "Näet vain tärkeimmät mittarit",
-    "Osa mittareista on piilotettu",
-    "Osa mittareista näyttää väärää tietoa",
-    "Mittarit pyöristetään",
-    "Mittarit voivat olla vanhentuneita",
-    "Mittarit riippuvat raportoinnin laadusta",
-    "Tieto tulee huhujen kautta",
-    "Tieto tulee sanomalehdistä",
-    "Tieto tulee radiosta",
-    "Tieto tulee sähköposteista",
-    "Tieto tulee kirjeistä",
-    "Tieto tulee puheluista",
-    "Tieto tulee keskusteluista",
-    "Tieto tulee valvontakameroista",
-    "Tieto tulee sensoreista",
-    "Tieto tulee tiedusteluraporteista",
-    "Tieto tulee työntekijöiden raporteista",
-    "Tieto tulee kansalaisten ilmoituksista",
-    "Tieto tulee virallisista asiakirjoista",
-    "Tieto tulee epävirallisista lähteistä",
-    "Tieto tulee useista ristiriitaisista lähteistä",
-    "Tieto pitää koota itse eri lähteistä",
-    "Tietoa saa vain kysymällä oikeilta ihmisiltä",
-    "Tietoa saa vain tutkimalla ympäristöä",
-    "Tietoa saa vain käyttämällä aikaa",
-    "Tietoa saa vain maksamalla",
-    "Tietoa saa palveluksia vastaan",
-    "Tietoa saa kiristämällä",
-    "Tietoa saa vakoilemalla",
-    "Tietoa saa murtautumalla järjestelmiin",
-    "Tietoa saa tutkimuksen kautta",
-    "Tietoa saa sattumalta",
-    "Tietoa saa vain tietyissä paikoissa",
-    "Tietoa saa vain tiettyinä aikoina",
-    "Tietoa saa vain tietyiltä fraktioilta",
-    "Tieto on luokiteltu turvaluokan mukaan",
-    "Pääsy tietoon riippuu asemasta",
-    "Pääsy tietoon riippuu maineesta",
-    "Pääsy tietoon riippuu luottamuksesta",
-    "Pääsy tietoon riippuu rahasta",
-    "Pääsy tietoon riippuu suhteista",
-    "Pääsy tietoon riippuu poliittisesta vallasta",
-    "Pääsy tietoon riippuu teknisestä osaamisesta",
-    "Pääsy tietoon riippuu fyysisestä sijainnista",
-    "Pelaaja tietää enemmän kuin pelihahmo",
-    "Pelihahmo tietää enemmän kuin pelaaja",
-    "Pelaaja ja hahmo tietävät eri asioita",
-    "Pelaaja saa tietoa jota hahmo ei voi käyttää suoraan",
-    "Pelaaja joutuu näyttelemään tietämätöntä",
-    "Pelaaja ei tiedä omia todellisia tavoitteitaan",
-    "Pelaaja ei tiedä omaa henkilöllisyyttään",
-    "Pelaaja ei tiedä kuka hänelle antaa käskyjä",
-    "Pelaaja ei tiedä miksi tehtävä on tärkeä",
-    "Pelaaja ei tiedä onko tehtävänanto totta",
-    "Pelaaja ei tiedä kuka on liittolainen",
-    "Pelaaja ei tiedä kuka on vihollinen",
-    "Pelaaja ei tiedä kuka valehtelee",
-    "Pelaaja ei tiedä kuka kertoo totuuden",
-    "Pelaaja ei tiedä ketkä NPC:t tuntevat toisensa",
-    "Pelaaja ei tiedä NPC:iden todellisia tavoitteita",
-    "Pelaaja ei tiedä NPC:iden mielipiteitä",
-    "Pelaaja ei tiedä NPC:iden lojaalisuutta",
-    "Pelaaja ei tiedä NPC:iden pelkoa",
-    "Pelaaja ei tiedä NPC:iden salaisuuksia",
-    "Pelaaja ei tiedä NPC:iden taloudellista tilannetta",
-    "Pelaaja ei tiedä NPC:iden sijaintia",
-    "Pelaaja näkee NPC:iden sijainnin vain joskus",
-    "NPC:iden aikataulut pitää oppia",
-    "NPC:iden suhteet pitää päätellä",
-    "NPC:iden motiivit pitää päätellä",
-    "NPC:iden mielentila pitää päätellä",
-    "NPC:t voivat valehdella suoraan",
-    "NPC:t voivat jättää asioita kertomatta",
-    "NPC:t voivat muistaa väärin",
-    "NPC:t voivat tulkita tapahtumia väärin",
-    "NPC:t voivat uskoa huhuja",
-    "NPC:t voivat välittää väärää tietoa tahattomasti",
-    "NPC:t voivat välittää disinformaatiota tarkoituksella",
-    "NPC:t voivat muuttaa tarinaansa",
-    "NPC:t voivat sopia yhteisestä valheesta",
-    "NPC:t voivat antaa ristiriitaisia todistuksia",
-    "NPC:n luotettavuus pitää arvioida",
-    "NPC:n tieto riippuu hänen asemastaan",
-    "NPC:n tieto riippuu hänen sijainnistaan",
-    "NPC:n tieto riippuu hänen suhteistaan",
-    "NPC:n tieto voi olla vanhentunutta",
-    "NPC:t tietävät pelaajasta asioita joita pelaaja ei tiedä",
-    "NPC:t voivat tietää enemmän kuin pelaaja",
-    "NPC:t voivat tietää vähemmän kuin uskovat",
-    "NPC:t voivat salata tietoa toisiltaan",
-    "NPC:t jakavat tietoa keskenään",
-    "Tieto leviää sosiaalisen verkoston kautta",
-    "Huhut muuttuvat levitessään",
-    "Tieto vääristyy jokaisen välittäjän kohdalla",
-    "Pelaaja näkee tiedon alkuperän",
-    "Pelaaja ei näe tiedon alkuperää",
-    "Pelaaja näkee lähteen luotettavuusarvion",
-    "Pelaaja joutuu itse arvioimaan lähteen luotettavuuden",
-    "Lähteen luotettavuus voi muuttua",
-    "Luotettava lähde voi valehdella kerran",
-    "Epäluotettava lähde voi joskus olla ainoa oikeassa oleva",
-    "Virallinen tieto on yleensä luotettavaa",
-    "Virallinen tieto voi olla propagandaa",
-    "Virallinen tieto on tarkoituksella väärää",
-    "Epävirallinen tieto voi olla arvokkaampaa kuin virallinen tieto",
-    "Salainen tieto voi olla väärää",
-    "Luokiteltu tieto ei välttämättä ole totta",
-    "Useampi ristiriitainen tieto voi olla osittain totta",
-    "Totuutta ei voi koskaan tietää varmasti",
-    "Totuus voidaan selvittää täysin",
-    "Totuus voidaan selvittää vain riittävällä todistusaineistolla",
-    "Totuus muuttuu pelin aikana",
-    "Totuus riippuu näkökulmasta",
-    "Totuus riippuu siitä kuka tapahtumaa tulkitsee",
-    "Pelaajan pitää rakentaa oma teoria",
-    "Pelaajan pitää merkitä epäilykset itse",
-    "Pelaajan pitää yhdistellä vihjeitä",
-    "Pelaajan pitää rakentaa aikajana",
-    "Pelaajan pitää rakentaa sukupuu",
-    "Pelaajan pitää rakentaa ihmissuhdeverkosto",
-    "Pelaajan pitää ylläpitää omaa muistiinpanovihkoa",
-    "Peli pitää automaattista tietokantaa löydetyistä tiedoista",
-    "Pelin tietokanta sisältää myös väärää tietoa",
-    "Pelaaja voi korjata tietokannan tietoja",
-    "Pelaaja voi merkitä tiedon vahvistetuksi",
-    "Pelaaja voi merkitä tiedon epäilyttäväksi",
-    "Pelaaja voi yhdistää lähteitä samaan väitteeseen",
-    "Pelaaja voi unohtaa tietoa ajan myötä",
-    "Pelihahmo voi unohtaa tietoa",
-    "Muisti on rajallinen resurssi",
-    "Muisti voi vääristyä",
-    "Muisti voidaan manipuloida",
-    "Muistoja voi kadota",
-    "Muistoja voi palautua myöhemmin",
-    "Pelaaja saa takaumia",
-    "Takaumat voivat olla epäluotettavia",
-    "Unet sisältävät vihjeitä",
-    "Unet sisältävät sekä oikeaa että väärää tietoa",
-    "Hallusinaatiot sekoittuvat todellisuuteen",
-    "Pelaaja ei aina tiedä onko tapahtuma todellinen",
-    "Kartta sisältää vain tunnetut alueet",
-    "Kartta päivittyy tutkimalla",
-    "Kartta voi olla virheellinen",
-    "Kartta voi olla vanhentunut",
-    "Kartta voi olla tarkoituksella väärä",
-    "Kartan tiedot riippuvat kartan tekijästä",
-    "Pelaaja näkee vain näkyvyysalueen",
-    "Fog of war peittää tuntemattomat alueet",
-    "Fog of war palaa alueille ajan myötä",
-    "Pelaaja muistaa aiemmin nähdyt alueet",
-    "Pelaaja ei tiedä mitä tapahtuu muualla maailmassa",
-    "Maailman tapahtumat selviävät jälkikäteen",
-    "Maailman tapahtumat näkyvät uutisina",
-    "Maailman tapahtumat näkyvät resurssien muutoksina",
-    "Maailman tapahtumat näkyvät NPC:iden käyttäytymisessä",
-    "Maailman tapahtumat pitää päätellä epäsuorasti",
-    "Pelaaja näkee kaikki strategiset tapahtumat",
-    "Pelaaja näkee vain oman fraktionsa raportit",
-    "Pelaaja näkee vihollisen tiedot vain tiedustelun kautta",
-    "Vihollisen yksikkömäärät näkyvät arvioina",
-    "Vihollisen resurssit ovat tuntemattomia",
-    "Vihollisen suunnitelmat voidaan siepata",
-    "Tiedustelutieto voi olla väärää",
-    "Vakoojat voivat syöttää väärää tietoa",
-    "Pelaajan oma organisaatio voi vääristellä raportteja",
-    "Alaiset salaavat huonoja uutisia",
-    "Alaiset kaunistelevat tilastoja",
-    "Tilastot voivat näyttää hyviltä vaikka tilanne on huono",
-    "Mittareita voidaan manipuloida",
-    "Pelaaja näkee vain aggregoidut luvut",
-    "Pelaaja voi porautua yksityiskohtiin",
-    "Yksityiskohtainen tieto maksaa aikaa",
-    "Yksityiskohtainen tieto maksaa resursseja",
-    "Liika tieto kuormittaa pelaajaa",
-    "Pelaajan pitää valita mitä seurata",
-    "Kaikkea ei voi seurata yhtä aikaa",
-    "Tärkeät tapahtumat voivat jäädä huomaamatta",
-    "Hälytyksiä tulee liikaa",
-    "Pelaajan pitää priorisoida raportteja",
-    "Osa raporteista on turhia",
-    "Osa turhalta näyttävistä raporteista sisältää kriittisiä vihjeitä",
-    "Tieto saapuu viiveellä",
-    "Tieto voi kadota matkalla",
-    "Viesti voi muuttua matkalla",
-    "Kommunikaatio voi katketa",
-    "Kommunikaatio toimii vain tiettyinä aikoina",
-    "Kommunikaatiolla on rajallinen kantama",
-    "Tieto pitää kuljettaa fyysisesti",
-    "Sanansaattaja voi kadota",
-    "Dokumentti voi olla väärennös",
-    "Dokumenttia voi olla muokattu",
-    "Allekirjoitus voi olla väärennetty",
-    "Aikaleima voi olla väärä",
-    "Valokuvaa voi olla manipuloitu",
-    "Videomateriaali voi olla puutteellista",
-    "Valvontakamera ei näytä kaikkea",
-    "Valvontakamerassa on kuolleita kulmia",
-    "Kameroita voi sabotoida",
-    "Kamerakuvaa voidaan väärentää",
-    "Sensori voi olla rikki",
-    "Sensori voi antaa vääriä positiivisia havaintoja",
-    "Sensori voi jättää asioita havaitsematta",
-    "Useita sensoreita pitää verrata keskenään",
-    "Tieto tulee vain tapahtumista joita pelaaja päättää tutkia",
-    "Tutkimatta jätetty tieto menetetään",
-    "Pelaaja voi kysyä vain rajallisen määrän kysymyksiä",
-    "Pelaaja voi haastatella vain osan NPC:istä",
-    "Pelaaja ei voi palata kaikkiin päätöksiin",
-    "Väärä johtopäätös voi lukita oikean tiedon",
-    "Tieto avaa uusia kysymyksiä",
-    "Uusi tieto voi kumota vanhan teorian",
-    "Tieto voi muuttaa tehtävän tavoitetta",
-    "Tieto voi paljastaa uuden vihollisen",
-    "Tieto voi paljastaa ettei vihollista olekaan",
-    "Pelaaja tietää lopulta lähes kaiken",
-    "Pelaaja tietää lopulta vain osan totuudesta",
-    "Pelin lopussa jää tarkoituksella epäselvyyksiä",
-    "Pelaaja joutuu tekemään lopullisen päätöksen epävarman tiedon perusteella"
+    {
+      "id": "player_knowledge-0001",
+      "text": "Näet kaiken"
+    },
+    {
+      "id": "player_knowledge-0002",
+      "text": "Tiedät vain oman roolisi asiat"
+    },
+    {
+      "id": "player_knowledge-0003",
+      "text": "Tieto tulee raportteina"
+    },
+    {
+      "id": "player_knowledge-0004",
+      "text": "NPC:t valehtelevat"
+    },
+    {
+      "id": "player_knowledge-0005",
+      "text": "Osa datasta on epäluotettavaa"
+    },
+    {
+      "id": "player_knowledge-0006",
+      "text": "Näet vain oman sijaintisi"
+    },
+    {
+      "id": "player_knowledge-0007",
+      "text": "Näet vain oman organisaatiosi tiedot"
+    },
+    {
+      "id": "player_knowledge-0008",
+      "text": "Näet vain sen mitä hahmosi voisi realistisesti tietää"
+    },
+    {
+      "id": "player_knowledge-0009",
+      "text": "Näet maailman jumalnäkymästä"
+    },
+    {
+      "id": "player_knowledge-0010",
+      "text": "Näet kartan mutta et tapahtumia"
+    },
+    {
+      "id": "player_knowledge-0011",
+      "text": "Näet tapahtumat mutta et niiden syitä"
+    },
+    {
+      "id": "player_knowledge-0012",
+      "text": "Näet seuraukset mutta et päätöksiä niiden taustalla"
+    },
+    {
+      "id": "player_knowledge-0013",
+      "text": "Näet päätökset mutta et niiden seurauksia etukäteen"
+    },
+    {
+      "id": "player_knowledge-0014",
+      "text": "Näet kaikki resurssit tarkasti"
+    },
+    {
+      "id": "player_knowledge-0015",
+      "text": "Näet resurssit vain arvioina"
+    },
+    {
+      "id": "player_knowledge-0016",
+      "text": "Näet resurssit viiveellä"
+    },
+    {
+      "id": "player_knowledge-0017",
+      "text": "Näet vain tärkeimmät mittarit"
+    },
+    {
+      "id": "player_knowledge-0018",
+      "text": "Osa mittareista on piilotettu"
+    },
+    {
+      "id": "player_knowledge-0019",
+      "text": "Osa mittareista näyttää väärää tietoa"
+    },
+    {
+      "id": "player_knowledge-0020",
+      "text": "Mittarit pyöristetään"
+    },
+    {
+      "id": "player_knowledge-0021",
+      "text": "Mittarit voivat olla vanhentuneita"
+    },
+    {
+      "id": "player_knowledge-0022",
+      "text": "Mittarit riippuvat raportoinnin laadusta"
+    },
+    {
+      "id": "player_knowledge-0023",
+      "text": "Tieto tulee huhujen kautta"
+    },
+    {
+      "id": "player_knowledge-0024",
+      "text": "Tieto tulee sanomalehdistä"
+    },
+    {
+      "id": "player_knowledge-0025",
+      "text": "Tieto tulee radiosta"
+    },
+    {
+      "id": "player_knowledge-0026",
+      "text": "Tieto tulee sähköposteista"
+    },
+    {
+      "id": "player_knowledge-0027",
+      "text": "Tieto tulee kirjeistä"
+    },
+    {
+      "id": "player_knowledge-0028",
+      "text": "Tieto tulee puheluista"
+    },
+    {
+      "id": "player_knowledge-0029",
+      "text": "Tieto tulee keskusteluista"
+    },
+    {
+      "id": "player_knowledge-0030",
+      "text": "Tieto tulee valvontakameroista"
+    },
+    {
+      "id": "player_knowledge-0031",
+      "text": "Tieto tulee sensoreista"
+    },
+    {
+      "id": "player_knowledge-0032",
+      "text": "Tieto tulee tiedusteluraporteista"
+    },
+    {
+      "id": "player_knowledge-0033",
+      "text": "Tieto tulee työntekijöiden raporteista"
+    },
+    {
+      "id": "player_knowledge-0034",
+      "text": "Tieto tulee kansalaisten ilmoituksista"
+    },
+    {
+      "id": "player_knowledge-0035",
+      "text": "Tieto tulee virallisista asiakirjoista"
+    },
+    {
+      "id": "player_knowledge-0036",
+      "text": "Tieto tulee epävirallisista lähteistä"
+    },
+    {
+      "id": "player_knowledge-0037",
+      "text": "Tieto tulee useista ristiriitaisista lähteistä"
+    },
+    {
+      "id": "player_knowledge-0038",
+      "text": "Tieto pitää koota itse eri lähteistä"
+    },
+    {
+      "id": "player_knowledge-0039",
+      "text": "Tietoa saa vain kysymällä oikeilta ihmisiltä"
+    },
+    {
+      "id": "player_knowledge-0040",
+      "text": "Tietoa saa vain tutkimalla ympäristöä"
+    },
+    {
+      "id": "player_knowledge-0041",
+      "text": "Tietoa saa vain käyttämällä aikaa"
+    },
+    {
+      "id": "player_knowledge-0042",
+      "text": "Tietoa saa vain maksamalla"
+    },
+    {
+      "id": "player_knowledge-0043",
+      "text": "Tietoa saa palveluksia vastaan"
+    },
+    {
+      "id": "player_knowledge-0044",
+      "text": "Tietoa saa kiristämällä"
+    },
+    {
+      "id": "player_knowledge-0045",
+      "text": "Tietoa saa vakoilemalla"
+    },
+    {
+      "id": "player_knowledge-0046",
+      "text": "Tietoa saa murtautumalla järjestelmiin"
+    },
+    {
+      "id": "player_knowledge-0047",
+      "text": "Tietoa saa tutkimuksen kautta"
+    },
+    {
+      "id": "player_knowledge-0048",
+      "text": "Tietoa saa sattumalta"
+    },
+    {
+      "id": "player_knowledge-0049",
+      "text": "Tietoa saa vain tietyissä paikoissa"
+    },
+    {
+      "id": "player_knowledge-0050",
+      "text": "Tietoa saa vain tiettyinä aikoina"
+    },
+    {
+      "id": "player_knowledge-0051",
+      "text": "Tietoa saa vain tietyiltä fraktioilta"
+    },
+    {
+      "id": "player_knowledge-0052",
+      "text": "Tieto on luokiteltu turvaluokan mukaan"
+    },
+    {
+      "id": "player_knowledge-0053",
+      "text": "Pääsy tietoon riippuu asemasta"
+    },
+    {
+      "id": "player_knowledge-0054",
+      "text": "Pääsy tietoon riippuu maineesta"
+    },
+    {
+      "id": "player_knowledge-0055",
+      "text": "Pääsy tietoon riippuu luottamuksesta"
+    },
+    {
+      "id": "player_knowledge-0056",
+      "text": "Pääsy tietoon riippuu rahasta"
+    },
+    {
+      "id": "player_knowledge-0057",
+      "text": "Pääsy tietoon riippuu suhteista"
+    },
+    {
+      "id": "player_knowledge-0058",
+      "text": "Pääsy tietoon riippuu poliittisesta vallasta"
+    },
+    {
+      "id": "player_knowledge-0059",
+      "text": "Pääsy tietoon riippuu teknisestä osaamisesta"
+    },
+    {
+      "id": "player_knowledge-0060",
+      "text": "Pääsy tietoon riippuu fyysisestä sijainnista"
+    },
+    {
+      "id": "player_knowledge-0061",
+      "text": "Pelaaja tietää enemmän kuin pelihahmo"
+    },
+    {
+      "id": "player_knowledge-0062",
+      "text": "Pelihahmo tietää enemmän kuin pelaaja"
+    },
+    {
+      "id": "player_knowledge-0063",
+      "text": "Pelaaja ja hahmo tietävät eri asioita"
+    },
+    {
+      "id": "player_knowledge-0064",
+      "text": "Pelaaja saa tietoa jota hahmo ei voi käyttää suoraan"
+    },
+    {
+      "id": "player_knowledge-0065",
+      "text": "Pelaaja joutuu näyttelemään tietämätöntä"
+    },
+    {
+      "id": "player_knowledge-0066",
+      "text": "Pelaaja ei tiedä omia todellisia tavoitteitaan"
+    },
+    {
+      "id": "player_knowledge-0067",
+      "text": "Pelaaja ei tiedä omaa henkilöllisyyttään"
+    },
+    {
+      "id": "player_knowledge-0068",
+      "text": "Pelaaja ei tiedä kuka hänelle antaa käskyjä"
+    },
+    {
+      "id": "player_knowledge-0069",
+      "text": "Pelaaja ei tiedä miksi tehtävä on tärkeä"
+    },
+    {
+      "id": "player_knowledge-0070",
+      "text": "Pelaaja ei tiedä onko tehtävänanto totta"
+    },
+    {
+      "id": "player_knowledge-0071",
+      "text": "Pelaaja ei tiedä kuka on liittolainen"
+    },
+    {
+      "id": "player_knowledge-0072",
+      "text": "Pelaaja ei tiedä kuka on vihollinen"
+    },
+    {
+      "id": "player_knowledge-0073",
+      "text": "Pelaaja ei tiedä kuka valehtelee"
+    },
+    {
+      "id": "player_knowledge-0074",
+      "text": "Pelaaja ei tiedä kuka kertoo totuuden"
+    },
+    {
+      "id": "player_knowledge-0075",
+      "text": "Pelaaja ei tiedä ketkä NPC:t tuntevat toisensa"
+    },
+    {
+      "id": "player_knowledge-0076",
+      "text": "Pelaaja ei tiedä NPC:iden todellisia tavoitteita"
+    },
+    {
+      "id": "player_knowledge-0077",
+      "text": "Pelaaja ei tiedä NPC:iden mielipiteitä"
+    },
+    {
+      "id": "player_knowledge-0078",
+      "text": "Pelaaja ei tiedä NPC:iden lojaalisuutta"
+    },
+    {
+      "id": "player_knowledge-0079",
+      "text": "Pelaaja ei tiedä NPC:iden pelkoa"
+    },
+    {
+      "id": "player_knowledge-0080",
+      "text": "Pelaaja ei tiedä NPC:iden salaisuuksia"
+    },
+    {
+      "id": "player_knowledge-0081",
+      "text": "Pelaaja ei tiedä NPC:iden taloudellista tilannetta"
+    },
+    {
+      "id": "player_knowledge-0082",
+      "text": "Pelaaja ei tiedä NPC:iden sijaintia"
+    },
+    {
+      "id": "player_knowledge-0083",
+      "text": "Pelaaja näkee NPC:iden sijainnin vain joskus"
+    },
+    {
+      "id": "player_knowledge-0084",
+      "text": "NPC:iden aikataulut pitää oppia"
+    },
+    {
+      "id": "player_knowledge-0085",
+      "text": "NPC:iden suhteet pitää päätellä"
+    },
+    {
+      "id": "player_knowledge-0086",
+      "text": "NPC:iden motiivit pitää päätellä"
+    },
+    {
+      "id": "player_knowledge-0087",
+      "text": "NPC:iden mielentila pitää päätellä"
+    },
+    {
+      "id": "player_knowledge-0088",
+      "text": "NPC:t voivat valehdella suoraan"
+    },
+    {
+      "id": "player_knowledge-0089",
+      "text": "NPC:t voivat jättää asioita kertomatta"
+    },
+    {
+      "id": "player_knowledge-0090",
+      "text": "NPC:t voivat muistaa väärin"
+    },
+    {
+      "id": "player_knowledge-0091",
+      "text": "NPC:t voivat tulkita tapahtumia väärin"
+    },
+    {
+      "id": "player_knowledge-0092",
+      "text": "NPC:t voivat uskoa huhuja"
+    },
+    {
+      "id": "player_knowledge-0093",
+      "text": "NPC:t voivat välittää väärää tietoa tahattomasti"
+    },
+    {
+      "id": "player_knowledge-0094",
+      "text": "NPC:t voivat välittää disinformaatiota tarkoituksella"
+    },
+    {
+      "id": "player_knowledge-0095",
+      "text": "NPC:t voivat muuttaa tarinaansa"
+    },
+    {
+      "id": "player_knowledge-0096",
+      "text": "NPC:t voivat sopia yhteisestä valheesta"
+    },
+    {
+      "id": "player_knowledge-0097",
+      "text": "NPC:t voivat antaa ristiriitaisia todistuksia"
+    },
+    {
+      "id": "player_knowledge-0098",
+      "text": "NPC:n luotettavuus pitää arvioida"
+    },
+    {
+      "id": "player_knowledge-0099",
+      "text": "NPC:n tieto riippuu hänen asemastaan"
+    },
+    {
+      "id": "player_knowledge-0100",
+      "text": "NPC:n tieto riippuu hänen sijainnistaan"
+    },
+    {
+      "id": "player_knowledge-0101",
+      "text": "NPC:n tieto riippuu hänen suhteistaan"
+    },
+    {
+      "id": "player_knowledge-0102",
+      "text": "NPC:n tieto voi olla vanhentunutta"
+    },
+    {
+      "id": "player_knowledge-0103",
+      "text": "NPC:t tietävät pelaajasta asioita joita pelaaja ei tiedä"
+    },
+    {
+      "id": "player_knowledge-0104",
+      "text": "NPC:t voivat tietää enemmän kuin pelaaja"
+    },
+    {
+      "id": "player_knowledge-0105",
+      "text": "NPC:t voivat tietää vähemmän kuin uskovat"
+    },
+    {
+      "id": "player_knowledge-0106",
+      "text": "NPC:t voivat salata tietoa toisiltaan"
+    },
+    {
+      "id": "player_knowledge-0107",
+      "text": "NPC:t jakavat tietoa keskenään"
+    },
+    {
+      "id": "player_knowledge-0108",
+      "text": "Tieto leviää sosiaalisen verkoston kautta"
+    },
+    {
+      "id": "player_knowledge-0109",
+      "text": "Huhut muuttuvat levitessään"
+    },
+    {
+      "id": "player_knowledge-0110",
+      "text": "Tieto vääristyy jokaisen välittäjän kohdalla"
+    },
+    {
+      "id": "player_knowledge-0111",
+      "text": "Pelaaja näkee tiedon alkuperän"
+    },
+    {
+      "id": "player_knowledge-0112",
+      "text": "Pelaaja ei näe tiedon alkuperää"
+    },
+    {
+      "id": "player_knowledge-0113",
+      "text": "Pelaaja näkee lähteen luotettavuusarvion"
+    },
+    {
+      "id": "player_knowledge-0114",
+      "text": "Pelaaja joutuu itse arvioimaan lähteen luotettavuuden"
+    },
+    {
+      "id": "player_knowledge-0115",
+      "text": "Lähteen luotettavuus voi muuttua"
+    },
+    {
+      "id": "player_knowledge-0116",
+      "text": "Luotettava lähde voi valehdella kerran"
+    },
+    {
+      "id": "player_knowledge-0117",
+      "text": "Epäluotettava lähde voi joskus olla ainoa oikeassa oleva"
+    },
+    {
+      "id": "player_knowledge-0118",
+      "text": "Virallinen tieto on yleensä luotettavaa"
+    },
+    {
+      "id": "player_knowledge-0119",
+      "text": "Virallinen tieto voi olla propagandaa"
+    },
+    {
+      "id": "player_knowledge-0120",
+      "text": "Virallinen tieto on tarkoituksella väärää"
+    },
+    {
+      "id": "player_knowledge-0121",
+      "text": "Epävirallinen tieto voi olla arvokkaampaa kuin virallinen tieto"
+    },
+    {
+      "id": "player_knowledge-0122",
+      "text": "Salainen tieto voi olla väärää"
+    },
+    {
+      "id": "player_knowledge-0123",
+      "text": "Luokiteltu tieto ei välttämättä ole totta"
+    },
+    {
+      "id": "player_knowledge-0124",
+      "text": "Useampi ristiriitainen tieto voi olla osittain totta"
+    },
+    {
+      "id": "player_knowledge-0125",
+      "text": "Totuutta ei voi koskaan tietää varmasti"
+    },
+    {
+      "id": "player_knowledge-0126",
+      "text": "Totuus voidaan selvittää täysin"
+    },
+    {
+      "id": "player_knowledge-0127",
+      "text": "Totuus voidaan selvittää vain riittävällä todistusaineistolla"
+    },
+    {
+      "id": "player_knowledge-0128",
+      "text": "Totuus muuttuu pelin aikana"
+    },
+    {
+      "id": "player_knowledge-0129",
+      "text": "Totuus riippuu näkökulmasta"
+    },
+    {
+      "id": "player_knowledge-0130",
+      "text": "Totuus riippuu siitä kuka tapahtumaa tulkitsee"
+    },
+    {
+      "id": "player_knowledge-0131",
+      "text": "Pelaajan pitää rakentaa oma teoria"
+    },
+    {
+      "id": "player_knowledge-0132",
+      "text": "Pelaajan pitää merkitä epäilykset itse"
+    },
+    {
+      "id": "player_knowledge-0133",
+      "text": "Pelaajan pitää yhdistellä vihjeitä"
+    },
+    {
+      "id": "player_knowledge-0134",
+      "text": "Pelaajan pitää rakentaa aikajana"
+    },
+    {
+      "id": "player_knowledge-0135",
+      "text": "Pelaajan pitää rakentaa sukupuu"
+    },
+    {
+      "id": "player_knowledge-0136",
+      "text": "Pelaajan pitää rakentaa ihmissuhdeverkosto"
+    },
+    {
+      "id": "player_knowledge-0137",
+      "text": "Pelaajan pitää ylläpitää omaa muistiinpanovihkoa"
+    },
+    {
+      "id": "player_knowledge-0138",
+      "text": "Peli pitää automaattista tietokantaa löydetyistä tiedoista"
+    },
+    {
+      "id": "player_knowledge-0139",
+      "text": "Pelin tietokanta sisältää myös väärää tietoa"
+    },
+    {
+      "id": "player_knowledge-0140",
+      "text": "Pelaaja voi korjata tietokannan tietoja"
+    },
+    {
+      "id": "player_knowledge-0141",
+      "text": "Pelaaja voi merkitä tiedon vahvistetuksi"
+    },
+    {
+      "id": "player_knowledge-0142",
+      "text": "Pelaaja voi merkitä tiedon epäilyttäväksi"
+    },
+    {
+      "id": "player_knowledge-0143",
+      "text": "Pelaaja voi yhdistää lähteitä samaan väitteeseen"
+    },
+    {
+      "id": "player_knowledge-0144",
+      "text": "Pelaaja voi unohtaa tietoa ajan myötä"
+    },
+    {
+      "id": "player_knowledge-0145",
+      "text": "Pelihahmo voi unohtaa tietoa"
+    },
+    {
+      "id": "player_knowledge-0146",
+      "text": "Muisti on rajallinen resurssi"
+    },
+    {
+      "id": "player_knowledge-0147",
+      "text": "Muisti voi vääristyä"
+    },
+    {
+      "id": "player_knowledge-0148",
+      "text": "Muisti voidaan manipuloida"
+    },
+    {
+      "id": "player_knowledge-0149",
+      "text": "Muistoja voi kadota"
+    },
+    {
+      "id": "player_knowledge-0150",
+      "text": "Muistoja voi palautua myöhemmin"
+    },
+    {
+      "id": "player_knowledge-0151",
+      "text": "Pelaaja saa takaumia"
+    },
+    {
+      "id": "player_knowledge-0152",
+      "text": "Takaumat voivat olla epäluotettavia"
+    },
+    {
+      "id": "player_knowledge-0153",
+      "text": "Unet sisältävät vihjeitä"
+    },
+    {
+      "id": "player_knowledge-0154",
+      "text": "Unet sisältävät sekä oikeaa että väärää tietoa"
+    },
+    {
+      "id": "player_knowledge-0155",
+      "text": "Hallusinaatiot sekoittuvat todellisuuteen"
+    },
+    {
+      "id": "player_knowledge-0156",
+      "text": "Pelaaja ei aina tiedä onko tapahtuma todellinen"
+    },
+    {
+      "id": "player_knowledge-0157",
+      "text": "Kartta sisältää vain tunnetut alueet"
+    },
+    {
+      "id": "player_knowledge-0158",
+      "text": "Kartta päivittyy tutkimalla"
+    },
+    {
+      "id": "player_knowledge-0159",
+      "text": "Kartta voi olla virheellinen"
+    },
+    {
+      "id": "player_knowledge-0160",
+      "text": "Kartta voi olla vanhentunut"
+    },
+    {
+      "id": "player_knowledge-0161",
+      "text": "Kartta voi olla tarkoituksella väärä"
+    },
+    {
+      "id": "player_knowledge-0162",
+      "text": "Kartan tiedot riippuvat kartan tekijästä"
+    },
+    {
+      "id": "player_knowledge-0163",
+      "text": "Pelaaja näkee vain näkyvyysalueen"
+    },
+    {
+      "id": "player_knowledge-0164",
+      "text": "Fog of war peittää tuntemattomat alueet"
+    },
+    {
+      "id": "player_knowledge-0165",
+      "text": "Fog of war palaa alueille ajan myötä"
+    },
+    {
+      "id": "player_knowledge-0166",
+      "text": "Pelaaja muistaa aiemmin nähdyt alueet"
+    },
+    {
+      "id": "player_knowledge-0167",
+      "text": "Pelaaja ei tiedä mitä tapahtuu muualla maailmassa"
+    },
+    {
+      "id": "player_knowledge-0168",
+      "text": "Maailman tapahtumat selviävät jälkikäteen"
+    },
+    {
+      "id": "player_knowledge-0169",
+      "text": "Maailman tapahtumat näkyvät uutisina"
+    },
+    {
+      "id": "player_knowledge-0170",
+      "text": "Maailman tapahtumat näkyvät resurssien muutoksina"
+    },
+    {
+      "id": "player_knowledge-0171",
+      "text": "Maailman tapahtumat näkyvät NPC:iden käyttäytymisessä"
+    },
+    {
+      "id": "player_knowledge-0172",
+      "text": "Maailman tapahtumat pitää päätellä epäsuorasti"
+    },
+    {
+      "id": "player_knowledge-0173",
+      "text": "Pelaaja näkee kaikki strategiset tapahtumat"
+    },
+    {
+      "id": "player_knowledge-0174",
+      "text": "Pelaaja näkee vain oman fraktionsa raportit"
+    },
+    {
+      "id": "player_knowledge-0175",
+      "text": "Pelaaja näkee vihollisen tiedot vain tiedustelun kautta"
+    },
+    {
+      "id": "player_knowledge-0176",
+      "text": "Vihollisen yksikkömäärät näkyvät arvioina"
+    },
+    {
+      "id": "player_knowledge-0177",
+      "text": "Vihollisen resurssit ovat tuntemattomia"
+    },
+    {
+      "id": "player_knowledge-0178",
+      "text": "Vihollisen suunnitelmat voidaan siepata"
+    },
+    {
+      "id": "player_knowledge-0179",
+      "text": "Tiedustelutieto voi olla väärää"
+    },
+    {
+      "id": "player_knowledge-0180",
+      "text": "Vakoojat voivat syöttää väärää tietoa"
+    },
+    {
+      "id": "player_knowledge-0181",
+      "text": "Pelaajan oma organisaatio voi vääristellä raportteja"
+    },
+    {
+      "id": "player_knowledge-0182",
+      "text": "Alaiset salaavat huonoja uutisia"
+    },
+    {
+      "id": "player_knowledge-0183",
+      "text": "Alaiset kaunistelevat tilastoja"
+    },
+    {
+      "id": "player_knowledge-0184",
+      "text": "Tilastot voivat näyttää hyviltä vaikka tilanne on huono"
+    },
+    {
+      "id": "player_knowledge-0185",
+      "text": "Mittareita voidaan manipuloida"
+    },
+    {
+      "id": "player_knowledge-0186",
+      "text": "Pelaaja näkee vain aggregoidut luvut"
+    },
+    {
+      "id": "player_knowledge-0187",
+      "text": "Pelaaja voi porautua yksityiskohtiin"
+    },
+    {
+      "id": "player_knowledge-0188",
+      "text": "Yksityiskohtainen tieto maksaa aikaa"
+    },
+    {
+      "id": "player_knowledge-0189",
+      "text": "Yksityiskohtainen tieto maksaa resursseja"
+    },
+    {
+      "id": "player_knowledge-0190",
+      "text": "Liika tieto kuormittaa pelaajaa"
+    },
+    {
+      "id": "player_knowledge-0191",
+      "text": "Pelaajan pitää valita mitä seurata"
+    },
+    {
+      "id": "player_knowledge-0192",
+      "text": "Kaikkea ei voi seurata yhtä aikaa"
+    },
+    {
+      "id": "player_knowledge-0193",
+      "text": "Tärkeät tapahtumat voivat jäädä huomaamatta"
+    },
+    {
+      "id": "player_knowledge-0194",
+      "text": "Hälytyksiä tulee liikaa"
+    },
+    {
+      "id": "player_knowledge-0195",
+      "text": "Pelaajan pitää priorisoida raportteja"
+    },
+    {
+      "id": "player_knowledge-0196",
+      "text": "Osa raporteista on turhia"
+    },
+    {
+      "id": "player_knowledge-0197",
+      "text": "Osa turhalta näyttävistä raporteista sisältää kriittisiä vihjeitä"
+    },
+    {
+      "id": "player_knowledge-0198",
+      "text": "Tieto saapuu viiveellä"
+    },
+    {
+      "id": "player_knowledge-0199",
+      "text": "Tieto voi kadota matkalla"
+    },
+    {
+      "id": "player_knowledge-0200",
+      "text": "Viesti voi muuttua matkalla"
+    },
+    {
+      "id": "player_knowledge-0201",
+      "text": "Kommunikaatio voi katketa"
+    },
+    {
+      "id": "player_knowledge-0202",
+      "text": "Kommunikaatio toimii vain tiettyinä aikoina"
+    },
+    {
+      "id": "player_knowledge-0203",
+      "text": "Kommunikaatiolla on rajallinen kantama"
+    },
+    {
+      "id": "player_knowledge-0204",
+      "text": "Tieto pitää kuljettaa fyysisesti"
+    },
+    {
+      "id": "player_knowledge-0205",
+      "text": "Sanansaattaja voi kadota"
+    },
+    {
+      "id": "player_knowledge-0206",
+      "text": "Dokumentti voi olla väärennös"
+    },
+    {
+      "id": "player_knowledge-0207",
+      "text": "Dokumenttia voi olla muokattu"
+    },
+    {
+      "id": "player_knowledge-0208",
+      "text": "Allekirjoitus voi olla väärennetty"
+    },
+    {
+      "id": "player_knowledge-0209",
+      "text": "Aikaleima voi olla väärä"
+    },
+    {
+      "id": "player_knowledge-0210",
+      "text": "Valokuvaa voi olla manipuloitu"
+    },
+    {
+      "id": "player_knowledge-0211",
+      "text": "Videomateriaali voi olla puutteellista"
+    },
+    {
+      "id": "player_knowledge-0212",
+      "text": "Valvontakamera ei näytä kaikkea"
+    },
+    {
+      "id": "player_knowledge-0213",
+      "text": "Valvontakamerassa on kuolleita kulmia"
+    },
+    {
+      "id": "player_knowledge-0214",
+      "text": "Kameroita voi sabotoida"
+    },
+    {
+      "id": "player_knowledge-0215",
+      "text": "Kamerakuvaa voidaan väärentää"
+    },
+    {
+      "id": "player_knowledge-0216",
+      "text": "Sensori voi olla rikki"
+    },
+    {
+      "id": "player_knowledge-0217",
+      "text": "Sensori voi antaa vääriä positiivisia havaintoja"
+    },
+    {
+      "id": "player_knowledge-0218",
+      "text": "Sensori voi jättää asioita havaitsematta"
+    },
+    {
+      "id": "player_knowledge-0219",
+      "text": "Useita sensoreita pitää verrata keskenään"
+    },
+    {
+      "id": "player_knowledge-0220",
+      "text": "Tieto tulee vain tapahtumista joita pelaaja päättää tutkia"
+    },
+    {
+      "id": "player_knowledge-0221",
+      "text": "Tutkimatta jätetty tieto menetetään"
+    },
+    {
+      "id": "player_knowledge-0222",
+      "text": "Pelaaja voi kysyä vain rajallisen määrän kysymyksiä"
+    },
+    {
+      "id": "player_knowledge-0223",
+      "text": "Pelaaja voi haastatella vain osan NPC:istä"
+    },
+    {
+      "id": "player_knowledge-0224",
+      "text": "Pelaaja ei voi palata kaikkiin päätöksiin"
+    },
+    {
+      "id": "player_knowledge-0225",
+      "text": "Väärä johtopäätös voi lukita oikean tiedon"
+    },
+    {
+      "id": "player_knowledge-0226",
+      "text": "Tieto avaa uusia kysymyksiä"
+    },
+    {
+      "id": "player_knowledge-0227",
+      "text": "Uusi tieto voi kumota vanhan teorian"
+    },
+    {
+      "id": "player_knowledge-0228",
+      "text": "Tieto voi muuttaa tehtävän tavoitetta"
+    },
+    {
+      "id": "player_knowledge-0229",
+      "text": "Tieto voi paljastaa uuden vihollisen"
+    },
+    {
+      "id": "player_knowledge-0230",
+      "text": "Tieto voi paljastaa ettei vihollista olekaan"
+    },
+    {
+      "id": "player_knowledge-0231",
+      "text": "Pelaaja tietää lopulta lähes kaiken"
+    },
+    {
+      "id": "player_knowledge-0232",
+      "text": "Pelaaja tietää lopulta vain osan totuudesta"
+    },
+    {
+      "id": "player_knowledge-0233",
+      "text": "Pelin lopussa jää tarkoituksella epäselvyyksiä"
+    },
+    {
+      "id": "player_knowledge-0234",
+      "text": "Pelaaja joutuu tekemään lopullisen päätöksen epävarman tiedon perusteella"
+    }
   ]
 }

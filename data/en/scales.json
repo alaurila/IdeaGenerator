@@ -1,92 +1,356 @@
 {
   "scales": [
-    "A single object",
-    "A single desk",
-    "A single room",
-    "A single apartment",
-    "A single house",
-    "A single building",
-    "A single building complex",
-    "A single ship",
-    "A single train",
-    "A single airplane",
-    "A single spaceship",
-    "A single space station",
-    "A single street",
-    "A single city block",
-    "A single neighborhood",
-    "A single district",
-    "A single village",
-    "A single small town",
-    "A single city",
-    "Several cities",
-    "A single province",
-    "A single region",
-    "A single state",
-    "A single country",
-    "Several countries",
-    "A single continent",
-    "The whole world",
-    "A single island",
-    "A single archipelago",
-    "A single valley",
-    "A single mountain range",
-    "A single wilderness",
-    "A single forest",
-    "A single planet",
-    "Several planets",
-    "A single solar system",
-    "Several solar systems",
-    "A single galaxy",
-    "Several galaxies",
-    "The whole universe",
-    "Several universes",
-    "A single family",
-    "A single clan",
-    "A single dynasty",
-    "A single circle of friends",
-    "A single workplace community",
-    "A single organization",
-    "A single company",
-    "A single criminal organization",
-    "A single political party",
-    "A single religious community",
-    "A single army unit",
-    "A single crew",
-    "A single group of survivors",
-    "An entire society",
-    "An entire civilization",
-    "Several civilizations",
-    "A single day",
-    "A single night",
-    "A single work shift",
-    "A single week",
-    "A single month",
-    "A single year",
-    "Several years",
-    "A single human lifetime",
-    "Several human lifetimes",
-    "A single generation",
-    "Several generations",
-    "Centuries",
-    "Thousands of years",
-    "Spanning all of history",
-    "A single crisis",
-    "A single war",
-    "A single term of office",
-    "A single criminal investigation",
-    "A single epidemic",
-    "A single disaster",
-    "A single time loop",
-    "Several timelines",
-    "A single parallel reality",
-    "Several parallel realities",
-    "A single computer network",
-    "A single virtual world",
-    "A single simulation",
-    "Several layers of simulation",
-    "A single human mind",
-    "Several human minds",
-    "Collective consciousness"
+    {
+      "id": "scales-0001",
+      "text": "A single object"
+    },
+    {
+      "id": "scales-0002",
+      "text": "A single desk"
+    },
+    {
+      "id": "scales-0003",
+      "text": "A single room"
+    },
+    {
+      "id": "scales-0004",
+      "text": "A single apartment"
+    },
+    {
+      "id": "scales-0005",
+      "text": "A single house"
+    },
+    {
+      "id": "scales-0006",
+      "text": "A single building"
+    },
+    {
+      "id": "scales-0007",
+      "text": "A single building complex"
+    },
+    {
+      "id": "scales-0008",
+      "text": "A single ship"
+    },
+    {
+      "id": "scales-0009",
+      "text": "A single train"
+    },
+    {
+      "id": "scales-0010",
+      "text": "A single airplane"
+    },
+    {
+      "id": "scales-0011",
+      "text": "A single spaceship"
+    },
+    {
+      "id": "scales-0012",
+      "text": "A single space station"
+    },
+    {
+      "id": "scales-0013",
+      "text": "A single street"
+    },
+    {
+      "id": "scales-0014",
+      "text": "A single city block"
+    },
+    {
+      "id": "scales-0015",
+      "text": "A single neighborhood"
+    },
+    {
+      "id": "scales-0016",
+      "text": "A single district"
+    },
+    {
+      "id": "scales-0017",
+      "text": "A single village"
+    },
+    {
+      "id": "scales-0018",
+      "text": "A single small town"
+    },
+    {
+      "id": "scales-0019",
+      "text": "A single city"
+    },
+    {
+      "id": "scales-0020",
+      "text": "Several cities"
+    },
+    {
+      "id": "scales-0021",
+      "text": "A single province"
+    },
+    {
+      "id": "scales-0022",
+      "text": "A single region"
+    },
+    {
+      "id": "scales-0023",
+      "text": "A single state"
+    },
+    {
+      "id": "scales-0024",
+      "text": "A single country"
+    },
+    {
+      "id": "scales-0025",
+      "text": "Several countries"
+    },
+    {
+      "id": "scales-0026",
+      "text": "A single continent"
+    },
+    {
+      "id": "scales-0027",
+      "text": "The whole world"
+    },
+    {
+      "id": "scales-0028",
+      "text": "A single island"
+    },
+    {
+      "id": "scales-0029",
+      "text": "A single archipelago"
+    },
+    {
+      "id": "scales-0030",
+      "text": "A single valley"
+    },
+    {
+      "id": "scales-0031",
+      "text": "A single mountain range"
+    },
+    {
+      "id": "scales-0032",
+      "text": "A single wilderness"
+    },
+    {
+      "id": "scales-0033",
+      "text": "A single forest"
+    },
+    {
+      "id": "scales-0034",
+      "text": "A single planet"
+    },
+    {
+      "id": "scales-0035",
+      "text": "Several planets"
+    },
+    {
+      "id": "scales-0036",
+      "text": "A single solar system"
+    },
+    {
+      "id": "scales-0037",
+      "text": "Several solar systems"
+    },
+    {
+      "id": "scales-0038",
+      "text": "A single galaxy"
+    },
+    {
+      "id": "scales-0039",
+      "text": "Several galaxies"
+    },
+    {
+      "id": "scales-0040",
+      "text": "The whole universe"
+    },
+    {
+      "id": "scales-0041",
+      "text": "Several universes"
+    },
+    {
+      "id": "scales-0042",
+      "text": "A single family"
+    },
+    {
+      "id": "scales-0043",
+      "text": "A single clan"
+    },
+    {
+      "id": "scales-0044",
+      "text": "A single dynasty"
+    },
+    {
+      "id": "scales-0045",
+      "text": "A single circle of friends"
+    },
+    {
+      "id": "scales-0046",
+      "text": "A single workplace community"
+    },
+    {
+      "id": "scales-0047",
+      "text": "A single organization"
+    },
+    {
+      "id": "scales-0048",
+      "text": "A single company"
+    },
+    {
+      "id": "scales-0049",
+      "text": "A single criminal organization"
+    },
+    {
+      "id": "scales-0050",
+      "text": "A single political party"
+    },
+    {
+      "id": "scales-0051",
+      "text": "A single religious community"
+    },
+    {
+      "id": "scales-0052",
+      "text": "A single army unit"
+    },
+    {
+      "id": "scales-0053",
+      "text": "A single crew"
+    },
+    {
+      "id": "scales-0054",
+      "text": "A single group of survivors"
+    },
+    {
+      "id": "scales-0055",
+      "text": "An entire society"
+    },
+    {
+      "id": "scales-0056",
+      "text": "An entire civilization"
+    },
+    {
+      "id": "scales-0057",
+      "text": "Several civilizations"
+    },
+    {
+      "id": "scales-0058",
+      "text": "A single day"
+    },
+    {
+      "id": "scales-0059",
+      "text": "A single night"
+    },
+    {
+      "id": "scales-0060",
+      "text": "A single work shift"
+    },
+    {
+      "id": "scales-0061",
+      "text": "A single week"
+    },
+    {
+      "id": "scales-0062",
+      "text": "A single month"
+    },
+    {
+      "id": "scales-0063",
+      "text": "A single year"
+    },
+    {
+      "id": "scales-0064",
+      "text": "Several years"
+    },
+    {
+      "id": "scales-0065",
+      "text": "A single human lifetime"
+    },
+    {
+      "id": "scales-0066",
+      "text": "Several human lifetimes"
+    },
+    {
+      "id": "scales-0067",
+      "text": "A single generation"
+    },
+    {
+      "id": "scales-0068",
+      "text": "Several generations"
+    },
+    {
+      "id": "scales-0069",
+      "text": "Centuries"
+    },
+    {
+      "id": "scales-0070",
+      "text": "Thousands of years"
+    },
+    {
+      "id": "scales-0071",
+      "text": "Spanning all of history"
+    },
+    {
+      "id": "scales-0072",
+      "text": "A single crisis"
+    },
+    {
+      "id": "scales-0073",
+      "text": "A single war"
+    },
+    {
+      "id": "scales-0074",
+      "text": "A single term of office"
+    },
+    {
+      "id": "scales-0075",
+      "text": "A single criminal investigation"
+    },
+    {
+      "id": "scales-0076",
+      "text": "A single epidemic"
+    },
+    {
+      "id": "scales-0077",
+      "text": "A single disaster"
+    },
+    {
+      "id": "scales-0078",
+      "text": "A single time loop"
+    },
+    {
+      "id": "scales-0079",
+      "text": "Several timelines"
+    },
+    {
+      "id": "scales-0080",
+      "text": "A single parallel reality"
+    },
+    {
+      "id": "scales-0081",
+      "text": "Several parallel realities"
+    },
+    {
+      "id": "scales-0082",
+      "text": "A single computer network"
+    },
+    {
+      "id": "scales-0083",
+      "text": "A single virtual world"
+    },
+    {
+      "id": "scales-0084",
+      "text": "A single simulation"
+    },
+    {
+      "id": "scales-0085",
+      "text": "Several layers of simulation"
+    },
+    {
+      "id": "scales-0086",
+      "text": "A single human mind"
+    },
+    {
+      "id": "scales-0087",
+      "text": "Several human minds"
+    },
+    {
+      "id": "scales-0088",
+      "text": "Collective consciousness"
+    }
   ]
 }

@@ -1,280 +1,1108 @@
 {
   "failure_types": [
-    "Muerte",
-    "Bancarrota",
-    "La reputación se desploma",
-    "La comunidad se desintegra",
-    "Alguien desaparece",
-    "Golpe de Estado",
-    "El sistema deja de funcionar",
-    "El jugador es arrestado",
-    "El jugador es encarcelado",
-    "El jugador es desterrado",
-    "El jugador es despedido",
-    "El jugador pierde su puesto",
-    "El jugador pierde su poder",
-    "El jugador pierde sus bienes",
-    "El jugador pierde su identidad",
-    "El jugador pierde la memoria",
-    "El jugador pierde a sus aliados",
-    "El jugador pierde la confianza",
-    "El jugador pierde el acceso a un lugar importante",
-    "El jugador pierde el acceso a la información",
-    "El jugador queda al descubierto",
-    "La identidad encubierta queda expuesta",
-    "Se revela un secreto",
-    "Se descubre un crimen",
-    "Se descubre una mentira",
-    "Se descubre una traición",
-    "Se desenmascara a un espía",
-    "Se expone una organización",
-    "Se expone una secta",
-    "Se destapa una conspiración",
-    "La reputación queda destruida",
-    "La confianza pública se esfuma",
-    "El apoyo se desploma",
-    "Los votantes rechazan al jugador",
-    "Los clientes desaparecen",
-    "Los empleados dimiten",
-    "Los empleados se rebelan",
-    "La tripulación se amotina",
-    "Los soldados se niegan a obedecer",
-    "Los aliados cambian de bando",
-    "Un aliado traiciona al jugador",
-    "Una facción se divide",
-    "Un partido se divide",
-    "Una empresa se disuelve",
-    "Una familia se rompe",
-    "Un clan se rompe",
-    "Un matrimonio se rompe",
-    "Una amistad termina",
-    "La comunidad pierde la moral",
-    "Cunde el pánico",
-    "La confianza dentro de la comunidad se desploma",
-    "Comienzan los disturbios civiles",
-    "Comienzan las revueltas",
-    "Comienza una rebelión interna",
-    "Comienza una guerra civil",
-    "Comienza una revolución",
-    "El régimen cae",
-    "El gobierno cae",
-    "El Estado colapsa",
-    "La ciudad se sume en el caos",
-    "El pueblo queda abandonado",
-    "El asentamiento colapsa",
-    "La civilización colapsa",
-    "El enemigo toma el poder",
-    "El enemigo conquista la zona",
-    "Se pierde la ciudad",
-    "Se pierde la base",
-    "La línea del frente se rompe",
-    "Se pierde la guerra",
-    "Se pierde la batalla",
-    "Se rompe el asedio",
-    "El tratado de paz fracasa",
-    "Se rompen las relaciones diplomáticas",
-    "La alianza se desmorona",
-    "Se rompen las relaciones comerciales",
-    "Las sanciones destruyen la economía",
-    "Colapso económico",
-    "Se agota la liquidez",
-    "Se seca el flujo de caja",
-    "Las deudas se descontrolan",
-    "La cuota de mercado se desploma",
-    "La empresa sufre una adquisición hostil",
-    "La empresa cierra",
-    "La producción se detiene",
-    "La cadena de suministro se rompe",
-    "El almacén se vacía",
-    "Se acaban las materias primas",
-    "Se acaba la comida",
-    "Se acaba el agua",
-    "Se acaba el combustible",
-    "Se acaba la electricidad",
-    "Se acaba el oxígeno",
-    "Se acaban los medicamentos",
-    "Se acaba la munición",
-    "Se acaban las piezas de repuesto",
-    "Se acaba la mano de obra",
-    "Se acaba el tiempo",
-    "Se incumple la fecha límite",
-    "El rescate llega demasiado tarde",
-    "Ocurre la catástrofe",
-    "Un edificio se derrumba",
-    "La base se derrumba",
-    "Un puente se derrumba",
-    "Una presa revienta",
-    "Un incendio se descontrola",
-    "Una explosión destruye la zona",
-    "El reactor se funde",
-    "La central eléctrica se apaga",
-    "La red eléctrica falla",
-    "La red de agua falla",
-    "La red de datos falla",
-    "Los servidores se caen",
-    "Se cortan las comunicaciones",
-    "La navegación deja de funcionar",
-    "El sistema de seguridad falla",
-    "El control de puertas falla",
-    "La presurización falla",
-    "La ventilación falla",
-    "La calefacción falla",
-    "La refrigeración falla",
-    "La producción de oxígeno falla",
-    "La depuración de agua falla",
-    "La producción de alimentos falla",
-    "La integridad estructural se desploma",
-    "El casco de la nave se rompe",
-    "La nave espacial es destruida",
-    "La estación espacial es destruida",
-    "El vehículo se avería",
-    "El motor se estropea",
-    "El sistema de combustible falla",
-    "La tripulación muere",
-    "Muere la mayor parte de la tripulación",
-    "Mueren todos",
-    "El líder muere",
-    "Muere una persona clave",
-    "El heredero muere",
-    "El paciente muere",
-    "Muere la persona a la que había que rescatar",
-    "Mueren civiles",
-    "Muere demasiada gente",
-    "La población cae por debajo de un nivel crítico",
-    "La natalidad se desploma",
-    "Se propaga una epidemia",
-    "Una pandemia se descontrola",
-    "La cuarentena fracasa",
-    "La enfermedad se vuelve incontrolable",
-    "La cura fracasa",
-    "Se supera la capacidad de tratamiento",
-    "El hospital colapsa",
-    "La salud mental se desploma",
-    "La moral se desploma",
-    "El jugador se agota",
-    "El jugador pierde la cordura",
-    "El jugador pierde el sentido de la realidad",
-    "El jugador se convierte en un peligro para los demás",
-    "El jugador se une al enemigo",
-    "El jugador llega a una conclusión equivocada",
-    "Se condena a la persona equivocada",
-    "El asesino escapa",
-    "El sospechoso huye",
-    "Las pruebas son destruidas",
-    "Se rompe la cadena de custodia",
-    "El caso queda sin resolver",
-    "La solución del misterio es errónea",
-    "La verdad nunca sale a la luz",
-    "La conspiración triunfa",
-    "El crimen tiene éxito",
-    "El sabotaje tiene éxito",
-    "El secuestro tiene éxito",
-    "Un preso se fuga",
-    "El enemigo se infiltra en la organización",
-    "Un espía roba la información",
-    "Se produce una filtración de información",
-    "Una brecha de datos tiene éxito",
-    "Se publica información sensible",
-    "La propaganda gana",
-    "Un rumor destruye una reputación",
-    "La información falsa se convierte en la verdad oficial",
-    "El jugador pierde el control de la información",
-    "El archivo es destruido",
-    "La base de datos se corrompe",
-    "La historia se distorsiona",
-    "Los documentos desaparecen",
-    "Se pierde el mapa",
-    "Se pierden los datos de investigación",
-    "El proyecto fracasa",
-    "La investigación se suspende",
-    "La investigación provoca una catástrofe",
-    "El experimento se descontrola",
-    "La IA se descontrola",
-    "La IA se apaga",
-    "La IA toma el control del sistema",
-    "Los robots dejan de obedecer",
-    "La automatización se detiene",
-    "La línea de producción se detiene",
-    "La fábrica es destruida",
-    "La mina se cierra",
-    "La cosecha fracasa",
-    "Se pierde el cultivo",
-    "El ganado muere",
-    "El ecosistema colapsa",
-    "Una especie se extingue",
-    "La contaminación supera un nivel crítico",
-    "El planeta se vuelve inhabitable",
-    "La terraformación fracasa",
-    "La colonia fracasa",
-    "El asentamiento es evacuado",
-    "El viaje espacial fracasa",
-    "El primer contacto fracasa",
-    "Los alienígenas se vuelven hostiles",
-    "La diplomacia con los alienígenas fracasa",
-    "La línea temporal se rompe",
-    "Se produce una paradoja temporal",
-    "El bucle temporal se queda atascado",
-    "El jugador queda atrapado en la época equivocada",
-    "La historia cambia de forma irreversible",
-    "El futuro es destruido",
-    "La simulación se cuelga",
-    "La simulación se reinicia",
-    "El mundo deja de existir",
-    "La realidad se distorsiona",
-    "Las realidades paralelas chocan",
-    "El jugador desaparece de la historia",
-    "La identidad del jugador se borra",
-    "Todos olvidan al jugador",
-    "El jugador lo olvida todo",
-    "Los recuerdos son destruidos",
-    "Se pierde un recuerdo importante",
-    "Un secreto se pierde para siempre",
-    "Los muertos regresan sin control",
-    "La maldición se fortalece",
-    "El ritual fracasa",
-    "Se libera un espíritu",
-    "Se libera un demonio",
-    "Un fenómeno sobrenatural se propaga",
-    "Se rompe la frontera entre los mundos",
-    "El jugador es maldecido",
-    "El jugador queda atrapado en el más allá",
-    "Se pierde un alma",
-    "La inmortalidad se convierte en una maldición",
-    "El jugador ya no puede morir",
-    "El jugador muere en la línea temporal equivocada",
-    "El jugador se convierte en un PNJ",
-    "El jugador pierde el control de su personaje",
-    "Los objetivos del jugador se bloquean en la dirección equivocada",
-    "El jugador acaba en el bando equivocado del conflicto",
-    "El jugador ayuda sin querer a que gane el antagonista",
-    "El jugador resuelve el problema de una forma que causa uno mayor",
-    "Alcanzar la condición de victoria causa una catástrofe",
-    "El jugador gana pero el mundo pierde",
-    "El jugador sobrevive pero todos los demás mueren",
-    "La comunidad sobrevive pero el jugador es sacrificado",
-    "El jugador conserva el poder pero pierde toda la confianza",
-    "El jugador se enriquece pero la comunidad queda destruida",
-    "El jugador resuelve el misterio, pero demasiado tarde",
-    "El jugador evita la catástrofe pero pierde a una persona importante",
-    "El jugador hace un compromiso moralmente insoportable",
-    "El jugador pierde la oportunidad de un buen final",
-    "Se activa el final malo",
-    "Se activa el final neutral",
-    "El mundo queda en un punto muerto permanente",
-    "La crisis queda sin resolver",
-    "El conflicto se congela",
-    "El sistema funciona, pero de forma equivocada",
-    "La sociedad se vuelve autoritaria",
-    "La sociedad cae en la anarquía",
-    "La sociedad se estanca",
-    "La cultura desaparece",
-    "El conocimiento se pierde durante generaciones",
-    "El linaje familiar se extingue",
-    "La dinastía termina",
-    "No nace ningún heredero",
-    "La organización no tiene sucesor",
-    "La ciudad es abandonada",
-    "El mundo queda desierto",
-    "El jugador se queda solo"
+    {
+      "id": "failure_types-0001",
+      "text": "Muerte"
+    },
+    {
+      "id": "failure_types-0002",
+      "text": "Bancarrota"
+    },
+    {
+      "id": "failure_types-0003",
+      "text": "La reputación se desploma"
+    },
+    {
+      "id": "failure_types-0004",
+      "text": "La comunidad se desintegra"
+    },
+    {
+      "id": "failure_types-0005",
+      "text": "Alguien desaparece"
+    },
+    {
+      "id": "failure_types-0006",
+      "text": "Golpe de Estado"
+    },
+    {
+      "id": "failure_types-0007",
+      "text": "El sistema deja de funcionar"
+    },
+    {
+      "id": "failure_types-0008",
+      "text": "El jugador es arrestado"
+    },
+    {
+      "id": "failure_types-0009",
+      "text": "El jugador es encarcelado"
+    },
+    {
+      "id": "failure_types-0010",
+      "text": "El jugador es desterrado"
+    },
+    {
+      "id": "failure_types-0011",
+      "text": "El jugador es despedido"
+    },
+    {
+      "id": "failure_types-0012",
+      "text": "El jugador pierde su puesto"
+    },
+    {
+      "id": "failure_types-0013",
+      "text": "El jugador pierde su poder"
+    },
+    {
+      "id": "failure_types-0014",
+      "text": "El jugador pierde sus bienes"
+    },
+    {
+      "id": "failure_types-0015",
+      "text": "El jugador pierde su identidad"
+    },
+    {
+      "id": "failure_types-0016",
+      "text": "El jugador pierde la memoria"
+    },
+    {
+      "id": "failure_types-0017",
+      "text": "El jugador pierde a sus aliados"
+    },
+    {
+      "id": "failure_types-0018",
+      "text": "El jugador pierde la confianza"
+    },
+    {
+      "id": "failure_types-0019",
+      "text": "El jugador pierde el acceso a un lugar importante"
+    },
+    {
+      "id": "failure_types-0020",
+      "text": "El jugador pierde el acceso a la información"
+    },
+    {
+      "id": "failure_types-0021",
+      "text": "El jugador queda al descubierto"
+    },
+    {
+      "id": "failure_types-0022",
+      "text": "La identidad encubierta queda expuesta"
+    },
+    {
+      "id": "failure_types-0023",
+      "text": "Se revela un secreto"
+    },
+    {
+      "id": "failure_types-0024",
+      "text": "Se descubre un crimen"
+    },
+    {
+      "id": "failure_types-0025",
+      "text": "Se descubre una mentira"
+    },
+    {
+      "id": "failure_types-0026",
+      "text": "Se descubre una traición"
+    },
+    {
+      "id": "failure_types-0027",
+      "text": "Se desenmascara a un espía"
+    },
+    {
+      "id": "failure_types-0028",
+      "text": "Se expone una organización"
+    },
+    {
+      "id": "failure_types-0029",
+      "text": "Se expone una secta"
+    },
+    {
+      "id": "failure_types-0030",
+      "text": "Se destapa una conspiración"
+    },
+    {
+      "id": "failure_types-0031",
+      "text": "La reputación queda destruida"
+    },
+    {
+      "id": "failure_types-0032",
+      "text": "La confianza pública se esfuma"
+    },
+    {
+      "id": "failure_types-0033",
+      "text": "El apoyo se desploma"
+    },
+    {
+      "id": "failure_types-0034",
+      "text": "Los votantes rechazan al jugador"
+    },
+    {
+      "id": "failure_types-0035",
+      "text": "Los clientes desaparecen"
+    },
+    {
+      "id": "failure_types-0036",
+      "text": "Los empleados dimiten"
+    },
+    {
+      "id": "failure_types-0037",
+      "text": "Los empleados se rebelan"
+    },
+    {
+      "id": "failure_types-0038",
+      "text": "La tripulación se amotina"
+    },
+    {
+      "id": "failure_types-0039",
+      "text": "Los soldados se niegan a obedecer"
+    },
+    {
+      "id": "failure_types-0040",
+      "text": "Los aliados cambian de bando"
+    },
+    {
+      "id": "failure_types-0041",
+      "text": "Un aliado traiciona al jugador"
+    },
+    {
+      "id": "failure_types-0042",
+      "text": "Una facción se divide"
+    },
+    {
+      "id": "failure_types-0043",
+      "text": "Un partido se divide"
+    },
+    {
+      "id": "failure_types-0044",
+      "text": "Una empresa se disuelve"
+    },
+    {
+      "id": "failure_types-0045",
+      "text": "Una familia se rompe"
+    },
+    {
+      "id": "failure_types-0046",
+      "text": "Un clan se rompe"
+    },
+    {
+      "id": "failure_types-0047",
+      "text": "Un matrimonio se rompe"
+    },
+    {
+      "id": "failure_types-0048",
+      "text": "Una amistad termina"
+    },
+    {
+      "id": "failure_types-0049",
+      "text": "La comunidad pierde la moral"
+    },
+    {
+      "id": "failure_types-0050",
+      "text": "Cunde el pánico"
+    },
+    {
+      "id": "failure_types-0051",
+      "text": "La confianza dentro de la comunidad se desploma"
+    },
+    {
+      "id": "failure_types-0052",
+      "text": "Comienzan los disturbios civiles"
+    },
+    {
+      "id": "failure_types-0053",
+      "text": "Comienzan las revueltas"
+    },
+    {
+      "id": "failure_types-0054",
+      "text": "Comienza una rebelión interna"
+    },
+    {
+      "id": "failure_types-0055",
+      "text": "Comienza una guerra civil"
+    },
+    {
+      "id": "failure_types-0056",
+      "text": "Comienza una revolución"
+    },
+    {
+      "id": "failure_types-0057",
+      "text": "El régimen cae"
+    },
+    {
+      "id": "failure_types-0058",
+      "text": "El gobierno cae"
+    },
+    {
+      "id": "failure_types-0059",
+      "text": "El Estado colapsa"
+    },
+    {
+      "id": "failure_types-0060",
+      "text": "La ciudad se sume en el caos"
+    },
+    {
+      "id": "failure_types-0061",
+      "text": "El pueblo queda abandonado"
+    },
+    {
+      "id": "failure_types-0062",
+      "text": "El asentamiento colapsa"
+    },
+    {
+      "id": "failure_types-0063",
+      "text": "La civilización colapsa"
+    },
+    {
+      "id": "failure_types-0064",
+      "text": "El enemigo toma el poder"
+    },
+    {
+      "id": "failure_types-0065",
+      "text": "El enemigo conquista la zona"
+    },
+    {
+      "id": "failure_types-0066",
+      "text": "Se pierde la ciudad"
+    },
+    {
+      "id": "failure_types-0067",
+      "text": "Se pierde la base"
+    },
+    {
+      "id": "failure_types-0068",
+      "text": "La línea del frente se rompe"
+    },
+    {
+      "id": "failure_types-0069",
+      "text": "Se pierde la guerra"
+    },
+    {
+      "id": "failure_types-0070",
+      "text": "Se pierde la batalla"
+    },
+    {
+      "id": "failure_types-0071",
+      "text": "Se rompe el asedio"
+    },
+    {
+      "id": "failure_types-0072",
+      "text": "El tratado de paz fracasa"
+    },
+    {
+      "id": "failure_types-0073",
+      "text": "Se rompen las relaciones diplomáticas"
+    },
+    {
+      "id": "failure_types-0074",
+      "text": "La alianza se desmorona"
+    },
+    {
+      "id": "failure_types-0075",
+      "text": "Se rompen las relaciones comerciales"
+    },
+    {
+      "id": "failure_types-0076",
+      "text": "Las sanciones destruyen la economía"
+    },
+    {
+      "id": "failure_types-0077",
+      "text": "Colapso económico"
+    },
+    {
+      "id": "failure_types-0078",
+      "text": "Se agota la liquidez"
+    },
+    {
+      "id": "failure_types-0079",
+      "text": "Se seca el flujo de caja"
+    },
+    {
+      "id": "failure_types-0080",
+      "text": "Las deudas se descontrolan"
+    },
+    {
+      "id": "failure_types-0081",
+      "text": "La cuota de mercado se desploma"
+    },
+    {
+      "id": "failure_types-0082",
+      "text": "La empresa sufre una adquisición hostil"
+    },
+    {
+      "id": "failure_types-0083",
+      "text": "La empresa cierra"
+    },
+    {
+      "id": "failure_types-0084",
+      "text": "La producción se detiene"
+    },
+    {
+      "id": "failure_types-0085",
+      "text": "La cadena de suministro se rompe"
+    },
+    {
+      "id": "failure_types-0086",
+      "text": "El almacén se vacía"
+    },
+    {
+      "id": "failure_types-0087",
+      "text": "Se acaban las materias primas"
+    },
+    {
+      "id": "failure_types-0088",
+      "text": "Se acaba la comida"
+    },
+    {
+      "id": "failure_types-0089",
+      "text": "Se acaba el agua"
+    },
+    {
+      "id": "failure_types-0090",
+      "text": "Se acaba el combustible"
+    },
+    {
+      "id": "failure_types-0091",
+      "text": "Se acaba la electricidad"
+    },
+    {
+      "id": "failure_types-0092",
+      "text": "Se acaba el oxígeno"
+    },
+    {
+      "id": "failure_types-0093",
+      "text": "Se acaban los medicamentos"
+    },
+    {
+      "id": "failure_types-0094",
+      "text": "Se acaba la munición"
+    },
+    {
+      "id": "failure_types-0095",
+      "text": "Se acaban las piezas de repuesto"
+    },
+    {
+      "id": "failure_types-0096",
+      "text": "Se acaba la mano de obra"
+    },
+    {
+      "id": "failure_types-0097",
+      "text": "Se acaba el tiempo"
+    },
+    {
+      "id": "failure_types-0098",
+      "text": "Se incumple la fecha límite"
+    },
+    {
+      "id": "failure_types-0099",
+      "text": "El rescate llega demasiado tarde"
+    },
+    {
+      "id": "failure_types-0100",
+      "text": "Ocurre la catástrofe"
+    },
+    {
+      "id": "failure_types-0101",
+      "text": "Un edificio se derrumba"
+    },
+    {
+      "id": "failure_types-0102",
+      "text": "La base se derrumba"
+    },
+    {
+      "id": "failure_types-0103",
+      "text": "Un puente se derrumba"
+    },
+    {
+      "id": "failure_types-0104",
+      "text": "Una presa revienta"
+    },
+    {
+      "id": "failure_types-0105",
+      "text": "Un incendio se descontrola"
+    },
+    {
+      "id": "failure_types-0106",
+      "text": "Una explosión destruye la zona"
+    },
+    {
+      "id": "failure_types-0107",
+      "text": "El reactor se funde"
+    },
+    {
+      "id": "failure_types-0108",
+      "text": "La central eléctrica se apaga"
+    },
+    {
+      "id": "failure_types-0109",
+      "text": "La red eléctrica falla"
+    },
+    {
+      "id": "failure_types-0110",
+      "text": "La red de agua falla"
+    },
+    {
+      "id": "failure_types-0111",
+      "text": "La red de datos falla"
+    },
+    {
+      "id": "failure_types-0112",
+      "text": "Los servidores se caen"
+    },
+    {
+      "id": "failure_types-0113",
+      "text": "Se cortan las comunicaciones"
+    },
+    {
+      "id": "failure_types-0114",
+      "text": "La navegación deja de funcionar"
+    },
+    {
+      "id": "failure_types-0115",
+      "text": "El sistema de seguridad falla"
+    },
+    {
+      "id": "failure_types-0116",
+      "text": "El control de puertas falla"
+    },
+    {
+      "id": "failure_types-0117",
+      "text": "La presurización falla"
+    },
+    {
+      "id": "failure_types-0118",
+      "text": "La ventilación falla"
+    },
+    {
+      "id": "failure_types-0119",
+      "text": "La calefacción falla"
+    },
+    {
+      "id": "failure_types-0120",
+      "text": "La refrigeración falla"
+    },
+    {
+      "id": "failure_types-0121",
+      "text": "La producción de oxígeno falla"
+    },
+    {
+      "id": "failure_types-0122",
+      "text": "La depuración de agua falla"
+    },
+    {
+      "id": "failure_types-0123",
+      "text": "La producción de alimentos falla"
+    },
+    {
+      "id": "failure_types-0124",
+      "text": "La integridad estructural se desploma"
+    },
+    {
+      "id": "failure_types-0125",
+      "text": "El casco de la nave se rompe"
+    },
+    {
+      "id": "failure_types-0126",
+      "text": "La nave espacial es destruida"
+    },
+    {
+      "id": "failure_types-0127",
+      "text": "La estación espacial es destruida"
+    },
+    {
+      "id": "failure_types-0128",
+      "text": "El vehículo se avería"
+    },
+    {
+      "id": "failure_types-0129",
+      "text": "El motor se estropea"
+    },
+    {
+      "id": "failure_types-0130",
+      "text": "El sistema de combustible falla"
+    },
+    {
+      "id": "failure_types-0131",
+      "text": "La tripulación muere"
+    },
+    {
+      "id": "failure_types-0132",
+      "text": "Muere la mayor parte de la tripulación"
+    },
+    {
+      "id": "failure_types-0133",
+      "text": "Mueren todos"
+    },
+    {
+      "id": "failure_types-0134",
+      "text": "El líder muere"
+    },
+    {
+      "id": "failure_types-0135",
+      "text": "Muere una persona clave"
+    },
+    {
+      "id": "failure_types-0136",
+      "text": "El heredero muere"
+    },
+    {
+      "id": "failure_types-0137",
+      "text": "El paciente muere"
+    },
+    {
+      "id": "failure_types-0138",
+      "text": "Muere la persona a la que había que rescatar"
+    },
+    {
+      "id": "failure_types-0139",
+      "text": "Mueren civiles"
+    },
+    {
+      "id": "failure_types-0140",
+      "text": "Muere demasiada gente"
+    },
+    {
+      "id": "failure_types-0141",
+      "text": "La población cae por debajo de un nivel crítico"
+    },
+    {
+      "id": "failure_types-0142",
+      "text": "La natalidad se desploma"
+    },
+    {
+      "id": "failure_types-0143",
+      "text": "Se propaga una epidemia"
+    },
+    {
+      "id": "failure_types-0144",
+      "text": "Una pandemia se descontrola"
+    },
+    {
+      "id": "failure_types-0145",
+      "text": "La cuarentena fracasa"
+    },
+    {
+      "id": "failure_types-0146",
+      "text": "La enfermedad se vuelve incontrolable"
+    },
+    {
+      "id": "failure_types-0147",
+      "text": "La cura fracasa"
+    },
+    {
+      "id": "failure_types-0148",
+      "text": "Se supera la capacidad de tratamiento"
+    },
+    {
+      "id": "failure_types-0149",
+      "text": "El hospital colapsa"
+    },
+    {
+      "id": "failure_types-0150",
+      "text": "La salud mental se desploma"
+    },
+    {
+      "id": "failure_types-0151",
+      "text": "La moral se desploma"
+    },
+    {
+      "id": "failure_types-0152",
+      "text": "El jugador se agota"
+    },
+    {
+      "id": "failure_types-0153",
+      "text": "El jugador pierde la cordura"
+    },
+    {
+      "id": "failure_types-0154",
+      "text": "El jugador pierde el sentido de la realidad"
+    },
+    {
+      "id": "failure_types-0155",
+      "text": "El jugador se convierte en un peligro para los demás"
+    },
+    {
+      "id": "failure_types-0156",
+      "text": "El jugador se une al enemigo"
+    },
+    {
+      "id": "failure_types-0157",
+      "text": "El jugador llega a una conclusión equivocada"
+    },
+    {
+      "id": "failure_types-0158",
+      "text": "Se condena a la persona equivocada"
+    },
+    {
+      "id": "failure_types-0159",
+      "text": "El asesino escapa"
+    },
+    {
+      "id": "failure_types-0160",
+      "text": "El sospechoso huye"
+    },
+    {
+      "id": "failure_types-0161",
+      "text": "Las pruebas son destruidas"
+    },
+    {
+      "id": "failure_types-0162",
+      "text": "Se rompe la cadena de custodia"
+    },
+    {
+      "id": "failure_types-0163",
+      "text": "El caso queda sin resolver"
+    },
+    {
+      "id": "failure_types-0164",
+      "text": "La solución del misterio es errónea"
+    },
+    {
+      "id": "failure_types-0165",
+      "text": "La verdad nunca sale a la luz"
+    },
+    {
+      "id": "failure_types-0166",
+      "text": "La conspiración triunfa"
+    },
+    {
+      "id": "failure_types-0167",
+      "text": "El crimen tiene éxito"
+    },
+    {
+      "id": "failure_types-0168",
+      "text": "El sabotaje tiene éxito"
+    },
+    {
+      "id": "failure_types-0169",
+      "text": "El secuestro tiene éxito"
+    },
+    {
+      "id": "failure_types-0170",
+      "text": "Un preso se fuga"
+    },
+    {
+      "id": "failure_types-0171",
+      "text": "El enemigo se infiltra en la organización"
+    },
+    {
+      "id": "failure_types-0172",
+      "text": "Un espía roba la información"
+    },
+    {
+      "id": "failure_types-0173",
+      "text": "Se produce una filtración de información"
+    },
+    {
+      "id": "failure_types-0174",
+      "text": "Una brecha de datos tiene éxito"
+    },
+    {
+      "id": "failure_types-0175",
+      "text": "Se publica información sensible"
+    },
+    {
+      "id": "failure_types-0176",
+      "text": "La propaganda gana"
+    },
+    {
+      "id": "failure_types-0177",
+      "text": "Un rumor destruye una reputación"
+    },
+    {
+      "id": "failure_types-0178",
+      "text": "La información falsa se convierte en la verdad oficial"
+    },
+    {
+      "id": "failure_types-0179",
+      "text": "El jugador pierde el control de la información"
+    },
+    {
+      "id": "failure_types-0180",
+      "text": "El archivo es destruido"
+    },
+    {
+      "id": "failure_types-0181",
+      "text": "La base de datos se corrompe"
+    },
+    {
+      "id": "failure_types-0182",
+      "text": "La historia se distorsiona"
+    },
+    {
+      "id": "failure_types-0183",
+      "text": "Los documentos desaparecen"
+    },
+    {
+      "id": "failure_types-0184",
+      "text": "Se pierde el mapa"
+    },
+    {
+      "id": "failure_types-0185",
+      "text": "Se pierden los datos de investigación"
+    },
+    {
+      "id": "failure_types-0186",
+      "text": "El proyecto fracasa"
+    },
+    {
+      "id": "failure_types-0187",
+      "text": "La investigación se suspende"
+    },
+    {
+      "id": "failure_types-0188",
+      "text": "La investigación provoca una catástrofe"
+    },
+    {
+      "id": "failure_types-0189",
+      "text": "El experimento se descontrola"
+    },
+    {
+      "id": "failure_types-0190",
+      "text": "La IA se descontrola"
+    },
+    {
+      "id": "failure_types-0191",
+      "text": "La IA se apaga"
+    },
+    {
+      "id": "failure_types-0192",
+      "text": "La IA toma el control del sistema"
+    },
+    {
+      "id": "failure_types-0193",
+      "text": "Los robots dejan de obedecer"
+    },
+    {
+      "id": "failure_types-0194",
+      "text": "La automatización se detiene"
+    },
+    {
+      "id": "failure_types-0195",
+      "text": "La línea de producción se detiene"
+    },
+    {
+      "id": "failure_types-0196",
+      "text": "La fábrica es destruida"
+    },
+    {
+      "id": "failure_types-0197",
+      "text": "La mina se cierra"
+    },
+    {
+      "id": "failure_types-0198",
+      "text": "La cosecha fracasa"
+    },
+    {
+      "id": "failure_types-0199",
+      "text": "Se pierde el cultivo"
+    },
+    {
+      "id": "failure_types-0200",
+      "text": "El ganado muere"
+    },
+    {
+      "id": "failure_types-0201",
+      "text": "El ecosistema colapsa"
+    },
+    {
+      "id": "failure_types-0202",
+      "text": "Una especie se extingue"
+    },
+    {
+      "id": "failure_types-0203",
+      "text": "La contaminación supera un nivel crítico"
+    },
+    {
+      "id": "failure_types-0204",
+      "text": "El planeta se vuelve inhabitable"
+    },
+    {
+      "id": "failure_types-0205",
+      "text": "La terraformación fracasa"
+    },
+    {
+      "id": "failure_types-0206",
+      "text": "La colonia fracasa"
+    },
+    {
+      "id": "failure_types-0207",
+      "text": "El asentamiento es evacuado"
+    },
+    {
+      "id": "failure_types-0208",
+      "text": "El viaje espacial fracasa"
+    },
+    {
+      "id": "failure_types-0209",
+      "text": "El primer contacto fracasa"
+    },
+    {
+      "id": "failure_types-0210",
+      "text": "Los alienígenas se vuelven hostiles"
+    },
+    {
+      "id": "failure_types-0211",
+      "text": "La diplomacia con los alienígenas fracasa"
+    },
+    {
+      "id": "failure_types-0212",
+      "text": "La línea temporal se rompe"
+    },
+    {
+      "id": "failure_types-0213",
+      "text": "Se produce una paradoja temporal"
+    },
+    {
+      "id": "failure_types-0214",
+      "text": "El bucle temporal se queda atascado"
+    },
+    {
+      "id": "failure_types-0215",
+      "text": "El jugador queda atrapado en la época equivocada"
+    },
+    {
+      "id": "failure_types-0216",
+      "text": "La historia cambia de forma irreversible"
+    },
+    {
+      "id": "failure_types-0217",
+      "text": "El futuro es destruido"
+    },
+    {
+      "id": "failure_types-0218",
+      "text": "La simulación se cuelga"
+    },
+    {
+      "id": "failure_types-0219",
+      "text": "La simulación se reinicia"
+    },
+    {
+      "id": "failure_types-0220",
+      "text": "El mundo deja de existir"
+    },
+    {
+      "id": "failure_types-0221",
+      "text": "La realidad se distorsiona"
+    },
+    {
+      "id": "failure_types-0222",
+      "text": "Las realidades paralelas chocan"
+    },
+    {
+      "id": "failure_types-0223",
+      "text": "El jugador desaparece de la historia"
+    },
+    {
+      "id": "failure_types-0224",
+      "text": "La identidad del jugador se borra"
+    },
+    {
+      "id": "failure_types-0225",
+      "text": "Todos olvidan al jugador"
+    },
+    {
+      "id": "failure_types-0226",
+      "text": "El jugador lo olvida todo"
+    },
+    {
+      "id": "failure_types-0227",
+      "text": "Los recuerdos son destruidos"
+    },
+    {
+      "id": "failure_types-0228",
+      "text": "Se pierde un recuerdo importante"
+    },
+    {
+      "id": "failure_types-0229",
+      "text": "Un secreto se pierde para siempre"
+    },
+    {
+      "id": "failure_types-0230",
+      "text": "Los muertos regresan sin control"
+    },
+    {
+      "id": "failure_types-0231",
+      "text": "La maldición se fortalece"
+    },
+    {
+      "id": "failure_types-0232",
+      "text": "El ritual fracasa"
+    },
+    {
+      "id": "failure_types-0233",
+      "text": "Se libera un espíritu"
+    },
+    {
+      "id": "failure_types-0234",
+      "text": "Se libera un demonio"
+    },
+    {
+      "id": "failure_types-0235",
+      "text": "Un fenómeno sobrenatural se propaga"
+    },
+    {
+      "id": "failure_types-0236",
+      "text": "Se rompe la frontera entre los mundos"
+    },
+    {
+      "id": "failure_types-0237",
+      "text": "El jugador es maldecido"
+    },
+    {
+      "id": "failure_types-0238",
+      "text": "El jugador queda atrapado en el más allá"
+    },
+    {
+      "id": "failure_types-0239",
+      "text": "Se pierde un alma"
+    },
+    {
+      "id": "failure_types-0240",
+      "text": "La inmortalidad se convierte en una maldición"
+    },
+    {
+      "id": "failure_types-0241",
+      "text": "El jugador ya no puede morir"
+    },
+    {
+      "id": "failure_types-0242",
+      "text": "El jugador muere en la línea temporal equivocada"
+    },
+    {
+      "id": "failure_types-0243",
+      "text": "El jugador se convierte en un PNJ"
+    },
+    {
+      "id": "failure_types-0244",
+      "text": "El jugador pierde el control de su personaje"
+    },
+    {
+      "id": "failure_types-0245",
+      "text": "Los objetivos del jugador se bloquean en la dirección equivocada"
+    },
+    {
+      "id": "failure_types-0246",
+      "text": "El jugador acaba en el bando equivocado del conflicto"
+    },
+    {
+      "id": "failure_types-0247",
+      "text": "El jugador ayuda sin querer a que gane el antagonista"
+    },
+    {
+      "id": "failure_types-0248",
+      "text": "El jugador resuelve el problema de una forma que causa uno mayor"
+    },
+    {
+      "id": "failure_types-0249",
+      "text": "Alcanzar la condición de victoria causa una catástrofe"
+    },
+    {
+      "id": "failure_types-0250",
+      "text": "El jugador gana pero el mundo pierde"
+    },
+    {
+      "id": "failure_types-0251",
+      "text": "El jugador sobrevive pero todos los demás mueren"
+    },
+    {
+      "id": "failure_types-0252",
+      "text": "La comunidad sobrevive pero el jugador es sacrificado"
+    },
+    {
+      "id": "failure_types-0253",
+      "text": "El jugador conserva el poder pero pierde toda la confianza"
+    },
+    {
+      "id": "failure_types-0254",
+      "text": "El jugador se enriquece pero la comunidad queda destruida"
+    },
+    {
+      "id": "failure_types-0255",
+      "text": "El jugador resuelve el misterio, pero demasiado tarde"
+    },
+    {
+      "id": "failure_types-0256",
+      "text": "El jugador evita la catástrofe pero pierde a una persona importante"
+    },
+    {
+      "id": "failure_types-0257",
+      "text": "El jugador hace un compromiso moralmente insoportable"
+    },
+    {
+      "id": "failure_types-0258",
+      "text": "El jugador pierde la oportunidad de un buen final"
+    },
+    {
+      "id": "failure_types-0259",
+      "text": "Se activa el final malo"
+    },
+    {
+      "id": "failure_types-0260",
+      "text": "Se activa el final neutral"
+    },
+    {
+      "id": "failure_types-0261",
+      "text": "El mundo queda en un punto muerto permanente"
+    },
+    {
+      "id": "failure_types-0262",
+      "text": "La crisis queda sin resolver"
+    },
+    {
+      "id": "failure_types-0263",
+      "text": "El conflicto se congela"
+    },
+    {
+      "id": "failure_types-0264",
+      "text": "El sistema funciona, pero de forma equivocada"
+    },
+    {
+      "id": "failure_types-0265",
+      "text": "La sociedad se vuelve autoritaria"
+    },
+    {
+      "id": "failure_types-0266",
+      "text": "La sociedad cae en la anarquía"
+    },
+    {
+      "id": "failure_types-0267",
+      "text": "La sociedad se estanca"
+    },
+    {
+      "id": "failure_types-0268",
+      "text": "La cultura desaparece"
+    },
+    {
+      "id": "failure_types-0269",
+      "text": "El conocimiento se pierde durante generaciones"
+    },
+    {
+      "id": "failure_types-0270",
+      "text": "El linaje familiar se extingue"
+    },
+    {
+      "id": "failure_types-0271",
+      "text": "La dinastía termina"
+    },
+    {
+      "id": "failure_types-0272",
+      "text": "No nace ningún heredero"
+    },
+    {
+      "id": "failure_types-0273",
+      "text": "La organización no tiene sucesor"
+    },
+    {
+      "id": "failure_types-0274",
+      "text": "La ciudad es abandonada"
+    },
+    {
+      "id": "failure_types-0275",
+      "text": "El mundo queda desierto"
+    },
+    {
+      "id": "failure_types-0276",
+      "text": "El jugador se queda solo"
+    }
   ]
 }

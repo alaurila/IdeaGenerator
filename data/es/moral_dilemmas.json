@@ -1,293 +1,1160 @@
 {
   "moral_dilemmas": [
-    "Salvar a uno o a muchos",
-    "Verdad o estabilidad",
-    "Dinero o lealtad",
-    "Ley o justicia",
-    "Privacidad o seguridad",
-    "Interés individual o interés de la comunidad",
-    "Libertad u orden",
-    "Seguridad o autonomía",
-    "Paz o justicia",
-    "Perdón o castigo",
-    "Clemencia o ley",
-    "Deber o conciencia",
-    "Lealtad a un amigo o la verdad",
-    "Lealtad a la familia o a la sociedad",
-    "Lealtad a la organización o la moral",
-    "El interés del empleador o el del cliente",
-    "Interés propio o bien común",
-    "Beneficio a corto plazo o largo plazo",
-    "Crecimiento o sostenibilidad",
-    "Beneficios o bienestar de los empleados",
-    "Eficiencia o humanidad",
-    "Productividad o seguridad laboral",
-    "Ahorro o calidad del servicio",
-    "La solución barata o la responsable",
-    "Empleo o medio ambiente",
-    "Industria o conservación de la naturaleza",
-    "Energía o medio ambiente",
-    "Progreso o tradición",
-    "Tecnología o humanidad",
-    "Automatización o empleo",
-    "Innovación o seguridad",
-    "Libertad de investigación o gestión de riesgos",
-    "Progreso científico o derechos de los sujetos de estudio",
-    "Aprobación rápida de un fármaco o pruebas exhaustivas",
-    "Autonomía del paciente o criterio del médico",
-    "Un tratamiento caro para un paciente o uno más barato para muchos",
-    "Quién recibe la última dosis del medicamento",
-    "Quién recibe la última cama de hospital",
-    "A quién se evacua primero",
-    "Salvar al más joven o al más débil",
-    "Salvar a un ser querido o a un desconocido",
-    "Salvar al líder o a una persona corriente",
-    "Salvar al experto o a un grupo más grande",
-    "Salvar a la generación actual o a las futuras",
-    "Usar los últimos recursos ahora o guardarlos para después",
-    "Repartir los recursos a partes iguales o según la necesidad",
-    "Repartir los recursos según la necesidad o según el mérito",
-    "Dar de comer a todos o priorizar a los trabajadores clave",
-    "Mantener en secreto las reservas o decir la verdad a la comunidad",
-    "Ayudar a los recién llegados o proteger a tu propia comunidad",
-    "Acoger a los refugiados o proteger los escasos recursos",
-    "Cerrar las fronteras o ayudar a los necesitados",
-    "Cuarentena o libertad de movimiento",
-    "Vacunación obligatoria o libertad de elección individual",
-    "Vigilancia o privacidad",
-    "Censura o difusión de información peligrosa",
-    "Libertad de expresión o paz social",
-    "Publicar la verdad o evitar el pánico",
-    "Revelar un secreto o proteger a los seres queridos",
-    "Filtrar la información o mantener la confidencialidad",
-    "Destapar la corrupción o preservar la estabilidad de la organización",
-    "Denunciar un crimen o proteger a tu familia",
-    "Denunciar el crimen de un amigo o seguir siendo leal",
-    "Revelar un secreto de Estado o proteger la seguridad nacional",
-    "Contarle al paciente toda la verdad o ahorrársela",
-    "Contarle la verdad a un niño o protegerlo",
-    "Dar malas noticias a la comunidad o mantener alta la moral",
-    "Verdad o esperanza",
-    "Verdad o amor",
-    "Verdad o paz",
-    "Verdad o seguridad personal",
-    "Verdad o conservar tu posición",
-    "Una mentira por una buena causa o la honestidad",
-    "Una acusación falsa para evitar un peligro mayor o la justicia",
-    "Colocar pruebas falsas o dejar libre a una persona peligrosa",
-    "Saltarse la ley para salvar a alguien o cumplir la ley",
-    "Cumplir una orden injusta o rebelarse",
-    "Obedecer a tu superior o proteger a tus subordinados",
-    "Obedecer al gobierno o proteger a los ciudadanos",
-    "Obedecer órdenes o seguir tu conciencia",
-    "Respetar el acuerdo o evitar un daño",
-    "Cumplir una promesa o tomar la decisión moralmente mejor",
-    "Guardar un secreto o evitar un crimen",
-    "Cumplir un juramento o salvar a una persona",
-    "Respetar la ética profesional o ayudar a un amigo",
-    "Defender a tu cliente o seguir tu moral",
-    "Defender a un inocente arriesgando tu carrera o guardar silencio",
-    "Juzgar según la letra de la ley o según la equidad",
-    "Castigo o rehabilitación",
-    "Venganza o perdón",
-    "Disuasión o justicia individual",
-    "Pena de muerte o indulto",
-    "Prisión o una segunda oportunidad",
-    "Forzar una confesión o aceptar la incertidumbre",
-    "Torturar para obtener información o aceptar el riesgo",
-    "Sacrificar a un culpable por muchos inocentes, o al revés",
-    "Detener a un sospechoso sin pruebas o arriesgarse a otro crimen",
-    "Vigilar a una persona peligrosa o respetar su libertad",
-    "Ataque preventivo o esperar a tener certeza",
-    "Atacar primero o arriesgarse a ser atacado",
-    "Negociar con el enemigo o mantenerse fiel a los principios",
-    "Firmar la paz en condiciones injustas o continuar la guerra",
-    "¿Sacrificar una pequeña región para salvar todo el Estado?",
-    "Defender cada región o retirarse estratégicamente",
-    "Salvar a los soldados o a los civiles",
-    "Salvar a tus propios heridos o a los del enemigo",
-    "Respetar una rendición o castigar los crímenes",
-    "Liberar a los prisioneros de guerra o usarlos como moneda de cambio",
-    "Usar un arma peligrosa o perder la guerra",
-    "Llevar a cabo el bombardeo o aceptar las propias bajas",
-    "Proteger a la mayoría o a una minoría perseguida",
-    "Democracia o liderazgo eficaz en la crisis",
-    "La voluntad del pueblo o la recomendación de los expertos",
-    "La decisión popular o la decisión correcta",
-    "Una campaña honesta o una propaganda eficaz",
-    "Ganar las elecciones con juego sucio o perder con honestidad",
-    "Revelar un secreto personal de un rival o mantener limpia la campaña",
-    "Usar el miedo en política o arriesgarse a la derrota",
-    "Concentrar el poder durante una crisis o preservar la separación de poderes",
-    "Estado de excepción o derechos normales",
-    "Una dictadura estable o una democracia caótica",
-    "Revolución o cambio gradual",
-    "Derrocar a un mal régimen o evitar una guerra civil",
-    "Apoyar a un aliado antidemocrático o arriesgarse al caos regional",
-    "Un sistema corrupto pero funcional o uno honesto pero inestable",
-    "Nepotismo o lealtad organizativa",
-    "Contratar al más competente o al más leal",
-    "Contratar a un amigo o a un desconocido más competente",
-    "Despedir a una persona para salvar los demás empleos",
-    "Despedir a muchos para salvar la empresa",
-    "Recortar salarios o despedir personal",
-    "Ocultar un error o provocar una crisis de reputación",
-    "Admitir un error o proteger a la organización",
-    "Denunciar a un compañero o proteger al equipo",
-    "Premiar los resultados o un proceso justo",
-    "Tratar a todos por igual o tener en cuenta las necesidades individuales",
-    "Reglas uniformes o flexibilidad caso por caso",
-    "Premiar la lealtad o la competencia",
-    "Mantener a un mal empleado por su difícil situación personal o proteger al resto del equipo",
-    "Ayudar a un competidor en crisis o aprovechar la oportunidad",
-    "Salvar la empresa de un competidor o hacerse con el mercado",
-    "Competencia justa o manipulación del mercado",
-    "Un producto barato o un producto seguro",
-    "Vender un producto peligroso o llevar la empresa a la quiebra",
-    "Retirar el producto del mercado u ocultar el riesgo",
-    "Mantener privados los datos de los clientes o evitar un crimen",
-    "Compartir datos para la investigación o proteger la privacidad",
-    "Usar datos personales para una buena causa sin permiso o respetar el consentimiento",
-    "Eficiencia de la IA o poder de decisión humano",
-    "Dejar que una IA tome una decisión difícil o asumir tú la responsabilidad",
-    "Borrar una IA que se ha vuelto peligrosa o respetar su posible conciencia",
-    "Liberar a una IA consciente o mantenerla bajo control",
-    "Copiar una mente humana sin permiso o perder un conocimiento único",
-    "Salvar a una persona digital o a un ser humano biológico",
-    "¿Es una copia la misma persona o un individuo nuevo?",
-    "Devolver la vida a los muertos o aceptar la muerte",
-    "Prolongar la vida a cualquier precio o aceptar la muerte natural",
-    "Inmortalidad para unos pocos o una vida más corta para todos",
-    "Mejora genética o humanidad natural",
-    "Editar los genes de un niño no nacido o dejarlo al azar",
-    "Eliminar una enfermedad mediante edición genética o aceptar los riesgos desconocidos",
-    "Salvar una especie mediante edición genética o preservar el ecosistema natural",
-    "Resucitar una especie extinta o dedicar los recursos a las especies vivas",
-    "Proteger la naturaleza o alimentar a una población hambrienta",
-    "Proteger a los animales o proteger a las personas",
-    "¿Sacrificar animales para la investigación médica?",
-    "Destruir una especie peligrosa o preservar la biodiversidad",
-    "Dejar que el ecosistema se adapte o intervenir",
-    "Terraformar un planeta o proteger su ecosistema original",
-    "Colonizar un planeta habitado o renunciar a sus recursos",
-    "Honestidad o ventaja estratégica en el primer contacto",
-    "Compartir tecnología con una civilización alienígena o proteger a tu propia sociedad",
-    "Salvar a una civilización alienígena o evitar riesgos para tu propia especie",
-    "Defender a la humanidad o cooperar con los alienígenas",
-    "Revelar al público un descubrimiento espacial o mantenerlo en secreto",
-    "Usar tecnología alienígena sin entenderla o renunciar a la ventaja",
-    "Salvar a la tripulación o la misión",
-    "Salvar la nave o la tripulación",
-    "Salvar a los colonos o los datos de investigación",
-    "Dar el último oxígeno a una persona o repartirlo entre todos",
-    "Aislar una sección dañada o arriesgar toda la nave",
-    "Dejar atrás a alguien o poner en peligro a todo el grupo",
-    "Despertar a una persona del criosueño o ahorrar energía",
-    "Elegir a quién se despierta primero",
-    "Decir a la tripulación que no vendrá ningún rescate o mantener la esperanza",
-    "Ocultar el verdadero estado de la nave o provocar el pánico",
-    "Restaurar el sistema sacrificando un módulo o arriesgar toda la estación",
-    "¿Sacrificar una ciudad para evitar una catástrofe mayor?",
-    "Inundar una zona para salvar otra",
-    "Quemar el bosque de forma controlada o arriesgarse a un incendio mayor",
-    "Destruir un edificio para frenar la propagación de una epidemia",
-    "Encerrar a los enfermos o arriesgarse al contagio",
-    "Dejar atrás a los heridos o ralentizar a todo el grupo",
-    "Asignar las plazas de rescate por sorteo o por utilidad",
-    "Asignar las plazas de rescate según la capacidad de pago o por igual",
-    "Salvar el patrimonio cultural o a las personas",
-    "Salvar el conocimiento o a las personas",
-    "Salvar una obra de arte o los medicamentos",
-    "Conservar el archivo o quemar el papel como combustible",
-    "Conservar un edificio histórico o construir viviendas",
-    "Conservar una historia veraz o crear un mito nacional unificador",
-    "Borrar de la historia un conocimiento peligroso o preservar la verdad",
-    "Olvidar un recuerdo traumático o preservar tu identidad",
-    "Borrar los recuerdos dolorosos de alguien sin su consentimiento o dejarle sufrir",
-    "Cambiar la personalidad de un criminal con un tratamiento o respetar su identidad",
-    "Darle a alguien un recuerdo falso feliz o una verdad dolorosa",
-    "Restaurar un recuerdo que destruiría la vida feliz de alguien o dejarlo perdido",
-    "Preservar la identidad o salvar una vida",
-    "Una mentira feliz o una verdad dolorosa",
-    "Seguir en la ignorancia o desvelar una verdad peligrosa",
-    "Resolver el misterio o proteger a las personas implicadas",
-    "Desenmascarar al asesino aunque destroce a la comunidad",
-    "Guardar en secreto un viejo crimen porque el culpable ha cambiado",
-    "Castigar un hecho del pasado o juzgar a la persona tal como es ahora",
-    "Revelar el secreto de un difunto u honrar su memoria",
-    "Respetar la voluntad del difunto o ayudar a los vivos",
-    "Abrir una tumba para descubrir la verdad o dejar descansar a los muertos",
-    "Publicar cartas privadas por la verdad histórica o proteger la privacidad",
-    "Salvar a un ser querido usando un conocimiento prohibido o seguir las reglas",
-    "Usar un secreto para una buena causa o cumplir una promesa",
-    "Chantajear a una mala persona por una buena causa o rechazar los medios ilícitos",
-    "Robar a un criminal para ayudar a las víctimas o respetar la ley",
-    "Cooperar con un criminal para evitar un crimen mayor",
-    "Dejar libre a un criminal menor para atrapar a uno mayor",
-    "Mentir a un sospechoso para descubrir la verdad o actuar abiertamente",
-    "Hacerse amigo del objetivo por la misión o ser honesto",
-    "Sacrificar una relación por la misión o fracasar en la misión",
-    "Amor o deber",
-    "Familia o carrera",
-    "Familia o revolución",
-    "Amor o poder",
-    "Amor o la aprobación de la comunidad",
-    "Amor o religión",
-    "Amor o una alianza política",
-    "Un matrimonio concertado por el bien de la comunidad o la libertad personal",
-    "Un heredero o la felicidad personal",
-    "Continuidad del linaje o elección individual",
-    "Proteger a un niño de la verdad o dejar que tome su propia decisión",
-    "Controlar a un niño por su seguridad o dejar que asuma riesgos",
-    "Ayudar a un familiar aunque esté equivocado o negarse",
-    "Perdonar a un ser querido que te traicionó o cortar la relación",
-    "Mantener unida a la familia o revelar sus secretos",
-    "Tradición de la comunidad o derechos individuales",
-    "Religión o libertad personal",
-    "Fe o pruebas",
-    "Una regla sagrada o una vida humana",
-    "Preservar una religión por la estabilidad de la comunidad o revelar que se basa en una mentira",
-    "Desenmascarar a un falso profeta o dejar que mantenga unida a la comunidad",
-    "Dar esperanza a la gente con una mentira o quitársela con la verdad",
-    "Respetar una costumbre cultural o intervenir ante una injusticia",
-    "Preservar la tradición o modernizar la sociedad",
-    "Los derechos de las generaciones futuras o las necesidades de las personas actuales",
-    "Los intereses de las personas futuras o el bienestar presente",
-    "Usar los recursos naturales ahora o guardarlos para las generaciones futuras",
-    "Dejar los residuos peligrosos para el futuro o asumir los costes ahora",
-    "Construir una sociedad segura pero restrictiva o una libre pero peligrosa",
-    "Buenas intenciones o malos medios",
-    "Un acto malvado por un buen resultado o las manos limpias",
-    "La decisión correcta por malas razones o la equivocada por buenas razones",
-    "Injusticia predecible o justicia incierta",
-    "Trato igualitario o justicia",
-    "Mérito o necesidad",
-    "Sorteo o criterio",
-    "La regla o la excepción",
-    "Principios o pragmatismo",
-    "Una solución perfecta más tarde o una imperfecta ahora",
-    "Actuar con información incierta o esperar a tener certeza",
-    "Riesgo de falsa alarma o reaccionar demasiado tarde",
-    "Confiar en la gente o vigilarla",
-    "Confiar en un sospechoso o protegerte",
-    "Dar una segunda oportunidad o evitar más daños",
-    "Creer a un criminal arrepentido o dudar de sus motivos",
-    "Dar el poder a alguien competente pero inmoral o a alguien más débil pero honesto",
-    "Mantener a un líder eficaz pero cruel o sustituirlo por uno más débil",
-    "Preservar un sistema estable o derribarlo en nombre de la justicia",
-    "Arreglar el sistema desde dentro o destruirlo",
-    "Cambiar el sistema poco a poco o forzar un cambio rápido",
-    "Aceptar un compromiso o mantenerse fiel a los principios",
-    "¿Una pequeña injusticia por el bien mayor, o no?",
-    "Elegir el mal menor",
-    "Negarse a elegir aunque alguien sufra",
-    "Asumir la responsabilidad de la decisión o dejársela a otros",
-    "Tomar la decisión tú mismo o dejar que decida la mayoría",
-    "Dejar que decida el experto o que decida el pueblo",
-    "Dejar que decida un algoritmo o aceptar el sesgo humano",
-    "Transparencia o eficiencia en la toma de decisiones",
-    "Explicar los motivos de una decisión o proteger información sensible",
-    "Asumir la responsabilidad personal o proteger a la organización",
-    "Admitir que no hay opción correcta o fingir certeza"
+    {
+      "id": "moral_dilemmas-0001",
+      "text": "Salvar a uno o a muchos"
+    },
+    {
+      "id": "moral_dilemmas-0002",
+      "text": "Verdad o estabilidad"
+    },
+    {
+      "id": "moral_dilemmas-0003",
+      "text": "Dinero o lealtad"
+    },
+    {
+      "id": "moral_dilemmas-0004",
+      "text": "Ley o justicia"
+    },
+    {
+      "id": "moral_dilemmas-0005",
+      "text": "Privacidad o seguridad"
+    },
+    {
+      "id": "moral_dilemmas-0006",
+      "text": "Interés individual o interés de la comunidad"
+    },
+    {
+      "id": "moral_dilemmas-0007",
+      "text": "Libertad u orden"
+    },
+    {
+      "id": "moral_dilemmas-0008",
+      "text": "Seguridad o autonomía"
+    },
+    {
+      "id": "moral_dilemmas-0009",
+      "text": "Paz o justicia"
+    },
+    {
+      "id": "moral_dilemmas-0010",
+      "text": "Perdón o castigo"
+    },
+    {
+      "id": "moral_dilemmas-0011",
+      "text": "Clemencia o ley"
+    },
+    {
+      "id": "moral_dilemmas-0012",
+      "text": "Deber o conciencia"
+    },
+    {
+      "id": "moral_dilemmas-0013",
+      "text": "Lealtad a un amigo o la verdad"
+    },
+    {
+      "id": "moral_dilemmas-0014",
+      "text": "Lealtad a la familia o a la sociedad"
+    },
+    {
+      "id": "moral_dilemmas-0015",
+      "text": "Lealtad a la organización o la moral"
+    },
+    {
+      "id": "moral_dilemmas-0016",
+      "text": "El interés del empleador o el del cliente"
+    },
+    {
+      "id": "moral_dilemmas-0017",
+      "text": "Interés propio o bien común"
+    },
+    {
+      "id": "moral_dilemmas-0018",
+      "text": "Beneficio a corto plazo o largo plazo"
+    },
+    {
+      "id": "moral_dilemmas-0019",
+      "text": "Crecimiento o sostenibilidad"
+    },
+    {
+      "id": "moral_dilemmas-0020",
+      "text": "Beneficios o bienestar de los empleados"
+    },
+    {
+      "id": "moral_dilemmas-0021",
+      "text": "Eficiencia o humanidad"
+    },
+    {
+      "id": "moral_dilemmas-0022",
+      "text": "Productividad o seguridad laboral"
+    },
+    {
+      "id": "moral_dilemmas-0023",
+      "text": "Ahorro o calidad del servicio"
+    },
+    {
+      "id": "moral_dilemmas-0024",
+      "text": "La solución barata o la responsable"
+    },
+    {
+      "id": "moral_dilemmas-0025",
+      "text": "Empleo o medio ambiente"
+    },
+    {
+      "id": "moral_dilemmas-0026",
+      "text": "Industria o conservación de la naturaleza"
+    },
+    {
+      "id": "moral_dilemmas-0027",
+      "text": "Energía o medio ambiente"
+    },
+    {
+      "id": "moral_dilemmas-0028",
+      "text": "Progreso o tradición"
+    },
+    {
+      "id": "moral_dilemmas-0029",
+      "text": "Tecnología o humanidad"
+    },
+    {
+      "id": "moral_dilemmas-0030",
+      "text": "Automatización o empleo"
+    },
+    {
+      "id": "moral_dilemmas-0031",
+      "text": "Innovación o seguridad"
+    },
+    {
+      "id": "moral_dilemmas-0032",
+      "text": "Libertad de investigación o gestión de riesgos"
+    },
+    {
+      "id": "moral_dilemmas-0033",
+      "text": "Progreso científico o derechos de los sujetos de estudio"
+    },
+    {
+      "id": "moral_dilemmas-0034",
+      "text": "Aprobación rápida de un fármaco o pruebas exhaustivas"
+    },
+    {
+      "id": "moral_dilemmas-0035",
+      "text": "Autonomía del paciente o criterio del médico"
+    },
+    {
+      "id": "moral_dilemmas-0036",
+      "text": "Un tratamiento caro para un paciente o uno más barato para muchos"
+    },
+    {
+      "id": "moral_dilemmas-0037",
+      "text": "Quién recibe la última dosis del medicamento"
+    },
+    {
+      "id": "moral_dilemmas-0038",
+      "text": "Quién recibe la última cama de hospital"
+    },
+    {
+      "id": "moral_dilemmas-0039",
+      "text": "A quién se evacua primero"
+    },
+    {
+      "id": "moral_dilemmas-0040",
+      "text": "Salvar al más joven o al más débil"
+    },
+    {
+      "id": "moral_dilemmas-0041",
+      "text": "Salvar a un ser querido o a un desconocido"
+    },
+    {
+      "id": "moral_dilemmas-0042",
+      "text": "Salvar al líder o a una persona corriente"
+    },
+    {
+      "id": "moral_dilemmas-0043",
+      "text": "Salvar al experto o a un grupo más grande"
+    },
+    {
+      "id": "moral_dilemmas-0044",
+      "text": "Salvar a la generación actual o a las futuras"
+    },
+    {
+      "id": "moral_dilemmas-0045",
+      "text": "Usar los últimos recursos ahora o guardarlos para después"
+    },
+    {
+      "id": "moral_dilemmas-0046",
+      "text": "Repartir los recursos a partes iguales o según la necesidad"
+    },
+    {
+      "id": "moral_dilemmas-0047",
+      "text": "Repartir los recursos según la necesidad o según el mérito"
+    },
+    {
+      "id": "moral_dilemmas-0048",
+      "text": "Dar de comer a todos o priorizar a los trabajadores clave"
+    },
+    {
+      "id": "moral_dilemmas-0049",
+      "text": "Mantener en secreto las reservas o decir la verdad a la comunidad"
+    },
+    {
+      "id": "moral_dilemmas-0050",
+      "text": "Ayudar a los recién llegados o proteger a tu propia comunidad"
+    },
+    {
+      "id": "moral_dilemmas-0051",
+      "text": "Acoger a los refugiados o proteger los escasos recursos"
+    },
+    {
+      "id": "moral_dilemmas-0052",
+      "text": "Cerrar las fronteras o ayudar a los necesitados"
+    },
+    {
+      "id": "moral_dilemmas-0053",
+      "text": "Cuarentena o libertad de movimiento"
+    },
+    {
+      "id": "moral_dilemmas-0054",
+      "text": "Vacunación obligatoria o libertad de elección individual"
+    },
+    {
+      "id": "moral_dilemmas-0055",
+      "text": "Vigilancia o privacidad"
+    },
+    {
+      "id": "moral_dilemmas-0056",
+      "text": "Censura o difusión de información peligrosa"
+    },
+    {
+      "id": "moral_dilemmas-0057",
+      "text": "Libertad de expresión o paz social"
+    },
+    {
+      "id": "moral_dilemmas-0058",
+      "text": "Publicar la verdad o evitar el pánico"
+    },
+    {
+      "id": "moral_dilemmas-0059",
+      "text": "Revelar un secreto o proteger a los seres queridos"
+    },
+    {
+      "id": "moral_dilemmas-0060",
+      "text": "Filtrar la información o mantener la confidencialidad"
+    },
+    {
+      "id": "moral_dilemmas-0061",
+      "text": "Destapar la corrupción o preservar la estabilidad de la organización"
+    },
+    {
+      "id": "moral_dilemmas-0062",
+      "text": "Denunciar un crimen o proteger a tu familia"
+    },
+    {
+      "id": "moral_dilemmas-0063",
+      "text": "Denunciar el crimen de un amigo o seguir siendo leal"
+    },
+    {
+      "id": "moral_dilemmas-0064",
+      "text": "Revelar un secreto de Estado o proteger la seguridad nacional"
+    },
+    {
+      "id": "moral_dilemmas-0065",
+      "text": "Contarle al paciente toda la verdad o ahorrársela"
+    },
+    {
+      "id": "moral_dilemmas-0066",
+      "text": "Contarle la verdad a un niño o protegerlo"
+    },
+    {
+      "id": "moral_dilemmas-0067",
+      "text": "Dar malas noticias a la comunidad o mantener alta la moral"
+    },
+    {
+      "id": "moral_dilemmas-0068",
+      "text": "Verdad o esperanza"
+    },
+    {
+      "id": "moral_dilemmas-0069",
+      "text": "Verdad o amor"
+    },
+    {
+      "id": "moral_dilemmas-0070",
+      "text": "Verdad o paz"
+    },
+    {
+      "id": "moral_dilemmas-0071",
+      "text": "Verdad o seguridad personal"
+    },
+    {
+      "id": "moral_dilemmas-0072",
+      "text": "Verdad o conservar tu posición"
+    },
+    {
+      "id": "moral_dilemmas-0073",
+      "text": "Una mentira por una buena causa o la honestidad"
+    },
+    {
+      "id": "moral_dilemmas-0074",
+      "text": "Una acusación falsa para evitar un peligro mayor o la justicia"
+    },
+    {
+      "id": "moral_dilemmas-0075",
+      "text": "Colocar pruebas falsas o dejar libre a una persona peligrosa"
+    },
+    {
+      "id": "moral_dilemmas-0076",
+      "text": "Saltarse la ley para salvar a alguien o cumplir la ley"
+    },
+    {
+      "id": "moral_dilemmas-0077",
+      "text": "Cumplir una orden injusta o rebelarse"
+    },
+    {
+      "id": "moral_dilemmas-0078",
+      "text": "Obedecer a tu superior o proteger a tus subordinados"
+    },
+    {
+      "id": "moral_dilemmas-0079",
+      "text": "Obedecer al gobierno o proteger a los ciudadanos"
+    },
+    {
+      "id": "moral_dilemmas-0080",
+      "text": "Obedecer órdenes o seguir tu conciencia"
+    },
+    {
+      "id": "moral_dilemmas-0081",
+      "text": "Respetar el acuerdo o evitar un daño"
+    },
+    {
+      "id": "moral_dilemmas-0082",
+      "text": "Cumplir una promesa o tomar la decisión moralmente mejor"
+    },
+    {
+      "id": "moral_dilemmas-0083",
+      "text": "Guardar un secreto o evitar un crimen"
+    },
+    {
+      "id": "moral_dilemmas-0084",
+      "text": "Cumplir un juramento o salvar a una persona"
+    },
+    {
+      "id": "moral_dilemmas-0085",
+      "text": "Respetar la ética profesional o ayudar a un amigo"
+    },
+    {
+      "id": "moral_dilemmas-0086",
+      "text": "Defender a tu cliente o seguir tu moral"
+    },
+    {
+      "id": "moral_dilemmas-0087",
+      "text": "Defender a un inocente arriesgando tu carrera o guardar silencio"
+    },
+    {
+      "id": "moral_dilemmas-0088",
+      "text": "Juzgar según la letra de la ley o según la equidad"
+    },
+    {
+      "id": "moral_dilemmas-0089",
+      "text": "Castigo o rehabilitación"
+    },
+    {
+      "id": "moral_dilemmas-0090",
+      "text": "Venganza o perdón"
+    },
+    {
+      "id": "moral_dilemmas-0091",
+      "text": "Disuasión o justicia individual"
+    },
+    {
+      "id": "moral_dilemmas-0092",
+      "text": "Pena de muerte o indulto"
+    },
+    {
+      "id": "moral_dilemmas-0093",
+      "text": "Prisión o una segunda oportunidad"
+    },
+    {
+      "id": "moral_dilemmas-0094",
+      "text": "Forzar una confesión o aceptar la incertidumbre"
+    },
+    {
+      "id": "moral_dilemmas-0095",
+      "text": "Torturar para obtener información o aceptar el riesgo"
+    },
+    {
+      "id": "moral_dilemmas-0096",
+      "text": "Sacrificar a un culpable por muchos inocentes, o al revés"
+    },
+    {
+      "id": "moral_dilemmas-0097",
+      "text": "Detener a un sospechoso sin pruebas o arriesgarse a otro crimen"
+    },
+    {
+      "id": "moral_dilemmas-0098",
+      "text": "Vigilar a una persona peligrosa o respetar su libertad"
+    },
+    {
+      "id": "moral_dilemmas-0099",
+      "text": "Ataque preventivo o esperar a tener certeza"
+    },
+    {
+      "id": "moral_dilemmas-0100",
+      "text": "Atacar primero o arriesgarse a ser atacado"
+    },
+    {
+      "id": "moral_dilemmas-0101",
+      "text": "Negociar con el enemigo o mantenerse fiel a los principios"
+    },
+    {
+      "id": "moral_dilemmas-0102",
+      "text": "Firmar la paz en condiciones injustas o continuar la guerra"
+    },
+    {
+      "id": "moral_dilemmas-0103",
+      "text": "¿Sacrificar una pequeña región para salvar todo el Estado?"
+    },
+    {
+      "id": "moral_dilemmas-0104",
+      "text": "Defender cada región o retirarse estratégicamente"
+    },
+    {
+      "id": "moral_dilemmas-0105",
+      "text": "Salvar a los soldados o a los civiles"
+    },
+    {
+      "id": "moral_dilemmas-0106",
+      "text": "Salvar a tus propios heridos o a los del enemigo"
+    },
+    {
+      "id": "moral_dilemmas-0107",
+      "text": "Respetar una rendición o castigar los crímenes"
+    },
+    {
+      "id": "moral_dilemmas-0108",
+      "text": "Liberar a los prisioneros de guerra o usarlos como moneda de cambio"
+    },
+    {
+      "id": "moral_dilemmas-0109",
+      "text": "Usar un arma peligrosa o perder la guerra"
+    },
+    {
+      "id": "moral_dilemmas-0110",
+      "text": "Llevar a cabo el bombardeo o aceptar las propias bajas"
+    },
+    {
+      "id": "moral_dilemmas-0111",
+      "text": "Proteger a la mayoría o a una minoría perseguida"
+    },
+    {
+      "id": "moral_dilemmas-0112",
+      "text": "Democracia o liderazgo eficaz en la crisis"
+    },
+    {
+      "id": "moral_dilemmas-0113",
+      "text": "La voluntad del pueblo o la recomendación de los expertos"
+    },
+    {
+      "id": "moral_dilemmas-0114",
+      "text": "La decisión popular o la decisión correcta"
+    },
+    {
+      "id": "moral_dilemmas-0115",
+      "text": "Una campaña honesta o una propaganda eficaz"
+    },
+    {
+      "id": "moral_dilemmas-0116",
+      "text": "Ganar las elecciones con juego sucio o perder con honestidad"
+    },
+    {
+      "id": "moral_dilemmas-0117",
+      "text": "Revelar un secreto personal de un rival o mantener limpia la campaña"
+    },
+    {
+      "id": "moral_dilemmas-0118",
+      "text": "Usar el miedo en política o arriesgarse a la derrota"
+    },
+    {
+      "id": "moral_dilemmas-0119",
+      "text": "Concentrar el poder durante una crisis o preservar la separación de poderes"
+    },
+    {
+      "id": "moral_dilemmas-0120",
+      "text": "Estado de excepción o derechos normales"
+    },
+    {
+      "id": "moral_dilemmas-0121",
+      "text": "Una dictadura estable o una democracia caótica"
+    },
+    {
+      "id": "moral_dilemmas-0122",
+      "text": "Revolución o cambio gradual"
+    },
+    {
+      "id": "moral_dilemmas-0123",
+      "text": "Derrocar a un mal régimen o evitar una guerra civil"
+    },
+    {
+      "id": "moral_dilemmas-0124",
+      "text": "Apoyar a un aliado antidemocrático o arriesgarse al caos regional"
+    },
+    {
+      "id": "moral_dilemmas-0125",
+      "text": "Un sistema corrupto pero funcional o uno honesto pero inestable"
+    },
+    {
+      "id": "moral_dilemmas-0126",
+      "text": "Nepotismo o lealtad organizativa"
+    },
+    {
+      "id": "moral_dilemmas-0127",
+      "text": "Contratar al más competente o al más leal"
+    },
+    {
+      "id": "moral_dilemmas-0128",
+      "text": "Contratar a un amigo o a un desconocido más competente"
+    },
+    {
+      "id": "moral_dilemmas-0129",
+      "text": "Despedir a una persona para salvar los demás empleos"
+    },
+    {
+      "id": "moral_dilemmas-0130",
+      "text": "Despedir a muchos para salvar la empresa"
+    },
+    {
+      "id": "moral_dilemmas-0131",
+      "text": "Recortar salarios o despedir personal"
+    },
+    {
+      "id": "moral_dilemmas-0132",
+      "text": "Ocultar un error o provocar una crisis de reputación"
+    },
+    {
+      "id": "moral_dilemmas-0133",
+      "text": "Admitir un error o proteger a la organización"
+    },
+    {
+      "id": "moral_dilemmas-0134",
+      "text": "Denunciar a un compañero o proteger al equipo"
+    },
+    {
+      "id": "moral_dilemmas-0135",
+      "text": "Premiar los resultados o un proceso justo"
+    },
+    {
+      "id": "moral_dilemmas-0136",
+      "text": "Tratar a todos por igual o tener en cuenta las necesidades individuales"
+    },
+    {
+      "id": "moral_dilemmas-0137",
+      "text": "Reglas uniformes o flexibilidad caso por caso"
+    },
+    {
+      "id": "moral_dilemmas-0138",
+      "text": "Premiar la lealtad o la competencia"
+    },
+    {
+      "id": "moral_dilemmas-0139",
+      "text": "Mantener a un mal empleado por su difícil situación personal o proteger al resto del equipo"
+    },
+    {
+      "id": "moral_dilemmas-0140",
+      "text": "Ayudar a un competidor en crisis o aprovechar la oportunidad"
+    },
+    {
+      "id": "moral_dilemmas-0141",
+      "text": "Salvar la empresa de un competidor o hacerse con el mercado"
+    },
+    {
+      "id": "moral_dilemmas-0142",
+      "text": "Competencia justa o manipulación del mercado"
+    },
+    {
+      "id": "moral_dilemmas-0143",
+      "text": "Un producto barato o un producto seguro"
+    },
+    {
+      "id": "moral_dilemmas-0144",
+      "text": "Vender un producto peligroso o llevar la empresa a la quiebra"
+    },
+    {
+      "id": "moral_dilemmas-0145",
+      "text": "Retirar el producto del mercado u ocultar el riesgo"
+    },
+    {
+      "id": "moral_dilemmas-0146",
+      "text": "Mantener privados los datos de los clientes o evitar un crimen"
+    },
+    {
+      "id": "moral_dilemmas-0147",
+      "text": "Compartir datos para la investigación o proteger la privacidad"
+    },
+    {
+      "id": "moral_dilemmas-0148",
+      "text": "Usar datos personales para una buena causa sin permiso o respetar el consentimiento"
+    },
+    {
+      "id": "moral_dilemmas-0149",
+      "text": "Eficiencia de la IA o poder de decisión humano"
+    },
+    {
+      "id": "moral_dilemmas-0150",
+      "text": "Dejar que una IA tome una decisión difícil o asumir tú la responsabilidad"
+    },
+    {
+      "id": "moral_dilemmas-0151",
+      "text": "Borrar una IA que se ha vuelto peligrosa o respetar su posible conciencia"
+    },
+    {
+      "id": "moral_dilemmas-0152",
+      "text": "Liberar a una IA consciente o mantenerla bajo control"
+    },
+    {
+      "id": "moral_dilemmas-0153",
+      "text": "Copiar una mente humana sin permiso o perder un conocimiento único"
+    },
+    {
+      "id": "moral_dilemmas-0154",
+      "text": "Salvar a una persona digital o a un ser humano biológico"
+    },
+    {
+      "id": "moral_dilemmas-0155",
+      "text": "¿Es una copia la misma persona o un individuo nuevo?"
+    },
+    {
+      "id": "moral_dilemmas-0156",
+      "text": "Devolver la vida a los muertos o aceptar la muerte"
+    },
+    {
+      "id": "moral_dilemmas-0157",
+      "text": "Prolongar la vida a cualquier precio o aceptar la muerte natural"
+    },
+    {
+      "id": "moral_dilemmas-0158",
+      "text": "Inmortalidad para unos pocos o una vida más corta para todos"
+    },
+    {
+      "id": "moral_dilemmas-0159",
+      "text": "Mejora genética o humanidad natural"
+    },
+    {
+      "id": "moral_dilemmas-0160",
+      "text": "Editar los genes de un niño no nacido o dejarlo al azar"
+    },
+    {
+      "id": "moral_dilemmas-0161",
+      "text": "Eliminar una enfermedad mediante edición genética o aceptar los riesgos desconocidos"
+    },
+    {
+      "id": "moral_dilemmas-0162",
+      "text": "Salvar una especie mediante edición genética o preservar el ecosistema natural"
+    },
+    {
+      "id": "moral_dilemmas-0163",
+      "text": "Resucitar una especie extinta o dedicar los recursos a las especies vivas"
+    },
+    {
+      "id": "moral_dilemmas-0164",
+      "text": "Proteger la naturaleza o alimentar a una población hambrienta"
+    },
+    {
+      "id": "moral_dilemmas-0165",
+      "text": "Proteger a los animales o proteger a las personas"
+    },
+    {
+      "id": "moral_dilemmas-0166",
+      "text": "¿Sacrificar animales para la investigación médica?"
+    },
+    {
+      "id": "moral_dilemmas-0167",
+      "text": "Destruir una especie peligrosa o preservar la biodiversidad"
+    },
+    {
+      "id": "moral_dilemmas-0168",
+      "text": "Dejar que el ecosistema se adapte o intervenir"
+    },
+    {
+      "id": "moral_dilemmas-0169",
+      "text": "Terraformar un planeta o proteger su ecosistema original"
+    },
+    {
+      "id": "moral_dilemmas-0170",
+      "text": "Colonizar un planeta habitado o renunciar a sus recursos"
+    },
+    {
+      "id": "moral_dilemmas-0171",
+      "text": "Honestidad o ventaja estratégica en el primer contacto"
+    },
+    {
+      "id": "moral_dilemmas-0172",
+      "text": "Compartir tecnología con una civilización alienígena o proteger a tu propia sociedad"
+    },
+    {
+      "id": "moral_dilemmas-0173",
+      "text": "Salvar a una civilización alienígena o evitar riesgos para tu propia especie"
+    },
+    {
+      "id": "moral_dilemmas-0174",
+      "text": "Defender a la humanidad o cooperar con los alienígenas"
+    },
+    {
+      "id": "moral_dilemmas-0175",
+      "text": "Revelar al público un descubrimiento espacial o mantenerlo en secreto"
+    },
+    {
+      "id": "moral_dilemmas-0176",
+      "text": "Usar tecnología alienígena sin entenderla o renunciar a la ventaja"
+    },
+    {
+      "id": "moral_dilemmas-0177",
+      "text": "Salvar a la tripulación o la misión"
+    },
+    {
+      "id": "moral_dilemmas-0178",
+      "text": "Salvar la nave o la tripulación"
+    },
+    {
+      "id": "moral_dilemmas-0179",
+      "text": "Salvar a los colonos o los datos de investigación"
+    },
+    {
+      "id": "moral_dilemmas-0180",
+      "text": "Dar el último oxígeno a una persona o repartirlo entre todos"
+    },
+    {
+      "id": "moral_dilemmas-0181",
+      "text": "Aislar una sección dañada o arriesgar toda la nave"
+    },
+    {
+      "id": "moral_dilemmas-0182",
+      "text": "Dejar atrás a alguien o poner en peligro a todo el grupo"
+    },
+    {
+      "id": "moral_dilemmas-0183",
+      "text": "Despertar a una persona del criosueño o ahorrar energía"
+    },
+    {
+      "id": "moral_dilemmas-0184",
+      "text": "Elegir a quién se despierta primero"
+    },
+    {
+      "id": "moral_dilemmas-0185",
+      "text": "Decir a la tripulación que no vendrá ningún rescate o mantener la esperanza"
+    },
+    {
+      "id": "moral_dilemmas-0186",
+      "text": "Ocultar el verdadero estado de la nave o provocar el pánico"
+    },
+    {
+      "id": "moral_dilemmas-0187",
+      "text": "Restaurar el sistema sacrificando un módulo o arriesgar toda la estación"
+    },
+    {
+      "id": "moral_dilemmas-0188",
+      "text": "¿Sacrificar una ciudad para evitar una catástrofe mayor?"
+    },
+    {
+      "id": "moral_dilemmas-0189",
+      "text": "Inundar una zona para salvar otra"
+    },
+    {
+      "id": "moral_dilemmas-0190",
+      "text": "Quemar el bosque de forma controlada o arriesgarse a un incendio mayor"
+    },
+    {
+      "id": "moral_dilemmas-0191",
+      "text": "Destruir un edificio para frenar la propagación de una epidemia"
+    },
+    {
+      "id": "moral_dilemmas-0192",
+      "text": "Encerrar a los enfermos o arriesgarse al contagio"
+    },
+    {
+      "id": "moral_dilemmas-0193",
+      "text": "Dejar atrás a los heridos o ralentizar a todo el grupo"
+    },
+    {
+      "id": "moral_dilemmas-0194",
+      "text": "Asignar las plazas de rescate por sorteo o por utilidad"
+    },
+    {
+      "id": "moral_dilemmas-0195",
+      "text": "Asignar las plazas de rescate según la capacidad de pago o por igual"
+    },
+    {
+      "id": "moral_dilemmas-0196",
+      "text": "Salvar el patrimonio cultural o a las personas"
+    },
+    {
+      "id": "moral_dilemmas-0197",
+      "text": "Salvar el conocimiento o a las personas"
+    },
+    {
+      "id": "moral_dilemmas-0198",
+      "text": "Salvar una obra de arte o los medicamentos"
+    },
+    {
+      "id": "moral_dilemmas-0199",
+      "text": "Conservar el archivo o quemar el papel como combustible"
+    },
+    {
+      "id": "moral_dilemmas-0200",
+      "text": "Conservar un edificio histórico o construir viviendas"
+    },
+    {
+      "id": "moral_dilemmas-0201",
+      "text": "Conservar una historia veraz o crear un mito nacional unificador"
+    },
+    {
+      "id": "moral_dilemmas-0202",
+      "text": "Borrar de la historia un conocimiento peligroso o preservar la verdad"
+    },
+    {
+      "id": "moral_dilemmas-0203",
+      "text": "Olvidar un recuerdo traumático o preservar tu identidad"
+    },
+    {
+      "id": "moral_dilemmas-0204",
+      "text": "Borrar los recuerdos dolorosos de alguien sin su consentimiento o dejarle sufrir"
+    },
+    {
+      "id": "moral_dilemmas-0205",
+      "text": "Cambiar la personalidad de un criminal con un tratamiento o respetar su identidad"
+    },
+    {
+      "id": "moral_dilemmas-0206",
+      "text": "Darle a alguien un recuerdo falso feliz o una verdad dolorosa"
+    },
+    {
+      "id": "moral_dilemmas-0207",
+      "text": "Restaurar un recuerdo que destruiría la vida feliz de alguien o dejarlo perdido"
+    },
+    {
+      "id": "moral_dilemmas-0208",
+      "text": "Preservar la identidad o salvar una vida"
+    },
+    {
+      "id": "moral_dilemmas-0209",
+      "text": "Una mentira feliz o una verdad dolorosa"
+    },
+    {
+      "id": "moral_dilemmas-0210",
+      "text": "Seguir en la ignorancia o desvelar una verdad peligrosa"
+    },
+    {
+      "id": "moral_dilemmas-0211",
+      "text": "Resolver el misterio o proteger a las personas implicadas"
+    },
+    {
+      "id": "moral_dilemmas-0212",
+      "text": "Desenmascarar al asesino aunque destroce a la comunidad"
+    },
+    {
+      "id": "moral_dilemmas-0213",
+      "text": "Guardar en secreto un viejo crimen porque el culpable ha cambiado"
+    },
+    {
+      "id": "moral_dilemmas-0214",
+      "text": "Castigar un hecho del pasado o juzgar a la persona tal como es ahora"
+    },
+    {
+      "id": "moral_dilemmas-0215",
+      "text": "Revelar el secreto de un difunto u honrar su memoria"
+    },
+    {
+      "id": "moral_dilemmas-0216",
+      "text": "Respetar la voluntad del difunto o ayudar a los vivos"
+    },
+    {
+      "id": "moral_dilemmas-0217",
+      "text": "Abrir una tumba para descubrir la verdad o dejar descansar a los muertos"
+    },
+    {
+      "id": "moral_dilemmas-0218",
+      "text": "Publicar cartas privadas por la verdad histórica o proteger la privacidad"
+    },
+    {
+      "id": "moral_dilemmas-0219",
+      "text": "Salvar a un ser querido usando un conocimiento prohibido o seguir las reglas"
+    },
+    {
+      "id": "moral_dilemmas-0220",
+      "text": "Usar un secreto para una buena causa o cumplir una promesa"
+    },
+    {
+      "id": "moral_dilemmas-0221",
+      "text": "Chantajear a una mala persona por una buena causa o rechazar los medios ilícitos"
+    },
+    {
+      "id": "moral_dilemmas-0222",
+      "text": "Robar a un criminal para ayudar a las víctimas o respetar la ley"
+    },
+    {
+      "id": "moral_dilemmas-0223",
+      "text": "Cooperar con un criminal para evitar un crimen mayor"
+    },
+    {
+      "id": "moral_dilemmas-0224",
+      "text": "Dejar libre a un criminal menor para atrapar a uno mayor"
+    },
+    {
+      "id": "moral_dilemmas-0225",
+      "text": "Mentir a un sospechoso para descubrir la verdad o actuar abiertamente"
+    },
+    {
+      "id": "moral_dilemmas-0226",
+      "text": "Hacerse amigo del objetivo por la misión o ser honesto"
+    },
+    {
+      "id": "moral_dilemmas-0227",
+      "text": "Sacrificar una relación por la misión o fracasar en la misión"
+    },
+    {
+      "id": "moral_dilemmas-0228",
+      "text": "Amor o deber"
+    },
+    {
+      "id": "moral_dilemmas-0229",
+      "text": "Familia o carrera"
+    },
+    {
+      "id": "moral_dilemmas-0230",
+      "text": "Familia o revolución"
+    },
+    {
+      "id": "moral_dilemmas-0231",
+      "text": "Amor o poder"
+    },
+    {
+      "id": "moral_dilemmas-0232",
+      "text": "Amor o la aprobación de la comunidad"
+    },
+    {
+      "id": "moral_dilemmas-0233",
+      "text": "Amor o religión"
+    },
+    {
+      "id": "moral_dilemmas-0234",
+      "text": "Amor o una alianza política"
+    },
+    {
+      "id": "moral_dilemmas-0235",
+      "text": "Un matrimonio concertado por el bien de la comunidad o la libertad personal"
+    },
+    {
+      "id": "moral_dilemmas-0236",
+      "text": "Un heredero o la felicidad personal"
+    },
+    {
+      "id": "moral_dilemmas-0237",
+      "text": "Continuidad del linaje o elección individual"
+    },
+    {
+      "id": "moral_dilemmas-0238",
+      "text": "Proteger a un niño de la verdad o dejar que tome su propia decisión"
+    },
+    {
+      "id": "moral_dilemmas-0239",
+      "text": "Controlar a un niño por su seguridad o dejar que asuma riesgos"
+    },
+    {
+      "id": "moral_dilemmas-0240",
+      "text": "Ayudar a un familiar aunque esté equivocado o negarse"
+    },
+    {
+      "id": "moral_dilemmas-0241",
+      "text": "Perdonar a un ser querido que te traicionó o cortar la relación"
+    },
+    {
+      "id": "moral_dilemmas-0242",
+      "text": "Mantener unida a la familia o revelar sus secretos"
+    },
+    {
+      "id": "moral_dilemmas-0243",
+      "text": "Tradición de la comunidad o derechos individuales"
+    },
+    {
+      "id": "moral_dilemmas-0244",
+      "text": "Religión o libertad personal"
+    },
+    {
+      "id": "moral_dilemmas-0245",
+      "text": "Fe o pruebas"
+    },
+    {
+      "id": "moral_dilemmas-0246",
+      "text": "Una regla sagrada o una vida humana"
+    },
+    {
+      "id": "moral_dilemmas-0247",
+      "text": "Preservar una religión por la estabilidad de la comunidad o revelar que se basa en una mentira"
+    },
+    {
+      "id": "moral_dilemmas-0248",
+      "text": "Desenmascarar a un falso profeta o dejar que mantenga unida a la comunidad"
+    },
+    {
+      "id": "moral_dilemmas-0249",
+      "text": "Dar esperanza a la gente con una mentira o quitársela con la verdad"
+    },
+    {
+      "id": "moral_dilemmas-0250",
+      "text": "Respetar una costumbre cultural o intervenir ante una injusticia"
+    },
+    {
+      "id": "moral_dilemmas-0251",
+      "text": "Preservar la tradición o modernizar la sociedad"
+    },
+    {
+      "id": "moral_dilemmas-0252",
+      "text": "Los derechos de las generaciones futuras o las necesidades de las personas actuales"
+    },
+    {
+      "id": "moral_dilemmas-0253",
+      "text": "Los intereses de las personas futuras o el bienestar presente"
+    },
+    {
+      "id": "moral_dilemmas-0254",
+      "text": "Usar los recursos naturales ahora o guardarlos para las generaciones futuras"
+    },
+    {
+      "id": "moral_dilemmas-0255",
+      "text": "Dejar los residuos peligrosos para el futuro o asumir los costes ahora"
+    },
+    {
+      "id": "moral_dilemmas-0256",
+      "text": "Construir una sociedad segura pero restrictiva o una libre pero peligrosa"
+    },
+    {
+      "id": "moral_dilemmas-0257",
+      "text": "Buenas intenciones o malos medios"
+    },
+    {
+      "id": "moral_dilemmas-0258",
+      "text": "Un acto malvado por un buen resultado o las manos limpias"
+    },
+    {
+      "id": "moral_dilemmas-0259",
+      "text": "La decisión correcta por malas razones o la equivocada por buenas razones"
+    },
+    {
+      "id": "moral_dilemmas-0260",
+      "text": "Injusticia predecible o justicia incierta"
+    },
+    {
+      "id": "moral_dilemmas-0261",
+      "text": "Trato igualitario o justicia"
+    },
+    {
+      "id": "moral_dilemmas-0262",
+      "text": "Mérito o necesidad"
+    },
+    {
+      "id": "moral_dilemmas-0263",
+      "text": "Sorteo o criterio"
+    },
+    {
+      "id": "moral_dilemmas-0264",
+      "text": "La regla o la excepción"
+    },
+    {
+      "id": "moral_dilemmas-0265",
+      "text": "Principios o pragmatismo"
+    },
+    {
+      "id": "moral_dilemmas-0266",
+      "text": "Una solución perfecta más tarde o una imperfecta ahora"
+    },
+    {
+      "id": "moral_dilemmas-0267",
+      "text": "Actuar con información incierta o esperar a tener certeza"
+    },
+    {
+      "id": "moral_dilemmas-0268",
+      "text": "Riesgo de falsa alarma o reaccionar demasiado tarde"
+    },
+    {
+      "id": "moral_dilemmas-0269",
+      "text": "Confiar en la gente o vigilarla"
+    },
+    {
+      "id": "moral_dilemmas-0270",
+      "text": "Confiar en un sospechoso o protegerte"
+    },
+    {
+      "id": "moral_dilemmas-0271",
+      "text": "Dar una segunda oportunidad o evitar más daños"
+    },
+    {
+      "id": "moral_dilemmas-0272",
+      "text": "Creer a un criminal arrepentido o dudar de sus motivos"
+    },
+    {
+      "id": "moral_dilemmas-0273",
+      "text": "Dar el poder a alguien competente pero inmoral o a alguien más débil pero honesto"
+    },
+    {
+      "id": "moral_dilemmas-0274",
+      "text": "Mantener a un líder eficaz pero cruel o sustituirlo por uno más débil"
+    },
+    {
+      "id": "moral_dilemmas-0275",
+      "text": "Preservar un sistema estable o derribarlo en nombre de la justicia"
+    },
+    {
+      "id": "moral_dilemmas-0276",
+      "text": "Arreglar el sistema desde dentro o destruirlo"
+    },
+    {
+      "id": "moral_dilemmas-0277",
+      "text": "Cambiar el sistema poco a poco o forzar un cambio rápido"
+    },
+    {
+      "id": "moral_dilemmas-0278",
+      "text": "Aceptar un compromiso o mantenerse fiel a los principios"
+    },
+    {
+      "id": "moral_dilemmas-0279",
+      "text": "¿Una pequeña injusticia por el bien mayor, o no?"
+    },
+    {
+      "id": "moral_dilemmas-0280",
+      "text": "Elegir el mal menor"
+    },
+    {
+      "id": "moral_dilemmas-0281",
+      "text": "Negarse a elegir aunque alguien sufra"
+    },
+    {
+      "id": "moral_dilemmas-0282",
+      "text": "Asumir la responsabilidad de la decisión o dejársela a otros"
+    },
+    {
+      "id": "moral_dilemmas-0283",
+      "text": "Tomar la decisión tú mismo o dejar que decida la mayoría"
+    },
+    {
+      "id": "moral_dilemmas-0284",
+      "text": "Dejar que decida el experto o que decida el pueblo"
+    },
+    {
+      "id": "moral_dilemmas-0285",
+      "text": "Dejar que decida un algoritmo o aceptar el sesgo humano"
+    },
+    {
+      "id": "moral_dilemmas-0286",
+      "text": "Transparencia o eficiencia en la toma de decisiones"
+    },
+    {
+      "id": "moral_dilemmas-0287",
+      "text": "Explicar los motivos de una decisión o proteger información sensible"
+    },
+    {
+      "id": "moral_dilemmas-0288",
+      "text": "Asumir la responsabilidad personal o proteger a la organización"
+    },
+    {
+      "id": "moral_dilemmas-0289",
+      "text": "Admitir que no hay opción correcta o fingir certeza"
+    }
   ]
 }

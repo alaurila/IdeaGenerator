@@ -1,309 +1,1224 @@
 {
   "key_resources": [
-    "Money",
-    "Time",
-    "Trust",
-    "Reputation",
-    "Food",
-    "Electricity",
-    "Information",
-    "Influence",
-    "Oxygen",
-    "Staff",
-    "Morale",
-    "Secrets",
-    "Water",
-    "Fuel",
-    "Medicine",
-    "Raw materials",
-    "Energy",
-    "Heat",
-    "Shelter",
-    "Safety",
-    "Health",
-    "Stamina",
-    "Workforce",
-    "Working hours",
-    "Expertise",
-    "Experience",
-    "Research points",
-    "Technology",
-    "Data",
-    "Evidence",
-    "Clues",
-    "Documents",
-    "Contacts",
-    "Networks",
-    "Allies",
-    "Loyalty",
-    "Fear",
-    "Prestige",
-    "Popularity",
-    "Popularity with the people",
-    "Political capital",
-    "Diplomatic influence",
-    "Credibility",
-    "Authority",
-    "Legitimacy",
-    "Respect",
-    "Deterrence",
-    "Debt",
-    "Cash flow",
-    "Profit",
-    "Shares",
-    "Market share",
-    "Customers",
-    "Orders",
-    "Inventory",
-    "Transport capacity",
-    "Production capacity",
-    "Cargo space",
-    "Living space",
-    "Building material",
-    "Metal",
-    "Wood",
-    "Stone",
-    "Concrete",
-    "Plastic",
-    "Electronics",
-    "Spare parts",
-    "Tools",
-    "Ammunition",
-    "Weapons",
-    "Vehicles",
-    "Ships",
-    "Aircraft",
-    "Robots",
-    "Machines",
-    "Buildings",
-    "Land",
-    "Farmland",
-    "Forest",
-    "Minerals",
-    "Oil",
-    "Gas",
-    "Uranium",
-    "Solar energy",
-    "Wind power",
-    "Battery charge",
-    "Generator capacity",
-    "Water pressure",
-    "Air pressure",
-    "Temperature",
-    "Humidity",
-    "Radiation safety",
-    "Air quality",
-    "Oxygen reserve",
-    "CO2 capacity",
-    "Waste processing capacity",
-    "Hospital beds",
-    "Sleeping places",
-    "Medical staff",
-    "Blood donations",
-    "Vaccines",
-    "Quarantine capacity",
-    "Patient trust",
-    "Population",
-    "Birth rate",
-    "Working-age population",
-    "Educated population",
-    "Resident satisfaction",
-    "Happiness",
-    "Hope",
-    "Stress",
-    "Fear in the community",
-    "Sense of community",
-    "Order",
-    "Stability",
-    "Unrest",
-    "Faithfulness",
-    "Discipline",
-    "Motivation",
-    "Focus",
-    "Sleep",
-    "Mental health",
-    "Physical fitness",
-    "Hunger",
-    "Thirst",
-    "Fatigue",
-    "Cold",
-    "Heat exposure",
-    "Protection from the environment",
-    "Daylight",
-    "Darkness",
-    "Silence",
-    "Noise level",
-    "Privacy",
-    "Attention",
-    "Suspicion",
-    "Wanted level",
-    "Police interest",
-    "Chance of getting caught",
-    "Cover identity",
-    "Anonymity",
-    "Encryption",
-    "Security clearance",
-    "Access rights",
-    "Keys",
-    "Passage rights",
-    "Passwords",
-    "Blackmail material",
-    "Kompromat",
-    "Disinformation",
-    "Propaganda",
-    "Rumors",
-    "Public attention",
-    "Media interest",
-    "Control of the narrative",
-    "Leaks",
-    "Censorship capacity",
-    "News value",
-    "Truthfulness",
-    "Confidentiality",
-    "Relationships",
-    "Friends",
-    "Enemies",
-    "Family ties",
-    "Romantic interest",
-    "Obligations",
-    "Favors",
-    "Debts to people",
-    "Reputation with different groups",
-    "Faction relations",
-    "Diplomatic relations",
-    "Trade relations",
-    "Alliances",
-    "Religious influence",
-    "Cult loyalty",
-    "Followers",
-    "Members",
-    "Volunteers",
-    "Voters",
-    "Supporters",
-    "Agents",
-    "Spies",
-    "Informants",
-    "Guards",
-    "Soldiers",
-    "Officers",
-    "Employees",
-    "Engineers",
-    "Researchers",
-    "Drivers",
-    "Crew",
-    "Command points",
-    "Action points",
-    "Movement points",
-    "Construction points",
-    "Diplomacy points",
-    "Research points",
-    "Influence points",
-    "Reputation points",
-    "Experience points",
-    "Skill points",
-    "Levels",
-    "Cards",
-    "Dice",
-    "Actions per turn",
-    "Available decisions",
-    "Opportunities",
-    "Possibilities",
-    "Risk budget",
-    "Margin of error",
-    "Time until the deadline",
-    "Time until the disaster",
-    "Time until exposure",
-    "Time until bankruptcy",
-    "Time until the attack",
-    "Time until winter",
-    "Time until dawn",
-    "Time until death",
-    "Memory",
-    "Identity",
-    "Sanity",
-    "Sense of reality",
-    "Willpower",
-    "Soul",
-    "Vitality",
-    "Magic",
-    "Mana",
-    "Curses",
-    "Blessings",
-    "Souls",
-    "Belief",
-    "Faith",
-    "Holiness",
-    "Corruption",
-    "Chaos",
-    "Order energy",
-    "Time paradoxes",
-    "Timeline integrity",
-    "Number of memories",
-    "Dreams",
-    "Nightmares",
-    "Number of time jumps",
-    "Stability of reality",
-    "Simulation integrity",
-    "Processing power",
-    "Storage space",
-    "Bandwidth",
-    "Server capacity",
-    "Computing power",
-    "Robot battery",
-    "System integrity",
-    "Spare parts",
-    "Maintenance capacity",
-    "Repair time",
-    "Structural integrity",
-    "Base integrity",
-    "Ship integrity",
-    "Engine power",
-    "Fuel reserve",
-    "Oxygen production",
-    "Food production",
-    "Water purification capacity",
-    "Research data",
-    "Mapping data",
-    "Navigation data",
-    "Sensor data",
-    "Radar contacts",
-    "Sonar contacts",
-    "Weather data",
-    "Genetic material",
-    "Samples",
-    "Artifacts",
-    "Ancient relics",
-    "Rare items",
-    "Collectibles",
-    "Integrity of the chain of evidence",
-    "Number of suspects",
-    "Unsolved cases",
-    "Unprocessed applications",
-    "Work queue",
-    "Customer queue",
-    "Prison cells",
-    "Hotel rooms",
-    "Restaurant seats",
-    "Storage slots",
-    "Rail capacity",
-    "Airport slots",
-    "Port capacity",
-    "Traffic capacity",
-    "Land use",
-    "Political stability",
-    "Economic stability",
-    "Military strength",
-    "Defensive capability",
-    "Intelligence capability",
-    "Diplomatic credibility",
-    "War weariness",
-    "National morale",
-    "Strategic resources",
-    "Supply lines",
-    "Ammunition reserves",
-    "Reserves",
-    "Free land",
-    "Support of the population",
-    "Cultural influence"
+    {
+      "id": "key_resources-0001",
+      "text": "Money"
+    },
+    {
+      "id": "key_resources-0002",
+      "text": "Time"
+    },
+    {
+      "id": "key_resources-0003",
+      "text": "Trust"
+    },
+    {
+      "id": "key_resources-0004",
+      "text": "Reputation"
+    },
+    {
+      "id": "key_resources-0005",
+      "text": "Food"
+    },
+    {
+      "id": "key_resources-0006",
+      "text": "Electricity"
+    },
+    {
+      "id": "key_resources-0007",
+      "text": "Information"
+    },
+    {
+      "id": "key_resources-0008",
+      "text": "Influence"
+    },
+    {
+      "id": "key_resources-0009",
+      "text": "Oxygen"
+    },
+    {
+      "id": "key_resources-0010",
+      "text": "Staff"
+    },
+    {
+      "id": "key_resources-0011",
+      "text": "Morale"
+    },
+    {
+      "id": "key_resources-0012",
+      "text": "Secrets"
+    },
+    {
+      "id": "key_resources-0013",
+      "text": "Water"
+    },
+    {
+      "id": "key_resources-0014",
+      "text": "Fuel"
+    },
+    {
+      "id": "key_resources-0015",
+      "text": "Medicine"
+    },
+    {
+      "id": "key_resources-0016",
+      "text": "Raw materials"
+    },
+    {
+      "id": "key_resources-0017",
+      "text": "Energy"
+    },
+    {
+      "id": "key_resources-0018",
+      "text": "Heat"
+    },
+    {
+      "id": "key_resources-0019",
+      "text": "Shelter"
+    },
+    {
+      "id": "key_resources-0020",
+      "text": "Safety"
+    },
+    {
+      "id": "key_resources-0021",
+      "text": "Health"
+    },
+    {
+      "id": "key_resources-0022",
+      "text": "Stamina"
+    },
+    {
+      "id": "key_resources-0023",
+      "text": "Workforce"
+    },
+    {
+      "id": "key_resources-0024",
+      "text": "Working hours"
+    },
+    {
+      "id": "key_resources-0025",
+      "text": "Expertise"
+    },
+    {
+      "id": "key_resources-0026",
+      "text": "Experience"
+    },
+    {
+      "id": "key_resources-0027",
+      "text": "Research points"
+    },
+    {
+      "id": "key_resources-0028",
+      "text": "Technology"
+    },
+    {
+      "id": "key_resources-0029",
+      "text": "Data"
+    },
+    {
+      "id": "key_resources-0030",
+      "text": "Evidence"
+    },
+    {
+      "id": "key_resources-0031",
+      "text": "Clues"
+    },
+    {
+      "id": "key_resources-0032",
+      "text": "Documents"
+    },
+    {
+      "id": "key_resources-0033",
+      "text": "Contacts"
+    },
+    {
+      "id": "key_resources-0034",
+      "text": "Networks"
+    },
+    {
+      "id": "key_resources-0035",
+      "text": "Allies"
+    },
+    {
+      "id": "key_resources-0036",
+      "text": "Loyalty"
+    },
+    {
+      "id": "key_resources-0037",
+      "text": "Fear"
+    },
+    {
+      "id": "key_resources-0038",
+      "text": "Prestige"
+    },
+    {
+      "id": "key_resources-0039",
+      "text": "Popularity"
+    },
+    {
+      "id": "key_resources-0040",
+      "text": "Popularity with the people"
+    },
+    {
+      "id": "key_resources-0041",
+      "text": "Political capital"
+    },
+    {
+      "id": "key_resources-0042",
+      "text": "Diplomatic influence"
+    },
+    {
+      "id": "key_resources-0043",
+      "text": "Credibility"
+    },
+    {
+      "id": "key_resources-0044",
+      "text": "Authority"
+    },
+    {
+      "id": "key_resources-0045",
+      "text": "Legitimacy"
+    },
+    {
+      "id": "key_resources-0046",
+      "text": "Respect"
+    },
+    {
+      "id": "key_resources-0047",
+      "text": "Deterrence"
+    },
+    {
+      "id": "key_resources-0048",
+      "text": "Debt"
+    },
+    {
+      "id": "key_resources-0049",
+      "text": "Cash flow"
+    },
+    {
+      "id": "key_resources-0050",
+      "text": "Profit"
+    },
+    {
+      "id": "key_resources-0051",
+      "text": "Shares"
+    },
+    {
+      "id": "key_resources-0052",
+      "text": "Market share"
+    },
+    {
+      "id": "key_resources-0053",
+      "text": "Customers"
+    },
+    {
+      "id": "key_resources-0054",
+      "text": "Orders"
+    },
+    {
+      "id": "key_resources-0055",
+      "text": "Inventory"
+    },
+    {
+      "id": "key_resources-0056",
+      "text": "Transport capacity"
+    },
+    {
+      "id": "key_resources-0057",
+      "text": "Production capacity"
+    },
+    {
+      "id": "key_resources-0058",
+      "text": "Cargo space"
+    },
+    {
+      "id": "key_resources-0059",
+      "text": "Living space"
+    },
+    {
+      "id": "key_resources-0060",
+      "text": "Building material"
+    },
+    {
+      "id": "key_resources-0061",
+      "text": "Metal"
+    },
+    {
+      "id": "key_resources-0062",
+      "text": "Wood"
+    },
+    {
+      "id": "key_resources-0063",
+      "text": "Stone"
+    },
+    {
+      "id": "key_resources-0064",
+      "text": "Concrete"
+    },
+    {
+      "id": "key_resources-0065",
+      "text": "Plastic"
+    },
+    {
+      "id": "key_resources-0066",
+      "text": "Electronics"
+    },
+    {
+      "id": "key_resources-0067",
+      "text": "Spare parts"
+    },
+    {
+      "id": "key_resources-0068",
+      "text": "Tools"
+    },
+    {
+      "id": "key_resources-0069",
+      "text": "Ammunition"
+    },
+    {
+      "id": "key_resources-0070",
+      "text": "Weapons"
+    },
+    {
+      "id": "key_resources-0071",
+      "text": "Vehicles"
+    },
+    {
+      "id": "key_resources-0072",
+      "text": "Ships"
+    },
+    {
+      "id": "key_resources-0073",
+      "text": "Aircraft"
+    },
+    {
+      "id": "key_resources-0074",
+      "text": "Robots"
+    },
+    {
+      "id": "key_resources-0075",
+      "text": "Machines"
+    },
+    {
+      "id": "key_resources-0076",
+      "text": "Buildings"
+    },
+    {
+      "id": "key_resources-0077",
+      "text": "Land"
+    },
+    {
+      "id": "key_resources-0078",
+      "text": "Farmland"
+    },
+    {
+      "id": "key_resources-0079",
+      "text": "Forest"
+    },
+    {
+      "id": "key_resources-0080",
+      "text": "Minerals"
+    },
+    {
+      "id": "key_resources-0081",
+      "text": "Oil"
+    },
+    {
+      "id": "key_resources-0082",
+      "text": "Gas"
+    },
+    {
+      "id": "key_resources-0083",
+      "text": "Uranium"
+    },
+    {
+      "id": "key_resources-0084",
+      "text": "Solar energy"
+    },
+    {
+      "id": "key_resources-0085",
+      "text": "Wind power"
+    },
+    {
+      "id": "key_resources-0086",
+      "text": "Battery charge"
+    },
+    {
+      "id": "key_resources-0087",
+      "text": "Generator capacity"
+    },
+    {
+      "id": "key_resources-0088",
+      "text": "Water pressure"
+    },
+    {
+      "id": "key_resources-0089",
+      "text": "Air pressure"
+    },
+    {
+      "id": "key_resources-0090",
+      "text": "Temperature"
+    },
+    {
+      "id": "key_resources-0091",
+      "text": "Humidity"
+    },
+    {
+      "id": "key_resources-0092",
+      "text": "Radiation safety"
+    },
+    {
+      "id": "key_resources-0093",
+      "text": "Air quality"
+    },
+    {
+      "id": "key_resources-0094",
+      "text": "Oxygen reserve"
+    },
+    {
+      "id": "key_resources-0095",
+      "text": "CO2 capacity"
+    },
+    {
+      "id": "key_resources-0096",
+      "text": "Waste processing capacity"
+    },
+    {
+      "id": "key_resources-0097",
+      "text": "Hospital beds"
+    },
+    {
+      "id": "key_resources-0098",
+      "text": "Sleeping places"
+    },
+    {
+      "id": "key_resources-0099",
+      "text": "Medical staff"
+    },
+    {
+      "id": "key_resources-0100",
+      "text": "Blood donations"
+    },
+    {
+      "id": "key_resources-0101",
+      "text": "Vaccines"
+    },
+    {
+      "id": "key_resources-0102",
+      "text": "Quarantine capacity"
+    },
+    {
+      "id": "key_resources-0103",
+      "text": "Patient trust"
+    },
+    {
+      "id": "key_resources-0104",
+      "text": "Population"
+    },
+    {
+      "id": "key_resources-0105",
+      "text": "Birth rate"
+    },
+    {
+      "id": "key_resources-0106",
+      "text": "Working-age population"
+    },
+    {
+      "id": "key_resources-0107",
+      "text": "Educated population"
+    },
+    {
+      "id": "key_resources-0108",
+      "text": "Resident satisfaction"
+    },
+    {
+      "id": "key_resources-0109",
+      "text": "Happiness"
+    },
+    {
+      "id": "key_resources-0110",
+      "text": "Hope"
+    },
+    {
+      "id": "key_resources-0111",
+      "text": "Stress"
+    },
+    {
+      "id": "key_resources-0112",
+      "text": "Fear in the community"
+    },
+    {
+      "id": "key_resources-0113",
+      "text": "Sense of community"
+    },
+    {
+      "id": "key_resources-0114",
+      "text": "Order"
+    },
+    {
+      "id": "key_resources-0115",
+      "text": "Stability"
+    },
+    {
+      "id": "key_resources-0116",
+      "text": "Unrest"
+    },
+    {
+      "id": "key_resources-0117",
+      "text": "Faithfulness"
+    },
+    {
+      "id": "key_resources-0118",
+      "text": "Discipline"
+    },
+    {
+      "id": "key_resources-0119",
+      "text": "Motivation"
+    },
+    {
+      "id": "key_resources-0120",
+      "text": "Focus"
+    },
+    {
+      "id": "key_resources-0121",
+      "text": "Sleep"
+    },
+    {
+      "id": "key_resources-0122",
+      "text": "Mental health"
+    },
+    {
+      "id": "key_resources-0123",
+      "text": "Physical fitness"
+    },
+    {
+      "id": "key_resources-0124",
+      "text": "Hunger"
+    },
+    {
+      "id": "key_resources-0125",
+      "text": "Thirst"
+    },
+    {
+      "id": "key_resources-0126",
+      "text": "Fatigue"
+    },
+    {
+      "id": "key_resources-0127",
+      "text": "Cold"
+    },
+    {
+      "id": "key_resources-0128",
+      "text": "Heat exposure"
+    },
+    {
+      "id": "key_resources-0129",
+      "text": "Protection from the environment"
+    },
+    {
+      "id": "key_resources-0130",
+      "text": "Daylight"
+    },
+    {
+      "id": "key_resources-0131",
+      "text": "Darkness"
+    },
+    {
+      "id": "key_resources-0132",
+      "text": "Silence"
+    },
+    {
+      "id": "key_resources-0133",
+      "text": "Noise level"
+    },
+    {
+      "id": "key_resources-0134",
+      "text": "Privacy"
+    },
+    {
+      "id": "key_resources-0135",
+      "text": "Attention"
+    },
+    {
+      "id": "key_resources-0136",
+      "text": "Suspicion"
+    },
+    {
+      "id": "key_resources-0137",
+      "text": "Wanted level"
+    },
+    {
+      "id": "key_resources-0138",
+      "text": "Police interest"
+    },
+    {
+      "id": "key_resources-0139",
+      "text": "Chance of getting caught"
+    },
+    {
+      "id": "key_resources-0140",
+      "text": "Cover identity"
+    },
+    {
+      "id": "key_resources-0141",
+      "text": "Anonymity"
+    },
+    {
+      "id": "key_resources-0142",
+      "text": "Encryption"
+    },
+    {
+      "id": "key_resources-0143",
+      "text": "Security clearance"
+    },
+    {
+      "id": "key_resources-0144",
+      "text": "Access rights"
+    },
+    {
+      "id": "key_resources-0145",
+      "text": "Keys"
+    },
+    {
+      "id": "key_resources-0146",
+      "text": "Passage rights"
+    },
+    {
+      "id": "key_resources-0147",
+      "text": "Passwords"
+    },
+    {
+      "id": "key_resources-0148",
+      "text": "Blackmail material"
+    },
+    {
+      "id": "key_resources-0149",
+      "text": "Kompromat"
+    },
+    {
+      "id": "key_resources-0150",
+      "text": "Disinformation"
+    },
+    {
+      "id": "key_resources-0151",
+      "text": "Propaganda"
+    },
+    {
+      "id": "key_resources-0152",
+      "text": "Rumors"
+    },
+    {
+      "id": "key_resources-0153",
+      "text": "Public attention"
+    },
+    {
+      "id": "key_resources-0154",
+      "text": "Media interest"
+    },
+    {
+      "id": "key_resources-0155",
+      "text": "Control of the narrative"
+    },
+    {
+      "id": "key_resources-0156",
+      "text": "Leaks"
+    },
+    {
+      "id": "key_resources-0157",
+      "text": "Censorship capacity"
+    },
+    {
+      "id": "key_resources-0158",
+      "text": "News value"
+    },
+    {
+      "id": "key_resources-0159",
+      "text": "Truthfulness"
+    },
+    {
+      "id": "key_resources-0160",
+      "text": "Confidentiality"
+    },
+    {
+      "id": "key_resources-0161",
+      "text": "Relationships"
+    },
+    {
+      "id": "key_resources-0162",
+      "text": "Friends"
+    },
+    {
+      "id": "key_resources-0163",
+      "text": "Enemies"
+    },
+    {
+      "id": "key_resources-0164",
+      "text": "Family ties"
+    },
+    {
+      "id": "key_resources-0165",
+      "text": "Romantic interest"
+    },
+    {
+      "id": "key_resources-0166",
+      "text": "Obligations"
+    },
+    {
+      "id": "key_resources-0167",
+      "text": "Favors"
+    },
+    {
+      "id": "key_resources-0168",
+      "text": "Debts to people"
+    },
+    {
+      "id": "key_resources-0169",
+      "text": "Reputation with different groups"
+    },
+    {
+      "id": "key_resources-0170",
+      "text": "Faction relations"
+    },
+    {
+      "id": "key_resources-0171",
+      "text": "Diplomatic relations"
+    },
+    {
+      "id": "key_resources-0172",
+      "text": "Trade relations"
+    },
+    {
+      "id": "key_resources-0173",
+      "text": "Alliances"
+    },
+    {
+      "id": "key_resources-0174",
+      "text": "Religious influence"
+    },
+    {
+      "id": "key_resources-0175",
+      "text": "Cult loyalty"
+    },
+    {
+      "id": "key_resources-0176",
+      "text": "Followers"
+    },
+    {
+      "id": "key_resources-0177",
+      "text": "Members"
+    },
+    {
+      "id": "key_resources-0178",
+      "text": "Volunteers"
+    },
+    {
+      "id": "key_resources-0179",
+      "text": "Voters"
+    },
+    {
+      "id": "key_resources-0180",
+      "text": "Supporters"
+    },
+    {
+      "id": "key_resources-0181",
+      "text": "Agents"
+    },
+    {
+      "id": "key_resources-0182",
+      "text": "Spies"
+    },
+    {
+      "id": "key_resources-0183",
+      "text": "Informants"
+    },
+    {
+      "id": "key_resources-0184",
+      "text": "Guards"
+    },
+    {
+      "id": "key_resources-0185",
+      "text": "Soldiers"
+    },
+    {
+      "id": "key_resources-0186",
+      "text": "Officers"
+    },
+    {
+      "id": "key_resources-0187",
+      "text": "Employees"
+    },
+    {
+      "id": "key_resources-0188",
+      "text": "Engineers"
+    },
+    {
+      "id": "key_resources-0189",
+      "text": "Researchers"
+    },
+    {
+      "id": "key_resources-0190",
+      "text": "Drivers"
+    },
+    {
+      "id": "key_resources-0191",
+      "text": "Crew"
+    },
+    {
+      "id": "key_resources-0192",
+      "text": "Command points"
+    },
+    {
+      "id": "key_resources-0193",
+      "text": "Action points"
+    },
+    {
+      "id": "key_resources-0194",
+      "text": "Movement points"
+    },
+    {
+      "id": "key_resources-0195",
+      "text": "Construction points"
+    },
+    {
+      "id": "key_resources-0196",
+      "text": "Diplomacy points"
+    },
+    {
+      "id": "key_resources-0197",
+      "text": "Research points"
+    },
+    {
+      "id": "key_resources-0198",
+      "text": "Influence points"
+    },
+    {
+      "id": "key_resources-0199",
+      "text": "Reputation points"
+    },
+    {
+      "id": "key_resources-0200",
+      "text": "Experience points"
+    },
+    {
+      "id": "key_resources-0201",
+      "text": "Skill points"
+    },
+    {
+      "id": "key_resources-0202",
+      "text": "Levels"
+    },
+    {
+      "id": "key_resources-0203",
+      "text": "Cards"
+    },
+    {
+      "id": "key_resources-0204",
+      "text": "Dice"
+    },
+    {
+      "id": "key_resources-0205",
+      "text": "Actions per turn"
+    },
+    {
+      "id": "key_resources-0206",
+      "text": "Available decisions"
+    },
+    {
+      "id": "key_resources-0207",
+      "text": "Opportunities"
+    },
+    {
+      "id": "key_resources-0208",
+      "text": "Possibilities"
+    },
+    {
+      "id": "key_resources-0209",
+      "text": "Risk budget"
+    },
+    {
+      "id": "key_resources-0210",
+      "text": "Margin of error"
+    },
+    {
+      "id": "key_resources-0211",
+      "text": "Time until the deadline"
+    },
+    {
+      "id": "key_resources-0212",
+      "text": "Time until the disaster"
+    },
+    {
+      "id": "key_resources-0213",
+      "text": "Time until exposure"
+    },
+    {
+      "id": "key_resources-0214",
+      "text": "Time until bankruptcy"
+    },
+    {
+      "id": "key_resources-0215",
+      "text": "Time until the attack"
+    },
+    {
+      "id": "key_resources-0216",
+      "text": "Time until winter"
+    },
+    {
+      "id": "key_resources-0217",
+      "text": "Time until dawn"
+    },
+    {
+      "id": "key_resources-0218",
+      "text": "Time until death"
+    },
+    {
+      "id": "key_resources-0219",
+      "text": "Memory"
+    },
+    {
+      "id": "key_resources-0220",
+      "text": "Identity"
+    },
+    {
+      "id": "key_resources-0221",
+      "text": "Sanity"
+    },
+    {
+      "id": "key_resources-0222",
+      "text": "Sense of reality"
+    },
+    {
+      "id": "key_resources-0223",
+      "text": "Willpower"
+    },
+    {
+      "id": "key_resources-0224",
+      "text": "Soul"
+    },
+    {
+      "id": "key_resources-0225",
+      "text": "Vitality"
+    },
+    {
+      "id": "key_resources-0226",
+      "text": "Magic"
+    },
+    {
+      "id": "key_resources-0227",
+      "text": "Mana"
+    },
+    {
+      "id": "key_resources-0228",
+      "text": "Curses"
+    },
+    {
+      "id": "key_resources-0229",
+      "text": "Blessings"
+    },
+    {
+      "id": "key_resources-0230",
+      "text": "Souls"
+    },
+    {
+      "id": "key_resources-0231",
+      "text": "Belief"
+    },
+    {
+      "id": "key_resources-0232",
+      "text": "Faith"
+    },
+    {
+      "id": "key_resources-0233",
+      "text": "Holiness"
+    },
+    {
+      "id": "key_resources-0234",
+      "text": "Corruption"
+    },
+    {
+      "id": "key_resources-0235",
+      "text": "Chaos"
+    },
+    {
+      "id": "key_resources-0236",
+      "text": "Order energy"
+    },
+    {
+      "id": "key_resources-0237",
+      "text": "Time paradoxes"
+    },
+    {
+      "id": "key_resources-0238",
+      "text": "Timeline integrity"
+    },
+    {
+      "id": "key_resources-0239",
+      "text": "Number of memories"
+    },
+    {
+      "id": "key_resources-0240",
+      "text": "Dreams"
+    },
+    {
+      "id": "key_resources-0241",
+      "text": "Nightmares"
+    },
+    {
+      "id": "key_resources-0242",
+      "text": "Number of time jumps"
+    },
+    {
+      "id": "key_resources-0243",
+      "text": "Stability of reality"
+    },
+    {
+      "id": "key_resources-0244",
+      "text": "Simulation integrity"
+    },
+    {
+      "id": "key_resources-0245",
+      "text": "Processing power"
+    },
+    {
+      "id": "key_resources-0246",
+      "text": "Storage space"
+    },
+    {
+      "id": "key_resources-0247",
+      "text": "Bandwidth"
+    },
+    {
+      "id": "key_resources-0248",
+      "text": "Server capacity"
+    },
+    {
+      "id": "key_resources-0249",
+      "text": "Computing power"
+    },
+    {
+      "id": "key_resources-0250",
+      "text": "Robot battery"
+    },
+    {
+      "id": "key_resources-0251",
+      "text": "System integrity"
+    },
+    {
+      "id": "key_resources-0252",
+      "text": "Spare parts"
+    },
+    {
+      "id": "key_resources-0253",
+      "text": "Maintenance capacity"
+    },
+    {
+      "id": "key_resources-0254",
+      "text": "Repair time"
+    },
+    {
+      "id": "key_resources-0255",
+      "text": "Structural integrity"
+    },
+    {
+      "id": "key_resources-0256",
+      "text": "Base integrity"
+    },
+    {
+      "id": "key_resources-0257",
+      "text": "Ship integrity"
+    },
+    {
+      "id": "key_resources-0258",
+      "text": "Engine power"
+    },
+    {
+      "id": "key_resources-0259",
+      "text": "Fuel reserve"
+    },
+    {
+      "id": "key_resources-0260",
+      "text": "Oxygen production"
+    },
+    {
+      "id": "key_resources-0261",
+      "text": "Food production"
+    },
+    {
+      "id": "key_resources-0262",
+      "text": "Water purification capacity"
+    },
+    {
+      "id": "key_resources-0263",
+      "text": "Research data"
+    },
+    {
+      "id": "key_resources-0264",
+      "text": "Mapping data"
+    },
+    {
+      "id": "key_resources-0265",
+      "text": "Navigation data"
+    },
+    {
+      "id": "key_resources-0266",
+      "text": "Sensor data"
+    },
+    {
+      "id": "key_resources-0267",
+      "text": "Radar contacts"
+    },
+    {
+      "id": "key_resources-0268",
+      "text": "Sonar contacts"
+    },
+    {
+      "id": "key_resources-0269",
+      "text": "Weather data"
+    },
+    {
+      "id": "key_resources-0270",
+      "text": "Genetic material"
+    },
+    {
+      "id": "key_resources-0271",
+      "text": "Samples"
+    },
+    {
+      "id": "key_resources-0272",
+      "text": "Artifacts"
+    },
+    {
+      "id": "key_resources-0273",
+      "text": "Ancient relics"
+    },
+    {
+      "id": "key_resources-0274",
+      "text": "Rare items"
+    },
+    {
+      "id": "key_resources-0275",
+      "text": "Collectibles"
+    },
+    {
+      "id": "key_resources-0276",
+      "text": "Integrity of the chain of evidence"
+    },
+    {
+      "id": "key_resources-0277",
+      "text": "Number of suspects"
+    },
+    {
+      "id": "key_resources-0278",
+      "text": "Unsolved cases"
+    },
+    {
+      "id": "key_resources-0279",
+      "text": "Unprocessed applications"
+    },
+    {
+      "id": "key_resources-0280",
+      "text": "Work queue"
+    },
+    {
+      "id": "key_resources-0281",
+      "text": "Customer queue"
+    },
+    {
+      "id": "key_resources-0282",
+      "text": "Prison cells"
+    },
+    {
+      "id": "key_resources-0283",
+      "text": "Hotel rooms"
+    },
+    {
+      "id": "key_resources-0284",
+      "text": "Restaurant seats"
+    },
+    {
+      "id": "key_resources-0285",
+      "text": "Storage slots"
+    },
+    {
+      "id": "key_resources-0286",
+      "text": "Rail capacity"
+    },
+    {
+      "id": "key_resources-0287",
+      "text": "Airport slots"
+    },
+    {
+      "id": "key_resources-0288",
+      "text": "Port capacity"
+    },
+    {
+      "id": "key_resources-0289",
+      "text": "Traffic capacity"
+    },
+    {
+      "id": "key_resources-0290",
+      "text": "Land use"
+    },
+    {
+      "id": "key_resources-0291",
+      "text": "Political stability"
+    },
+    {
+      "id": "key_resources-0292",
+      "text": "Economic stability"
+    },
+    {
+      "id": "key_resources-0293",
+      "text": "Military strength"
+    },
+    {
+      "id": "key_resources-0294",
+      "text": "Defensive capability"
+    },
+    {
+      "id": "key_resources-0295",
+      "text": "Intelligence capability"
+    },
+    {
+      "id": "key_resources-0296",
+      "text": "Diplomatic credibility"
+    },
+    {
+      "id": "key_resources-0297",
+      "text": "War weariness"
+    },
+    {
+      "id": "key_resources-0298",
+      "text": "National morale"
+    },
+    {
+      "id": "key_resources-0299",
+      "text": "Strategic resources"
+    },
+    {
+      "id": "key_resources-0300",
+      "text": "Supply lines"
+    },
+    {
+      "id": "key_resources-0301",
+      "text": "Ammunition reserves"
+    },
+    {
+      "id": "key_resources-0302",
+      "text": "Reserves"
+    },
+    {
+      "id": "key_resources-0303",
+      "text": "Free land"
+    },
+    {
+      "id": "key_resources-0304",
+      "text": "Support of the population"
+    },
+    {
+      "id": "key_resources-0305",
+      "text": "Cultural influence"
+    }
   ]
 }

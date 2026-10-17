@@ -1,152 +1,596 @@
 {
   "eras": [
-    "Esihistoria",
-    "Kivikausi",
-    "Paleoliittinen kausi",
-    "Mesoliittinen kausi",
-    "Neoliittinen kausi",
-    "Pronssikausi",
-    "Rautakausi",
-    "Antiikki",
-    "Muinainen Egypti",
-    "Muinainen Mesopotamia",
-    "Muinainen Kreikka",
-    "Rooman tasavallan aika",
-    "Rooman keisarikunta",
-    "Myöhäisantiikki",
-    "Varhaiskeskiaika",
-    "Keskiaika",
-    "Korkea keskiaika",
-    "Myöhäiskeskiaika",
-    "Renessanssi",
-    "Löytöretkien aika",
-    "Uskonpuhdistuksen aika",
-    "1600-luku",
-    "Barokin aika",
-    "1700-luku",
-    "Valistuksen aika",
-    "Siirtomaa-aika",
-    "Teollistumisen alku",
-    "1800-luku",
-    "Napoleonin sodat",
-    "Viktoriaaninen aika",
-    "Villi länsi",
-    "Teollinen vallankumous",
-    "1890-luku",
-    "1900-luku",
-    "1910-luku",
-    "Ensimmäinen maailmansota",
-    "1920-luku",
-    "Kieltolain aika",
-    "Suuri lama",
-    "1930-luku",
-    "Toinen maailmansota",
-    "1940-luku",
-    "Sodanjälkeinen aika",
-    "1950-luku",
-    "Kylmän sodan alku",
-    "1960-luku",
-    "Avaruuskilvan aika",
-    "1970-luku",
-    "Kylmä sota",
-    "1980-luku",
-    "Kylmän sodan loppu",
-    "1990-luku",
-    "2000-luku",
-    "2010-luku",
-    "2020-luku",
-    "Nykyhetki",
-    "Lähitulevaisuus",
-    "2030-luku",
-    "2040-luku",
-    "2050-luku",
-    "2060-luku",
-    "2100-luku",
-    "Kaukotulevaisuus",
-    "Hyvin kaukainen tulevaisuus",
-    "Ihmiskunnan jälkeinen tulevaisuus",
-    "Postapokalyptinen tulevaisuus",
-    "Maailmanlopun jälkeinen aika",
-    "Uudelleenrakentamisen aika",
-    "Planeettojen kolonisaation aika",
-    "Aurinkokunnan kolonisaation aika",
-    "Tähtienvälisen matkailun aika",
-    "Galaktisen sivilisaation aika",
-    "Posthumanistinen aika",
-    "Tekoälyjen aikakausi",
-    "Robottien aikakausi",
-    "Geenimuokkauksen aikakausi",
-    "Kyberneettinen aikakausi",
-    "Virtuaalitodellisuuden aikakausi",
-    "Täysin automatisoitu yhteiskunta",
-    "Resurssien jälkeinen yhteiskunta",
-    "Sivilisaation romahtamisen aika",
-    "Ekologisen kriisin aikakausi",
-    "Ilmastokatastrofin jälkeinen aika",
-    "Ydinapokalypsin jälkeinen aika",
-    "Pandemian jälkeinen aika",
-    "Vieraan sivilisaation kontaktin jälkeinen aika",
-    "Vaihtoehtoinen antiikki",
-    "Vaihtoehtoinen keskiaika",
-    "Vaihtoehtoinen renessanssi",
-    "Vaihtoehtoinen 1800-luku",
-    "Vaihtoehtoinen ensimmäinen maailmansota",
-    "Vaihtoehtoinen toinen maailmansota",
-    "Vaihtoehtoinen kylmä sota",
-    "Vaihtoehtoinen 1950-luku",
-    "Vaihtoehtoinen 1980-luku",
-    "Vaihtoehtoinen 1990-luku",
-    "Vaihtoehtoinen nykyhetki",
-    "Vaihtoehtoinen historia",
-    "Historia, jossa Rooma ei koskaan kaatunut",
-    "Historia, jossa höyryteknologia kehittyi liian pitkälle",
-    "Historia, jossa tietokoneet keksittiin 1800-luvulla",
-    "Historia, jossa avaruusmatkailu alkoi 1950-luvulla",
-    "Historia, jossa kylmä sota ei koskaan päättynyt",
-    "Historia, jossa ydinaseita ei koskaan keksitty",
-    "Historia, jossa internet syntyi vuosikymmeniä aiemmin",
-    "Historia, jossa tekoäly syntyi 1900-luvun puolivälissä",
-    "Historia, jossa ihmiskunta ei koskaan teollistunut",
-    "Historia, jossa musta surma romahdutti Euroopan kokonaan",
-    "Historia, jossa dinosaurukset eivät kuolleet sukupuuttoon",
-    "Historia, jossa Neuvostoliitto ei hajonnut",
-    "Historia, jossa Rooman valtakunta säilyi nykyaikaan",
-    "Steampunk-aikakausi",
-    "Dieselpunk-aikakausi",
-    "Atompunk-aikakausi",
-    "Cassette futurism",
-    "Retrofuturistinen 1950-luku",
-    "Retrofuturistinen 1960-luku",
-    "Retrofuturistinen 1980-luku",
-    "Cyberpunk-tulevaisuus",
-    "Biopunk-tulevaisuus",
-    "Solarpunk-tulevaisuus",
-    "Hopepunk-tulevaisuus",
-    "Dystopinen tulevaisuus",
-    "Utopistinen tulevaisuus",
-    "Megakorporaatioiden hallitsema tulevaisuus",
-    "Autoritaarinen tulevaisuus",
-    "Hajautettujen kaupunkivaltioiden tulevaisuus",
-    "Avaruussiirtokuntien aikakausi",
-    "Sukupolvialusten aikakausi",
-    "Terraformauksen aikakausi",
-    "Ensimmäisen kontaktin aika",
-    "Galaktisen sodan aika",
-    "Galaktisen rauhan aika",
-    "Universumin loppuvaiheet",
-    "Ajan lopun aikakausi",
-    "Ajaton maailma",
-    "Aikasilmukka",
-    "Eri aikakaudet sekoittuvat",
-    "Useita aikakausia rinnakkain",
-    "Pelaaja liikkuu eri aikakausien välillä",
-    "Maailma etenee kivikaudesta avaruusaikaan",
-    "Yksi sukupolvi ennen suurta katastrofia",
-    "Viimeinen vuosi ennen maailmanloppua",
-    "Viimeinen päivä ennen katastrofia",
-    "Ensimmäinen päivä katastrofin jälkeen",
-    "Ensimmäinen vuosi uuden yhteiskunnan synnystä",
-    "Sivilisaation viimeiset päivät",
-    "Sivilisaation ensimmäiset päivät"
+    {
+      "id": "eras-0001",
+      "text": "Esihistoria"
+    },
+    {
+      "id": "eras-0002",
+      "text": "Kivikausi"
+    },
+    {
+      "id": "eras-0003",
+      "text": "Paleoliittinen kausi"
+    },
+    {
+      "id": "eras-0004",
+      "text": "Mesoliittinen kausi"
+    },
+    {
+      "id": "eras-0005",
+      "text": "Neoliittinen kausi"
+    },
+    {
+      "id": "eras-0006",
+      "text": "Pronssikausi"
+    },
+    {
+      "id": "eras-0007",
+      "text": "Rautakausi"
+    },
+    {
+      "id": "eras-0008",
+      "text": "Antiikki"
+    },
+    {
+      "id": "eras-0009",
+      "text": "Muinainen Egypti"
+    },
+    {
+      "id": "eras-0010",
+      "text": "Muinainen Mesopotamia"
+    },
+    {
+      "id": "eras-0011",
+      "text": "Muinainen Kreikka"
+    },
+    {
+      "id": "eras-0012",
+      "text": "Rooman tasavallan aika"
+    },
+    {
+      "id": "eras-0013",
+      "text": "Rooman keisarikunta"
+    },
+    {
+      "id": "eras-0014",
+      "text": "Myöhäisantiikki"
+    },
+    {
+      "id": "eras-0015",
+      "text": "Varhaiskeskiaika"
+    },
+    {
+      "id": "eras-0016",
+      "text": "Keskiaika"
+    },
+    {
+      "id": "eras-0017",
+      "text": "Korkea keskiaika"
+    },
+    {
+      "id": "eras-0018",
+      "text": "Myöhäiskeskiaika"
+    },
+    {
+      "id": "eras-0019",
+      "text": "Renessanssi"
+    },
+    {
+      "id": "eras-0020",
+      "text": "Löytöretkien aika"
+    },
+    {
+      "id": "eras-0021",
+      "text": "Uskonpuhdistuksen aika"
+    },
+    {
+      "id": "eras-0022",
+      "text": "1600-luku"
+    },
+    {
+      "id": "eras-0023",
+      "text": "Barokin aika"
+    },
+    {
+      "id": "eras-0024",
+      "text": "1700-luku"
+    },
+    {
+      "id": "eras-0025",
+      "text": "Valistuksen aika"
+    },
+    {
+      "id": "eras-0026",
+      "text": "Siirtomaa-aika"
+    },
+    {
+      "id": "eras-0027",
+      "text": "Teollistumisen alku"
+    },
+    {
+      "id": "eras-0028",
+      "text": "1800-luku"
+    },
+    {
+      "id": "eras-0029",
+      "text": "Napoleonin sodat"
+    },
+    {
+      "id": "eras-0030",
+      "text": "Viktoriaaninen aika"
+    },
+    {
+      "id": "eras-0031",
+      "text": "Villi länsi"
+    },
+    {
+      "id": "eras-0032",
+      "text": "Teollinen vallankumous"
+    },
+    {
+      "id": "eras-0033",
+      "text": "1890-luku"
+    },
+    {
+      "id": "eras-0034",
+      "text": "1900-luku"
+    },
+    {
+      "id": "eras-0035",
+      "text": "1910-luku"
+    },
+    {
+      "id": "eras-0036",
+      "text": "Ensimmäinen maailmansota"
+    },
+    {
+      "id": "eras-0037",
+      "text": "1920-luku"
+    },
+    {
+      "id": "eras-0038",
+      "text": "Kieltolain aika"
+    },
+    {
+      "id": "eras-0039",
+      "text": "Suuri lama"
+    },
+    {
+      "id": "eras-0040",
+      "text": "1930-luku"
+    },
+    {
+      "id": "eras-0041",
+      "text": "Toinen maailmansota"
+    },
+    {
+      "id": "eras-0042",
+      "text": "1940-luku"
+    },
+    {
+      "id": "eras-0043",
+      "text": "Sodanjälkeinen aika"
+    },
+    {
+      "id": "eras-0044",
+      "text": "1950-luku"
+    },
+    {
+      "id": "eras-0045",
+      "text": "Kylmän sodan alku"
+    },
+    {
+      "id": "eras-0046",
+      "text": "1960-luku"
+    },
+    {
+      "id": "eras-0047",
+      "text": "Avaruuskilvan aika"
+    },
+    {
+      "id": "eras-0048",
+      "text": "1970-luku"
+    },
+    {
+      "id": "eras-0049",
+      "text": "Kylmä sota"
+    },
+    {
+      "id": "eras-0050",
+      "text": "1980-luku"
+    },
+    {
+      "id": "eras-0051",
+      "text": "Kylmän sodan loppu"
+    },
+    {
+      "id": "eras-0052",
+      "text": "1990-luku"
+    },
+    {
+      "id": "eras-0053",
+      "text": "2000-luku"
+    },
+    {
+      "id": "eras-0054",
+      "text": "2010-luku"
+    },
+    {
+      "id": "eras-0055",
+      "text": "2020-luku"
+    },
+    {
+      "id": "eras-0056",
+      "text": "Nykyhetki"
+    },
+    {
+      "id": "eras-0057",
+      "text": "Lähitulevaisuus"
+    },
+    {
+      "id": "eras-0058",
+      "text": "2030-luku"
+    },
+    {
+      "id": "eras-0059",
+      "text": "2040-luku"
+    },
+    {
+      "id": "eras-0060",
+      "text": "2050-luku"
+    },
+    {
+      "id": "eras-0061",
+      "text": "2060-luku"
+    },
+    {
+      "id": "eras-0062",
+      "text": "2100-luku"
+    },
+    {
+      "id": "eras-0063",
+      "text": "Kaukotulevaisuus"
+    },
+    {
+      "id": "eras-0064",
+      "text": "Hyvin kaukainen tulevaisuus"
+    },
+    {
+      "id": "eras-0065",
+      "text": "Ihmiskunnan jälkeinen tulevaisuus"
+    },
+    {
+      "id": "eras-0066",
+      "text": "Postapokalyptinen tulevaisuus"
+    },
+    {
+      "id": "eras-0067",
+      "text": "Maailmanlopun jälkeinen aika"
+    },
+    {
+      "id": "eras-0068",
+      "text": "Uudelleenrakentamisen aika"
+    },
+    {
+      "id": "eras-0069",
+      "text": "Planeettojen kolonisaation aika"
+    },
+    {
+      "id": "eras-0070",
+      "text": "Aurinkokunnan kolonisaation aika"
+    },
+    {
+      "id": "eras-0071",
+      "text": "Tähtienvälisen matkailun aika"
+    },
+    {
+      "id": "eras-0072",
+      "text": "Galaktisen sivilisaation aika"
+    },
+    {
+      "id": "eras-0073",
+      "text": "Posthumanistinen aika"
+    },
+    {
+      "id": "eras-0074",
+      "text": "Tekoälyjen aikakausi"
+    },
+    {
+      "id": "eras-0075",
+      "text": "Robottien aikakausi"
+    },
+    {
+      "id": "eras-0076",
+      "text": "Geenimuokkauksen aikakausi"
+    },
+    {
+      "id": "eras-0077",
+      "text": "Kyberneettinen aikakausi"
+    },
+    {
+      "id": "eras-0078",
+      "text": "Virtuaalitodellisuuden aikakausi"
+    },
+    {
+      "id": "eras-0079",
+      "text": "Täysin automatisoitu yhteiskunta"
+    },
+    {
+      "id": "eras-0080",
+      "text": "Resurssien jälkeinen yhteiskunta"
+    },
+    {
+      "id": "eras-0081",
+      "text": "Sivilisaation romahtamisen aika"
+    },
+    {
+      "id": "eras-0082",
+      "text": "Ekologisen kriisin aikakausi"
+    },
+    {
+      "id": "eras-0083",
+      "text": "Ilmastokatastrofin jälkeinen aika"
+    },
+    {
+      "id": "eras-0084",
+      "text": "Ydinapokalypsin jälkeinen aika"
+    },
+    {
+      "id": "eras-0085",
+      "text": "Pandemian jälkeinen aika"
+    },
+    {
+      "id": "eras-0086",
+      "text": "Vieraan sivilisaation kontaktin jälkeinen aika"
+    },
+    {
+      "id": "eras-0087",
+      "text": "Vaihtoehtoinen antiikki"
+    },
+    {
+      "id": "eras-0088",
+      "text": "Vaihtoehtoinen keskiaika"
+    },
+    {
+      "id": "eras-0089",
+      "text": "Vaihtoehtoinen renessanssi"
+    },
+    {
+      "id": "eras-0090",
+      "text": "Vaihtoehtoinen 1800-luku"
+    },
+    {
+      "id": "eras-0091",
+      "text": "Vaihtoehtoinen ensimmäinen maailmansota"
+    },
+    {
+      "id": "eras-0092",
+      "text": "Vaihtoehtoinen toinen maailmansota"
+    },
+    {
+      "id": "eras-0093",
+      "text": "Vaihtoehtoinen kylmä sota"
+    },
+    {
+      "id": "eras-0094",
+      "text": "Vaihtoehtoinen 1950-luku"
+    },
+    {
+      "id": "eras-0095",
+      "text": "Vaihtoehtoinen 1980-luku"
+    },
+    {
+      "id": "eras-0096",
+      "text": "Vaihtoehtoinen 1990-luku"
+    },
+    {
+      "id": "eras-0097",
+      "text": "Vaihtoehtoinen nykyhetki"
+    },
+    {
+      "id": "eras-0098",
+      "text": "Vaihtoehtoinen historia"
+    },
+    {
+      "id": "eras-0099",
+      "text": "Historia, jossa Rooma ei koskaan kaatunut"
+    },
+    {
+      "id": "eras-0100",
+      "text": "Historia, jossa höyryteknologia kehittyi liian pitkälle"
+    },
+    {
+      "id": "eras-0101",
+      "text": "Historia, jossa tietokoneet keksittiin 1800-luvulla"
+    },
+    {
+      "id": "eras-0102",
+      "text": "Historia, jossa avaruusmatkailu alkoi 1950-luvulla"
+    },
+    {
+      "id": "eras-0103",
+      "text": "Historia, jossa kylmä sota ei koskaan päättynyt"
+    },
+    {
+      "id": "eras-0104",
+      "text": "Historia, jossa ydinaseita ei koskaan keksitty"
+    },
+    {
+      "id": "eras-0105",
+      "text": "Historia, jossa internet syntyi vuosikymmeniä aiemmin"
+    },
+    {
+      "id": "eras-0106",
+      "text": "Historia, jossa tekoäly syntyi 1900-luvun puolivälissä"
+    },
+    {
+      "id": "eras-0107",
+      "text": "Historia, jossa ihmiskunta ei koskaan teollistunut"
+    },
+    {
+      "id": "eras-0108",
+      "text": "Historia, jossa musta surma romahdutti Euroopan kokonaan"
+    },
+    {
+      "id": "eras-0109",
+      "text": "Historia, jossa dinosaurukset eivät kuolleet sukupuuttoon"
+    },
+    {
+      "id": "eras-0110",
+      "text": "Historia, jossa Neuvostoliitto ei hajonnut"
+    },
+    {
+      "id": "eras-0111",
+      "text": "Historia, jossa Rooman valtakunta säilyi nykyaikaan"
+    },
+    {
+      "id": "eras-0112",
+      "text": "Steampunk-aikakausi"
+    },
+    {
+      "id": "eras-0113",
+      "text": "Dieselpunk-aikakausi"
+    },
+    {
+      "id": "eras-0114",
+      "text": "Atompunk-aikakausi"
+    },
+    {
+      "id": "eras-0115",
+      "text": "Cassette futurism"
+    },
+    {
+      "id": "eras-0116",
+      "text": "Retrofuturistinen 1950-luku"
+    },
+    {
+      "id": "eras-0117",
+      "text": "Retrofuturistinen 1960-luku"
+    },
+    {
+      "id": "eras-0118",
+      "text": "Retrofuturistinen 1980-luku"
+    },
+    {
+      "id": "eras-0119",
+      "text": "Cyberpunk-tulevaisuus"
+    },
+    {
+      "id": "eras-0120",
+      "text": "Biopunk-tulevaisuus"
+    },
+    {
+      "id": "eras-0121",
+      "text": "Solarpunk-tulevaisuus"
+    },
+    {
+      "id": "eras-0122",
+      "text": "Hopepunk-tulevaisuus"
+    },
+    {
+      "id": "eras-0123",
+      "text": "Dystopinen tulevaisuus"
+    },
+    {
+      "id": "eras-0124",
+      "text": "Utopistinen tulevaisuus"
+    },
+    {
+      "id": "eras-0125",
+      "text": "Megakorporaatioiden hallitsema tulevaisuus"
+    },
+    {
+      "id": "eras-0126",
+      "text": "Autoritaarinen tulevaisuus"
+    },
+    {
+      "id": "eras-0127",
+      "text": "Hajautettujen kaupunkivaltioiden tulevaisuus"
+    },
+    {
+      "id": "eras-0128",
+      "text": "Avaruussiirtokuntien aikakausi"
+    },
+    {
+      "id": "eras-0129",
+      "text": "Sukupolvialusten aikakausi"
+    },
+    {
+      "id": "eras-0130",
+      "text": "Terraformauksen aikakausi"
+    },
+    {
+      "id": "eras-0131",
+      "text": "Ensimmäisen kontaktin aika"
+    },
+    {
+      "id": "eras-0132",
+      "text": "Galaktisen sodan aika"
+    },
+    {
+      "id": "eras-0133",
+      "text": "Galaktisen rauhan aika"
+    },
+    {
+      "id": "eras-0134",
+      "text": "Universumin loppuvaiheet"
+    },
+    {
+      "id": "eras-0135",
+      "text": "Ajan lopun aikakausi"
+    },
+    {
+      "id": "eras-0136",
+      "text": "Ajaton maailma"
+    },
+    {
+      "id": "eras-0137",
+      "text": "Aikasilmukka"
+    },
+    {
+      "id": "eras-0138",
+      "text": "Eri aikakaudet sekoittuvat"
+    },
+    {
+      "id": "eras-0139",
+      "text": "Useita aikakausia rinnakkain"
+    },
+    {
+      "id": "eras-0140",
+      "text": "Pelaaja liikkuu eri aikakausien välillä"
+    },
+    {
+      "id": "eras-0141",
+      "text": "Maailma etenee kivikaudesta avaruusaikaan"
+    },
+    {
+      "id": "eras-0142",
+      "text": "Yksi sukupolvi ennen suurta katastrofia"
+    },
+    {
+      "id": "eras-0143",
+      "text": "Viimeinen vuosi ennen maailmanloppua"
+    },
+    {
+      "id": "eras-0144",
+      "text": "Viimeinen päivä ennen katastrofia"
+    },
+    {
+      "id": "eras-0145",
+      "text": "Ensimmäinen päivä katastrofin jälkeen"
+    },
+    {
+      "id": "eras-0146",
+      "text": "Ensimmäinen vuosi uuden yhteiskunnan synnystä"
+    },
+    {
+      "id": "eras-0147",
+      "text": "Sivilisaation viimeiset päivät"
+    },
+    {
+      "id": "eras-0148",
+      "text": "Sivilisaation ensimmäiset päivät"
+    }
   ]
 }

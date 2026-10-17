@@ -1,495 +1,1968 @@
 {
   "player_roles": [
-    "Zelador",
-    "Médico-legista",
-    "Prefeito",
-    "Contrabandista",
-    "Professor",
-    "Inteligência artificial",
-    "Fantasma",
-    "Criança",
-    "Contador da máfia",
-    "Técnico de estação espacial",
-    "Policial",
-    "Detetive",
-    "Detetive particular",
-    "Investigador criminal",
-    "Analista de perfis criminais",
-    "Perito forense",
-    "Patologista",
-    "Advogado",
-    "Promotor",
-    "Advogado de defesa",
-    "Juiz",
-    "Diretor de presídio",
-    "Agente penitenciário",
-    "Presidiário",
-    "Guarda de fronteira",
-    "Fiscal da alfândega",
-    "Espião",
-    "Agente de contrainteligência",
-    "Oficial de inteligência",
-    "Agente secreto",
-    "Matador de aluguel",
-    "Falsificador",
-    "Batedor de carteiras",
-    "Arrombador",
-    "Assaltante de banco",
-    "Chefe de gangue",
-    "Chefão da máfia",
-    "Conselheiro da máfia",
-    "Cobrador de dívidas",
-    "Chefe de uma rede de contrabando",
-    "Hacker",
-    "Especialista em cibersegurança",
-    "Vazador de informações",
-    "Denunciante",
-    "Propagandista",
-    "Chefe de espionagem",
-    "Membro da resistência",
-    "Líder rebelde",
-    "Revolucionário",
-    "Ditador",
-    "Presidente",
-    "Primeiro-ministro",
-    "Ministro",
-    "Deputado",
-    "Assessor político",
-    "Secretário do partido",
-    "Coordenador de campanha",
-    "Lobista",
-    "Diplomata",
-    "Embaixador",
-    "Rei",
-    "Rainha",
-    "Príncipe",
-    "Princesa",
-    "Regente",
-    "Conselheiro real",
-    "Bobo da corte",
-    "Chanceler",
-    "Governador",
-    "Vereador",
-    "Chefe da vila",
-    "Chefe tribal",
-    "Padre",
-    "Bispo",
-    "Monge",
-    "Freira",
-    "Pregador",
-    "Líder de seita",
-    "Membro de seita",
-    "Profeta",
-    "Oráculo",
-    "Estudioso da religião",
-    "Curandeiro espiritual",
-    "Xamã",
-    "Bruxa",
-    "Exorcista",
-    "Alquimista",
-    "Necromante",
-    "Feiticeiro",
-    "Ilusionista",
-    "Curandeiro",
-    "Boticário",
-    "Médico",
-    "Cirurgião",
-    "Enfermeiro",
-    "Paramédico",
-    "Psiquiatra",
-    "Psicólogo",
-    "Terapeuta",
-    "Dentista",
-    "Veterinário",
-    "Diretor de hospital",
-    "Oficial médico",
-    "Médico do interior",
-    "Médico de campo",
-    "Pesquisador",
-    "Cientista",
-    "Físico",
-    "Químico",
-    "Biólogo",
-    "Geneticista",
-    "Arqueólogo",
-    "Historiador",
-    "Antropólogo",
-    "Astrônomo",
-    "Geólogo",
-    "Meteorologista",
-    "Epidemiologista",
-    "Assistente de laboratório",
-    "Diretor de pesquisa",
-    "Inventor",
-    "Engenheiro",
-    "Mecânico",
-    "Eletricista",
-    "Encanador",
-    "Mestre de obras",
-    "Arquiteto",
-    "Urbanista",
-    "Engenheiro de minas",
-    "Engenheiro de usina nuclear",
-    "Engenheiro de robótica",
-    "Engenheiro aeroespacial",
-    "Programador",
-    "Desenvolvedor de jogos",
-    "Administrador de sistemas",
-    "Especialista em redes",
-    "Analista de dados",
-    "Pesquisador de IA",
-    "Técnico de robôs",
-    "Androide",
-    "Robô",
-    "Ciborgue",
-    "Nave espacial consciente",
-    "Prédio consciente",
-    "Cidade consciente",
-    "Cópia digital de um ser humano",
-    "Administrador da simulação",
-    "Supervisor do mundo virtual",
-    "Moderador",
-    "Arquivista",
-    "Bibliotecário",
-    "Zelador de museu",
-    "Curador",
-    "Genealogista",
-    "Cartógrafo",
-    "Escriba",
-    "Tradutor",
-    "Jornalista",
-    "Jornalista investigativo",
-    "Editor-chefe",
-    "Fotógrafo",
-    "Documentarista",
-    "Locutor de rádio",
-    "Repórter de TV",
-    "Apresentador de podcast",
-    "Censor",
-    "Diretor de uma agência de notícias",
-    "Carteiro",
-    "Agente postal",
-    "Telefonista",
-    "Telegrafista",
-    "Operador de rádio",
-    "Faroleiro",
-    "Vigia noturno",
-    "Guarda",
-    "Guarda-costas",
-    "Porteiro",
-    "Inspetor do prédio",
-    "Recepcionista de hotel",
-    "Gerente de hotel",
-    "Dono de motel",
-    "Estalajadeiro",
-    "Senhorio",
-    "Corretor de imóveis",
-    "Faxineiro",
-    "Técnico de manutenção",
-    "Chaveiro",
-    "Ascensorista",
-    "Concierge",
-    "Dono de restaurante",
-    "Cozinheiro",
-    "Garçom",
-    "Bartender",
-    "Dono de café",
-    "Padeiro",
-    "Açougueiro",
-    "Peixeiro",
-    "Comerciante",
-    "Lojista",
-    "Gerente de supermercado",
-    "Penhorista",
-    "Antiquário",
-    "Leiloeiro",
-    "Mascate",
-    "Negociante do mercado negro",
-    "Banqueiro",
-    "Gerente de banco",
-    "Investidor",
-    "Corretor de ações",
-    "Contador",
-    "Auditor",
-    "Fiscal da receita",
-    "Consultor de dívidas",
-    "Investigador de seguros",
-    "Funcionário de seguradora",
-    "Empreendedor",
-    "Fundador de startup",
-    "CEO",
-    "Diretor de RH",
-    "Recrutador",
-    "Diretor de fábrica",
-    "Encarregado",
-    "Almoxarife",
-    "Gerente de logística",
-    "Caminhoneiro",
-    "Taxista",
-    "Motorista de ônibus",
-    "Maquinista",
-    "Cobrador de trem",
-    "Chefe de estação",
-    "Piloto",
-    "Controlador de tráfego aéreo",
-    "Comissário de bordo",
-    "Capitão de navio",
-    "Imediato",
-    "Marinheiro",
-    "Capitão do porto",
-    "Capitão de submarino",
-    "Mergulhador",
-    "Pescador",
-    "Caçador",
-    "Guarda florestal",
-    "Guia de natureza",
-    "Agricultor",
-    "Pecuarista",
-    "Pastor de ovelhas",
-    "Jardineiro",
-    "Responsável pela estufa",
-    "Lenhador",
-    "Mineiro",
-    "Trabalhador de plataforma de petróleo",
-    "Socorrista",
-    "Bombeiro",
-    "Atendente de emergência",
-    "Coordenador de catástrofes",
-    "Líder de equipe de resgate",
-    "Soldado",
-    "Oficial",
-    "General",
-    "Comandante",
-    "Atirador de elite",
-    "Batedor",
-    "Comandante de tanque",
-    "Tripulante de submarino",
-    "Almirante da frota",
-    "Piloto da força aérea",
-    "Correspondente de guerra",
-    "Mercenário",
-    "Paraquedista sabotador",
-    "Prisioneiro de guerra",
-    "Civil no meio de uma guerra",
-    "Refugiado",
-    "Sobrevivente",
-    "Líder de um grupo de sobreviventes",
-    "Chefe do bunker",
-    "Líder da colônia",
-    "Engenheiro da colônia",
-    "Médico da colônia",
-    "Comandante de estação espacial",
-    "Piloto espacial",
-    "Astronauta",
-    "Cosmonauta",
-    "Minerador espacial",
-    "Engenheiro de terraformação",
-    "Sucateiro espacial",
-    "Comerciante espacial",
-    "Pirata espacial",
-    "Comerciante de estação espacial",
-    "Diplomata de primeiro contato",
-    "Explorador de um planeta alienígena",
-    "Arquivista de uma nave geracional",
-    "Passageiro acordado do sono criogênico",
-    "O último ser humano",
-    "O primeiro ser humano em Marte",
-    "Alienígena",
-    "Diplomata alienígena",
-    "Observador dos alienígenas",
-    "Clone",
-    "Supervisor de clones",
-    "Humano geneticamente modificado",
-    "Viajante do tempo",
-    "Policial do tempo",
-    "Atendente de uma agência de viagens no tempo",
-    "Consertador da história",
-    "Pessoa presa em um loop temporal",
-    "Observador vindo do futuro",
-    "Viajante preso no passado",
-    "Deus",
-    "Semideus",
-    "A Morte",
-    "Funcionário da Morte",
-    "Anjo",
-    "Demônio",
-    "Anjo da guarda",
-    "Burocrata do inferno",
-    "Funcionário do purgatório",
-    "Barqueiro das almas",
-    "Coveiro",
-    "Zelador do cemitério",
-    "Agente funerário",
-    "Médium",
-    "Caça-fantasmas",
-    "Espectro",
-    "Poltergeist",
-    "Vampiro",
-    "Lobisomem",
-    "Monstro",
-    "Caçador de monstros",
-    "Pessoa amaldiçoada",
-    "Imortal",
-    "Pessoa que reencarna",
-    "Sonâmbulo",
-    "Intérprete de sonhos",
-    "Arquiteto de sonhos",
-    "Comerciante de memórias",
-    "Ladrão de memórias",
-    "Pessoa que perdeu a memória",
-    "Pessoa que vive na mente de outra",
-    "Guardião de um pesadelo",
-    "Amigo imaginário",
-    "Criatura imaginária de uma criança",
-    "Diretor de escola",
-    "Orientador escolar",
-    "Conselheiro vocacional",
-    "Professor universitário",
-    "Estudante",
-    "Aluno do ensino fundamental",
-    "Valentão da escola",
-    "Professor responsável pela turma",
-    "Diretor de internato",
-    "Cuidador de orfanato",
-    "Criança do orfanato",
-    "Pai ou mãe",
-    "Pai ou mãe solo",
-    "Avô ou avó",
-    "Chefe da família",
-    "Ovelha negra da família",
-    "Patriarca da família",
-    "Matriarca da família",
-    "Herdeiro",
-    "Familiar desaparecido",
-    "Último membro da linhagem",
-    "Conselheiro matrimonial",
-    "Terapeuta de casais",
-    "Casamenteiro",
-    "Fofoqueiro do bairro",
-    "Presidente da associação de moradores",
-    "Síndico do condomínio",
-    "Administrador de imóveis",
-    "Passeador de cães",
-    "Cuidador de abrigo de animais",
-    "Tratador de zoológico",
-    "Diretor de circo",
-    "Artista de circo",
-    "Mágico de palco",
-    "Ator",
-    "Diretor de teatro",
-    "Diretor",
-    "Roteirista",
-    "Músico",
-    "Empresário de banda",
-    "DJ",
-    "Dono de fliperama",
-    "Gerente de cassino",
-    "Crupiê",
-    "Apostador",
-    "Atleta profissional",
-    "Treinador",
-    "Técnico de futebol",
-    "Dono do clube",
-    "Árbitro",
-    "Jornalista esportivo",
-    "Piloto de corrida",
-    "Navegador de rali",
-    "Piloto de lancha",
-    "Alpinista",
-    "Explorador de expedições",
-    "Aventureiro",
-    "Caçador de tesouros",
-    "Espeleólogo",
-    "Explorador do Ártico",
-    "Arqueólogo subaquático",
-    "Náufrago",
-    "Abandonado numa ilha deserta",
-    "Trilheiro perdido",
-    "O estranho eremita da vila",
-    "Eremita",
-    "Andarilho",
-    "Pessoa em situação de rua",
-    "Mendigo",
-    "Artista de rua",
-    "Vendedor ambulante",
-    "Explorador urbano",
-    "Grafiteiro",
-    "Operador da sala de controle",
-    "Operador de CFTV",
-    "Chefe de segurança",
-    "Controlador de trânsito",
-    "Supervisor da rede elétrica",
-    "Responsável pela estação de água",
-    "Operador da estação de tratamento de esgoto",
-    "Operador de usina elétrica",
-    "Supervisor do reator nuclear",
-    "Responsável pela estação meteorológica",
-    "Escriba do farol",
-    "Funcionário do cartório",
-    "Burocrata",
-    "Funcionário de licenças",
-    "Assistente social",
-    "Funcionário da agência de empregos",
-    "Funcionário do registro de óbitos",
-    "Atendente de achados e perdidos",
-    "Inspetor de passaportes",
-    "Agente de imigração",
-    "Mesário",
-    "Recenseador",
-    "Separador de correspondência",
-    "Plantonista",
-    "Negociador",
-    "Negociador de crises",
-    "Negociador de reféns",
-    "Mediador de paz",
-    "Negociador trabalhista",
-    "Líder sindical",
-    "Líder da greve",
-    "Operário de fábrica",
-    "Trabalhador da mina",
-    "Estivador",
-    "Funcionário de escritório",
-    "Gerente intermediário",
-    "Chefe de escritório",
-    "Gerente de projeto",
-    "Consultor",
-    "Espião corporativo",
-    "Auditor interno",
-    "Especialista em compliance",
-    "Gerente de riscos",
-    "CEO de uma empresa em crise",
-    "Administrador judicial da falência",
-    "Herdeiro do fundador da empresa",
-    "Contador de uma sociedade secreta",
-    "Arquivista de uma sociedade secreta",
-    "Membro de uma sociedade secreta",
-    "Líder de uma sociedade secreta",
-    "Espalhador de boatos",
-    "Funcionário de uma agência de fofocas",
-    "Produtor de fake news",
-    "Formador de opinião",
-    "Moderador de redes sociais",
-    "Influenciador",
-    "Usuário anônimo de fórum",
-    "Administrador de uma comunidade online",
-    "Deus de um mundo virtual",
-    "NPC do mundo do jogo que sabe que é um NPC",
-    "Administrador do mundo do jogo",
-    "Consertador de uma simulação quebrada",
-    "Observador desconhecido",
-    "Observador invisível",
-    "Narrador",
-    "Narrador não confiável",
-    "Personagem que observa o jogador",
-    "Personagem que não pode sair de um único cômodo",
-    "Personagem que não pode falar",
-    "Personagem de quem ninguém mais se lembra",
-    "Personagem que se lembra das partidas anteriores",
-    "Personagem que acorda em uma pessoa diferente a cada dia",
-    "Personagem que precisa mentir",
-    "Personagem que vê o futuro",
-    "Personagem que ouve os pensamentos dos mortos",
-    "Personagem que não sabe que está morto",
-    "Personagem que tenta provar que existe"
+    {
+      "id": "player_roles-0001",
+      "text": "Zelador"
+    },
+    {
+      "id": "player_roles-0002",
+      "text": "Médico-legista"
+    },
+    {
+      "id": "player_roles-0003",
+      "text": "Prefeito"
+    },
+    {
+      "id": "player_roles-0004",
+      "text": "Contrabandista"
+    },
+    {
+      "id": "player_roles-0005",
+      "text": "Professor"
+    },
+    {
+      "id": "player_roles-0006",
+      "text": "Inteligência artificial"
+    },
+    {
+      "id": "player_roles-0007",
+      "text": "Fantasma"
+    },
+    {
+      "id": "player_roles-0008",
+      "text": "Criança"
+    },
+    {
+      "id": "player_roles-0009",
+      "text": "Contador da máfia"
+    },
+    {
+      "id": "player_roles-0010",
+      "text": "Técnico de estação espacial"
+    },
+    {
+      "id": "player_roles-0011",
+      "text": "Policial"
+    },
+    {
+      "id": "player_roles-0012",
+      "text": "Detetive"
+    },
+    {
+      "id": "player_roles-0013",
+      "text": "Detetive particular"
+    },
+    {
+      "id": "player_roles-0014",
+      "text": "Investigador criminal"
+    },
+    {
+      "id": "player_roles-0015",
+      "text": "Analista de perfis criminais"
+    },
+    {
+      "id": "player_roles-0016",
+      "text": "Perito forense"
+    },
+    {
+      "id": "player_roles-0017",
+      "text": "Patologista"
+    },
+    {
+      "id": "player_roles-0018",
+      "text": "Advogado"
+    },
+    {
+      "id": "player_roles-0019",
+      "text": "Promotor"
+    },
+    {
+      "id": "player_roles-0020",
+      "text": "Advogado de defesa"
+    },
+    {
+      "id": "player_roles-0021",
+      "text": "Juiz"
+    },
+    {
+      "id": "player_roles-0022",
+      "text": "Diretor de presídio"
+    },
+    {
+      "id": "player_roles-0023",
+      "text": "Agente penitenciário"
+    },
+    {
+      "id": "player_roles-0024",
+      "text": "Presidiário"
+    },
+    {
+      "id": "player_roles-0025",
+      "text": "Guarda de fronteira"
+    },
+    {
+      "id": "player_roles-0026",
+      "text": "Fiscal da alfândega"
+    },
+    {
+      "id": "player_roles-0027",
+      "text": "Espião"
+    },
+    {
+      "id": "player_roles-0028",
+      "text": "Agente de contrainteligência"
+    },
+    {
+      "id": "player_roles-0029",
+      "text": "Oficial de inteligência"
+    },
+    {
+      "id": "player_roles-0030",
+      "text": "Agente secreto"
+    },
+    {
+      "id": "player_roles-0031",
+      "text": "Matador de aluguel"
+    },
+    {
+      "id": "player_roles-0032",
+      "text": "Falsificador"
+    },
+    {
+      "id": "player_roles-0033",
+      "text": "Batedor de carteiras"
+    },
+    {
+      "id": "player_roles-0034",
+      "text": "Arrombador"
+    },
+    {
+      "id": "player_roles-0035",
+      "text": "Assaltante de banco"
+    },
+    {
+      "id": "player_roles-0036",
+      "text": "Chefe de gangue"
+    },
+    {
+      "id": "player_roles-0037",
+      "text": "Chefão da máfia"
+    },
+    {
+      "id": "player_roles-0038",
+      "text": "Conselheiro da máfia"
+    },
+    {
+      "id": "player_roles-0039",
+      "text": "Cobrador de dívidas"
+    },
+    {
+      "id": "player_roles-0040",
+      "text": "Chefe de uma rede de contrabando"
+    },
+    {
+      "id": "player_roles-0041",
+      "text": "Hacker"
+    },
+    {
+      "id": "player_roles-0042",
+      "text": "Especialista em cibersegurança"
+    },
+    {
+      "id": "player_roles-0043",
+      "text": "Vazador de informações"
+    },
+    {
+      "id": "player_roles-0044",
+      "text": "Denunciante"
+    },
+    {
+      "id": "player_roles-0045",
+      "text": "Propagandista"
+    },
+    {
+      "id": "player_roles-0046",
+      "text": "Chefe de espionagem"
+    },
+    {
+      "id": "player_roles-0047",
+      "text": "Membro da resistência"
+    },
+    {
+      "id": "player_roles-0048",
+      "text": "Líder rebelde"
+    },
+    {
+      "id": "player_roles-0049",
+      "text": "Revolucionário"
+    },
+    {
+      "id": "player_roles-0050",
+      "text": "Ditador"
+    },
+    {
+      "id": "player_roles-0051",
+      "text": "Presidente"
+    },
+    {
+      "id": "player_roles-0052",
+      "text": "Primeiro-ministro"
+    },
+    {
+      "id": "player_roles-0053",
+      "text": "Ministro"
+    },
+    {
+      "id": "player_roles-0054",
+      "text": "Deputado"
+    },
+    {
+      "id": "player_roles-0055",
+      "text": "Assessor político"
+    },
+    {
+      "id": "player_roles-0056",
+      "text": "Secretário do partido"
+    },
+    {
+      "id": "player_roles-0057",
+      "text": "Coordenador de campanha"
+    },
+    {
+      "id": "player_roles-0058",
+      "text": "Lobista"
+    },
+    {
+      "id": "player_roles-0059",
+      "text": "Diplomata"
+    },
+    {
+      "id": "player_roles-0060",
+      "text": "Embaixador"
+    },
+    {
+      "id": "player_roles-0061",
+      "text": "Rei"
+    },
+    {
+      "id": "player_roles-0062",
+      "text": "Rainha"
+    },
+    {
+      "id": "player_roles-0063",
+      "text": "Príncipe"
+    },
+    {
+      "id": "player_roles-0064",
+      "text": "Princesa"
+    },
+    {
+      "id": "player_roles-0065",
+      "text": "Regente"
+    },
+    {
+      "id": "player_roles-0066",
+      "text": "Conselheiro real"
+    },
+    {
+      "id": "player_roles-0067",
+      "text": "Bobo da corte"
+    },
+    {
+      "id": "player_roles-0068",
+      "text": "Chanceler"
+    },
+    {
+      "id": "player_roles-0069",
+      "text": "Governador"
+    },
+    {
+      "id": "player_roles-0070",
+      "text": "Vereador"
+    },
+    {
+      "id": "player_roles-0071",
+      "text": "Chefe da vila"
+    },
+    {
+      "id": "player_roles-0072",
+      "text": "Chefe tribal"
+    },
+    {
+      "id": "player_roles-0073",
+      "text": "Padre"
+    },
+    {
+      "id": "player_roles-0074",
+      "text": "Bispo"
+    },
+    {
+      "id": "player_roles-0075",
+      "text": "Monge"
+    },
+    {
+      "id": "player_roles-0076",
+      "text": "Freira"
+    },
+    {
+      "id": "player_roles-0077",
+      "text": "Pregador"
+    },
+    {
+      "id": "player_roles-0078",
+      "text": "Líder de seita"
+    },
+    {
+      "id": "player_roles-0079",
+      "text": "Membro de seita"
+    },
+    {
+      "id": "player_roles-0080",
+      "text": "Profeta"
+    },
+    {
+      "id": "player_roles-0081",
+      "text": "Oráculo"
+    },
+    {
+      "id": "player_roles-0082",
+      "text": "Estudioso da religião"
+    },
+    {
+      "id": "player_roles-0083",
+      "text": "Curandeiro espiritual"
+    },
+    {
+      "id": "player_roles-0084",
+      "text": "Xamã"
+    },
+    {
+      "id": "player_roles-0085",
+      "text": "Bruxa"
+    },
+    {
+      "id": "player_roles-0086",
+      "text": "Exorcista"
+    },
+    {
+      "id": "player_roles-0087",
+      "text": "Alquimista"
+    },
+    {
+      "id": "player_roles-0088",
+      "text": "Necromante"
+    },
+    {
+      "id": "player_roles-0089",
+      "text": "Feiticeiro"
+    },
+    {
+      "id": "player_roles-0090",
+      "text": "Ilusionista"
+    },
+    {
+      "id": "player_roles-0091",
+      "text": "Curandeiro"
+    },
+    {
+      "id": "player_roles-0092",
+      "text": "Boticário"
+    },
+    {
+      "id": "player_roles-0093",
+      "text": "Médico"
+    },
+    {
+      "id": "player_roles-0094",
+      "text": "Cirurgião"
+    },
+    {
+      "id": "player_roles-0095",
+      "text": "Enfermeiro"
+    },
+    {
+      "id": "player_roles-0096",
+      "text": "Paramédico"
+    },
+    {
+      "id": "player_roles-0097",
+      "text": "Psiquiatra"
+    },
+    {
+      "id": "player_roles-0098",
+      "text": "Psicólogo"
+    },
+    {
+      "id": "player_roles-0099",
+      "text": "Terapeuta"
+    },
+    {
+      "id": "player_roles-0100",
+      "text": "Dentista"
+    },
+    {
+      "id": "player_roles-0101",
+      "text": "Veterinário"
+    },
+    {
+      "id": "player_roles-0102",
+      "text": "Diretor de hospital"
+    },
+    {
+      "id": "player_roles-0103",
+      "text": "Oficial médico"
+    },
+    {
+      "id": "player_roles-0104",
+      "text": "Médico do interior"
+    },
+    {
+      "id": "player_roles-0105",
+      "text": "Médico de campo"
+    },
+    {
+      "id": "player_roles-0106",
+      "text": "Pesquisador"
+    },
+    {
+      "id": "player_roles-0107",
+      "text": "Cientista"
+    },
+    {
+      "id": "player_roles-0108",
+      "text": "Físico"
+    },
+    {
+      "id": "player_roles-0109",
+      "text": "Químico"
+    },
+    {
+      "id": "player_roles-0110",
+      "text": "Biólogo"
+    },
+    {
+      "id": "player_roles-0111",
+      "text": "Geneticista"
+    },
+    {
+      "id": "player_roles-0112",
+      "text": "Arqueólogo"
+    },
+    {
+      "id": "player_roles-0113",
+      "text": "Historiador"
+    },
+    {
+      "id": "player_roles-0114",
+      "text": "Antropólogo"
+    },
+    {
+      "id": "player_roles-0115",
+      "text": "Astrônomo"
+    },
+    {
+      "id": "player_roles-0116",
+      "text": "Geólogo"
+    },
+    {
+      "id": "player_roles-0117",
+      "text": "Meteorologista"
+    },
+    {
+      "id": "player_roles-0118",
+      "text": "Epidemiologista"
+    },
+    {
+      "id": "player_roles-0119",
+      "text": "Assistente de laboratório"
+    },
+    {
+      "id": "player_roles-0120",
+      "text": "Diretor de pesquisa"
+    },
+    {
+      "id": "player_roles-0121",
+      "text": "Inventor"
+    },
+    {
+      "id": "player_roles-0122",
+      "text": "Engenheiro"
+    },
+    {
+      "id": "player_roles-0123",
+      "text": "Mecânico"
+    },
+    {
+      "id": "player_roles-0124",
+      "text": "Eletricista"
+    },
+    {
+      "id": "player_roles-0125",
+      "text": "Encanador"
+    },
+    {
+      "id": "player_roles-0126",
+      "text": "Mestre de obras"
+    },
+    {
+      "id": "player_roles-0127",
+      "text": "Arquiteto"
+    },
+    {
+      "id": "player_roles-0128",
+      "text": "Urbanista"
+    },
+    {
+      "id": "player_roles-0129",
+      "text": "Engenheiro de minas"
+    },
+    {
+      "id": "player_roles-0130",
+      "text": "Engenheiro de usina nuclear"
+    },
+    {
+      "id": "player_roles-0131",
+      "text": "Engenheiro de robótica"
+    },
+    {
+      "id": "player_roles-0132",
+      "text": "Engenheiro aeroespacial"
+    },
+    {
+      "id": "player_roles-0133",
+      "text": "Programador"
+    },
+    {
+      "id": "player_roles-0134",
+      "text": "Desenvolvedor de jogos"
+    },
+    {
+      "id": "player_roles-0135",
+      "text": "Administrador de sistemas"
+    },
+    {
+      "id": "player_roles-0136",
+      "text": "Especialista em redes"
+    },
+    {
+      "id": "player_roles-0137",
+      "text": "Analista de dados"
+    },
+    {
+      "id": "player_roles-0138",
+      "text": "Pesquisador de IA"
+    },
+    {
+      "id": "player_roles-0139",
+      "text": "Técnico de robôs"
+    },
+    {
+      "id": "player_roles-0140",
+      "text": "Androide"
+    },
+    {
+      "id": "player_roles-0141",
+      "text": "Robô"
+    },
+    {
+      "id": "player_roles-0142",
+      "text": "Ciborgue"
+    },
+    {
+      "id": "player_roles-0143",
+      "text": "Nave espacial consciente"
+    },
+    {
+      "id": "player_roles-0144",
+      "text": "Prédio consciente"
+    },
+    {
+      "id": "player_roles-0145",
+      "text": "Cidade consciente"
+    },
+    {
+      "id": "player_roles-0146",
+      "text": "Cópia digital de um ser humano"
+    },
+    {
+      "id": "player_roles-0147",
+      "text": "Administrador da simulação"
+    },
+    {
+      "id": "player_roles-0148",
+      "text": "Supervisor do mundo virtual"
+    },
+    {
+      "id": "player_roles-0149",
+      "text": "Moderador"
+    },
+    {
+      "id": "player_roles-0150",
+      "text": "Arquivista"
+    },
+    {
+      "id": "player_roles-0151",
+      "text": "Bibliotecário"
+    },
+    {
+      "id": "player_roles-0152",
+      "text": "Zelador de museu"
+    },
+    {
+      "id": "player_roles-0153",
+      "text": "Curador"
+    },
+    {
+      "id": "player_roles-0154",
+      "text": "Genealogista"
+    },
+    {
+      "id": "player_roles-0155",
+      "text": "Cartógrafo"
+    },
+    {
+      "id": "player_roles-0156",
+      "text": "Escriba"
+    },
+    {
+      "id": "player_roles-0157",
+      "text": "Tradutor"
+    },
+    {
+      "id": "player_roles-0158",
+      "text": "Jornalista"
+    },
+    {
+      "id": "player_roles-0159",
+      "text": "Jornalista investigativo"
+    },
+    {
+      "id": "player_roles-0160",
+      "text": "Editor-chefe"
+    },
+    {
+      "id": "player_roles-0161",
+      "text": "Fotógrafo"
+    },
+    {
+      "id": "player_roles-0162",
+      "text": "Documentarista"
+    },
+    {
+      "id": "player_roles-0163",
+      "text": "Locutor de rádio"
+    },
+    {
+      "id": "player_roles-0164",
+      "text": "Repórter de TV"
+    },
+    {
+      "id": "player_roles-0165",
+      "text": "Apresentador de podcast"
+    },
+    {
+      "id": "player_roles-0166",
+      "text": "Censor"
+    },
+    {
+      "id": "player_roles-0167",
+      "text": "Diretor de uma agência de notícias"
+    },
+    {
+      "id": "player_roles-0168",
+      "text": "Carteiro"
+    },
+    {
+      "id": "player_roles-0169",
+      "text": "Agente postal"
+    },
+    {
+      "id": "player_roles-0170",
+      "text": "Telefonista"
+    },
+    {
+      "id": "player_roles-0171",
+      "text": "Telegrafista"
+    },
+    {
+      "id": "player_roles-0172",
+      "text": "Operador de rádio"
+    },
+    {
+      "id": "player_roles-0173",
+      "text": "Faroleiro"
+    },
+    {
+      "id": "player_roles-0174",
+      "text": "Vigia noturno"
+    },
+    {
+      "id": "player_roles-0175",
+      "text": "Guarda"
+    },
+    {
+      "id": "player_roles-0176",
+      "text": "Guarda-costas"
+    },
+    {
+      "id": "player_roles-0177",
+      "text": "Porteiro"
+    },
+    {
+      "id": "player_roles-0178",
+      "text": "Inspetor do prédio"
+    },
+    {
+      "id": "player_roles-0179",
+      "text": "Recepcionista de hotel"
+    },
+    {
+      "id": "player_roles-0180",
+      "text": "Gerente de hotel"
+    },
+    {
+      "id": "player_roles-0181",
+      "text": "Dono de motel"
+    },
+    {
+      "id": "player_roles-0182",
+      "text": "Estalajadeiro"
+    },
+    {
+      "id": "player_roles-0183",
+      "text": "Senhorio"
+    },
+    {
+      "id": "player_roles-0184",
+      "text": "Corretor de imóveis"
+    },
+    {
+      "id": "player_roles-0185",
+      "text": "Faxineiro"
+    },
+    {
+      "id": "player_roles-0186",
+      "text": "Técnico de manutenção"
+    },
+    {
+      "id": "player_roles-0187",
+      "text": "Chaveiro"
+    },
+    {
+      "id": "player_roles-0188",
+      "text": "Ascensorista"
+    },
+    {
+      "id": "player_roles-0189",
+      "text": "Concierge"
+    },
+    {
+      "id": "player_roles-0190",
+      "text": "Dono de restaurante"
+    },
+    {
+      "id": "player_roles-0191",
+      "text": "Cozinheiro"
+    },
+    {
+      "id": "player_roles-0192",
+      "text": "Garçom"
+    },
+    {
+      "id": "player_roles-0193",
+      "text": "Bartender"
+    },
+    {
+      "id": "player_roles-0194",
+      "text": "Dono de café"
+    },
+    {
+      "id": "player_roles-0195",
+      "text": "Padeiro"
+    },
+    {
+      "id": "player_roles-0196",
+      "text": "Açougueiro"
+    },
+    {
+      "id": "player_roles-0197",
+      "text": "Peixeiro"
+    },
+    {
+      "id": "player_roles-0198",
+      "text": "Comerciante"
+    },
+    {
+      "id": "player_roles-0199",
+      "text": "Lojista"
+    },
+    {
+      "id": "player_roles-0200",
+      "text": "Gerente de supermercado"
+    },
+    {
+      "id": "player_roles-0201",
+      "text": "Penhorista"
+    },
+    {
+      "id": "player_roles-0202",
+      "text": "Antiquário"
+    },
+    {
+      "id": "player_roles-0203",
+      "text": "Leiloeiro"
+    },
+    {
+      "id": "player_roles-0204",
+      "text": "Mascate"
+    },
+    {
+      "id": "player_roles-0205",
+      "text": "Negociante do mercado negro"
+    },
+    {
+      "id": "player_roles-0206",
+      "text": "Banqueiro"
+    },
+    {
+      "id": "player_roles-0207",
+      "text": "Gerente de banco"
+    },
+    {
+      "id": "player_roles-0208",
+      "text": "Investidor"
+    },
+    {
+      "id": "player_roles-0209",
+      "text": "Corretor de ações"
+    },
+    {
+      "id": "player_roles-0210",
+      "text": "Contador"
+    },
+    {
+      "id": "player_roles-0211",
+      "text": "Auditor"
+    },
+    {
+      "id": "player_roles-0212",
+      "text": "Fiscal da receita"
+    },
+    {
+      "id": "player_roles-0213",
+      "text": "Consultor de dívidas"
+    },
+    {
+      "id": "player_roles-0214",
+      "text": "Investigador de seguros"
+    },
+    {
+      "id": "player_roles-0215",
+      "text": "Funcionário de seguradora"
+    },
+    {
+      "id": "player_roles-0216",
+      "text": "Empreendedor"
+    },
+    {
+      "id": "player_roles-0217",
+      "text": "Fundador de startup"
+    },
+    {
+      "id": "player_roles-0218",
+      "text": "CEO"
+    },
+    {
+      "id": "player_roles-0219",
+      "text": "Diretor de RH"
+    },
+    {
+      "id": "player_roles-0220",
+      "text": "Recrutador"
+    },
+    {
+      "id": "player_roles-0221",
+      "text": "Diretor de fábrica"
+    },
+    {
+      "id": "player_roles-0222",
+      "text": "Encarregado"
+    },
+    {
+      "id": "player_roles-0223",
+      "text": "Almoxarife"
+    },
+    {
+      "id": "player_roles-0224",
+      "text": "Gerente de logística"
+    },
+    {
+      "id": "player_roles-0225",
+      "text": "Caminhoneiro"
+    },
+    {
+      "id": "player_roles-0226",
+      "text": "Taxista"
+    },
+    {
+      "id": "player_roles-0227",
+      "text": "Motorista de ônibus"
+    },
+    {
+      "id": "player_roles-0228",
+      "text": "Maquinista"
+    },
+    {
+      "id": "player_roles-0229",
+      "text": "Cobrador de trem"
+    },
+    {
+      "id": "player_roles-0230",
+      "text": "Chefe de estação"
+    },
+    {
+      "id": "player_roles-0231",
+      "text": "Piloto"
+    },
+    {
+      "id": "player_roles-0232",
+      "text": "Controlador de tráfego aéreo"
+    },
+    {
+      "id": "player_roles-0233",
+      "text": "Comissário de bordo"
+    },
+    {
+      "id": "player_roles-0234",
+      "text": "Capitão de navio"
+    },
+    {
+      "id": "player_roles-0235",
+      "text": "Imediato"
+    },
+    {
+      "id": "player_roles-0236",
+      "text": "Marinheiro"
+    },
+    {
+      "id": "player_roles-0237",
+      "text": "Capitão do porto"
+    },
+    {
+      "id": "player_roles-0238",
+      "text": "Capitão de submarino"
+    },
+    {
+      "id": "player_roles-0239",
+      "text": "Mergulhador"
+    },
+    {
+      "id": "player_roles-0240",
+      "text": "Pescador"
+    },
+    {
+      "id": "player_roles-0241",
+      "text": "Caçador"
+    },
+    {
+      "id": "player_roles-0242",
+      "text": "Guarda florestal"
+    },
+    {
+      "id": "player_roles-0243",
+      "text": "Guia de natureza"
+    },
+    {
+      "id": "player_roles-0244",
+      "text": "Agricultor"
+    },
+    {
+      "id": "player_roles-0245",
+      "text": "Pecuarista"
+    },
+    {
+      "id": "player_roles-0246",
+      "text": "Pastor de ovelhas"
+    },
+    {
+      "id": "player_roles-0247",
+      "text": "Jardineiro"
+    },
+    {
+      "id": "player_roles-0248",
+      "text": "Responsável pela estufa"
+    },
+    {
+      "id": "player_roles-0249",
+      "text": "Lenhador"
+    },
+    {
+      "id": "player_roles-0250",
+      "text": "Mineiro"
+    },
+    {
+      "id": "player_roles-0251",
+      "text": "Trabalhador de plataforma de petróleo"
+    },
+    {
+      "id": "player_roles-0252",
+      "text": "Socorrista"
+    },
+    {
+      "id": "player_roles-0253",
+      "text": "Bombeiro"
+    },
+    {
+      "id": "player_roles-0254",
+      "text": "Atendente de emergência"
+    },
+    {
+      "id": "player_roles-0255",
+      "text": "Coordenador de catástrofes"
+    },
+    {
+      "id": "player_roles-0256",
+      "text": "Líder de equipe de resgate"
+    },
+    {
+      "id": "player_roles-0257",
+      "text": "Soldado"
+    },
+    {
+      "id": "player_roles-0258",
+      "text": "Oficial"
+    },
+    {
+      "id": "player_roles-0259",
+      "text": "General"
+    },
+    {
+      "id": "player_roles-0260",
+      "text": "Comandante"
+    },
+    {
+      "id": "player_roles-0261",
+      "text": "Atirador de elite"
+    },
+    {
+      "id": "player_roles-0262",
+      "text": "Batedor"
+    },
+    {
+      "id": "player_roles-0263",
+      "text": "Comandante de tanque"
+    },
+    {
+      "id": "player_roles-0264",
+      "text": "Tripulante de submarino"
+    },
+    {
+      "id": "player_roles-0265",
+      "text": "Almirante da frota"
+    },
+    {
+      "id": "player_roles-0266",
+      "text": "Piloto da força aérea"
+    },
+    {
+      "id": "player_roles-0267",
+      "text": "Correspondente de guerra"
+    },
+    {
+      "id": "player_roles-0268",
+      "text": "Mercenário"
+    },
+    {
+      "id": "player_roles-0269",
+      "text": "Paraquedista sabotador"
+    },
+    {
+      "id": "player_roles-0270",
+      "text": "Prisioneiro de guerra"
+    },
+    {
+      "id": "player_roles-0271",
+      "text": "Civil no meio de uma guerra"
+    },
+    {
+      "id": "player_roles-0272",
+      "text": "Refugiado"
+    },
+    {
+      "id": "player_roles-0273",
+      "text": "Sobrevivente"
+    },
+    {
+      "id": "player_roles-0274",
+      "text": "Líder de um grupo de sobreviventes"
+    },
+    {
+      "id": "player_roles-0275",
+      "text": "Chefe do bunker"
+    },
+    {
+      "id": "player_roles-0276",
+      "text": "Líder da colônia"
+    },
+    {
+      "id": "player_roles-0277",
+      "text": "Engenheiro da colônia"
+    },
+    {
+      "id": "player_roles-0278",
+      "text": "Médico da colônia"
+    },
+    {
+      "id": "player_roles-0279",
+      "text": "Comandante de estação espacial"
+    },
+    {
+      "id": "player_roles-0280",
+      "text": "Piloto espacial"
+    },
+    {
+      "id": "player_roles-0281",
+      "text": "Astronauta"
+    },
+    {
+      "id": "player_roles-0282",
+      "text": "Cosmonauta"
+    },
+    {
+      "id": "player_roles-0283",
+      "text": "Minerador espacial"
+    },
+    {
+      "id": "player_roles-0284",
+      "text": "Engenheiro de terraformação"
+    },
+    {
+      "id": "player_roles-0285",
+      "text": "Sucateiro espacial"
+    },
+    {
+      "id": "player_roles-0286",
+      "text": "Comerciante espacial"
+    },
+    {
+      "id": "player_roles-0287",
+      "text": "Pirata espacial"
+    },
+    {
+      "id": "player_roles-0288",
+      "text": "Comerciante de estação espacial"
+    },
+    {
+      "id": "player_roles-0289",
+      "text": "Diplomata de primeiro contato"
+    },
+    {
+      "id": "player_roles-0290",
+      "text": "Explorador de um planeta alienígena"
+    },
+    {
+      "id": "player_roles-0291",
+      "text": "Arquivista de uma nave geracional"
+    },
+    {
+      "id": "player_roles-0292",
+      "text": "Passageiro acordado do sono criogênico"
+    },
+    {
+      "id": "player_roles-0293",
+      "text": "O último ser humano"
+    },
+    {
+      "id": "player_roles-0294",
+      "text": "O primeiro ser humano em Marte"
+    },
+    {
+      "id": "player_roles-0295",
+      "text": "Alienígena"
+    },
+    {
+      "id": "player_roles-0296",
+      "text": "Diplomata alienígena"
+    },
+    {
+      "id": "player_roles-0297",
+      "text": "Observador dos alienígenas"
+    },
+    {
+      "id": "player_roles-0298",
+      "text": "Clone"
+    },
+    {
+      "id": "player_roles-0299",
+      "text": "Supervisor de clones"
+    },
+    {
+      "id": "player_roles-0300",
+      "text": "Humano geneticamente modificado"
+    },
+    {
+      "id": "player_roles-0301",
+      "text": "Viajante do tempo"
+    },
+    {
+      "id": "player_roles-0302",
+      "text": "Policial do tempo"
+    },
+    {
+      "id": "player_roles-0303",
+      "text": "Atendente de uma agência de viagens no tempo"
+    },
+    {
+      "id": "player_roles-0304",
+      "text": "Consertador da história"
+    },
+    {
+      "id": "player_roles-0305",
+      "text": "Pessoa presa em um loop temporal"
+    },
+    {
+      "id": "player_roles-0306",
+      "text": "Observador vindo do futuro"
+    },
+    {
+      "id": "player_roles-0307",
+      "text": "Viajante preso no passado"
+    },
+    {
+      "id": "player_roles-0308",
+      "text": "Deus"
+    },
+    {
+      "id": "player_roles-0309",
+      "text": "Semideus"
+    },
+    {
+      "id": "player_roles-0310",
+      "text": "A Morte"
+    },
+    {
+      "id": "player_roles-0311",
+      "text": "Funcionário da Morte"
+    },
+    {
+      "id": "player_roles-0312",
+      "text": "Anjo"
+    },
+    {
+      "id": "player_roles-0313",
+      "text": "Demônio"
+    },
+    {
+      "id": "player_roles-0314",
+      "text": "Anjo da guarda"
+    },
+    {
+      "id": "player_roles-0315",
+      "text": "Burocrata do inferno"
+    },
+    {
+      "id": "player_roles-0316",
+      "text": "Funcionário do purgatório"
+    },
+    {
+      "id": "player_roles-0317",
+      "text": "Barqueiro das almas"
+    },
+    {
+      "id": "player_roles-0318",
+      "text": "Coveiro"
+    },
+    {
+      "id": "player_roles-0319",
+      "text": "Zelador do cemitério"
+    },
+    {
+      "id": "player_roles-0320",
+      "text": "Agente funerário"
+    },
+    {
+      "id": "player_roles-0321",
+      "text": "Médium"
+    },
+    {
+      "id": "player_roles-0322",
+      "text": "Caça-fantasmas"
+    },
+    {
+      "id": "player_roles-0323",
+      "text": "Espectro"
+    },
+    {
+      "id": "player_roles-0324",
+      "text": "Poltergeist"
+    },
+    {
+      "id": "player_roles-0325",
+      "text": "Vampiro"
+    },
+    {
+      "id": "player_roles-0326",
+      "text": "Lobisomem"
+    },
+    {
+      "id": "player_roles-0327",
+      "text": "Monstro"
+    },
+    {
+      "id": "player_roles-0328",
+      "text": "Caçador de monstros"
+    },
+    {
+      "id": "player_roles-0329",
+      "text": "Pessoa amaldiçoada"
+    },
+    {
+      "id": "player_roles-0330",
+      "text": "Imortal"
+    },
+    {
+      "id": "player_roles-0331",
+      "text": "Pessoa que reencarna"
+    },
+    {
+      "id": "player_roles-0332",
+      "text": "Sonâmbulo"
+    },
+    {
+      "id": "player_roles-0333",
+      "text": "Intérprete de sonhos"
+    },
+    {
+      "id": "player_roles-0334",
+      "text": "Arquiteto de sonhos"
+    },
+    {
+      "id": "player_roles-0335",
+      "text": "Comerciante de memórias"
+    },
+    {
+      "id": "player_roles-0336",
+      "text": "Ladrão de memórias"
+    },
+    {
+      "id": "player_roles-0337",
+      "text": "Pessoa que perdeu a memória"
+    },
+    {
+      "id": "player_roles-0338",
+      "text": "Pessoa que vive na mente de outra"
+    },
+    {
+      "id": "player_roles-0339",
+      "text": "Guardião de um pesadelo"
+    },
+    {
+      "id": "player_roles-0340",
+      "text": "Amigo imaginário"
+    },
+    {
+      "id": "player_roles-0341",
+      "text": "Criatura imaginária de uma criança"
+    },
+    {
+      "id": "player_roles-0342",
+      "text": "Diretor de escola"
+    },
+    {
+      "id": "player_roles-0343",
+      "text": "Orientador escolar"
+    },
+    {
+      "id": "player_roles-0344",
+      "text": "Conselheiro vocacional"
+    },
+    {
+      "id": "player_roles-0345",
+      "text": "Professor universitário"
+    },
+    {
+      "id": "player_roles-0346",
+      "text": "Estudante"
+    },
+    {
+      "id": "player_roles-0347",
+      "text": "Aluno do ensino fundamental"
+    },
+    {
+      "id": "player_roles-0348",
+      "text": "Valentão da escola"
+    },
+    {
+      "id": "player_roles-0349",
+      "text": "Professor responsável pela turma"
+    },
+    {
+      "id": "player_roles-0350",
+      "text": "Diretor de internato"
+    },
+    {
+      "id": "player_roles-0351",
+      "text": "Cuidador de orfanato"
+    },
+    {
+      "id": "player_roles-0352",
+      "text": "Criança do orfanato"
+    },
+    {
+      "id": "player_roles-0353",
+      "text": "Pai ou mãe"
+    },
+    {
+      "id": "player_roles-0354",
+      "text": "Pai ou mãe solo"
+    },
+    {
+      "id": "player_roles-0355",
+      "text": "Avô ou avó"
+    },
+    {
+      "id": "player_roles-0356",
+      "text": "Chefe da família"
+    },
+    {
+      "id": "player_roles-0357",
+      "text": "Ovelha negra da família"
+    },
+    {
+      "id": "player_roles-0358",
+      "text": "Patriarca da família"
+    },
+    {
+      "id": "player_roles-0359",
+      "text": "Matriarca da família"
+    },
+    {
+      "id": "player_roles-0360",
+      "text": "Herdeiro"
+    },
+    {
+      "id": "player_roles-0361",
+      "text": "Familiar desaparecido"
+    },
+    {
+      "id": "player_roles-0362",
+      "text": "Último membro da linhagem"
+    },
+    {
+      "id": "player_roles-0363",
+      "text": "Conselheiro matrimonial"
+    },
+    {
+      "id": "player_roles-0364",
+      "text": "Terapeuta de casais"
+    },
+    {
+      "id": "player_roles-0365",
+      "text": "Casamenteiro"
+    },
+    {
+      "id": "player_roles-0366",
+      "text": "Fofoqueiro do bairro"
+    },
+    {
+      "id": "player_roles-0367",
+      "text": "Presidente da associação de moradores"
+    },
+    {
+      "id": "player_roles-0368",
+      "text": "Síndico do condomínio"
+    },
+    {
+      "id": "player_roles-0369",
+      "text": "Administrador de imóveis"
+    },
+    {
+      "id": "player_roles-0370",
+      "text": "Passeador de cães"
+    },
+    {
+      "id": "player_roles-0371",
+      "text": "Cuidador de abrigo de animais"
+    },
+    {
+      "id": "player_roles-0372",
+      "text": "Tratador de zoológico"
+    },
+    {
+      "id": "player_roles-0373",
+      "text": "Diretor de circo"
+    },
+    {
+      "id": "player_roles-0374",
+      "text": "Artista de circo"
+    },
+    {
+      "id": "player_roles-0375",
+      "text": "Mágico de palco"
+    },
+    {
+      "id": "player_roles-0376",
+      "text": "Ator"
+    },
+    {
+      "id": "player_roles-0377",
+      "text": "Diretor de teatro"
+    },
+    {
+      "id": "player_roles-0378",
+      "text": "Diretor"
+    },
+    {
+      "id": "player_roles-0379",
+      "text": "Roteirista"
+    },
+    {
+      "id": "player_roles-0380",
+      "text": "Músico"
+    },
+    {
+      "id": "player_roles-0381",
+      "text": "Empresário de banda"
+    },
+    {
+      "id": "player_roles-0382",
+      "text": "DJ"
+    },
+    {
+      "id": "player_roles-0383",
+      "text": "Dono de fliperama"
+    },
+    {
+      "id": "player_roles-0384",
+      "text": "Gerente de cassino"
+    },
+    {
+      "id": "player_roles-0385",
+      "text": "Crupiê"
+    },
+    {
+      "id": "player_roles-0386",
+      "text": "Apostador"
+    },
+    {
+      "id": "player_roles-0387",
+      "text": "Atleta profissional"
+    },
+    {
+      "id": "player_roles-0388",
+      "text": "Treinador"
+    },
+    {
+      "id": "player_roles-0389",
+      "text": "Técnico de futebol"
+    },
+    {
+      "id": "player_roles-0390",
+      "text": "Dono do clube"
+    },
+    {
+      "id": "player_roles-0391",
+      "text": "Árbitro"
+    },
+    {
+      "id": "player_roles-0392",
+      "text": "Jornalista esportivo"
+    },
+    {
+      "id": "player_roles-0393",
+      "text": "Piloto de corrida"
+    },
+    {
+      "id": "player_roles-0394",
+      "text": "Navegador de rali"
+    },
+    {
+      "id": "player_roles-0395",
+      "text": "Piloto de lancha"
+    },
+    {
+      "id": "player_roles-0396",
+      "text": "Alpinista"
+    },
+    {
+      "id": "player_roles-0397",
+      "text": "Explorador de expedições"
+    },
+    {
+      "id": "player_roles-0398",
+      "text": "Aventureiro"
+    },
+    {
+      "id": "player_roles-0399",
+      "text": "Caçador de tesouros"
+    },
+    {
+      "id": "player_roles-0400",
+      "text": "Espeleólogo"
+    },
+    {
+      "id": "player_roles-0401",
+      "text": "Explorador do Ártico"
+    },
+    {
+      "id": "player_roles-0402",
+      "text": "Arqueólogo subaquático"
+    },
+    {
+      "id": "player_roles-0403",
+      "text": "Náufrago"
+    },
+    {
+      "id": "player_roles-0404",
+      "text": "Abandonado numa ilha deserta"
+    },
+    {
+      "id": "player_roles-0405",
+      "text": "Trilheiro perdido"
+    },
+    {
+      "id": "player_roles-0406",
+      "text": "O estranho eremita da vila"
+    },
+    {
+      "id": "player_roles-0407",
+      "text": "Eremita"
+    },
+    {
+      "id": "player_roles-0408",
+      "text": "Andarilho"
+    },
+    {
+      "id": "player_roles-0409",
+      "text": "Pessoa em situação de rua"
+    },
+    {
+      "id": "player_roles-0410",
+      "text": "Mendigo"
+    },
+    {
+      "id": "player_roles-0411",
+      "text": "Artista de rua"
+    },
+    {
+      "id": "player_roles-0412",
+      "text": "Vendedor ambulante"
+    },
+    {
+      "id": "player_roles-0413",
+      "text": "Explorador urbano"
+    },
+    {
+      "id": "player_roles-0414",
+      "text": "Grafiteiro"
+    },
+    {
+      "id": "player_roles-0415",
+      "text": "Operador da sala de controle"
+    },
+    {
+      "id": "player_roles-0416",
+      "text": "Operador de CFTV"
+    },
+    {
+      "id": "player_roles-0417",
+      "text": "Chefe de segurança"
+    },
+    {
+      "id": "player_roles-0418",
+      "text": "Controlador de trânsito"
+    },
+    {
+      "id": "player_roles-0419",
+      "text": "Supervisor da rede elétrica"
+    },
+    {
+      "id": "player_roles-0420",
+      "text": "Responsável pela estação de água"
+    },
+    {
+      "id": "player_roles-0421",
+      "text": "Operador da estação de tratamento de esgoto"
+    },
+    {
+      "id": "player_roles-0422",
+      "text": "Operador de usina elétrica"
+    },
+    {
+      "id": "player_roles-0423",
+      "text": "Supervisor do reator nuclear"
+    },
+    {
+      "id": "player_roles-0424",
+      "text": "Responsável pela estação meteorológica"
+    },
+    {
+      "id": "player_roles-0425",
+      "text": "Escriba do farol"
+    },
+    {
+      "id": "player_roles-0426",
+      "text": "Funcionário do cartório"
+    },
+    {
+      "id": "player_roles-0427",
+      "text": "Burocrata"
+    },
+    {
+      "id": "player_roles-0428",
+      "text": "Funcionário de licenças"
+    },
+    {
+      "id": "player_roles-0429",
+      "text": "Assistente social"
+    },
+    {
+      "id": "player_roles-0430",
+      "text": "Funcionário da agência de empregos"
+    },
+    {
+      "id": "player_roles-0431",
+      "text": "Funcionário do registro de óbitos"
+    },
+    {
+      "id": "player_roles-0432",
+      "text": "Atendente de achados e perdidos"
+    },
+    {
+      "id": "player_roles-0433",
+      "text": "Inspetor de passaportes"
+    },
+    {
+      "id": "player_roles-0434",
+      "text": "Agente de imigração"
+    },
+    {
+      "id": "player_roles-0435",
+      "text": "Mesário"
+    },
+    {
+      "id": "player_roles-0436",
+      "text": "Recenseador"
+    },
+    {
+      "id": "player_roles-0437",
+      "text": "Separador de correspondência"
+    },
+    {
+      "id": "player_roles-0438",
+      "text": "Plantonista"
+    },
+    {
+      "id": "player_roles-0439",
+      "text": "Negociador"
+    },
+    {
+      "id": "player_roles-0440",
+      "text": "Negociador de crises"
+    },
+    {
+      "id": "player_roles-0441",
+      "text": "Negociador de reféns"
+    },
+    {
+      "id": "player_roles-0442",
+      "text": "Mediador de paz"
+    },
+    {
+      "id": "player_roles-0443",
+      "text": "Negociador trabalhista"
+    },
+    {
+      "id": "player_roles-0444",
+      "text": "Líder sindical"
+    },
+    {
+      "id": "player_roles-0445",
+      "text": "Líder da greve"
+    },
+    {
+      "id": "player_roles-0446",
+      "text": "Operário de fábrica"
+    },
+    {
+      "id": "player_roles-0447",
+      "text": "Trabalhador da mina"
+    },
+    {
+      "id": "player_roles-0448",
+      "text": "Estivador"
+    },
+    {
+      "id": "player_roles-0449",
+      "text": "Funcionário de escritório"
+    },
+    {
+      "id": "player_roles-0450",
+      "text": "Gerente intermediário"
+    },
+    {
+      "id": "player_roles-0451",
+      "text": "Chefe de escritório"
+    },
+    {
+      "id": "player_roles-0452",
+      "text": "Gerente de projeto"
+    },
+    {
+      "id": "player_roles-0453",
+      "text": "Consultor"
+    },
+    {
+      "id": "player_roles-0454",
+      "text": "Espião corporativo"
+    },
+    {
+      "id": "player_roles-0455",
+      "text": "Auditor interno"
+    },
+    {
+      "id": "player_roles-0456",
+      "text": "Especialista em compliance"
+    },
+    {
+      "id": "player_roles-0457",
+      "text": "Gerente de riscos"
+    },
+    {
+      "id": "player_roles-0458",
+      "text": "CEO de uma empresa em crise"
+    },
+    {
+      "id": "player_roles-0459",
+      "text": "Administrador judicial da falência"
+    },
+    {
+      "id": "player_roles-0460",
+      "text": "Herdeiro do fundador da empresa"
+    },
+    {
+      "id": "player_roles-0461",
+      "text": "Contador de uma sociedade secreta"
+    },
+    {
+      "id": "player_roles-0462",
+      "text": "Arquivista de uma sociedade secreta"
+    },
+    {
+      "id": "player_roles-0463",
+      "text": "Membro de uma sociedade secreta"
+    },
+    {
+      "id": "player_roles-0464",
+      "text": "Líder de uma sociedade secreta"
+    },
+    {
+      "id": "player_roles-0465",
+      "text": "Espalhador de boatos"
+    },
+    {
+      "id": "player_roles-0466",
+      "text": "Funcionário de uma agência de fofocas"
+    },
+    {
+      "id": "player_roles-0467",
+      "text": "Produtor de fake news"
+    },
+    {
+      "id": "player_roles-0468",
+      "text": "Formador de opinião"
+    },
+    {
+      "id": "player_roles-0469",
+      "text": "Moderador de redes sociais"
+    },
+    {
+      "id": "player_roles-0470",
+      "text": "Influenciador"
+    },
+    {
+      "id": "player_roles-0471",
+      "text": "Usuário anônimo de fórum"
+    },
+    {
+      "id": "player_roles-0472",
+      "text": "Administrador de uma comunidade online"
+    },
+    {
+      "id": "player_roles-0473",
+      "text": "Deus de um mundo virtual"
+    },
+    {
+      "id": "player_roles-0474",
+      "text": "NPC do mundo do jogo que sabe que é um NPC"
+    },
+    {
+      "id": "player_roles-0475",
+      "text": "Administrador do mundo do jogo"
+    },
+    {
+      "id": "player_roles-0476",
+      "text": "Consertador de uma simulação quebrada"
+    },
+    {
+      "id": "player_roles-0477",
+      "text": "Observador desconhecido"
+    },
+    {
+      "id": "player_roles-0478",
+      "text": "Observador invisível"
+    },
+    {
+      "id": "player_roles-0479",
+      "text": "Narrador"
+    },
+    {
+      "id": "player_roles-0480",
+      "text": "Narrador não confiável"
+    },
+    {
+      "id": "player_roles-0481",
+      "text": "Personagem que observa o jogador"
+    },
+    {
+      "id": "player_roles-0482",
+      "text": "Personagem que não pode sair de um único cômodo"
+    },
+    {
+      "id": "player_roles-0483",
+      "text": "Personagem que não pode falar"
+    },
+    {
+      "id": "player_roles-0484",
+      "text": "Personagem de quem ninguém mais se lembra"
+    },
+    {
+      "id": "player_roles-0485",
+      "text": "Personagem que se lembra das partidas anteriores"
+    },
+    {
+      "id": "player_roles-0486",
+      "text": "Personagem que acorda em uma pessoa diferente a cada dia"
+    },
+    {
+      "id": "player_roles-0487",
+      "text": "Personagem que precisa mentir"
+    },
+    {
+      "id": "player_roles-0488",
+      "text": "Personagem que vê o futuro"
+    },
+    {
+      "id": "player_roles-0489",
+      "text": "Personagem que ouve os pensamentos dos mortos"
+    },
+    {
+      "id": "player_roles-0490",
+      "text": "Personagem que não sabe que está morto"
+    },
+    {
+      "id": "player_roles-0491",
+      "text": "Personagem que tenta provar que existe"
+    }
   ]
 }

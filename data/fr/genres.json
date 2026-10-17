@@ -1,499 +1,1822 @@
 {
   "genres": {
     "action": [
-      "Action",
-      "Action-aventure",
-      "Plateforme",
-      "Plateforme 2D",
-      "Plateforme 3D",
-      "Metroidvania",
-      "Beat 'em up",
-      "Hack and slash",
-      "Action à personnages",
-      "Tir",
-      "Jeu de tir à la première personne (FPS)",
-      "Jeu de tir à la troisième personne (TPS)",
-      "Shooter d'arène",
-      "Shooter tactique",
-      "Hero shooter",
-      "Shooter d'extraction",
-      "Looter shooter",
-      "Rail shooter",
-      "Shoot 'em up",
-      "Bullet hell",
-      "Twin-stick shooter",
-      "Run and gun",
-      "Infiltration",
-      "Action-infiltration",
-      "Jeu de combat",
-      "Combat 2D",
-      "Combat 3D",
-      "Combat d'arène",
-      "Jeu de catch",
-      "Action rythmique"
+      {
+        "id": "genres-0001",
+        "text": "Action"
+      },
+      {
+        "id": "genres-0002",
+        "text": "Action-aventure"
+      },
+      {
+        "id": "genres-0003",
+        "text": "Plateforme"
+      },
+      {
+        "id": "genres-0004",
+        "text": "Plateforme 2D"
+      },
+      {
+        "id": "genres-0005",
+        "text": "Plateforme 3D"
+      },
+      {
+        "id": "genres-0006",
+        "text": "Metroidvania"
+      },
+      {
+        "id": "genres-0007",
+        "text": "Beat 'em up"
+      },
+      {
+        "id": "genres-0008",
+        "text": "Hack and slash"
+      },
+      {
+        "id": "genres-0009",
+        "text": "Action à personnages"
+      },
+      {
+        "id": "genres-0010",
+        "text": "Tir"
+      },
+      {
+        "id": "genres-0011",
+        "text": "Jeu de tir à la première personne (FPS)"
+      },
+      {
+        "id": "genres-0012",
+        "text": "Jeu de tir à la troisième personne (TPS)"
+      },
+      {
+        "id": "genres-0013",
+        "text": "Shooter d'arène"
+      },
+      {
+        "id": "genres-0014",
+        "text": "Shooter tactique"
+      },
+      {
+        "id": "genres-0015",
+        "text": "Hero shooter"
+      },
+      {
+        "id": "genres-0016",
+        "text": "Shooter d'extraction"
+      },
+      {
+        "id": "genres-0017",
+        "text": "Looter shooter"
+      },
+      {
+        "id": "genres-0018",
+        "text": "Rail shooter"
+      },
+      {
+        "id": "genres-0019",
+        "text": "Shoot 'em up"
+      },
+      {
+        "id": "genres-0020",
+        "text": "Bullet hell"
+      },
+      {
+        "id": "genres-0021",
+        "text": "Twin-stick shooter"
+      },
+      {
+        "id": "genres-0022",
+        "text": "Run and gun"
+      },
+      {
+        "id": "genres-0023",
+        "text": "Infiltration"
+      },
+      {
+        "id": "genres-0024",
+        "text": "Action-infiltration"
+      },
+      {
+        "id": "genres-0025",
+        "text": "Jeu de combat"
+      },
+      {
+        "id": "genres-0026",
+        "text": "Combat 2D"
+      },
+      {
+        "id": "genres-0027",
+        "text": "Combat 3D"
+      },
+      {
+        "id": "genres-0028",
+        "text": "Combat d'arène"
+      },
+      {
+        "id": "genres-0029",
+        "text": "Jeu de catch"
+      },
+      {
+        "id": "genres-0030",
+        "text": "Action rythmique"
+      }
     ],
     "adventure": [
-      "Aventure",
-      "Point-and-click",
-      "Aventure graphique",
-      "Aventure textuelle",
-      "Fiction interactive",
-      "Visual novel",
-      "Walking simulator",
-      "Aventure narrative",
-      "Aventure cinématographique",
-      "Récit à choix",
-      "Mystère",
-      "Jeu de détective",
-      "Jeu d'enquête",
-      "Jeu d'escape game",
-      "Aventure à énigmes",
-      "Jeu d'objets cachés",
-      "Jeu FMV"
+      {
+        "id": "genres-0031",
+        "text": "Aventure"
+      },
+      {
+        "id": "genres-0032",
+        "text": "Point-and-click"
+      },
+      {
+        "id": "genres-0033",
+        "text": "Aventure graphique"
+      },
+      {
+        "id": "genres-0034",
+        "text": "Aventure textuelle"
+      },
+      {
+        "id": "genres-0035",
+        "text": "Fiction interactive"
+      },
+      {
+        "id": "genres-0036",
+        "text": "Visual novel"
+      },
+      {
+        "id": "genres-0037",
+        "text": "Walking simulator"
+      },
+      {
+        "id": "genres-0038",
+        "text": "Aventure narrative"
+      },
+      {
+        "id": "genres-0039",
+        "text": "Aventure cinématographique"
+      },
+      {
+        "id": "genres-0040",
+        "text": "Récit à choix"
+      },
+      {
+        "id": "genres-0041",
+        "text": "Mystère"
+      },
+      {
+        "id": "genres-0042",
+        "text": "Jeu de détective"
+      },
+      {
+        "id": "genres-0043",
+        "text": "Jeu d'enquête"
+      },
+      {
+        "id": "genres-0044",
+        "text": "Jeu d'escape game"
+      },
+      {
+        "id": "genres-0045",
+        "text": "Aventure à énigmes"
+      },
+      {
+        "id": "genres-0046",
+        "text": "Jeu d'objets cachés"
+      },
+      {
+        "id": "genres-0047",
+        "text": "Jeu FMV"
+      }
     ],
     "rpg": [
-      "RPG",
-      "RPG d'action",
-      "RPG tactique",
-      "RPG de stratégie",
-      "RPG au tour par tour",
-      "RPG en temps réel",
-      "RPG sur ordinateur (CRPG)",
-      "RPG japonais (JRPG)",
-      "RPG occidental",
-      "RPG en monde ouvert",
-      "Dungeon crawler",
-      "Dungeon crawler à la première personne",
-      "RPG de groupe",
-      "RPG de capture de monstres",
-      "Soulslike",
-      "RPG roguelike",
-      "RPG roguelite",
-      "MMORPG",
-      "MUD",
-      "RPG bac à sable",
-      "RPG de vie",
-      "RPG narratif",
-      "RPG immersif"
+      {
+        "id": "genres-0048",
+        "text": "RPG"
+      },
+      {
+        "id": "genres-0049",
+        "text": "RPG d'action"
+      },
+      {
+        "id": "genres-0050",
+        "text": "RPG tactique"
+      },
+      {
+        "id": "genres-0051",
+        "text": "RPG de stratégie"
+      },
+      {
+        "id": "genres-0052",
+        "text": "RPG au tour par tour"
+      },
+      {
+        "id": "genres-0053",
+        "text": "RPG en temps réel"
+      },
+      {
+        "id": "genres-0054",
+        "text": "RPG sur ordinateur (CRPG)"
+      },
+      {
+        "id": "genres-0055",
+        "text": "RPG japonais (JRPG)"
+      },
+      {
+        "id": "genres-0056",
+        "text": "RPG occidental"
+      },
+      {
+        "id": "genres-0057",
+        "text": "RPG en monde ouvert"
+      },
+      {
+        "id": "genres-0058",
+        "text": "Dungeon crawler"
+      },
+      {
+        "id": "genres-0059",
+        "text": "Dungeon crawler à la première personne"
+      },
+      {
+        "id": "genres-0060",
+        "text": "RPG de groupe"
+      },
+      {
+        "id": "genres-0061",
+        "text": "RPG de capture de monstres"
+      },
+      {
+        "id": "genres-0062",
+        "text": "Soulslike"
+      },
+      {
+        "id": "genres-0063",
+        "text": "RPG roguelike"
+      },
+      {
+        "id": "genres-0064",
+        "text": "RPG roguelite"
+      },
+      {
+        "id": "genres-0065",
+        "text": "MMORPG"
+      },
+      {
+        "id": "genres-0066",
+        "text": "MUD"
+      },
+      {
+        "id": "genres-0067",
+        "text": "RPG bac à sable"
+      },
+      {
+        "id": "genres-0068",
+        "text": "RPG de vie"
+      },
+      {
+        "id": "genres-0069",
+        "text": "RPG narratif"
+      },
+      {
+        "id": "genres-0070",
+        "text": "RPG immersif"
+      }
     ],
     "strategy": [
-      "Stratégie",
-      "Stratégie en temps réel (RTS)",
-      "Stratégie au tour par tour (TBS)",
-      "Grande stratégie",
-      "4X",
-      "Stratégie tactique",
-      "Tactique en temps réel",
-      "Tactique au tour par tour",
-      "Wargame",
-      "Wargame opérationnel",
-      "Wargame tactique",
-      "Wargame à hexagones et pions",
-      "Tower defense",
-      "Tower offense",
-      "Auto battler",
-      "Stratégie de couloirs",
-      "MOBA",
-      "Stratégie de deckbuilding",
-      "Stratégie de cartes",
-      "Stratégie politique",
-      "Stratégie géopolitique",
-      "Stratégie économique",
-      "Jeu de diplomatie",
-      "Stratégie coloniale",
-      "Gestion d'un royaume",
-      "Contrôle de territoire"
+      {
+        "id": "genres-0071",
+        "text": "Stratégie"
+      },
+      {
+        "id": "genres-0072",
+        "text": "Stratégie en temps réel (RTS)"
+      },
+      {
+        "id": "genres-0073",
+        "text": "Stratégie au tour par tour (TBS)"
+      },
+      {
+        "id": "genres-0074",
+        "text": "Grande stratégie"
+      },
+      {
+        "id": "genres-0075",
+        "text": "4X"
+      },
+      {
+        "id": "genres-0076",
+        "text": "Stratégie tactique"
+      },
+      {
+        "id": "genres-0077",
+        "text": "Tactique en temps réel"
+      },
+      {
+        "id": "genres-0078",
+        "text": "Tactique au tour par tour"
+      },
+      {
+        "id": "genres-0079",
+        "text": "Wargame"
+      },
+      {
+        "id": "genres-0080",
+        "text": "Wargame opérationnel"
+      },
+      {
+        "id": "genres-0081",
+        "text": "Wargame tactique"
+      },
+      {
+        "id": "genres-0082",
+        "text": "Wargame à hexagones et pions"
+      },
+      {
+        "id": "genres-0083",
+        "text": "Tower defense"
+      },
+      {
+        "id": "genres-0084",
+        "text": "Tower offense"
+      },
+      {
+        "id": "genres-0085",
+        "text": "Auto battler"
+      },
+      {
+        "id": "genres-0086",
+        "text": "Stratégie de couloirs"
+      },
+      {
+        "id": "genres-0087",
+        "text": "MOBA"
+      },
+      {
+        "id": "genres-0088",
+        "text": "Stratégie de deckbuilding"
+      },
+      {
+        "id": "genres-0089",
+        "text": "Stratégie de cartes"
+      },
+      {
+        "id": "genres-0090",
+        "text": "Stratégie politique"
+      },
+      {
+        "id": "genres-0091",
+        "text": "Stratégie géopolitique"
+      },
+      {
+        "id": "genres-0092",
+        "text": "Stratégie économique"
+      },
+      {
+        "id": "genres-0093",
+        "text": "Jeu de diplomatie"
+      },
+      {
+        "id": "genres-0094",
+        "text": "Stratégie coloniale"
+      },
+      {
+        "id": "genres-0095",
+        "text": "Gestion d'un royaume"
+      },
+      {
+        "id": "genres-0096",
+        "text": "Contrôle de territoire"
+      }
     ],
     "simulation": [
-      "Simulation",
-      "Simulation de vie",
-      "Simulation sociale",
-      "Simulation de drague",
-      "Simulation relationnelle",
-      "Simulation de métier",
-      "Simulation de véhicules",
-      "Simulateur de vol",
-      "Simulateur de vol spatial",
-      "Simulateur de conduite",
-      "Simulateur de train",
-      "Simulateur de camion",
-      "Simulateur agricole",
-      "Simulateur de chasse",
-      "Simulateur de pêche",
-      "Simulateur de construction",
-      "Simulateur de chirurgie",
-      "Simulateur médical",
-      "Simulation d'entreprise",
-      "Simulation politique",
-      "Simulation de gouvernement",
-      "Simulation économique",
-      "Simulation d'écosystème",
-      "Simulation de l'évolution",
-      "God game",
-      "Simulation de population",
-      "Simulation de société",
-      "Simulation physique"
+      {
+        "id": "genres-0097",
+        "text": "Simulation"
+      },
+      {
+        "id": "genres-0098",
+        "text": "Simulation de vie"
+      },
+      {
+        "id": "genres-0099",
+        "text": "Simulation sociale"
+      },
+      {
+        "id": "genres-0100",
+        "text": "Simulation de drague"
+      },
+      {
+        "id": "genres-0101",
+        "text": "Simulation relationnelle"
+      },
+      {
+        "id": "genres-0102",
+        "text": "Simulation de métier"
+      },
+      {
+        "id": "genres-0103",
+        "text": "Simulation de véhicules"
+      },
+      {
+        "id": "genres-0104",
+        "text": "Simulateur de vol"
+      },
+      {
+        "id": "genres-0105",
+        "text": "Simulateur de vol spatial"
+      },
+      {
+        "id": "genres-0106",
+        "text": "Simulateur de conduite"
+      },
+      {
+        "id": "genres-0107",
+        "text": "Simulateur de train"
+      },
+      {
+        "id": "genres-0108",
+        "text": "Simulateur de camion"
+      },
+      {
+        "id": "genres-0109",
+        "text": "Simulateur agricole"
+      },
+      {
+        "id": "genres-0110",
+        "text": "Simulateur de chasse"
+      },
+      {
+        "id": "genres-0111",
+        "text": "Simulateur de pêche"
+      },
+      {
+        "id": "genres-0112",
+        "text": "Simulateur de construction"
+      },
+      {
+        "id": "genres-0113",
+        "text": "Simulateur de chirurgie"
+      },
+      {
+        "id": "genres-0114",
+        "text": "Simulateur médical"
+      },
+      {
+        "id": "genres-0115",
+        "text": "Simulation d'entreprise"
+      },
+      {
+        "id": "genres-0116",
+        "text": "Simulation politique"
+      },
+      {
+        "id": "genres-0117",
+        "text": "Simulation de gouvernement"
+      },
+      {
+        "id": "genres-0118",
+        "text": "Simulation économique"
+      },
+      {
+        "id": "genres-0119",
+        "text": "Simulation d'écosystème"
+      },
+      {
+        "id": "genres-0120",
+        "text": "Simulation de l'évolution"
+      },
+      {
+        "id": "genres-0121",
+        "text": "God game"
+      },
+      {
+        "id": "genres-0122",
+        "text": "Simulation de population"
+      },
+      {
+        "id": "genres-0123",
+        "text": "Simulation de société"
+      },
+      {
+        "id": "genres-0124",
+        "text": "Simulation physique"
+      }
     ],
     "management_and_tycoon": [
-      "Jeu de gestion",
-      "Tycoon",
-      "Tycoon d'entreprise",
-      "Tycoon de transport",
-      "Gestion de parc d'attractions",
-      "Gestion d'hôpital",
-      "Gestion d'hôtel",
-      "Gestion de restaurant",
-      "Gestion de boutique",
-      "Gestion d'usine",
-      "Gestion de prison",
-      "Gestion d'école",
-      "Gestion sportive",
-      "Manager de football",
-      "Gestion des ressources",
-      "Gestion du personnel",
-      "Gestion logistique",
-      "Jeu de chaîne d'approvisionnement",
-      "Jeu de chaîne de production",
-      "Gestion de colonie",
-      "Gestion de colonie de peuplement",
-      "Gestion d'un royaume",
-      "Gestion de ville"
+      {
+        "id": "genres-0125",
+        "text": "Jeu de gestion"
+      },
+      {
+        "id": "genres-0126",
+        "text": "Tycoon"
+      },
+      {
+        "id": "genres-0127",
+        "text": "Tycoon d'entreprise"
+      },
+      {
+        "id": "genres-0128",
+        "text": "Tycoon de transport"
+      },
+      {
+        "id": "genres-0129",
+        "text": "Gestion de parc d'attractions"
+      },
+      {
+        "id": "genres-0130",
+        "text": "Gestion d'hôpital"
+      },
+      {
+        "id": "genres-0131",
+        "text": "Gestion d'hôtel"
+      },
+      {
+        "id": "genres-0132",
+        "text": "Gestion de restaurant"
+      },
+      {
+        "id": "genres-0133",
+        "text": "Gestion de boutique"
+      },
+      {
+        "id": "genres-0134",
+        "text": "Gestion d'usine"
+      },
+      {
+        "id": "genres-0135",
+        "text": "Gestion de prison"
+      },
+      {
+        "id": "genres-0136",
+        "text": "Gestion d'école"
+      },
+      {
+        "id": "genres-0137",
+        "text": "Gestion sportive"
+      },
+      {
+        "id": "genres-0138",
+        "text": "Manager de football"
+      },
+      {
+        "id": "genres-0139",
+        "text": "Gestion des ressources"
+      },
+      {
+        "id": "genres-0140",
+        "text": "Gestion du personnel"
+      },
+      {
+        "id": "genres-0141",
+        "text": "Gestion logistique"
+      },
+      {
+        "id": "genres-0142",
+        "text": "Jeu de chaîne d'approvisionnement"
+      },
+      {
+        "id": "genres-0143",
+        "text": "Jeu de chaîne de production"
+      },
+      {
+        "id": "genres-0144",
+        "text": "Gestion de colonie"
+      },
+      {
+        "id": "genres-0145",
+        "text": "Gestion de colonie de peuplement"
+      },
+      {
+        "id": "genres-0146",
+        "text": "Gestion d'un royaume"
+      },
+      {
+        "id": "genres-0147",
+        "text": "Gestion de ville"
+      }
     ],
     "building": [
-      "City builder",
-      "Construction de colonie",
-      "Construction de colonie de peuplement",
-      "Construction de base",
-      "Construction d'usine",
-      "Jeu d'automatisation",
-      "Jeu de construction",
-      "Construction bac à sable",
-      "Construction de maison",
-      "Jeu de décoration d'intérieur",
-      "Construction en voxels",
-      "Construction de monde",
-      "Construction de civilisation"
+      {
+        "id": "genres-0148",
+        "text": "City builder"
+      },
+      {
+        "id": "genres-0149",
+        "text": "Construction de colonie"
+      },
+      {
+        "id": "genres-0150",
+        "text": "Construction de colonie de peuplement"
+      },
+      {
+        "id": "genres-0151",
+        "text": "Construction de base"
+      },
+      {
+        "id": "genres-0152",
+        "text": "Construction d'usine"
+      },
+      {
+        "id": "genres-0153",
+        "text": "Jeu d'automatisation"
+      },
+      {
+        "id": "genres-0154",
+        "text": "Jeu de construction"
+      },
+      {
+        "id": "genres-0155",
+        "text": "Construction bac à sable"
+      },
+      {
+        "id": "genres-0156",
+        "text": "Construction de maison"
+      },
+      {
+        "id": "genres-0157",
+        "text": "Jeu de décoration d'intérieur"
+      },
+      {
+        "id": "genres-0158",
+        "text": "Construction en voxels"
+      },
+      {
+        "id": "genres-0159",
+        "text": "Construction de monde"
+      },
+      {
+        "id": "genres-0160",
+        "text": "Construction de civilisation"
+      }
     ],
     "survival": [
-      "Survie",
-      "Survie et artisanat",
-      "Survival horror",
-      "Survie en monde ouvert",
-      "Survie extrême",
-      "Survie en milieu sauvage",
-      "Survie post-apocalyptique",
-      "Survie spatiale",
-      "Survie sous-marine",
-      "Survie de colonie",
-      "Survie sociale",
-      "Survie d'extraction",
-      "Survie à une catastrophe"
+      {
+        "id": "genres-0161",
+        "text": "Survie"
+      },
+      {
+        "id": "genres-0162",
+        "text": "Survie et artisanat"
+      },
+      {
+        "id": "genres-0163",
+        "text": "Survival horror"
+      },
+      {
+        "id": "genres-0164",
+        "text": "Survie en monde ouvert"
+      },
+      {
+        "id": "genres-0165",
+        "text": "Survie extrême"
+      },
+      {
+        "id": "genres-0166",
+        "text": "Survie en milieu sauvage"
+      },
+      {
+        "id": "genres-0167",
+        "text": "Survie post-apocalyptique"
+      },
+      {
+        "id": "genres-0168",
+        "text": "Survie spatiale"
+      },
+      {
+        "id": "genres-0169",
+        "text": "Survie sous-marine"
+      },
+      {
+        "id": "genres-0170",
+        "text": "Survie de colonie"
+      },
+      {
+        "id": "genres-0171",
+        "text": "Survie sociale"
+      },
+      {
+        "id": "genres-0172",
+        "text": "Survie d'extraction"
+      },
+      {
+        "id": "genres-0173",
+        "text": "Survie à une catastrophe"
+      }
     ],
     "horror": [
-      "Horreur",
-      "Survival horror",
-      "Horreur psychologique",
-      "Horreur cosmique",
-      "Body horror",
-      "Horreur gothique",
-      "Folk horror",
-      "Horreur paranormale",
-      "Horreur found footage",
-      "Jeu d'horreur analogique",
-      "Horreur à mascottes",
-      "Horreur d'infiltration",
-      "Horreur à énigmes",
-      "Horreur d'action",
-      "Horreur narrative"
+      {
+        "id": "genres-0174",
+        "text": "Horreur"
+      },
+      {
+        "id": "genres-0175",
+        "text": "Survival horror"
+      },
+      {
+        "id": "genres-0176",
+        "text": "Horreur psychologique"
+      },
+      {
+        "id": "genres-0177",
+        "text": "Horreur cosmique"
+      },
+      {
+        "id": "genres-0178",
+        "text": "Body horror"
+      },
+      {
+        "id": "genres-0179",
+        "text": "Horreur gothique"
+      },
+      {
+        "id": "genres-0180",
+        "text": "Folk horror"
+      },
+      {
+        "id": "genres-0181",
+        "text": "Horreur paranormale"
+      },
+      {
+        "id": "genres-0182",
+        "text": "Horreur found footage"
+      },
+      {
+        "id": "genres-0183",
+        "text": "Jeu d'horreur analogique"
+      },
+      {
+        "id": "genres-0184",
+        "text": "Horreur à mascottes"
+      },
+      {
+        "id": "genres-0185",
+        "text": "Horreur d'infiltration"
+      },
+      {
+        "id": "genres-0186",
+        "text": "Horreur à énigmes"
+      },
+      {
+        "id": "genres-0187",
+        "text": "Horreur d'action"
+      },
+      {
+        "id": "genres-0188",
+        "text": "Horreur narrative"
+      }
     ],
     "puzzle": [
-      "Réflexion",
-      "Énigmes logiques",
-      "Énigmes physiques",
-      "Énigmes spatiales",
-      "Jeu de lettres",
-      "Énigmes mathématiques",
-      "Énigmes de programmation",
-      "Énigmes d'automatisation",
-      "Reconnaissance de motifs",
-      "Match-3",
-      "Association de tuiles",
-      "Sokoban",
-      "Puzzle à blocs qui tombent",
-      "Plateforme-réflexion",
-      "Aventure à énigmes",
-      "Escape game",
-      "Jeu de déduction",
-      "Nonogramme",
-      "Jeu de sudoku",
-      "Jeu de quiz"
+      {
+        "id": "genres-0189",
+        "text": "Réflexion"
+      },
+      {
+        "id": "genres-0190",
+        "text": "Énigmes logiques"
+      },
+      {
+        "id": "genres-0191",
+        "text": "Énigmes physiques"
+      },
+      {
+        "id": "genres-0192",
+        "text": "Énigmes spatiales"
+      },
+      {
+        "id": "genres-0193",
+        "text": "Jeu de lettres"
+      },
+      {
+        "id": "genres-0194",
+        "text": "Énigmes mathématiques"
+      },
+      {
+        "id": "genres-0195",
+        "text": "Énigmes de programmation"
+      },
+      {
+        "id": "genres-0196",
+        "text": "Énigmes d'automatisation"
+      },
+      {
+        "id": "genres-0197",
+        "text": "Reconnaissance de motifs"
+      },
+      {
+        "id": "genres-0198",
+        "text": "Match-3"
+      },
+      {
+        "id": "genres-0199",
+        "text": "Association de tuiles"
+      },
+      {
+        "id": "genres-0200",
+        "text": "Sokoban"
+      },
+      {
+        "id": "genres-0201",
+        "text": "Puzzle à blocs qui tombent"
+      },
+      {
+        "id": "genres-0202",
+        "text": "Plateforme-réflexion"
+      },
+      {
+        "id": "genres-0203",
+        "text": "Aventure à énigmes"
+      },
+      {
+        "id": "genres-0204",
+        "text": "Escape game"
+      },
+      {
+        "id": "genres-0205",
+        "text": "Jeu de déduction"
+      },
+      {
+        "id": "genres-0206",
+        "text": "Nonogramme"
+      },
+      {
+        "id": "genres-0207",
+        "text": "Jeu de sudoku"
+      },
+      {
+        "id": "genres-0208",
+        "text": "Jeu de quiz"
+      }
     ],
     "card_and_board": [
-      "Jeu de cartes",
-      "Jeu de cartes à collectionner (CCG)",
-      "Jeu de cartes à échanger (TCG)",
-      "Jeu de cartes évolutif",
-      "Deckbuilder",
-      "Deckbuilder roguelike",
-      "Solitaire",
-      "Jeu de plateau numérique",
-      "Jeu de dés",
-      "Jeu de pose de tuiles",
-      "Jeu de placement d'ouvriers",
-      "Jeu de contrôle de zones",
-      "Déduction sociale",
-      "Jeu à rôles cachés",
-      "Jeu de plis",
-      "Jeu de stop ou encore",
-      "Jeu de construction de moteur"
+      {
+        "id": "genres-0209",
+        "text": "Jeu de cartes"
+      },
+      {
+        "id": "genres-0210",
+        "text": "Jeu de cartes à collectionner (CCG)"
+      },
+      {
+        "id": "genres-0211",
+        "text": "Jeu de cartes à échanger (TCG)"
+      },
+      {
+        "id": "genres-0212",
+        "text": "Jeu de cartes évolutif"
+      },
+      {
+        "id": "genres-0213",
+        "text": "Deckbuilder"
+      },
+      {
+        "id": "genres-0214",
+        "text": "Deckbuilder roguelike"
+      },
+      {
+        "id": "genres-0215",
+        "text": "Solitaire"
+      },
+      {
+        "id": "genres-0216",
+        "text": "Jeu de plateau numérique"
+      },
+      {
+        "id": "genres-0217",
+        "text": "Jeu de dés"
+      },
+      {
+        "id": "genres-0218",
+        "text": "Jeu de pose de tuiles"
+      },
+      {
+        "id": "genres-0219",
+        "text": "Jeu de placement d'ouvriers"
+      },
+      {
+        "id": "genres-0220",
+        "text": "Jeu de contrôle de zones"
+      },
+      {
+        "id": "genres-0221",
+        "text": "Déduction sociale"
+      },
+      {
+        "id": "genres-0222",
+        "text": "Jeu à rôles cachés"
+      },
+      {
+        "id": "genres-0223",
+        "text": "Jeu de plis"
+      },
+      {
+        "id": "genres-0224",
+        "text": "Jeu de stop ou encore"
+      },
+      {
+        "id": "genres-0225",
+        "text": "Jeu de construction de moteur"
+      }
     ],
     "roguelike": [
-      "Roguelike",
-      "Roguelike traditionnel",
-      "Roguelite",
-      "Roguelite d'action",
-      "Roguelite de deckbuilding",
-      "Roguelike tactique",
-      "Roguelike de donjon",
-      "Roguelite de survie",
-      "Bullet heaven",
-      "Survie contre des hordes",
-      "Façon Vampire Survivors"
+      {
+        "id": "genres-0226",
+        "text": "Roguelike"
+      },
+      {
+        "id": "genres-0227",
+        "text": "Roguelike traditionnel"
+      },
+      {
+        "id": "genres-0228",
+        "text": "Roguelite"
+      },
+      {
+        "id": "genres-0229",
+        "text": "Roguelite d'action"
+      },
+      {
+        "id": "genres-0230",
+        "text": "Roguelite de deckbuilding"
+      },
+      {
+        "id": "genres-0231",
+        "text": "Roguelike tactique"
+      },
+      {
+        "id": "genres-0232",
+        "text": "Roguelike de donjon"
+      },
+      {
+        "id": "genres-0233",
+        "text": "Roguelite de survie"
+      },
+      {
+        "id": "genres-0234",
+        "text": "Bullet heaven"
+      },
+      {
+        "id": "genres-0235",
+        "text": "Survie contre des hordes"
+      },
+      {
+        "id": "genres-0236",
+        "text": "Façon Vampire Survivors"
+      }
     ],
     "sandbox_and_open_world": [
-      "Bac à sable",
-      "Monde ouvert",
-      "Simulation ouverte",
-      "Gameplay émergent",
-      "Jeu systémique",
-      "Immersive sim",
-      "Bac à sable physique",
-      "Bac à sable créatif",
-      "Bac à sable social",
-      "Bac à sable criminel",
-      "Bac à sable de survie",
-      "Bac à sable divin"
+      {
+        "id": "genres-0237",
+        "text": "Bac à sable"
+      },
+      {
+        "id": "genres-0238",
+        "text": "Monde ouvert"
+      },
+      {
+        "id": "genres-0239",
+        "text": "Simulation ouverte"
+      },
+      {
+        "id": "genres-0240",
+        "text": "Gameplay émergent"
+      },
+      {
+        "id": "genres-0241",
+        "text": "Jeu systémique"
+      },
+      {
+        "id": "genres-0242",
+        "text": "Immersive sim"
+      },
+      {
+        "id": "genres-0243",
+        "text": "Bac à sable physique"
+      },
+      {
+        "id": "genres-0244",
+        "text": "Bac à sable créatif"
+      },
+      {
+        "id": "genres-0245",
+        "text": "Bac à sable social"
+      },
+      {
+        "id": "genres-0246",
+        "text": "Bac à sable criminel"
+      },
+      {
+        "id": "genres-0247",
+        "text": "Bac à sable de survie"
+      },
+      {
+        "id": "genres-0248",
+        "text": "Bac à sable divin"
+      }
     ],
     "multiplayer": [
-      "MMO",
-      "MMORPG",
-      "MMOFPS",
-      "Coopératif",
-      "Coopératif local",
-      "Coopératif en ligne",
-      "Multijoueur compétitif",
-      "Party game",
-      "Jeu social",
-      "Déduction sociale",
-      "Battle royale",
-      "Jeu d'extraction",
-      "MOBA",
-      "Combat en arène",
-      "Multijoueur asymétrique",
-      "Monde persistant",
-      "PvPvE"
+      {
+        "id": "genres-0249",
+        "text": "MMO"
+      },
+      {
+        "id": "genres-0250",
+        "text": "MMORPG"
+      },
+      {
+        "id": "genres-0251",
+        "text": "MMOFPS"
+      },
+      {
+        "id": "genres-0252",
+        "text": "Coopératif"
+      },
+      {
+        "id": "genres-0253",
+        "text": "Coopératif local"
+      },
+      {
+        "id": "genres-0254",
+        "text": "Coopératif en ligne"
+      },
+      {
+        "id": "genres-0255",
+        "text": "Multijoueur compétitif"
+      },
+      {
+        "id": "genres-0256",
+        "text": "Party game"
+      },
+      {
+        "id": "genres-0257",
+        "text": "Jeu social"
+      },
+      {
+        "id": "genres-0258",
+        "text": "Déduction sociale"
+      },
+      {
+        "id": "genres-0259",
+        "text": "Battle royale"
+      },
+      {
+        "id": "genres-0260",
+        "text": "Jeu d'extraction"
+      },
+      {
+        "id": "genres-0261",
+        "text": "MOBA"
+      },
+      {
+        "id": "genres-0262",
+        "text": "Combat en arène"
+      },
+      {
+        "id": "genres-0263",
+        "text": "Multijoueur asymétrique"
+      },
+      {
+        "id": "genres-0264",
+        "text": "Monde persistant"
+      },
+      {
+        "id": "genres-0265",
+        "text": "PvPvE"
+      }
     ],
     "sports": [
-      "Jeu de sport",
-      "Football",
-      "Hockey sur glace",
-      "Basket-ball",
-      "Baseball",
-      "Tennis",
-      "Golf",
-      "Boxe",
-      "MMA",
-      "Catch",
-      "Skateboard",
-      "Snowboard",
-      "Ski",
-      "Athlétisme",
-      "Sports extrêmes",
-      "Gestion sportive",
-      "Jeu de fantasy sport"
+      {
+        "id": "genres-0266",
+        "text": "Jeu de sport"
+      },
+      {
+        "id": "genres-0267",
+        "text": "Football"
+      },
+      {
+        "id": "genres-0268",
+        "text": "Hockey sur glace"
+      },
+      {
+        "id": "genres-0269",
+        "text": "Basket-ball"
+      },
+      {
+        "id": "genres-0270",
+        "text": "Baseball"
+      },
+      {
+        "id": "genres-0271",
+        "text": "Tennis"
+      },
+      {
+        "id": "genres-0272",
+        "text": "Golf"
+      },
+      {
+        "id": "genres-0273",
+        "text": "Boxe"
+      },
+      {
+        "id": "genres-0274",
+        "text": "MMA"
+      },
+      {
+        "id": "genres-0275",
+        "text": "Catch"
+      },
+      {
+        "id": "genres-0276",
+        "text": "Skateboard"
+      },
+      {
+        "id": "genres-0277",
+        "text": "Snowboard"
+      },
+      {
+        "id": "genres-0278",
+        "text": "Ski"
+      },
+      {
+        "id": "genres-0279",
+        "text": "Athlétisme"
+      },
+      {
+        "id": "genres-0280",
+        "text": "Sports extrêmes"
+      },
+      {
+        "id": "genres-0281",
+        "text": "Gestion sportive"
+      },
+      {
+        "id": "genres-0282",
+        "text": "Jeu de fantasy sport"
+      }
     ],
     "racing": [
-      "Course",
-      "Course arcade",
-      "Course de simulation",
-      "Course de karts",
-      "Rallye",
-      "Course de rue",
-      "Course de combat",
-      "Course futuriste",
-      "Course de motos",
-      "Course de bateaux",
-      "Course aérienne"
+      {
+        "id": "genres-0283",
+        "text": "Course"
+      },
+      {
+        "id": "genres-0284",
+        "text": "Course arcade"
+      },
+      {
+        "id": "genres-0285",
+        "text": "Course de simulation"
+      },
+      {
+        "id": "genres-0286",
+        "text": "Course de karts"
+      },
+      {
+        "id": "genres-0287",
+        "text": "Rallye"
+      },
+      {
+        "id": "genres-0288",
+        "text": "Course de rue"
+      },
+      {
+        "id": "genres-0289",
+        "text": "Course de combat"
+      },
+      {
+        "id": "genres-0290",
+        "text": "Course futuriste"
+      },
+      {
+        "id": "genres-0291",
+        "text": "Course de motos"
+      },
+      {
+        "id": "genres-0292",
+        "text": "Course de bateaux"
+      },
+      {
+        "id": "genres-0293",
+        "text": "Course aérienne"
+      }
     ],
     "music": [
-      "Jeu de rythme",
-      "Jeu musical",
-      "Jeu de danse",
-      "Jeu d'instrument",
-      "Action rythmique",
-      "Réflexion rythmique",
-      "RPG rythmique"
+      {
+        "id": "genres-0294",
+        "text": "Jeu de rythme"
+      },
+      {
+        "id": "genres-0295",
+        "text": "Jeu musical"
+      },
+      {
+        "id": "genres-0296",
+        "text": "Jeu de danse"
+      },
+      {
+        "id": "genres-0297",
+        "text": "Jeu d'instrument"
+      },
+      {
+        "id": "genres-0298",
+        "text": "Action rythmique"
+      },
+      {
+        "id": "genres-0299",
+        "text": "Réflexion rythmique"
+      },
+      {
+        "id": "genres-0300",
+        "text": "RPG rythmique"
+      }
     ],
     "casual": [
-      "Jeu casual",
-      "Hypercasual",
-      "Jeu idle",
-      "Jeu incrémental",
-      "Clicker",
-      "Jeu de fusion",
-      "Match-3",
-      "Jeu de gestion du temps",
-      "Objets cachés",
-      "Jeu cosy",
-      "Jeu relaxant"
+      {
+        "id": "genres-0301",
+        "text": "Jeu casual"
+      },
+      {
+        "id": "genres-0302",
+        "text": "Hypercasual"
+      },
+      {
+        "id": "genres-0303",
+        "text": "Jeu idle"
+      },
+      {
+        "id": "genres-0304",
+        "text": "Jeu incrémental"
+      },
+      {
+        "id": "genres-0305",
+        "text": "Clicker"
+      },
+      {
+        "id": "genres-0306",
+        "text": "Jeu de fusion"
+      },
+      {
+        "id": "genres-0307",
+        "text": "Match-3"
+      },
+      {
+        "id": "genres-0308",
+        "text": "Jeu de gestion du temps"
+      },
+      {
+        "id": "genres-0309",
+        "text": "Objets cachés"
+      },
+      {
+        "id": "genres-0310",
+        "text": "Jeu cosy"
+      },
+      {
+        "id": "genres-0311",
+        "text": "Jeu relaxant"
+      }
     ],
     "idle_and_incremental": [
-      "Jeu idle",
-      "Jeu incrémental",
-      "Clicker",
-      "Gestion idle",
-      "RPG idle",
-      "Tycoon idle",
-      "Jeu de prestige"
+      {
+        "id": "genres-0312",
+        "text": "Jeu idle"
+      },
+      {
+        "id": "genres-0313",
+        "text": "Jeu incrémental"
+      },
+      {
+        "id": "genres-0314",
+        "text": "Clicker"
+      },
+      {
+        "id": "genres-0315",
+        "text": "Gestion idle"
+      },
+      {
+        "id": "genres-0316",
+        "text": "RPG idle"
+      },
+      {
+        "id": "genres-0317",
+        "text": "Tycoon idle"
+      },
+      {
+        "id": "genres-0318",
+        "text": "Jeu de prestige"
+      }
     ],
     "social": [
-      "Simulation sociale",
-      "Simulation de drague",
-      "Simulation d'amitié",
-      "Simulation de relations",
-      "Jeu de réputation",
-      "Jeu de conversation",
-      "Déduction sociale",
-      "Simulation de commérages",
-      "Simulation socio-politique",
-      "Simulation de communauté"
+      {
+        "id": "genres-0319",
+        "text": "Simulation sociale"
+      },
+      {
+        "id": "genres-0320",
+        "text": "Simulation de drague"
+      },
+      {
+        "id": "genres-0321",
+        "text": "Simulation d'amitié"
+      },
+      {
+        "id": "genres-0322",
+        "text": "Simulation de relations"
+      },
+      {
+        "id": "genres-0323",
+        "text": "Jeu de réputation"
+      },
+      {
+        "id": "genres-0324",
+        "text": "Jeu de conversation"
+      },
+      {
+        "id": "genres-0325",
+        "text": "Déduction sociale"
+      },
+      {
+        "id": "genres-0326",
+        "text": "Simulation de commérages"
+      },
+      {
+        "id": "genres-0327",
+        "text": "Simulation socio-politique"
+      },
+      {
+        "id": "genres-0328",
+        "text": "Simulation de communauté"
+      }
     ],
     "crime_and_investigation": [
-      "Jeu de détective",
-      "Simulation criminelle",
-      "Jeu d'enquête",
-      "Murder mystery",
-      "Procédure policière",
-      "Jeu de tribunal",
-      "Jeu de police scientifique",
-      "Jeu d'espionnage",
-      "Jeu d'espion",
-      "Jeu de casse",
-      "Jeu de gestion criminelle",
-      "Jeu de contrebande"
+      {
+        "id": "genres-0329",
+        "text": "Jeu de détective"
+      },
+      {
+        "id": "genres-0330",
+        "text": "Simulation criminelle"
+      },
+      {
+        "id": "genres-0331",
+        "text": "Jeu d'enquête"
+      },
+      {
+        "id": "genres-0332",
+        "text": "Murder mystery"
+      },
+      {
+        "id": "genres-0333",
+        "text": "Procédure policière"
+      },
+      {
+        "id": "genres-0334",
+        "text": "Jeu de tribunal"
+      },
+      {
+        "id": "genres-0335",
+        "text": "Jeu de police scientifique"
+      },
+      {
+        "id": "genres-0336",
+        "text": "Jeu d'espionnage"
+      },
+      {
+        "id": "genres-0337",
+        "text": "Jeu d'espion"
+      },
+      {
+        "id": "genres-0338",
+        "text": "Jeu de casse"
+      },
+      {
+        "id": "genres-0339",
+        "text": "Jeu de gestion criminelle"
+      },
+      {
+        "id": "genres-0340",
+        "text": "Jeu de contrebande"
+      }
     ],
     "economy_and_politics": [
-      "Simulation économique",
-      "Jeu de bourse",
-      "Jeu de commerce",
-      "Jeu de marchand",
-      "Simulation d'entreprise",
-      "Simulation politique",
-      "Jeu électoral",
-      "Jeu de gouvernement",
-      "Jeu de diplomatie",
-      "Simulateur de nation",
-      "Stratégie géopolitique",
-      "Grande stratégie"
+      {
+        "id": "genres-0341",
+        "text": "Simulation économique"
+      },
+      {
+        "id": "genres-0342",
+        "text": "Jeu de bourse"
+      },
+      {
+        "id": "genres-0343",
+        "text": "Jeu de commerce"
+      },
+      {
+        "id": "genres-0344",
+        "text": "Jeu de marchand"
+      },
+      {
+        "id": "genres-0345",
+        "text": "Simulation d'entreprise"
+      },
+      {
+        "id": "genres-0346",
+        "text": "Simulation politique"
+      },
+      {
+        "id": "genres-0347",
+        "text": "Jeu électoral"
+      },
+      {
+        "id": "genres-0348",
+        "text": "Jeu de gouvernement"
+      },
+      {
+        "id": "genres-0349",
+        "text": "Jeu de diplomatie"
+      },
+      {
+        "id": "genres-0350",
+        "text": "Simulateur de nation"
+      },
+      {
+        "id": "genres-0351",
+        "text": "Stratégie géopolitique"
+      },
+      {
+        "id": "genres-0352",
+        "text": "Grande stratégie"
+      }
     ],
     "war": [
-      "Wargame",
-      "Wargame tactique",
-      "Wargame stratégique",
-      "Grande stratégie",
-      "Simulation militaire",
-      "Simulateur de combat aérien",
-      "Simulateur de char",
-      "Guerre navale",
-      "Simulation de sous-marin",
-      "Tactique d'escouade",
-      "Simulation de commandement"
+      {
+        "id": "genres-0353",
+        "text": "Wargame"
+      },
+      {
+        "id": "genres-0354",
+        "text": "Wargame tactique"
+      },
+      {
+        "id": "genres-0355",
+        "text": "Wargame stratégique"
+      },
+      {
+        "id": "genres-0356",
+        "text": "Grande stratégie"
+      },
+      {
+        "id": "genres-0357",
+        "text": "Simulation militaire"
+      },
+      {
+        "id": "genres-0358",
+        "text": "Simulateur de combat aérien"
+      },
+      {
+        "id": "genres-0359",
+        "text": "Simulateur de char"
+      },
+      {
+        "id": "genres-0360",
+        "text": "Guerre navale"
+      },
+      {
+        "id": "genres-0361",
+        "text": "Simulation de sous-marin"
+      },
+      {
+        "id": "genres-0362",
+        "text": "Tactique d'escouade"
+      },
+      {
+        "id": "genres-0363",
+        "text": "Simulation de commandement"
+      }
     ],
     "crafting_and_production": [
-      "Jeu d'artisanat",
-      "Survie et artisanat",
-      "Jeu d'automatisation",
-      "Jeu d'usine",
-      "Chaîne de production",
-      "Jeu d'alchimie",
-      "Jeu de cuisine",
-      "Jeu de forgeron",
-      "Artisanat et boutique",
-      "Jeu d'ingénierie"
+      {
+        "id": "genres-0364",
+        "text": "Jeu d'artisanat"
+      },
+      {
+        "id": "genres-0365",
+        "text": "Survie et artisanat"
+      },
+      {
+        "id": "genres-0366",
+        "text": "Jeu d'automatisation"
+      },
+      {
+        "id": "genres-0367",
+        "text": "Jeu d'usine"
+      },
+      {
+        "id": "genres-0368",
+        "text": "Chaîne de production"
+      },
+      {
+        "id": "genres-0369",
+        "text": "Jeu d'alchimie"
+      },
+      {
+        "id": "genres-0370",
+        "text": "Jeu de cuisine"
+      },
+      {
+        "id": "genres-0371",
+        "text": "Jeu de forgeron"
+      },
+      {
+        "id": "genres-0372",
+        "text": "Artisanat et boutique"
+      },
+      {
+        "id": "genres-0373",
+        "text": "Jeu d'ingénierie"
+      }
     ],
     "exploration": [
-      "Jeu d'exploration",
-      "Exploration en monde ouvert",
-      "Exploration spatiale",
-      "Exploration sous-marine",
-      "Jeu d'archéologie",
-      "Jeu d'expédition",
-      "Exploration de donjons",
-      "Exploration de grottes",
-      "Jeu de découverte"
+      {
+        "id": "genres-0374",
+        "text": "Jeu d'exploration"
+      },
+      {
+        "id": "genres-0375",
+        "text": "Exploration en monde ouvert"
+      },
+      {
+        "id": "genres-0376",
+        "text": "Exploration spatiale"
+      },
+      {
+        "id": "genres-0377",
+        "text": "Exploration sous-marine"
+      },
+      {
+        "id": "genres-0378",
+        "text": "Jeu d'archéologie"
+      },
+      {
+        "id": "genres-0379",
+        "text": "Jeu d'expédition"
+      },
+      {
+        "id": "genres-0380",
+        "text": "Exploration de donjons"
+      },
+      {
+        "id": "genres-0381",
+        "text": "Exploration de grottes"
+      },
+      {
+        "id": "genres-0382",
+        "text": "Jeu de découverte"
+      }
     ],
     "unusual": [
-      "Immersive sim",
-      "Simulation systémique",
-      "Simulateur de bureaucratie",
-      "Jeu de paperasse",
-      "Simulateur de métier",
-      "Simulation de travail en entreprise",
-      "Jeu d'observation",
-      "Jeu de surveillance",
-      "Horreur inversée",
-      "Tower defense inversé",
-      "Dungeon crawler inversé",
-      "Anti-RPG",
-      "Méta-jeu",
-      "Jeu qui brise le quatrième mur",
-      "Jeu inspiré des ARG",
-      "Jeu en réalité alternée (ARG)",
-      "Bac à sable narratif",
-      "Narration procédurale",
-      "Jeu d'histoires génératives",
-      "Narration émergente",
-      "Jeu d'ingénierie sociale",
-      "Jeu de guerre de l'information",
-      "Simulation de propagande",
-      "Simulation de rumeurs",
-      "Gestion de secte",
-      "Stratégie bureaucratique",
-      "Simulation de politique de bureau",
-      "Simulation familiale",
-      "Simulateur de dynastie",
-      "Jeu de généalogie",
-      "Jeu legacy",
-      "Énigme de voyage dans le temps",
-      "Jeu de boucle temporelle",
-      "Énigmes d'automatisation",
-      "Jeu de programmation",
-      "Jeu de piratage",
-      "Jeu de cybersécurité",
-      "Jeu de terminal"
+      {
+        "id": "genres-0383",
+        "text": "Immersive sim"
+      },
+      {
+        "id": "genres-0384",
+        "text": "Simulation systémique"
+      },
+      {
+        "id": "genres-0385",
+        "text": "Simulateur de bureaucratie"
+      },
+      {
+        "id": "genres-0386",
+        "text": "Jeu de paperasse"
+      },
+      {
+        "id": "genres-0387",
+        "text": "Simulateur de métier"
+      },
+      {
+        "id": "genres-0388",
+        "text": "Simulation de travail en entreprise"
+      },
+      {
+        "id": "genres-0389",
+        "text": "Jeu d'observation"
+      },
+      {
+        "id": "genres-0390",
+        "text": "Jeu de surveillance"
+      },
+      {
+        "id": "genres-0391",
+        "text": "Horreur inversée"
+      },
+      {
+        "id": "genres-0392",
+        "text": "Tower defense inversé"
+      },
+      {
+        "id": "genres-0393",
+        "text": "Dungeon crawler inversé"
+      },
+      {
+        "id": "genres-0394",
+        "text": "Anti-RPG"
+      },
+      {
+        "id": "genres-0395",
+        "text": "Méta-jeu"
+      },
+      {
+        "id": "genres-0396",
+        "text": "Jeu qui brise le quatrième mur"
+      },
+      {
+        "id": "genres-0397",
+        "text": "Jeu inspiré des ARG"
+      },
+      {
+        "id": "genres-0398",
+        "text": "Jeu en réalité alternée (ARG)"
+      },
+      {
+        "id": "genres-0399",
+        "text": "Bac à sable narratif"
+      },
+      {
+        "id": "genres-0400",
+        "text": "Narration procédurale"
+      },
+      {
+        "id": "genres-0401",
+        "text": "Jeu d'histoires génératives"
+      },
+      {
+        "id": "genres-0402",
+        "text": "Narration émergente"
+      },
+      {
+        "id": "genres-0403",
+        "text": "Jeu d'ingénierie sociale"
+      },
+      {
+        "id": "genres-0404",
+        "text": "Jeu de guerre de l'information"
+      },
+      {
+        "id": "genres-0405",
+        "text": "Simulation de propagande"
+      },
+      {
+        "id": "genres-0406",
+        "text": "Simulation de rumeurs"
+      },
+      {
+        "id": "genres-0407",
+        "text": "Gestion de secte"
+      },
+      {
+        "id": "genres-0408",
+        "text": "Stratégie bureaucratique"
+      },
+      {
+        "id": "genres-0409",
+        "text": "Simulation de politique de bureau"
+      },
+      {
+        "id": "genres-0410",
+        "text": "Simulation familiale"
+      },
+      {
+        "id": "genres-0411",
+        "text": "Simulateur de dynastie"
+      },
+      {
+        "id": "genres-0412",
+        "text": "Jeu de généalogie"
+      },
+      {
+        "id": "genres-0413",
+        "text": "Jeu legacy"
+      },
+      {
+        "id": "genres-0414",
+        "text": "Énigme de voyage dans le temps"
+      },
+      {
+        "id": "genres-0415",
+        "text": "Jeu de boucle temporelle"
+      },
+      {
+        "id": "genres-0416",
+        "text": "Énigmes d'automatisation"
+      },
+      {
+        "id": "genres-0417",
+        "text": "Jeu de programmation"
+      },
+      {
+        "id": "genres-0418",
+        "text": "Jeu de piratage"
+      },
+      {
+        "id": "genres-0419",
+        "text": "Jeu de cybersécurité"
+      },
+      {
+        "id": "genres-0420",
+        "text": "Jeu de terminal"
+      }
     ],
     "themes_and_vibes": [
-      "Cosy",
-      "Cosy sombre",
-      "Cottagecore",
-      "Solarpunk",
-      "Cyberpunk",
-      "Steampunk",
-      "Dieselpunk",
-      "Atompunk",
-      "Biopunk",
-      "Futurisme cassette",
-      "Rétrofuturisme",
-      "Weird West",
-      "Dark fantasy",
-      "Low fantasy",
-      "High fantasy",
-      "Fantasy urbaine",
-      "Grimdark",
-      "Tranche de vie",
-      "Post-apocalyptique",
-      "Dystopique",
-      "Utopique"
+      {
+        "id": "genres-0421",
+        "text": "Cosy"
+      },
+      {
+        "id": "genres-0422",
+        "text": "Cosy sombre"
+      },
+      {
+        "id": "genres-0423",
+        "text": "Cottagecore"
+      },
+      {
+        "id": "genres-0424",
+        "text": "Solarpunk"
+      },
+      {
+        "id": "genres-0425",
+        "text": "Cyberpunk"
+      },
+      {
+        "id": "genres-0426",
+        "text": "Steampunk"
+      },
+      {
+        "id": "genres-0427",
+        "text": "Dieselpunk"
+      },
+      {
+        "id": "genres-0428",
+        "text": "Atompunk"
+      },
+      {
+        "id": "genres-0429",
+        "text": "Biopunk"
+      },
+      {
+        "id": "genres-0430",
+        "text": "Futurisme cassette"
+      },
+      {
+        "id": "genres-0431",
+        "text": "Rétrofuturisme"
+      },
+      {
+        "id": "genres-0432",
+        "text": "Weird West"
+      },
+      {
+        "id": "genres-0433",
+        "text": "Dark fantasy"
+      },
+      {
+        "id": "genres-0434",
+        "text": "Low fantasy"
+      },
+      {
+        "id": "genres-0435",
+        "text": "High fantasy"
+      },
+      {
+        "id": "genres-0436",
+        "text": "Fantasy urbaine"
+      },
+      {
+        "id": "genres-0437",
+        "text": "Grimdark"
+      },
+      {
+        "id": "genres-0438",
+        "text": "Tranche de vie"
+      },
+      {
+        "id": "genres-0439",
+        "text": "Post-apocalyptique"
+      },
+      {
+        "id": "genres-0440",
+        "text": "Dystopique"
+      },
+      {
+        "id": "genres-0441",
+        "text": "Utopique"
+      }
     ]
   }
 }

@@ -512,6 +512,18 @@ h1 i { color: var(--accent); margin-right: 6px; }
 .picker-footer[hidden] { display: none; }
 .picker-counter { color: var(--text-muted); font-size: 13px; }
 
+.bot-instructions {
+  margin-top: 40px;
+  margin-bottom: 24px;
+  padding-top: 16px;
+  border-top: 1px solid var(--border);
+  color: var(--text-muted);
+  font-size: 12px;
+  line-height: 1.6;
+}
+.bot-instructions p { margin: 8px 0; }
+.bot-instructions summary { cursor: pointer; }
+
 /* ---------- Toast ---------- */
 
 .toast {

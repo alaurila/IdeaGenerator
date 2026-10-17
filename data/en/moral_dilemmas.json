@@ -1,293 +1,1160 @@
 {
   "moral_dilemmas": [
-    "Save one or many",
-    "Truth or stability",
-    "Money or loyalty",
-    "Law or justice",
-    "Privacy or security",
-    "Individual interest or community interest",
-    "Freedom or order",
-    "Safety or autonomy",
-    "Peace or justice",
-    "Forgiveness or punishment",
-    "Mercy or the law",
-    "Duty or conscience",
-    "Loyalty to a friend or the truth",
-    "Loyalty to family or to society",
-    "Loyalty to the organization or morality",
-    "The employer's interest or the customer's interest",
-    "Self-interest or the common good",
-    "Short-term gain or the long term",
-    "Growth or sustainability",
-    "Profit or employee wellbeing",
-    "Efficiency or humanity",
-    "Productivity or safety",
-    "Savings or quality of service",
-    "The cheap solution or the responsible solution",
-    "Jobs or the environment",
-    "Industry or nature conservation",
-    "Energy or the environment",
-    "Progress or tradition",
-    "Technology or humanity",
-    "Automation or jobs",
-    "Innovation or safety",
-    "Freedom of research or risk management",
-    "Scientific progress or the rights of test subjects",
-    "Rapid rollout of a drug or thorough testing",
-    "Patient autonomy or the doctor's judgment",
-    "Expensive treatment for one patient or cheaper treatment for many",
-    "Who gets the last dose of medicine",
-    "Who gets the last hospital bed",
-    "Who is evacuated first",
-    "Save the youngest or the weakest",
-    "Save a loved one or a stranger",
-    "Save the leader or an ordinary person",
-    "Save the expert or a larger group",
-    "Save the current generation or future generations",
-    "Use the last resources now or save them for later",
-    "Share resources equally or according to need",
-    "Share resources according to need or according to merit",
-    "Feed everyone or prioritize the most important workers",
-    "Keep the stockpiles secret or tell the community the truth",
-    "Help the newcomers or protect your own community",
-    "Take in the refugees or protect scarce resources",
-    "Close the borders or help those in need",
-    "Quarantine or freedom of movement",
-    "Mandatory vaccination or individual freedom of choice",
-    "Surveillance or privacy",
-    "Censorship or the spread of dangerous information",
-    "Freedom of speech or social peace",
-    "Publishing the truth or preventing panic",
-    "Revealing a secret or protecting loved ones",
-    "Leak the information or keep it confidential",
-    "Expose corruption or preserve the organization's stability",
-    "Expose a crime or protect your family",
-    "Expose a friend's crime or stay loyal",
-    "Reveal a state secret or protect national security",
-    "Tell the patient the whole truth or spare them",
-    "Tell a child the truth or protect them",
-    "Tell the community bad news or keep morale high",
-    "Truth or hope",
-    "Truth or love",
-    "Truth or peace",
-    "Truth or personal safety",
-    "Truth or keeping your position",
-    "A lie for a good cause or honesty",
-    "A false accusation to prevent a greater danger or justice",
-    "Plant evidence or let a dangerous person go free",
-    "Break the law to save a person or obey the law",
-    "Follow an unjust order or rebel",
-    "Obey your superior or protect your subordinates",
-    "Obey the government or protect the citizens",
-    "Obey orders or follow your conscience",
-    "Honor the agreement or prevent harm",
-    "Keep a promise or make the morally better choice",
-    "Keep a secret or prevent a crime",
-    "Keep an oath or save a person",
-    "Follow professional ethics or help a friend",
-    "Defend your client or follow your morals",
-    "Defend an innocent person and risk your career or stay silent",
-    "Judge by the letter of the law or by fairness",
-    "Punishment or rehabilitation",
-    "Revenge or forgiveness",
-    "Deterrence or individual justice",
-    "Death sentence or pardon",
-    "Prison or a second chance",
-    "Force a confession or accept uncertainty",
-    "Torture for information or accept the risk",
-    "One guilty person sacrificed for many innocents, or the other way around",
-    "Detain a suspect without evidence or risk another crime",
-    "Keep a dangerous person under surveillance or respect their freedom",
-    "Preemptive strike or wait for certainty",
-    "Strike first or risk being attacked",
-    "Negotiate with the enemy or stand by your principles",
-    "Make peace on unjust terms or continue the war",
-    "Sacrifice a small region to save the whole state?",
-    "Defend every region or retreat strategically",
-    "Save the soldiers or the civilians",
-    "Save your own wounded or the enemy's",
-    "Honor a surrender or punish crimes",
-    "Release prisoners of war or use them as bargaining chips",
-    "Use a dangerous weapon or lose the war",
-    "Carry out the bombing or accept your own losses",
-    "Protect the majority or a persecuted minority",
-    "Democracy or effective crisis leadership",
-    "The will of the people or the experts' recommendation",
-    "The popular decision or the right decision",
-    "An honest campaign or effective propaganda",
-    "Win the election by dirty means or lose honestly",
-    "Expose an opponent's personal secret or keep the campaign clean",
-    "Use fear in politics or risk defeat",
-    "Centralize power during a crisis or preserve the separation of powers",
-    "State of emergency or normal rights",
-    "A stable dictatorship or a chaotic democracy",
-    "Revolution or gradual change",
-    "Overthrow a bad regime or avoid civil war",
-    "Support an undemocratic ally or risk regional chaos",
-    "A corrupt but functioning system or an honest but unstable one",
-    "Nepotism or organizational loyalty",
-    "Hire the most competent or the most loyal",
-    "Hire a friend or a more competent stranger",
-    "Fire one person to save the other jobs",
-    "Fire many to save the company",
-    "Cut wages or lay off staff",
-    "Cover up a mistake or cause a reputation crisis",
-    "Admit a mistake or protect the organization",
-    "Report a colleague or protect the team",
-    "Reward results or a fair process",
-    "Treat everyone the same or consider individual needs",
-    "Uniform rules or case-by-case flexibility",
-    "Reward loyalty or competence",
-    "Keep a poor employee because of their difficult life situation or protect the rest of the team",
-    "Help a competitor in crisis or seize the opportunity",
-    "Save a competitor's company or take over the market",
-    "Fair competition or market manipulation",
-    "A cheap product or a safe product",
-    "Sell a dangerous product or drive the company into bankruptcy",
-    "Pull the product from the market or hide the risk",
-    "Keep customer data private or prevent a crime",
-    "Share data for research or protect privacy",
-    "Use personal data for a good cause without permission or respect consent",
-    "AI efficiency or human decision-making power",
-    "Let an AI make a hard decision or take responsibility yourself",
-    "Delete an AI that has become dangerous or respect its possible consciousness",
-    "Free a conscious AI or keep it under control",
-    "Copy a human mind without permission or lose unique knowledge",
-    "Save a digital persona or a biological human",
-    "Is a copy the same person or a new individual",
-    "Bring the dead back to life or accept death",
-    "Prolong life at any cost or accept natural death",
-    "Immortality for the few or a shorter life for all",
-    "Genetic enhancement or natural humanity",
-    "Edit an unborn child's genes or leave it to chance",
-    "Eliminate a disease through gene editing or accept the unknown risks",
-    "Save a species through gene editing or preserve the natural ecosystem",
-    "Revive an extinct species or spend the resources on living species",
-    "Protect nature or feed a hungry population",
-    "Protect animals or protect people",
-    "Sacrifice animals for medical research?",
-    "Destroy a dangerous species or preserve biodiversity",
-    "Let the ecosystem adapt or intervene",
-    "Terraform a planet or protect its original ecosystem",
-    "Colonize an inhabited planet or give up its resources",
-    "Honesty or strategic advantage at first contact",
-    "Share technology with an alien civilization or protect your own society",
-    "Save an alien civilization or avoid risk to your own species",
-    "Defend humanity or cooperate with the aliens",
-    "Reveal a space discovery to the public or keep it secret",
-    "Use alien technology without understanding it or give up the advantage",
-    "Save the crew or the mission",
-    "Save the ship or the crew",
-    "Save the colonists or the research data",
-    "Give the last oxygen to one person or share it among everyone",
-    "Seal off a damaged section or risk the whole ship",
-    "Leave someone behind or endanger the whole group",
-    "Wake one person from cryosleep or save the energy",
-    "Choose who is woken up first",
-    "Tell the crew that no rescue is coming or keep hope alive",
-    "Hide the ship's true condition or cause panic",
-    "Restore the system by sacrificing one module or risk the whole station",
-    "Sacrifice one city to prevent a greater disaster?",
-    "Flood one area to save another",
-    "Burn the forest in a controlled way or risk a bigger fire",
-    "Destroy a building to stop an epidemic from spreading",
-    "Lock the sick inside or risk infection",
-    "Leave the injured behind or slow down the whole group",
-    "Allocate rescue places by lottery or by usefulness",
-    "Allocate rescue places by ability to pay or equally",
-    "Save cultural heritage or people",
-    "Save knowledge or people",
-    "Save a work of art or medicine",
-    "Preserve the archive or burn the paper for fuel",
-    "Preserve a historic building or build housing",
-    "Preserve truthful history or create a unifying national myth",
-    "Erase dangerous knowledge from history or preserve the truth",
-    "Forget a traumatic memory or preserve your identity",
-    "Erase a person's painful memories without consent or let them suffer",
-    "Change a criminal's personality through treatment or respect their identity",
-    "Give someone a happy false memory or a painful truth",
-    "Restore a memory that would destroy someone's current happy life or leave it lost",
-    "Preserve identity or save a life",
-    "A happy lie or a painful truth",
-    "Stay ignorant or uncover a dangerous truth",
-    "Solve the mystery or protect the people involved",
-    "Expose the murderer even though it tears the community apart",
-    "Keep an old crime secret because the culprit has changed",
-    "Punish a past deed or judge the person as they are now",
-    "Reveal a dead person's secret or honor their memory",
-    "Honor the wishes of the deceased or help the living",
-    "Open a grave to find the truth or let the dead rest in peace",
-    "Publish private letters for the sake of historical truth or protect privacy",
-    "Save a loved one using forbidden knowledge or follow the rules",
-    "Use a secret for a good cause or keep a promise",
-    "Blackmail a bad person for a good cause or refuse wrongful means",
-    "Steal from a criminal to help the victims or respect the law",
-    "Cooperate with a criminal to prevent a bigger crime",
-    "Let a lesser criminal go free to catch a bigger one",
-    "Lie to a suspect to uncover the truth or act openly",
-    "Befriend the target for the mission or be honest",
-    "Sacrifice a relationship for the mission or fail the mission",
-    "Love or duty",
-    "Family or career",
-    "Family or revolution",
-    "Love or power",
-    "Love or the community's approval",
-    "Love or religion",
-    "Love or a political alliance",
-    "An arranged marriage for the good of the community or personal freedom",
-    "An heir or personal happiness",
-    "Continuity of the family line or individual choice",
-    "Protect a child from the truth or let them make their own decision",
-    "Control a child for their safety or let them take risks",
-    "Help a family member even though they are wrong or refuse",
-    "Forgive a loved one who betrayed you or cut ties",
-    "Keep the family together or reveal its secrets",
-    "Community tradition or individual rights",
-    "Religion or personal freedom",
-    "Faith or evidence",
-    "A sacred rule or a human life",
-    "Preserve a religion for the community's stability or reveal that it is based on a lie",
-    "Expose a false prophet or let them hold the community together",
-    "Give people hope with a lie or take away hope with the truth",
-    "Respect a cultural custom or intervene in injustice",
-    "Preserve tradition or modernize society",
-    "The rights of future generations or the needs of people now",
-    "The interests of future people or present wellbeing",
-    "Use natural resources now or save them for future generations",
-    "Leave dangerous waste for the future to deal with or bear the costs now",
-    "Build a safe but restrictive society or a free but dangerous one",
-    "Good intentions or bad means",
-    "An evil act for a good outcome or clean hands",
-    "The right decision for the wrong reasons or the wrong decision for good reasons",
-    "Predictable injustice or uncertain justice",
-    "Equal treatment or justice",
-    "Merit or need",
-    "Lottery or judgment",
-    "The rule or the exception",
-    "Principle or pragmatism",
-    "A perfect solution later or an imperfect solution now",
-    "Act on uncertain information or wait for certainty",
-    "Risk of a false alarm or reacting too late",
-    "Trust people or monitor them",
-    "Trust a suspect or protect yourself",
-    "Give a second chance or prevent further harm",
-    "Believe a repentant criminal or doubt their motives",
-    "Give power to someone competent but immoral or to someone weaker but honest",
-    "Keep an effective but cruel leader or replace them with a weaker one",
-    "Preserve a stable system or tear it down for the sake of justice",
-    "Fix the system from within or destroy it",
-    "Change the system slowly or force rapid change",
-    "Accept a compromise or stand by your principles",
-    "A small injustice for the greater good, or not?",
-    "Choose the lesser evil",
-    "Refuse to choose even though someone suffers",
-    "Take responsibility for the decision or leave it to others",
-    "Make the decision yourself or let the majority decide",
-    "Let the expert decide or let the people decide",
-    "Let an algorithm decide or accept human bias",
-    "Transparency or efficient decision-making",
-    "Explain the reasons for a decision or protect sensitive information",
-    "Bear personal responsibility or protect the organization",
-    "Admit there is no right option or feign certainty"
+    {
+      "id": "moral_dilemmas-0001",
+      "text": "Save one or many"
+    },
+    {
+      "id": "moral_dilemmas-0002",
+      "text": "Truth or stability"
+    },
+    {
+      "id": "moral_dilemmas-0003",
+      "text": "Money or loyalty"
+    },
+    {
+      "id": "moral_dilemmas-0004",
+      "text": "Law or justice"
+    },
+    {
+      "id": "moral_dilemmas-0005",
+      "text": "Privacy or security"
+    },
+    {
+      "id": "moral_dilemmas-0006",
+      "text": "Individual interest or community interest"
+    },
+    {
+      "id": "moral_dilemmas-0007",
+      "text": "Freedom or order"
+    },
+    {
+      "id": "moral_dilemmas-0008",
+      "text": "Safety or autonomy"
+    },
+    {
+      "id": "moral_dilemmas-0009",
+      "text": "Peace or justice"
+    },
+    {
+      "id": "moral_dilemmas-0010",
+      "text": "Forgiveness or punishment"
+    },
+    {
+      "id": "moral_dilemmas-0011",
+      "text": "Mercy or the law"
+    },
+    {
+      "id": "moral_dilemmas-0012",
+      "text": "Duty or conscience"
+    },
+    {
+      "id": "moral_dilemmas-0013",
+      "text": "Loyalty to a friend or the truth"
+    },
+    {
+      "id": "moral_dilemmas-0014",
+      "text": "Loyalty to family or to society"
+    },
+    {
+      "id": "moral_dilemmas-0015",
+      "text": "Loyalty to the organization or morality"
+    },
+    {
+      "id": "moral_dilemmas-0016",
+      "text": "The employer's interest or the customer's interest"
+    },
+    {
+      "id": "moral_dilemmas-0017",
+      "text": "Self-interest or the common good"
+    },
+    {
+      "id": "moral_dilemmas-0018",
+      "text": "Short-term gain or the long term"
+    },
+    {
+      "id": "moral_dilemmas-0019",
+      "text": "Growth or sustainability"
+    },
+    {
+      "id": "moral_dilemmas-0020",
+      "text": "Profit or employee wellbeing"
+    },
+    {
+      "id": "moral_dilemmas-0021",
+      "text": "Efficiency or humanity"
+    },
+    {
+      "id": "moral_dilemmas-0022",
+      "text": "Productivity or safety"
+    },
+    {
+      "id": "moral_dilemmas-0023",
+      "text": "Savings or quality of service"
+    },
+    {
+      "id": "moral_dilemmas-0024",
+      "text": "The cheap solution or the responsible solution"
+    },
+    {
+      "id": "moral_dilemmas-0025",
+      "text": "Jobs or the environment"
+    },
+    {
+      "id": "moral_dilemmas-0026",
+      "text": "Industry or nature conservation"
+    },
+    {
+      "id": "moral_dilemmas-0027",
+      "text": "Energy or the environment"
+    },
+    {
+      "id": "moral_dilemmas-0028",
+      "text": "Progress or tradition"
+    },
+    {
+      "id": "moral_dilemmas-0029",
+      "text": "Technology or humanity"
+    },
+    {
+      "id": "moral_dilemmas-0030",
+      "text": "Automation or jobs"
+    },
+    {
+      "id": "moral_dilemmas-0031",
+      "text": "Innovation or safety"
+    },
+    {
+      "id": "moral_dilemmas-0032",
+      "text": "Freedom of research or risk management"
+    },
+    {
+      "id": "moral_dilemmas-0033",
+      "text": "Scientific progress or the rights of test subjects"
+    },
+    {
+      "id": "moral_dilemmas-0034",
+      "text": "Rapid rollout of a drug or thorough testing"
+    },
+    {
+      "id": "moral_dilemmas-0035",
+      "text": "Patient autonomy or the doctor's judgment"
+    },
+    {
+      "id": "moral_dilemmas-0036",
+      "text": "Expensive treatment for one patient or cheaper treatment for many"
+    },
+    {
+      "id": "moral_dilemmas-0037",
+      "text": "Who gets the last dose of medicine"
+    },
+    {
+      "id": "moral_dilemmas-0038",
+      "text": "Who gets the last hospital bed"
+    },
+    {
+      "id": "moral_dilemmas-0039",
+      "text": "Who is evacuated first"
+    },
+    {
+      "id": "moral_dilemmas-0040",
+      "text": "Save the youngest or the weakest"
+    },
+    {
+      "id": "moral_dilemmas-0041",
+      "text": "Save a loved one or a stranger"
+    },
+    {
+      "id": "moral_dilemmas-0042",
+      "text": "Save the leader or an ordinary person"
+    },
+    {
+      "id": "moral_dilemmas-0043",
+      "text": "Save the expert or a larger group"
+    },
+    {
+      "id": "moral_dilemmas-0044",
+      "text": "Save the current generation or future generations"
+    },
+    {
+      "id": "moral_dilemmas-0045",
+      "text": "Use the last resources now or save them for later"
+    },
+    {
+      "id": "moral_dilemmas-0046",
+      "text": "Share resources equally or according to need"
+    },
+    {
+      "id": "moral_dilemmas-0047",
+      "text": "Share resources according to need or according to merit"
+    },
+    {
+      "id": "moral_dilemmas-0048",
+      "text": "Feed everyone or prioritize the most important workers"
+    },
+    {
+      "id": "moral_dilemmas-0049",
+      "text": "Keep the stockpiles secret or tell the community the truth"
+    },
+    {
+      "id": "moral_dilemmas-0050",
+      "text": "Help the newcomers or protect your own community"
+    },
+    {
+      "id": "moral_dilemmas-0051",
+      "text": "Take in the refugees or protect scarce resources"
+    },
+    {
+      "id": "moral_dilemmas-0052",
+      "text": "Close the borders or help those in need"
+    },
+    {
+      "id": "moral_dilemmas-0053",
+      "text": "Quarantine or freedom of movement"
+    },
+    {
+      "id": "moral_dilemmas-0054",
+      "text": "Mandatory vaccination or individual freedom of choice"
+    },
+    {
+      "id": "moral_dilemmas-0055",
+      "text": "Surveillance or privacy"
+    },
+    {
+      "id": "moral_dilemmas-0056",
+      "text": "Censorship or the spread of dangerous information"
+    },
+    {
+      "id": "moral_dilemmas-0057",
+      "text": "Freedom of speech or social peace"
+    },
+    {
+      "id": "moral_dilemmas-0058",
+      "text": "Publishing the truth or preventing panic"
+    },
+    {
+      "id": "moral_dilemmas-0059",
+      "text": "Revealing a secret or protecting loved ones"
+    },
+    {
+      "id": "moral_dilemmas-0060",
+      "text": "Leak the information or keep it confidential"
+    },
+    {
+      "id": "moral_dilemmas-0061",
+      "text": "Expose corruption or preserve the organization's stability"
+    },
+    {
+      "id": "moral_dilemmas-0062",
+      "text": "Expose a crime or protect your family"
+    },
+    {
+      "id": "moral_dilemmas-0063",
+      "text": "Expose a friend's crime or stay loyal"
+    },
+    {
+      "id": "moral_dilemmas-0064",
+      "text": "Reveal a state secret or protect national security"
+    },
+    {
+      "id": "moral_dilemmas-0065",
+      "text": "Tell the patient the whole truth or spare them"
+    },
+    {
+      "id": "moral_dilemmas-0066",
+      "text": "Tell a child the truth or protect them"
+    },
+    {
+      "id": "moral_dilemmas-0067",
+      "text": "Tell the community bad news or keep morale high"
+    },
+    {
+      "id": "moral_dilemmas-0068",
+      "text": "Truth or hope"
+    },
+    {
+      "id": "moral_dilemmas-0069",
+      "text": "Truth or love"
+    },
+    {
+      "id": "moral_dilemmas-0070",
+      "text": "Truth or peace"
+    },
+    {
+      "id": "moral_dilemmas-0071",
+      "text": "Truth or personal safety"
+    },
+    {
+      "id": "moral_dilemmas-0072",
+      "text": "Truth or keeping your position"
+    },
+    {
+      "id": "moral_dilemmas-0073",
+      "text": "A lie for a good cause or honesty"
+    },
+    {
+      "id": "moral_dilemmas-0074",
+      "text": "A false accusation to prevent a greater danger or justice"
+    },
+    {
+      "id": "moral_dilemmas-0075",
+      "text": "Plant evidence or let a dangerous person go free"
+    },
+    {
+      "id": "moral_dilemmas-0076",
+      "text": "Break the law to save a person or obey the law"
+    },
+    {
+      "id": "moral_dilemmas-0077",
+      "text": "Follow an unjust order or rebel"
+    },
+    {
+      "id": "moral_dilemmas-0078",
+      "text": "Obey your superior or protect your subordinates"
+    },
+    {
+      "id": "moral_dilemmas-0079",
+      "text": "Obey the government or protect the citizens"
+    },
+    {
+      "id": "moral_dilemmas-0080",
+      "text": "Obey orders or follow your conscience"
+    },
+    {
+      "id": "moral_dilemmas-0081",
+      "text": "Honor the agreement or prevent harm"
+    },
+    {
+      "id": "moral_dilemmas-0082",
+      "text": "Keep a promise or make the morally better choice"
+    },
+    {
+      "id": "moral_dilemmas-0083",
+      "text": "Keep a secret or prevent a crime"
+    },
+    {
+      "id": "moral_dilemmas-0084",
+      "text": "Keep an oath or save a person"
+    },
+    {
+      "id": "moral_dilemmas-0085",
+      "text": "Follow professional ethics or help a friend"
+    },
+    {
+      "id": "moral_dilemmas-0086",
+      "text": "Defend your client or follow your morals"
+    },
+    {
+      "id": "moral_dilemmas-0087",
+      "text": "Defend an innocent person and risk your career or stay silent"
+    },
+    {
+      "id": "moral_dilemmas-0088",
+      "text": "Judge by the letter of the law or by fairness"
+    },
+    {
+      "id": "moral_dilemmas-0089",
+      "text": "Punishment or rehabilitation"
+    },
+    {
+      "id": "moral_dilemmas-0090",
+      "text": "Revenge or forgiveness"
+    },
+    {
+      "id": "moral_dilemmas-0091",
+      "text": "Deterrence or individual justice"
+    },
+    {
+      "id": "moral_dilemmas-0092",
+      "text": "Death sentence or pardon"
+    },
+    {
+      "id": "moral_dilemmas-0093",
+      "text": "Prison or a second chance"
+    },
+    {
+      "id": "moral_dilemmas-0094",
+      "text": "Force a confession or accept uncertainty"
+    },
+    {
+      "id": "moral_dilemmas-0095",
+      "text": "Torture for information or accept the risk"
+    },
+    {
+      "id": "moral_dilemmas-0096",
+      "text": "One guilty person sacrificed for many innocents, or the other way around"
+    },
+    {
+      "id": "moral_dilemmas-0097",
+      "text": "Detain a suspect without evidence or risk another crime"
+    },
+    {
+      "id": "moral_dilemmas-0098",
+      "text": "Keep a dangerous person under surveillance or respect their freedom"
+    },
+    {
+      "id": "moral_dilemmas-0099",
+      "text": "Preemptive strike or wait for certainty"
+    },
+    {
+      "id": "moral_dilemmas-0100",
+      "text": "Strike first or risk being attacked"
+    },
+    {
+      "id": "moral_dilemmas-0101",
+      "text": "Negotiate with the enemy or stand by your principles"
+    },
+    {
+      "id": "moral_dilemmas-0102",
+      "text": "Make peace on unjust terms or continue the war"
+    },
+    {
+      "id": "moral_dilemmas-0103",
+      "text": "Sacrifice a small region to save the whole state?"
+    },
+    {
+      "id": "moral_dilemmas-0104",
+      "text": "Defend every region or retreat strategically"
+    },
+    {
+      "id": "moral_dilemmas-0105",
+      "text": "Save the soldiers or the civilians"
+    },
+    {
+      "id": "moral_dilemmas-0106",
+      "text": "Save your own wounded or the enemy's"
+    },
+    {
+      "id": "moral_dilemmas-0107",
+      "text": "Honor a surrender or punish crimes"
+    },
+    {
+      "id": "moral_dilemmas-0108",
+      "text": "Release prisoners of war or use them as bargaining chips"
+    },
+    {
+      "id": "moral_dilemmas-0109",
+      "text": "Use a dangerous weapon or lose the war"
+    },
+    {
+      "id": "moral_dilemmas-0110",
+      "text": "Carry out the bombing or accept your own losses"
+    },
+    {
+      "id": "moral_dilemmas-0111",
+      "text": "Protect the majority or a persecuted minority"
+    },
+    {
+      "id": "moral_dilemmas-0112",
+      "text": "Democracy or effective crisis leadership"
+    },
+    {
+      "id": "moral_dilemmas-0113",
+      "text": "The will of the people or the experts' recommendation"
+    },
+    {
+      "id": "moral_dilemmas-0114",
+      "text": "The popular decision or the right decision"
+    },
+    {
+      "id": "moral_dilemmas-0115",
+      "text": "An honest campaign or effective propaganda"
+    },
+    {
+      "id": "moral_dilemmas-0116",
+      "text": "Win the election by dirty means or lose honestly"
+    },
+    {
+      "id": "moral_dilemmas-0117",
+      "text": "Expose an opponent's personal secret or keep the campaign clean"
+    },
+    {
+      "id": "moral_dilemmas-0118",
+      "text": "Use fear in politics or risk defeat"
+    },
+    {
+      "id": "moral_dilemmas-0119",
+      "text": "Centralize power during a crisis or preserve the separation of powers"
+    },
+    {
+      "id": "moral_dilemmas-0120",
+      "text": "State of emergency or normal rights"
+    },
+    {
+      "id": "moral_dilemmas-0121",
+      "text": "A stable dictatorship or a chaotic democracy"
+    },
+    {
+      "id": "moral_dilemmas-0122",
+      "text": "Revolution or gradual change"
+    },
+    {
+      "id": "moral_dilemmas-0123",
+      "text": "Overthrow a bad regime or avoid civil war"
+    },
+    {
+      "id": "moral_dilemmas-0124",
+      "text": "Support an undemocratic ally or risk regional chaos"
+    },
+    {
+      "id": "moral_dilemmas-0125",
+      "text": "A corrupt but functioning system or an honest but unstable one"
+    },
+    {
+      "id": "moral_dilemmas-0126",
+      "text": "Nepotism or organizational loyalty"
+    },
+    {
+      "id": "moral_dilemmas-0127",
+      "text": "Hire the most competent or the most loyal"
+    },
+    {
+      "id": "moral_dilemmas-0128",
+      "text": "Hire a friend or a more competent stranger"
+    },
+    {
+      "id": "moral_dilemmas-0129",
+      "text": "Fire one person to save the other jobs"
+    },
+    {
+      "id": "moral_dilemmas-0130",
+      "text": "Fire many to save the company"
+    },
+    {
+      "id": "moral_dilemmas-0131",
+      "text": "Cut wages or lay off staff"
+    },
+    {
+      "id": "moral_dilemmas-0132",
+      "text": "Cover up a mistake or cause a reputation crisis"
+    },
+    {
+      "id": "moral_dilemmas-0133",
+      "text": "Admit a mistake or protect the organization"
+    },
+    {
+      "id": "moral_dilemmas-0134",
+      "text": "Report a colleague or protect the team"
+    },
+    {
+      "id": "moral_dilemmas-0135",
+      "text": "Reward results or a fair process"
+    },
+    {
+      "id": "moral_dilemmas-0136",
+      "text": "Treat everyone the same or consider individual needs"
+    },
+    {
+      "id": "moral_dilemmas-0137",
+      "text": "Uniform rules or case-by-case flexibility"
+    },
+    {
+      "id": "moral_dilemmas-0138",
+      "text": "Reward loyalty or competence"
+    },
+    {
+      "id": "moral_dilemmas-0139",
+      "text": "Keep a poor employee because of their difficult life situation or protect the rest of the team"
+    },
+    {
+      "id": "moral_dilemmas-0140",
+      "text": "Help a competitor in crisis or seize the opportunity"
+    },
+    {
+      "id": "moral_dilemmas-0141",
+      "text": "Save a competitor's company or take over the market"
+    },
+    {
+      "id": "moral_dilemmas-0142",
+      "text": "Fair competition or market manipulation"
+    },
+    {
+      "id": "moral_dilemmas-0143",
+      "text": "A cheap product or a safe product"
+    },
+    {
+      "id": "moral_dilemmas-0144",
+      "text": "Sell a dangerous product or drive the company into bankruptcy"
+    },
+    {
+      "id": "moral_dilemmas-0145",
+      "text": "Pull the product from the market or hide the risk"
+    },
+    {
+      "id": "moral_dilemmas-0146",
+      "text": "Keep customer data private or prevent a crime"
+    },
+    {
+      "id": "moral_dilemmas-0147",
+      "text": "Share data for research or protect privacy"
+    },
+    {
+      "id": "moral_dilemmas-0148",
+      "text": "Use personal data for a good cause without permission or respect consent"
+    },
+    {
+      "id": "moral_dilemmas-0149",
+      "text": "AI efficiency or human decision-making power"
+    },
+    {
+      "id": "moral_dilemmas-0150",
+      "text": "Let an AI make a hard decision or take responsibility yourself"
+    },
+    {
+      "id": "moral_dilemmas-0151",
+      "text": "Delete an AI that has become dangerous or respect its possible consciousness"
+    },
+    {
+      "id": "moral_dilemmas-0152",
+      "text": "Free a conscious AI or keep it under control"
+    },
+    {
+      "id": "moral_dilemmas-0153",
+      "text": "Copy a human mind without permission or lose unique knowledge"
+    },
+    {
+      "id": "moral_dilemmas-0154",
+      "text": "Save a digital persona or a biological human"
+    },
+    {
+      "id": "moral_dilemmas-0155",
+      "text": "Is a copy the same person or a new individual"
+    },
+    {
+      "id": "moral_dilemmas-0156",
+      "text": "Bring the dead back to life or accept death"
+    },
+    {
+      "id": "moral_dilemmas-0157",
+      "text": "Prolong life at any cost or accept natural death"
+    },
+    {
+      "id": "moral_dilemmas-0158",
+      "text": "Immortality for the few or a shorter life for all"
+    },
+    {
+      "id": "moral_dilemmas-0159",
+      "text": "Genetic enhancement or natural humanity"
+    },
+    {
+      "id": "moral_dilemmas-0160",
+      "text": "Edit an unborn child's genes or leave it to chance"
+    },
+    {
+      "id": "moral_dilemmas-0161",
+      "text": "Eliminate a disease through gene editing or accept the unknown risks"
+    },
+    {
+      "id": "moral_dilemmas-0162",
+      "text": "Save a species through gene editing or preserve the natural ecosystem"
+    },
+    {
+      "id": "moral_dilemmas-0163",
+      "text": "Revive an extinct species or spend the resources on living species"
+    },
+    {
+      "id": "moral_dilemmas-0164",
+      "text": "Protect nature or feed a hungry population"
+    },
+    {
+      "id": "moral_dilemmas-0165",
+      "text": "Protect animals or protect people"
+    },
+    {
+      "id": "moral_dilemmas-0166",
+      "text": "Sacrifice animals for medical research?"
+    },
+    {
+      "id": "moral_dilemmas-0167",
+      "text": "Destroy a dangerous species or preserve biodiversity"
+    },
+    {
+      "id": "moral_dilemmas-0168",
+      "text": "Let the ecosystem adapt or intervene"
+    },
+    {
+      "id": "moral_dilemmas-0169",
+      "text": "Terraform a planet or protect its original ecosystem"
+    },
+    {
+      "id": "moral_dilemmas-0170",
+      "text": "Colonize an inhabited planet or give up its resources"
+    },
+    {
+      "id": "moral_dilemmas-0171",
+      "text": "Honesty or strategic advantage at first contact"
+    },
+    {
+      "id": "moral_dilemmas-0172",
+      "text": "Share technology with an alien civilization or protect your own society"
+    },
+    {
+      "id": "moral_dilemmas-0173",
+      "text": "Save an alien civilization or avoid risk to your own species"
+    },
+    {
+      "id": "moral_dilemmas-0174",
+      "text": "Defend humanity or cooperate with the aliens"
+    },
+    {
+      "id": "moral_dilemmas-0175",
+      "text": "Reveal a space discovery to the public or keep it secret"
+    },
+    {
+      "id": "moral_dilemmas-0176",
+      "text": "Use alien technology without understanding it or give up the advantage"
+    },
+    {
+      "id": "moral_dilemmas-0177",
+      "text": "Save the crew or the mission"
+    },
+    {
+      "id": "moral_dilemmas-0178",
+      "text": "Save the ship or the crew"
+    },
+    {
+      "id": "moral_dilemmas-0179",
+      "text": "Save the colonists or the research data"
+    },
+    {
+      "id": "moral_dilemmas-0180",
+      "text": "Give the last oxygen to one person or share it among everyone"
+    },
+    {
+      "id": "moral_dilemmas-0181",
+      "text": "Seal off a damaged section or risk the whole ship"
+    },
+    {
+      "id": "moral_dilemmas-0182",
+      "text": "Leave someone behind or endanger the whole group"
+    },
+    {
+      "id": "moral_dilemmas-0183",
+      "text": "Wake one person from cryosleep or save the energy"
+    },
+    {
+      "id": "moral_dilemmas-0184",
+      "text": "Choose who is woken up first"
+    },
+    {
+      "id": "moral_dilemmas-0185",
+      "text": "Tell the crew that no rescue is coming or keep hope alive"
+    },
+    {
+      "id": "moral_dilemmas-0186",
+      "text": "Hide the ship's true condition or cause panic"
+    },
+    {
+      "id": "moral_dilemmas-0187",
+      "text": "Restore the system by sacrificing one module or risk the whole station"
+    },
+    {
+      "id": "moral_dilemmas-0188",
+      "text": "Sacrifice one city to prevent a greater disaster?"
+    },
+    {
+      "id": "moral_dilemmas-0189",
+      "text": "Flood one area to save another"
+    },
+    {
+      "id": "moral_dilemmas-0190",
+      "text": "Burn the forest in a controlled way or risk a bigger fire"
+    },
+    {
+      "id": "moral_dilemmas-0191",
+      "text": "Destroy a building to stop an epidemic from spreading"
+    },
+    {
+      "id": "moral_dilemmas-0192",
+      "text": "Lock the sick inside or risk infection"
+    },
+    {
+      "id": "moral_dilemmas-0193",
+      "text": "Leave the injured behind or slow down the whole group"
+    },
+    {
+      "id": "moral_dilemmas-0194",
+      "text": "Allocate rescue places by lottery or by usefulness"
+    },
+    {
+      "id": "moral_dilemmas-0195",
+      "text": "Allocate rescue places by ability to pay or equally"
+    },
+    {
+      "id": "moral_dilemmas-0196",
+      "text": "Save cultural heritage or people"
+    },
+    {
+      "id": "moral_dilemmas-0197",
+      "text": "Save knowledge or people"
+    },
+    {
+      "id": "moral_dilemmas-0198",
+      "text": "Save a work of art or medicine"
+    },
+    {
+      "id": "moral_dilemmas-0199",
+      "text": "Preserve the archive or burn the paper for fuel"
+    },
+    {
+      "id": "moral_dilemmas-0200",
+      "text": "Preserve a historic building or build housing"
+    },
+    {
+      "id": "moral_dilemmas-0201",
+      "text": "Preserve truthful history or create a unifying national myth"
+    },
+    {
+      "id": "moral_dilemmas-0202",
+      "text": "Erase dangerous knowledge from history or preserve the truth"
+    },
+    {
+      "id": "moral_dilemmas-0203",
+      "text": "Forget a traumatic memory or preserve your identity"
+    },
+    {
+      "id": "moral_dilemmas-0204",
+      "text": "Erase a person's painful memories without consent or let them suffer"
+    },
+    {
+      "id": "moral_dilemmas-0205",
+      "text": "Change a criminal's personality through treatment or respect their identity"
+    },
+    {
+      "id": "moral_dilemmas-0206",
+      "text": "Give someone a happy false memory or a painful truth"
+    },
+    {
+      "id": "moral_dilemmas-0207",
+      "text": "Restore a memory that would destroy someone's current happy life or leave it lost"
+    },
+    {
+      "id": "moral_dilemmas-0208",
+      "text": "Preserve identity or save a life"
+    },
+    {
+      "id": "moral_dilemmas-0209",
+      "text": "A happy lie or a painful truth"
+    },
+    {
+      "id": "moral_dilemmas-0210",
+      "text": "Stay ignorant or uncover a dangerous truth"
+    },
+    {
+      "id": "moral_dilemmas-0211",
+      "text": "Solve the mystery or protect the people involved"
+    },
+    {
+      "id": "moral_dilemmas-0212",
+      "text": "Expose the murderer even though it tears the community apart"
+    },
+    {
+      "id": "moral_dilemmas-0213",
+      "text": "Keep an old crime secret because the culprit has changed"
+    },
+    {
+      "id": "moral_dilemmas-0214",
+      "text": "Punish a past deed or judge the person as they are now"
+    },
+    {
+      "id": "moral_dilemmas-0215",
+      "text": "Reveal a dead person's secret or honor their memory"
+    },
+    {
+      "id": "moral_dilemmas-0216",
+      "text": "Honor the wishes of the deceased or help the living"
+    },
+    {
+      "id": "moral_dilemmas-0217",
+      "text": "Open a grave to find the truth or let the dead rest in peace"
+    },
+    {
+      "id": "moral_dilemmas-0218",
+      "text": "Publish private letters for the sake of historical truth or protect privacy"
+    },
+    {
+      "id": "moral_dilemmas-0219",
+      "text": "Save a loved one using forbidden knowledge or follow the rules"
+    },
+    {
+      "id": "moral_dilemmas-0220",
+      "text": "Use a secret for a good cause or keep a promise"
+    },
+    {
+      "id": "moral_dilemmas-0221",
+      "text": "Blackmail a bad person for a good cause or refuse wrongful means"
+    },
+    {
+      "id": "moral_dilemmas-0222",
+      "text": "Steal from a criminal to help the victims or respect the law"
+    },
+    {
+      "id": "moral_dilemmas-0223",
+      "text": "Cooperate with a criminal to prevent a bigger crime"
+    },
+    {
+      "id": "moral_dilemmas-0224",
+      "text": "Let a lesser criminal go free to catch a bigger one"
+    },
+    {
+      "id": "moral_dilemmas-0225",
+      "text": "Lie to a suspect to uncover the truth or act openly"
+    },
+    {
+      "id": "moral_dilemmas-0226",
+      "text": "Befriend the target for the mission or be honest"
+    },
+    {
+      "id": "moral_dilemmas-0227",
+      "text": "Sacrifice a relationship for the mission or fail the mission"
+    },
+    {
+      "id": "moral_dilemmas-0228",
+      "text": "Love or duty"
+    },
+    {
+      "id": "moral_dilemmas-0229",
+      "text": "Family or career"
+    },
+    {
+      "id": "moral_dilemmas-0230",
+      "text": "Family or revolution"
+    },
+    {
+      "id": "moral_dilemmas-0231",
+      "text": "Love or power"
+    },
+    {
+      "id": "moral_dilemmas-0232",
+      "text": "Love or the community's approval"
+    },
+    {
+      "id": "moral_dilemmas-0233",
+      "text": "Love or religion"
+    },
+    {
+      "id": "moral_dilemmas-0234",
+      "text": "Love or a political alliance"
+    },
+    {
+      "id": "moral_dilemmas-0235",
+      "text": "An arranged marriage for the good of the community or personal freedom"
+    },
+    {
+      "id": "moral_dilemmas-0236",
+      "text": "An heir or personal happiness"
+    },
+    {
+      "id": "moral_dilemmas-0237",
+      "text": "Continuity of the family line or individual choice"
+    },
+    {
+      "id": "moral_dilemmas-0238",
+      "text": "Protect a child from the truth or let them make their own decision"
+    },
+    {
+      "id": "moral_dilemmas-0239",
+      "text": "Control a child for their safety or let them take risks"
+    },
+    {
+      "id": "moral_dilemmas-0240",
+      "text": "Help a family member even though they are wrong or refuse"
+    },
+    {
+      "id": "moral_dilemmas-0241",
+      "text": "Forgive a loved one who betrayed you or cut ties"
+    },
+    {
+      "id": "moral_dilemmas-0242",
+      "text": "Keep the family together or reveal its secrets"
+    },
+    {
+      "id": "moral_dilemmas-0243",
+      "text": "Community tradition or individual rights"
+    },
+    {
+      "id": "moral_dilemmas-0244",
+      "text": "Religion or personal freedom"
+    },
+    {
+      "id": "moral_dilemmas-0245",
+      "text": "Faith or evidence"
+    },
+    {
+      "id": "moral_dilemmas-0246",
+      "text": "A sacred rule or a human life"
+    },
+    {
+      "id": "moral_dilemmas-0247",
+      "text": "Preserve a religion for the community's stability or reveal that it is based on a lie"
+    },
+    {
+      "id": "moral_dilemmas-0248",
+      "text": "Expose a false prophet or let them hold the community together"
+    },
+    {
+      "id": "moral_dilemmas-0249",
+      "text": "Give people hope with a lie or take away hope with the truth"
+    },
+    {
+      "id": "moral_dilemmas-0250",
+      "text": "Respect a cultural custom or intervene in injustice"
+    },
+    {
+      "id": "moral_dilemmas-0251",
+      "text": "Preserve tradition or modernize society"
+    },
+    {
+      "id": "moral_dilemmas-0252",
+      "text": "The rights of future generations or the needs of people now"
+    },
+    {
+      "id": "moral_dilemmas-0253",
+      "text": "The interests of future people or present wellbeing"
+    },
+    {
+      "id": "moral_dilemmas-0254",
+      "text": "Use natural resources now or save them for future generations"
+    },
+    {
+      "id": "moral_dilemmas-0255",
+      "text": "Leave dangerous waste for the future to deal with or bear the costs now"
+    },
+    {
+      "id": "moral_dilemmas-0256",
+      "text": "Build a safe but restrictive society or a free but dangerous one"
+    },
+    {
+      "id": "moral_dilemmas-0257",
+      "text": "Good intentions or bad means"
+    },
+    {
+      "id": "moral_dilemmas-0258",
+      "text": "An evil act for a good outcome or clean hands"
+    },
+    {
+      "id": "moral_dilemmas-0259",
+      "text": "The right decision for the wrong reasons or the wrong decision for good reasons"
+    },
+    {
+      "id": "moral_dilemmas-0260",
+      "text": "Predictable injustice or uncertain justice"
+    },
+    {
+      "id": "moral_dilemmas-0261",
+      "text": "Equal treatment or justice"
+    },
+    {
+      "id": "moral_dilemmas-0262",
+      "text": "Merit or need"
+    },
+    {
+      "id": "moral_dilemmas-0263",
+      "text": "Lottery or judgment"
+    },
+    {
+      "id": "moral_dilemmas-0264",
+      "text": "The rule or the exception"
+    },
+    {
+      "id": "moral_dilemmas-0265",
+      "text": "Principle or pragmatism"
+    },
+    {
+      "id": "moral_dilemmas-0266",
+      "text": "A perfect solution later or an imperfect solution now"
+    },
+    {
+      "id": "moral_dilemmas-0267",
+      "text": "Act on uncertain information or wait for certainty"
+    },
+    {
+      "id": "moral_dilemmas-0268",
+      "text": "Risk of a false alarm or reacting too late"
+    },
+    {
+      "id": "moral_dilemmas-0269",
+      "text": "Trust people or monitor them"
+    },
+    {
+      "id": "moral_dilemmas-0270",
+      "text": "Trust a suspect or protect yourself"
+    },
+    {
+      "id": "moral_dilemmas-0271",
+      "text": "Give a second chance or prevent further harm"
+    },
+    {
+      "id": "moral_dilemmas-0272",
+      "text": "Believe a repentant criminal or doubt their motives"
+    },
+    {
+      "id": "moral_dilemmas-0273",
+      "text": "Give power to someone competent but immoral or to someone weaker but honest"
+    },
+    {
+      "id": "moral_dilemmas-0274",
+      "text": "Keep an effective but cruel leader or replace them with a weaker one"
+    },
+    {
+      "id": "moral_dilemmas-0275",
+      "text": "Preserve a stable system or tear it down for the sake of justice"
+    },
+    {
+      "id": "moral_dilemmas-0276",
+      "text": "Fix the system from within or destroy it"
+    },
+    {
+      "id": "moral_dilemmas-0277",
+      "text": "Change the system slowly or force rapid change"
+    },
+    {
+      "id": "moral_dilemmas-0278",
+      "text": "Accept a compromise or stand by your principles"
+    },
+    {
+      "id": "moral_dilemmas-0279",
+      "text": "A small injustice for the greater good, or not?"
+    },
+    {
+      "id": "moral_dilemmas-0280",
+      "text": "Choose the lesser evil"
+    },
+    {
+      "id": "moral_dilemmas-0281",
+      "text": "Refuse to choose even though someone suffers"
+    },
+    {
+      "id": "moral_dilemmas-0282",
+      "text": "Take responsibility for the decision or leave it to others"
+    },
+    {
+      "id": "moral_dilemmas-0283",
+      "text": "Make the decision yourself or let the majority decide"
+    },
+    {
+      "id": "moral_dilemmas-0284",
+      "text": "Let the expert decide or let the people decide"
+    },
+    {
+      "id": "moral_dilemmas-0285",
+      "text": "Let an algorithm decide or accept human bias"
+    },
+    {
+      "id": "moral_dilemmas-0286",
+      "text": "Transparency or efficient decision-making"
+    },
+    {
+      "id": "moral_dilemmas-0287",
+      "text": "Explain the reasons for a decision or protect sensitive information"
+    },
+    {
+      "id": "moral_dilemmas-0288",
+      "text": "Bear personal responsibility or protect the organization"
+    },
+    {
+      "id": "moral_dilemmas-0289",
+      "text": "Admit there is no right option or feign certainty"
+    }
   ]
 }

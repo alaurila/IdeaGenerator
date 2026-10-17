@@ -1,152 +1,596 @@
 {
   "eras": [
-    "Préhistoire",
-    "Âge de pierre",
-    "Paléolithique",
-    "Mésolithique",
-    "Néolithique",
-    "Âge du bronze",
-    "Âge du fer",
-    "Antiquité",
-    "Égypte antique",
-    "Mésopotamie antique",
-    "Grèce antique",
-    "République romaine",
-    "Empire romain",
-    "Antiquité tardive",
-    "Haut Moyen Âge",
-    "Moyen Âge",
-    "Moyen Âge central",
-    "Bas Moyen Âge",
-    "Renaissance",
-    "Grandes découvertes",
-    "Époque de la Réforme",
-    "XVIIe siècle",
-    "Époque baroque",
-    "XVIIIe siècle",
-    "Siècle des Lumières",
-    "Époque coloniale",
-    "Débuts de l'industrialisation",
-    "XIXe siècle",
-    "Guerres napoléoniennes",
-    "Époque victorienne",
-    "Far West",
-    "Révolution industrielle",
-    "Années 1890",
-    "Années 1900",
-    "Années 1910",
-    "Première Guerre mondiale",
-    "Années 1920",
-    "Prohibition",
-    "Grande Dépression",
-    "Années 1930",
-    "Seconde Guerre mondiale",
-    "Années 1940",
-    "Après-guerre",
-    "Années 1950",
-    "Début de la guerre froide",
-    "Années 1960",
-    "Époque de la course à l'espace",
-    "Années 1970",
-    "Guerre froide",
-    "Années 1980",
-    "Fin de la guerre froide",
-    "Années 1990",
-    "Années 2000",
-    "Années 2010",
-    "Années 2020",
-    "Époque actuelle",
-    "Futur proche",
-    "Années 2030",
-    "Années 2040",
-    "Années 2050",
-    "Années 2060",
-    "XXIIe siècle",
-    "Futur lointain",
-    "Futur très lointain",
-    "Futur posthumain",
-    "Futur post-apocalyptique",
-    "Après la fin du monde",
-    "Ère de la reconstruction",
-    "Ère de la colonisation planétaire",
-    "Ère de la colonisation du système solaire",
-    "Ère des voyages interstellaires",
-    "Ère de la civilisation galactique",
-    "Ère posthumaine",
-    "Ère des intelligences artificielles",
-    "Ère des robots",
-    "Ère du génie génétique",
-    "Ère cybernétique",
-    "Ère de la réalité virtuelle",
-    "Société entièrement automatisée",
-    "Société post-pénurie",
-    "Effondrement de la civilisation",
-    "Ère de la crise écologique",
-    "Après la catastrophe climatique",
-    "Après l'apocalypse nucléaire",
-    "Après la pandémie",
-    "Après le contact avec une civilisation extraterrestre",
-    "Antiquité alternative",
-    "Moyen Âge alternatif",
-    "Renaissance alternative",
-    "XIXe siècle alternatif",
-    "Première Guerre mondiale alternative",
-    "Seconde Guerre mondiale alternative",
-    "Guerre froide alternative",
-    "Années 50 alternatives",
-    "Années 80 alternatives",
-    "Années 90 alternatives",
-    "Présent alternatif",
-    "Histoire alternative",
-    "Une histoire où Rome n'est jamais tombée",
-    "Une histoire où la technologie à vapeur est allée trop loin",
-    "Une histoire où les ordinateurs ont été inventés au XIXe siècle",
-    "Une histoire où les voyages spatiaux ont commencé dans les années 50",
-    "Une histoire où la guerre froide n'a jamais pris fin",
-    "Une histoire où les armes nucléaires n'ont jamais été inventées",
-    "Une histoire où Internet est né des décennies plus tôt",
-    "Une histoire où l'IA est apparue au milieu du XXe siècle",
-    "Une histoire où l'humanité ne s'est jamais industrialisée",
-    "Une histoire où la peste noire a entièrement ravagé l'Europe",
-    "Une histoire où les dinosaures ne se sont jamais éteints",
-    "Une histoire où l'Union soviétique ne s'est jamais dissoute",
-    "Une histoire où l'Empire romain a survécu jusqu'à nos jours",
-    "Ère steampunk",
-    "Ère dieselpunk",
-    "Ère atompunk",
-    "Futurisme cassette",
-    "Années 50 rétrofuturistes",
-    "Années 60 rétrofuturistes",
-    "Années 80 rétrofuturistes",
-    "Futur cyberpunk",
-    "Futur biopunk",
-    "Futur solarpunk",
-    "Futur hopepunk",
-    "Futur dystopique",
-    "Futur utopique",
-    "Futur dominé par des mégacorporations",
-    "Futur autoritaire",
-    "Futur de cités-États décentralisées",
-    "Ère des colonies spatiales",
-    "Ère des vaisseaux générationnels",
-    "Ère de la terraformation",
-    "Ère du premier contact",
-    "Ère de la guerre galactique",
-    "Ère de la paix galactique",
-    "Dernières phases de l'univers",
-    "La fin des temps",
-    "Monde intemporel",
-    "Boucle temporelle",
-    "Différentes époques se mélangent",
-    "Plusieurs époques côte à côte",
-    "Le joueur voyage entre différentes époques",
-    "Le monde progresse de l'âge de pierre à l'ère spatiale",
-    "Une génération avant la grande catastrophe",
-    "La dernière année avant la fin du monde",
-    "Le dernier jour avant la catastrophe",
-    "Le premier jour après la catastrophe",
-    "La première année d'une nouvelle société",
-    "Les derniers jours de la civilisation",
-    "Les premiers jours de la civilisation"
+    {
+      "id": "eras-0001",
+      "text": "Préhistoire"
+    },
+    {
+      "id": "eras-0002",
+      "text": "Âge de pierre"
+    },
+    {
+      "id": "eras-0003",
+      "text": "Paléolithique"
+    },
+    {
+      "id": "eras-0004",
+      "text": "Mésolithique"
+    },
+    {
+      "id": "eras-0005",
+      "text": "Néolithique"
+    },
+    {
+      "id": "eras-0006",
+      "text": "Âge du bronze"
+    },
+    {
+      "id": "eras-0007",
+      "text": "Âge du fer"
+    },
+    {
+      "id": "eras-0008",
+      "text": "Antiquité"
+    },
+    {
+      "id": "eras-0009",
+      "text": "Égypte antique"
+    },
+    {
+      "id": "eras-0010",
+      "text": "Mésopotamie antique"
+    },
+    {
+      "id": "eras-0011",
+      "text": "Grèce antique"
+    },
+    {
+      "id": "eras-0012",
+      "text": "République romaine"
+    },
+    {
+      "id": "eras-0013",
+      "text": "Empire romain"
+    },
+    {
+      "id": "eras-0014",
+      "text": "Antiquité tardive"
+    },
+    {
+      "id": "eras-0015",
+      "text": "Haut Moyen Âge"
+    },
+    {
+      "id": "eras-0016",
+      "text": "Moyen Âge"
+    },
+    {
+      "id": "eras-0017",
+      "text": "Moyen Âge central"
+    },
+    {
+      "id": "eras-0018",
+      "text": "Bas Moyen Âge"
+    },
+    {
+      "id": "eras-0019",
+      "text": "Renaissance"
+    },
+    {
+      "id": "eras-0020",
+      "text": "Grandes découvertes"
+    },
+    {
+      "id": "eras-0021",
+      "text": "Époque de la Réforme"
+    },
+    {
+      "id": "eras-0022",
+      "text": "XVIIe siècle"
+    },
+    {
+      "id": "eras-0023",
+      "text": "Époque baroque"
+    },
+    {
+      "id": "eras-0024",
+      "text": "XVIIIe siècle"
+    },
+    {
+      "id": "eras-0025",
+      "text": "Siècle des Lumières"
+    },
+    {
+      "id": "eras-0026",
+      "text": "Époque coloniale"
+    },
+    {
+      "id": "eras-0027",
+      "text": "Débuts de l'industrialisation"
+    },
+    {
+      "id": "eras-0028",
+      "text": "XIXe siècle"
+    },
+    {
+      "id": "eras-0029",
+      "text": "Guerres napoléoniennes"
+    },
+    {
+      "id": "eras-0030",
+      "text": "Époque victorienne"
+    },
+    {
+      "id": "eras-0031",
+      "text": "Far West"
+    },
+    {
+      "id": "eras-0032",
+      "text": "Révolution industrielle"
+    },
+    {
+      "id": "eras-0033",
+      "text": "Années 1890"
+    },
+    {
+      "id": "eras-0034",
+      "text": "Années 1900"
+    },
+    {
+      "id": "eras-0035",
+      "text": "Années 1910"
+    },
+    {
+      "id": "eras-0036",
+      "text": "Première Guerre mondiale"
+    },
+    {
+      "id": "eras-0037",
+      "text": "Années 1920"
+    },
+    {
+      "id": "eras-0038",
+      "text": "Prohibition"
+    },
+    {
+      "id": "eras-0039",
+      "text": "Grande Dépression"
+    },
+    {
+      "id": "eras-0040",
+      "text": "Années 1930"
+    },
+    {
+      "id": "eras-0041",
+      "text": "Seconde Guerre mondiale"
+    },
+    {
+      "id": "eras-0042",
+      "text": "Années 1940"
+    },
+    {
+      "id": "eras-0043",
+      "text": "Après-guerre"
+    },
+    {
+      "id": "eras-0044",
+      "text": "Années 1950"
+    },
+    {
+      "id": "eras-0045",
+      "text": "Début de la guerre froide"
+    },
+    {
+      "id": "eras-0046",
+      "text": "Années 1960"
+    },
+    {
+      "id": "eras-0047",
+      "text": "Époque de la course à l'espace"
+    },
+    {
+      "id": "eras-0048",
+      "text": "Années 1970"
+    },
+    {
+      "id": "eras-0049",
+      "text": "Guerre froide"
+    },
+    {
+      "id": "eras-0050",
+      "text": "Années 1980"
+    },
+    {
+      "id": "eras-0051",
+      "text": "Fin de la guerre froide"
+    },
+    {
+      "id": "eras-0052",
+      "text": "Années 1990"
+    },
+    {
+      "id": "eras-0053",
+      "text": "Années 2000"
+    },
+    {
+      "id": "eras-0054",
+      "text": "Années 2010"
+    },
+    {
+      "id": "eras-0055",
+      "text": "Années 2020"
+    },
+    {
+      "id": "eras-0056",
+      "text": "Époque actuelle"
+    },
+    {
+      "id": "eras-0057",
+      "text": "Futur proche"
+    },
+    {
+      "id": "eras-0058",
+      "text": "Années 2030"
+    },
+    {
+      "id": "eras-0059",
+      "text": "Années 2040"
+    },
+    {
+      "id": "eras-0060",
+      "text": "Années 2050"
+    },
+    {
+      "id": "eras-0061",
+      "text": "Années 2060"
+    },
+    {
+      "id": "eras-0062",
+      "text": "XXIIe siècle"
+    },
+    {
+      "id": "eras-0063",
+      "text": "Futur lointain"
+    },
+    {
+      "id": "eras-0064",
+      "text": "Futur très lointain"
+    },
+    {
+      "id": "eras-0065",
+      "text": "Futur posthumain"
+    },
+    {
+      "id": "eras-0066",
+      "text": "Futur post-apocalyptique"
+    },
+    {
+      "id": "eras-0067",
+      "text": "Après la fin du monde"
+    },
+    {
+      "id": "eras-0068",
+      "text": "Ère de la reconstruction"
+    },
+    {
+      "id": "eras-0069",
+      "text": "Ère de la colonisation planétaire"
+    },
+    {
+      "id": "eras-0070",
+      "text": "Ère de la colonisation du système solaire"
+    },
+    {
+      "id": "eras-0071",
+      "text": "Ère des voyages interstellaires"
+    },
+    {
+      "id": "eras-0072",
+      "text": "Ère de la civilisation galactique"
+    },
+    {
+      "id": "eras-0073",
+      "text": "Ère posthumaine"
+    },
+    {
+      "id": "eras-0074",
+      "text": "Ère des intelligences artificielles"
+    },
+    {
+      "id": "eras-0075",
+      "text": "Ère des robots"
+    },
+    {
+      "id": "eras-0076",
+      "text": "Ère du génie génétique"
+    },
+    {
+      "id": "eras-0077",
+      "text": "Ère cybernétique"
+    },
+    {
+      "id": "eras-0078",
+      "text": "Ère de la réalité virtuelle"
+    },
+    {
+      "id": "eras-0079",
+      "text": "Société entièrement automatisée"
+    },
+    {
+      "id": "eras-0080",
+      "text": "Société post-pénurie"
+    },
+    {
+      "id": "eras-0081",
+      "text": "Effondrement de la civilisation"
+    },
+    {
+      "id": "eras-0082",
+      "text": "Ère de la crise écologique"
+    },
+    {
+      "id": "eras-0083",
+      "text": "Après la catastrophe climatique"
+    },
+    {
+      "id": "eras-0084",
+      "text": "Après l'apocalypse nucléaire"
+    },
+    {
+      "id": "eras-0085",
+      "text": "Après la pandémie"
+    },
+    {
+      "id": "eras-0086",
+      "text": "Après le contact avec une civilisation extraterrestre"
+    },
+    {
+      "id": "eras-0087",
+      "text": "Antiquité alternative"
+    },
+    {
+      "id": "eras-0088",
+      "text": "Moyen Âge alternatif"
+    },
+    {
+      "id": "eras-0089",
+      "text": "Renaissance alternative"
+    },
+    {
+      "id": "eras-0090",
+      "text": "XIXe siècle alternatif"
+    },
+    {
+      "id": "eras-0091",
+      "text": "Première Guerre mondiale alternative"
+    },
+    {
+      "id": "eras-0092",
+      "text": "Seconde Guerre mondiale alternative"
+    },
+    {
+      "id": "eras-0093",
+      "text": "Guerre froide alternative"
+    },
+    {
+      "id": "eras-0094",
+      "text": "Années 50 alternatives"
+    },
+    {
+      "id": "eras-0095",
+      "text": "Années 80 alternatives"
+    },
+    {
+      "id": "eras-0096",
+      "text": "Années 90 alternatives"
+    },
+    {
+      "id": "eras-0097",
+      "text": "Présent alternatif"
+    },
+    {
+      "id": "eras-0098",
+      "text": "Histoire alternative"
+    },
+    {
+      "id": "eras-0099",
+      "text": "Une histoire où Rome n'est jamais tombée"
+    },
+    {
+      "id": "eras-0100",
+      "text": "Une histoire où la technologie à vapeur est allée trop loin"
+    },
+    {
+      "id": "eras-0101",
+      "text": "Une histoire où les ordinateurs ont été inventés au XIXe siècle"
+    },
+    {
+      "id": "eras-0102",
+      "text": "Une histoire où les voyages spatiaux ont commencé dans les années 50"
+    },
+    {
+      "id": "eras-0103",
+      "text": "Une histoire où la guerre froide n'a jamais pris fin"
+    },
+    {
+      "id": "eras-0104",
+      "text": "Une histoire où les armes nucléaires n'ont jamais été inventées"
+    },
+    {
+      "id": "eras-0105",
+      "text": "Une histoire où Internet est né des décennies plus tôt"
+    },
+    {
+      "id": "eras-0106",
+      "text": "Une histoire où l'IA est apparue au milieu du XXe siècle"
+    },
+    {
+      "id": "eras-0107",
+      "text": "Une histoire où l'humanité ne s'est jamais industrialisée"
+    },
+    {
+      "id": "eras-0108",
+      "text": "Une histoire où la peste noire a entièrement ravagé l'Europe"
+    },
+    {
+      "id": "eras-0109",
+      "text": "Une histoire où les dinosaures ne se sont jamais éteints"
+    },
+    {
+      "id": "eras-0110",
+      "text": "Une histoire où l'Union soviétique ne s'est jamais dissoute"
+    },
+    {
+      "id": "eras-0111",
+      "text": "Une histoire où l'Empire romain a survécu jusqu'à nos jours"
+    },
+    {
+      "id": "eras-0112",
+      "text": "Ère steampunk"
+    },
+    {
+      "id": "eras-0113",
+      "text": "Ère dieselpunk"
+    },
+    {
+      "id": "eras-0114",
+      "text": "Ère atompunk"
+    },
+    {
+      "id": "eras-0115",
+      "text": "Futurisme cassette"
+    },
+    {
+      "id": "eras-0116",
+      "text": "Années 50 rétrofuturistes"
+    },
+    {
+      "id": "eras-0117",
+      "text": "Années 60 rétrofuturistes"
+    },
+    {
+      "id": "eras-0118",
+      "text": "Années 80 rétrofuturistes"
+    },
+    {
+      "id": "eras-0119",
+      "text": "Futur cyberpunk"
+    },
+    {
+      "id": "eras-0120",
+      "text": "Futur biopunk"
+    },
+    {
+      "id": "eras-0121",
+      "text": "Futur solarpunk"
+    },
+    {
+      "id": "eras-0122",
+      "text": "Futur hopepunk"
+    },
+    {
+      "id": "eras-0123",
+      "text": "Futur dystopique"
+    },
+    {
+      "id": "eras-0124",
+      "text": "Futur utopique"
+    },
+    {
+      "id": "eras-0125",
+      "text": "Futur dominé par des mégacorporations"
+    },
+    {
+      "id": "eras-0126",
+      "text": "Futur autoritaire"
+    },
+    {
+      "id": "eras-0127",
+      "text": "Futur de cités-États décentralisées"
+    },
+    {
+      "id": "eras-0128",
+      "text": "Ère des colonies spatiales"
+    },
+    {
+      "id": "eras-0129",
+      "text": "Ère des vaisseaux générationnels"
+    },
+    {
+      "id": "eras-0130",
+      "text": "Ère de la terraformation"
+    },
+    {
+      "id": "eras-0131",
+      "text": "Ère du premier contact"
+    },
+    {
+      "id": "eras-0132",
+      "text": "Ère de la guerre galactique"
+    },
+    {
+      "id": "eras-0133",
+      "text": "Ère de la paix galactique"
+    },
+    {
+      "id": "eras-0134",
+      "text": "Dernières phases de l'univers"
+    },
+    {
+      "id": "eras-0135",
+      "text": "La fin des temps"
+    },
+    {
+      "id": "eras-0136",
+      "text": "Monde intemporel"
+    },
+    {
+      "id": "eras-0137",
+      "text": "Boucle temporelle"
+    },
+    {
+      "id": "eras-0138",
+      "text": "Différentes époques se mélangent"
+    },
+    {
+      "id": "eras-0139",
+      "text": "Plusieurs époques côte à côte"
+    },
+    {
+      "id": "eras-0140",
+      "text": "Le joueur voyage entre différentes époques"
+    },
+    {
+      "id": "eras-0141",
+      "text": "Le monde progresse de l'âge de pierre à l'ère spatiale"
+    },
+    {
+      "id": "eras-0142",
+      "text": "Une génération avant la grande catastrophe"
+    },
+    {
+      "id": "eras-0143",
+      "text": "La dernière année avant la fin du monde"
+    },
+    {
+      "id": "eras-0144",
+      "text": "Le dernier jour avant la catastrophe"
+    },
+    {
+      "id": "eras-0145",
+      "text": "Le premier jour après la catastrophe"
+    },
+    {
+      "id": "eras-0146",
+      "text": "La première année d'une nouvelle société"
+    },
+    {
+      "id": "eras-0147",
+      "text": "Les derniers jours de la civilisation"
+    },
+    {
+      "id": "eras-0148",
+      "text": "Les premiers jours de la civilisation"
+    }
   ]
 }

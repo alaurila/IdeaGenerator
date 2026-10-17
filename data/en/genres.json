@@ -1,499 +1,1822 @@
 {
   "genres": {
     "action": [
-      "Action",
-      "Action Adventure",
-      "Platformer",
-      "2D Platformer",
-      "3D Platformer",
-      "Metroidvania",
-      "Beat 'em up",
-      "Hack and Slash",
-      "Character Action",
-      "Shooter",
-      "First-Person Shooter (FPS)",
-      "Third-Person Shooter (TPS)",
-      "Arena Shooter",
-      "Tactical Shooter",
-      "Hero Shooter",
-      "Extraction Shooter",
-      "Looter Shooter",
-      "Rail Shooter",
-      "Shoot 'em up",
-      "Bullet Hell",
-      "Twin-Stick Shooter",
-      "Run and Gun",
-      "Stealth",
-      "Stealth Action",
-      "Fighting Game",
-      "2D Fighting",
-      "3D Fighting",
-      "Arena Fighter",
-      "Wrestling Game",
-      "Rhythm Action"
+      {
+        "id": "genres-0001",
+        "text": "Action"
+      },
+      {
+        "id": "genres-0002",
+        "text": "Action Adventure"
+      },
+      {
+        "id": "genres-0003",
+        "text": "Platformer"
+      },
+      {
+        "id": "genres-0004",
+        "text": "2D Platformer"
+      },
+      {
+        "id": "genres-0005",
+        "text": "3D Platformer"
+      },
+      {
+        "id": "genres-0006",
+        "text": "Metroidvania"
+      },
+      {
+        "id": "genres-0007",
+        "text": "Beat 'em up"
+      },
+      {
+        "id": "genres-0008",
+        "text": "Hack and Slash"
+      },
+      {
+        "id": "genres-0009",
+        "text": "Character Action"
+      },
+      {
+        "id": "genres-0010",
+        "text": "Shooter"
+      },
+      {
+        "id": "genres-0011",
+        "text": "First-Person Shooter (FPS)"
+      },
+      {
+        "id": "genres-0012",
+        "text": "Third-Person Shooter (TPS)"
+      },
+      {
+        "id": "genres-0013",
+        "text": "Arena Shooter"
+      },
+      {
+        "id": "genres-0014",
+        "text": "Tactical Shooter"
+      },
+      {
+        "id": "genres-0015",
+        "text": "Hero Shooter"
+      },
+      {
+        "id": "genres-0016",
+        "text": "Extraction Shooter"
+      },
+      {
+        "id": "genres-0017",
+        "text": "Looter Shooter"
+      },
+      {
+        "id": "genres-0018",
+        "text": "Rail Shooter"
+      },
+      {
+        "id": "genres-0019",
+        "text": "Shoot 'em up"
+      },
+      {
+        "id": "genres-0020",
+        "text": "Bullet Hell"
+      },
+      {
+        "id": "genres-0021",
+        "text": "Twin-Stick Shooter"
+      },
+      {
+        "id": "genres-0022",
+        "text": "Run and Gun"
+      },
+      {
+        "id": "genres-0023",
+        "text": "Stealth"
+      },
+      {
+        "id": "genres-0024",
+        "text": "Stealth Action"
+      },
+      {
+        "id": "genres-0025",
+        "text": "Fighting Game"
+      },
+      {
+        "id": "genres-0026",
+        "text": "2D Fighting"
+      },
+      {
+        "id": "genres-0027",
+        "text": "3D Fighting"
+      },
+      {
+        "id": "genres-0028",
+        "text": "Arena Fighter"
+      },
+      {
+        "id": "genres-0029",
+        "text": "Wrestling Game"
+      },
+      {
+        "id": "genres-0030",
+        "text": "Rhythm Action"
+      }
     ],
     "adventure": [
-      "Adventure",
-      "Point-and-Click Adventure",
-      "Graphic Adventure",
-      "Text Adventure",
-      "Interactive Fiction",
-      "Visual Novel",
-      "Walking Simulator",
-      "Narrative Adventure",
-      "Cinematic Adventure",
-      "Choice-Driven Narrative",
-      "Mystery",
-      "Detective Game",
-      "Investigation Game",
-      "Escape Room Game",
-      "Puzzle Adventure",
-      "Hidden Object Game",
-      "FMV Game"
+      {
+        "id": "genres-0031",
+        "text": "Adventure"
+      },
+      {
+        "id": "genres-0032",
+        "text": "Point-and-Click Adventure"
+      },
+      {
+        "id": "genres-0033",
+        "text": "Graphic Adventure"
+      },
+      {
+        "id": "genres-0034",
+        "text": "Text Adventure"
+      },
+      {
+        "id": "genres-0035",
+        "text": "Interactive Fiction"
+      },
+      {
+        "id": "genres-0036",
+        "text": "Visual Novel"
+      },
+      {
+        "id": "genres-0037",
+        "text": "Walking Simulator"
+      },
+      {
+        "id": "genres-0038",
+        "text": "Narrative Adventure"
+      },
+      {
+        "id": "genres-0039",
+        "text": "Cinematic Adventure"
+      },
+      {
+        "id": "genres-0040",
+        "text": "Choice-Driven Narrative"
+      },
+      {
+        "id": "genres-0041",
+        "text": "Mystery"
+      },
+      {
+        "id": "genres-0042",
+        "text": "Detective Game"
+      },
+      {
+        "id": "genres-0043",
+        "text": "Investigation Game"
+      },
+      {
+        "id": "genres-0044",
+        "text": "Escape Room Game"
+      },
+      {
+        "id": "genres-0045",
+        "text": "Puzzle Adventure"
+      },
+      {
+        "id": "genres-0046",
+        "text": "Hidden Object Game"
+      },
+      {
+        "id": "genres-0047",
+        "text": "FMV Game"
+      }
     ],
     "rpg": [
-      "RPG",
-      "Action RPG",
-      "Tactical RPG",
-      "Strategy RPG",
-      "Turn-Based RPG",
-      "Real-Time RPG",
-      "Computer RPG (CRPG)",
-      "Japanese RPG (JRPG)",
-      "Western RPG",
-      "Open-World RPG",
-      "Dungeon Crawler",
-      "First-Person Dungeon Crawler",
-      "Party-Based RPG",
-      "Monster Taming RPG",
-      "Soulslike",
-      "Roguelike RPG",
-      "Roguelite RPG",
-      "MMORPG",
-      "MUD",
-      "Sandbox RPG",
-      "Life RPG",
-      "Narrative RPG",
-      "Immersive RPG"
+      {
+        "id": "genres-0048",
+        "text": "RPG"
+      },
+      {
+        "id": "genres-0049",
+        "text": "Action RPG"
+      },
+      {
+        "id": "genres-0050",
+        "text": "Tactical RPG"
+      },
+      {
+        "id": "genres-0051",
+        "text": "Strategy RPG"
+      },
+      {
+        "id": "genres-0052",
+        "text": "Turn-Based RPG"
+      },
+      {
+        "id": "genres-0053",
+        "text": "Real-Time RPG"
+      },
+      {
+        "id": "genres-0054",
+        "text": "Computer RPG (CRPG)"
+      },
+      {
+        "id": "genres-0055",
+        "text": "Japanese RPG (JRPG)"
+      },
+      {
+        "id": "genres-0056",
+        "text": "Western RPG"
+      },
+      {
+        "id": "genres-0057",
+        "text": "Open-World RPG"
+      },
+      {
+        "id": "genres-0058",
+        "text": "Dungeon Crawler"
+      },
+      {
+        "id": "genres-0059",
+        "text": "First-Person Dungeon Crawler"
+      },
+      {
+        "id": "genres-0060",
+        "text": "Party-Based RPG"
+      },
+      {
+        "id": "genres-0061",
+        "text": "Monster Taming RPG"
+      },
+      {
+        "id": "genres-0062",
+        "text": "Soulslike"
+      },
+      {
+        "id": "genres-0063",
+        "text": "Roguelike RPG"
+      },
+      {
+        "id": "genres-0064",
+        "text": "Roguelite RPG"
+      },
+      {
+        "id": "genres-0065",
+        "text": "MMORPG"
+      },
+      {
+        "id": "genres-0066",
+        "text": "MUD"
+      },
+      {
+        "id": "genres-0067",
+        "text": "Sandbox RPG"
+      },
+      {
+        "id": "genres-0068",
+        "text": "Life RPG"
+      },
+      {
+        "id": "genres-0069",
+        "text": "Narrative RPG"
+      },
+      {
+        "id": "genres-0070",
+        "text": "Immersive RPG"
+      }
     ],
     "strategy": [
-      "Strategy",
-      "Real-Time Strategy (RTS)",
-      "Turn-Based Strategy (TBS)",
-      "Grand Strategy",
-      "4X",
-      "Tactical Strategy",
-      "Real-Time Tactics",
-      "Turn-Based Tactics",
-      "Wargame",
-      "Operational Wargame",
-      "Tactical Wargame",
-      "Hex-and-Counter",
-      "Tower Defense",
-      "Tower Offense",
-      "Auto Battler",
-      "Lane Strategy",
-      "MOBA",
-      "Deckbuilding Strategy",
-      "Card Strategy",
-      "Political Strategy",
-      "Geopolitical Strategy",
-      "Economic Strategy",
-      "Diplomacy Game",
-      "Colony Strategy",
-      "Kingdom Management",
-      "Territory Control"
+      {
+        "id": "genres-0071",
+        "text": "Strategy"
+      },
+      {
+        "id": "genres-0072",
+        "text": "Real-Time Strategy (RTS)"
+      },
+      {
+        "id": "genres-0073",
+        "text": "Turn-Based Strategy (TBS)"
+      },
+      {
+        "id": "genres-0074",
+        "text": "Grand Strategy"
+      },
+      {
+        "id": "genres-0075",
+        "text": "4X"
+      },
+      {
+        "id": "genres-0076",
+        "text": "Tactical Strategy"
+      },
+      {
+        "id": "genres-0077",
+        "text": "Real-Time Tactics"
+      },
+      {
+        "id": "genres-0078",
+        "text": "Turn-Based Tactics"
+      },
+      {
+        "id": "genres-0079",
+        "text": "Wargame"
+      },
+      {
+        "id": "genres-0080",
+        "text": "Operational Wargame"
+      },
+      {
+        "id": "genres-0081",
+        "text": "Tactical Wargame"
+      },
+      {
+        "id": "genres-0082",
+        "text": "Hex-and-Counter"
+      },
+      {
+        "id": "genres-0083",
+        "text": "Tower Defense"
+      },
+      {
+        "id": "genres-0084",
+        "text": "Tower Offense"
+      },
+      {
+        "id": "genres-0085",
+        "text": "Auto Battler"
+      },
+      {
+        "id": "genres-0086",
+        "text": "Lane Strategy"
+      },
+      {
+        "id": "genres-0087",
+        "text": "MOBA"
+      },
+      {
+        "id": "genres-0088",
+        "text": "Deckbuilding Strategy"
+      },
+      {
+        "id": "genres-0089",
+        "text": "Card Strategy"
+      },
+      {
+        "id": "genres-0090",
+        "text": "Political Strategy"
+      },
+      {
+        "id": "genres-0091",
+        "text": "Geopolitical Strategy"
+      },
+      {
+        "id": "genres-0092",
+        "text": "Economic Strategy"
+      },
+      {
+        "id": "genres-0093",
+        "text": "Diplomacy Game"
+      },
+      {
+        "id": "genres-0094",
+        "text": "Colony Strategy"
+      },
+      {
+        "id": "genres-0095",
+        "text": "Kingdom Management"
+      },
+      {
+        "id": "genres-0096",
+        "text": "Territory Control"
+      }
     ],
     "simulation": [
-      "Simulation",
-      "Life Simulation",
-      "Social Simulation",
-      "Dating Sim",
-      "Relationship Simulation",
-      "Job Simulation",
-      "Vehicle Simulation",
-      "Flight Simulator",
-      "Space Flight Simulator",
-      "Driving Simulator",
-      "Train Simulator",
-      "Truck Simulator",
-      "Farming Simulator",
-      "Hunting Simulator",
-      "Fishing Simulator",
-      "Construction Simulator",
-      "Surgery Simulator",
-      "Medical Simulator",
-      "Business Simulation",
-      "Political Simulation",
-      "Government Simulation",
-      "Economic Simulation",
-      "Ecosystem Simulation",
-      "Evolution Simulation",
-      "God Game",
-      "Population Simulation",
-      "Society Simulation",
-      "Physics Simulation"
+      {
+        "id": "genres-0097",
+        "text": "Simulation"
+      },
+      {
+        "id": "genres-0098",
+        "text": "Life Simulation"
+      },
+      {
+        "id": "genres-0099",
+        "text": "Social Simulation"
+      },
+      {
+        "id": "genres-0100",
+        "text": "Dating Sim"
+      },
+      {
+        "id": "genres-0101",
+        "text": "Relationship Simulation"
+      },
+      {
+        "id": "genres-0102",
+        "text": "Job Simulation"
+      },
+      {
+        "id": "genres-0103",
+        "text": "Vehicle Simulation"
+      },
+      {
+        "id": "genres-0104",
+        "text": "Flight Simulator"
+      },
+      {
+        "id": "genres-0105",
+        "text": "Space Flight Simulator"
+      },
+      {
+        "id": "genres-0106",
+        "text": "Driving Simulator"
+      },
+      {
+        "id": "genres-0107",
+        "text": "Train Simulator"
+      },
+      {
+        "id": "genres-0108",
+        "text": "Truck Simulator"
+      },
+      {
+        "id": "genres-0109",
+        "text": "Farming Simulator"
+      },
+      {
+        "id": "genres-0110",
+        "text": "Hunting Simulator"
+      },
+      {
+        "id": "genres-0111",
+        "text": "Fishing Simulator"
+      },
+      {
+        "id": "genres-0112",
+        "text": "Construction Simulator"
+      },
+      {
+        "id": "genres-0113",
+        "text": "Surgery Simulator"
+      },
+      {
+        "id": "genres-0114",
+        "text": "Medical Simulator"
+      },
+      {
+        "id": "genres-0115",
+        "text": "Business Simulation"
+      },
+      {
+        "id": "genres-0116",
+        "text": "Political Simulation"
+      },
+      {
+        "id": "genres-0117",
+        "text": "Government Simulation"
+      },
+      {
+        "id": "genres-0118",
+        "text": "Economic Simulation"
+      },
+      {
+        "id": "genres-0119",
+        "text": "Ecosystem Simulation"
+      },
+      {
+        "id": "genres-0120",
+        "text": "Evolution Simulation"
+      },
+      {
+        "id": "genres-0121",
+        "text": "God Game"
+      },
+      {
+        "id": "genres-0122",
+        "text": "Population Simulation"
+      },
+      {
+        "id": "genres-0123",
+        "text": "Society Simulation"
+      },
+      {
+        "id": "genres-0124",
+        "text": "Physics Simulation"
+      }
     ],
     "management_and_tycoon": [
-      "Management Game",
-      "Tycoon",
-      "Business Tycoon",
-      "Transport Tycoon",
-      "Theme Park Management",
-      "Hospital Management",
-      "Hotel Management",
-      "Restaurant Management",
-      "Shop Management",
-      "Factory Management",
-      "Prison Management",
-      "School Management",
-      "Sports Management",
-      "Football Manager",
-      "Resource Management",
-      "Workforce Management",
-      "Logistics Management",
-      "Supply Chain Game",
-      "Production Chain Game",
-      "Colony Management",
-      "Settlement Management",
-      "Kingdom Management",
-      "City Management"
+      {
+        "id": "genres-0125",
+        "text": "Management Game"
+      },
+      {
+        "id": "genres-0126",
+        "text": "Tycoon"
+      },
+      {
+        "id": "genres-0127",
+        "text": "Business Tycoon"
+      },
+      {
+        "id": "genres-0128",
+        "text": "Transport Tycoon"
+      },
+      {
+        "id": "genres-0129",
+        "text": "Theme Park Management"
+      },
+      {
+        "id": "genres-0130",
+        "text": "Hospital Management"
+      },
+      {
+        "id": "genres-0131",
+        "text": "Hotel Management"
+      },
+      {
+        "id": "genres-0132",
+        "text": "Restaurant Management"
+      },
+      {
+        "id": "genres-0133",
+        "text": "Shop Management"
+      },
+      {
+        "id": "genres-0134",
+        "text": "Factory Management"
+      },
+      {
+        "id": "genres-0135",
+        "text": "Prison Management"
+      },
+      {
+        "id": "genres-0136",
+        "text": "School Management"
+      },
+      {
+        "id": "genres-0137",
+        "text": "Sports Management"
+      },
+      {
+        "id": "genres-0138",
+        "text": "Football Manager"
+      },
+      {
+        "id": "genres-0139",
+        "text": "Resource Management"
+      },
+      {
+        "id": "genres-0140",
+        "text": "Workforce Management"
+      },
+      {
+        "id": "genres-0141",
+        "text": "Logistics Management"
+      },
+      {
+        "id": "genres-0142",
+        "text": "Supply Chain Game"
+      },
+      {
+        "id": "genres-0143",
+        "text": "Production Chain Game"
+      },
+      {
+        "id": "genres-0144",
+        "text": "Colony Management"
+      },
+      {
+        "id": "genres-0145",
+        "text": "Settlement Management"
+      },
+      {
+        "id": "genres-0146",
+        "text": "Kingdom Management"
+      },
+      {
+        "id": "genres-0147",
+        "text": "City Management"
+      }
     ],
     "building": [
-      "City Builder",
-      "Colony Builder",
-      "Settlement Builder",
-      "Base Builder",
-      "Factory Builder",
-      "Automation Game",
-      "Construction Game",
-      "Sandbox Builder",
-      "House Builder",
-      "Interior Design Game",
-      "Voxel Builder",
-      "World Builder",
-      "Civilization Builder"
+      {
+        "id": "genres-0148",
+        "text": "City Builder"
+      },
+      {
+        "id": "genres-0149",
+        "text": "Colony Builder"
+      },
+      {
+        "id": "genres-0150",
+        "text": "Settlement Builder"
+      },
+      {
+        "id": "genres-0151",
+        "text": "Base Builder"
+      },
+      {
+        "id": "genres-0152",
+        "text": "Factory Builder"
+      },
+      {
+        "id": "genres-0153",
+        "text": "Automation Game"
+      },
+      {
+        "id": "genres-0154",
+        "text": "Construction Game"
+      },
+      {
+        "id": "genres-0155",
+        "text": "Sandbox Builder"
+      },
+      {
+        "id": "genres-0156",
+        "text": "House Builder"
+      },
+      {
+        "id": "genres-0157",
+        "text": "Interior Design Game"
+      },
+      {
+        "id": "genres-0158",
+        "text": "Voxel Builder"
+      },
+      {
+        "id": "genres-0159",
+        "text": "World Builder"
+      },
+      {
+        "id": "genres-0160",
+        "text": "Civilization Builder"
+      }
     ],
     "survival": [
-      "Survival",
-      "Survival Crafting",
-      "Survival Horror",
-      "Open-World Survival",
-      "Hardcore Survival",
-      "Wilderness Survival",
-      "Post-Apocalyptic Survival",
-      "Space Survival",
-      "Underwater Survival",
-      "Colony Survival",
-      "Social Survival",
-      "Extraction Survival",
-      "Disaster Survival"
+      {
+        "id": "genres-0161",
+        "text": "Survival"
+      },
+      {
+        "id": "genres-0162",
+        "text": "Survival Crafting"
+      },
+      {
+        "id": "genres-0163",
+        "text": "Survival Horror"
+      },
+      {
+        "id": "genres-0164",
+        "text": "Open-World Survival"
+      },
+      {
+        "id": "genres-0165",
+        "text": "Hardcore Survival"
+      },
+      {
+        "id": "genres-0166",
+        "text": "Wilderness Survival"
+      },
+      {
+        "id": "genres-0167",
+        "text": "Post-Apocalyptic Survival"
+      },
+      {
+        "id": "genres-0168",
+        "text": "Space Survival"
+      },
+      {
+        "id": "genres-0169",
+        "text": "Underwater Survival"
+      },
+      {
+        "id": "genres-0170",
+        "text": "Colony Survival"
+      },
+      {
+        "id": "genres-0171",
+        "text": "Social Survival"
+      },
+      {
+        "id": "genres-0172",
+        "text": "Extraction Survival"
+      },
+      {
+        "id": "genres-0173",
+        "text": "Disaster Survival"
+      }
     ],
     "horror": [
-      "Horror",
-      "Survival Horror",
-      "Psychological Horror",
-      "Cosmic Horror",
-      "Body Horror",
-      "Gothic Horror",
-      "Folk Horror",
-      "Paranormal Horror",
-      "Found Footage Horror",
-      "Analog Horror Game",
-      "Mascot Horror",
-      "Stealth Horror",
-      "Puzzle Horror",
-      "Action Horror",
-      "Narrative Horror"
+      {
+        "id": "genres-0174",
+        "text": "Horror"
+      },
+      {
+        "id": "genres-0175",
+        "text": "Survival Horror"
+      },
+      {
+        "id": "genres-0176",
+        "text": "Psychological Horror"
+      },
+      {
+        "id": "genres-0177",
+        "text": "Cosmic Horror"
+      },
+      {
+        "id": "genres-0178",
+        "text": "Body Horror"
+      },
+      {
+        "id": "genres-0179",
+        "text": "Gothic Horror"
+      },
+      {
+        "id": "genres-0180",
+        "text": "Folk Horror"
+      },
+      {
+        "id": "genres-0181",
+        "text": "Paranormal Horror"
+      },
+      {
+        "id": "genres-0182",
+        "text": "Found Footage Horror"
+      },
+      {
+        "id": "genres-0183",
+        "text": "Analog Horror Game"
+      },
+      {
+        "id": "genres-0184",
+        "text": "Mascot Horror"
+      },
+      {
+        "id": "genres-0185",
+        "text": "Stealth Horror"
+      },
+      {
+        "id": "genres-0186",
+        "text": "Puzzle Horror"
+      },
+      {
+        "id": "genres-0187",
+        "text": "Action Horror"
+      },
+      {
+        "id": "genres-0188",
+        "text": "Narrative Horror"
+      }
     ],
     "puzzle": [
-      "Puzzle",
-      "Logic Puzzle",
-      "Physics Puzzle",
-      "Spatial Puzzle",
-      "Word Puzzle",
-      "Math Puzzle",
-      "Programming Puzzle",
-      "Automation Puzzle",
-      "Pattern Recognition",
-      "Match-3",
-      "Tile Matching",
-      "Sokoban",
-      "Falling Block Puzzle",
-      "Puzzle Platformer",
-      "Puzzle Adventure",
-      "Escape Room",
-      "Deduction Game",
-      "Nonogram",
-      "Sudoku Game",
-      "Trivia Game"
+      {
+        "id": "genres-0189",
+        "text": "Puzzle"
+      },
+      {
+        "id": "genres-0190",
+        "text": "Logic Puzzle"
+      },
+      {
+        "id": "genres-0191",
+        "text": "Physics Puzzle"
+      },
+      {
+        "id": "genres-0192",
+        "text": "Spatial Puzzle"
+      },
+      {
+        "id": "genres-0193",
+        "text": "Word Puzzle"
+      },
+      {
+        "id": "genres-0194",
+        "text": "Math Puzzle"
+      },
+      {
+        "id": "genres-0195",
+        "text": "Programming Puzzle"
+      },
+      {
+        "id": "genres-0196",
+        "text": "Automation Puzzle"
+      },
+      {
+        "id": "genres-0197",
+        "text": "Pattern Recognition"
+      },
+      {
+        "id": "genres-0198",
+        "text": "Match-3"
+      },
+      {
+        "id": "genres-0199",
+        "text": "Tile Matching"
+      },
+      {
+        "id": "genres-0200",
+        "text": "Sokoban"
+      },
+      {
+        "id": "genres-0201",
+        "text": "Falling Block Puzzle"
+      },
+      {
+        "id": "genres-0202",
+        "text": "Puzzle Platformer"
+      },
+      {
+        "id": "genres-0203",
+        "text": "Puzzle Adventure"
+      },
+      {
+        "id": "genres-0204",
+        "text": "Escape Room"
+      },
+      {
+        "id": "genres-0205",
+        "text": "Deduction Game"
+      },
+      {
+        "id": "genres-0206",
+        "text": "Nonogram"
+      },
+      {
+        "id": "genres-0207",
+        "text": "Sudoku Game"
+      },
+      {
+        "id": "genres-0208",
+        "text": "Trivia Game"
+      }
     ],
     "card_and_board": [
-      "Card Game",
-      "Collectible Card Game (CCG)",
-      "Trading Card Game (TCG)",
-      "Living Card Game",
-      "Deckbuilder",
-      "Roguelike Deckbuilder",
-      "Solitaire",
-      "Digital Board Game",
-      "Dice Game",
-      "Tile-Laying Game",
-      "Worker Placement Game",
-      "Area Control Game",
-      "Social Deduction",
-      "Hidden Role Game",
-      "Trick-Taking Game",
-      "Push-Your-Luck Game",
-      "Engine-Building Game"
+      {
+        "id": "genres-0209",
+        "text": "Card Game"
+      },
+      {
+        "id": "genres-0210",
+        "text": "Collectible Card Game (CCG)"
+      },
+      {
+        "id": "genres-0211",
+        "text": "Trading Card Game (TCG)"
+      },
+      {
+        "id": "genres-0212",
+        "text": "Living Card Game"
+      },
+      {
+        "id": "genres-0213",
+        "text": "Deckbuilder"
+      },
+      {
+        "id": "genres-0214",
+        "text": "Roguelike Deckbuilder"
+      },
+      {
+        "id": "genres-0215",
+        "text": "Solitaire"
+      },
+      {
+        "id": "genres-0216",
+        "text": "Digital Board Game"
+      },
+      {
+        "id": "genres-0217",
+        "text": "Dice Game"
+      },
+      {
+        "id": "genres-0218",
+        "text": "Tile-Laying Game"
+      },
+      {
+        "id": "genres-0219",
+        "text": "Worker Placement Game"
+      },
+      {
+        "id": "genres-0220",
+        "text": "Area Control Game"
+      },
+      {
+        "id": "genres-0221",
+        "text": "Social Deduction"
+      },
+      {
+        "id": "genres-0222",
+        "text": "Hidden Role Game"
+      },
+      {
+        "id": "genres-0223",
+        "text": "Trick-Taking Game"
+      },
+      {
+        "id": "genres-0224",
+        "text": "Push-Your-Luck Game"
+      },
+      {
+        "id": "genres-0225",
+        "text": "Engine-Building Game"
+      }
     ],
     "roguelike": [
-      "Roguelike",
-      "Traditional Roguelike",
-      "Roguelite",
-      "Action Roguelite",
-      "Deckbuilding Roguelite",
-      "Tactical Roguelike",
-      "Dungeon Roguelike",
-      "Survival Roguelite",
-      "Bullet Heaven",
-      "Horde Survival",
-      "Vampire-Survivors-like"
+      {
+        "id": "genres-0226",
+        "text": "Roguelike"
+      },
+      {
+        "id": "genres-0227",
+        "text": "Traditional Roguelike"
+      },
+      {
+        "id": "genres-0228",
+        "text": "Roguelite"
+      },
+      {
+        "id": "genres-0229",
+        "text": "Action Roguelite"
+      },
+      {
+        "id": "genres-0230",
+        "text": "Deckbuilding Roguelite"
+      },
+      {
+        "id": "genres-0231",
+        "text": "Tactical Roguelike"
+      },
+      {
+        "id": "genres-0232",
+        "text": "Dungeon Roguelike"
+      },
+      {
+        "id": "genres-0233",
+        "text": "Survival Roguelite"
+      },
+      {
+        "id": "genres-0234",
+        "text": "Bullet Heaven"
+      },
+      {
+        "id": "genres-0235",
+        "text": "Horde Survival"
+      },
+      {
+        "id": "genres-0236",
+        "text": "Vampire-Survivors-like"
+      }
     ],
     "sandbox_and_open_world": [
-      "Sandbox",
-      "Open World",
-      "Open-Ended Simulation",
-      "Emergent Gameplay",
-      "Systemic Game",
-      "Immersive Sim",
-      "Physics Sandbox",
-      "Creative Sandbox",
-      "Social Sandbox",
-      "Crime Sandbox",
-      "Survival Sandbox",
-      "God Sandbox"
+      {
+        "id": "genres-0237",
+        "text": "Sandbox"
+      },
+      {
+        "id": "genres-0238",
+        "text": "Open World"
+      },
+      {
+        "id": "genres-0239",
+        "text": "Open-Ended Simulation"
+      },
+      {
+        "id": "genres-0240",
+        "text": "Emergent Gameplay"
+      },
+      {
+        "id": "genres-0241",
+        "text": "Systemic Game"
+      },
+      {
+        "id": "genres-0242",
+        "text": "Immersive Sim"
+      },
+      {
+        "id": "genres-0243",
+        "text": "Physics Sandbox"
+      },
+      {
+        "id": "genres-0244",
+        "text": "Creative Sandbox"
+      },
+      {
+        "id": "genres-0245",
+        "text": "Social Sandbox"
+      },
+      {
+        "id": "genres-0246",
+        "text": "Crime Sandbox"
+      },
+      {
+        "id": "genres-0247",
+        "text": "Survival Sandbox"
+      },
+      {
+        "id": "genres-0248",
+        "text": "God Sandbox"
+      }
     ],
     "multiplayer": [
-      "MMO",
-      "MMORPG",
-      "MMOFPS",
-      "Co-op",
-      "Local Co-op",
-      "Online Co-op",
-      "Competitive Multiplayer",
-      "Party Game",
-      "Social Game",
-      "Social Deduction",
-      "Battle Royale",
-      "Extraction Game",
-      "MOBA",
-      "Arena Combat",
-      "Asymmetrical Multiplayer",
-      "Persistent World",
-      "PvPvE"
+      {
+        "id": "genres-0249",
+        "text": "MMO"
+      },
+      {
+        "id": "genres-0250",
+        "text": "MMORPG"
+      },
+      {
+        "id": "genres-0251",
+        "text": "MMOFPS"
+      },
+      {
+        "id": "genres-0252",
+        "text": "Co-op"
+      },
+      {
+        "id": "genres-0253",
+        "text": "Local Co-op"
+      },
+      {
+        "id": "genres-0254",
+        "text": "Online Co-op"
+      },
+      {
+        "id": "genres-0255",
+        "text": "Competitive Multiplayer"
+      },
+      {
+        "id": "genres-0256",
+        "text": "Party Game"
+      },
+      {
+        "id": "genres-0257",
+        "text": "Social Game"
+      },
+      {
+        "id": "genres-0258",
+        "text": "Social Deduction"
+      },
+      {
+        "id": "genres-0259",
+        "text": "Battle Royale"
+      },
+      {
+        "id": "genres-0260",
+        "text": "Extraction Game"
+      },
+      {
+        "id": "genres-0261",
+        "text": "MOBA"
+      },
+      {
+        "id": "genres-0262",
+        "text": "Arena Combat"
+      },
+      {
+        "id": "genres-0263",
+        "text": "Asymmetrical Multiplayer"
+      },
+      {
+        "id": "genres-0264",
+        "text": "Persistent World"
+      },
+      {
+        "id": "genres-0265",
+        "text": "PvPvE"
+      }
     ],
     "sports": [
-      "Sports Game",
-      "Football",
-      "Ice Hockey",
-      "Basketball",
-      "Baseball",
-      "Tennis",
-      "Golf",
-      "Boxing",
-      "MMA",
-      "Wrestling",
-      "Skateboarding",
-      "Snowboarding",
-      "Skiing",
-      "Athletics",
-      "Extreme Sports",
-      "Sports Management",
-      "Fantasy Sports Game"
+      {
+        "id": "genres-0266",
+        "text": "Sports Game"
+      },
+      {
+        "id": "genres-0267",
+        "text": "Football"
+      },
+      {
+        "id": "genres-0268",
+        "text": "Ice Hockey"
+      },
+      {
+        "id": "genres-0269",
+        "text": "Basketball"
+      },
+      {
+        "id": "genres-0270",
+        "text": "Baseball"
+      },
+      {
+        "id": "genres-0271",
+        "text": "Tennis"
+      },
+      {
+        "id": "genres-0272",
+        "text": "Golf"
+      },
+      {
+        "id": "genres-0273",
+        "text": "Boxing"
+      },
+      {
+        "id": "genres-0274",
+        "text": "MMA"
+      },
+      {
+        "id": "genres-0275",
+        "text": "Wrestling"
+      },
+      {
+        "id": "genres-0276",
+        "text": "Skateboarding"
+      },
+      {
+        "id": "genres-0277",
+        "text": "Snowboarding"
+      },
+      {
+        "id": "genres-0278",
+        "text": "Skiing"
+      },
+      {
+        "id": "genres-0279",
+        "text": "Athletics"
+      },
+      {
+        "id": "genres-0280",
+        "text": "Extreme Sports"
+      },
+      {
+        "id": "genres-0281",
+        "text": "Sports Management"
+      },
+      {
+        "id": "genres-0282",
+        "text": "Fantasy Sports Game"
+      }
     ],
     "racing": [
-      "Racing",
-      "Arcade Racing",
-      "Sim Racing",
-      "Kart Racing",
-      "Rally",
-      "Street Racing",
-      "Combat Racing",
-      "Futuristic Racing",
-      "Motorcycle Racing",
-      "Boat Racing",
-      "Flight Racing"
+      {
+        "id": "genres-0283",
+        "text": "Racing"
+      },
+      {
+        "id": "genres-0284",
+        "text": "Arcade Racing"
+      },
+      {
+        "id": "genres-0285",
+        "text": "Sim Racing"
+      },
+      {
+        "id": "genres-0286",
+        "text": "Kart Racing"
+      },
+      {
+        "id": "genres-0287",
+        "text": "Rally"
+      },
+      {
+        "id": "genres-0288",
+        "text": "Street Racing"
+      },
+      {
+        "id": "genres-0289",
+        "text": "Combat Racing"
+      },
+      {
+        "id": "genres-0290",
+        "text": "Futuristic Racing"
+      },
+      {
+        "id": "genres-0291",
+        "text": "Motorcycle Racing"
+      },
+      {
+        "id": "genres-0292",
+        "text": "Boat Racing"
+      },
+      {
+        "id": "genres-0293",
+        "text": "Flight Racing"
+      }
     ],
     "music": [
-      "Rhythm Game",
-      "Music Game",
-      "Dance Game",
-      "Instrument Game",
-      "Rhythm Action",
-      "Rhythm Puzzle",
-      "Rhythm RPG"
+      {
+        "id": "genres-0294",
+        "text": "Rhythm Game"
+      },
+      {
+        "id": "genres-0295",
+        "text": "Music Game"
+      },
+      {
+        "id": "genres-0296",
+        "text": "Dance Game"
+      },
+      {
+        "id": "genres-0297",
+        "text": "Instrument Game"
+      },
+      {
+        "id": "genres-0298",
+        "text": "Rhythm Action"
+      },
+      {
+        "id": "genres-0299",
+        "text": "Rhythm Puzzle"
+      },
+      {
+        "id": "genres-0300",
+        "text": "Rhythm RPG"
+      }
     ],
     "casual": [
-      "Casual Game",
-      "Hypercasual",
-      "Idle Game",
-      "Incremental Game",
-      "Clicker",
-      "Merge Game",
-      "Match-3",
-      "Time Management Game",
-      "Hidden Object",
-      "Cozy Game",
-      "Relaxation Game"
+      {
+        "id": "genres-0301",
+        "text": "Casual Game"
+      },
+      {
+        "id": "genres-0302",
+        "text": "Hypercasual"
+      },
+      {
+        "id": "genres-0303",
+        "text": "Idle Game"
+      },
+      {
+        "id": "genres-0304",
+        "text": "Incremental Game"
+      },
+      {
+        "id": "genres-0305",
+        "text": "Clicker"
+      },
+      {
+        "id": "genres-0306",
+        "text": "Merge Game"
+      },
+      {
+        "id": "genres-0307",
+        "text": "Match-3"
+      },
+      {
+        "id": "genres-0308",
+        "text": "Time Management Game"
+      },
+      {
+        "id": "genres-0309",
+        "text": "Hidden Object"
+      },
+      {
+        "id": "genres-0310",
+        "text": "Cozy Game"
+      },
+      {
+        "id": "genres-0311",
+        "text": "Relaxation Game"
+      }
     ],
     "idle_and_incremental": [
-      "Idle Game",
-      "Incremental Game",
-      "Clicker",
-      "Idle Management",
-      "Idle RPG",
-      "Idle Tycoon",
-      "Prestige Game"
+      {
+        "id": "genres-0312",
+        "text": "Idle Game"
+      },
+      {
+        "id": "genres-0313",
+        "text": "Incremental Game"
+      },
+      {
+        "id": "genres-0314",
+        "text": "Clicker"
+      },
+      {
+        "id": "genres-0315",
+        "text": "Idle Management"
+      },
+      {
+        "id": "genres-0316",
+        "text": "Idle RPG"
+      },
+      {
+        "id": "genres-0317",
+        "text": "Idle Tycoon"
+      },
+      {
+        "id": "genres-0318",
+        "text": "Prestige Game"
+      }
     ],
     "social": [
-      "Social Simulation",
-      "Dating Sim",
-      "Friendship Sim",
-      "Relationship Sim",
-      "Reputation Game",
-      "Conversation Game",
-      "Social Deduction",
-      "Gossip Simulation",
-      "Political Social Simulation",
-      "Community Simulation"
+      {
+        "id": "genres-0319",
+        "text": "Social Simulation"
+      },
+      {
+        "id": "genres-0320",
+        "text": "Dating Sim"
+      },
+      {
+        "id": "genres-0321",
+        "text": "Friendship Sim"
+      },
+      {
+        "id": "genres-0322",
+        "text": "Relationship Sim"
+      },
+      {
+        "id": "genres-0323",
+        "text": "Reputation Game"
+      },
+      {
+        "id": "genres-0324",
+        "text": "Conversation Game"
+      },
+      {
+        "id": "genres-0325",
+        "text": "Social Deduction"
+      },
+      {
+        "id": "genres-0326",
+        "text": "Gossip Simulation"
+      },
+      {
+        "id": "genres-0327",
+        "text": "Political Social Simulation"
+      },
+      {
+        "id": "genres-0328",
+        "text": "Community Simulation"
+      }
     ],
     "crime_and_investigation": [
-      "Detective Game",
-      "Crime Simulation",
-      "Investigation Game",
-      "Murder Mystery",
-      "Police Procedural",
-      "Courtroom Game",
-      "Forensics Game",
-      "Espionage Game",
-      "Spy Game",
-      "Heist Game",
-      "Criminal Management Game",
-      "Smuggling Game"
+      {
+        "id": "genres-0329",
+        "text": "Detective Game"
+      },
+      {
+        "id": "genres-0330",
+        "text": "Crime Simulation"
+      },
+      {
+        "id": "genres-0331",
+        "text": "Investigation Game"
+      },
+      {
+        "id": "genres-0332",
+        "text": "Murder Mystery"
+      },
+      {
+        "id": "genres-0333",
+        "text": "Police Procedural"
+      },
+      {
+        "id": "genres-0334",
+        "text": "Courtroom Game"
+      },
+      {
+        "id": "genres-0335",
+        "text": "Forensics Game"
+      },
+      {
+        "id": "genres-0336",
+        "text": "Espionage Game"
+      },
+      {
+        "id": "genres-0337",
+        "text": "Spy Game"
+      },
+      {
+        "id": "genres-0338",
+        "text": "Heist Game"
+      },
+      {
+        "id": "genres-0339",
+        "text": "Criminal Management Game"
+      },
+      {
+        "id": "genres-0340",
+        "text": "Smuggling Game"
+      }
     ],
     "economy_and_politics": [
-      "Economic Simulation",
-      "Stock Market Game",
-      "Trading Game",
-      "Merchant Game",
-      "Business Simulation",
-      "Political Simulation",
-      "Election Game",
-      "Government Game",
-      "Diplomacy Game",
-      "Nation Simulator",
-      "Geopolitical Strategy",
-      "Grand Strategy"
+      {
+        "id": "genres-0341",
+        "text": "Economic Simulation"
+      },
+      {
+        "id": "genres-0342",
+        "text": "Stock Market Game"
+      },
+      {
+        "id": "genres-0343",
+        "text": "Trading Game"
+      },
+      {
+        "id": "genres-0344",
+        "text": "Merchant Game"
+      },
+      {
+        "id": "genres-0345",
+        "text": "Business Simulation"
+      },
+      {
+        "id": "genres-0346",
+        "text": "Political Simulation"
+      },
+      {
+        "id": "genres-0347",
+        "text": "Election Game"
+      },
+      {
+        "id": "genres-0348",
+        "text": "Government Game"
+      },
+      {
+        "id": "genres-0349",
+        "text": "Diplomacy Game"
+      },
+      {
+        "id": "genres-0350",
+        "text": "Nation Simulator"
+      },
+      {
+        "id": "genres-0351",
+        "text": "Geopolitical Strategy"
+      },
+      {
+        "id": "genres-0352",
+        "text": "Grand Strategy"
+      }
     ],
     "war": [
-      "Wargame",
-      "Tactical Wargame",
-      "Strategic Wargame",
-      "Grand Strategy",
-      "Military Simulation",
-      "Combat Flight Sim",
-      "Tank Sim",
-      "Naval Warfare",
-      "Submarine Simulation",
-      "Squad Tactics",
-      "Command Simulation"
+      {
+        "id": "genres-0353",
+        "text": "Wargame"
+      },
+      {
+        "id": "genres-0354",
+        "text": "Tactical Wargame"
+      },
+      {
+        "id": "genres-0355",
+        "text": "Strategic Wargame"
+      },
+      {
+        "id": "genres-0356",
+        "text": "Grand Strategy"
+      },
+      {
+        "id": "genres-0357",
+        "text": "Military Simulation"
+      },
+      {
+        "id": "genres-0358",
+        "text": "Combat Flight Sim"
+      },
+      {
+        "id": "genres-0359",
+        "text": "Tank Sim"
+      },
+      {
+        "id": "genres-0360",
+        "text": "Naval Warfare"
+      },
+      {
+        "id": "genres-0361",
+        "text": "Submarine Simulation"
+      },
+      {
+        "id": "genres-0362",
+        "text": "Squad Tactics"
+      },
+      {
+        "id": "genres-0363",
+        "text": "Command Simulation"
+      }
     ],
     "crafting_and_production": [
-      "Crafting Game",
-      "Survival Crafting",
-      "Automation Game",
-      "Factory Game",
-      "Production Chain",
-      "Alchemy Game",
-      "Cooking Game",
-      "Blacksmith Game",
-      "Shop Crafting",
-      "Engineering Game"
+      {
+        "id": "genres-0364",
+        "text": "Crafting Game"
+      },
+      {
+        "id": "genres-0365",
+        "text": "Survival Crafting"
+      },
+      {
+        "id": "genres-0366",
+        "text": "Automation Game"
+      },
+      {
+        "id": "genres-0367",
+        "text": "Factory Game"
+      },
+      {
+        "id": "genres-0368",
+        "text": "Production Chain"
+      },
+      {
+        "id": "genres-0369",
+        "text": "Alchemy Game"
+      },
+      {
+        "id": "genres-0370",
+        "text": "Cooking Game"
+      },
+      {
+        "id": "genres-0371",
+        "text": "Blacksmith Game"
+      },
+      {
+        "id": "genres-0372",
+        "text": "Shop Crafting"
+      },
+      {
+        "id": "genres-0373",
+        "text": "Engineering Game"
+      }
     ],
     "exploration": [
-      "Exploration Game",
-      "Open-World Exploration",
-      "Space Exploration",
-      "Underwater Exploration",
-      "Archaeology Game",
-      "Expedition Game",
-      "Dungeon Exploration",
-      "Cave Exploration",
-      "Discovery Game"
+      {
+        "id": "genres-0374",
+        "text": "Exploration Game"
+      },
+      {
+        "id": "genres-0375",
+        "text": "Open-World Exploration"
+      },
+      {
+        "id": "genres-0376",
+        "text": "Space Exploration"
+      },
+      {
+        "id": "genres-0377",
+        "text": "Underwater Exploration"
+      },
+      {
+        "id": "genres-0378",
+        "text": "Archaeology Game"
+      },
+      {
+        "id": "genres-0379",
+        "text": "Expedition Game"
+      },
+      {
+        "id": "genres-0380",
+        "text": "Dungeon Exploration"
+      },
+      {
+        "id": "genres-0381",
+        "text": "Cave Exploration"
+      },
+      {
+        "id": "genres-0382",
+        "text": "Discovery Game"
+      }
     ],
     "unusual": [
-      "Immersive Sim",
-      "Systemic Simulation",
-      "Bureaucracy Simulator",
-      "Paperwork Game",
-      "Job Simulator",
-      "Workplace Simulation",
-      "Observation Game",
-      "Surveillance Game",
-      "Reverse Horror",
-      "Reverse Tower Defense",
-      "Reverse Dungeon Crawler",
-      "Anti-RPG",
-      "Meta Game",
-      "Fourth-Wall Game",
-      "ARG-inspired Game",
-      "Alternate Reality Game (ARG)",
-      "Narrative Sandbox",
-      "Procedural Narrative",
-      "Generative Story Game",
-      "Emergent Narrative",
-      "Social Engineering Game",
-      "Information Warfare Game",
-      "Propaganda Simulation",
-      "Rumor Simulation",
-      "Cult Management",
-      "Bureaucratic Strategy",
-      "Office Politics Simulation",
-      "Family Simulation",
-      "Dynasty Simulator",
-      "Genealogy Game",
-      "Legacy Game",
-      "Time Travel Puzzle",
-      "Time Loop Game",
-      "Automation Puzzle",
-      "Programming Game",
-      "Hacking Game",
-      "Cybersecurity Game",
-      "Terminal Game"
+      {
+        "id": "genres-0383",
+        "text": "Immersive Sim"
+      },
+      {
+        "id": "genres-0384",
+        "text": "Systemic Simulation"
+      },
+      {
+        "id": "genres-0385",
+        "text": "Bureaucracy Simulator"
+      },
+      {
+        "id": "genres-0386",
+        "text": "Paperwork Game"
+      },
+      {
+        "id": "genres-0387",
+        "text": "Job Simulator"
+      },
+      {
+        "id": "genres-0388",
+        "text": "Workplace Simulation"
+      },
+      {
+        "id": "genres-0389",
+        "text": "Observation Game"
+      },
+      {
+        "id": "genres-0390",
+        "text": "Surveillance Game"
+      },
+      {
+        "id": "genres-0391",
+        "text": "Reverse Horror"
+      },
+      {
+        "id": "genres-0392",
+        "text": "Reverse Tower Defense"
+      },
+      {
+        "id": "genres-0393",
+        "text": "Reverse Dungeon Crawler"
+      },
+      {
+        "id": "genres-0394",
+        "text": "Anti-RPG"
+      },
+      {
+        "id": "genres-0395",
+        "text": "Meta Game"
+      },
+      {
+        "id": "genres-0396",
+        "text": "Fourth-Wall Game"
+      },
+      {
+        "id": "genres-0397",
+        "text": "ARG-inspired Game"
+      },
+      {
+        "id": "genres-0398",
+        "text": "Alternate Reality Game (ARG)"
+      },
+      {
+        "id": "genres-0399",
+        "text": "Narrative Sandbox"
+      },
+      {
+        "id": "genres-0400",
+        "text": "Procedural Narrative"
+      },
+      {
+        "id": "genres-0401",
+        "text": "Generative Story Game"
+      },
+      {
+        "id": "genres-0402",
+        "text": "Emergent Narrative"
+      },
+      {
+        "id": "genres-0403",
+        "text": "Social Engineering Game"
+      },
+      {
+        "id": "genres-0404",
+        "text": "Information Warfare Game"
+      },
+      {
+        "id": "genres-0405",
+        "text": "Propaganda Simulation"
+      },
+      {
+        "id": "genres-0406",
+        "text": "Rumor Simulation"
+      },
+      {
+        "id": "genres-0407",
+        "text": "Cult Management"
+      },
+      {
+        "id": "genres-0408",
+        "text": "Bureaucratic Strategy"
+      },
+      {
+        "id": "genres-0409",
+        "text": "Office Politics Simulation"
+      },
+      {
+        "id": "genres-0410",
+        "text": "Family Simulation"
+      },
+      {
+        "id": "genres-0411",
+        "text": "Dynasty Simulator"
+      },
+      {
+        "id": "genres-0412",
+        "text": "Genealogy Game"
+      },
+      {
+        "id": "genres-0413",
+        "text": "Legacy Game"
+      },
+      {
+        "id": "genres-0414",
+        "text": "Time Travel Puzzle"
+      },
+      {
+        "id": "genres-0415",
+        "text": "Time Loop Game"
+      },
+      {
+        "id": "genres-0416",
+        "text": "Automation Puzzle"
+      },
+      {
+        "id": "genres-0417",
+        "text": "Programming Game"
+      },
+      {
+        "id": "genres-0418",
+        "text": "Hacking Game"
+      },
+      {
+        "id": "genres-0419",
+        "text": "Cybersecurity Game"
+      },
+      {
+        "id": "genres-0420",
+        "text": "Terminal Game"
+      }
     ],
     "themes_and_vibes": [
-      "Cozy",
-      "Dark Cozy",
-      "Cottagecore",
-      "Solarpunk",
-      "Cyberpunk",
-      "Steampunk",
-      "Dieselpunk",
-      "Atompunk",
-      "Biopunk",
-      "Cassette Futurism",
-      "Retro Futurism",
-      "Weird West",
-      "Dark Fantasy",
-      "Low Fantasy",
-      "High Fantasy",
-      "Urban Fantasy",
-      "Grimdark",
-      "Slice of Life",
-      "Post-Apocalyptic",
-      "Dystopian",
-      "Utopian"
+      {
+        "id": "genres-0421",
+        "text": "Cozy"
+      },
+      {
+        "id": "genres-0422",
+        "text": "Dark Cozy"
+      },
+      {
+        "id": "genres-0423",
+        "text": "Cottagecore"
+      },
+      {
+        "id": "genres-0424",
+        "text": "Solarpunk"
+      },
+      {
+        "id": "genres-0425",
+        "text": "Cyberpunk"
+      },
+      {
+        "id": "genres-0426",
+        "text": "Steampunk"
+      },
+      {
+        "id": "genres-0427",
+        "text": "Dieselpunk"
+      },
+      {
+        "id": "genres-0428",
+        "text": "Atompunk"
+      },
+      {
+        "id": "genres-0429",
+        "text": "Biopunk"
+      },
+      {
+        "id": "genres-0430",
+        "text": "Cassette Futurism"
+      },
+      {
+        "id": "genres-0431",
+        "text": "Retro Futurism"
+      },
+      {
+        "id": "genres-0432",
+        "text": "Weird West"
+      },
+      {
+        "id": "genres-0433",
+        "text": "Dark Fantasy"
+      },
+      {
+        "id": "genres-0434",
+        "text": "Low Fantasy"
+      },
+      {
+        "id": "genres-0435",
+        "text": "High Fantasy"
+      },
+      {
+        "id": "genres-0436",
+        "text": "Urban Fantasy"
+      },
+      {
+        "id": "genres-0437",
+        "text": "Grimdark"
+      },
+      {
+        "id": "genres-0438",
+        "text": "Slice of Life"
+      },
+      {
+        "id": "genres-0439",
+        "text": "Post-Apocalyptic"
+      },
+      {
+        "id": "genres-0440",
+        "text": "Dystopian"
+      },
+      {
+        "id": "genres-0441",
+        "text": "Utopian"
+      }
     ]
   }
 }

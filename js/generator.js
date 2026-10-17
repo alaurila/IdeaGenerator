@@ -1,22 +1,10 @@
 // Arvontalogiikka. Kaikki funktiot muokkaavat statea ja kutsuvat commit().
 
 import { CATEGORIES, CATEGORY_BY_KEY, MIN_COUNT, MAX_COUNT } from './config.js';
-import { lists, rawLists } from './dataLoader.js';
+import { lists, catalog } from './dataLoader.js';
 import { state, commit } from './state.js';
-
-// Arpoo n eri arvoa listasta. `avoid`-arvoja vältetään, jos listassa on tarpeeksi muuta.
-function pickUnique(list, n, avoid = []) {
-  const avoidSet = new Set(avoid);
-  let pool = list.filter(v => !avoidSet.has(v));
-  if (pool.length < n) pool = [...list];
-
-  const picked = [];
-  while (picked.length < n && pool.length > 0) {
-    const index = Math.floor(Math.random() * pool.length);
-    picked.push(pool.splice(index, 1)[0]);
-  }
-  return picked;
-}
+import { generateIdea, pickUnique, translateSelections } from './ideaEngine.js';
+import { currentLanguage } from './i18n.js';
 
 // Palauttaa true, jos kenttä arvottiin (lukittua tai pois jätettyä ei arvota).
 function rollInto(key) {
@@ -35,17 +23,19 @@ export function rollAll() {
   commit(rolled);
 }
 
-// Kielen vaihtuessa arvot vaihdetaan uuden kielen tiedoston samassa kohdassa olevaan arvoon
-// (käännetyt tiedostot ovat rinnakkaisia). Jos arvoa ei löydy, kenttä täydennetään arpomalla.
-export function translateValues(oldRawLists) {
+// Match translations by permanent IDs, independent of source list order.
+export function translateValues(oldCatalog) {
   CATEGORIES.forEach(({ key }) => {
-    const oldRaw = oldRawLists[key] ?? [];
-    const newRaw = rawLists[key];
     const newList = lists[key];
     const entry = state[key];
-    entry.values = [...new Set(entry.values
-      .map(v => newRaw[oldRaw.indexOf(v)])
-      .filter(Boolean))];
+    const byId = new Map(catalog.categories[key].map(v => [v.id, v.text]));
+    if (entry.ids?.length === entry.values.length) {
+      entry.ids = entry.ids.filter(id => byId.has(id));
+      entry.values = entry.ids.map(id => byId.get(id));
+    } else {
+      entry.values = translateSelections(entry.values,
+        oldCatalog.categories[key], catalog.categories[key]);
+    }
     if (entry.values.length < entry.count && !entry.excluded) {
       const extra = pickUnique(newList.filter(v => !entry.values.includes(v)), entry.count - entry.values.length);
       entry.values = [...entry.values, ...extra];
@@ -63,27 +53,16 @@ export function fillMissing() {
   if (filled.length) commit(filled);
 }
 
-// Ensimmäinen käynti ja New Idea: arvotaan kaikki, lukitaan kaksi satunnaista kenttää
-// ja jätetään 2–3 satunnaista tyhjäksi, jotta toiminnot näkyvät heti.
-export function exampleIdea() {
+// A fresh idea is reproducible from its language and seed, independent of storage.
+export function newIdea(seed = crypto.randomUUID()) {
+  const idea = generateIdea({ catalog, language: currentLanguage, seed });
   CATEGORIES.forEach(({ key }) => {
-    state[key].locked = false;
-    state[key].excluded = false;
-    rollInto(key);
+    const values = idea.categories[key].map(option => option.text);
+    Object.assign(state[key], { values, ids: idea.categories[key].map(option => option.id),
+      count: values.length, locked: false, excluded: false });
   });
-
-  const LOCKED = 2;
-  const emptyCount = 2 + Math.floor(Math.random() * 2);
-  const keys = pickUnique(CATEGORIES.map(c => c.key), LOCKED + emptyCount);
-  keys.slice(0, LOCKED).forEach(key => { state[key].locked = true; });
-  keys.slice(LOCKED).forEach(key => { state[key].excluded = true; });
-
   commit(CATEGORIES.map(c => c.key));
-}
-
-// New Idea tuottaa saman satunnaisen lähtöasetelman kuin ensimmäinen käynti.
-export function newIdea() {
-  exampleIdea();
+  return idea;
 }
 
 export function unlockAll() {

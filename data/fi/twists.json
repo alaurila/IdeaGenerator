@@ -1,334 +1,1324 @@
 {
   "twists": [
-    "NPC:t muistavat aiemmat pelikerrat",
-    "Yksi resurssi valehtelee",
-    "Maailma muuttuu kun sitä ei katsota",
-    "Pelaaja ei olekaan ihminen",
-    "Kuolleet vaikuttavat maailmaan",
-    "Osa kartasta on kuvitteellinen",
-    "Tavoitteesi vaihtuu kesken pelin",
-    "Pelaaja on itse yksi tutkittavista epäillyistä",
-    "Pelaajan muistot ovat vääriä",
-    "Kaikki NPC:t eivät näe samaa maailmaa",
-    "Yksi NPC tietää olevansa pelissä",
-    "Yksi NPC valehtelee aina",
-    "Yksi NPC kertoo aina totuuden",
-    "NPC:t vaihtavat identiteettejä keskenään",
-    "NPC voi kuolla ja palata toisena henkilönä",
-    "NPC:t voivat muistaa asioita, joita ei ole tapahtunut",
-    "NPC:t oppivat pelaajan toimintatavat",
-    "NPC:t alkavat kopioida pelaajan käytöstä",
-    "NPC:t muodostavat teorioita pelaajasta",
-    "NPC:t voivat sabotoida käyttöliittymää",
-    "NPC:t kommunikoivat keskenään pelaajan tietämättä",
-    "NPC:t perustavat salaisen organisaation",
-    "NPC:t voivat valehdella käyttöliittymän kautta",
-    "NPC:t muuttavat omia tavoitteitaan",
-    "NPC:t voivat siirtyä pelin sääntöjen ulkopuolelle",
-    "NPC:t muistavat tallennusten lataamisen",
-    "NPC:t tietävät milloin peli on pausella",
-    "NPC:t voivat ennustaa pelaajan tulevia päätöksiä",
-    "NPC:t yrittävät saada pelaajan lopettamaan pelaamisen",
-    "NPC:t yrittävät manipuloida pelaajaa",
-    "NPC:t luovat omia tehtäviä pelaajalle",
-    "NPC:t eivät olekaan ihmisiä",
-    "NPC:t ovat kaikki saman henkilön eri versioita",
-    "NPC:t ovat kuolleita",
-    "NPC:t ovat tekoälyn generoimia kopioita oikeista ihmisistä",
-    "Pelaaja on kuollut",
-    "Pelaaja on koomassa",
-    "Pelaaja on simulaatiossa",
-    "Pelaaja on tekoäly",
-    "Pelaaja on klooni",
-    "Pelaaja on toisen henkilön muisto",
-    "Pelaaja on aave",
-    "Pelaaja on hallusinaatio",
-    "Pelaaja on kokeessa",
-    "Pelaaja on vanki",
-    "Pelaaja on itse järjestelmän ylläpitäjä",
-    "Pelaaja on itse aiheuttanut kriisin",
-    "Pelaaja on tarinan antagonisti",
-    "Pelaaja työskentelee tietämättään viholliselle",
-    "Pelaaja on koko ajan ollut väärällä puolella",
-    "Pelaajan tehtävä on moraalisesti päinvastainen kuin aluksi näyttää",
-    "Pelaajan työnantajaa ei ole olemassa",
-    "Pelaajan henkilöllisyys vaihtuu kesken pelin",
-    "Pelaaja herää välillä eri henkilönä",
-    "Pelaajalla on useita persoonia",
-    "Pelaaja ei voi luottaa omiin havaintoihinsa",
-    "Pelaajan muistot päivittyvät maailman mukana",
-    "Pelaajan tiedot maailmasta vanhenevat tahallisesti",
-    "Pelaajan käyttöliittymä on epäluotettava",
-    "Pelaajan kartta valehtelee",
-    "Pelaajan tehtävälista valehtelee",
-    "Pelaajan resurssimittarit ovat osittain vääriä",
-    "Pelaajan pisteet eivät tarkoita sitä mitä hän luulee",
-    "Yksi käyttöliittymän elementti on osa pelimaailmaa",
-    "Käyttöliittymä muuttuu tarinan mukana",
-    "Käyttöliittymä alkaa hajota",
-    "Käyttöliittymä näyttää eri tietoa eri pelikierroilla",
-    "Valikot sisältävät piilotettuja vihjeitä",
-    "Tallennustiedostot ovat osa tarinaa",
-    "Vanhojen tallennusten tapahtumat vaikuttavat uusiin peleihin",
-    "Peli muistaa poistamasi tallennukset",
-    "Uusi peli ei oikeasti aloita alusta",
-    "Game over jatkaa tarinaa",
-    "Häviäminen avaa uusia mahdollisuuksia",
-    "Voittaminen voi olla väärä ratkaisu",
-    "Pelin todellinen tavoite paljastuu vasta ensimmäisen läpipeluukerran jälkeen",
-    "Pelin loppu muuttaa seuraavan pelikerran sääntöjä",
-    "Jokainen pelikerta tapahtuu samassa maailmassa eri aikakaudella",
-    "Jokainen pelikerta on sama tapahtuma eri näkökulmasta",
-    "Aiemman pelikerran pelaajahahmo muuttuu NPC:ksi",
-    "Aiemman pelikerran päätökset muuttuvat historiaksi",
-    "Aiemmat epäonnistumiset muuttuvat maailman legendoiksi",
-    "Peli vääristelee aiempien pelikertojen tapahtumia",
-    "Aiemman pelikerran antagonisti oli oma pelaajahahmosi",
-    "Maailma on aina vähän erilainen lataamisen jälkeen",
-    "Maailma muuttuu aina kun poistut huoneesta",
-    "Maailma muuttuu aina kun nukut",
-    "Maailma muuttuu aina kun avaat valikon",
-    "Maailma muuttuu reaaliajassa myös silloin kun et pelaa",
-    "Maailma on eri jokaiselle NPC:lle",
-    "Maailmassa on alueita, joita ei ole olemassa ennen kuin ne löydetään",
-    "Maailmassa on paikkoja, jotka katoavat kartalta",
-    "Maailmassa on huoneita, joiden määrä muuttuu",
-    "Rakennuksen sisätila on suurempi kuin ulkopuoli",
-    "Kartta muodostaa mahdottoman geometrian",
-    "Kaksi eri paikkaa ovat sama paikka",
-    "Sama huone sijaitsee useassa rakennuksessa",
-    "Maailma kiertyy takaisin itseensä",
-    "Aika kulkee eri nopeudella eri alueilla",
-    "Joissain paikoissa aika kulkee taaksepäin",
-    "Joissain paikoissa aika ei kulje lainkaan",
-    "Yksi päivä toistuu mutta maailma muistaa sen",
-    "Aikajana haarautuu pelaajan päätöksistä",
-    "Useita aikajanoja on olemassa yhtä aikaa",
-    "Pelaaja saa viestejä tulevaisuudesta",
-    "Pelaaja saa viestejä aiemmalta itseltään",
-    "Pelaaja voi lähettää tietoa menneisyyteen",
-    "Tulevaisuus vaikuttaa menneisyyteen",
-    "Tapahtumat tapahtuvat ennen niiden syitä",
-    "Kuolema tapahtuu ennen murhaa",
-    "Todiste ilmestyy ennen rikosta",
-    "NPC muistaa tulevaisuuden",
-    "Aika pysähtyy kaikilta paitsi yhdeltä hahmolta",
-    "Kalenteri hyppää päiviä ilman selitystä",
-    "Kokonaisia päiviä katoaa historiasta",
-    "Kello näyttää eri aikaa eri hahmoille",
-    "Historia kirjoittuu uudelleen huomaamatta",
-    "Maailmassa on kaksi ristiriitaista historiaa",
-    "Kirjoitetut dokumentit muuttuvat ajan mukana",
-    "Valokuvat muuttuvat",
-    "Kartat muuttuvat",
-    "Henkilörekisterit muuttuvat",
-    "Kuolleet katoavat arkistoista",
-    "Elävät ilmestyvät kuolleiden rekisteriin",
-    "Sukupuu muuttuu kesken pelin",
-    "Sama henkilö esiintyy eri aikakausilla",
-    "Joku ei vanhene",
-    "Joku syntyy ennen omia vanhempiaan",
-    "Joku on oma esi-isänsä",
-    "Kaikki kaupungin asukkaat polveutuvat yhdestä henkilöstä",
-    "Yksi henkilö puuttuu kaikista virallisista rekistereistä",
-    "Kaikki muistavat henkilön, jota ei ole olemassa",
-    "Kukaan ei muista henkilöä, joka selvästi on olemassa",
-    "Pelaaja katoaa ihmisten muistoista",
-    "Pelaaja voi poistaa ihmisiä historiasta",
-    "Muistin muuttaminen muuttaa maailmaa",
-    "Valhe muuttuu todeksi jos tarpeeksi moni uskoo siihen",
-    "Huhu muuttaa fyysistä maailmaa",
-    "Maine vaikuttaa todellisuuteen",
-    "Uskomukset määrittelevät fysiikan säännöt",
-    "Äänestystulos muuttaa menneisyyttä",
-    "Laki muuttaa luonnonlakeja",
-    "Kirjoitettu sääntö muuttuu todellisuudeksi",
-    "Nimet antavat asioille ominaisuuksia",
-    "Jonkun nimen unohtaminen poistaa hänet maailmasta",
-    "Esineen nimeäminen muuttaa sen toimintaa",
-    "Kartalle piirretty tie ilmestyy maailmaan",
-    "Arkistosta poistettu rakennus katoaa kaupungista",
-    "Kirjanpito määrittää sen mitä fyysisesti on olemassa",
-    "Budjettileikkaukset poistavat asioita todellisuudesta",
-    "Rahaa syntyy vain jos joku uskoo sen arvoon",
-    "Yksi resurssi on oikeasti jotain aivan muuta",
-    "Raha on ihmisten elinaikaa",
-    "Energia on muistoja",
-    "Ruoka on rajallinen mutta väestö ei tiedä sitä",
-    "Happi on yhteinen kaikille alueille",
-    "Tieto on fyysinen resurssi",
-    "Salaisuuksia voi vaihtaa valuuttana",
-    "Luottamus toimii konkreettisena resurssina",
-    "Maine voi siirtyä henkilöltä toiselle",
-    "Aika voidaan ostaa ja myydä",
-    "Elinvuosia voi vaihtaa resursseihin",
-    "Muistoja voi käyttää maksuvälineenä",
-    "Työntekijät ovat samalla resurssi ja yksilöitä",
-    "Kuolleet ovat käytettävissä työvoimana",
-    "Yksi tärkeä resurssi uusiutuu vain kun joku kuolee",
-    "Resurssien määrä riippuu siitä kuka niitä mittaa",
-    "Varasto sisältää eri määrän tavaraa eri henkilöille",
-    "Yksi resurssi kasvaa vain kun sitä ei käytä",
-    "Yksi resurssi vähenee jos sen määrää tarkastaa",
-    "Yksi resurssi tuhoutuu jos sen olemassaolo paljastuu",
-    "Yksi resurssi on yhteinen vihollisen kanssa",
-    "Vihollisen menestys kasvattaa myös pelaajan resursseja",
-    "Pelaajan täytyy auttaa vihollista selvitäkseen itse",
-    "Pelin antagonisti yrittää estää vielä pahempaa uhkaa",
-    "Vihollinen kertoo totuuden",
-    "Liittolainen on todellinen uhka",
-    "Pelastettava henkilö ei halua tulla pelastetuksi",
-    "Kadonnut henkilö piileskelee vapaaehtoisesti",
-    "Murhan uhri ei ole kuollut",
-    "Murhaaja ei tiedä tehneensä murhaa",
-    "Murhaa ei koskaan tapahtunut",
-    "Murha tapahtuu vasta jos pelaaja tutkii sitä",
-    "Tutkiminen aiheuttaa rikoksen",
-    "Ratkaisun löytäminen tekee tilanteesta pahemman",
-    "Mysteerin ratkaiseminen tuhoaa todisteet",
-    "Oikea vastaus muuttuu tutkimuksen aikana",
-    "Todisteet sopeutuvat pelaajan teoriaan",
-    "Useampi ristiriitainen ratkaisu on samanaikaisesti totta",
-    "Rikos on kollektiivinen teko ilman yksittäistä syyllistä",
-    "Uhri ja murhaaja ovat sama henkilö",
-    "Tutkija on murhaaja",
-    "Pelaaja lavasti oman tutkimuksensa",
-    "Kaikki rikokset johtavat samaan tapahtumaan",
-    "Ratkaisemattomat tapaukset vaikuttavat toisiinsa",
-    "Pieneltä näyttävä tapaus on maailmanlaajuisen ongelman osa",
-    "Maailmanlaajuinen salaliitto onkin sattumaa",
-    "Salaliittoteoria osoittautuu osittain oikeaksi",
-    "Kaikki salaliittoon kuuluvat uskovat eri salaliittoon",
-    "Kukaan ei johda salaliittoa",
-    "Organisaatio toimii ilman että kukaan ymmärtää kokonaisuutta",
-    "Byrokratia on varsinainen antagonisti",
-    "Järjestelmä toimii täydellisesti mutta tavoite on väärä",
-    "Järjestelmävika on tahallinen ominaisuus",
-    "Korjaaminen rikkoo jotain tärkeämpää",
-    "Järjestelmä ylläpitää itse kriisiä",
-    "Katastrofi on ainoa asia joka pitää yhteiskunnan koossa",
-    "Kriisin loppuminen aiheuttaisi suuremman kriisin",
-    "Kaikki yrittävät ratkaista eri versiota samasta ongelmasta",
-    "Yksi organisaation osasto ei tiedä muiden osastojen olemassaolosta",
-    "Organisaation johtajaa ei ole olemassa",
-    "Käskyjä lähettää automaattinen järjestelmä",
-    "Säännöt ovat syntyneet vahingossa ja kukaan ei uskalla muuttaa niitä",
-    "Vanha hätäprotokolla hallitsee koko yhteiskuntaa",
-    "Kaupunki toimii edelleen kadonneen johtajan käskyjen mukaan",
-    "Valtio on lakannut olemasta mutta viranomaiset eivät tiedä sitä",
-    "Sota päättyi jo mutta rintama ei tiedä sitä",
-    "Katastrofia ei koskaan tapahtunutkaan",
-    "Maailmanloppu oli paikallinen tapahtuma",
-    "Ulkomaailma on täysin kunnossa",
-    "Ulkomaailma on paljon pahemmassa tilassa kuin pelaajalle kerrotaan",
-    "Turvapaikka on vaarallisempi kuin ulkomaailma",
-    "Vaarallinen alue on todellisuudessa turvallinen",
-    "Kielletty alue on rakennettu suojelemaan sisäpuolella olevia ulkomaailmalta",
-    "Karanteeni on valhe",
-    "Karanteenin syy on täysin eri kuin kerrotaan",
-    "Tauti ei tartu biologisesti vaan tiedon kautta",
-    "Sairaus leviää puheen kautta",
-    "Sairaus leviää muistojen kautta",
-    "Sairaus tekee ihmisistä terveempiä mutta muuttaa persoonallisuutta",
-    "Parannuskeino on vaarallisempi kuin tauti",
-    "Tauti on osa ekosysteemin tasapainoa",
-    "Kuolleet eivät pysy kuolleina mutta eivät ole zombeja",
-    "Kuolleet voivat äänestää",
-    "Kuolleet omistavat edelleen omaisuutta",
-    "Kuolleet jatkavat työskentelyä digitaalisten kopioiden kautta",
-    "Kuolleiden muistot voidaan haastatella",
-    "Kuolleet voivat muuttaa testamenttejaan",
-    "Kuolleet lähettävät viestejä tulevaisuudesta",
-    "Hautausmaa toimii verkostona",
-    "Aaveet eivät tiedä olevansa aaveita",
-    "Elävät ovatkin vähemmistö maailmassa",
-    "Tuonpuoleinen on byrokraattinen järjestelmä",
-    "Kuolema on hallinnollinen virhe",
-    "Joku on kuollut paperilla mutta elää edelleen",
-    "Joku elää paperilla mutta on kuollut vuosia sitten",
-    "Henkilön juridinen olemassaolo on tärkeämpi kuin fyysinen olemassaolo",
-    "Dokumentin muuttaminen muuttaa henkilön identiteettiä",
-    "Passi määrittää keneksi henkilö muuttuu",
-    "Väärä nimi alkaa korvata oikean henkilön",
-    "Sama henkilöllisyys kuuluu usealle ihmiselle",
-    "Kaikki kaupungissa käyttävät lainattuja identiteettejä",
-    "Pelaajan nimi ei ole hänen oma nimensä",
-    "Pelissä ei ole objektiivista totuutta",
-    "Totuus riippuu siitä kuka kysyy",
-    "Kaikki kertojat ovat epäluotettavia",
-    "Pelaaja joutuu valitsemaan minkä version totuudesta tekee viralliseksi",
-    "Virallinen totuus muuttaa tulevia tapahtumia",
-    "Historia määräytyy voittajan sijaan arkistonhoitajan päätöksillä",
-    "Pelaaja voi kirjoittaa tapahtuman uudelleen raportissa",
-    "Raportoimaton tapahtuma lakkaa olemasta",
-    "Kirjoitettu raportti on voimakkaampi kuin todelliset tapahtumat",
-    "Tilastot alkavat vaikuttaa ihmisten käytökseen",
-    "Mittarin tavoite muuttaa ihmisten toimintaa absurdisti",
-    "NPC:t optimoivat itseään pelaajan mittareita vastaan",
-    "Pelaajan tavoitteet aiheuttavat järjestelmällisesti väärää käytöstä",
-    "Paras strategia on olla tekemättä mitään",
-    "Pelin järjestelmä rankaisee liian tehokkaasta pelaamisesta",
-    "Menestys kasvattaa piilossa olevaa uhkaa",
-    "Epäonnistuminen pitää maailman vakaana",
-    "Voittaminen nopeuttaa maailmanloppua",
-    "Pelaajan on tarkoituksella hävittävä",
-    "Pelaajan pitää pitää kaksi vastakkaista järjestelmää tasapainossa",
-    "Yhden ongelman ratkaisu synnyttää aina toisen",
-    "Täydellinen tasapaino on mahdoton",
-    "Peli jatkuu vain niin kauan kuin ongelmia on",
-    "Pelaajan työ ylläpitää ongelmaa jota hän yrittää ratkaista",
-    "Pelaaja itse luo tehtävät joita hän saa",
-    "Pelaaja lähettää menneisyyden itselleen käskyjä",
-    "Pelaajan pomo on tulevaisuuden pelaaja",
-    "Pelaajan vihollinen on aiempi versio pelaajasta",
-    "Pelaajan seuraaja on tuleva versio pelaajasta",
-    "Kaikki hahmot ovat saman tietoisuuden eri haaroja",
-    "Maailma on yhden henkilön mielessä",
-    "Maailma on kaupungin kollektiivinen uni",
-    "Maailma on tekoälyn harjoitusdataa",
-    "Maailma on rikkinäinen varmuuskopio",
-    "Maailma generoidaan joka yö uudelleen",
-    "Maailma on museo, jossa pelaaja on näyttelyesine",
-    "Maailma on historiallinen rekonstruktio",
-    "Maailma on testi, jonka tarkoitusta ei kerrota",
-    "Maailma on jonkun toisen peli",
-    "Pelaajan päätöksiä seuraa näkymätön yleisö",
-    "Yleisö vaikuttaa tapahtumiin",
-    "Katsojat ovat osa pelimaailmaa",
-    "Pelaaja saa arvioinnin jokaisesta päätöksestä",
-    "Pelaajan moraalia mitataan salaa",
-    "Todellinen pistemäärä paljastetaan vasta lopussa",
-    "Pelaajan hyviksi luulemat teot ovat pelin mittarissa huonoja",
-    "Pelin moraalijärjestelmä muuttuu kulttuurin mukaan",
-    "Hyvä ja paha vaihtavat merkitystä kesken pelin",
-    "Sääntöjä muutetaan ilman ilmoitusta",
-    "Peli lisää uuden säännön joka päivä",
-    "Pelaajan on pääteltävä pelin säännöt itse",
-    "Kaikkia pelin sääntöjä ei kerrota koskaan",
-    "Osa ohjeista on tarkoituksella vääriä",
-    "Tutorialin opettama tapa on väärä",
-    "Tutorial-hahmo on vihollinen",
-    "Tutorial tapahtuu tarinan lopussa",
-    "Ensimmäinen tunti on valheellinen simulaatio",
-    "Peli alkaa lopusta ja etenee kohti alkua",
-    "Pelin viimeinen päivä on aina ensimmäinen päivä",
-    "Tavoite poistuu kokonaan kesken pelin",
-    "Pelaaja joutuu itse määrittelemään uuden tavoitteen",
-    "Useampi päätavoite on keskenään ristiriidassa",
-    "Tavoitteen saavuttaminen tekee siitä merkityksettömän",
-    "Pelaaja huomaa ettei hänellä ole koskaan ollut tehtävää",
-    "Pelin maailma yrittää estää varsinaisen juonen käynnistymisen",
-    "Pääjuoni on täysin valinnainen",
-    "Sivutehtävä osoittautuu pääjuoneksi",
-    "Taustalla tapahtuva simulaatio on tärkeämpi kuin käsikirjoitettu tarina",
-    "Koko tarina syntyy simulaation seurauksena",
-    "Yksikään tapahtuma ei ole ennalta kirjoitettu",
-    "Pelin mysteeri generoituu pelaamisen aikana",
-    "Murhaaja valitaan vasta kun tutkimus alkaa",
-    "Pelin maailma päättää salaisuuden pelaajan teorioiden perusteella",
-    "Peli rakentaa antagonistin pelaajan vihamielisimmästä NPC:stä",
-    "Pelaajan suosikkihahmosta voi tulla lopullinen vastustaja",
-    "Pelaajan eniten auttama ryhmä kasvaa liian voimakkaaksi",
-    "Pelaajan huomiotta jättämä pieni ongelma kasvaa pääuhaksi"
+    {
+      "id": "twists-0001",
+      "text": "NPC:t muistavat aiemmat pelikerrat"
+    },
+    {
+      "id": "twists-0002",
+      "text": "Yksi resurssi valehtelee"
+    },
+    {
+      "id": "twists-0003",
+      "text": "Maailma muuttuu kun sitä ei katsota"
+    },
+    {
+      "id": "twists-0004",
+      "text": "Pelaaja ei olekaan ihminen"
+    },
+    {
+      "id": "twists-0005",
+      "text": "Kuolleet vaikuttavat maailmaan"
+    },
+    {
+      "id": "twists-0006",
+      "text": "Osa kartasta on kuvitteellinen"
+    },
+    {
+      "id": "twists-0007",
+      "text": "Tavoitteesi vaihtuu kesken pelin"
+    },
+    {
+      "id": "twists-0008",
+      "text": "Pelaaja on itse yksi tutkittavista epäillyistä"
+    },
+    {
+      "id": "twists-0009",
+      "text": "Pelaajan muistot ovat vääriä"
+    },
+    {
+      "id": "twists-0010",
+      "text": "Kaikki NPC:t eivät näe samaa maailmaa"
+    },
+    {
+      "id": "twists-0011",
+      "text": "Yksi NPC tietää olevansa pelissä"
+    },
+    {
+      "id": "twists-0012",
+      "text": "Yksi NPC valehtelee aina"
+    },
+    {
+      "id": "twists-0013",
+      "text": "Yksi NPC kertoo aina totuuden"
+    },
+    {
+      "id": "twists-0014",
+      "text": "NPC:t vaihtavat identiteettejä keskenään"
+    },
+    {
+      "id": "twists-0015",
+      "text": "NPC voi kuolla ja palata toisena henkilönä"
+    },
+    {
+      "id": "twists-0016",
+      "text": "NPC:t voivat muistaa asioita, joita ei ole tapahtunut"
+    },
+    {
+      "id": "twists-0017",
+      "text": "NPC:t oppivat pelaajan toimintatavat"
+    },
+    {
+      "id": "twists-0018",
+      "text": "NPC:t alkavat kopioida pelaajan käytöstä"
+    },
+    {
+      "id": "twists-0019",
+      "text": "NPC:t muodostavat teorioita pelaajasta"
+    },
+    {
+      "id": "twists-0020",
+      "text": "NPC:t voivat sabotoida käyttöliittymää"
+    },
+    {
+      "id": "twists-0021",
+      "text": "NPC:t kommunikoivat keskenään pelaajan tietämättä"
+    },
+    {
+      "id": "twists-0022",
+      "text": "NPC:t perustavat salaisen organisaation"
+    },
+    {
+      "id": "twists-0023",
+      "text": "NPC:t voivat valehdella käyttöliittymän kautta"
+    },
+    {
+      "id": "twists-0024",
+      "text": "NPC:t muuttavat omia tavoitteitaan"
+    },
+    {
+      "id": "twists-0025",
+      "text": "NPC:t voivat siirtyä pelin sääntöjen ulkopuolelle"
+    },
+    {
+      "id": "twists-0026",
+      "text": "NPC:t muistavat tallennusten lataamisen"
+    },
+    {
+      "id": "twists-0027",
+      "text": "NPC:t tietävät milloin peli on pausella"
+    },
+    {
+      "id": "twists-0028",
+      "text": "NPC:t voivat ennustaa pelaajan tulevia päätöksiä"
+    },
+    {
+      "id": "twists-0029",
+      "text": "NPC:t yrittävät saada pelaajan lopettamaan pelaamisen"
+    },
+    {
+      "id": "twists-0030",
+      "text": "NPC:t yrittävät manipuloida pelaajaa"
+    },
+    {
+      "id": "twists-0031",
+      "text": "NPC:t luovat omia tehtäviä pelaajalle"
+    },
+    {
+      "id": "twists-0032",
+      "text": "NPC:t eivät olekaan ihmisiä"
+    },
+    {
+      "id": "twists-0033",
+      "text": "NPC:t ovat kaikki saman henkilön eri versioita"
+    },
+    {
+      "id": "twists-0034",
+      "text": "NPC:t ovat kuolleita"
+    },
+    {
+      "id": "twists-0035",
+      "text": "NPC:t ovat tekoälyn generoimia kopioita oikeista ihmisistä"
+    },
+    {
+      "id": "twists-0036",
+      "text": "Pelaaja on kuollut"
+    },
+    {
+      "id": "twists-0037",
+      "text": "Pelaaja on koomassa"
+    },
+    {
+      "id": "twists-0038",
+      "text": "Pelaaja on simulaatiossa"
+    },
+    {
+      "id": "twists-0039",
+      "text": "Pelaaja on tekoäly"
+    },
+    {
+      "id": "twists-0040",
+      "text": "Pelaaja on klooni"
+    },
+    {
+      "id": "twists-0041",
+      "text": "Pelaaja on toisen henkilön muisto"
+    },
+    {
+      "id": "twists-0042",
+      "text": "Pelaaja on aave"
+    },
+    {
+      "id": "twists-0043",
+      "text": "Pelaaja on hallusinaatio"
+    },
+    {
+      "id": "twists-0044",
+      "text": "Pelaaja on kokeessa"
+    },
+    {
+      "id": "twists-0045",
+      "text": "Pelaaja on vanki"
+    },
+    {
+      "id": "twists-0046",
+      "text": "Pelaaja on itse järjestelmän ylläpitäjä"
+    },
+    {
+      "id": "twists-0047",
+      "text": "Pelaaja on itse aiheuttanut kriisin"
+    },
+    {
+      "id": "twists-0048",
+      "text": "Pelaaja on tarinan antagonisti"
+    },
+    {
+      "id": "twists-0049",
+      "text": "Pelaaja työskentelee tietämättään viholliselle"
+    },
+    {
+      "id": "twists-0050",
+      "text": "Pelaaja on koko ajan ollut väärällä puolella"
+    },
+    {
+      "id": "twists-0051",
+      "text": "Pelaajan tehtävä on moraalisesti päinvastainen kuin aluksi näyttää"
+    },
+    {
+      "id": "twists-0052",
+      "text": "Pelaajan työnantajaa ei ole olemassa"
+    },
+    {
+      "id": "twists-0053",
+      "text": "Pelaajan henkilöllisyys vaihtuu kesken pelin"
+    },
+    {
+      "id": "twists-0054",
+      "text": "Pelaaja herää välillä eri henkilönä"
+    },
+    {
+      "id": "twists-0055",
+      "text": "Pelaajalla on useita persoonia"
+    },
+    {
+      "id": "twists-0056",
+      "text": "Pelaaja ei voi luottaa omiin havaintoihinsa"
+    },
+    {
+      "id": "twists-0057",
+      "text": "Pelaajan muistot päivittyvät maailman mukana"
+    },
+    {
+      "id": "twists-0058",
+      "text": "Pelaajan tiedot maailmasta vanhenevat tahallisesti"
+    },
+    {
+      "id": "twists-0059",
+      "text": "Pelaajan käyttöliittymä on epäluotettava"
+    },
+    {
+      "id": "twists-0060",
+      "text": "Pelaajan kartta valehtelee"
+    },
+    {
+      "id": "twists-0061",
+      "text": "Pelaajan tehtävälista valehtelee"
+    },
+    {
+      "id": "twists-0062",
+      "text": "Pelaajan resurssimittarit ovat osittain vääriä"
+    },
+    {
+      "id": "twists-0063",
+      "text": "Pelaajan pisteet eivät tarkoita sitä mitä hän luulee"
+    },
+    {
+      "id": "twists-0064",
+      "text": "Yksi käyttöliittymän elementti on osa pelimaailmaa"
+    },
+    {
+      "id": "twists-0065",
+      "text": "Käyttöliittymä muuttuu tarinan mukana"
+    },
+    {
+      "id": "twists-0066",
+      "text": "Käyttöliittymä alkaa hajota"
+    },
+    {
+      "id": "twists-0067",
+      "text": "Käyttöliittymä näyttää eri tietoa eri pelikierroilla"
+    },
+    {
+      "id": "twists-0068",
+      "text": "Valikot sisältävät piilotettuja vihjeitä"
+    },
+    {
+      "id": "twists-0069",
+      "text": "Tallennustiedostot ovat osa tarinaa"
+    },
+    {
+      "id": "twists-0070",
+      "text": "Vanhojen tallennusten tapahtumat vaikuttavat uusiin peleihin"
+    },
+    {
+      "id": "twists-0071",
+      "text": "Peli muistaa poistamasi tallennukset"
+    },
+    {
+      "id": "twists-0072",
+      "text": "Uusi peli ei oikeasti aloita alusta"
+    },
+    {
+      "id": "twists-0073",
+      "text": "Game over jatkaa tarinaa"
+    },
+    {
+      "id": "twists-0074",
+      "text": "Häviäminen avaa uusia mahdollisuuksia"
+    },
+    {
+      "id": "twists-0075",
+      "text": "Voittaminen voi olla väärä ratkaisu"
+    },
+    {
+      "id": "twists-0076",
+      "text": "Pelin todellinen tavoite paljastuu vasta ensimmäisen läpipeluukerran jälkeen"
+    },
+    {
+      "id": "twists-0077",
+      "text": "Pelin loppu muuttaa seuraavan pelikerran sääntöjä"
+    },
+    {
+      "id": "twists-0078",
+      "text": "Jokainen pelikerta tapahtuu samassa maailmassa eri aikakaudella"
+    },
+    {
+      "id": "twists-0079",
+      "text": "Jokainen pelikerta on sama tapahtuma eri näkökulmasta"
+    },
+    {
+      "id": "twists-0080",
+      "text": "Aiemman pelikerran pelaajahahmo muuttuu NPC:ksi"
+    },
+    {
+      "id": "twists-0081",
+      "text": "Aiemman pelikerran päätökset muuttuvat historiaksi"
+    },
+    {
+      "id": "twists-0082",
+      "text": "Aiemmat epäonnistumiset muuttuvat maailman legendoiksi"
+    },
+    {
+      "id": "twists-0083",
+      "text": "Peli vääristelee aiempien pelikertojen tapahtumia"
+    },
+    {
+      "id": "twists-0084",
+      "text": "Aiemman pelikerran antagonisti oli oma pelaajahahmosi"
+    },
+    {
+      "id": "twists-0085",
+      "text": "Maailma on aina vähän erilainen lataamisen jälkeen"
+    },
+    {
+      "id": "twists-0086",
+      "text": "Maailma muuttuu aina kun poistut huoneesta"
+    },
+    {
+      "id": "twists-0087",
+      "text": "Maailma muuttuu aina kun nukut"
+    },
+    {
+      "id": "twists-0088",
+      "text": "Maailma muuttuu aina kun avaat valikon"
+    },
+    {
+      "id": "twists-0089",
+      "text": "Maailma muuttuu reaaliajassa myös silloin kun et pelaa"
+    },
+    {
+      "id": "twists-0090",
+      "text": "Maailma on eri jokaiselle NPC:lle"
+    },
+    {
+      "id": "twists-0091",
+      "text": "Maailmassa on alueita, joita ei ole olemassa ennen kuin ne löydetään"
+    },
+    {
+      "id": "twists-0092",
+      "text": "Maailmassa on paikkoja, jotka katoavat kartalta"
+    },
+    {
+      "id": "twists-0093",
+      "text": "Maailmassa on huoneita, joiden määrä muuttuu"
+    },
+    {
+      "id": "twists-0094",
+      "text": "Rakennuksen sisätila on suurempi kuin ulkopuoli"
+    },
+    {
+      "id": "twists-0095",
+      "text": "Kartta muodostaa mahdottoman geometrian"
+    },
+    {
+      "id": "twists-0096",
+      "text": "Kaksi eri paikkaa ovat sama paikka"
+    },
+    {
+      "id": "twists-0097",
+      "text": "Sama huone sijaitsee useassa rakennuksessa"
+    },
+    {
+      "id": "twists-0098",
+      "text": "Maailma kiertyy takaisin itseensä"
+    },
+    {
+      "id": "twists-0099",
+      "text": "Aika kulkee eri nopeudella eri alueilla"
+    },
+    {
+      "id": "twists-0100",
+      "text": "Joissain paikoissa aika kulkee taaksepäin"
+    },
+    {
+      "id": "twists-0101",
+      "text": "Joissain paikoissa aika ei kulje lainkaan"
+    },
+    {
+      "id": "twists-0102",
+      "text": "Yksi päivä toistuu mutta maailma muistaa sen"
+    },
+    {
+      "id": "twists-0103",
+      "text": "Aikajana haarautuu pelaajan päätöksistä"
+    },
+    {
+      "id": "twists-0104",
+      "text": "Useita aikajanoja on olemassa yhtä aikaa"
+    },
+    {
+      "id": "twists-0105",
+      "text": "Pelaaja saa viestejä tulevaisuudesta"
+    },
+    {
+      "id": "twists-0106",
+      "text": "Pelaaja saa viestejä aiemmalta itseltään"
+    },
+    {
+      "id": "twists-0107",
+      "text": "Pelaaja voi lähettää tietoa menneisyyteen"
+    },
+    {
+      "id": "twists-0108",
+      "text": "Tulevaisuus vaikuttaa menneisyyteen"
+    },
+    {
+      "id": "twists-0109",
+      "text": "Tapahtumat tapahtuvat ennen niiden syitä"
+    },
+    {
+      "id": "twists-0110",
+      "text": "Kuolema tapahtuu ennen murhaa"
+    },
+    {
+      "id": "twists-0111",
+      "text": "Todiste ilmestyy ennen rikosta"
+    },
+    {
+      "id": "twists-0112",
+      "text": "NPC muistaa tulevaisuuden"
+    },
+    {
+      "id": "twists-0113",
+      "text": "Aika pysähtyy kaikilta paitsi yhdeltä hahmolta"
+    },
+    {
+      "id": "twists-0114",
+      "text": "Kalenteri hyppää päiviä ilman selitystä"
+    },
+    {
+      "id": "twists-0115",
+      "text": "Kokonaisia päiviä katoaa historiasta"
+    },
+    {
+      "id": "twists-0116",
+      "text": "Kello näyttää eri aikaa eri hahmoille"
+    },
+    {
+      "id": "twists-0117",
+      "text": "Historia kirjoittuu uudelleen huomaamatta"
+    },
+    {
+      "id": "twists-0118",
+      "text": "Maailmassa on kaksi ristiriitaista historiaa"
+    },
+    {
+      "id": "twists-0119",
+      "text": "Kirjoitetut dokumentit muuttuvat ajan mukana"
+    },
+    {
+      "id": "twists-0120",
+      "text": "Valokuvat muuttuvat"
+    },
+    {
+      "id": "twists-0121",
+      "text": "Kartat muuttuvat"
+    },
+    {
+      "id": "twists-0122",
+      "text": "Henkilörekisterit muuttuvat"
+    },
+    {
+      "id": "twists-0123",
+      "text": "Kuolleet katoavat arkistoista"
+    },
+    {
+      "id": "twists-0124",
+      "text": "Elävät ilmestyvät kuolleiden rekisteriin"
+    },
+    {
+      "id": "twists-0125",
+      "text": "Sukupuu muuttuu kesken pelin"
+    },
+    {
+      "id": "twists-0126",
+      "text": "Sama henkilö esiintyy eri aikakausilla"
+    },
+    {
+      "id": "twists-0127",
+      "text": "Joku ei vanhene"
+    },
+    {
+      "id": "twists-0128",
+      "text": "Joku syntyy ennen omia vanhempiaan"
+    },
+    {
+      "id": "twists-0129",
+      "text": "Joku on oma esi-isänsä"
+    },
+    {
+      "id": "twists-0130",
+      "text": "Kaikki kaupungin asukkaat polveutuvat yhdestä henkilöstä"
+    },
+    {
+      "id": "twists-0131",
+      "text": "Yksi henkilö puuttuu kaikista virallisista rekistereistä"
+    },
+    {
+      "id": "twists-0132",
+      "text": "Kaikki muistavat henkilön, jota ei ole olemassa"
+    },
+    {
+      "id": "twists-0133",
+      "text": "Kukaan ei muista henkilöä, joka selvästi on olemassa"
+    },
+    {
+      "id": "twists-0134",
+      "text": "Pelaaja katoaa ihmisten muistoista"
+    },
+    {
+      "id": "twists-0135",
+      "text": "Pelaaja voi poistaa ihmisiä historiasta"
+    },
+    {
+      "id": "twists-0136",
+      "text": "Muistin muuttaminen muuttaa maailmaa"
+    },
+    {
+      "id": "twists-0137",
+      "text": "Valhe muuttuu todeksi jos tarpeeksi moni uskoo siihen"
+    },
+    {
+      "id": "twists-0138",
+      "text": "Huhu muuttaa fyysistä maailmaa"
+    },
+    {
+      "id": "twists-0139",
+      "text": "Maine vaikuttaa todellisuuteen"
+    },
+    {
+      "id": "twists-0140",
+      "text": "Uskomukset määrittelevät fysiikan säännöt"
+    },
+    {
+      "id": "twists-0141",
+      "text": "Äänestystulos muuttaa menneisyyttä"
+    },
+    {
+      "id": "twists-0142",
+      "text": "Laki muuttaa luonnonlakeja"
+    },
+    {
+      "id": "twists-0143",
+      "text": "Kirjoitettu sääntö muuttuu todellisuudeksi"
+    },
+    {
+      "id": "twists-0144",
+      "text": "Nimet antavat asioille ominaisuuksia"
+    },
+    {
+      "id": "twists-0145",
+      "text": "Jonkun nimen unohtaminen poistaa hänet maailmasta"
+    },
+    {
+      "id": "twists-0146",
+      "text": "Esineen nimeäminen muuttaa sen toimintaa"
+    },
+    {
+      "id": "twists-0147",
+      "text": "Kartalle piirretty tie ilmestyy maailmaan"
+    },
+    {
+      "id": "twists-0148",
+      "text": "Arkistosta poistettu rakennus katoaa kaupungista"
+    },
+    {
+      "id": "twists-0149",
+      "text": "Kirjanpito määrittää sen mitä fyysisesti on olemassa"
+    },
+    {
+      "id": "twists-0150",
+      "text": "Budjettileikkaukset poistavat asioita todellisuudesta"
+    },
+    {
+      "id": "twists-0151",
+      "text": "Rahaa syntyy vain jos joku uskoo sen arvoon"
+    },
+    {
+      "id": "twists-0152",
+      "text": "Yksi resurssi on oikeasti jotain aivan muuta"
+    },
+    {
+      "id": "twists-0153",
+      "text": "Raha on ihmisten elinaikaa"
+    },
+    {
+      "id": "twists-0154",
+      "text": "Energia on muistoja"
+    },
+    {
+      "id": "twists-0155",
+      "text": "Ruoka on rajallinen mutta väestö ei tiedä sitä"
+    },
+    {
+      "id": "twists-0156",
+      "text": "Happi on yhteinen kaikille alueille"
+    },
+    {
+      "id": "twists-0157",
+      "text": "Tieto on fyysinen resurssi"
+    },
+    {
+      "id": "twists-0158",
+      "text": "Salaisuuksia voi vaihtaa valuuttana"
+    },
+    {
+      "id": "twists-0159",
+      "text": "Luottamus toimii konkreettisena resurssina"
+    },
+    {
+      "id": "twists-0160",
+      "text": "Maine voi siirtyä henkilöltä toiselle"
+    },
+    {
+      "id": "twists-0161",
+      "text": "Aika voidaan ostaa ja myydä"
+    },
+    {
+      "id": "twists-0162",
+      "text": "Elinvuosia voi vaihtaa resursseihin"
+    },
+    {
+      "id": "twists-0163",
+      "text": "Muistoja voi käyttää maksuvälineenä"
+    },
+    {
+      "id": "twists-0164",
+      "text": "Työntekijät ovat samalla resurssi ja yksilöitä"
+    },
+    {
+      "id": "twists-0165",
+      "text": "Kuolleet ovat käytettävissä työvoimana"
+    },
+    {
+      "id": "twists-0166",
+      "text": "Yksi tärkeä resurssi uusiutuu vain kun joku kuolee"
+    },
+    {
+      "id": "twists-0167",
+      "text": "Resurssien määrä riippuu siitä kuka niitä mittaa"
+    },
+    {
+      "id": "twists-0168",
+      "text": "Varasto sisältää eri määrän tavaraa eri henkilöille"
+    },
+    {
+      "id": "twists-0169",
+      "text": "Yksi resurssi kasvaa vain kun sitä ei käytä"
+    },
+    {
+      "id": "twists-0170",
+      "text": "Yksi resurssi vähenee jos sen määrää tarkastaa"
+    },
+    {
+      "id": "twists-0171",
+      "text": "Yksi resurssi tuhoutuu jos sen olemassaolo paljastuu"
+    },
+    {
+      "id": "twists-0172",
+      "text": "Yksi resurssi on yhteinen vihollisen kanssa"
+    },
+    {
+      "id": "twists-0173",
+      "text": "Vihollisen menestys kasvattaa myös pelaajan resursseja"
+    },
+    {
+      "id": "twists-0174",
+      "text": "Pelaajan täytyy auttaa vihollista selvitäkseen itse"
+    },
+    {
+      "id": "twists-0175",
+      "text": "Pelin antagonisti yrittää estää vielä pahempaa uhkaa"
+    },
+    {
+      "id": "twists-0176",
+      "text": "Vihollinen kertoo totuuden"
+    },
+    {
+      "id": "twists-0177",
+      "text": "Liittolainen on todellinen uhka"
+    },
+    {
+      "id": "twists-0178",
+      "text": "Pelastettava henkilö ei halua tulla pelastetuksi"
+    },
+    {
+      "id": "twists-0179",
+      "text": "Kadonnut henkilö piileskelee vapaaehtoisesti"
+    },
+    {
+      "id": "twists-0180",
+      "text": "Murhan uhri ei ole kuollut"
+    },
+    {
+      "id": "twists-0181",
+      "text": "Murhaaja ei tiedä tehneensä murhaa"
+    },
+    {
+      "id": "twists-0182",
+      "text": "Murhaa ei koskaan tapahtunut"
+    },
+    {
+      "id": "twists-0183",
+      "text": "Murha tapahtuu vasta jos pelaaja tutkii sitä"
+    },
+    {
+      "id": "twists-0184",
+      "text": "Tutkiminen aiheuttaa rikoksen"
+    },
+    {
+      "id": "twists-0185",
+      "text": "Ratkaisun löytäminen tekee tilanteesta pahemman"
+    },
+    {
+      "id": "twists-0186",
+      "text": "Mysteerin ratkaiseminen tuhoaa todisteet"
+    },
+    {
+      "id": "twists-0187",
+      "text": "Oikea vastaus muuttuu tutkimuksen aikana"
+    },
+    {
+      "id": "twists-0188",
+      "text": "Todisteet sopeutuvat pelaajan teoriaan"
+    },
+    {
+      "id": "twists-0189",
+      "text": "Useampi ristiriitainen ratkaisu on samanaikaisesti totta"
+    },
+    {
+      "id": "twists-0190",
+      "text": "Rikos on kollektiivinen teko ilman yksittäistä syyllistä"
+    },
+    {
+      "id": "twists-0191",
+      "text": "Uhri ja murhaaja ovat sama henkilö"
+    },
+    {
+      "id": "twists-0192",
+      "text": "Tutkija on murhaaja"
+    },
+    {
+      "id": "twists-0193",
+      "text": "Pelaaja lavasti oman tutkimuksensa"
+    },
+    {
+      "id": "twists-0194",
+      "text": "Kaikki rikokset johtavat samaan tapahtumaan"
+    },
+    {
+      "id": "twists-0195",
+      "text": "Ratkaisemattomat tapaukset vaikuttavat toisiinsa"
+    },
+    {
+      "id": "twists-0196",
+      "text": "Pieneltä näyttävä tapaus on maailmanlaajuisen ongelman osa"
+    },
+    {
+      "id": "twists-0197",
+      "text": "Maailmanlaajuinen salaliitto onkin sattumaa"
+    },
+    {
+      "id": "twists-0198",
+      "text": "Salaliittoteoria osoittautuu osittain oikeaksi"
+    },
+    {
+      "id": "twists-0199",
+      "text": "Kaikki salaliittoon kuuluvat uskovat eri salaliittoon"
+    },
+    {
+      "id": "twists-0200",
+      "text": "Kukaan ei johda salaliittoa"
+    },
+    {
+      "id": "twists-0201",
+      "text": "Organisaatio toimii ilman että kukaan ymmärtää kokonaisuutta"
+    },
+    {
+      "id": "twists-0202",
+      "text": "Byrokratia on varsinainen antagonisti"
+    },
+    {
+      "id": "twists-0203",
+      "text": "Järjestelmä toimii täydellisesti mutta tavoite on väärä"
+    },
+    {
+      "id": "twists-0204",
+      "text": "Järjestelmävika on tahallinen ominaisuus"
+    },
+    {
+      "id": "twists-0205",
+      "text": "Korjaaminen rikkoo jotain tärkeämpää"
+    },
+    {
+      "id": "twists-0206",
+      "text": "Järjestelmä ylläpitää itse kriisiä"
+    },
+    {
+      "id": "twists-0207",
+      "text": "Katastrofi on ainoa asia joka pitää yhteiskunnan koossa"
+    },
+    {
+      "id": "twists-0208",
+      "text": "Kriisin loppuminen aiheuttaisi suuremman kriisin"
+    },
+    {
+      "id": "twists-0209",
+      "text": "Kaikki yrittävät ratkaista eri versiota samasta ongelmasta"
+    },
+    {
+      "id": "twists-0210",
+      "text": "Yksi organisaation osasto ei tiedä muiden osastojen olemassaolosta"
+    },
+    {
+      "id": "twists-0211",
+      "text": "Organisaation johtajaa ei ole olemassa"
+    },
+    {
+      "id": "twists-0212",
+      "text": "Käskyjä lähettää automaattinen järjestelmä"
+    },
+    {
+      "id": "twists-0213",
+      "text": "Säännöt ovat syntyneet vahingossa ja kukaan ei uskalla muuttaa niitä"
+    },
+    {
+      "id": "twists-0214",
+      "text": "Vanha hätäprotokolla hallitsee koko yhteiskuntaa"
+    },
+    {
+      "id": "twists-0215",
+      "text": "Kaupunki toimii edelleen kadonneen johtajan käskyjen mukaan"
+    },
+    {
+      "id": "twists-0216",
+      "text": "Valtio on lakannut olemasta mutta viranomaiset eivät tiedä sitä"
+    },
+    {
+      "id": "twists-0217",
+      "text": "Sota päättyi jo mutta rintama ei tiedä sitä"
+    },
+    {
+      "id": "twists-0218",
+      "text": "Katastrofia ei koskaan tapahtunutkaan"
+    },
+    {
+      "id": "twists-0219",
+      "text": "Maailmanloppu oli paikallinen tapahtuma"
+    },
+    {
+      "id": "twists-0220",
+      "text": "Ulkomaailma on täysin kunnossa"
+    },
+    {
+      "id": "twists-0221",
+      "text": "Ulkomaailma on paljon pahemmassa tilassa kuin pelaajalle kerrotaan"
+    },
+    {
+      "id": "twists-0222",
+      "text": "Turvapaikka on vaarallisempi kuin ulkomaailma"
+    },
+    {
+      "id": "twists-0223",
+      "text": "Vaarallinen alue on todellisuudessa turvallinen"
+    },
+    {
+      "id": "twists-0224",
+      "text": "Kielletty alue on rakennettu suojelemaan sisäpuolella olevia ulkomaailmalta"
+    },
+    {
+      "id": "twists-0225",
+      "text": "Karanteeni on valhe"
+    },
+    {
+      "id": "twists-0226",
+      "text": "Karanteenin syy on täysin eri kuin kerrotaan"
+    },
+    {
+      "id": "twists-0227",
+      "text": "Tauti ei tartu biologisesti vaan tiedon kautta"
+    },
+    {
+      "id": "twists-0228",
+      "text": "Sairaus leviää puheen kautta"
+    },
+    {
+      "id": "twists-0229",
+      "text": "Sairaus leviää muistojen kautta"
+    },
+    {
+      "id": "twists-0230",
+      "text": "Sairaus tekee ihmisistä terveempiä mutta muuttaa persoonallisuutta"
+    },
+    {
+      "id": "twists-0231",
+      "text": "Parannuskeino on vaarallisempi kuin tauti"
+    },
+    {
+      "id": "twists-0232",
+      "text": "Tauti on osa ekosysteemin tasapainoa"
+    },
+    {
+      "id": "twists-0233",
+      "text": "Kuolleet eivät pysy kuolleina mutta eivät ole zombeja"
+    },
+    {
+      "id": "twists-0234",
+      "text": "Kuolleet voivat äänestää"
+    },
+    {
+      "id": "twists-0235",
+      "text": "Kuolleet omistavat edelleen omaisuutta"
+    },
+    {
+      "id": "twists-0236",
+      "text": "Kuolleet jatkavat työskentelyä digitaalisten kopioiden kautta"
+    },
+    {
+      "id": "twists-0237",
+      "text": "Kuolleiden muistot voidaan haastatella"
+    },
+    {
+      "id": "twists-0238",
+      "text": "Kuolleet voivat muuttaa testamenttejaan"
+    },
+    {
+      "id": "twists-0239",
+      "text": "Kuolleet lähettävät viestejä tulevaisuudesta"
+    },
+    {
+      "id": "twists-0240",
+      "text": "Hautausmaa toimii verkostona"
+    },
+    {
+      "id": "twists-0241",
+      "text": "Aaveet eivät tiedä olevansa aaveita"
+    },
+    {
+      "id": "twists-0242",
+      "text": "Elävät ovatkin vähemmistö maailmassa"
+    },
+    {
+      "id": "twists-0243",
+      "text": "Tuonpuoleinen on byrokraattinen järjestelmä"
+    },
+    {
+      "id": "twists-0244",
+      "text": "Kuolema on hallinnollinen virhe"
+    },
+    {
+      "id": "twists-0245",
+      "text": "Joku on kuollut paperilla mutta elää edelleen"
+    },
+    {
+      "id": "twists-0246",
+      "text": "Joku elää paperilla mutta on kuollut vuosia sitten"
+    },
+    {
+      "id": "twists-0247",
+      "text": "Henkilön juridinen olemassaolo on tärkeämpi kuin fyysinen olemassaolo"
+    },
+    {
+      "id": "twists-0248",
+      "text": "Dokumentin muuttaminen muuttaa henkilön identiteettiä"
+    },
+    {
+      "id": "twists-0249",
+      "text": "Passi määrittää keneksi henkilö muuttuu"
+    },
+    {
+      "id": "twists-0250",
+      "text": "Väärä nimi alkaa korvata oikean henkilön"
+    },
+    {
+      "id": "twists-0251",
+      "text": "Sama henkilöllisyys kuuluu usealle ihmiselle"
+    },
+    {
+      "id": "twists-0252",
+      "text": "Kaikki kaupungissa käyttävät lainattuja identiteettejä"
+    },
+    {
+      "id": "twists-0253",
+      "text": "Pelaajan nimi ei ole hänen oma nimensä"
+    },
+    {
+      "id": "twists-0254",
+      "text": "Pelissä ei ole objektiivista totuutta"
+    },
+    {
+      "id": "twists-0255",
+      "text": "Totuus riippuu siitä kuka kysyy"
+    },
+    {
+      "id": "twists-0256",
+      "text": "Kaikki kertojat ovat epäluotettavia"
+    },
+    {
+      "id": "twists-0257",
+      "text": "Pelaaja joutuu valitsemaan minkä version totuudesta tekee viralliseksi"
+    },
+    {
+      "id": "twists-0258",
+      "text": "Virallinen totuus muuttaa tulevia tapahtumia"
+    },
+    {
+      "id": "twists-0259",
+      "text": "Historia määräytyy voittajan sijaan arkistonhoitajan päätöksillä"
+    },
+    {
+      "id": "twists-0260",
+      "text": "Pelaaja voi kirjoittaa tapahtuman uudelleen raportissa"
+    },
+    {
+      "id": "twists-0261",
+      "text": "Raportoimaton tapahtuma lakkaa olemasta"
+    },
+    {
+      "id": "twists-0262",
+      "text": "Kirjoitettu raportti on voimakkaampi kuin todelliset tapahtumat"
+    },
+    {
+      "id": "twists-0263",
+      "text": "Tilastot alkavat vaikuttaa ihmisten käytökseen"
+    },
+    {
+      "id": "twists-0264",
+      "text": "Mittarin tavoite muuttaa ihmisten toimintaa absurdisti"
+    },
+    {
+      "id": "twists-0265",
+      "text": "NPC:t optimoivat itseään pelaajan mittareita vastaan"
+    },
+    {
+      "id": "twists-0266",
+      "text": "Pelaajan tavoitteet aiheuttavat järjestelmällisesti väärää käytöstä"
+    },
+    {
+      "id": "twists-0267",
+      "text": "Paras strategia on olla tekemättä mitään"
+    },
+    {
+      "id": "twists-0268",
+      "text": "Pelin järjestelmä rankaisee liian tehokkaasta pelaamisesta"
+    },
+    {
+      "id": "twists-0269",
+      "text": "Menestys kasvattaa piilossa olevaa uhkaa"
+    },
+    {
+      "id": "twists-0270",
+      "text": "Epäonnistuminen pitää maailman vakaana"
+    },
+    {
+      "id": "twists-0271",
+      "text": "Voittaminen nopeuttaa maailmanloppua"
+    },
+    {
+      "id": "twists-0272",
+      "text": "Pelaajan on tarkoituksella hävittävä"
+    },
+    {
+      "id": "twists-0273",
+      "text": "Pelaajan pitää pitää kaksi vastakkaista järjestelmää tasapainossa"
+    },
+    {
+      "id": "twists-0274",
+      "text": "Yhden ongelman ratkaisu synnyttää aina toisen"
+    },
+    {
+      "id": "twists-0275",
+      "text": "Täydellinen tasapaino on mahdoton"
+    },
+    {
+      "id": "twists-0276",
+      "text": "Peli jatkuu vain niin kauan kuin ongelmia on"
+    },
+    {
+      "id": "twists-0277",
+      "text": "Pelaajan työ ylläpitää ongelmaa jota hän yrittää ratkaista"
+    },
+    {
+      "id": "twists-0278",
+      "text": "Pelaaja itse luo tehtävät joita hän saa"
+    },
+    {
+      "id": "twists-0279",
+      "text": "Pelaaja lähettää menneisyyden itselleen käskyjä"
+    },
+    {
+      "id": "twists-0280",
+      "text": "Pelaajan pomo on tulevaisuuden pelaaja"
+    },
+    {
+      "id": "twists-0281",
+      "text": "Pelaajan vihollinen on aiempi versio pelaajasta"
+    },
+    {
+      "id": "twists-0282",
+      "text": "Pelaajan seuraaja on tuleva versio pelaajasta"
+    },
+    {
+      "id": "twists-0283",
+      "text": "Kaikki hahmot ovat saman tietoisuuden eri haaroja"
+    },
+    {
+      "id": "twists-0284",
+      "text": "Maailma on yhden henkilön mielessä"
+    },
+    {
+      "id": "twists-0285",
+      "text": "Maailma on kaupungin kollektiivinen uni"
+    },
+    {
+      "id": "twists-0286",
+      "text": "Maailma on tekoälyn harjoitusdataa"
+    },
+    {
+      "id": "twists-0287",
+      "text": "Maailma on rikkinäinen varmuuskopio"
+    },
+    {
+      "id": "twists-0288",
+      "text": "Maailma generoidaan joka yö uudelleen"
+    },
+    {
+      "id": "twists-0289",
+      "text": "Maailma on museo, jossa pelaaja on näyttelyesine"
+    },
+    {
+      "id": "twists-0290",
+      "text": "Maailma on historiallinen rekonstruktio"
+    },
+    {
+      "id": "twists-0291",
+      "text": "Maailma on testi, jonka tarkoitusta ei kerrota"
+    },
+    {
+      "id": "twists-0292",
+      "text": "Maailma on jonkun toisen peli"
+    },
+    {
+      "id": "twists-0293",
+      "text": "Pelaajan päätöksiä seuraa näkymätön yleisö"
+    },
+    {
+      "id": "twists-0294",
+      "text": "Yleisö vaikuttaa tapahtumiin"
+    },
+    {
+      "id": "twists-0295",
+      "text": "Katsojat ovat osa pelimaailmaa"
+    },
+    {
+      "id": "twists-0296",
+      "text": "Pelaaja saa arvioinnin jokaisesta päätöksestä"
+    },
+    {
+      "id": "twists-0297",
+      "text": "Pelaajan moraalia mitataan salaa"
+    },
+    {
+      "id": "twists-0298",
+      "text": "Todellinen pistemäärä paljastetaan vasta lopussa"
+    },
+    {
+      "id": "twists-0299",
+      "text": "Pelaajan hyviksi luulemat teot ovat pelin mittarissa huonoja"
+    },
+    {
+      "id": "twists-0300",
+      "text": "Pelin moraalijärjestelmä muuttuu kulttuurin mukaan"
+    },
+    {
+      "id": "twists-0301",
+      "text": "Hyvä ja paha vaihtavat merkitystä kesken pelin"
+    },
+    {
+      "id": "twists-0302",
+      "text": "Sääntöjä muutetaan ilman ilmoitusta"
+    },
+    {
+      "id": "twists-0303",
+      "text": "Peli lisää uuden säännön joka päivä"
+    },
+    {
+      "id": "twists-0304",
+      "text": "Pelaajan on pääteltävä pelin säännöt itse"
+    },
+    {
+      "id": "twists-0305",
+      "text": "Kaikkia pelin sääntöjä ei kerrota koskaan"
+    },
+    {
+      "id": "twists-0306",
+      "text": "Osa ohjeista on tarkoituksella vääriä"
+    },
+    {
+      "id": "twists-0307",
+      "text": "Tutorialin opettama tapa on väärä"
+    },
+    {
+      "id": "twists-0308",
+      "text": "Tutorial-hahmo on vihollinen"
+    },
+    {
+      "id": "twists-0309",
+      "text": "Tutorial tapahtuu tarinan lopussa"
+    },
+    {
+      "id": "twists-0310",
+      "text": "Ensimmäinen tunti on valheellinen simulaatio"
+    },
+    {
+      "id": "twists-0311",
+      "text": "Peli alkaa lopusta ja etenee kohti alkua"
+    },
+    {
+      "id": "twists-0312",
+      "text": "Pelin viimeinen päivä on aina ensimmäinen päivä"
+    },
+    {
+      "id": "twists-0313",
+      "text": "Tavoite poistuu kokonaan kesken pelin"
+    },
+    {
+      "id": "twists-0314",
+      "text": "Pelaaja joutuu itse määrittelemään uuden tavoitteen"
+    },
+    {
+      "id": "twists-0315",
+      "text": "Useampi päätavoite on keskenään ristiriidassa"
+    },
+    {
+      "id": "twists-0316",
+      "text": "Tavoitteen saavuttaminen tekee siitä merkityksettömän"
+    },
+    {
+      "id": "twists-0317",
+      "text": "Pelaaja huomaa ettei hänellä ole koskaan ollut tehtävää"
+    },
+    {
+      "id": "twists-0318",
+      "text": "Pelin maailma yrittää estää varsinaisen juonen käynnistymisen"
+    },
+    {
+      "id": "twists-0319",
+      "text": "Pääjuoni on täysin valinnainen"
+    },
+    {
+      "id": "twists-0320",
+      "text": "Sivutehtävä osoittautuu pääjuoneksi"
+    },
+    {
+      "id": "twists-0321",
+      "text": "Taustalla tapahtuva simulaatio on tärkeämpi kuin käsikirjoitettu tarina"
+    },
+    {
+      "id": "twists-0322",
+      "text": "Koko tarina syntyy simulaation seurauksena"
+    },
+    {
+      "id": "twists-0323",
+      "text": "Yksikään tapahtuma ei ole ennalta kirjoitettu"
+    },
+    {
+      "id": "twists-0324",
+      "text": "Pelin mysteeri generoituu pelaamisen aikana"
+    },
+    {
+      "id": "twists-0325",
+      "text": "Murhaaja valitaan vasta kun tutkimus alkaa"
+    },
+    {
+      "id": "twists-0326",
+      "text": "Pelin maailma päättää salaisuuden pelaajan teorioiden perusteella"
+    },
+    {
+      "id": "twists-0327",
+      "text": "Peli rakentaa antagonistin pelaajan vihamielisimmästä NPC:stä"
+    },
+    {
+      "id": "twists-0328",
+      "text": "Pelaajan suosikkihahmosta voi tulla lopullinen vastustaja"
+    },
+    {
+      "id": "twists-0329",
+      "text": "Pelaajan eniten auttama ryhmä kasvaa liian voimakkaaksi"
+    },
+    {
+      "id": "twists-0330",
+      "text": "Pelaajan huomiotta jättämä pieni ongelma kasvaa pääuhaksi"
+    }
   ]
 }

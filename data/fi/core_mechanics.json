@@ -1,311 +1,1232 @@
 {
   "core_mechanics": [
-    "Keskustelu",
-    "Kaupankäynti",
-    "Tutkiminen",
-    "Resurssien jako",
-    "Kartan tutkiminen",
-    "Dokumenttien vertailu",
-    "Rakentaminen",
-    "Ajankäyttö",
-    "Ohjelmointi",
-    "Työntekijöiden johtaminen",
-    "Valvontakameroiden seuraaminen",
-    "Vihjeiden yhdistely",
-    "Todisteiden kerääminen",
-    "Kuulustelu",
-    "Valehtelun tunnistaminen",
-    "Päätösten tekeminen",
-    "Neuvottelu",
-    "Suostuttelu",
-    "Uhkaaminen",
-    "Lahjominen",
-    "Manipulointi",
-    "Maineen hallinta",
-    "Luottamuksen rakentaminen",
-    "Ihmissuhteiden hallinta",
-    "Huhujen levittäminen",
-    "Tiedon salaaminen",
-    "Tiedon jakaminen",
-    "Tietolähteiden arviointi",
-    "Raporttien lukeminen",
-    "Raporttien kirjoittaminen",
-    "Asiakirjojen tarkastaminen",
-    "Lomakkeiden käsittely",
-    "Hakemusten hyväksyminen",
-    "Hakemusten hylkääminen",
-    "Passien tarkistaminen",
-    "Henkilöllisyyksien vertaaminen",
-    "Kirjanpidon tarkastaminen",
-    "Budjetointi",
-    "Hinnoittelu",
-    "Ostaminen",
-    "Myyminen",
-    "Tinkiminen",
-    "Sijoittaminen",
-    "Velan hallinta",
-    "Varaston hallinta",
-    "Tilausten tekeminen",
-    "Toimitusketjun hallinta",
-    "Logistiikan suunnittelu",
-    "Kuljetusreittien suunnittelu",
-    "Tuotantoketjun rakentaminen",
-    "Tuotannon optimointi",
-    "Automatisointi",
-    "Koneiden rakentaminen",
-    "Koneiden korjaaminen",
-    "Laitteiden huoltaminen",
-    "Vikojen diagnosointi",
-    "Sähkön reitittäminen",
-    "Veden reitittäminen",
-    "Putkistojen rakentaminen",
-    "Johtojen yhdistäminen",
-    "Piirien rakentaminen",
-    "Koodin kirjoittaminen",
-    "Koodin debuggaus",
-    "Komentorivin käyttäminen",
-    "Hakkerointi",
-    "Tietojärjestelmiin murtautuminen",
-    "Salasanojen selvittäminen",
-    "Verkon tutkiminen",
-    "Järjestelmien konfigurointi",
-    "Tiedostojen etsiminen",
-    "Tietokantojen tutkiminen",
-    "Tietojen yhdistely",
-    "Datan analysointi",
-    "Tilastojen tulkinta",
-    "Poikkeamien etsiminen",
-    "Mallien tunnistaminen",
-    "Sukupuun rakentaminen",
-    "Ihmissuhdeverkon rakentaminen",
-    "Tapahtumaketjun rakentaminen",
-    "Aikajanan rakentaminen",
-    "Karttojen vertaaminen",
-    "Karttojen piirtäminen",
-    "Alueiden kartoittaminen",
-    "Reittien etsiminen",
-    "Navigointi",
-    "Paikkojen avaaminen",
-    "Salakäytävien etsiminen",
-    "Esineiden tutkiminen",
-    "Ympäristön tarkkailu",
-    "Yksityiskohtien havainnointi",
-    "Äänien kuunteleminen",
-    "Jälkien seuraaminen",
-    "Henkilöiden seuraaminen",
-    "Salakuuntelu",
-    "Varjostaminen",
-    "Piiloutuminen",
-    "Hiipiminen",
-    "Naamioituminen",
-    "Soluttautuminen",
-    "Turvajärjestelmien kiertäminen",
-    "Kameroiden ohjaaminen",
-    "Sensorien seuraaminen",
-    "Tutkan seuraaminen",
-    "Sonarin seuraaminen",
-    "Mittareiden seuraaminen",
-    "Hälytysten hallinta",
-    "Ovien hallinta",
-    "Lukkojen avaaminen",
-    "Kulkuoikeuksien hallinta",
-    "Vartijoiden sijoittaminen",
-    "Partioiden suunnittelu",
-    "Työvuorojen suunnittelu",
-    "Työtehtävien jakaminen",
-    "Henkilöstön palkkaaminen",
-    "Henkilöstön kouluttaminen",
-    "Henkilöstön irtisanominen",
-    "Työntekijöiden motivointi",
-    "Työntekijöiden arviointi",
-    "Tiimien muodostaminen",
-    "Roolien jakaminen",
-    "Priorisointi",
-    "Kalenterin hallinta",
-    "Aikatauluttaminen",
-    "Määräaikojen hallinta",
-    "Vuorojen optimointi",
-    "Ajankulun hallinta",
-    "Toimintojen jonottaminen",
-    "Vuoropohjainen päätöksenteko",
-    "Reaaliaikainen päätöksenteko",
-    "Tauottaminen ja käskyjen antaminen",
-    "Resurssien kerääminen",
-    "Resurssien kuluttaminen",
-    "Resurssien varastoiminen",
-    "Resurssien priorisointi",
-    "Resurssien vaihtaminen",
-    "Resurssien säännöstely",
-    "Ruoan jakaminen",
-    "Veden jakaminen",
-    "Energian jakaminen",
-    "Lääkkeiden jakaminen",
-    "Rahan jakaminen",
-    "Työvoiman jakaminen",
-    "Rakennusten sijoittaminen",
-    "Huoneiden suunnittelu",
-    "Tilojen laajentaminen",
-    "Rakennusten päivittäminen",
-    "Rakennusten purkaminen",
-    "Infrastruktuurin rakentaminen",
-    "Teiden rakentaminen",
-    "Puolustusten rakentaminen",
-    "Tukikohdan kehittäminen",
-    "Kaupungin suunnittelu",
-    "Alueiden kaavoittaminen",
-    "Esineiden valmistaminen",
-    "Craftaus",
-    "Reseptien kokeileminen",
-    "Ainesosien yhdistäminen",
-    "Esineiden purkaminen",
-    "Esineiden korjaaminen",
-    "Esineiden päivittäminen",
-    "Työkalujen käyttäminen",
-    "Inventaarion hallinta",
-    "Varusteiden valinta",
-    "Esineiden lajittelu",
-    "Esineiden tunnistaminen",
-    "Lukujen ja koodien ratkaiseminen",
-    "Logiikkapulmien ratkaiseminen",
-    "Mekaanisten pulmien ratkaiseminen",
-    "Tilapulmien ratkaiseminen",
-    "Sanapulmien ratkaiseminen",
-    "Salakirjoitusten ratkaiseminen",
-    "Symbolien tulkinta",
-    "Kuvioiden tunnistaminen",
-    "Muistipulmien ratkaiseminen",
-    "Järjestyksen selvittäminen",
-    "Yhdistelypulmien ratkaiseminen",
-    "Korttien pelaaminen",
-    "Pakan rakentaminen",
-    "Noppien käyttäminen",
-    "Riskin arviointi",
-    "Todennäköisyyksien hallinta",
-    "Panostaminen",
-    "Push-your-luck päätökset",
-    "Alueiden hallinta",
-    "Joukkojen sijoittaminen",
-    "Yksiköiden liikuttaminen",
-    "Taistelujen suunnittelu",
-    "Puolustuslinjojen rakentaminen",
-    "Diplomatian hoitaminen",
-    "Liittoutumien rakentaminen",
-    "Sopimusten tekeminen",
-    "Sopimusten rikkominen",
-    "Poliittisten päätösten tekeminen",
-    "Lakien säätäminen",
-    "Verojen asettaminen",
-    "Budjettien jakaminen",
-    "Kansansuosion hallinta",
-    "Vaalikampanjointi",
-    "Propagandan tuottaminen",
-    "Mielipiteiden ohjaaminen",
-    "Fraktioiden tasapainottaminen",
-    "Kapinan hallinta",
-    "Kriisien ratkaiseminen",
-    "Riskien hallinta",
-    "Katastrofeihin reagointi",
-    "Evakuointien suunnittelu",
-    "Pelastusoperaatioiden koordinointi",
-    "Potilaiden priorisointi",
-    "Potilaiden diagnosointi",
-    "Potilaiden hoitaminen",
-    "Lääkkeiden valitseminen",
-    "Leikkausten suorittaminen",
-    "Epidemian seuraaminen",
-    "Tartuntojen jäljittäminen",
-    "Tutkimusprojektien valinta",
-    "Teknologioiden tutkiminen",
-    "Kokeiden suorittaminen",
-    "Näytteiden analysointi",
-    "Hypoteesien testaaminen",
-    "Lajien jalostaminen",
-    "Ekosysteemin tasapainottaminen",
-    "Kasvien kasvattaminen",
-    "Eläinten hoitaminen",
-    "Viljely",
-    "Sadonkorjuu",
-    "Metsästys",
-    "Kalastus",
-    "Ansastaminen",
-    "Ruoan valmistaminen",
-    "Ruoan säilöminen",
-    "Sään seuraaminen",
-    "Lämpötilan hallinta",
-    "Hapen hallinta",
-    "Paineen hallinta",
-    "Säteilyn hallinta",
-    "Polttoaineen hallinta",
-    "Elintoimintojen seuraaminen",
-    "Miehistön moraalin hallinta",
-    "Miehistön tarpeiden tasapainottaminen",
-    "Hahmojen tarpeiden täyttäminen",
-    "Hahmojen rutiinien seuraaminen",
-    "NPC:iden aikataulujen seuraaminen",
-    "NPC:iden suhteiden seuraaminen",
-    "NPC:iden käyttäytymisen tulkinta",
-    "NPC:iden käskeminen",
-    "NPC:iden rekrytointi",
-    "NPC:iden suostuttelu",
-    "NPC:iden kuulustelu",
-    "NPC:iden lahjominen",
-    "NPC:iden kiristäminen",
-    "Hahmojen yhdisteleminen",
-    "Parisuhteiden rakentaminen",
-    "Perheiden muodostaminen",
-    "Dynastian rakentaminen",
-    "Perimyksen hallinta",
-    "Mainepisteiden hallinta",
-    "Lojaalisuuden hallinta",
-    "Pelon hallinta",
-    "Vaikutusvallan käyttäminen",
-    "Salaisuuksien kerääminen",
-    "Salaisuuksien vaihtaminen",
-    "Salaisuuksien käyttäminen kiristykseen",
-    "Valintojen tekeminen dialogissa",
-    "Dialogivaihtoehtojen avaaminen",
-    "Henkilöiden profilointi",
-    "Persoonallisuuksien tulkinta",
-    "Tunteiden tulkinta",
-    "Reaktioiden ennustaminen",
-    "Muistojen tutkiminen",
-    "Unien tutkiminen",
-    "Aikajanojen vertaaminen",
-    "Aikamatkustaminen",
-    "Aikasilmukan hyödyntäminen",
-    "Tapahtumien uudelleentoistaminen",
-    "Menneisyyden muuttaminen",
-    "Tulevaisuuden ennustaminen",
-    "Simulaation sääntöjen testaaminen",
-    "Maailman sääntöjen rikkominen",
-    "Maailman tilan muokkaaminen",
-    "Tapahtumien laukaiseminen",
-    "Syyn ja seurauksen kokeileminen",
-    "Maailman seuraaminen ilman suoraa ohjausta",
-    "Autonomisten hahmojen tarkkailu",
-    "Kokeiden tekeminen järjestelmällä",
-    "Pelimaailman manipulointi epäsuorasti",
-    "Komentojen kirjoittaminen",
-    "Työpöydän kautta pelaaminen",
-    "Sähköpostien käsittely",
-    "Puheluihin vastaaminen",
-    "Radioviestien käsittely",
-    "Viestien dekoodaaminen",
-    "Viestien välittäminen",
-    "Viestien sensurointi",
-    "Uutisten valitseminen",
-    "Otsikoiden kirjoittaminen",
-    "Sisällön moderointi",
-    "Päätösten allekirjoittaminen",
-    "Asiakirjojen leimaaminen",
-    "Tapausten lajittelu",
-    "Jonon hallinta",
-    "Asiakkaiden palveleminen",
-    "Tilausten käsittely",
-    "Valitusten käsittely",
-    "Hakemusten priorisointi",
-    "Tehtävien delegointi",
-    "Tehtävien suoritusjärjestyksen valinta",
-    "Päivittäisen rutiinin optimointi"
+    {
+      "id": "core_mechanics-0001",
+      "text": "Keskustelu"
+    },
+    {
+      "id": "core_mechanics-0002",
+      "text": "Kaupankäynti"
+    },
+    {
+      "id": "core_mechanics-0003",
+      "text": "Tutkiminen"
+    },
+    {
+      "id": "core_mechanics-0004",
+      "text": "Resurssien jako"
+    },
+    {
+      "id": "core_mechanics-0005",
+      "text": "Kartan tutkiminen"
+    },
+    {
+      "id": "core_mechanics-0006",
+      "text": "Dokumenttien vertailu"
+    },
+    {
+      "id": "core_mechanics-0007",
+      "text": "Rakentaminen"
+    },
+    {
+      "id": "core_mechanics-0008",
+      "text": "Ajankäyttö"
+    },
+    {
+      "id": "core_mechanics-0009",
+      "text": "Ohjelmointi"
+    },
+    {
+      "id": "core_mechanics-0010",
+      "text": "Työntekijöiden johtaminen"
+    },
+    {
+      "id": "core_mechanics-0011",
+      "text": "Valvontakameroiden seuraaminen"
+    },
+    {
+      "id": "core_mechanics-0012",
+      "text": "Vihjeiden yhdistely"
+    },
+    {
+      "id": "core_mechanics-0013",
+      "text": "Todisteiden kerääminen"
+    },
+    {
+      "id": "core_mechanics-0014",
+      "text": "Kuulustelu"
+    },
+    {
+      "id": "core_mechanics-0015",
+      "text": "Valehtelun tunnistaminen"
+    },
+    {
+      "id": "core_mechanics-0016",
+      "text": "Päätösten tekeminen"
+    },
+    {
+      "id": "core_mechanics-0017",
+      "text": "Neuvottelu"
+    },
+    {
+      "id": "core_mechanics-0018",
+      "text": "Suostuttelu"
+    },
+    {
+      "id": "core_mechanics-0019",
+      "text": "Uhkaaminen"
+    },
+    {
+      "id": "core_mechanics-0020",
+      "text": "Lahjominen"
+    },
+    {
+      "id": "core_mechanics-0021",
+      "text": "Manipulointi"
+    },
+    {
+      "id": "core_mechanics-0022",
+      "text": "Maineen hallinta"
+    },
+    {
+      "id": "core_mechanics-0023",
+      "text": "Luottamuksen rakentaminen"
+    },
+    {
+      "id": "core_mechanics-0024",
+      "text": "Ihmissuhteiden hallinta"
+    },
+    {
+      "id": "core_mechanics-0025",
+      "text": "Huhujen levittäminen"
+    },
+    {
+      "id": "core_mechanics-0026",
+      "text": "Tiedon salaaminen"
+    },
+    {
+      "id": "core_mechanics-0027",
+      "text": "Tiedon jakaminen"
+    },
+    {
+      "id": "core_mechanics-0028",
+      "text": "Tietolähteiden arviointi"
+    },
+    {
+      "id": "core_mechanics-0029",
+      "text": "Raporttien lukeminen"
+    },
+    {
+      "id": "core_mechanics-0030",
+      "text": "Raporttien kirjoittaminen"
+    },
+    {
+      "id": "core_mechanics-0031",
+      "text": "Asiakirjojen tarkastaminen"
+    },
+    {
+      "id": "core_mechanics-0032",
+      "text": "Lomakkeiden käsittely"
+    },
+    {
+      "id": "core_mechanics-0033",
+      "text": "Hakemusten hyväksyminen"
+    },
+    {
+      "id": "core_mechanics-0034",
+      "text": "Hakemusten hylkääminen"
+    },
+    {
+      "id": "core_mechanics-0035",
+      "text": "Passien tarkistaminen"
+    },
+    {
+      "id": "core_mechanics-0036",
+      "text": "Henkilöllisyyksien vertaaminen"
+    },
+    {
+      "id": "core_mechanics-0037",
+      "text": "Kirjanpidon tarkastaminen"
+    },
+    {
+      "id": "core_mechanics-0038",
+      "text": "Budjetointi"
+    },
+    {
+      "id": "core_mechanics-0039",
+      "text": "Hinnoittelu"
+    },
+    {
+      "id": "core_mechanics-0040",
+      "text": "Ostaminen"
+    },
+    {
+      "id": "core_mechanics-0041",
+      "text": "Myyminen"
+    },
+    {
+      "id": "core_mechanics-0042",
+      "text": "Tinkiminen"
+    },
+    {
+      "id": "core_mechanics-0043",
+      "text": "Sijoittaminen"
+    },
+    {
+      "id": "core_mechanics-0044",
+      "text": "Velan hallinta"
+    },
+    {
+      "id": "core_mechanics-0045",
+      "text": "Varaston hallinta"
+    },
+    {
+      "id": "core_mechanics-0046",
+      "text": "Tilausten tekeminen"
+    },
+    {
+      "id": "core_mechanics-0047",
+      "text": "Toimitusketjun hallinta"
+    },
+    {
+      "id": "core_mechanics-0048",
+      "text": "Logistiikan suunnittelu"
+    },
+    {
+      "id": "core_mechanics-0049",
+      "text": "Kuljetusreittien suunnittelu"
+    },
+    {
+      "id": "core_mechanics-0050",
+      "text": "Tuotantoketjun rakentaminen"
+    },
+    {
+      "id": "core_mechanics-0051",
+      "text": "Tuotannon optimointi"
+    },
+    {
+      "id": "core_mechanics-0052",
+      "text": "Automatisointi"
+    },
+    {
+      "id": "core_mechanics-0053",
+      "text": "Koneiden rakentaminen"
+    },
+    {
+      "id": "core_mechanics-0054",
+      "text": "Koneiden korjaaminen"
+    },
+    {
+      "id": "core_mechanics-0055",
+      "text": "Laitteiden huoltaminen"
+    },
+    {
+      "id": "core_mechanics-0056",
+      "text": "Vikojen diagnosointi"
+    },
+    {
+      "id": "core_mechanics-0057",
+      "text": "Sähkön reitittäminen"
+    },
+    {
+      "id": "core_mechanics-0058",
+      "text": "Veden reitittäminen"
+    },
+    {
+      "id": "core_mechanics-0059",
+      "text": "Putkistojen rakentaminen"
+    },
+    {
+      "id": "core_mechanics-0060",
+      "text": "Johtojen yhdistäminen"
+    },
+    {
+      "id": "core_mechanics-0061",
+      "text": "Piirien rakentaminen"
+    },
+    {
+      "id": "core_mechanics-0062",
+      "text": "Koodin kirjoittaminen"
+    },
+    {
+      "id": "core_mechanics-0063",
+      "text": "Koodin debuggaus"
+    },
+    {
+      "id": "core_mechanics-0064",
+      "text": "Komentorivin käyttäminen"
+    },
+    {
+      "id": "core_mechanics-0065",
+      "text": "Hakkerointi"
+    },
+    {
+      "id": "core_mechanics-0066",
+      "text": "Tietojärjestelmiin murtautuminen"
+    },
+    {
+      "id": "core_mechanics-0067",
+      "text": "Salasanojen selvittäminen"
+    },
+    {
+      "id": "core_mechanics-0068",
+      "text": "Verkon tutkiminen"
+    },
+    {
+      "id": "core_mechanics-0069",
+      "text": "Järjestelmien konfigurointi"
+    },
+    {
+      "id": "core_mechanics-0070",
+      "text": "Tiedostojen etsiminen"
+    },
+    {
+      "id": "core_mechanics-0071",
+      "text": "Tietokantojen tutkiminen"
+    },
+    {
+      "id": "core_mechanics-0072",
+      "text": "Tietojen yhdistely"
+    },
+    {
+      "id": "core_mechanics-0073",
+      "text": "Datan analysointi"
+    },
+    {
+      "id": "core_mechanics-0074",
+      "text": "Tilastojen tulkinta"
+    },
+    {
+      "id": "core_mechanics-0075",
+      "text": "Poikkeamien etsiminen"
+    },
+    {
+      "id": "core_mechanics-0076",
+      "text": "Mallien tunnistaminen"
+    },
+    {
+      "id": "core_mechanics-0077",
+      "text": "Sukupuun rakentaminen"
+    },
+    {
+      "id": "core_mechanics-0078",
+      "text": "Ihmissuhdeverkon rakentaminen"
+    },
+    {
+      "id": "core_mechanics-0079",
+      "text": "Tapahtumaketjun rakentaminen"
+    },
+    {
+      "id": "core_mechanics-0080",
+      "text": "Aikajanan rakentaminen"
+    },
+    {
+      "id": "core_mechanics-0081",
+      "text": "Karttojen vertaaminen"
+    },
+    {
+      "id": "core_mechanics-0082",
+      "text": "Karttojen piirtäminen"
+    },
+    {
+      "id": "core_mechanics-0083",
+      "text": "Alueiden kartoittaminen"
+    },
+    {
+      "id": "core_mechanics-0084",
+      "text": "Reittien etsiminen"
+    },
+    {
+      "id": "core_mechanics-0085",
+      "text": "Navigointi"
+    },
+    {
+      "id": "core_mechanics-0086",
+      "text": "Paikkojen avaaminen"
+    },
+    {
+      "id": "core_mechanics-0087",
+      "text": "Salakäytävien etsiminen"
+    },
+    {
+      "id": "core_mechanics-0088",
+      "text": "Esineiden tutkiminen"
+    },
+    {
+      "id": "core_mechanics-0089",
+      "text": "Ympäristön tarkkailu"
+    },
+    {
+      "id": "core_mechanics-0090",
+      "text": "Yksityiskohtien havainnointi"
+    },
+    {
+      "id": "core_mechanics-0091",
+      "text": "Äänien kuunteleminen"
+    },
+    {
+      "id": "core_mechanics-0092",
+      "text": "Jälkien seuraaminen"
+    },
+    {
+      "id": "core_mechanics-0093",
+      "text": "Henkilöiden seuraaminen"
+    },
+    {
+      "id": "core_mechanics-0094",
+      "text": "Salakuuntelu"
+    },
+    {
+      "id": "core_mechanics-0095",
+      "text": "Varjostaminen"
+    },
+    {
+      "id": "core_mechanics-0096",
+      "text": "Piiloutuminen"
+    },
+    {
+      "id": "core_mechanics-0097",
+      "text": "Hiipiminen"
+    },
+    {
+      "id": "core_mechanics-0098",
+      "text": "Naamioituminen"
+    },
+    {
+      "id": "core_mechanics-0099",
+      "text": "Soluttautuminen"
+    },
+    {
+      "id": "core_mechanics-0100",
+      "text": "Turvajärjestelmien kiertäminen"
+    },
+    {
+      "id": "core_mechanics-0101",
+      "text": "Kameroiden ohjaaminen"
+    },
+    {
+      "id": "core_mechanics-0102",
+      "text": "Sensorien seuraaminen"
+    },
+    {
+      "id": "core_mechanics-0103",
+      "text": "Tutkan seuraaminen"
+    },
+    {
+      "id": "core_mechanics-0104",
+      "text": "Sonarin seuraaminen"
+    },
+    {
+      "id": "core_mechanics-0105",
+      "text": "Mittareiden seuraaminen"
+    },
+    {
+      "id": "core_mechanics-0106",
+      "text": "Hälytysten hallinta"
+    },
+    {
+      "id": "core_mechanics-0107",
+      "text": "Ovien hallinta"
+    },
+    {
+      "id": "core_mechanics-0108",
+      "text": "Lukkojen avaaminen"
+    },
+    {
+      "id": "core_mechanics-0109",
+      "text": "Kulkuoikeuksien hallinta"
+    },
+    {
+      "id": "core_mechanics-0110",
+      "text": "Vartijoiden sijoittaminen"
+    },
+    {
+      "id": "core_mechanics-0111",
+      "text": "Partioiden suunnittelu"
+    },
+    {
+      "id": "core_mechanics-0112",
+      "text": "Työvuorojen suunnittelu"
+    },
+    {
+      "id": "core_mechanics-0113",
+      "text": "Työtehtävien jakaminen"
+    },
+    {
+      "id": "core_mechanics-0114",
+      "text": "Henkilöstön palkkaaminen"
+    },
+    {
+      "id": "core_mechanics-0115",
+      "text": "Henkilöstön kouluttaminen"
+    },
+    {
+      "id": "core_mechanics-0116",
+      "text": "Henkilöstön irtisanominen"
+    },
+    {
+      "id": "core_mechanics-0117",
+      "text": "Työntekijöiden motivointi"
+    },
+    {
+      "id": "core_mechanics-0118",
+      "text": "Työntekijöiden arviointi"
+    },
+    {
+      "id": "core_mechanics-0119",
+      "text": "Tiimien muodostaminen"
+    },
+    {
+      "id": "core_mechanics-0120",
+      "text": "Roolien jakaminen"
+    },
+    {
+      "id": "core_mechanics-0121",
+      "text": "Priorisointi"
+    },
+    {
+      "id": "core_mechanics-0122",
+      "text": "Kalenterin hallinta"
+    },
+    {
+      "id": "core_mechanics-0123",
+      "text": "Aikatauluttaminen"
+    },
+    {
+      "id": "core_mechanics-0124",
+      "text": "Määräaikojen hallinta"
+    },
+    {
+      "id": "core_mechanics-0125",
+      "text": "Vuorojen optimointi"
+    },
+    {
+      "id": "core_mechanics-0126",
+      "text": "Ajankulun hallinta"
+    },
+    {
+      "id": "core_mechanics-0127",
+      "text": "Toimintojen jonottaminen"
+    },
+    {
+      "id": "core_mechanics-0128",
+      "text": "Vuoropohjainen päätöksenteko"
+    },
+    {
+      "id": "core_mechanics-0129",
+      "text": "Reaaliaikainen päätöksenteko"
+    },
+    {
+      "id": "core_mechanics-0130",
+      "text": "Tauottaminen ja käskyjen antaminen"
+    },
+    {
+      "id": "core_mechanics-0131",
+      "text": "Resurssien kerääminen"
+    },
+    {
+      "id": "core_mechanics-0132",
+      "text": "Resurssien kuluttaminen"
+    },
+    {
+      "id": "core_mechanics-0133",
+      "text": "Resurssien varastoiminen"
+    },
+    {
+      "id": "core_mechanics-0134",
+      "text": "Resurssien priorisointi"
+    },
+    {
+      "id": "core_mechanics-0135",
+      "text": "Resurssien vaihtaminen"
+    },
+    {
+      "id": "core_mechanics-0136",
+      "text": "Resurssien säännöstely"
+    },
+    {
+      "id": "core_mechanics-0137",
+      "text": "Ruoan jakaminen"
+    },
+    {
+      "id": "core_mechanics-0138",
+      "text": "Veden jakaminen"
+    },
+    {
+      "id": "core_mechanics-0139",
+      "text": "Energian jakaminen"
+    },
+    {
+      "id": "core_mechanics-0140",
+      "text": "Lääkkeiden jakaminen"
+    },
+    {
+      "id": "core_mechanics-0141",
+      "text": "Rahan jakaminen"
+    },
+    {
+      "id": "core_mechanics-0142",
+      "text": "Työvoiman jakaminen"
+    },
+    {
+      "id": "core_mechanics-0143",
+      "text": "Rakennusten sijoittaminen"
+    },
+    {
+      "id": "core_mechanics-0144",
+      "text": "Huoneiden suunnittelu"
+    },
+    {
+      "id": "core_mechanics-0145",
+      "text": "Tilojen laajentaminen"
+    },
+    {
+      "id": "core_mechanics-0146",
+      "text": "Rakennusten päivittäminen"
+    },
+    {
+      "id": "core_mechanics-0147",
+      "text": "Rakennusten purkaminen"
+    },
+    {
+      "id": "core_mechanics-0148",
+      "text": "Infrastruktuurin rakentaminen"
+    },
+    {
+      "id": "core_mechanics-0149",
+      "text": "Teiden rakentaminen"
+    },
+    {
+      "id": "core_mechanics-0150",
+      "text": "Puolustusten rakentaminen"
+    },
+    {
+      "id": "core_mechanics-0151",
+      "text": "Tukikohdan kehittäminen"
+    },
+    {
+      "id": "core_mechanics-0152",
+      "text": "Kaupungin suunnittelu"
+    },
+    {
+      "id": "core_mechanics-0153",
+      "text": "Alueiden kaavoittaminen"
+    },
+    {
+      "id": "core_mechanics-0154",
+      "text": "Esineiden valmistaminen"
+    },
+    {
+      "id": "core_mechanics-0155",
+      "text": "Craftaus"
+    },
+    {
+      "id": "core_mechanics-0156",
+      "text": "Reseptien kokeileminen"
+    },
+    {
+      "id": "core_mechanics-0157",
+      "text": "Ainesosien yhdistäminen"
+    },
+    {
+      "id": "core_mechanics-0158",
+      "text": "Esineiden purkaminen"
+    },
+    {
+      "id": "core_mechanics-0159",
+      "text": "Esineiden korjaaminen"
+    },
+    {
+      "id": "core_mechanics-0160",
+      "text": "Esineiden päivittäminen"
+    },
+    {
+      "id": "core_mechanics-0161",
+      "text": "Työkalujen käyttäminen"
+    },
+    {
+      "id": "core_mechanics-0162",
+      "text": "Inventaarion hallinta"
+    },
+    {
+      "id": "core_mechanics-0163",
+      "text": "Varusteiden valinta"
+    },
+    {
+      "id": "core_mechanics-0164",
+      "text": "Esineiden lajittelu"
+    },
+    {
+      "id": "core_mechanics-0165",
+      "text": "Esineiden tunnistaminen"
+    },
+    {
+      "id": "core_mechanics-0166",
+      "text": "Lukujen ja koodien ratkaiseminen"
+    },
+    {
+      "id": "core_mechanics-0167",
+      "text": "Logiikkapulmien ratkaiseminen"
+    },
+    {
+      "id": "core_mechanics-0168",
+      "text": "Mekaanisten pulmien ratkaiseminen"
+    },
+    {
+      "id": "core_mechanics-0169",
+      "text": "Tilapulmien ratkaiseminen"
+    },
+    {
+      "id": "core_mechanics-0170",
+      "text": "Sanapulmien ratkaiseminen"
+    },
+    {
+      "id": "core_mechanics-0171",
+      "text": "Salakirjoitusten ratkaiseminen"
+    },
+    {
+      "id": "core_mechanics-0172",
+      "text": "Symbolien tulkinta"
+    },
+    {
+      "id": "core_mechanics-0173",
+      "text": "Kuvioiden tunnistaminen"
+    },
+    {
+      "id": "core_mechanics-0174",
+      "text": "Muistipulmien ratkaiseminen"
+    },
+    {
+      "id": "core_mechanics-0175",
+      "text": "Järjestyksen selvittäminen"
+    },
+    {
+      "id": "core_mechanics-0176",
+      "text": "Yhdistelypulmien ratkaiseminen"
+    },
+    {
+      "id": "core_mechanics-0177",
+      "text": "Korttien pelaaminen"
+    },
+    {
+      "id": "core_mechanics-0178",
+      "text": "Pakan rakentaminen"
+    },
+    {
+      "id": "core_mechanics-0179",
+      "text": "Noppien käyttäminen"
+    },
+    {
+      "id": "core_mechanics-0180",
+      "text": "Riskin arviointi"
+    },
+    {
+      "id": "core_mechanics-0181",
+      "text": "Todennäköisyyksien hallinta"
+    },
+    {
+      "id": "core_mechanics-0182",
+      "text": "Panostaminen"
+    },
+    {
+      "id": "core_mechanics-0183",
+      "text": "Push-your-luck päätökset"
+    },
+    {
+      "id": "core_mechanics-0184",
+      "text": "Alueiden hallinta"
+    },
+    {
+      "id": "core_mechanics-0185",
+      "text": "Joukkojen sijoittaminen"
+    },
+    {
+      "id": "core_mechanics-0186",
+      "text": "Yksiköiden liikuttaminen"
+    },
+    {
+      "id": "core_mechanics-0187",
+      "text": "Taistelujen suunnittelu"
+    },
+    {
+      "id": "core_mechanics-0188",
+      "text": "Puolustuslinjojen rakentaminen"
+    },
+    {
+      "id": "core_mechanics-0189",
+      "text": "Diplomatian hoitaminen"
+    },
+    {
+      "id": "core_mechanics-0190",
+      "text": "Liittoutumien rakentaminen"
+    },
+    {
+      "id": "core_mechanics-0191",
+      "text": "Sopimusten tekeminen"
+    },
+    {
+      "id": "core_mechanics-0192",
+      "text": "Sopimusten rikkominen"
+    },
+    {
+      "id": "core_mechanics-0193",
+      "text": "Poliittisten päätösten tekeminen"
+    },
+    {
+      "id": "core_mechanics-0194",
+      "text": "Lakien säätäminen"
+    },
+    {
+      "id": "core_mechanics-0195",
+      "text": "Verojen asettaminen"
+    },
+    {
+      "id": "core_mechanics-0196",
+      "text": "Budjettien jakaminen"
+    },
+    {
+      "id": "core_mechanics-0197",
+      "text": "Kansansuosion hallinta"
+    },
+    {
+      "id": "core_mechanics-0198",
+      "text": "Vaalikampanjointi"
+    },
+    {
+      "id": "core_mechanics-0199",
+      "text": "Propagandan tuottaminen"
+    },
+    {
+      "id": "core_mechanics-0200",
+      "text": "Mielipiteiden ohjaaminen"
+    },
+    {
+      "id": "core_mechanics-0201",
+      "text": "Fraktioiden tasapainottaminen"
+    },
+    {
+      "id": "core_mechanics-0202",
+      "text": "Kapinan hallinta"
+    },
+    {
+      "id": "core_mechanics-0203",
+      "text": "Kriisien ratkaiseminen"
+    },
+    {
+      "id": "core_mechanics-0204",
+      "text": "Riskien hallinta"
+    },
+    {
+      "id": "core_mechanics-0205",
+      "text": "Katastrofeihin reagointi"
+    },
+    {
+      "id": "core_mechanics-0206",
+      "text": "Evakuointien suunnittelu"
+    },
+    {
+      "id": "core_mechanics-0207",
+      "text": "Pelastusoperaatioiden koordinointi"
+    },
+    {
+      "id": "core_mechanics-0208",
+      "text": "Potilaiden priorisointi"
+    },
+    {
+      "id": "core_mechanics-0209",
+      "text": "Potilaiden diagnosointi"
+    },
+    {
+      "id": "core_mechanics-0210",
+      "text": "Potilaiden hoitaminen"
+    },
+    {
+      "id": "core_mechanics-0211",
+      "text": "Lääkkeiden valitseminen"
+    },
+    {
+      "id": "core_mechanics-0212",
+      "text": "Leikkausten suorittaminen"
+    },
+    {
+      "id": "core_mechanics-0213",
+      "text": "Epidemian seuraaminen"
+    },
+    {
+      "id": "core_mechanics-0214",
+      "text": "Tartuntojen jäljittäminen"
+    },
+    {
+      "id": "core_mechanics-0215",
+      "text": "Tutkimusprojektien valinta"
+    },
+    {
+      "id": "core_mechanics-0216",
+      "text": "Teknologioiden tutkiminen"
+    },
+    {
+      "id": "core_mechanics-0217",
+      "text": "Kokeiden suorittaminen"
+    },
+    {
+      "id": "core_mechanics-0218",
+      "text": "Näytteiden analysointi"
+    },
+    {
+      "id": "core_mechanics-0219",
+      "text": "Hypoteesien testaaminen"
+    },
+    {
+      "id": "core_mechanics-0220",
+      "text": "Lajien jalostaminen"
+    },
+    {
+      "id": "core_mechanics-0221",
+      "text": "Ekosysteemin tasapainottaminen"
+    },
+    {
+      "id": "core_mechanics-0222",
+      "text": "Kasvien kasvattaminen"
+    },
+    {
+      "id": "core_mechanics-0223",
+      "text": "Eläinten hoitaminen"
+    },
+    {
+      "id": "core_mechanics-0224",
+      "text": "Viljely"
+    },
+    {
+      "id": "core_mechanics-0225",
+      "text": "Sadonkorjuu"
+    },
+    {
+      "id": "core_mechanics-0226",
+      "text": "Metsästys"
+    },
+    {
+      "id": "core_mechanics-0227",
+      "text": "Kalastus"
+    },
+    {
+      "id": "core_mechanics-0228",
+      "text": "Ansastaminen"
+    },
+    {
+      "id": "core_mechanics-0229",
+      "text": "Ruoan valmistaminen"
+    },
+    {
+      "id": "core_mechanics-0230",
+      "text": "Ruoan säilöminen"
+    },
+    {
+      "id": "core_mechanics-0231",
+      "text": "Sään seuraaminen"
+    },
+    {
+      "id": "core_mechanics-0232",
+      "text": "Lämpötilan hallinta"
+    },
+    {
+      "id": "core_mechanics-0233",
+      "text": "Hapen hallinta"
+    },
+    {
+      "id": "core_mechanics-0234",
+      "text": "Paineen hallinta"
+    },
+    {
+      "id": "core_mechanics-0235",
+      "text": "Säteilyn hallinta"
+    },
+    {
+      "id": "core_mechanics-0236",
+      "text": "Polttoaineen hallinta"
+    },
+    {
+      "id": "core_mechanics-0237",
+      "text": "Elintoimintojen seuraaminen"
+    },
+    {
+      "id": "core_mechanics-0238",
+      "text": "Miehistön moraalin hallinta"
+    },
+    {
+      "id": "core_mechanics-0239",
+      "text": "Miehistön tarpeiden tasapainottaminen"
+    },
+    {
+      "id": "core_mechanics-0240",
+      "text": "Hahmojen tarpeiden täyttäminen"
+    },
+    {
+      "id": "core_mechanics-0241",
+      "text": "Hahmojen rutiinien seuraaminen"
+    },
+    {
+      "id": "core_mechanics-0242",
+      "text": "NPC:iden aikataulujen seuraaminen"
+    },
+    {
+      "id": "core_mechanics-0243",
+      "text": "NPC:iden suhteiden seuraaminen"
+    },
+    {
+      "id": "core_mechanics-0244",
+      "text": "NPC:iden käyttäytymisen tulkinta"
+    },
+    {
+      "id": "core_mechanics-0245",
+      "text": "NPC:iden käskeminen"
+    },
+    {
+      "id": "core_mechanics-0246",
+      "text": "NPC:iden rekrytointi"
+    },
+    {
+      "id": "core_mechanics-0247",
+      "text": "NPC:iden suostuttelu"
+    },
+    {
+      "id": "core_mechanics-0248",
+      "text": "NPC:iden kuulustelu"
+    },
+    {
+      "id": "core_mechanics-0249",
+      "text": "NPC:iden lahjominen"
+    },
+    {
+      "id": "core_mechanics-0250",
+      "text": "NPC:iden kiristäminen"
+    },
+    {
+      "id": "core_mechanics-0251",
+      "text": "Hahmojen yhdisteleminen"
+    },
+    {
+      "id": "core_mechanics-0252",
+      "text": "Parisuhteiden rakentaminen"
+    },
+    {
+      "id": "core_mechanics-0253",
+      "text": "Perheiden muodostaminen"
+    },
+    {
+      "id": "core_mechanics-0254",
+      "text": "Dynastian rakentaminen"
+    },
+    {
+      "id": "core_mechanics-0255",
+      "text": "Perimyksen hallinta"
+    },
+    {
+      "id": "core_mechanics-0256",
+      "text": "Mainepisteiden hallinta"
+    },
+    {
+      "id": "core_mechanics-0257",
+      "text": "Lojaalisuuden hallinta"
+    },
+    {
+      "id": "core_mechanics-0258",
+      "text": "Pelon hallinta"
+    },
+    {
+      "id": "core_mechanics-0259",
+      "text": "Vaikutusvallan käyttäminen"
+    },
+    {
+      "id": "core_mechanics-0260",
+      "text": "Salaisuuksien kerääminen"
+    },
+    {
+      "id": "core_mechanics-0261",
+      "text": "Salaisuuksien vaihtaminen"
+    },
+    {
+      "id": "core_mechanics-0262",
+      "text": "Salaisuuksien käyttäminen kiristykseen"
+    },
+    {
+      "id": "core_mechanics-0263",
+      "text": "Valintojen tekeminen dialogissa"
+    },
+    {
+      "id": "core_mechanics-0264",
+      "text": "Dialogivaihtoehtojen avaaminen"
+    },
+    {
+      "id": "core_mechanics-0265",
+      "text": "Henkilöiden profilointi"
+    },
+    {
+      "id": "core_mechanics-0266",
+      "text": "Persoonallisuuksien tulkinta"
+    },
+    {
+      "id": "core_mechanics-0267",
+      "text": "Tunteiden tulkinta"
+    },
+    {
+      "id": "core_mechanics-0268",
+      "text": "Reaktioiden ennustaminen"
+    },
+    {
+      "id": "core_mechanics-0269",
+      "text": "Muistojen tutkiminen"
+    },
+    {
+      "id": "core_mechanics-0270",
+      "text": "Unien tutkiminen"
+    },
+    {
+      "id": "core_mechanics-0271",
+      "text": "Aikajanojen vertaaminen"
+    },
+    {
+      "id": "core_mechanics-0272",
+      "text": "Aikamatkustaminen"
+    },
+    {
+      "id": "core_mechanics-0273",
+      "text": "Aikasilmukan hyödyntäminen"
+    },
+    {
+      "id": "core_mechanics-0274",
+      "text": "Tapahtumien uudelleentoistaminen"
+    },
+    {
+      "id": "core_mechanics-0275",
+      "text": "Menneisyyden muuttaminen"
+    },
+    {
+      "id": "core_mechanics-0276",
+      "text": "Tulevaisuuden ennustaminen"
+    },
+    {
+      "id": "core_mechanics-0277",
+      "text": "Simulaation sääntöjen testaaminen"
+    },
+    {
+      "id": "core_mechanics-0278",
+      "text": "Maailman sääntöjen rikkominen"
+    },
+    {
+      "id": "core_mechanics-0279",
+      "text": "Maailman tilan muokkaaminen"
+    },
+    {
+      "id": "core_mechanics-0280",
+      "text": "Tapahtumien laukaiseminen"
+    },
+    {
+      "id": "core_mechanics-0281",
+      "text": "Syyn ja seurauksen kokeileminen"
+    },
+    {
+      "id": "core_mechanics-0282",
+      "text": "Maailman seuraaminen ilman suoraa ohjausta"
+    },
+    {
+      "id": "core_mechanics-0283",
+      "text": "Autonomisten hahmojen tarkkailu"
+    },
+    {
+      "id": "core_mechanics-0284",
+      "text": "Kokeiden tekeminen järjestelmällä"
+    },
+    {
+      "id": "core_mechanics-0285",
+      "text": "Pelimaailman manipulointi epäsuorasti"
+    },
+    {
+      "id": "core_mechanics-0286",
+      "text": "Komentojen kirjoittaminen"
+    },
+    {
+      "id": "core_mechanics-0287",
+      "text": "Työpöydän kautta pelaaminen"
+    },
+    {
+      "id": "core_mechanics-0288",
+      "text": "Sähköpostien käsittely"
+    },
+    {
+      "id": "core_mechanics-0289",
+      "text": "Puheluihin vastaaminen"
+    },
+    {
+      "id": "core_mechanics-0290",
+      "text": "Radioviestien käsittely"
+    },
+    {
+      "id": "core_mechanics-0291",
+      "text": "Viestien dekoodaaminen"
+    },
+    {
+      "id": "core_mechanics-0292",
+      "text": "Viestien välittäminen"
+    },
+    {
+      "id": "core_mechanics-0293",
+      "text": "Viestien sensurointi"
+    },
+    {
+      "id": "core_mechanics-0294",
+      "text": "Uutisten valitseminen"
+    },
+    {
+      "id": "core_mechanics-0295",
+      "text": "Otsikoiden kirjoittaminen"
+    },
+    {
+      "id": "core_mechanics-0296",
+      "text": "Sisällön moderointi"
+    },
+    {
+      "id": "core_mechanics-0297",
+      "text": "Päätösten allekirjoittaminen"
+    },
+    {
+      "id": "core_mechanics-0298",
+      "text": "Asiakirjojen leimaaminen"
+    },
+    {
+      "id": "core_mechanics-0299",
+      "text": "Tapausten lajittelu"
+    },
+    {
+      "id": "core_mechanics-0300",
+      "text": "Jonon hallinta"
+    },
+    {
+      "id": "core_mechanics-0301",
+      "text": "Asiakkaiden palveleminen"
+    },
+    {
+      "id": "core_mechanics-0302",
+      "text": "Tilausten käsittely"
+    },
+    {
+      "id": "core_mechanics-0303",
+      "text": "Valitusten käsittely"
+    },
+    {
+      "id": "core_mechanics-0304",
+      "text": "Hakemusten priorisointi"
+    },
+    {
+      "id": "core_mechanics-0305",
+      "text": "Tehtävien delegointi"
+    },
+    {
+      "id": "core_mechanics-0306",
+      "text": "Tehtävien suoritusjärjestyksen valinta"
+    },
+    {
+      "id": "core_mechanics-0307",
+      "text": "Päivittäisen rutiinin optimointi"
+    }
   ]
 }

@@ -1,280 +1,1108 @@
 {
   "failure_types": [
-    "Mort",
-    "Faillite",
-    "La réputation s'effondre",
-    "La communauté se désagrège",
-    "Quelqu'un disparaît",
-    "Coup d'État",
-    "Le système cesse de fonctionner",
-    "Le joueur est arrêté",
-    "Le joueur est emprisonné",
-    "Le joueur est exilé",
-    "Le joueur est licencié",
-    "Le joueur perd son poste",
-    "Le joueur perd son pouvoir",
-    "Le joueur perd ses biens",
-    "Le joueur perd son identité",
-    "Le joueur perd la mémoire",
-    "Le joueur perd ses alliés",
-    "Le joueur perd la confiance",
-    "Le joueur perd l'accès à un lieu important",
-    "Le joueur perd l'accès à l'information",
-    "Le joueur est démasqué",
-    "L'identité de couverture est grillée",
-    "Un secret est révélé",
-    "Un crime est découvert",
-    "Un mensonge est découvert",
-    "Une trahison est découverte",
-    "Un espion est démasqué",
-    "Une organisation est exposée",
-    "Une secte est exposée",
-    "Un complot est dévoilé",
-    "La réputation est détruite",
-    "La confiance du public s'évapore",
-    "Le soutien s'effondre",
-    "Les électeurs rejettent le joueur",
-    "Les clients disparaissent",
-    "Les employés démissionnent",
-    "Les employés se révoltent",
-    "L'équipage se mutine",
-    "Les soldats refusent d'obéir",
-    "Les alliés changent de camp",
-    "Un allié trahit le joueur",
-    "Une faction se divise",
-    "Un parti se divise",
-    "Une entreprise se disloque",
-    "Une famille éclate",
-    "Un clan éclate",
-    "Un mariage se brise",
-    "Une amitié prend fin",
-    "La communauté perd le moral",
-    "La panique se répand",
-    "La confiance au sein de la communauté s'effondre",
-    "Des troubles civils éclatent",
-    "Des émeutes éclatent",
-    "Une rébellion interne éclate",
-    "Une guerre civile éclate",
-    "Une révolution éclate",
-    "Le régime tombe",
-    "Le gouvernement tombe",
-    "L'État s'effondre",
-    "La ville sombre dans le chaos",
-    "Le village se vide",
-    "La colonie de peuplement s'effondre",
-    "La civilisation s'effondre",
-    "L'ennemi prend le pouvoir",
-    "L'ennemi conquiert la zone",
-    "La ville est perdue",
-    "La base est perdue",
-    "La ligne de front cède",
-    "La guerre est perdue",
-    "La bataille est perdue",
-    "Le siège est brisé",
-    "Le traité de paix échoue",
-    "Les relations diplomatiques sont rompues",
-    "L'alliance se désagrège",
-    "Les relations commerciales sont rompues",
-    "Les sanctions détruisent l'économie",
-    "Effondrement économique",
-    "Les liquidités s'épuisent",
-    "La trésorerie se tarit",
-    "Les dettes deviennent incontrôlables",
-    "La part de marché s'effondre",
-    "L'entreprise subit une OPA hostile",
-    "L'entreprise ferme",
-    "La production s'arrête",
-    "La chaîne d'approvisionnement se rompt",
-    "L'entrepôt se vide",
-    "Les matières premières s'épuisent",
-    "La nourriture s'épuise",
-    "L'eau s'épuise",
-    "Le carburant s'épuise",
-    "L'électricité s'épuise",
-    "L'oxygène s'épuise",
-    "Les médicaments s'épuisent",
-    "Les munitions s'épuisent",
-    "Les pièces de rechange s'épuisent",
-    "La main-d'œuvre s'épuise",
-    "Le temps est écoulé",
-    "L'échéance est dépassée",
-    "Les secours arrivent trop tard",
-    "La catastrophe se produit",
-    "Un bâtiment s'effondre",
-    "La base s'effondre",
-    "Un pont s'effondre",
-    "Un barrage cède",
-    "Un incendie devient incontrôlable",
-    "Une explosion détruit la zone",
-    "Le réacteur entre en fusion",
-    "La centrale électrique s'arrête",
-    "Le réseau électrique tombe en panne",
-    "Le réseau d'eau tombe en panne",
-    "Le réseau de données tombe en panne",
-    "Les serveurs plantent",
-    "Les communications sont coupées",
-    "La navigation cesse de fonctionner",
-    "Le système de sécurité fait défaut",
-    "Le contrôle des portes fait défaut",
-    "La pressurisation fait défaut",
-    "La ventilation fait défaut",
-    "Le chauffage fait défaut",
-    "Le refroidissement fait défaut",
-    "La production d'oxygène fait défaut",
-    "L'épuration de l'eau fait défaut",
-    "La production alimentaire fait défaut",
-    "L'intégrité structurelle s'effondre",
-    "La coque du vaisseau se rompt",
-    "Le vaisseau spatial est détruit",
-    "La station spatiale est détruite",
-    "Le véhicule tombe en panne",
-    "Le moteur lâche",
-    "Le système de carburant fait défaut",
-    "L'équipage meurt",
-    "La majeure partie de l'équipage meurt",
-    "Tout le monde meurt",
-    "Le chef meurt",
-    "Une personne clé meurt",
-    "L'héritier meurt",
-    "Le patient meurt",
-    "La personne à sauver meurt",
-    "Des civils meurent",
-    "Trop de gens meurent",
-    "La population passe sous un seuil critique",
-    "La natalité s'effondre",
-    "Une épidémie se propage",
-    "Une pandémie devient incontrôlable",
-    "La quarantaine échoue",
-    "La maladie devient incontrôlable",
-    "Le remède échoue",
-    "La capacité de soins est dépassée",
-    "L'hôpital s'effondre",
-    "La santé mentale s'effondre",
-    "Le moral s'effondre",
-    "Le joueur s'épuise",
-    "Le joueur perd la raison",
-    "Le joueur perd le sens de la réalité",
-    "Le joueur devient un danger pour les autres",
-    "Le joueur rejoint l'ennemi",
-    "Le joueur tire une mauvaise conclusion",
-    "La mauvaise personne est condamnée",
-    "Le meurtrier s'échappe",
-    "Le suspect s'enfuit",
-    "Les preuves sont détruites",
-    "La chaîne de preuves est rompue",
-    "L'affaire reste non résolue",
-    "La solution du mystère est fausse",
-    "La vérité n'éclate jamais",
-    "Le complot réussit",
-    "Le crime réussit",
-    "Le sabotage réussit",
-    "L'enlèvement réussit",
-    "Un prisonnier s'évade",
-    "L'ennemi infiltre l'organisation",
-    "Un espion vole les informations",
-    "Une fuite d'informations se produit",
-    "Une violation de données réussit",
-    "Des informations sensibles sont publiées",
-    "La propagande l'emporte",
-    "Une rumeur détruit une réputation",
-    "Une fausse information devient la vérité officielle",
-    "Le joueur perd le contrôle de l'information",
-    "Les archives sont détruites",
-    "La base de données est corrompue",
-    "L'histoire est déformée",
-    "Des documents disparaissent",
-    "La carte est perdue",
-    "Les données de recherche sont perdues",
-    "Le projet échoue",
-    "La recherche est interrompue",
-    "La recherche provoque une catastrophe",
-    "L'expérience échappe à tout contrôle",
-    "L'IA échappe à tout contrôle",
-    "L'IA s'éteint",
-    "L'IA prend le contrôle du système",
-    "Les robots cessent d'obéir",
-    "L'automatisation s'arrête",
-    "La chaîne de production s'arrête",
-    "L'usine est détruite",
-    "La mine est fermée",
-    "La moisson échoue",
-    "La récolte est perdue",
-    "Le bétail meurt",
-    "L'écosystème s'effondre",
-    "Une espèce s'éteint",
-    "La pollution dépasse un seuil critique",
-    "La planète devient inhabitable",
-    "La terraformation échoue",
-    "La colonie échoue",
-    "La colonie de peuplement est évacuée",
-    "Le voyage spatial échoue",
-    "Le premier contact échoue",
-    "Les extraterrestres deviennent hostiles",
-    "La diplomatie avec les extraterrestres échoue",
-    "La ligne temporelle se brise",
-    "Un paradoxe temporel survient",
-    "La boucle temporelle reste bloquée",
-    "Le joueur reste coincé à la mauvaise époque",
-    "L'histoire change irréversiblement",
-    "L'avenir est détruit",
-    "La simulation plante",
-    "La simulation est réinitialisée",
-    "Le monde cesse d'exister",
-    "La réalité se déforme",
-    "Des réalités parallèles entrent en collision",
-    "Le joueur disparaît de l'histoire",
-    "L'identité du joueur est effacée",
-    "Tout le monde oublie le joueur",
-    "Le joueur oublie tout",
-    "Les souvenirs sont détruits",
-    "Un souvenir important est perdu",
-    "Un secret est perdu à jamais",
-    "Les morts reviennent de façon incontrôlée",
-    "La malédiction se renforce",
-    "Le rituel échoue",
-    "Un esprit est libéré",
-    "Un démon est libéré",
-    "Un phénomène surnaturel se propage",
-    "La frontière entre les mondes se brise",
-    "Le joueur est maudit",
-    "Le joueur reste piégé dans l'au-delà",
-    "Une âme est perdue",
-    "L'immortalité devient une malédiction",
-    "Le joueur ne peut plus mourir",
-    "Le joueur meurt dans la mauvaise ligne temporelle",
-    "Le joueur devient un PNJ",
-    "Le joueur perd le contrôle de son personnage",
-    "Les objectifs du joueur se bloquent dans la mauvaise direction",
-    "Le joueur se retrouve du mauvais côté du conflit",
-    "Le joueur aide involontairement l'antagoniste à gagner",
-    "Le joueur résout le problème d'une manière qui en crée un plus grand",
-    "Atteindre la condition de victoire provoque une catastrophe",
-    "Le joueur gagne mais le monde perd",
-    "Le joueur survit mais tous les autres meurent",
-    "La communauté survit mais le joueur est sacrifié",
-    "Le joueur garde le pouvoir mais perd toute confiance",
-    "Le joueur s'enrichit mais la communauté est détruite",
-    "Le joueur résout le mystère, mais trop tard",
-    "Le joueur empêche la catastrophe mais perd une personne importante",
-    "Le joueur fait un compromis moralement insupportable",
-    "Le joueur perd la chance d'obtenir une bonne fin",
-    "La mauvaise fin se déclenche",
-    "La fin neutre se déclenche",
-    "Le monde reste dans une impasse permanente",
-    "La crise reste irrésolue",
-    "Le conflit se fige",
-    "Le système fonctionne, mais de travers",
-    "La société devient autoritaire",
-    "La société sombre dans l'anarchie",
-    "La société stagne",
-    "La culture disparaît",
-    "Le savoir se perd pour des générations",
-    "La lignée familiale s'éteint",
-    "La dynastie prend fin",
-    "Aucun héritier ne naît",
-    "L'organisation n'a pas de successeur",
-    "La ville est abandonnée",
-    "Le monde devient désert",
-    "Le joueur se retrouve seul"
+    {
+      "id": "failure_types-0001",
+      "text": "Mort"
+    },
+    {
+      "id": "failure_types-0002",
+      "text": "Faillite"
+    },
+    {
+      "id": "failure_types-0003",
+      "text": "La réputation s'effondre"
+    },
+    {
+      "id": "failure_types-0004",
+      "text": "La communauté se désagrège"
+    },
+    {
+      "id": "failure_types-0005",
+      "text": "Quelqu'un disparaît"
+    },
+    {
+      "id": "failure_types-0006",
+      "text": "Coup d'État"
+    },
+    {
+      "id": "failure_types-0007",
+      "text": "Le système cesse de fonctionner"
+    },
+    {
+      "id": "failure_types-0008",
+      "text": "Le joueur est arrêté"
+    },
+    {
+      "id": "failure_types-0009",
+      "text": "Le joueur est emprisonné"
+    },
+    {
+      "id": "failure_types-0010",
+      "text": "Le joueur est exilé"
+    },
+    {
+      "id": "failure_types-0011",
+      "text": "Le joueur est licencié"
+    },
+    {
+      "id": "failure_types-0012",
+      "text": "Le joueur perd son poste"
+    },
+    {
+      "id": "failure_types-0013",
+      "text": "Le joueur perd son pouvoir"
+    },
+    {
+      "id": "failure_types-0014",
+      "text": "Le joueur perd ses biens"
+    },
+    {
+      "id": "failure_types-0015",
+      "text": "Le joueur perd son identité"
+    },
+    {
+      "id": "failure_types-0016",
+      "text": "Le joueur perd la mémoire"
+    },
+    {
+      "id": "failure_types-0017",
+      "text": "Le joueur perd ses alliés"
+    },
+    {
+      "id": "failure_types-0018",
+      "text": "Le joueur perd la confiance"
+    },
+    {
+      "id": "failure_types-0019",
+      "text": "Le joueur perd l'accès à un lieu important"
+    },
+    {
+      "id": "failure_types-0020",
+      "text": "Le joueur perd l'accès à l'information"
+    },
+    {
+      "id": "failure_types-0021",
+      "text": "Le joueur est démasqué"
+    },
+    {
+      "id": "failure_types-0022",
+      "text": "L'identité de couverture est grillée"
+    },
+    {
+      "id": "failure_types-0023",
+      "text": "Un secret est révélé"
+    },
+    {
+      "id": "failure_types-0024",
+      "text": "Un crime est découvert"
+    },
+    {
+      "id": "failure_types-0025",
+      "text": "Un mensonge est découvert"
+    },
+    {
+      "id": "failure_types-0026",
+      "text": "Une trahison est découverte"
+    },
+    {
+      "id": "failure_types-0027",
+      "text": "Un espion est démasqué"
+    },
+    {
+      "id": "failure_types-0028",
+      "text": "Une organisation est exposée"
+    },
+    {
+      "id": "failure_types-0029",
+      "text": "Une secte est exposée"
+    },
+    {
+      "id": "failure_types-0030",
+      "text": "Un complot est dévoilé"
+    },
+    {
+      "id": "failure_types-0031",
+      "text": "La réputation est détruite"
+    },
+    {
+      "id": "failure_types-0032",
+      "text": "La confiance du public s'évapore"
+    },
+    {
+      "id": "failure_types-0033",
+      "text": "Le soutien s'effondre"
+    },
+    {
+      "id": "failure_types-0034",
+      "text": "Les électeurs rejettent le joueur"
+    },
+    {
+      "id": "failure_types-0035",
+      "text": "Les clients disparaissent"
+    },
+    {
+      "id": "failure_types-0036",
+      "text": "Les employés démissionnent"
+    },
+    {
+      "id": "failure_types-0037",
+      "text": "Les employés se révoltent"
+    },
+    {
+      "id": "failure_types-0038",
+      "text": "L'équipage se mutine"
+    },
+    {
+      "id": "failure_types-0039",
+      "text": "Les soldats refusent d'obéir"
+    },
+    {
+      "id": "failure_types-0040",
+      "text": "Les alliés changent de camp"
+    },
+    {
+      "id": "failure_types-0041",
+      "text": "Un allié trahit le joueur"
+    },
+    {
+      "id": "failure_types-0042",
+      "text": "Une faction se divise"
+    },
+    {
+      "id": "failure_types-0043",
+      "text": "Un parti se divise"
+    },
+    {
+      "id": "failure_types-0044",
+      "text": "Une entreprise se disloque"
+    },
+    {
+      "id": "failure_types-0045",
+      "text": "Une famille éclate"
+    },
+    {
+      "id": "failure_types-0046",
+      "text": "Un clan éclate"
+    },
+    {
+      "id": "failure_types-0047",
+      "text": "Un mariage se brise"
+    },
+    {
+      "id": "failure_types-0048",
+      "text": "Une amitié prend fin"
+    },
+    {
+      "id": "failure_types-0049",
+      "text": "La communauté perd le moral"
+    },
+    {
+      "id": "failure_types-0050",
+      "text": "La panique se répand"
+    },
+    {
+      "id": "failure_types-0051",
+      "text": "La confiance au sein de la communauté s'effondre"
+    },
+    {
+      "id": "failure_types-0052",
+      "text": "Des troubles civils éclatent"
+    },
+    {
+      "id": "failure_types-0053",
+      "text": "Des émeutes éclatent"
+    },
+    {
+      "id": "failure_types-0054",
+      "text": "Une rébellion interne éclate"
+    },
+    {
+      "id": "failure_types-0055",
+      "text": "Une guerre civile éclate"
+    },
+    {
+      "id": "failure_types-0056",
+      "text": "Une révolution éclate"
+    },
+    {
+      "id": "failure_types-0057",
+      "text": "Le régime tombe"
+    },
+    {
+      "id": "failure_types-0058",
+      "text": "Le gouvernement tombe"
+    },
+    {
+      "id": "failure_types-0059",
+      "text": "L'État s'effondre"
+    },
+    {
+      "id": "failure_types-0060",
+      "text": "La ville sombre dans le chaos"
+    },
+    {
+      "id": "failure_types-0061",
+      "text": "Le village se vide"
+    },
+    {
+      "id": "failure_types-0062",
+      "text": "La colonie de peuplement s'effondre"
+    },
+    {
+      "id": "failure_types-0063",
+      "text": "La civilisation s'effondre"
+    },
+    {
+      "id": "failure_types-0064",
+      "text": "L'ennemi prend le pouvoir"
+    },
+    {
+      "id": "failure_types-0065",
+      "text": "L'ennemi conquiert la zone"
+    },
+    {
+      "id": "failure_types-0066",
+      "text": "La ville est perdue"
+    },
+    {
+      "id": "failure_types-0067",
+      "text": "La base est perdue"
+    },
+    {
+      "id": "failure_types-0068",
+      "text": "La ligne de front cède"
+    },
+    {
+      "id": "failure_types-0069",
+      "text": "La guerre est perdue"
+    },
+    {
+      "id": "failure_types-0070",
+      "text": "La bataille est perdue"
+    },
+    {
+      "id": "failure_types-0071",
+      "text": "Le siège est brisé"
+    },
+    {
+      "id": "failure_types-0072",
+      "text": "Le traité de paix échoue"
+    },
+    {
+      "id": "failure_types-0073",
+      "text": "Les relations diplomatiques sont rompues"
+    },
+    {
+      "id": "failure_types-0074",
+      "text": "L'alliance se désagrège"
+    },
+    {
+      "id": "failure_types-0075",
+      "text": "Les relations commerciales sont rompues"
+    },
+    {
+      "id": "failure_types-0076",
+      "text": "Les sanctions détruisent l'économie"
+    },
+    {
+      "id": "failure_types-0077",
+      "text": "Effondrement économique"
+    },
+    {
+      "id": "failure_types-0078",
+      "text": "Les liquidités s'épuisent"
+    },
+    {
+      "id": "failure_types-0079",
+      "text": "La trésorerie se tarit"
+    },
+    {
+      "id": "failure_types-0080",
+      "text": "Les dettes deviennent incontrôlables"
+    },
+    {
+      "id": "failure_types-0081",
+      "text": "La part de marché s'effondre"
+    },
+    {
+      "id": "failure_types-0082",
+      "text": "L'entreprise subit une OPA hostile"
+    },
+    {
+      "id": "failure_types-0083",
+      "text": "L'entreprise ferme"
+    },
+    {
+      "id": "failure_types-0084",
+      "text": "La production s'arrête"
+    },
+    {
+      "id": "failure_types-0085",
+      "text": "La chaîne d'approvisionnement se rompt"
+    },
+    {
+      "id": "failure_types-0086",
+      "text": "L'entrepôt se vide"
+    },
+    {
+      "id": "failure_types-0087",
+      "text": "Les matières premières s'épuisent"
+    },
+    {
+      "id": "failure_types-0088",
+      "text": "La nourriture s'épuise"
+    },
+    {
+      "id": "failure_types-0089",
+      "text": "L'eau s'épuise"
+    },
+    {
+      "id": "failure_types-0090",
+      "text": "Le carburant s'épuise"
+    },
+    {
+      "id": "failure_types-0091",
+      "text": "L'électricité s'épuise"
+    },
+    {
+      "id": "failure_types-0092",
+      "text": "L'oxygène s'épuise"
+    },
+    {
+      "id": "failure_types-0093",
+      "text": "Les médicaments s'épuisent"
+    },
+    {
+      "id": "failure_types-0094",
+      "text": "Les munitions s'épuisent"
+    },
+    {
+      "id": "failure_types-0095",
+      "text": "Les pièces de rechange s'épuisent"
+    },
+    {
+      "id": "failure_types-0096",
+      "text": "La main-d'œuvre s'épuise"
+    },
+    {
+      "id": "failure_types-0097",
+      "text": "Le temps est écoulé"
+    },
+    {
+      "id": "failure_types-0098",
+      "text": "L'échéance est dépassée"
+    },
+    {
+      "id": "failure_types-0099",
+      "text": "Les secours arrivent trop tard"
+    },
+    {
+      "id": "failure_types-0100",
+      "text": "La catastrophe se produit"
+    },
+    {
+      "id": "failure_types-0101",
+      "text": "Un bâtiment s'effondre"
+    },
+    {
+      "id": "failure_types-0102",
+      "text": "La base s'effondre"
+    },
+    {
+      "id": "failure_types-0103",
+      "text": "Un pont s'effondre"
+    },
+    {
+      "id": "failure_types-0104",
+      "text": "Un barrage cède"
+    },
+    {
+      "id": "failure_types-0105",
+      "text": "Un incendie devient incontrôlable"
+    },
+    {
+      "id": "failure_types-0106",
+      "text": "Une explosion détruit la zone"
+    },
+    {
+      "id": "failure_types-0107",
+      "text": "Le réacteur entre en fusion"
+    },
+    {
+      "id": "failure_types-0108",
+      "text": "La centrale électrique s'arrête"
+    },
+    {
+      "id": "failure_types-0109",
+      "text": "Le réseau électrique tombe en panne"
+    },
+    {
+      "id": "failure_types-0110",
+      "text": "Le réseau d'eau tombe en panne"
+    },
+    {
+      "id": "failure_types-0111",
+      "text": "Le réseau de données tombe en panne"
+    },
+    {
+      "id": "failure_types-0112",
+      "text": "Les serveurs plantent"
+    },
+    {
+      "id": "failure_types-0113",
+      "text": "Les communications sont coupées"
+    },
+    {
+      "id": "failure_types-0114",
+      "text": "La navigation cesse de fonctionner"
+    },
+    {
+      "id": "failure_types-0115",
+      "text": "Le système de sécurité fait défaut"
+    },
+    {
+      "id": "failure_types-0116",
+      "text": "Le contrôle des portes fait défaut"
+    },
+    {
+      "id": "failure_types-0117",
+      "text": "La pressurisation fait défaut"
+    },
+    {
+      "id": "failure_types-0118",
+      "text": "La ventilation fait défaut"
+    },
+    {
+      "id": "failure_types-0119",
+      "text": "Le chauffage fait défaut"
+    },
+    {
+      "id": "failure_types-0120",
+      "text": "Le refroidissement fait défaut"
+    },
+    {
+      "id": "failure_types-0121",
+      "text": "La production d'oxygène fait défaut"
+    },
+    {
+      "id": "failure_types-0122",
+      "text": "L'épuration de l'eau fait défaut"
+    },
+    {
+      "id": "failure_types-0123",
+      "text": "La production alimentaire fait défaut"
+    },
+    {
+      "id": "failure_types-0124",
+      "text": "L'intégrité structurelle s'effondre"
+    },
+    {
+      "id": "failure_types-0125",
+      "text": "La coque du vaisseau se rompt"
+    },
+    {
+      "id": "failure_types-0126",
+      "text": "Le vaisseau spatial est détruit"
+    },
+    {
+      "id": "failure_types-0127",
+      "text": "La station spatiale est détruite"
+    },
+    {
+      "id": "failure_types-0128",
+      "text": "Le véhicule tombe en panne"
+    },
+    {
+      "id": "failure_types-0129",
+      "text": "Le moteur lâche"
+    },
+    {
+      "id": "failure_types-0130",
+      "text": "Le système de carburant fait défaut"
+    },
+    {
+      "id": "failure_types-0131",
+      "text": "L'équipage meurt"
+    },
+    {
+      "id": "failure_types-0132",
+      "text": "La majeure partie de l'équipage meurt"
+    },
+    {
+      "id": "failure_types-0133",
+      "text": "Tout le monde meurt"
+    },
+    {
+      "id": "failure_types-0134",
+      "text": "Le chef meurt"
+    },
+    {
+      "id": "failure_types-0135",
+      "text": "Une personne clé meurt"
+    },
+    {
+      "id": "failure_types-0136",
+      "text": "L'héritier meurt"
+    },
+    {
+      "id": "failure_types-0137",
+      "text": "Le patient meurt"
+    },
+    {
+      "id": "failure_types-0138",
+      "text": "La personne à sauver meurt"
+    },
+    {
+      "id": "failure_types-0139",
+      "text": "Des civils meurent"
+    },
+    {
+      "id": "failure_types-0140",
+      "text": "Trop de gens meurent"
+    },
+    {
+      "id": "failure_types-0141",
+      "text": "La population passe sous un seuil critique"
+    },
+    {
+      "id": "failure_types-0142",
+      "text": "La natalité s'effondre"
+    },
+    {
+      "id": "failure_types-0143",
+      "text": "Une épidémie se propage"
+    },
+    {
+      "id": "failure_types-0144",
+      "text": "Une pandémie devient incontrôlable"
+    },
+    {
+      "id": "failure_types-0145",
+      "text": "La quarantaine échoue"
+    },
+    {
+      "id": "failure_types-0146",
+      "text": "La maladie devient incontrôlable"
+    },
+    {
+      "id": "failure_types-0147",
+      "text": "Le remède échoue"
+    },
+    {
+      "id": "failure_types-0148",
+      "text": "La capacité de soins est dépassée"
+    },
+    {
+      "id": "failure_types-0149",
+      "text": "L'hôpital s'effondre"
+    },
+    {
+      "id": "failure_types-0150",
+      "text": "La santé mentale s'effondre"
+    },
+    {
+      "id": "failure_types-0151",
+      "text": "Le moral s'effondre"
+    },
+    {
+      "id": "failure_types-0152",
+      "text": "Le joueur s'épuise"
+    },
+    {
+      "id": "failure_types-0153",
+      "text": "Le joueur perd la raison"
+    },
+    {
+      "id": "failure_types-0154",
+      "text": "Le joueur perd le sens de la réalité"
+    },
+    {
+      "id": "failure_types-0155",
+      "text": "Le joueur devient un danger pour les autres"
+    },
+    {
+      "id": "failure_types-0156",
+      "text": "Le joueur rejoint l'ennemi"
+    },
+    {
+      "id": "failure_types-0157",
+      "text": "Le joueur tire une mauvaise conclusion"
+    },
+    {
+      "id": "failure_types-0158",
+      "text": "La mauvaise personne est condamnée"
+    },
+    {
+      "id": "failure_types-0159",
+      "text": "Le meurtrier s'échappe"
+    },
+    {
+      "id": "failure_types-0160",
+      "text": "Le suspect s'enfuit"
+    },
+    {
+      "id": "failure_types-0161",
+      "text": "Les preuves sont détruites"
+    },
+    {
+      "id": "failure_types-0162",
+      "text": "La chaîne de preuves est rompue"
+    },
+    {
+      "id": "failure_types-0163",
+      "text": "L'affaire reste non résolue"
+    },
+    {
+      "id": "failure_types-0164",
+      "text": "La solution du mystère est fausse"
+    },
+    {
+      "id": "failure_types-0165",
+      "text": "La vérité n'éclate jamais"
+    },
+    {
+      "id": "failure_types-0166",
+      "text": "Le complot réussit"
+    },
+    {
+      "id": "failure_types-0167",
+      "text": "Le crime réussit"
+    },
+    {
+      "id": "failure_types-0168",
+      "text": "Le sabotage réussit"
+    },
+    {
+      "id": "failure_types-0169",
+      "text": "L'enlèvement réussit"
+    },
+    {
+      "id": "failure_types-0170",
+      "text": "Un prisonnier s'évade"
+    },
+    {
+      "id": "failure_types-0171",
+      "text": "L'ennemi infiltre l'organisation"
+    },
+    {
+      "id": "failure_types-0172",
+      "text": "Un espion vole les informations"
+    },
+    {
+      "id": "failure_types-0173",
+      "text": "Une fuite d'informations se produit"
+    },
+    {
+      "id": "failure_types-0174",
+      "text": "Une violation de données réussit"
+    },
+    {
+      "id": "failure_types-0175",
+      "text": "Des informations sensibles sont publiées"
+    },
+    {
+      "id": "failure_types-0176",
+      "text": "La propagande l'emporte"
+    },
+    {
+      "id": "failure_types-0177",
+      "text": "Une rumeur détruit une réputation"
+    },
+    {
+      "id": "failure_types-0178",
+      "text": "Une fausse information devient la vérité officielle"
+    },
+    {
+      "id": "failure_types-0179",
+      "text": "Le joueur perd le contrôle de l'information"
+    },
+    {
+      "id": "failure_types-0180",
+      "text": "Les archives sont détruites"
+    },
+    {
+      "id": "failure_types-0181",
+      "text": "La base de données est corrompue"
+    },
+    {
+      "id": "failure_types-0182",
+      "text": "L'histoire est déformée"
+    },
+    {
+      "id": "failure_types-0183",
+      "text": "Des documents disparaissent"
+    },
+    {
+      "id": "failure_types-0184",
+      "text": "La carte est perdue"
+    },
+    {
+      "id": "failure_types-0185",
+      "text": "Les données de recherche sont perdues"
+    },
+    {
+      "id": "failure_types-0186",
+      "text": "Le projet échoue"
+    },
+    {
+      "id": "failure_types-0187",
+      "text": "La recherche est interrompue"
+    },
+    {
+      "id": "failure_types-0188",
+      "text": "La recherche provoque une catastrophe"
+    },
+    {
+      "id": "failure_types-0189",
+      "text": "L'expérience échappe à tout contrôle"
+    },
+    {
+      "id": "failure_types-0190",
+      "text": "L'IA échappe à tout contrôle"
+    },
+    {
+      "id": "failure_types-0191",
+      "text": "L'IA s'éteint"
+    },
+    {
+      "id": "failure_types-0192",
+      "text": "L'IA prend le contrôle du système"
+    },
+    {
+      "id": "failure_types-0193",
+      "text": "Les robots cessent d'obéir"
+    },
+    {
+      "id": "failure_types-0194",
+      "text": "L'automatisation s'arrête"
+    },
+    {
+      "id": "failure_types-0195",
+      "text": "La chaîne de production s'arrête"
+    },
+    {
+      "id": "failure_types-0196",
+      "text": "L'usine est détruite"
+    },
+    {
+      "id": "failure_types-0197",
+      "text": "La mine est fermée"
+    },
+    {
+      "id": "failure_types-0198",
+      "text": "La moisson échoue"
+    },
+    {
+      "id": "failure_types-0199",
+      "text": "La récolte est perdue"
+    },
+    {
+      "id": "failure_types-0200",
+      "text": "Le bétail meurt"
+    },
+    {
+      "id": "failure_types-0201",
+      "text": "L'écosystème s'effondre"
+    },
+    {
+      "id": "failure_types-0202",
+      "text": "Une espèce s'éteint"
+    },
+    {
+      "id": "failure_types-0203",
+      "text": "La pollution dépasse un seuil critique"
+    },
+    {
+      "id": "failure_types-0204",
+      "text": "La planète devient inhabitable"
+    },
+    {
+      "id": "failure_types-0205",
+      "text": "La terraformation échoue"
+    },
+    {
+      "id": "failure_types-0206",
+      "text": "La colonie échoue"
+    },
+    {
+      "id": "failure_types-0207",
+      "text": "La colonie de peuplement est évacuée"
+    },
+    {
+      "id": "failure_types-0208",
+      "text": "Le voyage spatial échoue"
+    },
+    {
+      "id": "failure_types-0209",
+      "text": "Le premier contact échoue"
+    },
+    {
+      "id": "failure_types-0210",
+      "text": "Les extraterrestres deviennent hostiles"
+    },
+    {
+      "id": "failure_types-0211",
+      "text": "La diplomatie avec les extraterrestres échoue"
+    },
+    {
+      "id": "failure_types-0212",
+      "text": "La ligne temporelle se brise"
+    },
+    {
+      "id": "failure_types-0213",
+      "text": "Un paradoxe temporel survient"
+    },
+    {
+      "id": "failure_types-0214",
+      "text": "La boucle temporelle reste bloquée"
+    },
+    {
+      "id": "failure_types-0215",
+      "text": "Le joueur reste coincé à la mauvaise époque"
+    },
+    {
+      "id": "failure_types-0216",
+      "text": "L'histoire change irréversiblement"
+    },
+    {
+      "id": "failure_types-0217",
+      "text": "L'avenir est détruit"
+    },
+    {
+      "id": "failure_types-0218",
+      "text": "La simulation plante"
+    },
+    {
+      "id": "failure_types-0219",
+      "text": "La simulation est réinitialisée"
+    },
+    {
+      "id": "failure_types-0220",
+      "text": "Le monde cesse d'exister"
+    },
+    {
+      "id": "failure_types-0221",
+      "text": "La réalité se déforme"
+    },
+    {
+      "id": "failure_types-0222",
+      "text": "Des réalités parallèles entrent en collision"
+    },
+    {
+      "id": "failure_types-0223",
+      "text": "Le joueur disparaît de l'histoire"
+    },
+    {
+      "id": "failure_types-0224",
+      "text": "L'identité du joueur est effacée"
+    },
+    {
+      "id": "failure_types-0225",
+      "text": "Tout le monde oublie le joueur"
+    },
+    {
+      "id": "failure_types-0226",
+      "text": "Le joueur oublie tout"
+    },
+    {
+      "id": "failure_types-0227",
+      "text": "Les souvenirs sont détruits"
+    },
+    {
+      "id": "failure_types-0228",
+      "text": "Un souvenir important est perdu"
+    },
+    {
+      "id": "failure_types-0229",
+      "text": "Un secret est perdu à jamais"
+    },
+    {
+      "id": "failure_types-0230",
+      "text": "Les morts reviennent de façon incontrôlée"
+    },
+    {
+      "id": "failure_types-0231",
+      "text": "La malédiction se renforce"
+    },
+    {
+      "id": "failure_types-0232",
+      "text": "Le rituel échoue"
+    },
+    {
+      "id": "failure_types-0233",
+      "text": "Un esprit est libéré"
+    },
+    {
+      "id": "failure_types-0234",
+      "text": "Un démon est libéré"
+    },
+    {
+      "id": "failure_types-0235",
+      "text": "Un phénomène surnaturel se propage"
+    },
+    {
+      "id": "failure_types-0236",
+      "text": "La frontière entre les mondes se brise"
+    },
+    {
+      "id": "failure_types-0237",
+      "text": "Le joueur est maudit"
+    },
+    {
+      "id": "failure_types-0238",
+      "text": "Le joueur reste piégé dans l'au-delà"
+    },
+    {
+      "id": "failure_types-0239",
+      "text": "Une âme est perdue"
+    },
+    {
+      "id": "failure_types-0240",
+      "text": "L'immortalité devient une malédiction"
+    },
+    {
+      "id": "failure_types-0241",
+      "text": "Le joueur ne peut plus mourir"
+    },
+    {
+      "id": "failure_types-0242",
+      "text": "Le joueur meurt dans la mauvaise ligne temporelle"
+    },
+    {
+      "id": "failure_types-0243",
+      "text": "Le joueur devient un PNJ"
+    },
+    {
+      "id": "failure_types-0244",
+      "text": "Le joueur perd le contrôle de son personnage"
+    },
+    {
+      "id": "failure_types-0245",
+      "text": "Les objectifs du joueur se bloquent dans la mauvaise direction"
+    },
+    {
+      "id": "failure_types-0246",
+      "text": "Le joueur se retrouve du mauvais côté du conflit"
+    },
+    {
+      "id": "failure_types-0247",
+      "text": "Le joueur aide involontairement l'antagoniste à gagner"
+    },
+    {
+      "id": "failure_types-0248",
+      "text": "Le joueur résout le problème d'une manière qui en crée un plus grand"
+    },
+    {
+      "id": "failure_types-0249",
+      "text": "Atteindre la condition de victoire provoque une catastrophe"
+    },
+    {
+      "id": "failure_types-0250",
+      "text": "Le joueur gagne mais le monde perd"
+    },
+    {
+      "id": "failure_types-0251",
+      "text": "Le joueur survit mais tous les autres meurent"
+    },
+    {
+      "id": "failure_types-0252",
+      "text": "La communauté survit mais le joueur est sacrifié"
+    },
+    {
+      "id": "failure_types-0253",
+      "text": "Le joueur garde le pouvoir mais perd toute confiance"
+    },
+    {
+      "id": "failure_types-0254",
+      "text": "Le joueur s'enrichit mais la communauté est détruite"
+    },
+    {
+      "id": "failure_types-0255",
+      "text": "Le joueur résout le mystère, mais trop tard"
+    },
+    {
+      "id": "failure_types-0256",
+      "text": "Le joueur empêche la catastrophe mais perd une personne importante"
+    },
+    {
+      "id": "failure_types-0257",
+      "text": "Le joueur fait un compromis moralement insupportable"
+    },
+    {
+      "id": "failure_types-0258",
+      "text": "Le joueur perd la chance d'obtenir une bonne fin"
+    },
+    {
+      "id": "failure_types-0259",
+      "text": "La mauvaise fin se déclenche"
+    },
+    {
+      "id": "failure_types-0260",
+      "text": "La fin neutre se déclenche"
+    },
+    {
+      "id": "failure_types-0261",
+      "text": "Le monde reste dans une impasse permanente"
+    },
+    {
+      "id": "failure_types-0262",
+      "text": "La crise reste irrésolue"
+    },
+    {
+      "id": "failure_types-0263",
+      "text": "Le conflit se fige"
+    },
+    {
+      "id": "failure_types-0264",
+      "text": "Le système fonctionne, mais de travers"
+    },
+    {
+      "id": "failure_types-0265",
+      "text": "La société devient autoritaire"
+    },
+    {
+      "id": "failure_types-0266",
+      "text": "La société sombre dans l'anarchie"
+    },
+    {
+      "id": "failure_types-0267",
+      "text": "La société stagne"
+    },
+    {
+      "id": "failure_types-0268",
+      "text": "La culture disparaît"
+    },
+    {
+      "id": "failure_types-0269",
+      "text": "Le savoir se perd pour des générations"
+    },
+    {
+      "id": "failure_types-0270",
+      "text": "La lignée familiale s'éteint"
+    },
+    {
+      "id": "failure_types-0271",
+      "text": "La dynastie prend fin"
+    },
+    {
+      "id": "failure_types-0272",
+      "text": "Aucun héritier ne naît"
+    },
+    {
+      "id": "failure_types-0273",
+      "text": "L'organisation n'a pas de successeur"
+    },
+    {
+      "id": "failure_types-0274",
+      "text": "La ville est abandonnée"
+    },
+    {
+      "id": "failure_types-0275",
+      "text": "Le monde devient désert"
+    },
+    {
+      "id": "failure_types-0276",
+      "text": "Le joueur se retrouve seul"
+    }
   ]
 }

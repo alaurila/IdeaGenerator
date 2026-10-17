@@ -1,290 +1,1148 @@
 {
   "main_goals": [
-    "Sobreviva",
-    "Fique rico",
-    "Resolva um mistério",
-    "Mantenha a organização unida",
-    "Descubra um segredo",
-    "Construa uma comunidade",
-    "Evite uma catástrofe",
-    "Escape",
-    "Encontre alguém",
-    "Manipule o sistema",
-    "Salve alguém",
-    "Proteja a comunidade",
-    "Conquiste um território",
-    "Defenda um território",
-    "Chegue ao poder",
-    "Mantenha seu poder",
-    "Vença a eleição",
-    "Derrube o regime",
-    "Construa um reino",
-    "Lidere uma nação",
-    "Crie uma nova sociedade",
-    "Mantenha a paz",
-    "Vença a guerra",
-    "Evite uma guerra",
-    "Forme uma aliança",
-    "Desfaça uma aliança",
-    "Restaure a ordem",
-    "Crie o caos",
-    "Descubra quem está mentindo",
-    "Desmascare o assassino",
-    "Prove sua inocência",
-    "Acoberte um crime",
-    "Cometa o crime perfeito",
-    "Fuja da justiça",
-    "Capture um criminoso",
-    "Construa uma rede criminosa",
-    "Destrua uma rede criminosa",
-    "Reúna provas",
-    "Resolva um desaparecimento",
-    "Encontre um objeto perdido",
-    "Encontre uma pessoa desaparecida",
-    "Descubra a verdade sobre o passado",
-    "Descubra sua própria identidade",
-    "Recupere sua memória",
-    "Descubra o que aconteceu",
-    "Descubra quem você é",
-    "Descubra onde você está",
-    "Descubra por que você está lá",
-    "Saia do lugar",
-    "Volte para casa",
-    "Chegue a um santuário",
-    "Escape antes do prazo final",
-    "Encontre uma saída",
-    "Abra uma área lacrada",
-    "Invada o local",
-    "Fuja do confinamento",
-    "Infiltre-se em uma organização",
-    "Sabote o sistema",
-    "Conserte o sistema",
-    "Mantenha o sistema funcionando",
-    "Reinicie o sistema",
-    "Evite que o sistema entre em colapso",
-    "Automatize o sistema",
-    "Otimize a produção",
-    "Faça a empresa crescer",
-    "Salve a empresa da falência",
-    "Funde uma empresa",
-    "Domine o mercado",
-    "Construa um monopólio",
-    "Maximize o lucro",
-    "Pague suas dívidas",
-    "Acumule uma fortuna",
-    "Ganhe uma quantia específica de dinheiro",
-    "Alcance a independência financeira",
-    "Construa uma cidade",
-    "Transforme uma vila em cidade",
-    "Funde uma colônia",
-    "Mantenha a colônia viva",
-    "Construa uma base",
-    "Expanda a base",
-    "Construa um lar",
-    "Construa um refúgio seguro",
-    "Construa uma infraestrutura funcional",
-    "Construa uma cadeia de produção",
-    "Construa uma rede de transporte",
-    "Construa uma sociedade do zero",
-    "Terraforme um planeta",
-    "Colonize um planeta",
-    "Explore o mundo",
-    "Mapeie a área",
-    "Descubra um novo lugar",
-    "Descubra um novo mundo",
-    "Chegue à borda do mapa",
-    "Explore todas as regiões",
-    "Reúna todas as informações importantes",
-    "Documente o mundo",
-    "Encontre um lugar antigo",
-    "Encontre uma civilização perdida",
-    "Encontre um artefato",
-    "Ative um artefato",
-    "Destrua um artefato",
-    "Impeça que o artefato seja usado",
-    "Resolva um enigma antigo",
-    "Exponha uma conspiração",
-    "Arquitete uma conspiração",
-    "Frustre uma conspiração",
-    "Manipule as pessoas",
-    "Manipule os mercados",
-    "Manipule a política",
-    "Manipule a mídia",
-    "Espalhe um boato",
-    "Detenha um boato",
-    "Mude a opinião pública",
-    "Aumente sua influência",
-    "Alcance a fama máxima",
-    "Restaure sua reputação",
-    "Mantenha seus segredos escondidos",
-    "Revele os segredos dos outros",
-    "Reúna o máximo de informação possível",
-    "Controle o fluxo de informação",
-    "Impeça que a informação se espalhe",
-    "Espalhe informação",
-    "Construa uma rede de espionagem",
-    "Desmascare os espiões",
-    "Roube informações de inteligência",
-    "Evite um vazamento",
-    "Encontre o traidor",
-    "Mantenha a lealdade",
-    "Conquiste a confiança",
-    "Quebre a confiança",
-    "Reconcilie as pessoas",
-    "Acabe com um relacionamento",
-    "Construa uma amizade",
-    "Encontre um parceiro",
-    "Forme uma família",
-    "Mantenha a família unida",
-    "Salve um casamento",
-    "Construa uma dinastia",
-    "Dê continuidade à linhagem",
-    "Descubra a história da sua família",
-    "Encontre sua família biológica",
-    "Reconcilie a família",
-    "Crie uma família influente",
-    "Mantenha a tripulação viva",
-    "Mantenha a tripulação satisfeita",
-    "Mantenha o moral alto",
-    "Evite um motim",
-    "Lidere uma rebelião",
-    "Encontre um líder",
-    "Torne-se o líder",
-    "Abra mão do poder com segurança",
-    "Mantenha todos vivos",
-    "Salve o máximo de pessoas possível",
-    "Escolha quem sobrevive",
-    "Sobreviva um número determinado de dias",
-    "Sobreviva ao inverno",
-    "Sobreviva à noite",
-    "Sobreviva à epidemia",
-    "Sobreviva ao cerco",
-    "Sobreviva a um desastre natural",
-    "Sobreviva no espaço",
-    "Sobreviva numa ilha deserta",
-    "Sobreviva numa cidade hostil",
-    "Encontre comida",
-    "Encontre água",
-    "Mantenha os recursos suficientes",
-    "Faça os recursos durarem até o fim",
-    "Crie um abastecimento de alimentos sustentável",
-    "Crie uma produção de energia funcional",
-    "Restaure a eletricidade",
-    "Restaure o abastecimento de água",
-    "Restaure as comunicações",
-    "Conserte a nave espacial",
-    "Conserte o veículo",
-    "Conserte a cidade",
-    "Ligue o reator",
-    "Desligue o reator",
-    "Evite um acidente nuclear",
-    "Evite uma epidemia",
-    "Cure a epidemia",
-    "Encontre uma cura",
-    "Salve o paciente",
-    "Cure a comunidade",
-    "Mantenha o hospital funcionando",
-    "Gerencie a crise",
-    "Evacue a área",
-    "Coordene uma operação de resgate",
-    "Evite que o prédio desabe",
-    "Evite um incêndio",
-    "Apague o incêndio",
-    "Evite uma enchente",
-    "Evite um desastre ambiental",
-    "Proteja a natureza",
-    "Restaure o ecossistema",
-    "Crie uma espécie",
-    "Evite que uma espécie seja extinta",
-    "Erradique uma espécie perigosa",
-    "Estude um organismo desconhecido",
-    "Entenda uma forma de vida alienígena",
-    "Crie uma nova espécie",
-    "Faça a população crescer",
-    "Equilibre o ecossistema",
-    "Alcance um avanço tecnológico",
-    "Pesquise todas as tecnologias",
-    "Construa uma nova invenção",
-    "Crie uma IA",
-    "Detenha uma IA",
-    "Liberte uma IA",
-    "Mantenha uma IA sob controle",
-    "Prove que você é consciente",
-    "Esconda sua consciência",
-    "Saia da simulação",
-    "Mantenha a simulação funcionando",
-    "Descubra se você está numa simulação",
-    "Quebre as regras da simulação",
-    "Conserte a linha do tempo",
-    "Mude a história",
-    "Impeça que a história seja mudada",
-    "Volte para a sua própria época",
-    "Quebre o loop temporal",
-    "Mantenha o loop temporal",
-    "Salve o futuro",
-    "Mude o futuro",
-    "Evite o fim do mundo",
-    "Provoque o fim do mundo",
-    "Prepare-se para o fim do mundo",
-    "Construa um novo mundo após a catástrofe",
-    "Encontre outros sobreviventes",
-    "Una as comunidades dispersas",
-    "Funde um novo Estado",
-    "Restaure o antigo Estado",
-    "Crie uma nova religião",
-    "Faça uma seita crescer",
-    "Desmantele uma seita",
-    "Desmascare um falso profeta",
-    "Cumpra uma profecia",
-    "Impeça uma profecia",
-    "Prove que uma profecia é falsa",
-    "Alcance a imortalidade",
-    "Quebre uma maldição",
-    "Lance uma maldição",
-    "Escape da morte",
-    "Encontre um jeito de morrer",
-    "Traga os mortos de volta à vida",
-    "Ajude um espírito a seguir em frente",
-    "Reúna as almas perdidas",
-    "Escape do além",
-    "Conquiste a entrada no céu",
-    "Evite acabar no inferno",
-    "Organize o mundo dos mortos",
-    "Resolva um fenômeno sobrenatural",
-    "Prove que um fenômeno sobrenatural é real",
-    "Prove que um fenômeno sobrenatural não é real",
-    "Crie uma obra-prima",
-    "Construa o melhor restaurante do mundo",
-    "Construa o melhor hotel do mundo",
-    "Comande o melhor time esportivo",
-    "Vença o campeonato",
-    "Bata um recorde",
-    "Fique famoso",
-    "Torne-se uma lenda",
-    "Crie uma obra de arte",
-    "Termine a obra da sua vida",
-    "Resolva um problema impossível",
-    "Alcance um desempenho perfeito",
-    "Colecione tudo",
-    "Complete a coleção inteira",
-    "Complete o arquivo",
-    "Encontre todos os segredos",
-    "Desbloqueie todas as áreas",
-    "Alcance a patente mais alta",
-    "Complete a missão sem que ninguém perceba",
-    "Complete a missão sem violência",
-    "Complete a missão antes que o tempo acabe",
-    "Mantenha todas as partes satisfeitas",
-    "Faça um acordo impossível",
-    "Escolha o mal menor",
-    "Decida quem merece sua ajuda",
-    "Decida de que lado você está",
-    "Mude o sistema por dentro",
-    "Destrua o sistema por dentro",
-    "Assuma o controle do sistema",
-    "Escape do sistema",
-    "Prove que o sistema é corrupto",
-    "Mantenha a verdade escondida",
-    "Revele a verdade ao mundo"
+    {
+      "id": "main_goals-0001",
+      "text": "Sobreviva"
+    },
+    {
+      "id": "main_goals-0002",
+      "text": "Fique rico"
+    },
+    {
+      "id": "main_goals-0003",
+      "text": "Resolva um mistério"
+    },
+    {
+      "id": "main_goals-0004",
+      "text": "Mantenha a organização unida"
+    },
+    {
+      "id": "main_goals-0005",
+      "text": "Descubra um segredo"
+    },
+    {
+      "id": "main_goals-0006",
+      "text": "Construa uma comunidade"
+    },
+    {
+      "id": "main_goals-0007",
+      "text": "Evite uma catástrofe"
+    },
+    {
+      "id": "main_goals-0008",
+      "text": "Escape"
+    },
+    {
+      "id": "main_goals-0009",
+      "text": "Encontre alguém"
+    },
+    {
+      "id": "main_goals-0010",
+      "text": "Manipule o sistema"
+    },
+    {
+      "id": "main_goals-0011",
+      "text": "Salve alguém"
+    },
+    {
+      "id": "main_goals-0012",
+      "text": "Proteja a comunidade"
+    },
+    {
+      "id": "main_goals-0013",
+      "text": "Conquiste um território"
+    },
+    {
+      "id": "main_goals-0014",
+      "text": "Defenda um território"
+    },
+    {
+      "id": "main_goals-0015",
+      "text": "Chegue ao poder"
+    },
+    {
+      "id": "main_goals-0016",
+      "text": "Mantenha seu poder"
+    },
+    {
+      "id": "main_goals-0017",
+      "text": "Vença a eleição"
+    },
+    {
+      "id": "main_goals-0018",
+      "text": "Derrube o regime"
+    },
+    {
+      "id": "main_goals-0019",
+      "text": "Construa um reino"
+    },
+    {
+      "id": "main_goals-0020",
+      "text": "Lidere uma nação"
+    },
+    {
+      "id": "main_goals-0021",
+      "text": "Crie uma nova sociedade"
+    },
+    {
+      "id": "main_goals-0022",
+      "text": "Mantenha a paz"
+    },
+    {
+      "id": "main_goals-0023",
+      "text": "Vença a guerra"
+    },
+    {
+      "id": "main_goals-0024",
+      "text": "Evite uma guerra"
+    },
+    {
+      "id": "main_goals-0025",
+      "text": "Forme uma aliança"
+    },
+    {
+      "id": "main_goals-0026",
+      "text": "Desfaça uma aliança"
+    },
+    {
+      "id": "main_goals-0027",
+      "text": "Restaure a ordem"
+    },
+    {
+      "id": "main_goals-0028",
+      "text": "Crie o caos"
+    },
+    {
+      "id": "main_goals-0029",
+      "text": "Descubra quem está mentindo"
+    },
+    {
+      "id": "main_goals-0030",
+      "text": "Desmascare o assassino"
+    },
+    {
+      "id": "main_goals-0031",
+      "text": "Prove sua inocência"
+    },
+    {
+      "id": "main_goals-0032",
+      "text": "Acoberte um crime"
+    },
+    {
+      "id": "main_goals-0033",
+      "text": "Cometa o crime perfeito"
+    },
+    {
+      "id": "main_goals-0034",
+      "text": "Fuja da justiça"
+    },
+    {
+      "id": "main_goals-0035",
+      "text": "Capture um criminoso"
+    },
+    {
+      "id": "main_goals-0036",
+      "text": "Construa uma rede criminosa"
+    },
+    {
+      "id": "main_goals-0037",
+      "text": "Destrua uma rede criminosa"
+    },
+    {
+      "id": "main_goals-0038",
+      "text": "Reúna provas"
+    },
+    {
+      "id": "main_goals-0039",
+      "text": "Resolva um desaparecimento"
+    },
+    {
+      "id": "main_goals-0040",
+      "text": "Encontre um objeto perdido"
+    },
+    {
+      "id": "main_goals-0041",
+      "text": "Encontre uma pessoa desaparecida"
+    },
+    {
+      "id": "main_goals-0042",
+      "text": "Descubra a verdade sobre o passado"
+    },
+    {
+      "id": "main_goals-0043",
+      "text": "Descubra sua própria identidade"
+    },
+    {
+      "id": "main_goals-0044",
+      "text": "Recupere sua memória"
+    },
+    {
+      "id": "main_goals-0045",
+      "text": "Descubra o que aconteceu"
+    },
+    {
+      "id": "main_goals-0046",
+      "text": "Descubra quem você é"
+    },
+    {
+      "id": "main_goals-0047",
+      "text": "Descubra onde você está"
+    },
+    {
+      "id": "main_goals-0048",
+      "text": "Descubra por que você está lá"
+    },
+    {
+      "id": "main_goals-0049",
+      "text": "Saia do lugar"
+    },
+    {
+      "id": "main_goals-0050",
+      "text": "Volte para casa"
+    },
+    {
+      "id": "main_goals-0051",
+      "text": "Chegue a um santuário"
+    },
+    {
+      "id": "main_goals-0052",
+      "text": "Escape antes do prazo final"
+    },
+    {
+      "id": "main_goals-0053",
+      "text": "Encontre uma saída"
+    },
+    {
+      "id": "main_goals-0054",
+      "text": "Abra uma área lacrada"
+    },
+    {
+      "id": "main_goals-0055",
+      "text": "Invada o local"
+    },
+    {
+      "id": "main_goals-0056",
+      "text": "Fuja do confinamento"
+    },
+    {
+      "id": "main_goals-0057",
+      "text": "Infiltre-se em uma organização"
+    },
+    {
+      "id": "main_goals-0058",
+      "text": "Sabote o sistema"
+    },
+    {
+      "id": "main_goals-0059",
+      "text": "Conserte o sistema"
+    },
+    {
+      "id": "main_goals-0060",
+      "text": "Mantenha o sistema funcionando"
+    },
+    {
+      "id": "main_goals-0061",
+      "text": "Reinicie o sistema"
+    },
+    {
+      "id": "main_goals-0062",
+      "text": "Evite que o sistema entre em colapso"
+    },
+    {
+      "id": "main_goals-0063",
+      "text": "Automatize o sistema"
+    },
+    {
+      "id": "main_goals-0064",
+      "text": "Otimize a produção"
+    },
+    {
+      "id": "main_goals-0065",
+      "text": "Faça a empresa crescer"
+    },
+    {
+      "id": "main_goals-0066",
+      "text": "Salve a empresa da falência"
+    },
+    {
+      "id": "main_goals-0067",
+      "text": "Funde uma empresa"
+    },
+    {
+      "id": "main_goals-0068",
+      "text": "Domine o mercado"
+    },
+    {
+      "id": "main_goals-0069",
+      "text": "Construa um monopólio"
+    },
+    {
+      "id": "main_goals-0070",
+      "text": "Maximize o lucro"
+    },
+    {
+      "id": "main_goals-0071",
+      "text": "Pague suas dívidas"
+    },
+    {
+      "id": "main_goals-0072",
+      "text": "Acumule uma fortuna"
+    },
+    {
+      "id": "main_goals-0073",
+      "text": "Ganhe uma quantia específica de dinheiro"
+    },
+    {
+      "id": "main_goals-0074",
+      "text": "Alcance a independência financeira"
+    },
+    {
+      "id": "main_goals-0075",
+      "text": "Construa uma cidade"
+    },
+    {
+      "id": "main_goals-0076",
+      "text": "Transforme uma vila em cidade"
+    },
+    {
+      "id": "main_goals-0077",
+      "text": "Funde uma colônia"
+    },
+    {
+      "id": "main_goals-0078",
+      "text": "Mantenha a colônia viva"
+    },
+    {
+      "id": "main_goals-0079",
+      "text": "Construa uma base"
+    },
+    {
+      "id": "main_goals-0080",
+      "text": "Expanda a base"
+    },
+    {
+      "id": "main_goals-0081",
+      "text": "Construa um lar"
+    },
+    {
+      "id": "main_goals-0082",
+      "text": "Construa um refúgio seguro"
+    },
+    {
+      "id": "main_goals-0083",
+      "text": "Construa uma infraestrutura funcional"
+    },
+    {
+      "id": "main_goals-0084",
+      "text": "Construa uma cadeia de produção"
+    },
+    {
+      "id": "main_goals-0085",
+      "text": "Construa uma rede de transporte"
+    },
+    {
+      "id": "main_goals-0086",
+      "text": "Construa uma sociedade do zero"
+    },
+    {
+      "id": "main_goals-0087",
+      "text": "Terraforme um planeta"
+    },
+    {
+      "id": "main_goals-0088",
+      "text": "Colonize um planeta"
+    },
+    {
+      "id": "main_goals-0089",
+      "text": "Explore o mundo"
+    },
+    {
+      "id": "main_goals-0090",
+      "text": "Mapeie a área"
+    },
+    {
+      "id": "main_goals-0091",
+      "text": "Descubra um novo lugar"
+    },
+    {
+      "id": "main_goals-0092",
+      "text": "Descubra um novo mundo"
+    },
+    {
+      "id": "main_goals-0093",
+      "text": "Chegue à borda do mapa"
+    },
+    {
+      "id": "main_goals-0094",
+      "text": "Explore todas as regiões"
+    },
+    {
+      "id": "main_goals-0095",
+      "text": "Reúna todas as informações importantes"
+    },
+    {
+      "id": "main_goals-0096",
+      "text": "Documente o mundo"
+    },
+    {
+      "id": "main_goals-0097",
+      "text": "Encontre um lugar antigo"
+    },
+    {
+      "id": "main_goals-0098",
+      "text": "Encontre uma civilização perdida"
+    },
+    {
+      "id": "main_goals-0099",
+      "text": "Encontre um artefato"
+    },
+    {
+      "id": "main_goals-0100",
+      "text": "Ative um artefato"
+    },
+    {
+      "id": "main_goals-0101",
+      "text": "Destrua um artefato"
+    },
+    {
+      "id": "main_goals-0102",
+      "text": "Impeça que o artefato seja usado"
+    },
+    {
+      "id": "main_goals-0103",
+      "text": "Resolva um enigma antigo"
+    },
+    {
+      "id": "main_goals-0104",
+      "text": "Exponha uma conspiração"
+    },
+    {
+      "id": "main_goals-0105",
+      "text": "Arquitete uma conspiração"
+    },
+    {
+      "id": "main_goals-0106",
+      "text": "Frustre uma conspiração"
+    },
+    {
+      "id": "main_goals-0107",
+      "text": "Manipule as pessoas"
+    },
+    {
+      "id": "main_goals-0108",
+      "text": "Manipule os mercados"
+    },
+    {
+      "id": "main_goals-0109",
+      "text": "Manipule a política"
+    },
+    {
+      "id": "main_goals-0110",
+      "text": "Manipule a mídia"
+    },
+    {
+      "id": "main_goals-0111",
+      "text": "Espalhe um boato"
+    },
+    {
+      "id": "main_goals-0112",
+      "text": "Detenha um boato"
+    },
+    {
+      "id": "main_goals-0113",
+      "text": "Mude a opinião pública"
+    },
+    {
+      "id": "main_goals-0114",
+      "text": "Aumente sua influência"
+    },
+    {
+      "id": "main_goals-0115",
+      "text": "Alcance a fama máxima"
+    },
+    {
+      "id": "main_goals-0116",
+      "text": "Restaure sua reputação"
+    },
+    {
+      "id": "main_goals-0117",
+      "text": "Mantenha seus segredos escondidos"
+    },
+    {
+      "id": "main_goals-0118",
+      "text": "Revele os segredos dos outros"
+    },
+    {
+      "id": "main_goals-0119",
+      "text": "Reúna o máximo de informação possível"
+    },
+    {
+      "id": "main_goals-0120",
+      "text": "Controle o fluxo de informação"
+    },
+    {
+      "id": "main_goals-0121",
+      "text": "Impeça que a informação se espalhe"
+    },
+    {
+      "id": "main_goals-0122",
+      "text": "Espalhe informação"
+    },
+    {
+      "id": "main_goals-0123",
+      "text": "Construa uma rede de espionagem"
+    },
+    {
+      "id": "main_goals-0124",
+      "text": "Desmascare os espiões"
+    },
+    {
+      "id": "main_goals-0125",
+      "text": "Roube informações de inteligência"
+    },
+    {
+      "id": "main_goals-0126",
+      "text": "Evite um vazamento"
+    },
+    {
+      "id": "main_goals-0127",
+      "text": "Encontre o traidor"
+    },
+    {
+      "id": "main_goals-0128",
+      "text": "Mantenha a lealdade"
+    },
+    {
+      "id": "main_goals-0129",
+      "text": "Conquiste a confiança"
+    },
+    {
+      "id": "main_goals-0130",
+      "text": "Quebre a confiança"
+    },
+    {
+      "id": "main_goals-0131",
+      "text": "Reconcilie as pessoas"
+    },
+    {
+      "id": "main_goals-0132",
+      "text": "Acabe com um relacionamento"
+    },
+    {
+      "id": "main_goals-0133",
+      "text": "Construa uma amizade"
+    },
+    {
+      "id": "main_goals-0134",
+      "text": "Encontre um parceiro"
+    },
+    {
+      "id": "main_goals-0135",
+      "text": "Forme uma família"
+    },
+    {
+      "id": "main_goals-0136",
+      "text": "Mantenha a família unida"
+    },
+    {
+      "id": "main_goals-0137",
+      "text": "Salve um casamento"
+    },
+    {
+      "id": "main_goals-0138",
+      "text": "Construa uma dinastia"
+    },
+    {
+      "id": "main_goals-0139",
+      "text": "Dê continuidade à linhagem"
+    },
+    {
+      "id": "main_goals-0140",
+      "text": "Descubra a história da sua família"
+    },
+    {
+      "id": "main_goals-0141",
+      "text": "Encontre sua família biológica"
+    },
+    {
+      "id": "main_goals-0142",
+      "text": "Reconcilie a família"
+    },
+    {
+      "id": "main_goals-0143",
+      "text": "Crie uma família influente"
+    },
+    {
+      "id": "main_goals-0144",
+      "text": "Mantenha a tripulação viva"
+    },
+    {
+      "id": "main_goals-0145",
+      "text": "Mantenha a tripulação satisfeita"
+    },
+    {
+      "id": "main_goals-0146",
+      "text": "Mantenha o moral alto"
+    },
+    {
+      "id": "main_goals-0147",
+      "text": "Evite um motim"
+    },
+    {
+      "id": "main_goals-0148",
+      "text": "Lidere uma rebelião"
+    },
+    {
+      "id": "main_goals-0149",
+      "text": "Encontre um líder"
+    },
+    {
+      "id": "main_goals-0150",
+      "text": "Torne-se o líder"
+    },
+    {
+      "id": "main_goals-0151",
+      "text": "Abra mão do poder com segurança"
+    },
+    {
+      "id": "main_goals-0152",
+      "text": "Mantenha todos vivos"
+    },
+    {
+      "id": "main_goals-0153",
+      "text": "Salve o máximo de pessoas possível"
+    },
+    {
+      "id": "main_goals-0154",
+      "text": "Escolha quem sobrevive"
+    },
+    {
+      "id": "main_goals-0155",
+      "text": "Sobreviva um número determinado de dias"
+    },
+    {
+      "id": "main_goals-0156",
+      "text": "Sobreviva ao inverno"
+    },
+    {
+      "id": "main_goals-0157",
+      "text": "Sobreviva à noite"
+    },
+    {
+      "id": "main_goals-0158",
+      "text": "Sobreviva à epidemia"
+    },
+    {
+      "id": "main_goals-0159",
+      "text": "Sobreviva ao cerco"
+    },
+    {
+      "id": "main_goals-0160",
+      "text": "Sobreviva a um desastre natural"
+    },
+    {
+      "id": "main_goals-0161",
+      "text": "Sobreviva no espaço"
+    },
+    {
+      "id": "main_goals-0162",
+      "text": "Sobreviva numa ilha deserta"
+    },
+    {
+      "id": "main_goals-0163",
+      "text": "Sobreviva numa cidade hostil"
+    },
+    {
+      "id": "main_goals-0164",
+      "text": "Encontre comida"
+    },
+    {
+      "id": "main_goals-0165",
+      "text": "Encontre água"
+    },
+    {
+      "id": "main_goals-0166",
+      "text": "Mantenha os recursos suficientes"
+    },
+    {
+      "id": "main_goals-0167",
+      "text": "Faça os recursos durarem até o fim"
+    },
+    {
+      "id": "main_goals-0168",
+      "text": "Crie um abastecimento de alimentos sustentável"
+    },
+    {
+      "id": "main_goals-0169",
+      "text": "Crie uma produção de energia funcional"
+    },
+    {
+      "id": "main_goals-0170",
+      "text": "Restaure a eletricidade"
+    },
+    {
+      "id": "main_goals-0171",
+      "text": "Restaure o abastecimento de água"
+    },
+    {
+      "id": "main_goals-0172",
+      "text": "Restaure as comunicações"
+    },
+    {
+      "id": "main_goals-0173",
+      "text": "Conserte a nave espacial"
+    },
+    {
+      "id": "main_goals-0174",
+      "text": "Conserte o veículo"
+    },
+    {
+      "id": "main_goals-0175",
+      "text": "Conserte a cidade"
+    },
+    {
+      "id": "main_goals-0176",
+      "text": "Ligue o reator"
+    },
+    {
+      "id": "main_goals-0177",
+      "text": "Desligue o reator"
+    },
+    {
+      "id": "main_goals-0178",
+      "text": "Evite um acidente nuclear"
+    },
+    {
+      "id": "main_goals-0179",
+      "text": "Evite uma epidemia"
+    },
+    {
+      "id": "main_goals-0180",
+      "text": "Cure a epidemia"
+    },
+    {
+      "id": "main_goals-0181",
+      "text": "Encontre uma cura"
+    },
+    {
+      "id": "main_goals-0182",
+      "text": "Salve o paciente"
+    },
+    {
+      "id": "main_goals-0183",
+      "text": "Cure a comunidade"
+    },
+    {
+      "id": "main_goals-0184",
+      "text": "Mantenha o hospital funcionando"
+    },
+    {
+      "id": "main_goals-0185",
+      "text": "Gerencie a crise"
+    },
+    {
+      "id": "main_goals-0186",
+      "text": "Evacue a área"
+    },
+    {
+      "id": "main_goals-0187",
+      "text": "Coordene uma operação de resgate"
+    },
+    {
+      "id": "main_goals-0188",
+      "text": "Evite que o prédio desabe"
+    },
+    {
+      "id": "main_goals-0189",
+      "text": "Evite um incêndio"
+    },
+    {
+      "id": "main_goals-0190",
+      "text": "Apague o incêndio"
+    },
+    {
+      "id": "main_goals-0191",
+      "text": "Evite uma enchente"
+    },
+    {
+      "id": "main_goals-0192",
+      "text": "Evite um desastre ambiental"
+    },
+    {
+      "id": "main_goals-0193",
+      "text": "Proteja a natureza"
+    },
+    {
+      "id": "main_goals-0194",
+      "text": "Restaure o ecossistema"
+    },
+    {
+      "id": "main_goals-0195",
+      "text": "Crie uma espécie"
+    },
+    {
+      "id": "main_goals-0196",
+      "text": "Evite que uma espécie seja extinta"
+    },
+    {
+      "id": "main_goals-0197",
+      "text": "Erradique uma espécie perigosa"
+    },
+    {
+      "id": "main_goals-0198",
+      "text": "Estude um organismo desconhecido"
+    },
+    {
+      "id": "main_goals-0199",
+      "text": "Entenda uma forma de vida alienígena"
+    },
+    {
+      "id": "main_goals-0200",
+      "text": "Crie uma nova espécie"
+    },
+    {
+      "id": "main_goals-0201",
+      "text": "Faça a população crescer"
+    },
+    {
+      "id": "main_goals-0202",
+      "text": "Equilibre o ecossistema"
+    },
+    {
+      "id": "main_goals-0203",
+      "text": "Alcance um avanço tecnológico"
+    },
+    {
+      "id": "main_goals-0204",
+      "text": "Pesquise todas as tecnologias"
+    },
+    {
+      "id": "main_goals-0205",
+      "text": "Construa uma nova invenção"
+    },
+    {
+      "id": "main_goals-0206",
+      "text": "Crie uma IA"
+    },
+    {
+      "id": "main_goals-0207",
+      "text": "Detenha uma IA"
+    },
+    {
+      "id": "main_goals-0208",
+      "text": "Liberte uma IA"
+    },
+    {
+      "id": "main_goals-0209",
+      "text": "Mantenha uma IA sob controle"
+    },
+    {
+      "id": "main_goals-0210",
+      "text": "Prove que você é consciente"
+    },
+    {
+      "id": "main_goals-0211",
+      "text": "Esconda sua consciência"
+    },
+    {
+      "id": "main_goals-0212",
+      "text": "Saia da simulação"
+    },
+    {
+      "id": "main_goals-0213",
+      "text": "Mantenha a simulação funcionando"
+    },
+    {
+      "id": "main_goals-0214",
+      "text": "Descubra se você está numa simulação"
+    },
+    {
+      "id": "main_goals-0215",
+      "text": "Quebre as regras da simulação"
+    },
+    {
+      "id": "main_goals-0216",
+      "text": "Conserte a linha do tempo"
+    },
+    {
+      "id": "main_goals-0217",
+      "text": "Mude a história"
+    },
+    {
+      "id": "main_goals-0218",
+      "text": "Impeça que a história seja mudada"
+    },
+    {
+      "id": "main_goals-0219",
+      "text": "Volte para a sua própria época"
+    },
+    {
+      "id": "main_goals-0220",
+      "text": "Quebre o loop temporal"
+    },
+    {
+      "id": "main_goals-0221",
+      "text": "Mantenha o loop temporal"
+    },
+    {
+      "id": "main_goals-0222",
+      "text": "Salve o futuro"
+    },
+    {
+      "id": "main_goals-0223",
+      "text": "Mude o futuro"
+    },
+    {
+      "id": "main_goals-0224",
+      "text": "Evite o fim do mundo"
+    },
+    {
+      "id": "main_goals-0225",
+      "text": "Provoque o fim do mundo"
+    },
+    {
+      "id": "main_goals-0226",
+      "text": "Prepare-se para o fim do mundo"
+    },
+    {
+      "id": "main_goals-0227",
+      "text": "Construa um novo mundo após a catástrofe"
+    },
+    {
+      "id": "main_goals-0228",
+      "text": "Encontre outros sobreviventes"
+    },
+    {
+      "id": "main_goals-0229",
+      "text": "Una as comunidades dispersas"
+    },
+    {
+      "id": "main_goals-0230",
+      "text": "Funde um novo Estado"
+    },
+    {
+      "id": "main_goals-0231",
+      "text": "Restaure o antigo Estado"
+    },
+    {
+      "id": "main_goals-0232",
+      "text": "Crie uma nova religião"
+    },
+    {
+      "id": "main_goals-0233",
+      "text": "Faça uma seita crescer"
+    },
+    {
+      "id": "main_goals-0234",
+      "text": "Desmantele uma seita"
+    },
+    {
+      "id": "main_goals-0235",
+      "text": "Desmascare um falso profeta"
+    },
+    {
+      "id": "main_goals-0236",
+      "text": "Cumpra uma profecia"
+    },
+    {
+      "id": "main_goals-0237",
+      "text": "Impeça uma profecia"
+    },
+    {
+      "id": "main_goals-0238",
+      "text": "Prove que uma profecia é falsa"
+    },
+    {
+      "id": "main_goals-0239",
+      "text": "Alcance a imortalidade"
+    },
+    {
+      "id": "main_goals-0240",
+      "text": "Quebre uma maldição"
+    },
+    {
+      "id": "main_goals-0241",
+      "text": "Lance uma maldição"
+    },
+    {
+      "id": "main_goals-0242",
+      "text": "Escape da morte"
+    },
+    {
+      "id": "main_goals-0243",
+      "text": "Encontre um jeito de morrer"
+    },
+    {
+      "id": "main_goals-0244",
+      "text": "Traga os mortos de volta à vida"
+    },
+    {
+      "id": "main_goals-0245",
+      "text": "Ajude um espírito a seguir em frente"
+    },
+    {
+      "id": "main_goals-0246",
+      "text": "Reúna as almas perdidas"
+    },
+    {
+      "id": "main_goals-0247",
+      "text": "Escape do além"
+    },
+    {
+      "id": "main_goals-0248",
+      "text": "Conquiste a entrada no céu"
+    },
+    {
+      "id": "main_goals-0249",
+      "text": "Evite acabar no inferno"
+    },
+    {
+      "id": "main_goals-0250",
+      "text": "Organize o mundo dos mortos"
+    },
+    {
+      "id": "main_goals-0251",
+      "text": "Resolva um fenômeno sobrenatural"
+    },
+    {
+      "id": "main_goals-0252",
+      "text": "Prove que um fenômeno sobrenatural é real"
+    },
+    {
+      "id": "main_goals-0253",
+      "text": "Prove que um fenômeno sobrenatural não é real"
+    },
+    {
+      "id": "main_goals-0254",
+      "text": "Crie uma obra-prima"
+    },
+    {
+      "id": "main_goals-0255",
+      "text": "Construa o melhor restaurante do mundo"
+    },
+    {
+      "id": "main_goals-0256",
+      "text": "Construa o melhor hotel do mundo"
+    },
+    {
+      "id": "main_goals-0257",
+      "text": "Comande o melhor time esportivo"
+    },
+    {
+      "id": "main_goals-0258",
+      "text": "Vença o campeonato"
+    },
+    {
+      "id": "main_goals-0259",
+      "text": "Bata um recorde"
+    },
+    {
+      "id": "main_goals-0260",
+      "text": "Fique famoso"
+    },
+    {
+      "id": "main_goals-0261",
+      "text": "Torne-se uma lenda"
+    },
+    {
+      "id": "main_goals-0262",
+      "text": "Crie uma obra de arte"
+    },
+    {
+      "id": "main_goals-0263",
+      "text": "Termine a obra da sua vida"
+    },
+    {
+      "id": "main_goals-0264",
+      "text": "Resolva um problema impossível"
+    },
+    {
+      "id": "main_goals-0265",
+      "text": "Alcance um desempenho perfeito"
+    },
+    {
+      "id": "main_goals-0266",
+      "text": "Colecione tudo"
+    },
+    {
+      "id": "main_goals-0267",
+      "text": "Complete a coleção inteira"
+    },
+    {
+      "id": "main_goals-0268",
+      "text": "Complete o arquivo"
+    },
+    {
+      "id": "main_goals-0269",
+      "text": "Encontre todos os segredos"
+    },
+    {
+      "id": "main_goals-0270",
+      "text": "Desbloqueie todas as áreas"
+    },
+    {
+      "id": "main_goals-0271",
+      "text": "Alcance a patente mais alta"
+    },
+    {
+      "id": "main_goals-0272",
+      "text": "Complete a missão sem que ninguém perceba"
+    },
+    {
+      "id": "main_goals-0273",
+      "text": "Complete a missão sem violência"
+    },
+    {
+      "id": "main_goals-0274",
+      "text": "Complete a missão antes que o tempo acabe"
+    },
+    {
+      "id": "main_goals-0275",
+      "text": "Mantenha todas as partes satisfeitas"
+    },
+    {
+      "id": "main_goals-0276",
+      "text": "Faça um acordo impossível"
+    },
+    {
+      "id": "main_goals-0277",
+      "text": "Escolha o mal menor"
+    },
+    {
+      "id": "main_goals-0278",
+      "text": "Decida quem merece sua ajuda"
+    },
+    {
+      "id": "main_goals-0279",
+      "text": "Decida de que lado você está"
+    },
+    {
+      "id": "main_goals-0280",
+      "text": "Mude o sistema por dentro"
+    },
+    {
+      "id": "main_goals-0281",
+      "text": "Destrua o sistema por dentro"
+    },
+    {
+      "id": "main_goals-0282",
+      "text": "Assuma o controle do sistema"
+    },
+    {
+      "id": "main_goals-0283",
+      "text": "Escape do sistema"
+    },
+    {
+      "id": "main_goals-0284",
+      "text": "Prove que o sistema é corrupto"
+    },
+    {
+      "id": "main_goals-0285",
+      "text": "Mantenha a verdade escondida"
+    },
+    {
+      "id": "main_goals-0286",
+      "text": "Revele a verdade ao mundo"
+    }
   ]
 }

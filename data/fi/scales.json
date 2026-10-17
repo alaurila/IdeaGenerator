@@ -1,92 +1,356 @@
 {
   "scales": [
-    "Yksi esine",
-    "Yksi työpöytä",
-    "Yksi huone",
-    "Yksi asunto",
-    "Yksi talo",
-    "Yksi rakennus",
-    "Yksi rakennuskompleksi",
-    "Yksi laiva",
-    "Yksi juna",
-    "Yksi lentokone",
-    "Yksi avaruusalus",
-    "Yksi avaruusasema",
-    "Yksi katu",
-    "Yksi kortteli",
-    "Yksi naapurusto",
-    "Yksi kaupunginosa",
-    "Yksi kylä",
-    "Yksi pikkukaupunki",
-    "Yksi kaupunki",
-    "Useita kaupunkeja",
-    "Yksi maakunta",
-    "Yksi alue",
-    "Yksi osavaltio",
-    "Yksi valtio",
-    "Useita valtioita",
-    "Yksi maanosa",
-    "Koko maailma",
-    "Yksi saari",
-    "Yksi saaristo",
-    "Yksi laakso",
-    "Yksi vuoristo",
-    "Yksi erämaa",
-    "Yksi metsä",
-    "Yksi planeetta",
-    "Useita planeettoja",
-    "Yksi aurinkokunta",
-    "Useita aurinkokuntia",
-    "Yksi galaksi",
-    "Useita galakseja",
-    "Koko universumi",
-    "Useita universumeja",
-    "Yksi perhe",
-    "Yksi suku",
-    "Yksi dynastia",
-    "Yksi ystäväpiiri",
-    "Yksi työyhteisö",
-    "Yksi organisaatio",
-    "Yksi yritys",
-    "Yksi rikollisjärjestö",
-    "Yksi poliittinen puolue",
-    "Yksi uskonnollinen yhteisö",
-    "Yksi armeijayksikkö",
-    "Yksi miehistö",
-    "Yksi selviytyjäryhmä",
-    "Kokonainen yhteiskunta",
-    "Kokonainen sivilisaatio",
-    "Useita sivilisaatioita",
-    "Yksi päivä",
-    "Yksi yö",
-    "Yksi työvuoro",
-    "Yksi viikko",
-    "Yksi kuukausi",
-    "Yksi vuosi",
-    "Useita vuosia",
-    "Yksi ihmiselämä",
-    "Useita ihmiselämiä",
-    "Yksi sukupolvi",
-    "Useita sukupolvia",
-    "Vuosisatoja",
-    "Tuhansia vuosia",
-    "Koko historian mittainen",
-    "Yksi kriisi",
-    "Yksi sota",
-    "Yksi vaalikausi",
-    "Yksi rikostutkinta",
-    "Yksi epidemia",
-    "Yksi katastrofi",
-    "Yksi aikasilmukka",
-    "Useita aikajanoja",
-    "Yksi rinnakkaistodellisuus",
-    "Useita rinnakkaistodellisuuksia",
-    "Yksi tietokoneverkko",
-    "Yksi virtuaalimaailma",
-    "Yksi simulaatio",
-    "Useita simulaatiokerroksia",
-    "Yksi ihmisen mieli",
-    "Useita ihmismieliä",
-    "Kollektiivinen tietoisuus"
+    {
+      "id": "scales-0001",
+      "text": "Yksi esine"
+    },
+    {
+      "id": "scales-0002",
+      "text": "Yksi työpöytä"
+    },
+    {
+      "id": "scales-0003",
+      "text": "Yksi huone"
+    },
+    {
+      "id": "scales-0004",
+      "text": "Yksi asunto"
+    },
+    {
+      "id": "scales-0005",
+      "text": "Yksi talo"
+    },
+    {
+      "id": "scales-0006",
+      "text": "Yksi rakennus"
+    },
+    {
+      "id": "scales-0007",
+      "text": "Yksi rakennuskompleksi"
+    },
+    {
+      "id": "scales-0008",
+      "text": "Yksi laiva"
+    },
+    {
+      "id": "scales-0009",
+      "text": "Yksi juna"
+    },
+    {
+      "id": "scales-0010",
+      "text": "Yksi lentokone"
+    },
+    {
+      "id": "scales-0011",
+      "text": "Yksi avaruusalus"
+    },
+    {
+      "id": "scales-0012",
+      "text": "Yksi avaruusasema"
+    },
+    {
+      "id": "scales-0013",
+      "text": "Yksi katu"
+    },
+    {
+      "id": "scales-0014",
+      "text": "Yksi kortteli"
+    },
+    {
+      "id": "scales-0015",
+      "text": "Yksi naapurusto"
+    },
+    {
+      "id": "scales-0016",
+      "text": "Yksi kaupunginosa"
+    },
+    {
+      "id": "scales-0017",
+      "text": "Yksi kylä"
+    },
+    {
+      "id": "scales-0018",
+      "text": "Yksi pikkukaupunki"
+    },
+    {
+      "id": "scales-0019",
+      "text": "Yksi kaupunki"
+    },
+    {
+      "id": "scales-0020",
+      "text": "Useita kaupunkeja"
+    },
+    {
+      "id": "scales-0021",
+      "text": "Yksi maakunta"
+    },
+    {
+      "id": "scales-0022",
+      "text": "Yksi alue"
+    },
+    {
+      "id": "scales-0023",
+      "text": "Yksi osavaltio"
+    },
+    {
+      "id": "scales-0024",
+      "text": "Yksi valtio"
+    },
+    {
+      "id": "scales-0025",
+      "text": "Useita valtioita"
+    },
+    {
+      "id": "scales-0026",
+      "text": "Yksi maanosa"
+    },
+    {
+      "id": "scales-0027",
+      "text": "Koko maailma"
+    },
+    {
+      "id": "scales-0028",
+      "text": "Yksi saari"
+    },
+    {
+      "id": "scales-0029",
+      "text": "Yksi saaristo"
+    },
+    {
+      "id": "scales-0030",
+      "text": "Yksi laakso"
+    },
+    {
+      "id": "scales-0031",
+      "text": "Yksi vuoristo"
+    },
+    {
+      "id": "scales-0032",
+      "text": "Yksi erämaa"
+    },
+    {
+      "id": "scales-0033",
+      "text": "Yksi metsä"
+    },
+    {
+      "id": "scales-0034",
+      "text": "Yksi planeetta"
+    },
+    {
+      "id": "scales-0035",
+      "text": "Useita planeettoja"
+    },
+    {
+      "id": "scales-0036",
+      "text": "Yksi aurinkokunta"
+    },
+    {
+      "id": "scales-0037",
+      "text": "Useita aurinkokuntia"
+    },
+    {
+      "id": "scales-0038",
+      "text": "Yksi galaksi"
+    },
+    {
+      "id": "scales-0039",
+      "text": "Useita galakseja"
+    },
+    {
+      "id": "scales-0040",
+      "text": "Koko universumi"
+    },
+    {
+      "id": "scales-0041",
+      "text": "Useita universumeja"
+    },
+    {
+      "id": "scales-0042",
+      "text": "Yksi perhe"
+    },
+    {
+      "id": "scales-0043",
+      "text": "Yksi suku"
+    },
+    {
+      "id": "scales-0044",
+      "text": "Yksi dynastia"
+    },
+    {
+      "id": "scales-0045",
+      "text": "Yksi ystäväpiiri"
+    },
+    {
+      "id": "scales-0046",
+      "text": "Yksi työyhteisö"
+    },
+    {
+      "id": "scales-0047",
+      "text": "Yksi organisaatio"
+    },
+    {
+      "id": "scales-0048",
+      "text": "Yksi yritys"
+    },
+    {
+      "id": "scales-0049",
+      "text": "Yksi rikollisjärjestö"
+    },
+    {
+      "id": "scales-0050",
+      "text": "Yksi poliittinen puolue"
+    },
+    {
+      "id": "scales-0051",
+      "text": "Yksi uskonnollinen yhteisö"
+    },
+    {
+      "id": "scales-0052",
+      "text": "Yksi armeijayksikkö"
+    },
+    {
+      "id": "scales-0053",
+      "text": "Yksi miehistö"
+    },
+    {
+      "id": "scales-0054",
+      "text": "Yksi selviytyjäryhmä"
+    },
+    {
+      "id": "scales-0055",
+      "text": "Kokonainen yhteiskunta"
+    },
+    {
+      "id": "scales-0056",
+      "text": "Kokonainen sivilisaatio"
+    },
+    {
+      "id": "scales-0057",
+      "text": "Useita sivilisaatioita"
+    },
+    {
+      "id": "scales-0058",
+      "text": "Yksi päivä"
+    },
+    {
+      "id": "scales-0059",
+      "text": "Yksi yö"
+    },
+    {
+      "id": "scales-0060",
+      "text": "Yksi työvuoro"
+    },
+    {
+      "id": "scales-0061",
+      "text": "Yksi viikko"
+    },
+    {
+      "id": "scales-0062",
+      "text": "Yksi kuukausi"
+    },
+    {
+      "id": "scales-0063",
+      "text": "Yksi vuosi"
+    },
+    {
+      "id": "scales-0064",
+      "text": "Useita vuosia"
+    },
+    {
+      "id": "scales-0065",
+      "text": "Yksi ihmiselämä"
+    },
+    {
+      "id": "scales-0066",
+      "text": "Useita ihmiselämiä"
+    },
+    {
+      "id": "scales-0067",
+      "text": "Yksi sukupolvi"
+    },
+    {
+      "id": "scales-0068",
+      "text": "Useita sukupolvia"
+    },
+    {
+      "id": "scales-0069",
+      "text": "Vuosisatoja"
+    },
+    {
+      "id": "scales-0070",
+      "text": "Tuhansia vuosia"
+    },
+    {
+      "id": "scales-0071",
+      "text": "Koko historian mittainen"
+    },
+    {
+      "id": "scales-0072",
+      "text": "Yksi kriisi"
+    },
+    {
+      "id": "scales-0073",
+      "text": "Yksi sota"
+    },
+    {
+      "id": "scales-0074",
+      "text": "Yksi vaalikausi"
+    },
+    {
+      "id": "scales-0075",
+      "text": "Yksi rikostutkinta"
+    },
+    {
+      "id": "scales-0076",
+      "text": "Yksi epidemia"
+    },
+    {
+      "id": "scales-0077",
+      "text": "Yksi katastrofi"
+    },
+    {
+      "id": "scales-0078",
+      "text": "Yksi aikasilmukka"
+    },
+    {
+      "id": "scales-0079",
+      "text": "Useita aikajanoja"
+    },
+    {
+      "id": "scales-0080",
+      "text": "Yksi rinnakkaistodellisuus"
+    },
+    {
+      "id": "scales-0081",
+      "text": "Useita rinnakkaistodellisuuksia"
+    },
+    {
+      "id": "scales-0082",
+      "text": "Yksi tietokoneverkko"
+    },
+    {
+      "id": "scales-0083",
+      "text": "Yksi virtuaalimaailma"
+    },
+    {
+      "id": "scales-0084",
+      "text": "Yksi simulaatio"
+    },
+    {
+      "id": "scales-0085",
+      "text": "Useita simulaatiokerroksia"
+    },
+    {
+      "id": "scales-0086",
+      "text": "Yksi ihmisen mieli"
+    },
+    {
+      "id": "scales-0087",
+      "text": "Useita ihmismieliä"
+    },
+    {
+      "id": "scales-0088",
+      "text": "Kollektiivinen tietoisuus"
+    }
   ]
 }

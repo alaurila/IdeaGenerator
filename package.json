@@ -1,0 +1,11 @@
+{
+  "name": "game-idea-generator",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "generate": "node scripts/generate-idea.js",
+    "build": "node scripts/build-static.js",
+    "test": "node --test"
+  },
+  "engines": { "node": ">=20" }
+}

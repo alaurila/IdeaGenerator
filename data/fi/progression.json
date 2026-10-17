@@ -1,342 +1,1356 @@
 {
   "progression": [
-    "Paremmat työkalut",
-    "Uusi tieto",
-    "Suurempi vastuu",
-    "Organisaation kasvu",
-    "Kartan avautuminen",
-    "Uudet ihmiset",
-    "Uudet säännöt",
-    "Uudet kyvyt",
-    "Uudet taidot",
-    "Uudet toimintavaihtoehdot",
-    "Uudet rakennukset",
-    "Uudet huoneet",
-    "Uudet alueet",
-    "Uudet kaupungit",
-    "Uudet valtiot",
-    "Uudet planeetat",
-    "Uudet aikakaudet",
-    "Uudet teknologiat",
-    "Uudet tutkimussuunnat",
-    "Uudet tuotantoketjut",
-    "Uudet resurssit",
-    "Uudet markkinat",
-    "Uudet asiakkaat",
-    "Uudet työntekijät",
-    "Uudet asiantuntijat",
-    "Uudet osastot",
-    "Uudet organisaatiot",
-    "Uudet liittolaiset",
-    "Uudet viholliset",
-    "Uudet kilpailijat",
-    "Uudet fraktiot",
-    "Uudet suhteet",
-    "Uudet kontaktit",
-    "Uudet tietolähteet",
-    "Uudet salaisuudet",
-    "Uudet vihjeet",
-    "Uudet todistusaineistot",
-    "Uudet tutkimusmenetelmät",
-    "Uudet raportit",
-    "Uudet tietokannat",
-    "Uudet pääsyoikeudet",
-    "Korkeampi turvaluokitus",
-    "Parempi maine",
-    "Suurempi vaikutusvalta",
-    "Suurempi poliittinen valta",
-    "Suurempi taloudellinen valta",
-    "Suurempi sotilaallinen valta",
-    "Suurempi sosiaalinen asema",
-    "Korkeampi arvoasema",
-    "Ylennys",
-    "Uusi titteli",
-    "Uusi virka",
-    "Johtajan asema",
-    "Omien alaisten saaminen",
-    "Suuremman tiimin johtaminen",
-    "Useampien osastojen johtaminen",
-    "Kokonaisen organisaation johtaminen",
-    "Kaupungin johtaminen",
-    "Valtion johtaminen",
-    "Sivilisaation johtaminen",
-    "Pienemmistä päätöksistä suurempiin päätöksiin siirtyminen",
-    "Paikallisista ongelmista strategisiin ongelmiin siirtyminen",
-    "Yksilötasolta organisaatiotasolle siirtyminen",
-    "Organisaatiotasolta yhteiskuntatasolle siirtyminen",
-    "Mikrotasolta makrotasolle siirtyminen",
-    "Yhä vaikeammat päätökset",
-    "Yhä suuremmat seuraukset",
-    "Yhä lyhyemmät määräajat",
-    "Yhä monimutkaisemmat tilanteet",
-    "Yhä enemmän samanaikaisia ongelmia",
-    "Yhä enemmän hallittavia resursseja",
-    "Yhä enemmän hallittavia ihmisiä",
-    "Yhä suurempi kartta",
-    "Yhä suurempi organisaatio",
-    "Yhä suurempi väestö",
-    "Yhä suurempi tuotanto",
-    "Yhä suurempi budjetti",
-    "Yhä suuremmat riskit",
-    "Yhä suurempi vastuu epäonnistumisesta",
-    "Parempi inventaario",
-    "Suurempi inventaario",
-    "Paremmat varusteet",
-    "Harvinaisemmat varusteet",
-    "Paremmat aseet",
-    "Paremmat suojavarusteet",
-    "Paremmat sensorit",
-    "Paremmat kamerat",
-    "Paremmat ajoneuvot",
-    "Paremmat koneet",
-    "Paremmat robotit",
-    "Paremmat tietokoneet",
-    "Paremmat ohjelmistot",
-    "Parempi automaatio",
-    "Parempi infrastruktuuri",
-    "Parempi energiantuotanto",
-    "Parempi vedenjakelu",
-    "Parempi logistiikka",
-    "Paremmat kuljetusreitit",
-    "Parempi varastointi",
-    "Parempi turvallisuus",
-    "Parempi puolustus",
-    "Parempi terveydenhuolto",
-    "Parempi koulutus",
-    "Parempi tiedustelu",
-    "Parempi tutkimuskyky",
-    "Parempi tuotantotehokkuus",
-    "Parempi resurssitehokkuus",
-    "Parempi työntekijöiden tehokkuus",
-    "Parempi moraali",
-    "Parempi luottamus",
-    "Parempi maine eri ryhmissä",
-    "Paremmat diplomaattisuhteet",
-    "Paremmat kaupankäyntiehdot",
-    "Paremmat hinnat",
-    "Paremmat sopimukset",
-    "Paremmat lainat",
-    "Paremmat toimitusketjut",
-    "Suurempi kassavirta",
-    "Suuremmat tulot",
-    "Suuremmat varastot",
-    "Suuremmat resurssivarannot",
-    "Suurempi henkilöstö",
-    "Suurempi kapasiteetti",
-    "Suurempi toimintavapaus",
-    "Suurempi päätösvalta",
-    "Uusien komentojen avaaminen",
-    "Uusien dialogivaihtoehtojen avaaminen",
-    "Uusien tutkimuskysymysten avaaminen",
-    "Uusien tehtävätyyppien avaaminen",
-    "Uusien rakennustyyppien avaaminen",
-    "Uusien toimintojen avaaminen",
-    "Uusien kykyjen avaaminen",
-    "Uusien strategioiden avaaminen",
-    "Uusien reittien avaaminen",
-    "Uusien kauppareittien avaaminen",
-    "Uusien kulkuyhteyksien avaaminen",
-    "Uusien tietokanavien avaaminen",
-    "Uusien poliittisten vaihtoehtojen avaaminen",
-    "Uusien lakien avaaminen",
-    "Uusien diplomatiavaihtoehtojen avaaminen",
-    "Uusien tutkimustasojen avaaminen",
-    "Uusien teknologiapuiden avaaminen",
-    "Uusien valmistusreseptien avaaminen",
-    "Uusien rakennusreseptien avaaminen",
-    "Uusien esineiden valmistaminen",
-    "Esineiden päivittäminen",
-    "Työkalujen päivittäminen",
-    "Ajoneuvojen päivittäminen",
-    "Rakennusten päivittäminen",
-    "Tukikohdan päivittäminen",
-    "Kaupungin päivittäminen",
-    "Avaruusaluksen päivittäminen",
-    "Organisaation prosessien parantaminen",
-    "Työprosessien automatisointi",
-    "Turhien työvaiheiden poistaminen",
-    "Uusien työnkulkujen rakentaminen",
-    "Delegoinnin avaaminen",
-    "Automaation avaaminen",
-    "Alaisten itsenäisyyden lisääminen",
-    "Tehtävien delegointi tekoälylle",
-    "Rutiinitehtävien automatisointi",
-    "Pelaajan siirtyminen suorittajasta johtajaksi",
-    "Pelaajan siirtyminen johtajasta strategiksi",
-    "Pelaajan siirtyminen tarkkailijasta vaikuttajaksi",
-    "Pelaajan siirtyminen ulkopuolisesta sisäpiiriläiseksi",
-    "Pelaajan siirtyminen aloittelijasta asiantuntijaksi",
-    "Pelaajan siirtyminen tuntemattomasta tunnetuksi",
-    "Pelaajan siirtyminen köyhästä rikkaaksi",
-    "Pelaajan siirtyminen heikosta vaikutusvaltaiseksi",
-    "Pelaajan siirtyminen riippuvaisesta itsenäiseksi",
-    "Pelaajan siirtyminen metsästetystä metsästäjäksi",
-    "Pelaajan siirtyminen työntekijästä omistajaksi",
-    "Pelaajan siirtyminen kansalaisesta poliitikoksi",
-    "Pelaajan siirtyminen sotilaasta komentajaksi",
-    "Pelaajan siirtyminen tutkijasta tutkimusjohtajaksi",
-    "Pelaajan siirtyminen etsivästä tutkinnanjohtajaksi",
-    "Pelaajan siirtyminen yrittäjästä konserninjohtajaksi",
-    "Pelaajan siirtyminen kylänjohtajasta hallitsijaksi",
-    "Pelaajan siirtyminen paikallisesta toimijasta globaaliksi toimijaksi",
-    "Hahmotason nousu",
-    "Kokemuspisteiden kertyminen",
-    "Taitopisteiden saaminen",
-    "Ominaisuuksien kehittäminen",
-    "Erikoistumisen valitseminen",
-    "Uusien perkien avaaminen",
-    "Uusien passiivisten bonusten avaaminen",
-    "Uusien aktiivisten kykyjen avaaminen",
-    "Vanhojen kykyjen tehostuminen",
-    "Kykyjen yhdistely",
-    "Taitopuun kehittäminen",
-    "Roolin erikoistuminen",
-    "Ammatin kehittyminen",
-    "Sertifikaattien hankkiminen",
-    "Koulutuksen suorittaminen",
-    "Oppiarvojen saavuttaminen",
-    "Arvomerkkien saavuttaminen",
-    "Palkintojen saavuttaminen",
-    "Mainearvojen saavuttaminen",
-    "Saavutusten avaaminen",
-    "Uusien loppujen avaaminen",
-    "Uusien aloitustilanteiden avaaminen",
-    "Uusien pelattavien hahmojen avaaminen",
-    "Uusien fraktioiden avaaminen",
-    "Uusien vaikeustasojen avaaminen",
-    "Uusien skenaarioiden avaaminen",
-    "Uusien kampanjoiden avaaminen",
-    "Meta-progression kertyminen",
-    "Pysyvät parannukset pelikertojen välillä",
-    "Pysyvä tieto pelikertojen välillä",
-    "Pysyvät NPC-suhteet pelikertojen välillä",
-    "Pysyvä maailma pelikertojen välillä",
-    "Pysyvät rakennukset pelikertojen välillä",
-    "Pysyvät seuraukset pelikertojen välillä",
-    "Uudet lähtöresurssit pelikertojen välillä",
-    "Uudet lähtöhahmot pelikertojen välillä",
-    "Uudet lähtökyvyt pelikertojen välillä",
-    "Uudet mutaattorit pelikertojen välillä",
-    "Maailman historian kasvaminen pelikertojen välillä",
-    "Aiemman pelaajahahmon muuttuminen NPC:ksi",
-    "Aiemmat saavutukset muuttuvat maailman historiaksi",
-    "Sukupolvien ketju",
-    "Perinnön siirtyminen seuraavalle hahmolle",
-    "Omaisuuden periytyminen",
-    "Taitojen osittainen periytyminen",
-    "Maineen periytyminen",
-    "Velkojen periytyminen",
-    "Salaisuuksien periytyminen",
-    "Vihollisuuksien periytyminen",
-    "Suhteiden periytyminen",
-    "Organisaation periytyminen",
-    "Dynastian kasvu",
-    "Suvun vaikutusvallan kasvu",
-    "Suvun haarautuminen",
-    "Yhteisön kasvu",
-    "Kylän kasvu",
-    "Kaupungin kasvu",
-    "Valtion laajeneminen",
-    "Imperiumin laajeneminen",
-    "Siirtokunnan kasvu",
-    "Väestön kasvu",
-    "Asuinalueiden kasvu",
-    "Tuotantoalueiden kasvu",
-    "Kauppaverkoston kasvu",
-    "Liikenneverkon kasvu",
-    "Tiedusteluverkoston kasvu",
-    "Kontaktiverkoston kasvu",
-    "Vakoojaverkoston kasvu",
-    "Rikollisverkoston kasvu",
-    "Poliittisen kannatuksen kasvu",
-    "Uskonnollisen liikkeen kasvu",
-    "Kultin kasvu",
-    "Armeijan kasvu",
-    "Laivaston kasvu",
-    "Tutkimusorganisaation kasvu",
-    "Yrityksen kasvu",
-    "Markkina-alueen kasvu",
-    "Asiakaskunnan kasvu",
-    "Tuotevalikoiman kasvu",
-    "Palveluvalikoiman kasvu",
-    "Kartan avautuminen vähitellen",
-    "Fog of warin poistuminen",
-    "Piilotettujen alueiden löytyminen",
-    "Salaisten huoneiden löytyminen",
-    "Uusien kerrosten löytyminen",
-    "Uusien reittien löytyminen",
-    "Uusien maailmojen löytyminen",
-    "Uusien ulottuvuuksien löytyminen",
-    "Uusien aikajanojen löytyminen",
-    "Uusien historiallisten kerrostumien löytyminen",
-    "Menneisyyden paljastuminen",
-    "NPC:iden taustojen paljastuminen",
-    "Salaisuuksien paljastuminen",
-    "Organisaation todellisen luonteen paljastuminen",
-    "Maailman todellisen luonteen paljastuminen",
-    "Pelaajan oman menneisyyden paljastuminen",
-    "Pelaajan identiteetin paljastuminen",
-    "Antagonistin motiivien paljastuminen",
-    "Konfliktin todellisen syyn paljastuminen",
-    "Uusien sääntöjen paljastuminen",
-    "Piilotettujen sääntöjen ymmärtäminen",
-    "Pelin järjestelmien syvempi ymmärtäminen",
-    "Uusien mekaniikkojen lisääntyminen",
-    "Vanhojen mekaniikkojen yhdistyminen",
-    "Mekaniikkojen muuttuminen",
-    "Sääntöjen monimutkaistuminen",
-    "Sääntöjen yksinkertaistuminen automaation myötä",
-    "Uusien rajoitteiden syntyminen",
-    "Vanhojen rajoitteiden poistuminen",
-    "Uusien moraalisten ongelmien syntyminen",
-    "Uusien vastuiden syntyminen",
-    "Uusien riskien syntyminen",
-    "Uusien vihollistyyppien syntyminen",
-    "Uusien katastrofien mahdollistuminen",
-    "Uusien poliittisten konfliktien syntyminen",
-    "Uusien sosiaalisten konfliktien syntyminen",
-    "Uusien resurssiongelmien syntyminen",
-    "Pelaajan päätösten vaikutusalueen kasvu",
-    "Pelaajan päätösten peruuttamattomuuden kasvu",
-    "Pelaajan päätösten näkyvyyden kasvu",
-    "Pelaajan vastuun kasvu ihmisistä",
-    "Pelaajan vastuun kasvu taloudesta",
-    "Pelaajan vastuun kasvu turvallisuudesta",
-    "Pelaajan vastuun kasvu politiikasta",
-    "Pelaajan vastuun kasvu historiasta",
-    "Pelaajan vastuun kasvu koko maailmasta",
-    "Uusien ongelmien delegointi",
-    "Vanhojen ongelmien muuttuminen automaattisiksi",
-    "Pelaajan huomion siirtyminen yksityiskohdista kokonaisuuteen",
-    "Pelaajan huomion siirtyminen selviytymisestä kasvuun",
-    "Pelaajan huomion siirtyminen kasvusta valtataisteluun",
-    "Pelaajan huomion siirtyminen valtataistelusta perintöön",
-    "Pelaajan huomion siirtyminen paikallisesta globaaliksi",
-    "Pelaajan huomion siirtyminen materiaalista sosiaaliseen",
-    "Pelaajan huomion siirtyminen sosiaalisesta poliittiseen",
-    "Pelaajan huomion siirtyminen poliittisesta eksistentiaaliseen",
-    "Maailma reagoi yhä vahvemmin pelaajaan",
-    "NPC:t tunnistavat pelaajan maineen",
-    "NPC:t muuttavat käytöstään pelaajan historian perusteella",
-    "Uudet keskustelut avautuvat maineen perusteella",
-    "Uudet mahdollisuudet avautuvat suhteiden perusteella",
-    "Uudet riskit syntyvät maineen perusteella",
-    "Pelaajasta tulee julkisuuden henkilö",
-    "Pelaajasta tulee vallankäyttäjä",
-    "Pelaajasta tulee symboli",
-    "Pelaajasta tulee legenda",
-    "Pelaajasta tulee historiallinen hahmo",
-    "Pelaajan teoista syntyy myyttejä",
-    "Pelaajan päätökset muuttuvat tulevien sukupolvien lähtötilanteeksi",
-    "Pelaaja rakentaa jotain itseään suurempaa",
-    "Pelaaja valmistautuu seuraajansa tuloon",
-    "Pelaaja valitsee seuraajan",
-    "Pelaaja kouluttaa seuraajan",
-    "Pelaaja siirtää vastuuta seuraajalle",
-    "Pelaajan kuolema ei lopeta peliä",
-    "Peli jatkuu seuraavalla sukupolvella",
-    "Peli jatkuu seuraavalla johtajalla",
-    "Peli jatkuu uudella organisaatiolla",
-    "Peli jatkuu muuttuneessa maailmassa"
+    {
+      "id": "progression-0001",
+      "text": "Paremmat työkalut"
+    },
+    {
+      "id": "progression-0002",
+      "text": "Uusi tieto"
+    },
+    {
+      "id": "progression-0003",
+      "text": "Suurempi vastuu"
+    },
+    {
+      "id": "progression-0004",
+      "text": "Organisaation kasvu"
+    },
+    {
+      "id": "progression-0005",
+      "text": "Kartan avautuminen"
+    },
+    {
+      "id": "progression-0006",
+      "text": "Uudet ihmiset"
+    },
+    {
+      "id": "progression-0007",
+      "text": "Uudet säännöt"
+    },
+    {
+      "id": "progression-0008",
+      "text": "Uudet kyvyt"
+    },
+    {
+      "id": "progression-0009",
+      "text": "Uudet taidot"
+    },
+    {
+      "id": "progression-0010",
+      "text": "Uudet toimintavaihtoehdot"
+    },
+    {
+      "id": "progression-0011",
+      "text": "Uudet rakennukset"
+    },
+    {
+      "id": "progression-0012",
+      "text": "Uudet huoneet"
+    },
+    {
+      "id": "progression-0013",
+      "text": "Uudet alueet"
+    },
+    {
+      "id": "progression-0014",
+      "text": "Uudet kaupungit"
+    },
+    {
+      "id": "progression-0015",
+      "text": "Uudet valtiot"
+    },
+    {
+      "id": "progression-0016",
+      "text": "Uudet planeetat"
+    },
+    {
+      "id": "progression-0017",
+      "text": "Uudet aikakaudet"
+    },
+    {
+      "id": "progression-0018",
+      "text": "Uudet teknologiat"
+    },
+    {
+      "id": "progression-0019",
+      "text": "Uudet tutkimussuunnat"
+    },
+    {
+      "id": "progression-0020",
+      "text": "Uudet tuotantoketjut"
+    },
+    {
+      "id": "progression-0021",
+      "text": "Uudet resurssit"
+    },
+    {
+      "id": "progression-0022",
+      "text": "Uudet markkinat"
+    },
+    {
+      "id": "progression-0023",
+      "text": "Uudet asiakkaat"
+    },
+    {
+      "id": "progression-0024",
+      "text": "Uudet työntekijät"
+    },
+    {
+      "id": "progression-0025",
+      "text": "Uudet asiantuntijat"
+    },
+    {
+      "id": "progression-0026",
+      "text": "Uudet osastot"
+    },
+    {
+      "id": "progression-0027",
+      "text": "Uudet organisaatiot"
+    },
+    {
+      "id": "progression-0028",
+      "text": "Uudet liittolaiset"
+    },
+    {
+      "id": "progression-0029",
+      "text": "Uudet viholliset"
+    },
+    {
+      "id": "progression-0030",
+      "text": "Uudet kilpailijat"
+    },
+    {
+      "id": "progression-0031",
+      "text": "Uudet fraktiot"
+    },
+    {
+      "id": "progression-0032",
+      "text": "Uudet suhteet"
+    },
+    {
+      "id": "progression-0033",
+      "text": "Uudet kontaktit"
+    },
+    {
+      "id": "progression-0034",
+      "text": "Uudet tietolähteet"
+    },
+    {
+      "id": "progression-0035",
+      "text": "Uudet salaisuudet"
+    },
+    {
+      "id": "progression-0036",
+      "text": "Uudet vihjeet"
+    },
+    {
+      "id": "progression-0037",
+      "text": "Uudet todistusaineistot"
+    },
+    {
+      "id": "progression-0038",
+      "text": "Uudet tutkimusmenetelmät"
+    },
+    {
+      "id": "progression-0039",
+      "text": "Uudet raportit"
+    },
+    {
+      "id": "progression-0040",
+      "text": "Uudet tietokannat"
+    },
+    {
+      "id": "progression-0041",
+      "text": "Uudet pääsyoikeudet"
+    },
+    {
+      "id": "progression-0042",
+      "text": "Korkeampi turvaluokitus"
+    },
+    {
+      "id": "progression-0043",
+      "text": "Parempi maine"
+    },
+    {
+      "id": "progression-0044",
+      "text": "Suurempi vaikutusvalta"
+    },
+    {
+      "id": "progression-0045",
+      "text": "Suurempi poliittinen valta"
+    },
+    {
+      "id": "progression-0046",
+      "text": "Suurempi taloudellinen valta"
+    },
+    {
+      "id": "progression-0047",
+      "text": "Suurempi sotilaallinen valta"
+    },
+    {
+      "id": "progression-0048",
+      "text": "Suurempi sosiaalinen asema"
+    },
+    {
+      "id": "progression-0049",
+      "text": "Korkeampi arvoasema"
+    },
+    {
+      "id": "progression-0050",
+      "text": "Ylennys"
+    },
+    {
+      "id": "progression-0051",
+      "text": "Uusi titteli"
+    },
+    {
+      "id": "progression-0052",
+      "text": "Uusi virka"
+    },
+    {
+      "id": "progression-0053",
+      "text": "Johtajan asema"
+    },
+    {
+      "id": "progression-0054",
+      "text": "Omien alaisten saaminen"
+    },
+    {
+      "id": "progression-0055",
+      "text": "Suuremman tiimin johtaminen"
+    },
+    {
+      "id": "progression-0056",
+      "text": "Useampien osastojen johtaminen"
+    },
+    {
+      "id": "progression-0057",
+      "text": "Kokonaisen organisaation johtaminen"
+    },
+    {
+      "id": "progression-0058",
+      "text": "Kaupungin johtaminen"
+    },
+    {
+      "id": "progression-0059",
+      "text": "Valtion johtaminen"
+    },
+    {
+      "id": "progression-0060",
+      "text": "Sivilisaation johtaminen"
+    },
+    {
+      "id": "progression-0061",
+      "text": "Pienemmistä päätöksistä suurempiin päätöksiin siirtyminen"
+    },
+    {
+      "id": "progression-0062",
+      "text": "Paikallisista ongelmista strategisiin ongelmiin siirtyminen"
+    },
+    {
+      "id": "progression-0063",
+      "text": "Yksilötasolta organisaatiotasolle siirtyminen"
+    },
+    {
+      "id": "progression-0064",
+      "text": "Organisaatiotasolta yhteiskuntatasolle siirtyminen"
+    },
+    {
+      "id": "progression-0065",
+      "text": "Mikrotasolta makrotasolle siirtyminen"
+    },
+    {
+      "id": "progression-0066",
+      "text": "Yhä vaikeammat päätökset"
+    },
+    {
+      "id": "progression-0067",
+      "text": "Yhä suuremmat seuraukset"
+    },
+    {
+      "id": "progression-0068",
+      "text": "Yhä lyhyemmät määräajat"
+    },
+    {
+      "id": "progression-0069",
+      "text": "Yhä monimutkaisemmat tilanteet"
+    },
+    {
+      "id": "progression-0070",
+      "text": "Yhä enemmän samanaikaisia ongelmia"
+    },
+    {
+      "id": "progression-0071",
+      "text": "Yhä enemmän hallittavia resursseja"
+    },
+    {
+      "id": "progression-0072",
+      "text": "Yhä enemmän hallittavia ihmisiä"
+    },
+    {
+      "id": "progression-0073",
+      "text": "Yhä suurempi kartta"
+    },
+    {
+      "id": "progression-0074",
+      "text": "Yhä suurempi organisaatio"
+    },
+    {
+      "id": "progression-0075",
+      "text": "Yhä suurempi väestö"
+    },
+    {
+      "id": "progression-0076",
+      "text": "Yhä suurempi tuotanto"
+    },
+    {
+      "id": "progression-0077",
+      "text": "Yhä suurempi budjetti"
+    },
+    {
+      "id": "progression-0078",
+      "text": "Yhä suuremmat riskit"
+    },
+    {
+      "id": "progression-0079",
+      "text": "Yhä suurempi vastuu epäonnistumisesta"
+    },
+    {
+      "id": "progression-0080",
+      "text": "Parempi inventaario"
+    },
+    {
+      "id": "progression-0081",
+      "text": "Suurempi inventaario"
+    },
+    {
+      "id": "progression-0082",
+      "text": "Paremmat varusteet"
+    },
+    {
+      "id": "progression-0083",
+      "text": "Harvinaisemmat varusteet"
+    },
+    {
+      "id": "progression-0084",
+      "text": "Paremmat aseet"
+    },
+    {
+      "id": "progression-0085",
+      "text": "Paremmat suojavarusteet"
+    },
+    {
+      "id": "progression-0086",
+      "text": "Paremmat sensorit"
+    },
+    {
+      "id": "progression-0087",
+      "text": "Paremmat kamerat"
+    },
+    {
+      "id": "progression-0088",
+      "text": "Paremmat ajoneuvot"
+    },
+    {
+      "id": "progression-0089",
+      "text": "Paremmat koneet"
+    },
+    {
+      "id": "progression-0090",
+      "text": "Paremmat robotit"
+    },
+    {
+      "id": "progression-0091",
+      "text": "Paremmat tietokoneet"
+    },
+    {
+      "id": "progression-0092",
+      "text": "Paremmat ohjelmistot"
+    },
+    {
+      "id": "progression-0093",
+      "text": "Parempi automaatio"
+    },
+    {
+      "id": "progression-0094",
+      "text": "Parempi infrastruktuuri"
+    },
+    {
+      "id": "progression-0095",
+      "text": "Parempi energiantuotanto"
+    },
+    {
+      "id": "progression-0096",
+      "text": "Parempi vedenjakelu"
+    },
+    {
+      "id": "progression-0097",
+      "text": "Parempi logistiikka"
+    },
+    {
+      "id": "progression-0098",
+      "text": "Paremmat kuljetusreitit"
+    },
+    {
+      "id": "progression-0099",
+      "text": "Parempi varastointi"
+    },
+    {
+      "id": "progression-0100",
+      "text": "Parempi turvallisuus"
+    },
+    {
+      "id": "progression-0101",
+      "text": "Parempi puolustus"
+    },
+    {
+      "id": "progression-0102",
+      "text": "Parempi terveydenhuolto"
+    },
+    {
+      "id": "progression-0103",
+      "text": "Parempi koulutus"
+    },
+    {
+      "id": "progression-0104",
+      "text": "Parempi tiedustelu"
+    },
+    {
+      "id": "progression-0105",
+      "text": "Parempi tutkimuskyky"
+    },
+    {
+      "id": "progression-0106",
+      "text": "Parempi tuotantotehokkuus"
+    },
+    {
+      "id": "progression-0107",
+      "text": "Parempi resurssitehokkuus"
+    },
+    {
+      "id": "progression-0108",
+      "text": "Parempi työntekijöiden tehokkuus"
+    },
+    {
+      "id": "progression-0109",
+      "text": "Parempi moraali"
+    },
+    {
+      "id": "progression-0110",
+      "text": "Parempi luottamus"
+    },
+    {
+      "id": "progression-0111",
+      "text": "Parempi maine eri ryhmissä"
+    },
+    {
+      "id": "progression-0112",
+      "text": "Paremmat diplomaattisuhteet"
+    },
+    {
+      "id": "progression-0113",
+      "text": "Paremmat kaupankäyntiehdot"
+    },
+    {
+      "id": "progression-0114",
+      "text": "Paremmat hinnat"
+    },
+    {
+      "id": "progression-0115",
+      "text": "Paremmat sopimukset"
+    },
+    {
+      "id": "progression-0116",
+      "text": "Paremmat lainat"
+    },
+    {
+      "id": "progression-0117",
+      "text": "Paremmat toimitusketjut"
+    },
+    {
+      "id": "progression-0118",
+      "text": "Suurempi kassavirta"
+    },
+    {
+      "id": "progression-0119",
+      "text": "Suuremmat tulot"
+    },
+    {
+      "id": "progression-0120",
+      "text": "Suuremmat varastot"
+    },
+    {
+      "id": "progression-0121",
+      "text": "Suuremmat resurssivarannot"
+    },
+    {
+      "id": "progression-0122",
+      "text": "Suurempi henkilöstö"
+    },
+    {
+      "id": "progression-0123",
+      "text": "Suurempi kapasiteetti"
+    },
+    {
+      "id": "progression-0124",
+      "text": "Suurempi toimintavapaus"
+    },
+    {
+      "id": "progression-0125",
+      "text": "Suurempi päätösvalta"
+    },
+    {
+      "id": "progression-0126",
+      "text": "Uusien komentojen avaaminen"
+    },
+    {
+      "id": "progression-0127",
+      "text": "Uusien dialogivaihtoehtojen avaaminen"
+    },
+    {
+      "id": "progression-0128",
+      "text": "Uusien tutkimuskysymysten avaaminen"
+    },
+    {
+      "id": "progression-0129",
+      "text": "Uusien tehtävätyyppien avaaminen"
+    },
+    {
+      "id": "progression-0130",
+      "text": "Uusien rakennustyyppien avaaminen"
+    },
+    {
+      "id": "progression-0131",
+      "text": "Uusien toimintojen avaaminen"
+    },
+    {
+      "id": "progression-0132",
+      "text": "Uusien kykyjen avaaminen"
+    },
+    {
+      "id": "progression-0133",
+      "text": "Uusien strategioiden avaaminen"
+    },
+    {
+      "id": "progression-0134",
+      "text": "Uusien reittien avaaminen"
+    },
+    {
+      "id": "progression-0135",
+      "text": "Uusien kauppareittien avaaminen"
+    },
+    {
+      "id": "progression-0136",
+      "text": "Uusien kulkuyhteyksien avaaminen"
+    },
+    {
+      "id": "progression-0137",
+      "text": "Uusien tietokanavien avaaminen"
+    },
+    {
+      "id": "progression-0138",
+      "text": "Uusien poliittisten vaihtoehtojen avaaminen"
+    },
+    {
+      "id": "progression-0139",
+      "text": "Uusien lakien avaaminen"
+    },
+    {
+      "id": "progression-0140",
+      "text": "Uusien diplomatiavaihtoehtojen avaaminen"
+    },
+    {
+      "id": "progression-0141",
+      "text": "Uusien tutkimustasojen avaaminen"
+    },
+    {
+      "id": "progression-0142",
+      "text": "Uusien teknologiapuiden avaaminen"
+    },
+    {
+      "id": "progression-0143",
+      "text": "Uusien valmistusreseptien avaaminen"
+    },
+    {
+      "id": "progression-0144",
+      "text": "Uusien rakennusreseptien avaaminen"
+    },
+    {
+      "id": "progression-0145",
+      "text": "Uusien esineiden valmistaminen"
+    },
+    {
+      "id": "progression-0146",
+      "text": "Esineiden päivittäminen"
+    },
+    {
+      "id": "progression-0147",
+      "text": "Työkalujen päivittäminen"
+    },
+    {
+      "id": "progression-0148",
+      "text": "Ajoneuvojen päivittäminen"
+    },
+    {
+      "id": "progression-0149",
+      "text": "Rakennusten päivittäminen"
+    },
+    {
+      "id": "progression-0150",
+      "text": "Tukikohdan päivittäminen"
+    },
+    {
+      "id": "progression-0151",
+      "text": "Kaupungin päivittäminen"
+    },
+    {
+      "id": "progression-0152",
+      "text": "Avaruusaluksen päivittäminen"
+    },
+    {
+      "id": "progression-0153",
+      "text": "Organisaation prosessien parantaminen"
+    },
+    {
+      "id": "progression-0154",
+      "text": "Työprosessien automatisointi"
+    },
+    {
+      "id": "progression-0155",
+      "text": "Turhien työvaiheiden poistaminen"
+    },
+    {
+      "id": "progression-0156",
+      "text": "Uusien työnkulkujen rakentaminen"
+    },
+    {
+      "id": "progression-0157",
+      "text": "Delegoinnin avaaminen"
+    },
+    {
+      "id": "progression-0158",
+      "text": "Automaation avaaminen"
+    },
+    {
+      "id": "progression-0159",
+      "text": "Alaisten itsenäisyyden lisääminen"
+    },
+    {
+      "id": "progression-0160",
+      "text": "Tehtävien delegointi tekoälylle"
+    },
+    {
+      "id": "progression-0161",
+      "text": "Rutiinitehtävien automatisointi"
+    },
+    {
+      "id": "progression-0162",
+      "text": "Pelaajan siirtyminen suorittajasta johtajaksi"
+    },
+    {
+      "id": "progression-0163",
+      "text": "Pelaajan siirtyminen johtajasta strategiksi"
+    },
+    {
+      "id": "progression-0164",
+      "text": "Pelaajan siirtyminen tarkkailijasta vaikuttajaksi"
+    },
+    {
+      "id": "progression-0165",
+      "text": "Pelaajan siirtyminen ulkopuolisesta sisäpiiriläiseksi"
+    },
+    {
+      "id": "progression-0166",
+      "text": "Pelaajan siirtyminen aloittelijasta asiantuntijaksi"
+    },
+    {
+      "id": "progression-0167",
+      "text": "Pelaajan siirtyminen tuntemattomasta tunnetuksi"
+    },
+    {
+      "id": "progression-0168",
+      "text": "Pelaajan siirtyminen köyhästä rikkaaksi"
+    },
+    {
+      "id": "progression-0169",
+      "text": "Pelaajan siirtyminen heikosta vaikutusvaltaiseksi"
+    },
+    {
+      "id": "progression-0170",
+      "text": "Pelaajan siirtyminen riippuvaisesta itsenäiseksi"
+    },
+    {
+      "id": "progression-0171",
+      "text": "Pelaajan siirtyminen metsästetystä metsästäjäksi"
+    },
+    {
+      "id": "progression-0172",
+      "text": "Pelaajan siirtyminen työntekijästä omistajaksi"
+    },
+    {
+      "id": "progression-0173",
+      "text": "Pelaajan siirtyminen kansalaisesta poliitikoksi"
+    },
+    {
+      "id": "progression-0174",
+      "text": "Pelaajan siirtyminen sotilaasta komentajaksi"
+    },
+    {
+      "id": "progression-0175",
+      "text": "Pelaajan siirtyminen tutkijasta tutkimusjohtajaksi"
+    },
+    {
+      "id": "progression-0176",
+      "text": "Pelaajan siirtyminen etsivästä tutkinnanjohtajaksi"
+    },
+    {
+      "id": "progression-0177",
+      "text": "Pelaajan siirtyminen yrittäjästä konserninjohtajaksi"
+    },
+    {
+      "id": "progression-0178",
+      "text": "Pelaajan siirtyminen kylänjohtajasta hallitsijaksi"
+    },
+    {
+      "id": "progression-0179",
+      "text": "Pelaajan siirtyminen paikallisesta toimijasta globaaliksi toimijaksi"
+    },
+    {
+      "id": "progression-0180",
+      "text": "Hahmotason nousu"
+    },
+    {
+      "id": "progression-0181",
+      "text": "Kokemuspisteiden kertyminen"
+    },
+    {
+      "id": "progression-0182",
+      "text": "Taitopisteiden saaminen"
+    },
+    {
+      "id": "progression-0183",
+      "text": "Ominaisuuksien kehittäminen"
+    },
+    {
+      "id": "progression-0184",
+      "text": "Erikoistumisen valitseminen"
+    },
+    {
+      "id": "progression-0185",
+      "text": "Uusien perkien avaaminen"
+    },
+    {
+      "id": "progression-0186",
+      "text": "Uusien passiivisten bonusten avaaminen"
+    },
+    {
+      "id": "progression-0187",
+      "text": "Uusien aktiivisten kykyjen avaaminen"
+    },
+    {
+      "id": "progression-0188",
+      "text": "Vanhojen kykyjen tehostuminen"
+    },
+    {
+      "id": "progression-0189",
+      "text": "Kykyjen yhdistely"
+    },
+    {
+      "id": "progression-0190",
+      "text": "Taitopuun kehittäminen"
+    },
+    {
+      "id": "progression-0191",
+      "text": "Roolin erikoistuminen"
+    },
+    {
+      "id": "progression-0192",
+      "text": "Ammatin kehittyminen"
+    },
+    {
+      "id": "progression-0193",
+      "text": "Sertifikaattien hankkiminen"
+    },
+    {
+      "id": "progression-0194",
+      "text": "Koulutuksen suorittaminen"
+    },
+    {
+      "id": "progression-0195",
+      "text": "Oppiarvojen saavuttaminen"
+    },
+    {
+      "id": "progression-0196",
+      "text": "Arvomerkkien saavuttaminen"
+    },
+    {
+      "id": "progression-0197",
+      "text": "Palkintojen saavuttaminen"
+    },
+    {
+      "id": "progression-0198",
+      "text": "Mainearvojen saavuttaminen"
+    },
+    {
+      "id": "progression-0199",
+      "text": "Saavutusten avaaminen"
+    },
+    {
+      "id": "progression-0200",
+      "text": "Uusien loppujen avaaminen"
+    },
+    {
+      "id": "progression-0201",
+      "text": "Uusien aloitustilanteiden avaaminen"
+    },
+    {
+      "id": "progression-0202",
+      "text": "Uusien pelattavien hahmojen avaaminen"
+    },
+    {
+      "id": "progression-0203",
+      "text": "Uusien fraktioiden avaaminen"
+    },
+    {
+      "id": "progression-0204",
+      "text": "Uusien vaikeustasojen avaaminen"
+    },
+    {
+      "id": "progression-0205",
+      "text": "Uusien skenaarioiden avaaminen"
+    },
+    {
+      "id": "progression-0206",
+      "text": "Uusien kampanjoiden avaaminen"
+    },
+    {
+      "id": "progression-0207",
+      "text": "Meta-progression kertyminen"
+    },
+    {
+      "id": "progression-0208",
+      "text": "Pysyvät parannukset pelikertojen välillä"
+    },
+    {
+      "id": "progression-0209",
+      "text": "Pysyvä tieto pelikertojen välillä"
+    },
+    {
+      "id": "progression-0210",
+      "text": "Pysyvät NPC-suhteet pelikertojen välillä"
+    },
+    {
+      "id": "progression-0211",
+      "text": "Pysyvä maailma pelikertojen välillä"
+    },
+    {
+      "id": "progression-0212",
+      "text": "Pysyvät rakennukset pelikertojen välillä"
+    },
+    {
+      "id": "progression-0213",
+      "text": "Pysyvät seuraukset pelikertojen välillä"
+    },
+    {
+      "id": "progression-0214",
+      "text": "Uudet lähtöresurssit pelikertojen välillä"
+    },
+    {
+      "id": "progression-0215",
+      "text": "Uudet lähtöhahmot pelikertojen välillä"
+    },
+    {
+      "id": "progression-0216",
+      "text": "Uudet lähtökyvyt pelikertojen välillä"
+    },
+    {
+      "id": "progression-0217",
+      "text": "Uudet mutaattorit pelikertojen välillä"
+    },
+    {
+      "id": "progression-0218",
+      "text": "Maailman historian kasvaminen pelikertojen välillä"
+    },
+    {
+      "id": "progression-0219",
+      "text": "Aiemman pelaajahahmon muuttuminen NPC:ksi"
+    },
+    {
+      "id": "progression-0220",
+      "text": "Aiemmat saavutukset muuttuvat maailman historiaksi"
+    },
+    {
+      "id": "progression-0221",
+      "text": "Sukupolvien ketju"
+    },
+    {
+      "id": "progression-0222",
+      "text": "Perinnön siirtyminen seuraavalle hahmolle"
+    },
+    {
+      "id": "progression-0223",
+      "text": "Omaisuuden periytyminen"
+    },
+    {
+      "id": "progression-0224",
+      "text": "Taitojen osittainen periytyminen"
+    },
+    {
+      "id": "progression-0225",
+      "text": "Maineen periytyminen"
+    },
+    {
+      "id": "progression-0226",
+      "text": "Velkojen periytyminen"
+    },
+    {
+      "id": "progression-0227",
+      "text": "Salaisuuksien periytyminen"
+    },
+    {
+      "id": "progression-0228",
+      "text": "Vihollisuuksien periytyminen"
+    },
+    {
+      "id": "progression-0229",
+      "text": "Suhteiden periytyminen"
+    },
+    {
+      "id": "progression-0230",
+      "text": "Organisaation periytyminen"
+    },
+    {
+      "id": "progression-0231",
+      "text": "Dynastian kasvu"
+    },
+    {
+      "id": "progression-0232",
+      "text": "Suvun vaikutusvallan kasvu"
+    },
+    {
+      "id": "progression-0233",
+      "text": "Suvun haarautuminen"
+    },
+    {
+      "id": "progression-0234",
+      "text": "Yhteisön kasvu"
+    },
+    {
+      "id": "progression-0235",
+      "text": "Kylän kasvu"
+    },
+    {
+      "id": "progression-0236",
+      "text": "Kaupungin kasvu"
+    },
+    {
+      "id": "progression-0237",
+      "text": "Valtion laajeneminen"
+    },
+    {
+      "id": "progression-0238",
+      "text": "Imperiumin laajeneminen"
+    },
+    {
+      "id": "progression-0239",
+      "text": "Siirtokunnan kasvu"
+    },
+    {
+      "id": "progression-0240",
+      "text": "Väestön kasvu"
+    },
+    {
+      "id": "progression-0241",
+      "text": "Asuinalueiden kasvu"
+    },
+    {
+      "id": "progression-0242",
+      "text": "Tuotantoalueiden kasvu"
+    },
+    {
+      "id": "progression-0243",
+      "text": "Kauppaverkoston kasvu"
+    },
+    {
+      "id": "progression-0244",
+      "text": "Liikenneverkon kasvu"
+    },
+    {
+      "id": "progression-0245",
+      "text": "Tiedusteluverkoston kasvu"
+    },
+    {
+      "id": "progression-0246",
+      "text": "Kontaktiverkoston kasvu"
+    },
+    {
+      "id": "progression-0247",
+      "text": "Vakoojaverkoston kasvu"
+    },
+    {
+      "id": "progression-0248",
+      "text": "Rikollisverkoston kasvu"
+    },
+    {
+      "id": "progression-0249",
+      "text": "Poliittisen kannatuksen kasvu"
+    },
+    {
+      "id": "progression-0250",
+      "text": "Uskonnollisen liikkeen kasvu"
+    },
+    {
+      "id": "progression-0251",
+      "text": "Kultin kasvu"
+    },
+    {
+      "id": "progression-0252",
+      "text": "Armeijan kasvu"
+    },
+    {
+      "id": "progression-0253",
+      "text": "Laivaston kasvu"
+    },
+    {
+      "id": "progression-0254",
+      "text": "Tutkimusorganisaation kasvu"
+    },
+    {
+      "id": "progression-0255",
+      "text": "Yrityksen kasvu"
+    },
+    {
+      "id": "progression-0256",
+      "text": "Markkina-alueen kasvu"
+    },
+    {
+      "id": "progression-0257",
+      "text": "Asiakaskunnan kasvu"
+    },
+    {
+      "id": "progression-0258",
+      "text": "Tuotevalikoiman kasvu"
+    },
+    {
+      "id": "progression-0259",
+      "text": "Palveluvalikoiman kasvu"
+    },
+    {
+      "id": "progression-0260",
+      "text": "Kartan avautuminen vähitellen"
+    },
+    {
+      "id": "progression-0261",
+      "text": "Fog of warin poistuminen"
+    },
+    {
+      "id": "progression-0262",
+      "text": "Piilotettujen alueiden löytyminen"
+    },
+    {
+      "id": "progression-0263",
+      "text": "Salaisten huoneiden löytyminen"
+    },
+    {
+      "id": "progression-0264",
+      "text": "Uusien kerrosten löytyminen"
+    },
+    {
+      "id": "progression-0265",
+      "text": "Uusien reittien löytyminen"
+    },
+    {
+      "id": "progression-0266",
+      "text": "Uusien maailmojen löytyminen"
+    },
+    {
+      "id": "progression-0267",
+      "text": "Uusien ulottuvuuksien löytyminen"
+    },
+    {
+      "id": "progression-0268",
+      "text": "Uusien aikajanojen löytyminen"
+    },
+    {
+      "id": "progression-0269",
+      "text": "Uusien historiallisten kerrostumien löytyminen"
+    },
+    {
+      "id": "progression-0270",
+      "text": "Menneisyyden paljastuminen"
+    },
+    {
+      "id": "progression-0271",
+      "text": "NPC:iden taustojen paljastuminen"
+    },
+    {
+      "id": "progression-0272",
+      "text": "Salaisuuksien paljastuminen"
+    },
+    {
+      "id": "progression-0273",
+      "text": "Organisaation todellisen luonteen paljastuminen"
+    },
+    {
+      "id": "progression-0274",
+      "text": "Maailman todellisen luonteen paljastuminen"
+    },
+    {
+      "id": "progression-0275",
+      "text": "Pelaajan oman menneisyyden paljastuminen"
+    },
+    {
+      "id": "progression-0276",
+      "text": "Pelaajan identiteetin paljastuminen"
+    },
+    {
+      "id": "progression-0277",
+      "text": "Antagonistin motiivien paljastuminen"
+    },
+    {
+      "id": "progression-0278",
+      "text": "Konfliktin todellisen syyn paljastuminen"
+    },
+    {
+      "id": "progression-0279",
+      "text": "Uusien sääntöjen paljastuminen"
+    },
+    {
+      "id": "progression-0280",
+      "text": "Piilotettujen sääntöjen ymmärtäminen"
+    },
+    {
+      "id": "progression-0281",
+      "text": "Pelin järjestelmien syvempi ymmärtäminen"
+    },
+    {
+      "id": "progression-0282",
+      "text": "Uusien mekaniikkojen lisääntyminen"
+    },
+    {
+      "id": "progression-0283",
+      "text": "Vanhojen mekaniikkojen yhdistyminen"
+    },
+    {
+      "id": "progression-0284",
+      "text": "Mekaniikkojen muuttuminen"
+    },
+    {
+      "id": "progression-0285",
+      "text": "Sääntöjen monimutkaistuminen"
+    },
+    {
+      "id": "progression-0286",
+      "text": "Sääntöjen yksinkertaistuminen automaation myötä"
+    },
+    {
+      "id": "progression-0287",
+      "text": "Uusien rajoitteiden syntyminen"
+    },
+    {
+      "id": "progression-0288",
+      "text": "Vanhojen rajoitteiden poistuminen"
+    },
+    {
+      "id": "progression-0289",
+      "text": "Uusien moraalisten ongelmien syntyminen"
+    },
+    {
+      "id": "progression-0290",
+      "text": "Uusien vastuiden syntyminen"
+    },
+    {
+      "id": "progression-0291",
+      "text": "Uusien riskien syntyminen"
+    },
+    {
+      "id": "progression-0292",
+      "text": "Uusien vihollistyyppien syntyminen"
+    },
+    {
+      "id": "progression-0293",
+      "text": "Uusien katastrofien mahdollistuminen"
+    },
+    {
+      "id": "progression-0294",
+      "text": "Uusien poliittisten konfliktien syntyminen"
+    },
+    {
+      "id": "progression-0295",
+      "text": "Uusien sosiaalisten konfliktien syntyminen"
+    },
+    {
+      "id": "progression-0296",
+      "text": "Uusien resurssiongelmien syntyminen"
+    },
+    {
+      "id": "progression-0297",
+      "text": "Pelaajan päätösten vaikutusalueen kasvu"
+    },
+    {
+      "id": "progression-0298",
+      "text": "Pelaajan päätösten peruuttamattomuuden kasvu"
+    },
+    {
+      "id": "progression-0299",
+      "text": "Pelaajan päätösten näkyvyyden kasvu"
+    },
+    {
+      "id": "progression-0300",
+      "text": "Pelaajan vastuun kasvu ihmisistä"
+    },
+    {
+      "id": "progression-0301",
+      "text": "Pelaajan vastuun kasvu taloudesta"
+    },
+    {
+      "id": "progression-0302",
+      "text": "Pelaajan vastuun kasvu turvallisuudesta"
+    },
+    {
+      "id": "progression-0303",
+      "text": "Pelaajan vastuun kasvu politiikasta"
+    },
+    {
+      "id": "progression-0304",
+      "text": "Pelaajan vastuun kasvu historiasta"
+    },
+    {
+      "id": "progression-0305",
+      "text": "Pelaajan vastuun kasvu koko maailmasta"
+    },
+    {
+      "id": "progression-0306",
+      "text": "Uusien ongelmien delegointi"
+    },
+    {
+      "id": "progression-0307",
+      "text": "Vanhojen ongelmien muuttuminen automaattisiksi"
+    },
+    {
+      "id": "progression-0308",
+      "text": "Pelaajan huomion siirtyminen yksityiskohdista kokonaisuuteen"
+    },
+    {
+      "id": "progression-0309",
+      "text": "Pelaajan huomion siirtyminen selviytymisestä kasvuun"
+    },
+    {
+      "id": "progression-0310",
+      "text": "Pelaajan huomion siirtyminen kasvusta valtataisteluun"
+    },
+    {
+      "id": "progression-0311",
+      "text": "Pelaajan huomion siirtyminen valtataistelusta perintöön"
+    },
+    {
+      "id": "progression-0312",
+      "text": "Pelaajan huomion siirtyminen paikallisesta globaaliksi"
+    },
+    {
+      "id": "progression-0313",
+      "text": "Pelaajan huomion siirtyminen materiaalista sosiaaliseen"
+    },
+    {
+      "id": "progression-0314",
+      "text": "Pelaajan huomion siirtyminen sosiaalisesta poliittiseen"
+    },
+    {
+      "id": "progression-0315",
+      "text": "Pelaajan huomion siirtyminen poliittisesta eksistentiaaliseen"
+    },
+    {
+      "id": "progression-0316",
+      "text": "Maailma reagoi yhä vahvemmin pelaajaan"
+    },
+    {
+      "id": "progression-0317",
+      "text": "NPC:t tunnistavat pelaajan maineen"
+    },
+    {
+      "id": "progression-0318",
+      "text": "NPC:t muuttavat käytöstään pelaajan historian perusteella"
+    },
+    {
+      "id": "progression-0319",
+      "text": "Uudet keskustelut avautuvat maineen perusteella"
+    },
+    {
+      "id": "progression-0320",
+      "text": "Uudet mahdollisuudet avautuvat suhteiden perusteella"
+    },
+    {
+      "id": "progression-0321",
+      "text": "Uudet riskit syntyvät maineen perusteella"
+    },
+    {
+      "id": "progression-0322",
+      "text": "Pelaajasta tulee julkisuuden henkilö"
+    },
+    {
+      "id": "progression-0323",
+      "text": "Pelaajasta tulee vallankäyttäjä"
+    },
+    {
+      "id": "progression-0324",
+      "text": "Pelaajasta tulee symboli"
+    },
+    {
+      "id": "progression-0325",
+      "text": "Pelaajasta tulee legenda"
+    },
+    {
+      "id": "progression-0326",
+      "text": "Pelaajasta tulee historiallinen hahmo"
+    },
+    {
+      "id": "progression-0327",
+      "text": "Pelaajan teoista syntyy myyttejä"
+    },
+    {
+      "id": "progression-0328",
+      "text": "Pelaajan päätökset muuttuvat tulevien sukupolvien lähtötilanteeksi"
+    },
+    {
+      "id": "progression-0329",
+      "text": "Pelaaja rakentaa jotain itseään suurempaa"
+    },
+    {
+      "id": "progression-0330",
+      "text": "Pelaaja valmistautuu seuraajansa tuloon"
+    },
+    {
+      "id": "progression-0331",
+      "text": "Pelaaja valitsee seuraajan"
+    },
+    {
+      "id": "progression-0332",
+      "text": "Pelaaja kouluttaa seuraajan"
+    },
+    {
+      "id": "progression-0333",
+      "text": "Pelaaja siirtää vastuuta seuraajalle"
+    },
+    {
+      "id": "progression-0334",
+      "text": "Pelaajan kuolema ei lopeta peliä"
+    },
+    {
+      "id": "progression-0335",
+      "text": "Peli jatkuu seuraavalla sukupolvella"
+    },
+    {
+      "id": "progression-0336",
+      "text": "Peli jatkuu seuraavalla johtajalla"
+    },
+    {
+      "id": "progression-0337",
+      "text": "Peli jatkuu uudella organisaatiolla"
+    },
+    {
+      "id": "progression-0338",
+      "text": "Peli jatkuu muuttuneessa maailmassa"
+    }
   ]
 }

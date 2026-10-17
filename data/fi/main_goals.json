@@ -1,290 +1,1148 @@
 {
   "main_goals": [
-    "Selviydy",
-    "Rikastu",
-    "Ratkaise mysteeri",
-    "Pidä organisaatio kasassa",
-    "Paljasta salaisuus",
-    "Rakenna yhteisö",
-    "Estä katastrofi",
-    "Pääse pakoon",
-    "Löydä joku",
-    "Manipuloi järjestelmää",
-    "Pelasta joku",
-    "Suojele yhteisöä",
-    "Valloita alue",
-    "Puolusta aluetta",
-    "Nouse valtaan",
-    "Säilytä valtasi",
-    "Voita vaalit",
-    "Kaada hallinto",
-    "Rakenna valtakunta",
-    "Johda kansakuntaa",
-    "Luo uusi yhteiskunta",
-    "Pidä rauha",
-    "Voita sota",
-    "Estä sota",
-    "Solmi liittouma",
-    "Hajota liittouma",
-    "Palauta järjestys",
-    "Luo kaaos",
-    "Selvitä kuka valehtelee",
-    "Paljasta murhaaja",
-    "Todista syyttömyytesi",
-    "Peitä rikos",
-    "Suorita täydellinen rikos",
-    "Pakene oikeutta",
-    "Nappaa rikollinen",
-    "Rakenna rikollisverkosto",
-    "Tuhoa rikollisverkosto",
-    "Kerää todisteet",
-    "Ratkaise katoaminen",
-    "Löydä kadonnut esine",
-    "Löydä kadonnut henkilö",
-    "Löydä totuus menneisyydestä",
-    "Selvitä oma identiteettisi",
-    "Palauta muistisi",
-    "Selvitä mitä tapahtui",
-    "Selvitä kuka olet",
-    "Selvitä missä olet",
-    "Selvitä miksi olet siellä",
-    "Poistu paikasta",
-    "Palaa kotiin",
-    "Saavuta turvapaikka",
-    "Pakene ennen määräaikaa",
-    "Löydä ulospääsy",
-    "Avaa suljettu alue",
-    "Murtaudu sisään",
-    "Murtaudu ulos",
-    "Soluttaudu organisaatioon",
-    "Sabotoi järjestelmä",
-    "Korjaa järjestelmä",
-    "Pidä järjestelmä toiminnassa",
-    "Käynnistä järjestelmä uudelleen",
-    "Estä järjestelmän romahtaminen",
-    "Automatisoi järjestelmä",
-    "Optimoi tuotanto",
-    "Kasvata yritystä",
-    "Pelasta yritys konkurssilta",
-    "Perusta yritys",
-    "Hallitse markkinoita",
-    "Rakenna monopoli",
-    "Maksimoi voitto",
-    "Maksa velat",
-    "Kerää omaisuus",
-    "Ansaitse tietty summa rahaa",
-    "Saavuta taloudellinen riippumattomuus",
-    "Rakenna kaupunki",
-    "Kasvata kylä kaupungiksi",
-    "Perusta siirtokunta",
-    "Pidä siirtokunta hengissä",
-    "Rakenna tukikohta",
-    "Laajenna tukikohtaa",
-    "Rakenna koti",
-    "Rakenna turvapaikka",
-    "Rakenna toimiva infrastruktuuri",
-    "Rakenna tuotantoketju",
-    "Rakenna kuljetusverkosto",
-    "Rakenna yhteiskunta tyhjästä",
-    "Terraformaa planeetta",
-    "Kolonisoi planeetta",
-    "Tutki maailma",
-    "Kartoita alue",
-    "Löydä uusi paikka",
-    "Löydä uusi maailma",
-    "Saavuta kartan reuna",
-    "Tutki jokainen alue",
-    "Kerää kaikki tärkeät tiedot",
-    "Dokumentoi maailma",
-    "Löydä muinainen paikka",
-    "Löydä kadonnut sivilisaatio",
-    "Löydä artefakti",
-    "Aktivoi artefakti",
-    "Tuhoa artefakti",
-    "Estä artefaktin käyttö",
-    "Ratkaise muinainen arvoitus",
-    "Paljasta salaliitto",
-    "Rakenna salaliitto",
-    "Estä salaliitto",
-    "Manipuloi ihmisiä",
-    "Manipuloi markkinoita",
-    "Manipuloi politiikkaa",
-    "Manipuloi mediaa",
-    "Levitä huhu",
-    "Pysäytä huhu",
-    "Muuta yleistä mielipidettä",
-    "Kasvata vaikutusvaltaa",
-    "Saavuta maksimaalinen maine",
-    "Palauta maineesi",
-    "Pidä salaisuutesi piilossa",
-    "Paljasta muiden salaisuudet",
-    "Kerää mahdollisimman paljon tietoa",
-    "Kontrolloi tiedonkulkua",
-    "Estä tiedon leviäminen",
-    "Levitä tietoa",
-    "Rakenna vakoiluverkosto",
-    "Paljasta vakoojat",
-    "Varasta tiedustelutietoa",
-    "Estä tietovuoto",
-    "Löydä petturi",
-    "Säilytä lojaalisuus",
-    "Ansaitse luottamus",
-    "Riko luottamus",
-    "Sovita ihmiset yhteen",
-    "Hajota ihmissuhde",
-    "Rakenna ystävyys",
-    "Löydä kumppani",
-    "Perusta perhe",
-    "Pidä perhe koossa",
-    "Pelasta avioliitto",
-    "Rakenna dynastia",
-    "Jatka sukulinjaa",
-    "Selvitä sukusi historia",
-    "Löydä biologinen perheesi",
-    "Sovita suku",
-    "Luo vaikutusvaltainen suku",
-    "Pidä miehistö hengissä",
-    "Pidä miehistö tyytyväisenä",
-    "Pidä moraali korkealla",
-    "Estä kapina",
-    "Johda kapinaa",
-    "Löydä johtaja",
-    "Tule johtajaksi",
-    "Luovu vallasta turvallisesti",
-    "Pidä kaikki hengissä",
-    "Pelasta mahdollisimman moni",
-    "Valitse ketkä selviävät",
-    "Selviydy tietty määrä päiviä",
-    "Selviydy talvesta",
-    "Selviydy yöstä",
-    "Selviydy epidemian yli",
-    "Selviydy piirityksestä",
-    "Selviydy luonnonkatastrofista",
-    "Selviydy avaruudessa",
-    "Selviydy autiolla saarella",
-    "Selviydy vihamielisessä kaupungissa",
-    "Löydä ruokaa",
-    "Löydä vettä",
-    "Pidä resurssit riittävinä",
-    "Säästä resurssit loppuun asti",
-    "Luo kestävä ruokahuolto",
-    "Luo toimiva energiantuotanto",
-    "Palauta sähkö",
-    "Palauta vedenjakelu",
-    "Palauta viestintä",
-    "Korjaa avaruusalus",
-    "Korjaa ajoneuvo",
-    "Korjaa kaupunki",
-    "Käynnistä reaktori",
-    "Sammuta reaktori",
-    "Estä ydinonnettomuus",
-    "Estä epidemia",
-    "Paranna epidemia",
-    "Löydä lääke",
-    "Pelasta potilas",
-    "Paranna yhteisö",
-    "Pidä sairaala toiminnassa",
-    "Hallitse kriisiä",
-    "Evakuoi alue",
-    "Koordinoi pelastusoperaatio",
-    "Estä rakennuksen romahdus",
-    "Estä tulipalo",
-    "Sammuta tulipalo",
-    "Estä tulva",
-    "Estä ympäristökatastrofi",
-    "Suojella luontoa",
-    "Palauta ekosysteemi",
-    "Kasvata lajia",
-    "Estä lajin sukupuutto",
-    "Hävitä vaarallinen laji",
-    "Tutki tuntematon organismi",
-    "Ymmärrä vieras elämänmuoto",
-    "Luo uusi laji",
-    "Kasvata populaatiota",
-    "Tasapainota ekosysteemi",
-    "Saavuta teknologinen läpimurto",
-    "Tutki kaikki teknologiat",
-    "Rakenna uusi keksintö",
-    "Luo tekoäly",
-    "Pysäytä tekoäly",
-    "Vapauta tekoäly",
-    "Pidä tekoäly hallinnassa",
-    "Todista olevasi tietoinen",
-    "Piilota tietoisuutesi",
-    "Pääse ulos simulaatiosta",
-    "Pidä simulaatio toiminnassa",
-    "Selvitä oletko simulaatiossa",
-    "Riko simulaation sääntöjä",
-    "Korjaa aikajana",
-    "Muuta historiaa",
-    "Estä historian muuttaminen",
-    "Palaa omaan aikaasi",
-    "Katkaise aikasilmukka",
-    "Pidä aikasilmukka käynnissä",
-    "Pelasta tulevaisuus",
-    "Muuta tulevaisuutta",
-    "Estä maailmanloppu",
-    "Aiheuta maailmanloppu",
-    "Valmistaudu maailmanloppuun",
-    "Rakenna uusi maailma katastrofin jälkeen",
-    "Löydä muita selviytyjiä",
-    "Yhdistä hajonneet yhteisöt",
-    "Perusta uusi valtio",
-    "Palauta vanha valtio",
-    "Luo uusi uskonto",
-    "Kasvata kulttia",
-    "Hajota kultti",
-    "Paljasta väärä profeetta",
-    "Toteuta ennustus",
-    "Estä ennustus",
-    "Todista ennustus vääräksi",
-    "Saavuta kuolemattomuus",
-    "Murra kirous",
-    "Aseta kirous",
-    "Pakene kuolemaa",
-    "Löydä tapa kuolla",
-    "Palauta kuollut henkiin",
-    "Auta henkeä pääsemään eteenpäin",
-    "Kerää kadonneet sielut",
-    "Pakene tuonpuoleisesta",
-    "Ansaitse pääsy taivaaseen",
-    "Vältä joutumasta helvettiin",
-    "Järjestä kuolleiden maailma",
-    "Ratkaise yliluonnollinen ilmiö",
-    "Todista että yliluonnollinen ilmiö on todellinen",
-    "Todista että yliluonnollinen ilmiö ei ole todellinen",
-    "Luo mestariteos",
-    "Rakenna maailman paras ravintola",
-    "Rakenna maailman paras hotelli",
-    "Johda paras urheilujoukkue",
-    "Voita mestaruus",
-    "Riko ennätys",
-    "Saavuta kuuluisuus",
-    "Tule legendaksi",
-    "Luo taideteos",
-    "Viimeistele elämäntyö",
-    "Ratkaise mahdoton ongelma",
-    "Saavuta täydellinen suoritus",
-    "Kerää kaikki",
-    "Täytä koko kokoelma",
-    "Täytä arkisto",
-    "Löydä kaikki salaisuudet",
-    "Avaa kaikki alueet",
-    "Saavuta korkein arvoasema",
-    "Suorita tehtävä ilman että kukaan huomaa",
-    "Suorita tehtävä ilman väkivaltaa",
-    "Suorita tehtävä ennen ajan loppumista",
-    "Pidä kaikki osapuolet tyytyväisinä",
-    "Tee mahdoton kompromissi",
-    "Valitse pienin paha",
-    "Selvitä kuka ansaitsee apusi",
-    "Päätä kenen puolella olet",
-    "Muuta järjestelmää sisältäpäin",
-    "Tuhoa järjestelmä sisältäpäin",
-    "Ota järjestelmä haltuun",
-    "Pakene järjestelmästä",
-    "Todista järjestelmän olevan korruptoitunut",
-    "Pidä totuus piilossa",
-    "Paljasta totuus maailmalle"
+    {
+      "id": "main_goals-0001",
+      "text": "Selviydy"
+    },
+    {
+      "id": "main_goals-0002",
+      "text": "Rikastu"
+    },
+    {
+      "id": "main_goals-0003",
+      "text": "Ratkaise mysteeri"
+    },
+    {
+      "id": "main_goals-0004",
+      "text": "Pidä organisaatio kasassa"
+    },
+    {
+      "id": "main_goals-0005",
+      "text": "Paljasta salaisuus"
+    },
+    {
+      "id": "main_goals-0006",
+      "text": "Rakenna yhteisö"
+    },
+    {
+      "id": "main_goals-0007",
+      "text": "Estä katastrofi"
+    },
+    {
+      "id": "main_goals-0008",
+      "text": "Pääse pakoon"
+    },
+    {
+      "id": "main_goals-0009",
+      "text": "Löydä joku"
+    },
+    {
+      "id": "main_goals-0010",
+      "text": "Manipuloi järjestelmää"
+    },
+    {
+      "id": "main_goals-0011",
+      "text": "Pelasta joku"
+    },
+    {
+      "id": "main_goals-0012",
+      "text": "Suojele yhteisöä"
+    },
+    {
+      "id": "main_goals-0013",
+      "text": "Valloita alue"
+    },
+    {
+      "id": "main_goals-0014",
+      "text": "Puolusta aluetta"
+    },
+    {
+      "id": "main_goals-0015",
+      "text": "Nouse valtaan"
+    },
+    {
+      "id": "main_goals-0016",
+      "text": "Säilytä valtasi"
+    },
+    {
+      "id": "main_goals-0017",
+      "text": "Voita vaalit"
+    },
+    {
+      "id": "main_goals-0018",
+      "text": "Kaada hallinto"
+    },
+    {
+      "id": "main_goals-0019",
+      "text": "Rakenna valtakunta"
+    },
+    {
+      "id": "main_goals-0020",
+      "text": "Johda kansakuntaa"
+    },
+    {
+      "id": "main_goals-0021",
+      "text": "Luo uusi yhteiskunta"
+    },
+    {
+      "id": "main_goals-0022",
+      "text": "Pidä rauha"
+    },
+    {
+      "id": "main_goals-0023",
+      "text": "Voita sota"
+    },
+    {
+      "id": "main_goals-0024",
+      "text": "Estä sota"
+    },
+    {
+      "id": "main_goals-0025",
+      "text": "Solmi liittouma"
+    },
+    {
+      "id": "main_goals-0026",
+      "text": "Hajota liittouma"
+    },
+    {
+      "id": "main_goals-0027",
+      "text": "Palauta järjestys"
+    },
+    {
+      "id": "main_goals-0028",
+      "text": "Luo kaaos"
+    },
+    {
+      "id": "main_goals-0029",
+      "text": "Selvitä kuka valehtelee"
+    },
+    {
+      "id": "main_goals-0030",
+      "text": "Paljasta murhaaja"
+    },
+    {
+      "id": "main_goals-0031",
+      "text": "Todista syyttömyytesi"
+    },
+    {
+      "id": "main_goals-0032",
+      "text": "Peitä rikos"
+    },
+    {
+      "id": "main_goals-0033",
+      "text": "Suorita täydellinen rikos"
+    },
+    {
+      "id": "main_goals-0034",
+      "text": "Pakene oikeutta"
+    },
+    {
+      "id": "main_goals-0035",
+      "text": "Nappaa rikollinen"
+    },
+    {
+      "id": "main_goals-0036",
+      "text": "Rakenna rikollisverkosto"
+    },
+    {
+      "id": "main_goals-0037",
+      "text": "Tuhoa rikollisverkosto"
+    },
+    {
+      "id": "main_goals-0038",
+      "text": "Kerää todisteet"
+    },
+    {
+      "id": "main_goals-0039",
+      "text": "Ratkaise katoaminen"
+    },
+    {
+      "id": "main_goals-0040",
+      "text": "Löydä kadonnut esine"
+    },
+    {
+      "id": "main_goals-0041",
+      "text": "Löydä kadonnut henkilö"
+    },
+    {
+      "id": "main_goals-0042",
+      "text": "Löydä totuus menneisyydestä"
+    },
+    {
+      "id": "main_goals-0043",
+      "text": "Selvitä oma identiteettisi"
+    },
+    {
+      "id": "main_goals-0044",
+      "text": "Palauta muistisi"
+    },
+    {
+      "id": "main_goals-0045",
+      "text": "Selvitä mitä tapahtui"
+    },
+    {
+      "id": "main_goals-0046",
+      "text": "Selvitä kuka olet"
+    },
+    {
+      "id": "main_goals-0047",
+      "text": "Selvitä missä olet"
+    },
+    {
+      "id": "main_goals-0048",
+      "text": "Selvitä miksi olet siellä"
+    },
+    {
+      "id": "main_goals-0049",
+      "text": "Poistu paikasta"
+    },
+    {
+      "id": "main_goals-0050",
+      "text": "Palaa kotiin"
+    },
+    {
+      "id": "main_goals-0051",
+      "text": "Saavuta turvapaikka"
+    },
+    {
+      "id": "main_goals-0052",
+      "text": "Pakene ennen määräaikaa"
+    },
+    {
+      "id": "main_goals-0053",
+      "text": "Löydä ulospääsy"
+    },
+    {
+      "id": "main_goals-0054",
+      "text": "Avaa suljettu alue"
+    },
+    {
+      "id": "main_goals-0055",
+      "text": "Murtaudu sisään"
+    },
+    {
+      "id": "main_goals-0056",
+      "text": "Murtaudu ulos"
+    },
+    {
+      "id": "main_goals-0057",
+      "text": "Soluttaudu organisaatioon"
+    },
+    {
+      "id": "main_goals-0058",
+      "text": "Sabotoi järjestelmä"
+    },
+    {
+      "id": "main_goals-0059",
+      "text": "Korjaa järjestelmä"
+    },
+    {
+      "id": "main_goals-0060",
+      "text": "Pidä järjestelmä toiminnassa"
+    },
+    {
+      "id": "main_goals-0061",
+      "text": "Käynnistä järjestelmä uudelleen"
+    },
+    {
+      "id": "main_goals-0062",
+      "text": "Estä järjestelmän romahtaminen"
+    },
+    {
+      "id": "main_goals-0063",
+      "text": "Automatisoi järjestelmä"
+    },
+    {
+      "id": "main_goals-0064",
+      "text": "Optimoi tuotanto"
+    },
+    {
+      "id": "main_goals-0065",
+      "text": "Kasvata yritystä"
+    },
+    {
+      "id": "main_goals-0066",
+      "text": "Pelasta yritys konkurssilta"
+    },
+    {
+      "id": "main_goals-0067",
+      "text": "Perusta yritys"
+    },
+    {
+      "id": "main_goals-0068",
+      "text": "Hallitse markkinoita"
+    },
+    {
+      "id": "main_goals-0069",
+      "text": "Rakenna monopoli"
+    },
+    {
+      "id": "main_goals-0070",
+      "text": "Maksimoi voitto"
+    },
+    {
+      "id": "main_goals-0071",
+      "text": "Maksa velat"
+    },
+    {
+      "id": "main_goals-0072",
+      "text": "Kerää omaisuus"
+    },
+    {
+      "id": "main_goals-0073",
+      "text": "Ansaitse tietty summa rahaa"
+    },
+    {
+      "id": "main_goals-0074",
+      "text": "Saavuta taloudellinen riippumattomuus"
+    },
+    {
+      "id": "main_goals-0075",
+      "text": "Rakenna kaupunki"
+    },
+    {
+      "id": "main_goals-0076",
+      "text": "Kasvata kylä kaupungiksi"
+    },
+    {
+      "id": "main_goals-0077",
+      "text": "Perusta siirtokunta"
+    },
+    {
+      "id": "main_goals-0078",
+      "text": "Pidä siirtokunta hengissä"
+    },
+    {
+      "id": "main_goals-0079",
+      "text": "Rakenna tukikohta"
+    },
+    {
+      "id": "main_goals-0080",
+      "text": "Laajenna tukikohtaa"
+    },
+    {
+      "id": "main_goals-0081",
+      "text": "Rakenna koti"
+    },
+    {
+      "id": "main_goals-0082",
+      "text": "Rakenna turvapaikka"
+    },
+    {
+      "id": "main_goals-0083",
+      "text": "Rakenna toimiva infrastruktuuri"
+    },
+    {
+      "id": "main_goals-0084",
+      "text": "Rakenna tuotantoketju"
+    },
+    {
+      "id": "main_goals-0085",
+      "text": "Rakenna kuljetusverkosto"
+    },
+    {
+      "id": "main_goals-0086",
+      "text": "Rakenna yhteiskunta tyhjästä"
+    },
+    {
+      "id": "main_goals-0087",
+      "text": "Terraformaa planeetta"
+    },
+    {
+      "id": "main_goals-0088",
+      "text": "Kolonisoi planeetta"
+    },
+    {
+      "id": "main_goals-0089",
+      "text": "Tutki maailma"
+    },
+    {
+      "id": "main_goals-0090",
+      "text": "Kartoita alue"
+    },
+    {
+      "id": "main_goals-0091",
+      "text": "Löydä uusi paikka"
+    },
+    {
+      "id": "main_goals-0092",
+      "text": "Löydä uusi maailma"
+    },
+    {
+      "id": "main_goals-0093",
+      "text": "Saavuta kartan reuna"
+    },
+    {
+      "id": "main_goals-0094",
+      "text": "Tutki jokainen alue"
+    },
+    {
+      "id": "main_goals-0095",
+      "text": "Kerää kaikki tärkeät tiedot"
+    },
+    {
+      "id": "main_goals-0096",
+      "text": "Dokumentoi maailma"
+    },
+    {
+      "id": "main_goals-0097",
+      "text": "Löydä muinainen paikka"
+    },
+    {
+      "id": "main_goals-0098",
+      "text": "Löydä kadonnut sivilisaatio"
+    },
+    {
+      "id": "main_goals-0099",
+      "text": "Löydä artefakti"
+    },
+    {
+      "id": "main_goals-0100",
+      "text": "Aktivoi artefakti"
+    },
+    {
+      "id": "main_goals-0101",
+      "text": "Tuhoa artefakti"
+    },
+    {
+      "id": "main_goals-0102",
+      "text": "Estä artefaktin käyttö"
+    },
+    {
+      "id": "main_goals-0103",
+      "text": "Ratkaise muinainen arvoitus"
+    },
+    {
+      "id": "main_goals-0104",
+      "text": "Paljasta salaliitto"
+    },
+    {
+      "id": "main_goals-0105",
+      "text": "Rakenna salaliitto"
+    },
+    {
+      "id": "main_goals-0106",
+      "text": "Estä salaliitto"
+    },
+    {
+      "id": "main_goals-0107",
+      "text": "Manipuloi ihmisiä"
+    },
+    {
+      "id": "main_goals-0108",
+      "text": "Manipuloi markkinoita"
+    },
+    {
+      "id": "main_goals-0109",
+      "text": "Manipuloi politiikkaa"
+    },
+    {
+      "id": "main_goals-0110",
+      "text": "Manipuloi mediaa"
+    },
+    {
+      "id": "main_goals-0111",
+      "text": "Levitä huhu"
+    },
+    {
+      "id": "main_goals-0112",
+      "text": "Pysäytä huhu"
+    },
+    {
+      "id": "main_goals-0113",
+      "text": "Muuta yleistä mielipidettä"
+    },
+    {
+      "id": "main_goals-0114",
+      "text": "Kasvata vaikutusvaltaa"
+    },
+    {
+      "id": "main_goals-0115",
+      "text": "Saavuta maksimaalinen maine"
+    },
+    {
+      "id": "main_goals-0116",
+      "text": "Palauta maineesi"
+    },
+    {
+      "id": "main_goals-0117",
+      "text": "Pidä salaisuutesi piilossa"
+    },
+    {
+      "id": "main_goals-0118",
+      "text": "Paljasta muiden salaisuudet"
+    },
+    {
+      "id": "main_goals-0119",
+      "text": "Kerää mahdollisimman paljon tietoa"
+    },
+    {
+      "id": "main_goals-0120",
+      "text": "Kontrolloi tiedonkulkua"
+    },
+    {
+      "id": "main_goals-0121",
+      "text": "Estä tiedon leviäminen"
+    },
+    {
+      "id": "main_goals-0122",
+      "text": "Levitä tietoa"
+    },
+    {
+      "id": "main_goals-0123",
+      "text": "Rakenna vakoiluverkosto"
+    },
+    {
+      "id": "main_goals-0124",
+      "text": "Paljasta vakoojat"
+    },
+    {
+      "id": "main_goals-0125",
+      "text": "Varasta tiedustelutietoa"
+    },
+    {
+      "id": "main_goals-0126",
+      "text": "Estä tietovuoto"
+    },
+    {
+      "id": "main_goals-0127",
+      "text": "Löydä petturi"
+    },
+    {
+      "id": "main_goals-0128",
+      "text": "Säilytä lojaalisuus"
+    },
+    {
+      "id": "main_goals-0129",
+      "text": "Ansaitse luottamus"
+    },
+    {
+      "id": "main_goals-0130",
+      "text": "Riko luottamus"
+    },
+    {
+      "id": "main_goals-0131",
+      "text": "Sovita ihmiset yhteen"
+    },
+    {
+      "id": "main_goals-0132",
+      "text": "Hajota ihmissuhde"
+    },
+    {
+      "id": "main_goals-0133",
+      "text": "Rakenna ystävyys"
+    },
+    {
+      "id": "main_goals-0134",
+      "text": "Löydä kumppani"
+    },
+    {
+      "id": "main_goals-0135",
+      "text": "Perusta perhe"
+    },
+    {
+      "id": "main_goals-0136",
+      "text": "Pidä perhe koossa"
+    },
+    {
+      "id": "main_goals-0137",
+      "text": "Pelasta avioliitto"
+    },
+    {
+      "id": "main_goals-0138",
+      "text": "Rakenna dynastia"
+    },
+    {
+      "id": "main_goals-0139",
+      "text": "Jatka sukulinjaa"
+    },
+    {
+      "id": "main_goals-0140",
+      "text": "Selvitä sukusi historia"
+    },
+    {
+      "id": "main_goals-0141",
+      "text": "Löydä biologinen perheesi"
+    },
+    {
+      "id": "main_goals-0142",
+      "text": "Sovita suku"
+    },
+    {
+      "id": "main_goals-0143",
+      "text": "Luo vaikutusvaltainen suku"
+    },
+    {
+      "id": "main_goals-0144",
+      "text": "Pidä miehistö hengissä"
+    },
+    {
+      "id": "main_goals-0145",
+      "text": "Pidä miehistö tyytyväisenä"
+    },
+    {
+      "id": "main_goals-0146",
+      "text": "Pidä moraali korkealla"
+    },
+    {
+      "id": "main_goals-0147",
+      "text": "Estä kapina"
+    },
+    {
+      "id": "main_goals-0148",
+      "text": "Johda kapinaa"
+    },
+    {
+      "id": "main_goals-0149",
+      "text": "Löydä johtaja"
+    },
+    {
+      "id": "main_goals-0150",
+      "text": "Tule johtajaksi"
+    },
+    {
+      "id": "main_goals-0151",
+      "text": "Luovu vallasta turvallisesti"
+    },
+    {
+      "id": "main_goals-0152",
+      "text": "Pidä kaikki hengissä"
+    },
+    {
+      "id": "main_goals-0153",
+      "text": "Pelasta mahdollisimman moni"
+    },
+    {
+      "id": "main_goals-0154",
+      "text": "Valitse ketkä selviävät"
+    },
+    {
+      "id": "main_goals-0155",
+      "text": "Selviydy tietty määrä päiviä"
+    },
+    {
+      "id": "main_goals-0156",
+      "text": "Selviydy talvesta"
+    },
+    {
+      "id": "main_goals-0157",
+      "text": "Selviydy yöstä"
+    },
+    {
+      "id": "main_goals-0158",
+      "text": "Selviydy epidemian yli"
+    },
+    {
+      "id": "main_goals-0159",
+      "text": "Selviydy piirityksestä"
+    },
+    {
+      "id": "main_goals-0160",
+      "text": "Selviydy luonnonkatastrofista"
+    },
+    {
+      "id": "main_goals-0161",
+      "text": "Selviydy avaruudessa"
+    },
+    {
+      "id": "main_goals-0162",
+      "text": "Selviydy autiolla saarella"
+    },
+    {
+      "id": "main_goals-0163",
+      "text": "Selviydy vihamielisessä kaupungissa"
+    },
+    {
+      "id": "main_goals-0164",
+      "text": "Löydä ruokaa"
+    },
+    {
+      "id": "main_goals-0165",
+      "text": "Löydä vettä"
+    },
+    {
+      "id": "main_goals-0166",
+      "text": "Pidä resurssit riittävinä"
+    },
+    {
+      "id": "main_goals-0167",
+      "text": "Säästä resurssit loppuun asti"
+    },
+    {
+      "id": "main_goals-0168",
+      "text": "Luo kestävä ruokahuolto"
+    },
+    {
+      "id": "main_goals-0169",
+      "text": "Luo toimiva energiantuotanto"
+    },
+    {
+      "id": "main_goals-0170",
+      "text": "Palauta sähkö"
+    },
+    {
+      "id": "main_goals-0171",
+      "text": "Palauta vedenjakelu"
+    },
+    {
+      "id": "main_goals-0172",
+      "text": "Palauta viestintä"
+    },
+    {
+      "id": "main_goals-0173",
+      "text": "Korjaa avaruusalus"
+    },
+    {
+      "id": "main_goals-0174",
+      "text": "Korjaa ajoneuvo"
+    },
+    {
+      "id": "main_goals-0175",
+      "text": "Korjaa kaupunki"
+    },
+    {
+      "id": "main_goals-0176",
+      "text": "Käynnistä reaktori"
+    },
+    {
+      "id": "main_goals-0177",
+      "text": "Sammuta reaktori"
+    },
+    {
+      "id": "main_goals-0178",
+      "text": "Estä ydinonnettomuus"
+    },
+    {
+      "id": "main_goals-0179",
+      "text": "Estä epidemia"
+    },
+    {
+      "id": "main_goals-0180",
+      "text": "Paranna epidemia"
+    },
+    {
+      "id": "main_goals-0181",
+      "text": "Löydä lääke"
+    },
+    {
+      "id": "main_goals-0182",
+      "text": "Pelasta potilas"
+    },
+    {
+      "id": "main_goals-0183",
+      "text": "Paranna yhteisö"
+    },
+    {
+      "id": "main_goals-0184",
+      "text": "Pidä sairaala toiminnassa"
+    },
+    {
+      "id": "main_goals-0185",
+      "text": "Hallitse kriisiä"
+    },
+    {
+      "id": "main_goals-0186",
+      "text": "Evakuoi alue"
+    },
+    {
+      "id": "main_goals-0187",
+      "text": "Koordinoi pelastusoperaatio"
+    },
+    {
+      "id": "main_goals-0188",
+      "text": "Estä rakennuksen romahdus"
+    },
+    {
+      "id": "main_goals-0189",
+      "text": "Estä tulipalo"
+    },
+    {
+      "id": "main_goals-0190",
+      "text": "Sammuta tulipalo"
+    },
+    {
+      "id": "main_goals-0191",
+      "text": "Estä tulva"
+    },
+    {
+      "id": "main_goals-0192",
+      "text": "Estä ympäristökatastrofi"
+    },
+    {
+      "id": "main_goals-0193",
+      "text": "Suojella luontoa"
+    },
+    {
+      "id": "main_goals-0194",
+      "text": "Palauta ekosysteemi"
+    },
+    {
+      "id": "main_goals-0195",
+      "text": "Kasvata lajia"
+    },
+    {
+      "id": "main_goals-0196",
+      "text": "Estä lajin sukupuutto"
+    },
+    {
+      "id": "main_goals-0197",
+      "text": "Hävitä vaarallinen laji"
+    },
+    {
+      "id": "main_goals-0198",
+      "text": "Tutki tuntematon organismi"
+    },
+    {
+      "id": "main_goals-0199",
+      "text": "Ymmärrä vieras elämänmuoto"
+    },
+    {
+      "id": "main_goals-0200",
+      "text": "Luo uusi laji"
+    },
+    {
+      "id": "main_goals-0201",
+      "text": "Kasvata populaatiota"
+    },
+    {
+      "id": "main_goals-0202",
+      "text": "Tasapainota ekosysteemi"
+    },
+    {
+      "id": "main_goals-0203",
+      "text": "Saavuta teknologinen läpimurto"
+    },
+    {
+      "id": "main_goals-0204",
+      "text": "Tutki kaikki teknologiat"
+    },
+    {
+      "id": "main_goals-0205",
+      "text": "Rakenna uusi keksintö"
+    },
+    {
+      "id": "main_goals-0206",
+      "text": "Luo tekoäly"
+    },
+    {
+      "id": "main_goals-0207",
+      "text": "Pysäytä tekoäly"
+    },
+    {
+      "id": "main_goals-0208",
+      "text": "Vapauta tekoäly"
+    },
+    {
+      "id": "main_goals-0209",
+      "text": "Pidä tekoäly hallinnassa"
+    },
+    {
+      "id": "main_goals-0210",
+      "text": "Todista olevasi tietoinen"
+    },
+    {
+      "id": "main_goals-0211",
+      "text": "Piilota tietoisuutesi"
+    },
+    {
+      "id": "main_goals-0212",
+      "text": "Pääse ulos simulaatiosta"
+    },
+    {
+      "id": "main_goals-0213",
+      "text": "Pidä simulaatio toiminnassa"
+    },
+    {
+      "id": "main_goals-0214",
+      "text": "Selvitä oletko simulaatiossa"
+    },
+    {
+      "id": "main_goals-0215",
+      "text": "Riko simulaation sääntöjä"
+    },
+    {
+      "id": "main_goals-0216",
+      "text": "Korjaa aikajana"
+    },
+    {
+      "id": "main_goals-0217",
+      "text": "Muuta historiaa"
+    },
+    {
+      "id": "main_goals-0218",
+      "text": "Estä historian muuttaminen"
+    },
+    {
+      "id": "main_goals-0219",
+      "text": "Palaa omaan aikaasi"
+    },
+    {
+      "id": "main_goals-0220",
+      "text": "Katkaise aikasilmukka"
+    },
+    {
+      "id": "main_goals-0221",
+      "text": "Pidä aikasilmukka käynnissä"
+    },
+    {
+      "id": "main_goals-0222",
+      "text": "Pelasta tulevaisuus"
+    },
+    {
+      "id": "main_goals-0223",
+      "text": "Muuta tulevaisuutta"
+    },
+    {
+      "id": "main_goals-0224",
+      "text": "Estä maailmanloppu"
+    },
+    {
+      "id": "main_goals-0225",
+      "text": "Aiheuta maailmanloppu"
+    },
+    {
+      "id": "main_goals-0226",
+      "text": "Valmistaudu maailmanloppuun"
+    },
+    {
+      "id": "main_goals-0227",
+      "text": "Rakenna uusi maailma katastrofin jälkeen"
+    },
+    {
+      "id": "main_goals-0228",
+      "text": "Löydä muita selviytyjiä"
+    },
+    {
+      "id": "main_goals-0229",
+      "text": "Yhdistä hajonneet yhteisöt"
+    },
+    {
+      "id": "main_goals-0230",
+      "text": "Perusta uusi valtio"
+    },
+    {
+      "id": "main_goals-0231",
+      "text": "Palauta vanha valtio"
+    },
+    {
+      "id": "main_goals-0232",
+      "text": "Luo uusi uskonto"
+    },
+    {
+      "id": "main_goals-0233",
+      "text": "Kasvata kulttia"
+    },
+    {
+      "id": "main_goals-0234",
+      "text": "Hajota kultti"
+    },
+    {
+      "id": "main_goals-0235",
+      "text": "Paljasta väärä profeetta"
+    },
+    {
+      "id": "main_goals-0236",
+      "text": "Toteuta ennustus"
+    },
+    {
+      "id": "main_goals-0237",
+      "text": "Estä ennustus"
+    },
+    {
+      "id": "main_goals-0238",
+      "text": "Todista ennustus vääräksi"
+    },
+    {
+      "id": "main_goals-0239",
+      "text": "Saavuta kuolemattomuus"
+    },
+    {
+      "id": "main_goals-0240",
+      "text": "Murra kirous"
+    },
+    {
+      "id": "main_goals-0241",
+      "text": "Aseta kirous"
+    },
+    {
+      "id": "main_goals-0242",
+      "text": "Pakene kuolemaa"
+    },
+    {
+      "id": "main_goals-0243",
+      "text": "Löydä tapa kuolla"
+    },
+    {
+      "id": "main_goals-0244",
+      "text": "Palauta kuollut henkiin"
+    },
+    {
+      "id": "main_goals-0245",
+      "text": "Auta henkeä pääsemään eteenpäin"
+    },
+    {
+      "id": "main_goals-0246",
+      "text": "Kerää kadonneet sielut"
+    },
+    {
+      "id": "main_goals-0247",
+      "text": "Pakene tuonpuoleisesta"
+    },
+    {
+      "id": "main_goals-0248",
+      "text": "Ansaitse pääsy taivaaseen"
+    },
+    {
+      "id": "main_goals-0249",
+      "text": "Vältä joutumasta helvettiin"
+    },
+    {
+      "id": "main_goals-0250",
+      "text": "Järjestä kuolleiden maailma"
+    },
+    {
+      "id": "main_goals-0251",
+      "text": "Ratkaise yliluonnollinen ilmiö"
+    },
+    {
+      "id": "main_goals-0252",
+      "text": "Todista että yliluonnollinen ilmiö on todellinen"
+    },
+    {
+      "id": "main_goals-0253",
+      "text": "Todista että yliluonnollinen ilmiö ei ole todellinen"
+    },
+    {
+      "id": "main_goals-0254",
+      "text": "Luo mestariteos"
+    },
+    {
+      "id": "main_goals-0255",
+      "text": "Rakenna maailman paras ravintola"
+    },
+    {
+      "id": "main_goals-0256",
+      "text": "Rakenna maailman paras hotelli"
+    },
+    {
+      "id": "main_goals-0257",
+      "text": "Johda paras urheilujoukkue"
+    },
+    {
+      "id": "main_goals-0258",
+      "text": "Voita mestaruus"
+    },
+    {
+      "id": "main_goals-0259",
+      "text": "Riko ennätys"
+    },
+    {
+      "id": "main_goals-0260",
+      "text": "Saavuta kuuluisuus"
+    },
+    {
+      "id": "main_goals-0261",
+      "text": "Tule legendaksi"
+    },
+    {
+      "id": "main_goals-0262",
+      "text": "Luo taideteos"
+    },
+    {
+      "id": "main_goals-0263",
+      "text": "Viimeistele elämäntyö"
+    },
+    {
+      "id": "main_goals-0264",
+      "text": "Ratkaise mahdoton ongelma"
+    },
+    {
+      "id": "main_goals-0265",
+      "text": "Saavuta täydellinen suoritus"
+    },
+    {
+      "id": "main_goals-0266",
+      "text": "Kerää kaikki"
+    },
+    {
+      "id": "main_goals-0267",
+      "text": "Täytä koko kokoelma"
+    },
+    {
+      "id": "main_goals-0268",
+      "text": "Täytä arkisto"
+    },
+    {
+      "id": "main_goals-0269",
+      "text": "Löydä kaikki salaisuudet"
+    },
+    {
+      "id": "main_goals-0270",
+      "text": "Avaa kaikki alueet"
+    },
+    {
+      "id": "main_goals-0271",
+      "text": "Saavuta korkein arvoasema"
+    },
+    {
+      "id": "main_goals-0272",
+      "text": "Suorita tehtävä ilman että kukaan huomaa"
+    },
+    {
+      "id": "main_goals-0273",
+      "text": "Suorita tehtävä ilman väkivaltaa"
+    },
+    {
+      "id": "main_goals-0274",
+      "text": "Suorita tehtävä ennen ajan loppumista"
+    },
+    {
+      "id": "main_goals-0275",
+      "text": "Pidä kaikki osapuolet tyytyväisinä"
+    },
+    {
+      "id": "main_goals-0276",
+      "text": "Tee mahdoton kompromissi"
+    },
+    {
+      "id": "main_goals-0277",
+      "text": "Valitse pienin paha"
+    },
+    {
+      "id": "main_goals-0278",
+      "text": "Selvitä kuka ansaitsee apusi"
+    },
+    {
+      "id": "main_goals-0279",
+      "text": "Päätä kenen puolella olet"
+    },
+    {
+      "id": "main_goals-0280",
+      "text": "Muuta järjestelmää sisältäpäin"
+    },
+    {
+      "id": "main_goals-0281",
+      "text": "Tuhoa järjestelmä sisältäpäin"
+    },
+    {
+      "id": "main_goals-0282",
+      "text": "Ota järjestelmä haltuun"
+    },
+    {
+      "id": "main_goals-0283",
+      "text": "Pakene järjestelmästä"
+    },
+    {
+      "id": "main_goals-0284",
+      "text": "Todista järjestelmän olevan korruptoitunut"
+    },
+    {
+      "id": "main_goals-0285",
+      "text": "Pidä totuus piilossa"
+    },
+    {
+      "id": "main_goals-0286",
+      "text": "Paljasta totuus maailmalle"
+    }
   ]
 }

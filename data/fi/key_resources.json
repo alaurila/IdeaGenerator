@@ -1,309 +1,1224 @@
 {
   "key_resources": [
-    "Raha",
-    "Aika",
-    "Luottamus",
-    "Maine",
-    "Ruoka",
-    "Sähkö",
-    "Tieto",
-    "Vaikutusvalta",
-    "Happi",
-    "Henkilöstö",
-    "Moraali",
-    "Salaisuudet",
-    "Vesi",
-    "Polttoaine",
-    "Lääkkeet",
-    "Raaka-aineet",
-    "Energia",
-    "Lämpö",
-    "Suoja",
-    "Turvallisuus",
-    "Terveys",
-    "Kestävyys",
-    "Työvoima",
-    "Työaika",
-    "Asiantuntemus",
-    "Kokemus",
-    "Tutkimuspisteet",
-    "Teknologia",
-    "Data",
-    "Todisteet",
-    "Vihjeet",
-    "Asiakirjat",
-    "Kontaktit",
-    "Verkostot",
-    "Liittolaiset",
-    "Lojaalisuus",
-    "Pelko",
-    "Arvovalta",
-    "Suosio",
-    "Kansansuosio",
-    "Poliittinen pääoma",
-    "Diplomaattinen vaikutusvalta",
-    "Uskottavuus",
-    "Auktoriteetti",
-    "Legitiimiys",
-    "Kunnioitus",
-    "Pelotevaikutus",
-    "Velka",
-    "Kassavirta",
-    "Voitto",
-    "Osakkeet",
-    "Markkinaosuus",
-    "Asiakkaat",
-    "Tilaukset",
-    "Varasto",
-    "Kuljetuskapasiteetti",
-    "Tuotantokapasiteetti",
-    "Rahtitila",
-    "Asuintila",
-    "Rakennusmateriaali",
-    "Metalli",
-    "Puu",
-    "Kivi",
-    "Betoni",
-    "Muovi",
-    "Elektroniikka",
-    "Varaosat",
-    "Työkalut",
-    "Ammukset",
-    "Aseet",
-    "Ajoneuvot",
-    "Laivat",
-    "Lentokoneet",
-    "Robotit",
-    "Koneet",
-    "Rakennukset",
-    "Maa-alue",
-    "Viljelysmaa",
-    "Metsä",
-    "Mineraalit",
-    "Öljy",
-    "Kaasu",
-    "Uraani",
-    "Aurinkoenergia",
-    "Tuulivoima",
-    "Akkuvaraus",
-    "Generaattorikapasiteetti",
-    "Vedenpaine",
-    "Ilmanpaine",
-    "Lämpötila",
-    "Kosteus",
-    "Säteilyturvallisuus",
-    "Ilmanlaatu",
-    "Happivarasto",
-    "CO2-kapasiteetti",
-    "Jätteenkäsittelykapasiteetti",
-    "Sairaalapaikat",
-    "Vuodepaikat",
-    "Lääkintähenkilöstö",
-    "Verenluovutukset",
-    "Rokotteet",
-    "Karanteenikapasiteetti",
-    "Potilaiden luottamus",
-    "Väestö",
-    "Syntyvyys",
-    "Työikäinen väestö",
-    "Koulutettu väestö",
-    "Asukkaiden tyytyväisyys",
-    "Onnellisuus",
-    "Toivo",
-    "Stressi",
-    "Pelko yhteisössä",
-    "Yhteisöllisyys",
-    "Järjestys",
-    "Vakaus",
-    "Levottomuus",
-    "Uskollisuus",
-    "Kurinalaisuus",
-    "Motivaatio",
-    "Keskittyminen",
-    "Uni",
-    "Mielenterveys",
-    "Fyysinen kunto",
-    "Nälkä",
-    "Jano",
-    "Väsymys",
-    "Kylmyys",
-    "Kuumuus",
-    "Suoja ympäristöltä",
-    "Päivänvalo",
-    "Pimeys",
-    "Hiljaisuus",
-    "Melutaso",
-    "Yksityisyys",
-    "Huomio",
-    "Epäily",
-    "Etsintäkuulutustaso",
-    "Poliisin kiinnostus",
-    "Todennäköisyys jäädä kiinni",
-    "Peitehenkilöllisyys",
-    "Anonymiteetti",
-    "Salaus",
-    "Turvaluokitus",
-    "Pääsyoikeudet",
-    "Avaimet",
-    "Kulkuoikeudet",
-    "Salasanat",
-    "Kiristysmateriaali",
-    "Kompromat",
-    "Disinformaatio",
-    "Propaganda",
-    "Huhut",
-    "Yleisön huomio",
-    "Median kiinnostus",
-    "Narratiivin hallinta",
-    "Tietovuodot",
-    "Sensuurikapasiteetti",
-    "Uutisarvo",
-    "Totuudenmukaisuus",
-    "Luottamuksellisuus",
-    "Suhteet",
-    "Ystävät",
-    "Viholliset",
-    "Perhesiteet",
-    "Romanttinen kiinnostus",
-    "Velvollisuudet",
-    "Palvelukset",
-    "Velat ihmisille",
-    "Maine eri ryhmissä",
-    "Fraktiosuhteet",
-    "Diplomaattisuhteet",
-    "Kauppasuhteet",
-    "Liittolaissuhteet",
-    "Uskonnollinen vaikutusvalta",
-    "Kultin uskollisuus",
-    "Seuraajat",
-    "Jäsenet",
-    "Vapaaehtoiset",
-    "Äänestäjät",
-    "Kannattajat",
-    "Agentit",
-    "Vakoojat",
-    "Informantit",
-    "Vartijat",
-    "Sotilaat",
-    "Upseerit",
-    "Työntekijät",
-    "Insinöörit",
-    "Tutkijat",
-    "Kuljettajat",
-    "Miehistö",
-    "Komentopisteet",
-    "Toimintapisteet",
-    "Liikkumispisteet",
-    "Rakennuspisteet",
-    "Diplomatiapisteet",
-    "Tutkimuspisteet",
-    "Vaikutuspisteet",
-    "Mainepisteet",
-    "Kokemuspisteet",
-    "Taitopisteet",
-    "Tasot",
-    "Kortit",
-    "Nopat",
-    "Toiminnot per vuoro",
-    "Käytettävissä olevat päätökset",
-    "Tilaisuudet",
-    "Mahdollisuudet",
-    "Riskibudjetti",
-    "Virhemarginaali",
-    "Aika ennen määräaikaa",
-    "Aika ennen katastrofia",
-    "Aika ennen paljastumista",
-    "Aika ennen konkurssia",
-    "Aika ennen hyökkäystä",
-    "Aika ennen talvea",
-    "Aika ennen aamunkoittoa",
-    "Aika ennen kuolemaa",
-    "Muisti",
-    "Identiteetti",
-    "Järki",
-    "Todellisuudentaju",
-    "Tahdonvoima",
-    "Sielu",
-    "Elinvoima",
-    "Taikuus",
-    "Mana",
-    "Kiroukset",
-    "Siunaukset",
-    "Sielut",
-    "Uskomus",
-    "Usko",
-    "Pyhyys",
-    "Korruptio",
-    "Kaaos",
-    "Järjestysenergia",
-    "Aikaparadoksit",
-    "Aikajanan eheys",
-    "Muistojen määrä",
-    "Unet",
-    "Painajaiset",
-    "Aikahyppyjen määrä",
-    "Todellisuuden vakaus",
-    "Simulaation eheys",
-    "Prosessointiteho",
-    "Tallennustila",
-    "Kaistanleveys",
-    "Palvelinkapasiteetti",
-    "Laskentateho",
-    "Robotin akku",
-    "Järjestelmän eheys",
-    "Varaosat",
-    "Huoltokapasiteetti",
-    "Korjausaika",
-    "Rakenteellinen eheys",
-    "Tukikohdan eheys",
-    "Aluksen eheys",
-    "Moottoriteho",
-    "Polttoainevarasto",
-    "Hapen tuotanto",
-    "Ruokatuotanto",
-    "Vedenpuhdistuskapasiteetti",
-    "Tutkimusdata",
-    "Kartoitustieto",
-    "Navigointidata",
-    "Sensoridata",
-    "Tutkahavainnot",
-    "Sonarhavainnot",
-    "Säädata",
-    "Geneettinen materiaali",
-    "Näytteet",
-    "Artefaktit",
-    "Muinaisjäännökset",
-    "Harvinaiset esineet",
-    "Keräilyesineet",
-    "Todisteketjun eheys",
-    "Epäiltyjen määrä",
-    "Ratkaisemattomat tapaukset",
-    "Käsittelemättömät hakemukset",
-    "Työjono",
-    "Asiakasjono",
-    "Vankipaikat",
-    "Hotellihuoneet",
-    "Ravintolapaikat",
-    "Varastopaikat",
-    "Raidekapasiteetti",
-    "Lentokenttäslotit",
-    "Satamakapasiteetti",
-    "Liikennekapasiteetti",
-    "Maan käyttötila",
-    "Poliittinen vakaus",
-    "Taloudellinen vakaus",
-    "Sotilaallinen voima",
-    "Puolustuskyky",
-    "Tiedustelukyky",
-    "Diplomaattinen uskottavuus",
-    "Sotaväsymys",
-    "Kansallinen moraali",
-    "Strategiset resurssit",
-    "Huoltolinjat",
-    "Ammusvarannot",
-    "Reservit",
-    "Vapaa maa",
-    "Väestön tuki",
-    "Kulttuurinen vaikutusvalta"
+    {
+      "id": "key_resources-0001",
+      "text": "Raha"
+    },
+    {
+      "id": "key_resources-0002",
+      "text": "Aika"
+    },
+    {
+      "id": "key_resources-0003",
+      "text": "Luottamus"
+    },
+    {
+      "id": "key_resources-0004",
+      "text": "Maine"
+    },
+    {
+      "id": "key_resources-0005",
+      "text": "Ruoka"
+    },
+    {
+      "id": "key_resources-0006",
+      "text": "Sähkö"
+    },
+    {
+      "id": "key_resources-0007",
+      "text": "Tieto"
+    },
+    {
+      "id": "key_resources-0008",
+      "text": "Vaikutusvalta"
+    },
+    {
+      "id": "key_resources-0009",
+      "text": "Happi"
+    },
+    {
+      "id": "key_resources-0010",
+      "text": "Henkilöstö"
+    },
+    {
+      "id": "key_resources-0011",
+      "text": "Moraali"
+    },
+    {
+      "id": "key_resources-0012",
+      "text": "Salaisuudet"
+    },
+    {
+      "id": "key_resources-0013",
+      "text": "Vesi"
+    },
+    {
+      "id": "key_resources-0014",
+      "text": "Polttoaine"
+    },
+    {
+      "id": "key_resources-0015",
+      "text": "Lääkkeet"
+    },
+    {
+      "id": "key_resources-0016",
+      "text": "Raaka-aineet"
+    },
+    {
+      "id": "key_resources-0017",
+      "text": "Energia"
+    },
+    {
+      "id": "key_resources-0018",
+      "text": "Lämpö"
+    },
+    {
+      "id": "key_resources-0019",
+      "text": "Suoja"
+    },
+    {
+      "id": "key_resources-0020",
+      "text": "Turvallisuus"
+    },
+    {
+      "id": "key_resources-0021",
+      "text": "Terveys"
+    },
+    {
+      "id": "key_resources-0022",
+      "text": "Kestävyys"
+    },
+    {
+      "id": "key_resources-0023",
+      "text": "Työvoima"
+    },
+    {
+      "id": "key_resources-0024",
+      "text": "Työaika"
+    },
+    {
+      "id": "key_resources-0025",
+      "text": "Asiantuntemus"
+    },
+    {
+      "id": "key_resources-0026",
+      "text": "Kokemus"
+    },
+    {
+      "id": "key_resources-0027",
+      "text": "Tutkimuspisteet"
+    },
+    {
+      "id": "key_resources-0028",
+      "text": "Teknologia"
+    },
+    {
+      "id": "key_resources-0029",
+      "text": "Data"
+    },
+    {
+      "id": "key_resources-0030",
+      "text": "Todisteet"
+    },
+    {
+      "id": "key_resources-0031",
+      "text": "Vihjeet"
+    },
+    {
+      "id": "key_resources-0032",
+      "text": "Asiakirjat"
+    },
+    {
+      "id": "key_resources-0033",
+      "text": "Kontaktit"
+    },
+    {
+      "id": "key_resources-0034",
+      "text": "Verkostot"
+    },
+    {
+      "id": "key_resources-0035",
+      "text": "Liittolaiset"
+    },
+    {
+      "id": "key_resources-0036",
+      "text": "Lojaalisuus"
+    },
+    {
+      "id": "key_resources-0037",
+      "text": "Pelko"
+    },
+    {
+      "id": "key_resources-0038",
+      "text": "Arvovalta"
+    },
+    {
+      "id": "key_resources-0039",
+      "text": "Suosio"
+    },
+    {
+      "id": "key_resources-0040",
+      "text": "Kansansuosio"
+    },
+    {
+      "id": "key_resources-0041",
+      "text": "Poliittinen pääoma"
+    },
+    {
+      "id": "key_resources-0042",
+      "text": "Diplomaattinen vaikutusvalta"
+    },
+    {
+      "id": "key_resources-0043",
+      "text": "Uskottavuus"
+    },
+    {
+      "id": "key_resources-0044",
+      "text": "Auktoriteetti"
+    },
+    {
+      "id": "key_resources-0045",
+      "text": "Legitiimiys"
+    },
+    {
+      "id": "key_resources-0046",
+      "text": "Kunnioitus"
+    },
+    {
+      "id": "key_resources-0047",
+      "text": "Pelotevaikutus"
+    },
+    {
+      "id": "key_resources-0048",
+      "text": "Velka"
+    },
+    {
+      "id": "key_resources-0049",
+      "text": "Kassavirta"
+    },
+    {
+      "id": "key_resources-0050",
+      "text": "Voitto"
+    },
+    {
+      "id": "key_resources-0051",
+      "text": "Osakkeet"
+    },
+    {
+      "id": "key_resources-0052",
+      "text": "Markkinaosuus"
+    },
+    {
+      "id": "key_resources-0053",
+      "text": "Asiakkaat"
+    },
+    {
+      "id": "key_resources-0054",
+      "text": "Tilaukset"
+    },
+    {
+      "id": "key_resources-0055",
+      "text": "Varasto"
+    },
+    {
+      "id": "key_resources-0056",
+      "text": "Kuljetuskapasiteetti"
+    },
+    {
+      "id": "key_resources-0057",
+      "text": "Tuotantokapasiteetti"
+    },
+    {
+      "id": "key_resources-0058",
+      "text": "Rahtitila"
+    },
+    {
+      "id": "key_resources-0059",
+      "text": "Asuintila"
+    },
+    {
+      "id": "key_resources-0060",
+      "text": "Rakennusmateriaali"
+    },
+    {
+      "id": "key_resources-0061",
+      "text": "Metalli"
+    },
+    {
+      "id": "key_resources-0062",
+      "text": "Puu"
+    },
+    {
+      "id": "key_resources-0063",
+      "text": "Kivi"
+    },
+    {
+      "id": "key_resources-0064",
+      "text": "Betoni"
+    },
+    {
+      "id": "key_resources-0065",
+      "text": "Muovi"
+    },
+    {
+      "id": "key_resources-0066",
+      "text": "Elektroniikka"
+    },
+    {
+      "id": "key_resources-0067",
+      "text": "Varaosat"
+    },
+    {
+      "id": "key_resources-0068",
+      "text": "Työkalut"
+    },
+    {
+      "id": "key_resources-0069",
+      "text": "Ammukset"
+    },
+    {
+      "id": "key_resources-0070",
+      "text": "Aseet"
+    },
+    {
+      "id": "key_resources-0071",
+      "text": "Ajoneuvot"
+    },
+    {
+      "id": "key_resources-0072",
+      "text": "Laivat"
+    },
+    {
+      "id": "key_resources-0073",
+      "text": "Lentokoneet"
+    },
+    {
+      "id": "key_resources-0074",
+      "text": "Robotit"
+    },
+    {
+      "id": "key_resources-0075",
+      "text": "Koneet"
+    },
+    {
+      "id": "key_resources-0076",
+      "text": "Rakennukset"
+    },
+    {
+      "id": "key_resources-0077",
+      "text": "Maa-alue"
+    },
+    {
+      "id": "key_resources-0078",
+      "text": "Viljelysmaa"
+    },
+    {
+      "id": "key_resources-0079",
+      "text": "Metsä"
+    },
+    {
+      "id": "key_resources-0080",
+      "text": "Mineraalit"
+    },
+    {
+      "id": "key_resources-0081",
+      "text": "Öljy"
+    },
+    {
+      "id": "key_resources-0082",
+      "text": "Kaasu"
+    },
+    {
+      "id": "key_resources-0083",
+      "text": "Uraani"
+    },
+    {
+      "id": "key_resources-0084",
+      "text": "Aurinkoenergia"
+    },
+    {
+      "id": "key_resources-0085",
+      "text": "Tuulivoima"
+    },
+    {
+      "id": "key_resources-0086",
+      "text": "Akkuvaraus"
+    },
+    {
+      "id": "key_resources-0087",
+      "text": "Generaattorikapasiteetti"
+    },
+    {
+      "id": "key_resources-0088",
+      "text": "Vedenpaine"
+    },
+    {
+      "id": "key_resources-0089",
+      "text": "Ilmanpaine"
+    },
+    {
+      "id": "key_resources-0090",
+      "text": "Lämpötila"
+    },
+    {
+      "id": "key_resources-0091",
+      "text": "Kosteus"
+    },
+    {
+      "id": "key_resources-0092",
+      "text": "Säteilyturvallisuus"
+    },
+    {
+      "id": "key_resources-0093",
+      "text": "Ilmanlaatu"
+    },
+    {
+      "id": "key_resources-0094",
+      "text": "Happivarasto"
+    },
+    {
+      "id": "key_resources-0095",
+      "text": "CO2-kapasiteetti"
+    },
+    {
+      "id": "key_resources-0096",
+      "text": "Jätteenkäsittelykapasiteetti"
+    },
+    {
+      "id": "key_resources-0097",
+      "text": "Sairaalapaikat"
+    },
+    {
+      "id": "key_resources-0098",
+      "text": "Vuodepaikat"
+    },
+    {
+      "id": "key_resources-0099",
+      "text": "Lääkintähenkilöstö"
+    },
+    {
+      "id": "key_resources-0100",
+      "text": "Verenluovutukset"
+    },
+    {
+      "id": "key_resources-0101",
+      "text": "Rokotteet"
+    },
+    {
+      "id": "key_resources-0102",
+      "text": "Karanteenikapasiteetti"
+    },
+    {
+      "id": "key_resources-0103",
+      "text": "Potilaiden luottamus"
+    },
+    {
+      "id": "key_resources-0104",
+      "text": "Väestö"
+    },
+    {
+      "id": "key_resources-0105",
+      "text": "Syntyvyys"
+    },
+    {
+      "id": "key_resources-0106",
+      "text": "Työikäinen väestö"
+    },
+    {
+      "id": "key_resources-0107",
+      "text": "Koulutettu väestö"
+    },
+    {
+      "id": "key_resources-0108",
+      "text": "Asukkaiden tyytyväisyys"
+    },
+    {
+      "id": "key_resources-0109",
+      "text": "Onnellisuus"
+    },
+    {
+      "id": "key_resources-0110",
+      "text": "Toivo"
+    },
+    {
+      "id": "key_resources-0111",
+      "text": "Stressi"
+    },
+    {
+      "id": "key_resources-0112",
+      "text": "Pelko yhteisössä"
+    },
+    {
+      "id": "key_resources-0113",
+      "text": "Yhteisöllisyys"
+    },
+    {
+      "id": "key_resources-0114",
+      "text": "Järjestys"
+    },
+    {
+      "id": "key_resources-0115",
+      "text": "Vakaus"
+    },
+    {
+      "id": "key_resources-0116",
+      "text": "Levottomuus"
+    },
+    {
+      "id": "key_resources-0117",
+      "text": "Uskollisuus"
+    },
+    {
+      "id": "key_resources-0118",
+      "text": "Kurinalaisuus"
+    },
+    {
+      "id": "key_resources-0119",
+      "text": "Motivaatio"
+    },
+    {
+      "id": "key_resources-0120",
+      "text": "Keskittyminen"
+    },
+    {
+      "id": "key_resources-0121",
+      "text": "Uni"
+    },
+    {
+      "id": "key_resources-0122",
+      "text": "Mielenterveys"
+    },
+    {
+      "id": "key_resources-0123",
+      "text": "Fyysinen kunto"
+    },
+    {
+      "id": "key_resources-0124",
+      "text": "Nälkä"
+    },
+    {
+      "id": "key_resources-0125",
+      "text": "Jano"
+    },
+    {
+      "id": "key_resources-0126",
+      "text": "Väsymys"
+    },
+    {
+      "id": "key_resources-0127",
+      "text": "Kylmyys"
+    },
+    {
+      "id": "key_resources-0128",
+      "text": "Kuumuus"
+    },
+    {
+      "id": "key_resources-0129",
+      "text": "Suoja ympäristöltä"
+    },
+    {
+      "id": "key_resources-0130",
+      "text": "Päivänvalo"
+    },
+    {
+      "id": "key_resources-0131",
+      "text": "Pimeys"
+    },
+    {
+      "id": "key_resources-0132",
+      "text": "Hiljaisuus"
+    },
+    {
+      "id": "key_resources-0133",
+      "text": "Melutaso"
+    },
+    {
+      "id": "key_resources-0134",
+      "text": "Yksityisyys"
+    },
+    {
+      "id": "key_resources-0135",
+      "text": "Huomio"
+    },
+    {
+      "id": "key_resources-0136",
+      "text": "Epäily"
+    },
+    {
+      "id": "key_resources-0137",
+      "text": "Etsintäkuulutustaso"
+    },
+    {
+      "id": "key_resources-0138",
+      "text": "Poliisin kiinnostus"
+    },
+    {
+      "id": "key_resources-0139",
+      "text": "Todennäköisyys jäädä kiinni"
+    },
+    {
+      "id": "key_resources-0140",
+      "text": "Peitehenkilöllisyys"
+    },
+    {
+      "id": "key_resources-0141",
+      "text": "Anonymiteetti"
+    },
+    {
+      "id": "key_resources-0142",
+      "text": "Salaus"
+    },
+    {
+      "id": "key_resources-0143",
+      "text": "Turvaluokitus"
+    },
+    {
+      "id": "key_resources-0144",
+      "text": "Pääsyoikeudet"
+    },
+    {
+      "id": "key_resources-0145",
+      "text": "Avaimet"
+    },
+    {
+      "id": "key_resources-0146",
+      "text": "Kulkuoikeudet"
+    },
+    {
+      "id": "key_resources-0147",
+      "text": "Salasanat"
+    },
+    {
+      "id": "key_resources-0148",
+      "text": "Kiristysmateriaali"
+    },
+    {
+      "id": "key_resources-0149",
+      "text": "Kompromat"
+    },
+    {
+      "id": "key_resources-0150",
+      "text": "Disinformaatio"
+    },
+    {
+      "id": "key_resources-0151",
+      "text": "Propaganda"
+    },
+    {
+      "id": "key_resources-0152",
+      "text": "Huhut"
+    },
+    {
+      "id": "key_resources-0153",
+      "text": "Yleisön huomio"
+    },
+    {
+      "id": "key_resources-0154",
+      "text": "Median kiinnostus"
+    },
+    {
+      "id": "key_resources-0155",
+      "text": "Narratiivin hallinta"
+    },
+    {
+      "id": "key_resources-0156",
+      "text": "Tietovuodot"
+    },
+    {
+      "id": "key_resources-0157",
+      "text": "Sensuurikapasiteetti"
+    },
+    {
+      "id": "key_resources-0158",
+      "text": "Uutisarvo"
+    },
+    {
+      "id": "key_resources-0159",
+      "text": "Totuudenmukaisuus"
+    },
+    {
+      "id": "key_resources-0160",
+      "text": "Luottamuksellisuus"
+    },
+    {
+      "id": "key_resources-0161",
+      "text": "Suhteet"
+    },
+    {
+      "id": "key_resources-0162",
+      "text": "Ystävät"
+    },
+    {
+      "id": "key_resources-0163",
+      "text": "Viholliset"
+    },
+    {
+      "id": "key_resources-0164",
+      "text": "Perhesiteet"
+    },
+    {
+      "id": "key_resources-0165",
+      "text": "Romanttinen kiinnostus"
+    },
+    {
+      "id": "key_resources-0166",
+      "text": "Velvollisuudet"
+    },
+    {
+      "id": "key_resources-0167",
+      "text": "Palvelukset"
+    },
+    {
+      "id": "key_resources-0168",
+      "text": "Velat ihmisille"
+    },
+    {
+      "id": "key_resources-0169",
+      "text": "Maine eri ryhmissä"
+    },
+    {
+      "id": "key_resources-0170",
+      "text": "Fraktiosuhteet"
+    },
+    {
+      "id": "key_resources-0171",
+      "text": "Diplomaattisuhteet"
+    },
+    {
+      "id": "key_resources-0172",
+      "text": "Kauppasuhteet"
+    },
+    {
+      "id": "key_resources-0173",
+      "text": "Liittolaissuhteet"
+    },
+    {
+      "id": "key_resources-0174",
+      "text": "Uskonnollinen vaikutusvalta"
+    },
+    {
+      "id": "key_resources-0175",
+      "text": "Kultin uskollisuus"
+    },
+    {
+      "id": "key_resources-0176",
+      "text": "Seuraajat"
+    },
+    {
+      "id": "key_resources-0177",
+      "text": "Jäsenet"
+    },
+    {
+      "id": "key_resources-0178",
+      "text": "Vapaaehtoiset"
+    },
+    {
+      "id": "key_resources-0179",
+      "text": "Äänestäjät"
+    },
+    {
+      "id": "key_resources-0180",
+      "text": "Kannattajat"
+    },
+    {
+      "id": "key_resources-0181",
+      "text": "Agentit"
+    },
+    {
+      "id": "key_resources-0182",
+      "text": "Vakoojat"
+    },
+    {
+      "id": "key_resources-0183",
+      "text": "Informantit"
+    },
+    {
+      "id": "key_resources-0184",
+      "text": "Vartijat"
+    },
+    {
+      "id": "key_resources-0185",
+      "text": "Sotilaat"
+    },
+    {
+      "id": "key_resources-0186",
+      "text": "Upseerit"
+    },
+    {
+      "id": "key_resources-0187",
+      "text": "Työntekijät"
+    },
+    {
+      "id": "key_resources-0188",
+      "text": "Insinöörit"
+    },
+    {
+      "id": "key_resources-0189",
+      "text": "Tutkijat"
+    },
+    {
+      "id": "key_resources-0190",
+      "text": "Kuljettajat"
+    },
+    {
+      "id": "key_resources-0191",
+      "text": "Miehistö"
+    },
+    {
+      "id": "key_resources-0192",
+      "text": "Komentopisteet"
+    },
+    {
+      "id": "key_resources-0193",
+      "text": "Toimintapisteet"
+    },
+    {
+      "id": "key_resources-0194",
+      "text": "Liikkumispisteet"
+    },
+    {
+      "id": "key_resources-0195",
+      "text": "Rakennuspisteet"
+    },
+    {
+      "id": "key_resources-0196",
+      "text": "Diplomatiapisteet"
+    },
+    {
+      "id": "key_resources-0197",
+      "text": "Tutkimuspisteet"
+    },
+    {
+      "id": "key_resources-0198",
+      "text": "Vaikutuspisteet"
+    },
+    {
+      "id": "key_resources-0199",
+      "text": "Mainepisteet"
+    },
+    {
+      "id": "key_resources-0200",
+      "text": "Kokemuspisteet"
+    },
+    {
+      "id": "key_resources-0201",
+      "text": "Taitopisteet"
+    },
+    {
+      "id": "key_resources-0202",
+      "text": "Tasot"
+    },
+    {
+      "id": "key_resources-0203",
+      "text": "Kortit"
+    },
+    {
+      "id": "key_resources-0204",
+      "text": "Nopat"
+    },
+    {
+      "id": "key_resources-0205",
+      "text": "Toiminnot per vuoro"
+    },
+    {
+      "id": "key_resources-0206",
+      "text": "Käytettävissä olevat päätökset"
+    },
+    {
+      "id": "key_resources-0207",
+      "text": "Tilaisuudet"
+    },
+    {
+      "id": "key_resources-0208",
+      "text": "Mahdollisuudet"
+    },
+    {
+      "id": "key_resources-0209",
+      "text": "Riskibudjetti"
+    },
+    {
+      "id": "key_resources-0210",
+      "text": "Virhemarginaali"
+    },
+    {
+      "id": "key_resources-0211",
+      "text": "Aika ennen määräaikaa"
+    },
+    {
+      "id": "key_resources-0212",
+      "text": "Aika ennen katastrofia"
+    },
+    {
+      "id": "key_resources-0213",
+      "text": "Aika ennen paljastumista"
+    },
+    {
+      "id": "key_resources-0214",
+      "text": "Aika ennen konkurssia"
+    },
+    {
+      "id": "key_resources-0215",
+      "text": "Aika ennen hyökkäystä"
+    },
+    {
+      "id": "key_resources-0216",
+      "text": "Aika ennen talvea"
+    },
+    {
+      "id": "key_resources-0217",
+      "text": "Aika ennen aamunkoittoa"
+    },
+    {
+      "id": "key_resources-0218",
+      "text": "Aika ennen kuolemaa"
+    },
+    {
+      "id": "key_resources-0219",
+      "text": "Muisti"
+    },
+    {
+      "id": "key_resources-0220",
+      "text": "Identiteetti"
+    },
+    {
+      "id": "key_resources-0221",
+      "text": "Järki"
+    },
+    {
+      "id": "key_resources-0222",
+      "text": "Todellisuudentaju"
+    },
+    {
+      "id": "key_resources-0223",
+      "text": "Tahdonvoima"
+    },
+    {
+      "id": "key_resources-0224",
+      "text": "Sielu"
+    },
+    {
+      "id": "key_resources-0225",
+      "text": "Elinvoima"
+    },
+    {
+      "id": "key_resources-0226",
+      "text": "Taikuus"
+    },
+    {
+      "id": "key_resources-0227",
+      "text": "Mana"
+    },
+    {
+      "id": "key_resources-0228",
+      "text": "Kiroukset"
+    },
+    {
+      "id": "key_resources-0229",
+      "text": "Siunaukset"
+    },
+    {
+      "id": "key_resources-0230",
+      "text": "Sielut"
+    },
+    {
+      "id": "key_resources-0231",
+      "text": "Uskomus"
+    },
+    {
+      "id": "key_resources-0232",
+      "text": "Usko"
+    },
+    {
+      "id": "key_resources-0233",
+      "text": "Pyhyys"
+    },
+    {
+      "id": "key_resources-0234",
+      "text": "Korruptio"
+    },
+    {
+      "id": "key_resources-0235",
+      "text": "Kaaos"
+    },
+    {
+      "id": "key_resources-0236",
+      "text": "Järjestysenergia"
+    },
+    {
+      "id": "key_resources-0237",
+      "text": "Aikaparadoksit"
+    },
+    {
+      "id": "key_resources-0238",
+      "text": "Aikajanan eheys"
+    },
+    {
+      "id": "key_resources-0239",
+      "text": "Muistojen määrä"
+    },
+    {
+      "id": "key_resources-0240",
+      "text": "Unet"
+    },
+    {
+      "id": "key_resources-0241",
+      "text": "Painajaiset"
+    },
+    {
+      "id": "key_resources-0242",
+      "text": "Aikahyppyjen määrä"
+    },
+    {
+      "id": "key_resources-0243",
+      "text": "Todellisuuden vakaus"
+    },
+    {
+      "id": "key_resources-0244",
+      "text": "Simulaation eheys"
+    },
+    {
+      "id": "key_resources-0245",
+      "text": "Prosessointiteho"
+    },
+    {
+      "id": "key_resources-0246",
+      "text": "Tallennustila"
+    },
+    {
+      "id": "key_resources-0247",
+      "text": "Kaistanleveys"
+    },
+    {
+      "id": "key_resources-0248",
+      "text": "Palvelinkapasiteetti"
+    },
+    {
+      "id": "key_resources-0249",
+      "text": "Laskentateho"
+    },
+    {
+      "id": "key_resources-0250",
+      "text": "Robotin akku"
+    },
+    {
+      "id": "key_resources-0251",
+      "text": "Järjestelmän eheys"
+    },
+    {
+      "id": "key_resources-0252",
+      "text": "Varaosat"
+    },
+    {
+      "id": "key_resources-0253",
+      "text": "Huoltokapasiteetti"
+    },
+    {
+      "id": "key_resources-0254",
+      "text": "Korjausaika"
+    },
+    {
+      "id": "key_resources-0255",
+      "text": "Rakenteellinen eheys"
+    },
+    {
+      "id": "key_resources-0256",
+      "text": "Tukikohdan eheys"
+    },
+    {
+      "id": "key_resources-0257",
+      "text": "Aluksen eheys"
+    },
+    {
+      "id": "key_resources-0258",
+      "text": "Moottoriteho"
+    },
+    {
+      "id": "key_resources-0259",
+      "text": "Polttoainevarasto"
+    },
+    {
+      "id": "key_resources-0260",
+      "text": "Hapen tuotanto"
+    },
+    {
+      "id": "key_resources-0261",
+      "text": "Ruokatuotanto"
+    },
+    {
+      "id": "key_resources-0262",
+      "text": "Vedenpuhdistuskapasiteetti"
+    },
+    {
+      "id": "key_resources-0263",
+      "text": "Tutkimusdata"
+    },
+    {
+      "id": "key_resources-0264",
+      "text": "Kartoitustieto"
+    },
+    {
+      "id": "key_resources-0265",
+      "text": "Navigointidata"
+    },
+    {
+      "id": "key_resources-0266",
+      "text": "Sensoridata"
+    },
+    {
+      "id": "key_resources-0267",
+      "text": "Tutkahavainnot"
+    },
+    {
+      "id": "key_resources-0268",
+      "text": "Sonarhavainnot"
+    },
+    {
+      "id": "key_resources-0269",
+      "text": "Säädata"
+    },
+    {
+      "id": "key_resources-0270",
+      "text": "Geneettinen materiaali"
+    },
+    {
+      "id": "key_resources-0271",
+      "text": "Näytteet"
+    },
+    {
+      "id": "key_resources-0272",
+      "text": "Artefaktit"
+    },
+    {
+      "id": "key_resources-0273",
+      "text": "Muinaisjäännökset"
+    },
+    {
+      "id": "key_resources-0274",
+      "text": "Harvinaiset esineet"
+    },
+    {
+      "id": "key_resources-0275",
+      "text": "Keräilyesineet"
+    },
+    {
+      "id": "key_resources-0276",
+      "text": "Todisteketjun eheys"
+    },
+    {
+      "id": "key_resources-0277",
+      "text": "Epäiltyjen määrä"
+    },
+    {
+      "id": "key_resources-0278",
+      "text": "Ratkaisemattomat tapaukset"
+    },
+    {
+      "id": "key_resources-0279",
+      "text": "Käsittelemättömät hakemukset"
+    },
+    {
+      "id": "key_resources-0280",
+      "text": "Työjono"
+    },
+    {
+      "id": "key_resources-0281",
+      "text": "Asiakasjono"
+    },
+    {
+      "id": "key_resources-0282",
+      "text": "Vankipaikat"
+    },
+    {
+      "id": "key_resources-0283",
+      "text": "Hotellihuoneet"
+    },
+    {
+      "id": "key_resources-0284",
+      "text": "Ravintolapaikat"
+    },
+    {
+      "id": "key_resources-0285",
+      "text": "Varastopaikat"
+    },
+    {
+      "id": "key_resources-0286",
+      "text": "Raidekapasiteetti"
+    },
+    {
+      "id": "key_resources-0287",
+      "text": "Lentokenttäslotit"
+    },
+    {
+      "id": "key_resources-0288",
+      "text": "Satamakapasiteetti"
+    },
+    {
+      "id": "key_resources-0289",
+      "text": "Liikennekapasiteetti"
+    },
+    {
+      "id": "key_resources-0290",
+      "text": "Maan käyttötila"
+    },
+    {
+      "id": "key_resources-0291",
+      "text": "Poliittinen vakaus"
+    },
+    {
+      "id": "key_resources-0292",
+      "text": "Taloudellinen vakaus"
+    },
+    {
+      "id": "key_resources-0293",
+      "text": "Sotilaallinen voima"
+    },
+    {
+      "id": "key_resources-0294",
+      "text": "Puolustuskyky"
+    },
+    {
+      "id": "key_resources-0295",
+      "text": "Tiedustelukyky"
+    },
+    {
+      "id": "key_resources-0296",
+      "text": "Diplomaattinen uskottavuus"
+    },
+    {
+      "id": "key_resources-0297",
+      "text": "Sotaväsymys"
+    },
+    {
+      "id": "key_resources-0298",
+      "text": "Kansallinen moraali"
+    },
+    {
+      "id": "key_resources-0299",
+      "text": "Strategiset resurssit"
+    },
+    {
+      "id": "key_resources-0300",
+      "text": "Huoltolinjat"
+    },
+    {
+      "id": "key_resources-0301",
+      "text": "Ammusvarannot"
+    },
+    {
+      "id": "key_resources-0302",
+      "text": "Reservit"
+    },
+    {
+      "id": "key_resources-0303",
+      "text": "Vapaa maa"
+    },
+    {
+      "id": "key_resources-0304",
+      "text": "Väestön tuki"
+    },
+    {
+      "id": "key_resources-0305",
+      "text": "Kulttuurinen vaikutusvalta"
+    }
   ]
 }

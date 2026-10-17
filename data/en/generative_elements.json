@@ -1,363 +1,1440 @@
 {
   "generative_elements": [
-    "Map",
-    "Characters",
-    "Relationships",
-    "Crime",
-    "Economy",
-    "Political situation",
-    "Disaster",
-    "Secrets",
-    "Quests",
-    "Cities",
-    "Villages",
-    "Buildings",
-    "Rooms",
-    "Streets",
-    "Neighborhoods",
-    "Terrain",
-    "Dungeons",
-    "Islands",
-    "Planets",
-    "Solar systems",
-    "Weather",
-    "Seasons",
-    "Natural resources",
-    "Resource locations",
-    "Trade routes",
-    "Transport network",
-    "Production chains",
-    "Infrastructure",
-    "Companies",
-    "Organizations",
-    "Factions",
-    "Political parties",
-    "Gangs",
-    "Cults",
-    "Families",
-    "Clans",
-    "Dynasties",
-    "Family trees",
-    "Births",
-    "Deaths",
-    "Marriages",
-    "Divorces",
-    "Inheritances",
-    "Friendships",
-    "Enmities",
-    "Romantic relationships",
-    "Rivalries",
-    "Loyalties",
-    "Debts",
-    "Favors",
-    "Trust",
-    "Reputation",
-    "Motives",
-    "Personalities",
-    "Fears",
-    "Wishes",
-    "Goals",
-    "Hidden goals",
-    "Professions",
-    "Workplaces",
-    "Roles",
-    "Ranks",
-    "Skills",
-    "Backstories",
-    "Life histories",
-    "Memories",
-    "Traumas",
-    "Beliefs",
-    "Values",
-    "Ideologies",
-    "Religions",
-    "Cultures",
-    "Languages",
-    "Names",
-    "Surnames",
-    "Place names",
-    "Organization names",
-    "Company names",
-    "Product names",
-    "Newspaper names",
-    "Ship names",
-    "Spaceship names",
-    "Historical events",
-    "Wars",
-    "Rebellions",
-    "Revolutions",
-    "Coups",
-    "Elections",
-    "Government coalitions",
-    "Changes in the law",
-    "Scandals",
-    "Diplomatic crises",
-    "Alliances",
-    "Peace treaties",
-    "Sanctions",
-    "Trade wars",
-    "Political conflicts",
-    "Leaders",
-    "Rulers",
-    "Ministers",
-    "Politicians",
-    "Election results",
-    "Approval ratings",
-    "Opinion polls",
-    "Propaganda",
-    "Rumors",
-    "News",
-    "Newspaper articles",
-    "Radio broadcasts",
-    "Social media discussions",
-    "Messages",
-    "Letters",
-    "Emails",
-    "Diaries",
-    "Reports",
-    "Documents",
-    "Official documents",
-    "Forged documents",
-    "Evidence",
-    "Clues",
-    "Contradictory clues",
-    "False leads",
-    "Witness statements",
-    "Suspects",
-    "Victims",
-    "Murderers",
-    "Motive for the crime",
-    "Time of the crime",
-    "Scene of the crime",
-    "Method of the crime",
-    "Cover-up of the crime",
-    "Mistakes made by the criminal",
-    "Criminal networks",
-    "Smuggling routes",
-    "Corruption networks",
-    "Spies",
-    "Double agents",
-    "Sources of information",
-    "Conspiracies",
-    "Members of conspiracies",
-    "Goals of conspiracies",
-    "Methods of conspiracies",
-    "Secret meetings",
-    "Hideouts",
-    "Secret rooms",
-    "Secret passages",
-    "Caches",
-    "Artifacts",
-    "Treasures",
-    "Rare items",
-    "Equipment",
-    "Tools",
-    "Weapons",
-    "Recipes",
-    "Crafting recipes",
-    "Blueprints",
-    "Technologies",
-    "Tech trees",
-    "Inventions",
-    "Medicines",
-    "Diseases",
-    "Epidemics",
-    "Mutation traits",
-    "Ecosystems",
-    "Plant species",
-    "Animal species",
-    "Alien life forms",
-    "Genetic traits",
-    "Weather phenomena",
-    "Storms",
-    "Floods",
-    "Fires",
-    "Earthquakes",
-    "Volcanic eruptions",
-    "Droughts",
-    "Radiation storms",
-    "Meteor impacts",
-    "Technical faults",
-    "System failures",
-    "Power outages",
-    "Engine failures",
-    "Reactor failures",
-    "Oxygen leaks",
-    "Hull damage",
-    "Acts of sabotage",
-    "Accidents",
-    "Rescue situations",
-    "Crises",
-    "Chains of crises",
-    "Random events",
-    "Daily events",
-    "Weekly events",
-    "Rare events",
-    "Global events",
-    "Local events",
-    "Personal events",
-    "Social events",
-    "Workplace events",
-    "Family events",
-    "Parties",
-    "Funerals",
-    "Weddings",
-    "Birthdays",
-    "Meetings",
-    "Negotiations",
-    "Strikes",
-    "Demonstrations",
-    "Riots",
-    "Sporting events",
-    "Festivals",
-    "Market days",
-    "Auctions",
-    "Trade situations",
-    "Price fluctuations",
-    "Market crises",
-    "Economic cycles",
-    "Inflation",
-    "Unemployment",
-    "Debt crises",
-    "Company bankruptcies",
-    "Company acquisitions",
-    "New companies",
-    "Production disruptions",
-    "Resource shortages",
-    "Consumer demand",
-    "Taxation",
-    "Budgets",
-    "Wages",
-    "Prices",
-    "Rents",
-    "Share prices",
-    "Exchange rates",
-    "Quest chains",
-    "Main quests",
-    "Side quests",
-    "Personal quests",
-    "Faction quests",
-    "Work assignments",
-    "Research quests",
-    "Rescue quests",
-    "Secret quests",
-    "Timed quests",
-    "Moral choices",
-    "Quest rewards",
-    "Quest consequences",
-    "Quest failures",
-    "Quest givers",
-    "Quest targets",
-    "Quest locations",
-    "Quest obstacles",
-    "Ways to solve quests",
-    "Dialogues",
-    "Conversation topics",
-    "Dialogue options",
-    "NPC responses",
-    "Debates",
-    "Negotiations",
-    "Interrogations",
-    "Lies",
-    "Confessions",
-    "Consequences of threats",
-    "Consequences of bribery",
-    "Social situations",
-    "Social status",
-    "Social hierarchy",
-    "Social norms",
-    "Taboos",
-    "Customs",
-    "Traditions",
-    "Rituals",
-    "Laws",
-    "Rules",
-    "Punishments",
-    "Rewards",
-    "Bureaucracy",
-    "Permit processes",
-    "Applications",
-    "Paperwork",
-    "Work shifts",
-    "Schedules",
-    "NPC routines",
-    "NPC movements",
-    "NPC daily schedules",
-    "NPC needs",
-    "NPC priorities",
-    "NPC decisions",
-    "NPC conflicts",
-    "NPC alliances",
-    "NPC betrayals",
-    "NPC opinions",
-    "NPC memories",
-    "NPC rumors",
-    "NPC personal crises",
-    "NPC career development",
-    "NPC crimes",
-    "NPC death",
-    "NPC disappearance",
-    "NPC moving away",
-    "NPC promotion",
-    "NPC dismissal",
-    "NPC defection",
-    "NPC radicalization",
-    "NPC religious conversion",
-    "NPC political shift",
-    "Population development",
-    "Migration",
-    "Birth rate",
-    "Mortality",
-    "Generational change",
-    "Cultural change",
-    "City growth",
-    "Urban decay",
-    "Changing uses of buildings",
-    "Abandoned buildings",
-    "New buildings",
-    "Infrastructure development",
-    "Technological development",
-    "Social development",
-    "Borders of the realm",
-    "War front lines",
-    "Territorial control",
-    "Diplomatic relations",
-    "Balance of power between factions",
-    "Crime level",
-    "Security situation",
-    "Public opinion",
-    "Morale",
-    "Trust in institutions",
-    "Forecasts of the future",
-    "History",
-    "Alternate history",
-    "Timelines",
-    "Parallel timelines",
-    "Time paradoxes",
-    "Changing historical events",
-    "History of different playthroughs",
-    "The world's memories",
-    "Effects of the player's previous playthroughs",
-    "Procedural mysteries",
-    "Procedural murders",
-    "Procedural conspiracies",
-    "Procedural disasters",
-    "Procedural political crises",
-    "Procedural relationship dramas",
-    "Procedural family sagas",
-    "Procedural workplace dramas",
-    "Procedural causes of war",
-    "Procedural peace negotiations",
-    "Procedural world events",
-    "Procedural main plot",
-    "Procedural subplot",
-    "Procedural antagonist",
-    "Procedural ending",
-    "Procedural win conditions",
-    "Procedural failures",
-    "Procedural moral dilemmas",
-    "Procedural personal goals",
-    "Procedural organizational goals",
-    "Procedural world goals"
+    {
+      "id": "generative_elements-0001",
+      "text": "Map"
+    },
+    {
+      "id": "generative_elements-0002",
+      "text": "Characters"
+    },
+    {
+      "id": "generative_elements-0003",
+      "text": "Relationships"
+    },
+    {
+      "id": "generative_elements-0004",
+      "text": "Crime"
+    },
+    {
+      "id": "generative_elements-0005",
+      "text": "Economy"
+    },
+    {
+      "id": "generative_elements-0006",
+      "text": "Political situation"
+    },
+    {
+      "id": "generative_elements-0007",
+      "text": "Disaster"
+    },
+    {
+      "id": "generative_elements-0008",
+      "text": "Secrets"
+    },
+    {
+      "id": "generative_elements-0009",
+      "text": "Quests"
+    },
+    {
+      "id": "generative_elements-0010",
+      "text": "Cities"
+    },
+    {
+      "id": "generative_elements-0011",
+      "text": "Villages"
+    },
+    {
+      "id": "generative_elements-0012",
+      "text": "Buildings"
+    },
+    {
+      "id": "generative_elements-0013",
+      "text": "Rooms"
+    },
+    {
+      "id": "generative_elements-0014",
+      "text": "Streets"
+    },
+    {
+      "id": "generative_elements-0015",
+      "text": "Neighborhoods"
+    },
+    {
+      "id": "generative_elements-0016",
+      "text": "Terrain"
+    },
+    {
+      "id": "generative_elements-0017",
+      "text": "Dungeons"
+    },
+    {
+      "id": "generative_elements-0018",
+      "text": "Islands"
+    },
+    {
+      "id": "generative_elements-0019",
+      "text": "Planets"
+    },
+    {
+      "id": "generative_elements-0020",
+      "text": "Solar systems"
+    },
+    {
+      "id": "generative_elements-0021",
+      "text": "Weather"
+    },
+    {
+      "id": "generative_elements-0022",
+      "text": "Seasons"
+    },
+    {
+      "id": "generative_elements-0023",
+      "text": "Natural resources"
+    },
+    {
+      "id": "generative_elements-0024",
+      "text": "Resource locations"
+    },
+    {
+      "id": "generative_elements-0025",
+      "text": "Trade routes"
+    },
+    {
+      "id": "generative_elements-0026",
+      "text": "Transport network"
+    },
+    {
+      "id": "generative_elements-0027",
+      "text": "Production chains"
+    },
+    {
+      "id": "generative_elements-0028",
+      "text": "Infrastructure"
+    },
+    {
+      "id": "generative_elements-0029",
+      "text": "Companies"
+    },
+    {
+      "id": "generative_elements-0030",
+      "text": "Organizations"
+    },
+    {
+      "id": "generative_elements-0031",
+      "text": "Factions"
+    },
+    {
+      "id": "generative_elements-0032",
+      "text": "Political parties"
+    },
+    {
+      "id": "generative_elements-0033",
+      "text": "Gangs"
+    },
+    {
+      "id": "generative_elements-0034",
+      "text": "Cults"
+    },
+    {
+      "id": "generative_elements-0035",
+      "text": "Families"
+    },
+    {
+      "id": "generative_elements-0036",
+      "text": "Clans"
+    },
+    {
+      "id": "generative_elements-0037",
+      "text": "Dynasties"
+    },
+    {
+      "id": "generative_elements-0038",
+      "text": "Family trees"
+    },
+    {
+      "id": "generative_elements-0039",
+      "text": "Births"
+    },
+    {
+      "id": "generative_elements-0040",
+      "text": "Deaths"
+    },
+    {
+      "id": "generative_elements-0041",
+      "text": "Marriages"
+    },
+    {
+      "id": "generative_elements-0042",
+      "text": "Divorces"
+    },
+    {
+      "id": "generative_elements-0043",
+      "text": "Inheritances"
+    },
+    {
+      "id": "generative_elements-0044",
+      "text": "Friendships"
+    },
+    {
+      "id": "generative_elements-0045",
+      "text": "Enmities"
+    },
+    {
+      "id": "generative_elements-0046",
+      "text": "Romantic relationships"
+    },
+    {
+      "id": "generative_elements-0047",
+      "text": "Rivalries"
+    },
+    {
+      "id": "generative_elements-0048",
+      "text": "Loyalties"
+    },
+    {
+      "id": "generative_elements-0049",
+      "text": "Debts"
+    },
+    {
+      "id": "generative_elements-0050",
+      "text": "Favors"
+    },
+    {
+      "id": "generative_elements-0051",
+      "text": "Trust"
+    },
+    {
+      "id": "generative_elements-0052",
+      "text": "Reputation"
+    },
+    {
+      "id": "generative_elements-0053",
+      "text": "Motives"
+    },
+    {
+      "id": "generative_elements-0054",
+      "text": "Personalities"
+    },
+    {
+      "id": "generative_elements-0055",
+      "text": "Fears"
+    },
+    {
+      "id": "generative_elements-0056",
+      "text": "Wishes"
+    },
+    {
+      "id": "generative_elements-0057",
+      "text": "Goals"
+    },
+    {
+      "id": "generative_elements-0058",
+      "text": "Hidden goals"
+    },
+    {
+      "id": "generative_elements-0059",
+      "text": "Professions"
+    },
+    {
+      "id": "generative_elements-0060",
+      "text": "Workplaces"
+    },
+    {
+      "id": "generative_elements-0061",
+      "text": "Roles"
+    },
+    {
+      "id": "generative_elements-0062",
+      "text": "Ranks"
+    },
+    {
+      "id": "generative_elements-0063",
+      "text": "Skills"
+    },
+    {
+      "id": "generative_elements-0064",
+      "text": "Backstories"
+    },
+    {
+      "id": "generative_elements-0065",
+      "text": "Life histories"
+    },
+    {
+      "id": "generative_elements-0066",
+      "text": "Memories"
+    },
+    {
+      "id": "generative_elements-0067",
+      "text": "Traumas"
+    },
+    {
+      "id": "generative_elements-0068",
+      "text": "Beliefs"
+    },
+    {
+      "id": "generative_elements-0069",
+      "text": "Values"
+    },
+    {
+      "id": "generative_elements-0070",
+      "text": "Ideologies"
+    },
+    {
+      "id": "generative_elements-0071",
+      "text": "Religions"
+    },
+    {
+      "id": "generative_elements-0072",
+      "text": "Cultures"
+    },
+    {
+      "id": "generative_elements-0073",
+      "text": "Languages"
+    },
+    {
+      "id": "generative_elements-0074",
+      "text": "Names"
+    },
+    {
+      "id": "generative_elements-0075",
+      "text": "Surnames"
+    },
+    {
+      "id": "generative_elements-0076",
+      "text": "Place names"
+    },
+    {
+      "id": "generative_elements-0077",
+      "text": "Organization names"
+    },
+    {
+      "id": "generative_elements-0078",
+      "text": "Company names"
+    },
+    {
+      "id": "generative_elements-0079",
+      "text": "Product names"
+    },
+    {
+      "id": "generative_elements-0080",
+      "text": "Newspaper names"
+    },
+    {
+      "id": "generative_elements-0081",
+      "text": "Ship names"
+    },
+    {
+      "id": "generative_elements-0082",
+      "text": "Spaceship names"
+    },
+    {
+      "id": "generative_elements-0083",
+      "text": "Historical events"
+    },
+    {
+      "id": "generative_elements-0084",
+      "text": "Wars"
+    },
+    {
+      "id": "generative_elements-0085",
+      "text": "Rebellions"
+    },
+    {
+      "id": "generative_elements-0086",
+      "text": "Revolutions"
+    },
+    {
+      "id": "generative_elements-0087",
+      "text": "Coups"
+    },
+    {
+      "id": "generative_elements-0088",
+      "text": "Elections"
+    },
+    {
+      "id": "generative_elements-0089",
+      "text": "Government coalitions"
+    },
+    {
+      "id": "generative_elements-0090",
+      "text": "Changes in the law"
+    },
+    {
+      "id": "generative_elements-0091",
+      "text": "Scandals"
+    },
+    {
+      "id": "generative_elements-0092",
+      "text": "Diplomatic crises"
+    },
+    {
+      "id": "generative_elements-0093",
+      "text": "Alliances"
+    },
+    {
+      "id": "generative_elements-0094",
+      "text": "Peace treaties"
+    },
+    {
+      "id": "generative_elements-0095",
+      "text": "Sanctions"
+    },
+    {
+      "id": "generative_elements-0096",
+      "text": "Trade wars"
+    },
+    {
+      "id": "generative_elements-0097",
+      "text": "Political conflicts"
+    },
+    {
+      "id": "generative_elements-0098",
+      "text": "Leaders"
+    },
+    {
+      "id": "generative_elements-0099",
+      "text": "Rulers"
+    },
+    {
+      "id": "generative_elements-0100",
+      "text": "Ministers"
+    },
+    {
+      "id": "generative_elements-0101",
+      "text": "Politicians"
+    },
+    {
+      "id": "generative_elements-0102",
+      "text": "Election results"
+    },
+    {
+      "id": "generative_elements-0103",
+      "text": "Approval ratings"
+    },
+    {
+      "id": "generative_elements-0104",
+      "text": "Opinion polls"
+    },
+    {
+      "id": "generative_elements-0105",
+      "text": "Propaganda"
+    },
+    {
+      "id": "generative_elements-0106",
+      "text": "Rumors"
+    },
+    {
+      "id": "generative_elements-0107",
+      "text": "News"
+    },
+    {
+      "id": "generative_elements-0108",
+      "text": "Newspaper articles"
+    },
+    {
+      "id": "generative_elements-0109",
+      "text": "Radio broadcasts"
+    },
+    {
+      "id": "generative_elements-0110",
+      "text": "Social media discussions"
+    },
+    {
+      "id": "generative_elements-0111",
+      "text": "Messages"
+    },
+    {
+      "id": "generative_elements-0112",
+      "text": "Letters"
+    },
+    {
+      "id": "generative_elements-0113",
+      "text": "Emails"
+    },
+    {
+      "id": "generative_elements-0114",
+      "text": "Diaries"
+    },
+    {
+      "id": "generative_elements-0115",
+      "text": "Reports"
+    },
+    {
+      "id": "generative_elements-0116",
+      "text": "Documents"
+    },
+    {
+      "id": "generative_elements-0117",
+      "text": "Official documents"
+    },
+    {
+      "id": "generative_elements-0118",
+      "text": "Forged documents"
+    },
+    {
+      "id": "generative_elements-0119",
+      "text": "Evidence"
+    },
+    {
+      "id": "generative_elements-0120",
+      "text": "Clues"
+    },
+    {
+      "id": "generative_elements-0121",
+      "text": "Contradictory clues"
+    },
+    {
+      "id": "generative_elements-0122",
+      "text": "False leads"
+    },
+    {
+      "id": "generative_elements-0123",
+      "text": "Witness statements"
+    },
+    {
+      "id": "generative_elements-0124",
+      "text": "Suspects"
+    },
+    {
+      "id": "generative_elements-0125",
+      "text": "Victims"
+    },
+    {
+      "id": "generative_elements-0126",
+      "text": "Murderers"
+    },
+    {
+      "id": "generative_elements-0127",
+      "text": "Motive for the crime"
+    },
+    {
+      "id": "generative_elements-0128",
+      "text": "Time of the crime"
+    },
+    {
+      "id": "generative_elements-0129",
+      "text": "Scene of the crime"
+    },
+    {
+      "id": "generative_elements-0130",
+      "text": "Method of the crime"
+    },
+    {
+      "id": "generative_elements-0131",
+      "text": "Cover-up of the crime"
+    },
+    {
+      "id": "generative_elements-0132",
+      "text": "Mistakes made by the criminal"
+    },
+    {
+      "id": "generative_elements-0133",
+      "text": "Criminal networks"
+    },
+    {
+      "id": "generative_elements-0134",
+      "text": "Smuggling routes"
+    },
+    {
+      "id": "generative_elements-0135",
+      "text": "Corruption networks"
+    },
+    {
+      "id": "generative_elements-0136",
+      "text": "Spies"
+    },
+    {
+      "id": "generative_elements-0137",
+      "text": "Double agents"
+    },
+    {
+      "id": "generative_elements-0138",
+      "text": "Sources of information"
+    },
+    {
+      "id": "generative_elements-0139",
+      "text": "Conspiracies"
+    },
+    {
+      "id": "generative_elements-0140",
+      "text": "Members of conspiracies"
+    },
+    {
+      "id": "generative_elements-0141",
+      "text": "Goals of conspiracies"
+    },
+    {
+      "id": "generative_elements-0142",
+      "text": "Methods of conspiracies"
+    },
+    {
+      "id": "generative_elements-0143",
+      "text": "Secret meetings"
+    },
+    {
+      "id": "generative_elements-0144",
+      "text": "Hideouts"
+    },
+    {
+      "id": "generative_elements-0145",
+      "text": "Secret rooms"
+    },
+    {
+      "id": "generative_elements-0146",
+      "text": "Secret passages"
+    },
+    {
+      "id": "generative_elements-0147",
+      "text": "Caches"
+    },
+    {
+      "id": "generative_elements-0148",
+      "text": "Artifacts"
+    },
+    {
+      "id": "generative_elements-0149",
+      "text": "Treasures"
+    },
+    {
+      "id": "generative_elements-0150",
+      "text": "Rare items"
+    },
+    {
+      "id": "generative_elements-0151",
+      "text": "Equipment"
+    },
+    {
+      "id": "generative_elements-0152",
+      "text": "Tools"
+    },
+    {
+      "id": "generative_elements-0153",
+      "text": "Weapons"
+    },
+    {
+      "id": "generative_elements-0154",
+      "text": "Recipes"
+    },
+    {
+      "id": "generative_elements-0155",
+      "text": "Crafting recipes"
+    },
+    {
+      "id": "generative_elements-0156",
+      "text": "Blueprints"
+    },
+    {
+      "id": "generative_elements-0157",
+      "text": "Technologies"
+    },
+    {
+      "id": "generative_elements-0158",
+      "text": "Tech trees"
+    },
+    {
+      "id": "generative_elements-0159",
+      "text": "Inventions"
+    },
+    {
+      "id": "generative_elements-0160",
+      "text": "Medicines"
+    },
+    {
+      "id": "generative_elements-0161",
+      "text": "Diseases"
+    },
+    {
+      "id": "generative_elements-0162",
+      "text": "Epidemics"
+    },
+    {
+      "id": "generative_elements-0163",
+      "text": "Mutation traits"
+    },
+    {
+      "id": "generative_elements-0164",
+      "text": "Ecosystems"
+    },
+    {
+      "id": "generative_elements-0165",
+      "text": "Plant species"
+    },
+    {
+      "id": "generative_elements-0166",
+      "text": "Animal species"
+    },
+    {
+      "id": "generative_elements-0167",
+      "text": "Alien life forms"
+    },
+    {
+      "id": "generative_elements-0168",
+      "text": "Genetic traits"
+    },
+    {
+      "id": "generative_elements-0169",
+      "text": "Weather phenomena"
+    },
+    {
+      "id": "generative_elements-0170",
+      "text": "Storms"
+    },
+    {
+      "id": "generative_elements-0171",
+      "text": "Floods"
+    },
+    {
+      "id": "generative_elements-0172",
+      "text": "Fires"
+    },
+    {
+      "id": "generative_elements-0173",
+      "text": "Earthquakes"
+    },
+    {
+      "id": "generative_elements-0174",
+      "text": "Volcanic eruptions"
+    },
+    {
+      "id": "generative_elements-0175",
+      "text": "Droughts"
+    },
+    {
+      "id": "generative_elements-0176",
+      "text": "Radiation storms"
+    },
+    {
+      "id": "generative_elements-0177",
+      "text": "Meteor impacts"
+    },
+    {
+      "id": "generative_elements-0178",
+      "text": "Technical faults"
+    },
+    {
+      "id": "generative_elements-0179",
+      "text": "System failures"
+    },
+    {
+      "id": "generative_elements-0180",
+      "text": "Power outages"
+    },
+    {
+      "id": "generative_elements-0181",
+      "text": "Engine failures"
+    },
+    {
+      "id": "generative_elements-0182",
+      "text": "Reactor failures"
+    },
+    {
+      "id": "generative_elements-0183",
+      "text": "Oxygen leaks"
+    },
+    {
+      "id": "generative_elements-0184",
+      "text": "Hull damage"
+    },
+    {
+      "id": "generative_elements-0185",
+      "text": "Acts of sabotage"
+    },
+    {
+      "id": "generative_elements-0186",
+      "text": "Accidents"
+    },
+    {
+      "id": "generative_elements-0187",
+      "text": "Rescue situations"
+    },
+    {
+      "id": "generative_elements-0188",
+      "text": "Crises"
+    },
+    {
+      "id": "generative_elements-0189",
+      "text": "Chains of crises"
+    },
+    {
+      "id": "generative_elements-0190",
+      "text": "Random events"
+    },
+    {
+      "id": "generative_elements-0191",
+      "text": "Daily events"
+    },
+    {
+      "id": "generative_elements-0192",
+      "text": "Weekly events"
+    },
+    {
+      "id": "generative_elements-0193",
+      "text": "Rare events"
+    },
+    {
+      "id": "generative_elements-0194",
+      "text": "Global events"
+    },
+    {
+      "id": "generative_elements-0195",
+      "text": "Local events"
+    },
+    {
+      "id": "generative_elements-0196",
+      "text": "Personal events"
+    },
+    {
+      "id": "generative_elements-0197",
+      "text": "Social events"
+    },
+    {
+      "id": "generative_elements-0198",
+      "text": "Workplace events"
+    },
+    {
+      "id": "generative_elements-0199",
+      "text": "Family events"
+    },
+    {
+      "id": "generative_elements-0200",
+      "text": "Parties"
+    },
+    {
+      "id": "generative_elements-0201",
+      "text": "Funerals"
+    },
+    {
+      "id": "generative_elements-0202",
+      "text": "Weddings"
+    },
+    {
+      "id": "generative_elements-0203",
+      "text": "Birthdays"
+    },
+    {
+      "id": "generative_elements-0204",
+      "text": "Meetings"
+    },
+    {
+      "id": "generative_elements-0205",
+      "text": "Negotiations"
+    },
+    {
+      "id": "generative_elements-0206",
+      "text": "Strikes"
+    },
+    {
+      "id": "generative_elements-0207",
+      "text": "Demonstrations"
+    },
+    {
+      "id": "generative_elements-0208",
+      "text": "Riots"
+    },
+    {
+      "id": "generative_elements-0209",
+      "text": "Sporting events"
+    },
+    {
+      "id": "generative_elements-0210",
+      "text": "Festivals"
+    },
+    {
+      "id": "generative_elements-0211",
+      "text": "Market days"
+    },
+    {
+      "id": "generative_elements-0212",
+      "text": "Auctions"
+    },
+    {
+      "id": "generative_elements-0213",
+      "text": "Trade situations"
+    },
+    {
+      "id": "generative_elements-0214",
+      "text": "Price fluctuations"
+    },
+    {
+      "id": "generative_elements-0215",
+      "text": "Market crises"
+    },
+    {
+      "id": "generative_elements-0216",
+      "text": "Economic cycles"
+    },
+    {
+      "id": "generative_elements-0217",
+      "text": "Inflation"
+    },
+    {
+      "id": "generative_elements-0218",
+      "text": "Unemployment"
+    },
+    {
+      "id": "generative_elements-0219",
+      "text": "Debt crises"
+    },
+    {
+      "id": "generative_elements-0220",
+      "text": "Company bankruptcies"
+    },
+    {
+      "id": "generative_elements-0221",
+      "text": "Company acquisitions"
+    },
+    {
+      "id": "generative_elements-0222",
+      "text": "New companies"
+    },
+    {
+      "id": "generative_elements-0223",
+      "text": "Production disruptions"
+    },
+    {
+      "id": "generative_elements-0224",
+      "text": "Resource shortages"
+    },
+    {
+      "id": "generative_elements-0225",
+      "text": "Consumer demand"
+    },
+    {
+      "id": "generative_elements-0226",
+      "text": "Taxation"
+    },
+    {
+      "id": "generative_elements-0227",
+      "text": "Budgets"
+    },
+    {
+      "id": "generative_elements-0228",
+      "text": "Wages"
+    },
+    {
+      "id": "generative_elements-0229",
+      "text": "Prices"
+    },
+    {
+      "id": "generative_elements-0230",
+      "text": "Rents"
+    },
+    {
+      "id": "generative_elements-0231",
+      "text": "Share prices"
+    },
+    {
+      "id": "generative_elements-0232",
+      "text": "Exchange rates"
+    },
+    {
+      "id": "generative_elements-0233",
+      "text": "Quest chains"
+    },
+    {
+      "id": "generative_elements-0234",
+      "text": "Main quests"
+    },
+    {
+      "id": "generative_elements-0235",
+      "text": "Side quests"
+    },
+    {
+      "id": "generative_elements-0236",
+      "text": "Personal quests"
+    },
+    {
+      "id": "generative_elements-0237",
+      "text": "Faction quests"
+    },
+    {
+      "id": "generative_elements-0238",
+      "text": "Work assignments"
+    },
+    {
+      "id": "generative_elements-0239",
+      "text": "Research quests"
+    },
+    {
+      "id": "generative_elements-0240",
+      "text": "Rescue quests"
+    },
+    {
+      "id": "generative_elements-0241",
+      "text": "Secret quests"
+    },
+    {
+      "id": "generative_elements-0242",
+      "text": "Timed quests"
+    },
+    {
+      "id": "generative_elements-0243",
+      "text": "Moral choices"
+    },
+    {
+      "id": "generative_elements-0244",
+      "text": "Quest rewards"
+    },
+    {
+      "id": "generative_elements-0245",
+      "text": "Quest consequences"
+    },
+    {
+      "id": "generative_elements-0246",
+      "text": "Quest failures"
+    },
+    {
+      "id": "generative_elements-0247",
+      "text": "Quest givers"
+    },
+    {
+      "id": "generative_elements-0248",
+      "text": "Quest targets"
+    },
+    {
+      "id": "generative_elements-0249",
+      "text": "Quest locations"
+    },
+    {
+      "id": "generative_elements-0250",
+      "text": "Quest obstacles"
+    },
+    {
+      "id": "generative_elements-0251",
+      "text": "Ways to solve quests"
+    },
+    {
+      "id": "generative_elements-0252",
+      "text": "Dialogues"
+    },
+    {
+      "id": "generative_elements-0253",
+      "text": "Conversation topics"
+    },
+    {
+      "id": "generative_elements-0254",
+      "text": "Dialogue options"
+    },
+    {
+      "id": "generative_elements-0255",
+      "text": "NPC responses"
+    },
+    {
+      "id": "generative_elements-0256",
+      "text": "Debates"
+    },
+    {
+      "id": "generative_elements-0257",
+      "text": "Negotiations"
+    },
+    {
+      "id": "generative_elements-0258",
+      "text": "Interrogations"
+    },
+    {
+      "id": "generative_elements-0259",
+      "text": "Lies"
+    },
+    {
+      "id": "generative_elements-0260",
+      "text": "Confessions"
+    },
+    {
+      "id": "generative_elements-0261",
+      "text": "Consequences of threats"
+    },
+    {
+      "id": "generative_elements-0262",
+      "text": "Consequences of bribery"
+    },
+    {
+      "id": "generative_elements-0263",
+      "text": "Social situations"
+    },
+    {
+      "id": "generative_elements-0264",
+      "text": "Social status"
+    },
+    {
+      "id": "generative_elements-0265",
+      "text": "Social hierarchy"
+    },
+    {
+      "id": "generative_elements-0266",
+      "text": "Social norms"
+    },
+    {
+      "id": "generative_elements-0267",
+      "text": "Taboos"
+    },
+    {
+      "id": "generative_elements-0268",
+      "text": "Customs"
+    },
+    {
+      "id": "generative_elements-0269",
+      "text": "Traditions"
+    },
+    {
+      "id": "generative_elements-0270",
+      "text": "Rituals"
+    },
+    {
+      "id": "generative_elements-0271",
+      "text": "Laws"
+    },
+    {
+      "id": "generative_elements-0272",
+      "text": "Rules"
+    },
+    {
+      "id": "generative_elements-0273",
+      "text": "Punishments"
+    },
+    {
+      "id": "generative_elements-0274",
+      "text": "Rewards"
+    },
+    {
+      "id": "generative_elements-0275",
+      "text": "Bureaucracy"
+    },
+    {
+      "id": "generative_elements-0276",
+      "text": "Permit processes"
+    },
+    {
+      "id": "generative_elements-0277",
+      "text": "Applications"
+    },
+    {
+      "id": "generative_elements-0278",
+      "text": "Paperwork"
+    },
+    {
+      "id": "generative_elements-0279",
+      "text": "Work shifts"
+    },
+    {
+      "id": "generative_elements-0280",
+      "text": "Schedules"
+    },
+    {
+      "id": "generative_elements-0281",
+      "text": "NPC routines"
+    },
+    {
+      "id": "generative_elements-0282",
+      "text": "NPC movements"
+    },
+    {
+      "id": "generative_elements-0283",
+      "text": "NPC daily schedules"
+    },
+    {
+      "id": "generative_elements-0284",
+      "text": "NPC needs"
+    },
+    {
+      "id": "generative_elements-0285",
+      "text": "NPC priorities"
+    },
+    {
+      "id": "generative_elements-0286",
+      "text": "NPC decisions"
+    },
+    {
+      "id": "generative_elements-0287",
+      "text": "NPC conflicts"
+    },
+    {
+      "id": "generative_elements-0288",
+      "text": "NPC alliances"
+    },
+    {
+      "id": "generative_elements-0289",
+      "text": "NPC betrayals"
+    },
+    {
+      "id": "generative_elements-0290",
+      "text": "NPC opinions"
+    },
+    {
+      "id": "generative_elements-0291",
+      "text": "NPC memories"
+    },
+    {
+      "id": "generative_elements-0292",
+      "text": "NPC rumors"
+    },
+    {
+      "id": "generative_elements-0293",
+      "text": "NPC personal crises"
+    },
+    {
+      "id": "generative_elements-0294",
+      "text": "NPC career development"
+    },
+    {
+      "id": "generative_elements-0295",
+      "text": "NPC crimes"
+    },
+    {
+      "id": "generative_elements-0296",
+      "text": "NPC death"
+    },
+    {
+      "id": "generative_elements-0297",
+      "text": "NPC disappearance"
+    },
+    {
+      "id": "generative_elements-0298",
+      "text": "NPC moving away"
+    },
+    {
+      "id": "generative_elements-0299",
+      "text": "NPC promotion"
+    },
+    {
+      "id": "generative_elements-0300",
+      "text": "NPC dismissal"
+    },
+    {
+      "id": "generative_elements-0301",
+      "text": "NPC defection"
+    },
+    {
+      "id": "generative_elements-0302",
+      "text": "NPC radicalization"
+    },
+    {
+      "id": "generative_elements-0303",
+      "text": "NPC religious conversion"
+    },
+    {
+      "id": "generative_elements-0304",
+      "text": "NPC political shift"
+    },
+    {
+      "id": "generative_elements-0305",
+      "text": "Population development"
+    },
+    {
+      "id": "generative_elements-0306",
+      "text": "Migration"
+    },
+    {
+      "id": "generative_elements-0307",
+      "text": "Birth rate"
+    },
+    {
+      "id": "generative_elements-0308",
+      "text": "Mortality"
+    },
+    {
+      "id": "generative_elements-0309",
+      "text": "Generational change"
+    },
+    {
+      "id": "generative_elements-0310",
+      "text": "Cultural change"
+    },
+    {
+      "id": "generative_elements-0311",
+      "text": "City growth"
+    },
+    {
+      "id": "generative_elements-0312",
+      "text": "Urban decay"
+    },
+    {
+      "id": "generative_elements-0313",
+      "text": "Changing uses of buildings"
+    },
+    {
+      "id": "generative_elements-0314",
+      "text": "Abandoned buildings"
+    },
+    {
+      "id": "generative_elements-0315",
+      "text": "New buildings"
+    },
+    {
+      "id": "generative_elements-0316",
+      "text": "Infrastructure development"
+    },
+    {
+      "id": "generative_elements-0317",
+      "text": "Technological development"
+    },
+    {
+      "id": "generative_elements-0318",
+      "text": "Social development"
+    },
+    {
+      "id": "generative_elements-0319",
+      "text": "Borders of the realm"
+    },
+    {
+      "id": "generative_elements-0320",
+      "text": "War front lines"
+    },
+    {
+      "id": "generative_elements-0321",
+      "text": "Territorial control"
+    },
+    {
+      "id": "generative_elements-0322",
+      "text": "Diplomatic relations"
+    },
+    {
+      "id": "generative_elements-0323",
+      "text": "Balance of power between factions"
+    },
+    {
+      "id": "generative_elements-0324",
+      "text": "Crime level"
+    },
+    {
+      "id": "generative_elements-0325",
+      "text": "Security situation"
+    },
+    {
+      "id": "generative_elements-0326",
+      "text": "Public opinion"
+    },
+    {
+      "id": "generative_elements-0327",
+      "text": "Morale"
+    },
+    {
+      "id": "generative_elements-0328",
+      "text": "Trust in institutions"
+    },
+    {
+      "id": "generative_elements-0329",
+      "text": "Forecasts of the future"
+    },
+    {
+      "id": "generative_elements-0330",
+      "text": "History"
+    },
+    {
+      "id": "generative_elements-0331",
+      "text": "Alternate history"
+    },
+    {
+      "id": "generative_elements-0332",
+      "text": "Timelines"
+    },
+    {
+      "id": "generative_elements-0333",
+      "text": "Parallel timelines"
+    },
+    {
+      "id": "generative_elements-0334",
+      "text": "Time paradoxes"
+    },
+    {
+      "id": "generative_elements-0335",
+      "text": "Changing historical events"
+    },
+    {
+      "id": "generative_elements-0336",
+      "text": "History of different playthroughs"
+    },
+    {
+      "id": "generative_elements-0337",
+      "text": "The world's memories"
+    },
+    {
+      "id": "generative_elements-0338",
+      "text": "Effects of the player's previous playthroughs"
+    },
+    {
+      "id": "generative_elements-0339",
+      "text": "Procedural mysteries"
+    },
+    {
+      "id": "generative_elements-0340",
+      "text": "Procedural murders"
+    },
+    {
+      "id": "generative_elements-0341",
+      "text": "Procedural conspiracies"
+    },
+    {
+      "id": "generative_elements-0342",
+      "text": "Procedural disasters"
+    },
+    {
+      "id": "generative_elements-0343",
+      "text": "Procedural political crises"
+    },
+    {
+      "id": "generative_elements-0344",
+      "text": "Procedural relationship dramas"
+    },
+    {
+      "id": "generative_elements-0345",
+      "text": "Procedural family sagas"
+    },
+    {
+      "id": "generative_elements-0346",
+      "text": "Procedural workplace dramas"
+    },
+    {
+      "id": "generative_elements-0347",
+      "text": "Procedural causes of war"
+    },
+    {
+      "id": "generative_elements-0348",
+      "text": "Procedural peace negotiations"
+    },
+    {
+      "id": "generative_elements-0349",
+      "text": "Procedural world events"
+    },
+    {
+      "id": "generative_elements-0350",
+      "text": "Procedural main plot"
+    },
+    {
+      "id": "generative_elements-0351",
+      "text": "Procedural subplot"
+    },
+    {
+      "id": "generative_elements-0352",
+      "text": "Procedural antagonist"
+    },
+    {
+      "id": "generative_elements-0353",
+      "text": "Procedural ending"
+    },
+    {
+      "id": "generative_elements-0354",
+      "text": "Procedural win conditions"
+    },
+    {
+      "id": "generative_elements-0355",
+      "text": "Procedural failures"
+    },
+    {
+      "id": "generative_elements-0356",
+      "text": "Procedural moral dilemmas"
+    },
+    {
+      "id": "generative_elements-0357",
+      "text": "Procedural personal goals"
+    },
+    {
+      "id": "generative_elements-0358",
+      "text": "Procedural organizational goals"
+    },
+    {
+      "id": "generative_elements-0359",
+      "text": "Procedural world goals"
+    }
   ]
 }

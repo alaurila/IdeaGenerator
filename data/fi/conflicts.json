@@ -1,261 +1,1032 @@
 {
   "conflicts": [
-    "Niukkuus",
-    "Kilpailija",
-    "Luonnonkatastrofi",
-    "Murha",
-    "Poliittinen kriisi",
-    "Sisäinen kapina",
-    "Sairaus",
-    "Petos",
-    "Aikapaine",
-    "Järjestelmävika",
-    "Resurssipula",
-    "Ruokapula",
-    "Vesipula",
-    "Energiapula",
-    "Lääkepula",
-    "Työvoimapula",
-    "Rahapula",
-    "Tilanpuute",
-    "Ylikansoitus",
-    "Väestökato",
-    "Taloudellinen romahdus",
-    "Konkurssi",
-    "Velkakriisi",
-    "Inflaatio",
-    "Markkinaromahdus",
-    "Lakko",
-    "Työtaistelu",
-    "Toimitusketjun katkeaminen",
-    "Tuotantoseisokki",
-    "Sabotaasi",
-    "Varkaus",
-    "Ryöstö",
-    "Kiristys",
-    "Kidnappaus",
-    "Salakuljetus",
-    "Korruptio",
-    "Vakoilu",
-    "Tietovuoto",
-    "Tietomurto",
-    "Identiteettivarkaus",
-    "Väärentäminen",
-    "Salaliitto",
-    "Peittely",
-    "Todisteiden tuhoaminen",
-    "Valehtelu",
-    "Luottamuspula",
-    "Lojaalisuuskriisi",
-    "Mainekriisi",
-    "Mediaskandaali",
-    "Disinformaatio",
-    "Propaganda",
-    "Huhujen leviäminen",
-    "Paniikki",
-    "Moraalin romahtaminen",
-    "Johtajuuskriisi",
-    "Valtataistelu",
-    "Perimyskriisi",
-    "Vallankaappaus",
-    "Vallankumous",
-    "Sisällissota",
-    "Rajakiista",
-    "Sota",
-    "Kylmä sota",
-    "Miehitys",
-    "Piiritys",
-    "Terrori-isku",
-    "Kapinaliike",
-    "Separatismi",
-    "Diplomaattinen kriisi",
-    "Kauppasota",
-    "Pakotekriisi",
-    "Liittolaisten välinen riita",
-    "Vaalikriisi",
-    "Hallituskaatuminen",
-    "Laiton vallankäyttö",
-    "Lain ja moraalin ristiriita",
-    "Viranomaiskonflikti",
-    "Kansalaislevottomuudet",
-    "Mielenosoitukset",
-    "Mellakat",
-    "Väkivaltainen protesti",
-    "Luokkakonflikti",
-    "Sukupolvien välinen konflikti",
-    "Uskonnollinen konflikti",
-    "Kulttuurinen konflikti",
-    "Etninen konflikti",
-    "Paikallisten ja tulokkaiden konflikti",
-    "Perheriita",
-    "Sukuriita",
-    "Parisuhdekriisi",
-    "Mustasukkaisuus",
-    "Avioero",
-    "Perintöriita",
-    "Vanhemman ja lapsen konflikti",
-    "Ystävyyden rikkoutuminen",
-    "Työpaikkakiusaaminen",
-    "Valtataistelu työpaikalla",
-    "Työntekijän ja johdon konflikti",
-    "Asiakkaan ja yrityksen konflikti",
-    "Kilpailevat organisaatiot",
-    "Kilpailevat suvut",
-    "Kilpailevat kaupungit",
-    "Kilpailevat valtiot",
-    "Kilpailevat uskonnot",
-    "Kilpailevat tutkimusryhmät",
-    "Kilpailevat yritykset",
-    "Kilpailevat rikollisjärjestöt",
-    "Kilpailevat tekoälyt",
-    "Kilpailevat siirtokunnat",
-    "Väärä syytös",
-    "Tuntematon vihollinen",
-    "Piilotettu vihollinen",
-    "Petturi ryhmän sisällä",
-    "Kaksoisagentti",
-    "Valepukuinen vihollinen",
-    "Kadonnut henkilö",
-    "Kadonnut tavara",
-    "Kadonnut tieto",
-    "Kadonnut muisti",
-    "Kadonnut aika",
-    "Tuntematon menneisyys",
-    "Identiteettikriisi",
-    "Muistinmenetys",
-    "Todellisuudentajun horjuminen",
-    "Epäluotettava tieto",
-    "Ristiriitaiset todistukset",
-    "Väärä johtolanka",
-    "Todisteiden puute",
-    "Todisteiden ristiriitaisuus",
-    "Ratkaisematon rikos",
-    "Sarjamurhaaja",
-    "Katoamissarja",
-    "Outo kuolema",
-    "Lavastettu onnettomuus",
-    "Lavastettu itsemurha",
-    "Kielletty tutkimus",
-    "Salainen koe",
-    "Vaarallinen keksintö",
-    "Tutkimus karkaa hallinnasta",
-    "Tekoäly karkaa hallinnasta",
-    "Robottikapina",
-    "Automaation epäonnistuminen",
-    "Ohjelmistovirhe",
-    "Tietojärjestelmän kaatuminen",
-    "Verkkokatko",
-    "Sähkökatko",
-    "Reaktorivika",
-    "Moottorivika",
-    "Happijärjestelmän vika",
-    "Painejärjestelmän vika",
-    "Vesijärjestelmän vika",
-    "Lämmitysjärjestelmän vika",
-    "Turvajärjestelmän vika",
-    "Navigointijärjestelmän vika",
-    "Kommunikaatiojärjestelmän vika",
-    "Rakenteellinen vaurio",
-    "Rakennuksen sortumisvaara",
-    "Aluksen runkovaurio",
-    "Tulipalo",
-    "Räjähdys",
-    "Myrsky",
-    "Tulva",
-    "Maanjäristys",
-    "Tsunami",
-    "Tulivuorenpurkaus",
-    "Metsäpalo",
-    "Hirmumyrsky",
-    "Lumimyrsky",
-    "Helleaalto",
-    "Pakkaskausi",
-    "Kuivuus",
-    "Maanvyöry",
-    "Avalanche",
-    "Meteorin törmäys",
-    "Auringonpurkaus",
-    "Säteilymyrsky",
-    "Avaruusromu",
-    "Painovoimahäiriö",
-    "Mustan aukon uhka",
-    "Planeetan ilmaston romahtaminen",
-    "Ekosysteemin romahtaminen",
-    "Saastuminen",
-    "Myrkyllinen ympäristö",
-    "Veden saastuminen",
-    "Ilman saastuminen",
-    "Epidemia",
-    "Pandemia",
-    "Tuntematon tauti",
-    "Tartunnan leviäminen",
-    "Lääkeresistenssi",
-    "Myrkytys",
-    "Säteilyaltistus",
-    "Nälänhätä",
-    "Mielenterveyskriisi",
-    "Unettomuusepidemia",
-    "Massahysteria",
-    "Loistartunta",
-    "Geneettinen häiriö",
-    "Mutaatio",
-    "Vierasperäinen organismi",
-    "Tuntematon elämänmuoto",
-    "Hirviöhyökkäys",
-    "Eläinlauman hyökkäys",
-    "Zombitartunta",
-    "Vampyyriuhka",
-    "Kummittelu",
-    "Kirous",
-    "Riivaus",
-    "Yliluonnollinen ilmiö",
-    "Todellisuuden vääristyminen",
-    "Aikasilmukka",
-    "Aikaparadoksi",
-    "Historian muuttuminen",
-    "Rinnakkaistodellisuuksien törmäys",
-    "Muistojen muuttuminen",
-    "Unien sekoittuminen todellisuuteen",
-    "Simulaation hajoaminen",
-    "Maailman sääntöjen rikkoutuminen",
-    "NPC:t käyttäytyvät väärin",
-    "Pelaajan olemassaolo kyseenalaistuu",
-    "Aika loppuu",
-    "Kilpajuoksu aikaa vastaan",
-    "Määräaika",
-    "Lähestyvä katastrofi",
-    "Lähestyvä hyökkäys",
-    "Lähestyvä konkurssi",
-    "Lähestyvä talvi",
-    "Lähestyvä epidemia",
-    "Lähestyvä teloitus",
-    "Lähestyvä paljastuminen",
-    "Lähestyvä evakuointi",
-    "Lähestyvä maailmanloppu",
-    "Mahdoton päätös",
-    "Kaksi huonoa vaihtoehtoa",
-    "Moraalinen dilemma",
-    "Laki vastaan oikeudenmukaisuus",
-    "Yksilö vastaan yhteisö",
-    "Turvallisuus vastaan vapaus",
-    "Totuus vastaan vakaus",
-    "Rakkaus vastaan velvollisuus",
-    "Ura vastaan perhe",
-    "Selviytyminen vastaan moraali",
-    "Lyhyen aikavälin hyöty vastaan pitkä aikaväli",
-    "Väkivalta vastaan rauhanomainen ratkaisu",
-    "Yhteinen etu vastaan oma etu",
-    "Luonto vastaan teollisuus",
-    "Teknologia vastaan ihmisyys",
-    "Tiede vastaan usko",
-    "Perinne vastaan uudistus",
-    "Keskusjohto vastaan paikallinen autonomia",
-    "Ihminen vastaan kone",
-    "Ihminen vastaan luonto",
-    "Ihminen vastaan yhteiskunta",
-    "Ihminen vastaan itsensä",
-    "Ihminen vastaan kohtalo",
-    "Ihminen vastaan aika",
-    "Ihminen vastaan tuntematon"
+    {
+      "id": "conflicts-0001",
+      "text": "Niukkuus"
+    },
+    {
+      "id": "conflicts-0002",
+      "text": "Kilpailija"
+    },
+    {
+      "id": "conflicts-0003",
+      "text": "Luonnonkatastrofi"
+    },
+    {
+      "id": "conflicts-0004",
+      "text": "Murha"
+    },
+    {
+      "id": "conflicts-0005",
+      "text": "Poliittinen kriisi"
+    },
+    {
+      "id": "conflicts-0006",
+      "text": "Sisäinen kapina"
+    },
+    {
+      "id": "conflicts-0007",
+      "text": "Sairaus"
+    },
+    {
+      "id": "conflicts-0008",
+      "text": "Petos"
+    },
+    {
+      "id": "conflicts-0009",
+      "text": "Aikapaine"
+    },
+    {
+      "id": "conflicts-0010",
+      "text": "Järjestelmävika"
+    },
+    {
+      "id": "conflicts-0011",
+      "text": "Resurssipula"
+    },
+    {
+      "id": "conflicts-0012",
+      "text": "Ruokapula"
+    },
+    {
+      "id": "conflicts-0013",
+      "text": "Vesipula"
+    },
+    {
+      "id": "conflicts-0014",
+      "text": "Energiapula"
+    },
+    {
+      "id": "conflicts-0015",
+      "text": "Lääkepula"
+    },
+    {
+      "id": "conflicts-0016",
+      "text": "Työvoimapula"
+    },
+    {
+      "id": "conflicts-0017",
+      "text": "Rahapula"
+    },
+    {
+      "id": "conflicts-0018",
+      "text": "Tilanpuute"
+    },
+    {
+      "id": "conflicts-0019",
+      "text": "Ylikansoitus"
+    },
+    {
+      "id": "conflicts-0020",
+      "text": "Väestökato"
+    },
+    {
+      "id": "conflicts-0021",
+      "text": "Taloudellinen romahdus"
+    },
+    {
+      "id": "conflicts-0022",
+      "text": "Konkurssi"
+    },
+    {
+      "id": "conflicts-0023",
+      "text": "Velkakriisi"
+    },
+    {
+      "id": "conflicts-0024",
+      "text": "Inflaatio"
+    },
+    {
+      "id": "conflicts-0025",
+      "text": "Markkinaromahdus"
+    },
+    {
+      "id": "conflicts-0026",
+      "text": "Lakko"
+    },
+    {
+      "id": "conflicts-0027",
+      "text": "Työtaistelu"
+    },
+    {
+      "id": "conflicts-0028",
+      "text": "Toimitusketjun katkeaminen"
+    },
+    {
+      "id": "conflicts-0029",
+      "text": "Tuotantoseisokki"
+    },
+    {
+      "id": "conflicts-0030",
+      "text": "Sabotaasi"
+    },
+    {
+      "id": "conflicts-0031",
+      "text": "Varkaus"
+    },
+    {
+      "id": "conflicts-0032",
+      "text": "Ryöstö"
+    },
+    {
+      "id": "conflicts-0033",
+      "text": "Kiristys"
+    },
+    {
+      "id": "conflicts-0034",
+      "text": "Kidnappaus"
+    },
+    {
+      "id": "conflicts-0035",
+      "text": "Salakuljetus"
+    },
+    {
+      "id": "conflicts-0036",
+      "text": "Korruptio"
+    },
+    {
+      "id": "conflicts-0037",
+      "text": "Vakoilu"
+    },
+    {
+      "id": "conflicts-0038",
+      "text": "Tietovuoto"
+    },
+    {
+      "id": "conflicts-0039",
+      "text": "Tietomurto"
+    },
+    {
+      "id": "conflicts-0040",
+      "text": "Identiteettivarkaus"
+    },
+    {
+      "id": "conflicts-0041",
+      "text": "Väärentäminen"
+    },
+    {
+      "id": "conflicts-0042",
+      "text": "Salaliitto"
+    },
+    {
+      "id": "conflicts-0043",
+      "text": "Peittely"
+    },
+    {
+      "id": "conflicts-0044",
+      "text": "Todisteiden tuhoaminen"
+    },
+    {
+      "id": "conflicts-0045",
+      "text": "Valehtelu"
+    },
+    {
+      "id": "conflicts-0046",
+      "text": "Luottamuspula"
+    },
+    {
+      "id": "conflicts-0047",
+      "text": "Lojaalisuuskriisi"
+    },
+    {
+      "id": "conflicts-0048",
+      "text": "Mainekriisi"
+    },
+    {
+      "id": "conflicts-0049",
+      "text": "Mediaskandaali"
+    },
+    {
+      "id": "conflicts-0050",
+      "text": "Disinformaatio"
+    },
+    {
+      "id": "conflicts-0051",
+      "text": "Propaganda"
+    },
+    {
+      "id": "conflicts-0052",
+      "text": "Huhujen leviäminen"
+    },
+    {
+      "id": "conflicts-0053",
+      "text": "Paniikki"
+    },
+    {
+      "id": "conflicts-0054",
+      "text": "Moraalin romahtaminen"
+    },
+    {
+      "id": "conflicts-0055",
+      "text": "Johtajuuskriisi"
+    },
+    {
+      "id": "conflicts-0056",
+      "text": "Valtataistelu"
+    },
+    {
+      "id": "conflicts-0057",
+      "text": "Perimyskriisi"
+    },
+    {
+      "id": "conflicts-0058",
+      "text": "Vallankaappaus"
+    },
+    {
+      "id": "conflicts-0059",
+      "text": "Vallankumous"
+    },
+    {
+      "id": "conflicts-0060",
+      "text": "Sisällissota"
+    },
+    {
+      "id": "conflicts-0061",
+      "text": "Rajakiista"
+    },
+    {
+      "id": "conflicts-0062",
+      "text": "Sota"
+    },
+    {
+      "id": "conflicts-0063",
+      "text": "Kylmä sota"
+    },
+    {
+      "id": "conflicts-0064",
+      "text": "Miehitys"
+    },
+    {
+      "id": "conflicts-0065",
+      "text": "Piiritys"
+    },
+    {
+      "id": "conflicts-0066",
+      "text": "Terrori-isku"
+    },
+    {
+      "id": "conflicts-0067",
+      "text": "Kapinaliike"
+    },
+    {
+      "id": "conflicts-0068",
+      "text": "Separatismi"
+    },
+    {
+      "id": "conflicts-0069",
+      "text": "Diplomaattinen kriisi"
+    },
+    {
+      "id": "conflicts-0070",
+      "text": "Kauppasota"
+    },
+    {
+      "id": "conflicts-0071",
+      "text": "Pakotekriisi"
+    },
+    {
+      "id": "conflicts-0072",
+      "text": "Liittolaisten välinen riita"
+    },
+    {
+      "id": "conflicts-0073",
+      "text": "Vaalikriisi"
+    },
+    {
+      "id": "conflicts-0074",
+      "text": "Hallituskaatuminen"
+    },
+    {
+      "id": "conflicts-0075",
+      "text": "Laiton vallankäyttö"
+    },
+    {
+      "id": "conflicts-0076",
+      "text": "Lain ja moraalin ristiriita"
+    },
+    {
+      "id": "conflicts-0077",
+      "text": "Viranomaiskonflikti"
+    },
+    {
+      "id": "conflicts-0078",
+      "text": "Kansalaislevottomuudet"
+    },
+    {
+      "id": "conflicts-0079",
+      "text": "Mielenosoitukset"
+    },
+    {
+      "id": "conflicts-0080",
+      "text": "Mellakat"
+    },
+    {
+      "id": "conflicts-0081",
+      "text": "Väkivaltainen protesti"
+    },
+    {
+      "id": "conflicts-0082",
+      "text": "Luokkakonflikti"
+    },
+    {
+      "id": "conflicts-0083",
+      "text": "Sukupolvien välinen konflikti"
+    },
+    {
+      "id": "conflicts-0084",
+      "text": "Uskonnollinen konflikti"
+    },
+    {
+      "id": "conflicts-0085",
+      "text": "Kulttuurinen konflikti"
+    },
+    {
+      "id": "conflicts-0086",
+      "text": "Etninen konflikti"
+    },
+    {
+      "id": "conflicts-0087",
+      "text": "Paikallisten ja tulokkaiden konflikti"
+    },
+    {
+      "id": "conflicts-0088",
+      "text": "Perheriita"
+    },
+    {
+      "id": "conflicts-0089",
+      "text": "Sukuriita"
+    },
+    {
+      "id": "conflicts-0090",
+      "text": "Parisuhdekriisi"
+    },
+    {
+      "id": "conflicts-0091",
+      "text": "Mustasukkaisuus"
+    },
+    {
+      "id": "conflicts-0092",
+      "text": "Avioero"
+    },
+    {
+      "id": "conflicts-0093",
+      "text": "Perintöriita"
+    },
+    {
+      "id": "conflicts-0094",
+      "text": "Vanhemman ja lapsen konflikti"
+    },
+    {
+      "id": "conflicts-0095",
+      "text": "Ystävyyden rikkoutuminen"
+    },
+    {
+      "id": "conflicts-0096",
+      "text": "Työpaikkakiusaaminen"
+    },
+    {
+      "id": "conflicts-0097",
+      "text": "Valtataistelu työpaikalla"
+    },
+    {
+      "id": "conflicts-0098",
+      "text": "Työntekijän ja johdon konflikti"
+    },
+    {
+      "id": "conflicts-0099",
+      "text": "Asiakkaan ja yrityksen konflikti"
+    },
+    {
+      "id": "conflicts-0100",
+      "text": "Kilpailevat organisaatiot"
+    },
+    {
+      "id": "conflicts-0101",
+      "text": "Kilpailevat suvut"
+    },
+    {
+      "id": "conflicts-0102",
+      "text": "Kilpailevat kaupungit"
+    },
+    {
+      "id": "conflicts-0103",
+      "text": "Kilpailevat valtiot"
+    },
+    {
+      "id": "conflicts-0104",
+      "text": "Kilpailevat uskonnot"
+    },
+    {
+      "id": "conflicts-0105",
+      "text": "Kilpailevat tutkimusryhmät"
+    },
+    {
+      "id": "conflicts-0106",
+      "text": "Kilpailevat yritykset"
+    },
+    {
+      "id": "conflicts-0107",
+      "text": "Kilpailevat rikollisjärjestöt"
+    },
+    {
+      "id": "conflicts-0108",
+      "text": "Kilpailevat tekoälyt"
+    },
+    {
+      "id": "conflicts-0109",
+      "text": "Kilpailevat siirtokunnat"
+    },
+    {
+      "id": "conflicts-0110",
+      "text": "Väärä syytös"
+    },
+    {
+      "id": "conflicts-0111",
+      "text": "Tuntematon vihollinen"
+    },
+    {
+      "id": "conflicts-0112",
+      "text": "Piilotettu vihollinen"
+    },
+    {
+      "id": "conflicts-0113",
+      "text": "Petturi ryhmän sisällä"
+    },
+    {
+      "id": "conflicts-0114",
+      "text": "Kaksoisagentti"
+    },
+    {
+      "id": "conflicts-0115",
+      "text": "Valepukuinen vihollinen"
+    },
+    {
+      "id": "conflicts-0116",
+      "text": "Kadonnut henkilö"
+    },
+    {
+      "id": "conflicts-0117",
+      "text": "Kadonnut tavara"
+    },
+    {
+      "id": "conflicts-0118",
+      "text": "Kadonnut tieto"
+    },
+    {
+      "id": "conflicts-0119",
+      "text": "Kadonnut muisti"
+    },
+    {
+      "id": "conflicts-0120",
+      "text": "Kadonnut aika"
+    },
+    {
+      "id": "conflicts-0121",
+      "text": "Tuntematon menneisyys"
+    },
+    {
+      "id": "conflicts-0122",
+      "text": "Identiteettikriisi"
+    },
+    {
+      "id": "conflicts-0123",
+      "text": "Muistinmenetys"
+    },
+    {
+      "id": "conflicts-0124",
+      "text": "Todellisuudentajun horjuminen"
+    },
+    {
+      "id": "conflicts-0125",
+      "text": "Epäluotettava tieto"
+    },
+    {
+      "id": "conflicts-0126",
+      "text": "Ristiriitaiset todistukset"
+    },
+    {
+      "id": "conflicts-0127",
+      "text": "Väärä johtolanka"
+    },
+    {
+      "id": "conflicts-0128",
+      "text": "Todisteiden puute"
+    },
+    {
+      "id": "conflicts-0129",
+      "text": "Todisteiden ristiriitaisuus"
+    },
+    {
+      "id": "conflicts-0130",
+      "text": "Ratkaisematon rikos"
+    },
+    {
+      "id": "conflicts-0131",
+      "text": "Sarjamurhaaja"
+    },
+    {
+      "id": "conflicts-0132",
+      "text": "Katoamissarja"
+    },
+    {
+      "id": "conflicts-0133",
+      "text": "Outo kuolema"
+    },
+    {
+      "id": "conflicts-0134",
+      "text": "Lavastettu onnettomuus"
+    },
+    {
+      "id": "conflicts-0135",
+      "text": "Lavastettu itsemurha"
+    },
+    {
+      "id": "conflicts-0136",
+      "text": "Kielletty tutkimus"
+    },
+    {
+      "id": "conflicts-0137",
+      "text": "Salainen koe"
+    },
+    {
+      "id": "conflicts-0138",
+      "text": "Vaarallinen keksintö"
+    },
+    {
+      "id": "conflicts-0139",
+      "text": "Tutkimus karkaa hallinnasta"
+    },
+    {
+      "id": "conflicts-0140",
+      "text": "Tekoäly karkaa hallinnasta"
+    },
+    {
+      "id": "conflicts-0141",
+      "text": "Robottikapina"
+    },
+    {
+      "id": "conflicts-0142",
+      "text": "Automaation epäonnistuminen"
+    },
+    {
+      "id": "conflicts-0143",
+      "text": "Ohjelmistovirhe"
+    },
+    {
+      "id": "conflicts-0144",
+      "text": "Tietojärjestelmän kaatuminen"
+    },
+    {
+      "id": "conflicts-0145",
+      "text": "Verkkokatko"
+    },
+    {
+      "id": "conflicts-0146",
+      "text": "Sähkökatko"
+    },
+    {
+      "id": "conflicts-0147",
+      "text": "Reaktorivika"
+    },
+    {
+      "id": "conflicts-0148",
+      "text": "Moottorivika"
+    },
+    {
+      "id": "conflicts-0149",
+      "text": "Happijärjestelmän vika"
+    },
+    {
+      "id": "conflicts-0150",
+      "text": "Painejärjestelmän vika"
+    },
+    {
+      "id": "conflicts-0151",
+      "text": "Vesijärjestelmän vika"
+    },
+    {
+      "id": "conflicts-0152",
+      "text": "Lämmitysjärjestelmän vika"
+    },
+    {
+      "id": "conflicts-0153",
+      "text": "Turvajärjestelmän vika"
+    },
+    {
+      "id": "conflicts-0154",
+      "text": "Navigointijärjestelmän vika"
+    },
+    {
+      "id": "conflicts-0155",
+      "text": "Kommunikaatiojärjestelmän vika"
+    },
+    {
+      "id": "conflicts-0156",
+      "text": "Rakenteellinen vaurio"
+    },
+    {
+      "id": "conflicts-0157",
+      "text": "Rakennuksen sortumisvaara"
+    },
+    {
+      "id": "conflicts-0158",
+      "text": "Aluksen runkovaurio"
+    },
+    {
+      "id": "conflicts-0159",
+      "text": "Tulipalo"
+    },
+    {
+      "id": "conflicts-0160",
+      "text": "Räjähdys"
+    },
+    {
+      "id": "conflicts-0161",
+      "text": "Myrsky"
+    },
+    {
+      "id": "conflicts-0162",
+      "text": "Tulva"
+    },
+    {
+      "id": "conflicts-0163",
+      "text": "Maanjäristys"
+    },
+    {
+      "id": "conflicts-0164",
+      "text": "Tsunami"
+    },
+    {
+      "id": "conflicts-0165",
+      "text": "Tulivuorenpurkaus"
+    },
+    {
+      "id": "conflicts-0166",
+      "text": "Metsäpalo"
+    },
+    {
+      "id": "conflicts-0167",
+      "text": "Hirmumyrsky"
+    },
+    {
+      "id": "conflicts-0168",
+      "text": "Lumimyrsky"
+    },
+    {
+      "id": "conflicts-0169",
+      "text": "Helleaalto"
+    },
+    {
+      "id": "conflicts-0170",
+      "text": "Pakkaskausi"
+    },
+    {
+      "id": "conflicts-0171",
+      "text": "Kuivuus"
+    },
+    {
+      "id": "conflicts-0172",
+      "text": "Maanvyöry"
+    },
+    {
+      "id": "conflicts-0173",
+      "text": "Avalanche"
+    },
+    {
+      "id": "conflicts-0174",
+      "text": "Meteorin törmäys"
+    },
+    {
+      "id": "conflicts-0175",
+      "text": "Auringonpurkaus"
+    },
+    {
+      "id": "conflicts-0176",
+      "text": "Säteilymyrsky"
+    },
+    {
+      "id": "conflicts-0177",
+      "text": "Avaruusromu"
+    },
+    {
+      "id": "conflicts-0178",
+      "text": "Painovoimahäiriö"
+    },
+    {
+      "id": "conflicts-0179",
+      "text": "Mustan aukon uhka"
+    },
+    {
+      "id": "conflicts-0180",
+      "text": "Planeetan ilmaston romahtaminen"
+    },
+    {
+      "id": "conflicts-0181",
+      "text": "Ekosysteemin romahtaminen"
+    },
+    {
+      "id": "conflicts-0182",
+      "text": "Saastuminen"
+    },
+    {
+      "id": "conflicts-0183",
+      "text": "Myrkyllinen ympäristö"
+    },
+    {
+      "id": "conflicts-0184",
+      "text": "Veden saastuminen"
+    },
+    {
+      "id": "conflicts-0185",
+      "text": "Ilman saastuminen"
+    },
+    {
+      "id": "conflicts-0186",
+      "text": "Epidemia"
+    },
+    {
+      "id": "conflicts-0187",
+      "text": "Pandemia"
+    },
+    {
+      "id": "conflicts-0188",
+      "text": "Tuntematon tauti"
+    },
+    {
+      "id": "conflicts-0189",
+      "text": "Tartunnan leviäminen"
+    },
+    {
+      "id": "conflicts-0190",
+      "text": "Lääkeresistenssi"
+    },
+    {
+      "id": "conflicts-0191",
+      "text": "Myrkytys"
+    },
+    {
+      "id": "conflicts-0192",
+      "text": "Säteilyaltistus"
+    },
+    {
+      "id": "conflicts-0193",
+      "text": "Nälänhätä"
+    },
+    {
+      "id": "conflicts-0194",
+      "text": "Mielenterveyskriisi"
+    },
+    {
+      "id": "conflicts-0195",
+      "text": "Unettomuusepidemia"
+    },
+    {
+      "id": "conflicts-0196",
+      "text": "Massahysteria"
+    },
+    {
+      "id": "conflicts-0197",
+      "text": "Loistartunta"
+    },
+    {
+      "id": "conflicts-0198",
+      "text": "Geneettinen häiriö"
+    },
+    {
+      "id": "conflicts-0199",
+      "text": "Mutaatio"
+    },
+    {
+      "id": "conflicts-0200",
+      "text": "Vierasperäinen organismi"
+    },
+    {
+      "id": "conflicts-0201",
+      "text": "Tuntematon elämänmuoto"
+    },
+    {
+      "id": "conflicts-0202",
+      "text": "Hirviöhyökkäys"
+    },
+    {
+      "id": "conflicts-0203",
+      "text": "Eläinlauman hyökkäys"
+    },
+    {
+      "id": "conflicts-0204",
+      "text": "Zombitartunta"
+    },
+    {
+      "id": "conflicts-0205",
+      "text": "Vampyyriuhka"
+    },
+    {
+      "id": "conflicts-0206",
+      "text": "Kummittelu"
+    },
+    {
+      "id": "conflicts-0207",
+      "text": "Kirous"
+    },
+    {
+      "id": "conflicts-0208",
+      "text": "Riivaus"
+    },
+    {
+      "id": "conflicts-0209",
+      "text": "Yliluonnollinen ilmiö"
+    },
+    {
+      "id": "conflicts-0210",
+      "text": "Todellisuuden vääristyminen"
+    },
+    {
+      "id": "conflicts-0211",
+      "text": "Aikasilmukka"
+    },
+    {
+      "id": "conflicts-0212",
+      "text": "Aikaparadoksi"
+    },
+    {
+      "id": "conflicts-0213",
+      "text": "Historian muuttuminen"
+    },
+    {
+      "id": "conflicts-0214",
+      "text": "Rinnakkaistodellisuuksien törmäys"
+    },
+    {
+      "id": "conflicts-0215",
+      "text": "Muistojen muuttuminen"
+    },
+    {
+      "id": "conflicts-0216",
+      "text": "Unien sekoittuminen todellisuuteen"
+    },
+    {
+      "id": "conflicts-0217",
+      "text": "Simulaation hajoaminen"
+    },
+    {
+      "id": "conflicts-0218",
+      "text": "Maailman sääntöjen rikkoutuminen"
+    },
+    {
+      "id": "conflicts-0219",
+      "text": "NPC:t käyttäytyvät väärin"
+    },
+    {
+      "id": "conflicts-0220",
+      "text": "Pelaajan olemassaolo kyseenalaistuu"
+    },
+    {
+      "id": "conflicts-0221",
+      "text": "Aika loppuu"
+    },
+    {
+      "id": "conflicts-0222",
+      "text": "Kilpajuoksu aikaa vastaan"
+    },
+    {
+      "id": "conflicts-0223",
+      "text": "Määräaika"
+    },
+    {
+      "id": "conflicts-0224",
+      "text": "Lähestyvä katastrofi"
+    },
+    {
+      "id": "conflicts-0225",
+      "text": "Lähestyvä hyökkäys"
+    },
+    {
+      "id": "conflicts-0226",
+      "text": "Lähestyvä konkurssi"
+    },
+    {
+      "id": "conflicts-0227",
+      "text": "Lähestyvä talvi"
+    },
+    {
+      "id": "conflicts-0228",
+      "text": "Lähestyvä epidemia"
+    },
+    {
+      "id": "conflicts-0229",
+      "text": "Lähestyvä teloitus"
+    },
+    {
+      "id": "conflicts-0230",
+      "text": "Lähestyvä paljastuminen"
+    },
+    {
+      "id": "conflicts-0231",
+      "text": "Lähestyvä evakuointi"
+    },
+    {
+      "id": "conflicts-0232",
+      "text": "Lähestyvä maailmanloppu"
+    },
+    {
+      "id": "conflicts-0233",
+      "text": "Mahdoton päätös"
+    },
+    {
+      "id": "conflicts-0234",
+      "text": "Kaksi huonoa vaihtoehtoa"
+    },
+    {
+      "id": "conflicts-0235",
+      "text": "Moraalinen dilemma"
+    },
+    {
+      "id": "conflicts-0236",
+      "text": "Laki vastaan oikeudenmukaisuus"
+    },
+    {
+      "id": "conflicts-0237",
+      "text": "Yksilö vastaan yhteisö"
+    },
+    {
+      "id": "conflicts-0238",
+      "text": "Turvallisuus vastaan vapaus"
+    },
+    {
+      "id": "conflicts-0239",
+      "text": "Totuus vastaan vakaus"
+    },
+    {
+      "id": "conflicts-0240",
+      "text": "Rakkaus vastaan velvollisuus"
+    },
+    {
+      "id": "conflicts-0241",
+      "text": "Ura vastaan perhe"
+    },
+    {
+      "id": "conflicts-0242",
+      "text": "Selviytyminen vastaan moraali"
+    },
+    {
+      "id": "conflicts-0243",
+      "text": "Lyhyen aikavälin hyöty vastaan pitkä aikaväli"
+    },
+    {
+      "id": "conflicts-0244",
+      "text": "Väkivalta vastaan rauhanomainen ratkaisu"
+    },
+    {
+      "id": "conflicts-0245",
+      "text": "Yhteinen etu vastaan oma etu"
+    },
+    {
+      "id": "conflicts-0246",
+      "text": "Luonto vastaan teollisuus"
+    },
+    {
+      "id": "conflicts-0247",
+      "text": "Teknologia vastaan ihmisyys"
+    },
+    {
+      "id": "conflicts-0248",
+      "text": "Tiede vastaan usko"
+    },
+    {
+      "id": "conflicts-0249",
+      "text": "Perinne vastaan uudistus"
+    },
+    {
+      "id": "conflicts-0250",
+      "text": "Keskusjohto vastaan paikallinen autonomia"
+    },
+    {
+      "id": "conflicts-0251",
+      "text": "Ihminen vastaan kone"
+    },
+    {
+      "id": "conflicts-0252",
+      "text": "Ihminen vastaan luonto"
+    },
+    {
+      "id": "conflicts-0253",
+      "text": "Ihminen vastaan yhteiskunta"
+    },
+    {
+      "id": "conflicts-0254",
+      "text": "Ihminen vastaan itsensä"
+    },
+    {
+      "id": "conflicts-0255",
+      "text": "Ihminen vastaan kohtalo"
+    },
+    {
+      "id": "conflicts-0256",
+      "text": "Ihminen vastaan aika"
+    },
+    {
+      "id": "conflicts-0257",
+      "text": "Ihminen vastaan tuntematon"
+    }
   ]
 }

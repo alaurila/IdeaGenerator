@@ -1,347 +1,1376 @@
 {
   "npc_structures": [
-    "Familles",
-    "Clans",
-    "Dynasties",
-    "Factions",
-    "Partis politiques",
-    "Lieux de travail",
-    "Entreprises",
-    "Organisations",
-    "Gangs",
-    "Groupes criminels",
-    "Sectes",
-    "Communautés religieuses",
-    "Syndicats",
-    "Quartiers",
-    "Communautés villageoises",
-    "Classes scolaires",
-    "Équipes",
-    "Équipages",
-    "Unités militaires",
-    "Groupes de recherche",
-    "Amitiés",
-    "Meilleurs amis",
-    "Connaissances",
-    "Alliances",
-    "Relations de mentorat",
-    "Relations professeur–élève",
-    "Relations chef–subordonné",
-    "Relations entre collègues",
-    "Relations de rivalité",
-    "Hostilités",
-    "Rancœur",
-    "Vengeance",
-    "Jalousie",
-    "Envie",
-    "Peur",
-    "Respect",
-    "Admiration",
-    "Confiance",
-    "Méfiance",
-    "Loyauté",
-    "Déloyauté",
-    "Dépendance",
-    "Déséquilibre de pouvoir",
-    "Relations amoureuses",
-    "Mariages",
-    "Relations secrètes",
-    "Triangles amoureux",
-    "Ex-partenaires",
-    "Amour non partagé",
-    "Liens familiaux",
-    "Relations parent–enfant",
-    "Relations entre frères et sœurs",
-    "Relations entre cousins",
-    "Relations grands-parents–petits-enfants",
-    "Relations adoptives",
-    "Relations biologiques",
-    "Parentés cachées",
-    "Relations d'héritage",
-    "Relations de tutelle",
-    "Dettes",
-    "Dettes d'argent",
-    "Dettes de services",
-    "Dettes de reconnaissance",
-    "Dettes de chantage",
-    "Obligations morales",
-    "Promesses",
-    "Accords",
-    "Serments",
-    "Engagements forcés",
-    "Secrets",
-    "Secrets partagés",
-    "Secrets de famille",
-    "Secrets de l'organisation",
-    "Crimes",
-    "Crimes dissimulés",
-    "Doubles vies",
-    "Fausses identités",
-    "Objectifs secrets",
-    "Alliances secrètes",
-    "Hostilités secrètes",
-    "Motivations cachées",
-    "Relations cachées",
-    "Emplois de couverture",
-    "Identités d'emprunt",
-    "Relations d'espionnage",
-    "Relations avec des informateurs",
-    "Agents doubles",
-    "Initiés",
-    "Membres infiltrés",
-    "Réseaux de contacts",
-    "Sources d'information",
-    "Colporteurs de rumeurs",
-    "Leaders d'opinion",
-    "Gardiens de l'accès",
-    "Courtiers du pouvoir",
-    "Relations de patronage",
-    "Protecteurs",
-    "Protégés",
-    "Parrains",
-    "Bailleurs de fonds",
-    "Créanciers",
-    "Débiteurs",
-    "Employeurs",
-    "Employés",
-    "Dirigeants",
-    "Subordonnés",
-    "Propriétaires",
-    "Actionnaires",
-    "Clients",
-    "Fournisseurs",
-    "Sous-traitants",
-    "Concurrents",
-    "Partenaires",
-    "Réseaux de coopération",
-    "Relations de dépendance",
-    "Dépendances en ressources",
-    "Dépendances en information",
-    "Relations de protection",
-    "Relations de sécurité",
-    "Alliances politiques",
-    "Groupes d'électeurs",
-    "Partisans",
-    "Opposants",
-    "Relations de lobbying",
-    "Relations diplomatiques",
-    "Contacts internationaux",
-    "Relations entre factions",
-    "Cliques au sein des factions",
-    "Cercles intimes",
-    "Groupes d'opposition",
-    "Cellules rebelles",
-    "Équipes de direction",
-    "Conseils",
-    "Comités",
-    "Hiérarchies héréditaires",
-    "Ordres hiérarchiques",
-    "Hiérarchies militaires",
-    "Hiérarchies religieuses",
-    "Hiérarchies d'entreprise",
-    "Hiérarchies bureaucratiques",
-    "Hiérarchies criminelles",
-    "Hiérarchies informelles",
-    "Hiérarchies de réputation",
-    "Réseaux d'influence",
-    "Réseaux de confiance",
-    "Réseaux de peur",
-    "Réseaux de dettes",
-    "Réseaux de secrets",
-    "Réseaux de rumeurs",
-    "Réseaux de parenté",
-    "Réseaux d'amitié",
-    "Réseaux d'inimitié",
-    "Réseaux commerciaux",
-    "Réseaux de renseignement",
-    "Réseaux criminels",
-    "Réseaux amoureux",
-    "Réseaux de politique de bureau",
-    "Réseaux sociaux du quartier",
-    "Groupes de statut",
-    "Classes sociales",
-    "Classes de richesse",
-    "Niveaux d'éducation",
-    "Groupes professionnels",
-    "Tranches d'âge",
-    "Générations",
-    "Groupes culturels",
-    "Groupes régionaux",
-    "Nouveaux venus et habitants",
-    "Vieilles familles et nouveaux arrivants",
-    "L'élite",
-    "La classe moyenne",
-    "La classe ouvrière",
-    "Groupes marginalisés",
-    "Ceux de l'intérieur et ceux de l'extérieur",
-    "Les respectés et les méprisés",
-    "Les populaires et les impopulaires",
-    "Les craints et les protégés",
-    "Chefs et suiveurs",
-    "Dissidents",
-    "Exilés",
-    "Anciens membres",
-    "Transfuges",
-    "Traîtres",
-    "Vétérans loyaux",
-    "Nouveaux membres",
-    "Membres fondateurs",
-    "Héritiers",
-    "Candidats à la succession",
-    "Rivaux pour le pouvoir",
-    "Tensions entre générations",
-    "Vieille rancune",
-    "Inimitiés historiques",
-    "Haine héritée",
-    "Loyauté héritée",
-    "Dette héritée",
-    "Secret hérité",
-    "Statut hérité",
-    "Réputation héritée",
-    "Responsabilité héritée",
-    "Crime hérité",
-    "Traumatisme intergénérationnel",
-    "Histoire commune",
-    "Tragédie commune",
-    "Crime commun",
-    "Victoire commune",
-    "Ennemi commun",
-    "Secret commun",
-    "Objectif commun",
-    "Objectifs contradictoires",
-    "Objectifs concurrents",
-    "Alliances temporaires",
-    "Alliances forcées",
-    "Alliances contre nature",
-    "Mariages de convenance",
-    "Mariages politiques",
-    "Relations garantes de la paix",
-    "Relations d'otages",
-    "Gages",
-    "Chantage mutuel",
-    "Dépendance mutuelle",
-    "Dissuasion mutuelle",
-    "Bénéfice mutuel",
-    "Bénéfice unilatéral",
-    "Relations d'exploitation",
-    "Relations de manipulation",
-    "Relations de contrôle",
-    "Relations protectrices",
-    "Accords secrets",
-    "Relations de troc",
-    "Échange de services",
-    "Commerce d'informations",
-    "Échange de secrets",
-    "Échange de faveurs politiques",
-    "Relations corrompues",
-    "Réseaux de pots-de-vin",
-    "Népotisme",
-    "Favoritisme",
-    "Favoritisme familial",
-    "Formation de cliques",
-    "Avantage des initiés",
-    "Contrôle de l'accès",
-    "Isolement social",
-    "Sabotage de réputation",
-    "Campagnes de rumeurs",
-    "Campagnes de dénigrement",
-    "Manipulation sociale",
-    "Pression du groupe",
-    "Comportement grégaire",
-    "Conformisme",
-    "Esprit de rébellion",
-    "Loyauté idéologique",
-    "Conviction religieuse",
-    "Conviction politique",
-    "Identité professionnelle",
-    "Loyauté envers la famille",
-    "Loyauté locale",
-    "Loyauté nationale",
-    "Loyauté envers l'organisation",
-    "Loyauté personnelle",
-    "Loyauté conditionnelle",
-    "Loyauté achetée",
-    "Loyauté forcée",
-    "Loyauté cachée",
-    "Loyauté partagée",
-    "Loyauté changeante",
-    "Points de rupture",
-    "Effet du stress sur les relations",
-    "Effet de la peur sur les relations",
-    "Effet de l'argent sur les relations",
-    "Effet de la réputation sur les relations",
-    "Effet du pouvoir sur les relations",
-    "Effet des secrets sur les relations",
-    "Effet de l'information sur les relations",
-    "Effet d'une catastrophe sur les relations",
-    "Effet de la guerre sur les relations",
-    "Effet d'une épidémie sur les relations",
-    "Effet de la pénurie sur les relations",
-    "Effet de la perte sur les relations",
-    "Effet d'un décès sur le réseau",
-    "Effet d'une naissance sur le réseau",
-    "Effet d'un mariage sur le réseau",
-    "Effet d'une rupture sur le réseau",
-    "Effet d'une promotion sur le réseau",
-    "Effet d'un licenciement sur le réseau",
-    "Effet d'un crime sur le réseau",
-    "Effet d'une révélation sur le réseau",
-    "Effet des actions du joueur sur les relations",
-    "Les relations des PNJ évoluent de manière autonome",
-    "Les PNJ nouent de nouvelles relations sans le joueur",
-    "Les PNJ rompent des relations sans le joueur",
-    "Les PNJ changent de faction",
-    "Les PNJ changent d'emploi",
-    "Les PNJ fondent des familles",
-    "Les PNJ divorcent",
-    "Les PNJ ont des enfants",
-    "Les PNJ meurent",
-    "Les PNJ héritent de postes",
-    "Les PNJ héritent de biens",
-    "Les PNJ héritent de conflits",
-    "Les PNJ fondent de nouvelles organisations",
-    "Les PNJ dissolvent des organisations",
-    "Les PNJ forment des cliques secrètes",
-    "Les PNJ bâtissent leurs propres réseaux",
-    "Les PNJ diffusent l'information de manière autonome",
-    "Les PNJ se souviennent des insultes",
-    "Les PNJ se souviennent des faveurs",
-    "Les PNJ se souviennent d'avoir été sauvés",
-    "Les PNJ se souviennent des trahisons",
-    "Les PNJ se souviennent des promesses",
-    "Les PNJ changent d'avis",
-    "Les PNJ changent de loyauté",
-    "Les PNJ peuvent pardonner",
-    "Les PNJ peuvent se venger des années plus tard",
-    "Les PNJ peuvent hériter des inimitiés des autres",
-    "Les PNJ peuvent hériter des amitiés des autres",
-    "Les PNJ peuvent cacher leurs véritables relations",
-    "Les PNJ peuvent faire semblant d'être ennemis tout en étant alliés",
-    "Les PNJ peuvent faire semblant d'être amis tout en étant ennemis",
-    "Les PNJ peuvent travailler pour plusieurs factions",
-    "Les PNJ peuvent appartenir à plusieurs organisations",
-    "Les PNJ peuvent être tiraillés entre famille et organisation",
-    "Les PNJ peuvent devoir choisir entre leurs loyautés",
-    "Les PNJ peuvent se faire chanter mutuellement",
-    "Les PNJ peuvent se protéger mutuellement",
-    "Les PNJ peuvent se sacrifier les uns les autres",
-    "Les PNJ peuvent former des coalitions temporaires",
-    "Les PNJ peuvent prendre le pouvoir dans leur groupe",
-    "Les PNJ peuvent monter dans la hiérarchie",
-    "Les PNJ peuvent descendre dans la hiérarchie",
-    "Les PNJ peuvent être mis à l'écart de la communauté",
-    "Les PNJ peuvent devenir influents",
-    "Les PNJ peuvent devenir dépendants des autres",
-    "Les PNJ peuvent devenir ennemis par hasard",
-    "Les PNJ peuvent devenir amis grâce à une crise commune",
-    "Les PNJ peuvent se haïr pour des raisons historiques",
-    "Les PNJ peuvent nouer des relations fondées sur des malentendus",
-    "Les PNJ peuvent croire de fausses rumeurs les uns sur les autres",
-    "Les PNJ peuvent tenter de redorer leur réputation",
-    "Les PNJ peuvent accumuler du capital politique",
-    "Les PNJ peuvent se constituer leur propre groupe de partisans",
-    "Les PNJ peuvent se servir des autres comme intermédiaires",
-    "Les PNJ peuvent déléguer des tâches à leurs propres réseaux",
-    "Les PNJ peuvent se fixer leurs propres objectifs en fonction de leurs relations"
+    {
+      "id": "npc_structures-0001",
+      "text": "Familles"
+    },
+    {
+      "id": "npc_structures-0002",
+      "text": "Clans"
+    },
+    {
+      "id": "npc_structures-0003",
+      "text": "Dynasties"
+    },
+    {
+      "id": "npc_structures-0004",
+      "text": "Factions"
+    },
+    {
+      "id": "npc_structures-0005",
+      "text": "Partis politiques"
+    },
+    {
+      "id": "npc_structures-0006",
+      "text": "Lieux de travail"
+    },
+    {
+      "id": "npc_structures-0007",
+      "text": "Entreprises"
+    },
+    {
+      "id": "npc_structures-0008",
+      "text": "Organisations"
+    },
+    {
+      "id": "npc_structures-0009",
+      "text": "Gangs"
+    },
+    {
+      "id": "npc_structures-0010",
+      "text": "Groupes criminels"
+    },
+    {
+      "id": "npc_structures-0011",
+      "text": "Sectes"
+    },
+    {
+      "id": "npc_structures-0012",
+      "text": "Communautés religieuses"
+    },
+    {
+      "id": "npc_structures-0013",
+      "text": "Syndicats"
+    },
+    {
+      "id": "npc_structures-0014",
+      "text": "Quartiers"
+    },
+    {
+      "id": "npc_structures-0015",
+      "text": "Communautés villageoises"
+    },
+    {
+      "id": "npc_structures-0016",
+      "text": "Classes scolaires"
+    },
+    {
+      "id": "npc_structures-0017",
+      "text": "Équipes"
+    },
+    {
+      "id": "npc_structures-0018",
+      "text": "Équipages"
+    },
+    {
+      "id": "npc_structures-0019",
+      "text": "Unités militaires"
+    },
+    {
+      "id": "npc_structures-0020",
+      "text": "Groupes de recherche"
+    },
+    {
+      "id": "npc_structures-0021",
+      "text": "Amitiés"
+    },
+    {
+      "id": "npc_structures-0022",
+      "text": "Meilleurs amis"
+    },
+    {
+      "id": "npc_structures-0023",
+      "text": "Connaissances"
+    },
+    {
+      "id": "npc_structures-0024",
+      "text": "Alliances"
+    },
+    {
+      "id": "npc_structures-0025",
+      "text": "Relations de mentorat"
+    },
+    {
+      "id": "npc_structures-0026",
+      "text": "Relations professeur–élève"
+    },
+    {
+      "id": "npc_structures-0027",
+      "text": "Relations chef–subordonné"
+    },
+    {
+      "id": "npc_structures-0028",
+      "text": "Relations entre collègues"
+    },
+    {
+      "id": "npc_structures-0029",
+      "text": "Relations de rivalité"
+    },
+    {
+      "id": "npc_structures-0030",
+      "text": "Hostilités"
+    },
+    {
+      "id": "npc_structures-0031",
+      "text": "Rancœur"
+    },
+    {
+      "id": "npc_structures-0032",
+      "text": "Vengeance"
+    },
+    {
+      "id": "npc_structures-0033",
+      "text": "Jalousie"
+    },
+    {
+      "id": "npc_structures-0034",
+      "text": "Envie"
+    },
+    {
+      "id": "npc_structures-0035",
+      "text": "Peur"
+    },
+    {
+      "id": "npc_structures-0036",
+      "text": "Respect"
+    },
+    {
+      "id": "npc_structures-0037",
+      "text": "Admiration"
+    },
+    {
+      "id": "npc_structures-0038",
+      "text": "Confiance"
+    },
+    {
+      "id": "npc_structures-0039",
+      "text": "Méfiance"
+    },
+    {
+      "id": "npc_structures-0040",
+      "text": "Loyauté"
+    },
+    {
+      "id": "npc_structures-0041",
+      "text": "Déloyauté"
+    },
+    {
+      "id": "npc_structures-0042",
+      "text": "Dépendance"
+    },
+    {
+      "id": "npc_structures-0043",
+      "text": "Déséquilibre de pouvoir"
+    },
+    {
+      "id": "npc_structures-0044",
+      "text": "Relations amoureuses"
+    },
+    {
+      "id": "npc_structures-0045",
+      "text": "Mariages"
+    },
+    {
+      "id": "npc_structures-0046",
+      "text": "Relations secrètes"
+    },
+    {
+      "id": "npc_structures-0047",
+      "text": "Triangles amoureux"
+    },
+    {
+      "id": "npc_structures-0048",
+      "text": "Ex-partenaires"
+    },
+    {
+      "id": "npc_structures-0049",
+      "text": "Amour non partagé"
+    },
+    {
+      "id": "npc_structures-0050",
+      "text": "Liens familiaux"
+    },
+    {
+      "id": "npc_structures-0051",
+      "text": "Relations parent–enfant"
+    },
+    {
+      "id": "npc_structures-0052",
+      "text": "Relations entre frères et sœurs"
+    },
+    {
+      "id": "npc_structures-0053",
+      "text": "Relations entre cousins"
+    },
+    {
+      "id": "npc_structures-0054",
+      "text": "Relations grands-parents–petits-enfants"
+    },
+    {
+      "id": "npc_structures-0055",
+      "text": "Relations adoptives"
+    },
+    {
+      "id": "npc_structures-0056",
+      "text": "Relations biologiques"
+    },
+    {
+      "id": "npc_structures-0057",
+      "text": "Parentés cachées"
+    },
+    {
+      "id": "npc_structures-0058",
+      "text": "Relations d'héritage"
+    },
+    {
+      "id": "npc_structures-0059",
+      "text": "Relations de tutelle"
+    },
+    {
+      "id": "npc_structures-0060",
+      "text": "Dettes"
+    },
+    {
+      "id": "npc_structures-0061",
+      "text": "Dettes d'argent"
+    },
+    {
+      "id": "npc_structures-0062",
+      "text": "Dettes de services"
+    },
+    {
+      "id": "npc_structures-0063",
+      "text": "Dettes de reconnaissance"
+    },
+    {
+      "id": "npc_structures-0064",
+      "text": "Dettes de chantage"
+    },
+    {
+      "id": "npc_structures-0065",
+      "text": "Obligations morales"
+    },
+    {
+      "id": "npc_structures-0066",
+      "text": "Promesses"
+    },
+    {
+      "id": "npc_structures-0067",
+      "text": "Accords"
+    },
+    {
+      "id": "npc_structures-0068",
+      "text": "Serments"
+    },
+    {
+      "id": "npc_structures-0069",
+      "text": "Engagements forcés"
+    },
+    {
+      "id": "npc_structures-0070",
+      "text": "Secrets"
+    },
+    {
+      "id": "npc_structures-0071",
+      "text": "Secrets partagés"
+    },
+    {
+      "id": "npc_structures-0072",
+      "text": "Secrets de famille"
+    },
+    {
+      "id": "npc_structures-0073",
+      "text": "Secrets de l'organisation"
+    },
+    {
+      "id": "npc_structures-0074",
+      "text": "Crimes"
+    },
+    {
+      "id": "npc_structures-0075",
+      "text": "Crimes dissimulés"
+    },
+    {
+      "id": "npc_structures-0076",
+      "text": "Doubles vies"
+    },
+    {
+      "id": "npc_structures-0077",
+      "text": "Fausses identités"
+    },
+    {
+      "id": "npc_structures-0078",
+      "text": "Objectifs secrets"
+    },
+    {
+      "id": "npc_structures-0079",
+      "text": "Alliances secrètes"
+    },
+    {
+      "id": "npc_structures-0080",
+      "text": "Hostilités secrètes"
+    },
+    {
+      "id": "npc_structures-0081",
+      "text": "Motivations cachées"
+    },
+    {
+      "id": "npc_structures-0082",
+      "text": "Relations cachées"
+    },
+    {
+      "id": "npc_structures-0083",
+      "text": "Emplois de couverture"
+    },
+    {
+      "id": "npc_structures-0084",
+      "text": "Identités d'emprunt"
+    },
+    {
+      "id": "npc_structures-0085",
+      "text": "Relations d'espionnage"
+    },
+    {
+      "id": "npc_structures-0086",
+      "text": "Relations avec des informateurs"
+    },
+    {
+      "id": "npc_structures-0087",
+      "text": "Agents doubles"
+    },
+    {
+      "id": "npc_structures-0088",
+      "text": "Initiés"
+    },
+    {
+      "id": "npc_structures-0089",
+      "text": "Membres infiltrés"
+    },
+    {
+      "id": "npc_structures-0090",
+      "text": "Réseaux de contacts"
+    },
+    {
+      "id": "npc_structures-0091",
+      "text": "Sources d'information"
+    },
+    {
+      "id": "npc_structures-0092",
+      "text": "Colporteurs de rumeurs"
+    },
+    {
+      "id": "npc_structures-0093",
+      "text": "Leaders d'opinion"
+    },
+    {
+      "id": "npc_structures-0094",
+      "text": "Gardiens de l'accès"
+    },
+    {
+      "id": "npc_structures-0095",
+      "text": "Courtiers du pouvoir"
+    },
+    {
+      "id": "npc_structures-0096",
+      "text": "Relations de patronage"
+    },
+    {
+      "id": "npc_structures-0097",
+      "text": "Protecteurs"
+    },
+    {
+      "id": "npc_structures-0098",
+      "text": "Protégés"
+    },
+    {
+      "id": "npc_structures-0099",
+      "text": "Parrains"
+    },
+    {
+      "id": "npc_structures-0100",
+      "text": "Bailleurs de fonds"
+    },
+    {
+      "id": "npc_structures-0101",
+      "text": "Créanciers"
+    },
+    {
+      "id": "npc_structures-0102",
+      "text": "Débiteurs"
+    },
+    {
+      "id": "npc_structures-0103",
+      "text": "Employeurs"
+    },
+    {
+      "id": "npc_structures-0104",
+      "text": "Employés"
+    },
+    {
+      "id": "npc_structures-0105",
+      "text": "Dirigeants"
+    },
+    {
+      "id": "npc_structures-0106",
+      "text": "Subordonnés"
+    },
+    {
+      "id": "npc_structures-0107",
+      "text": "Propriétaires"
+    },
+    {
+      "id": "npc_structures-0108",
+      "text": "Actionnaires"
+    },
+    {
+      "id": "npc_structures-0109",
+      "text": "Clients"
+    },
+    {
+      "id": "npc_structures-0110",
+      "text": "Fournisseurs"
+    },
+    {
+      "id": "npc_structures-0111",
+      "text": "Sous-traitants"
+    },
+    {
+      "id": "npc_structures-0112",
+      "text": "Concurrents"
+    },
+    {
+      "id": "npc_structures-0113",
+      "text": "Partenaires"
+    },
+    {
+      "id": "npc_structures-0114",
+      "text": "Réseaux de coopération"
+    },
+    {
+      "id": "npc_structures-0115",
+      "text": "Relations de dépendance"
+    },
+    {
+      "id": "npc_structures-0116",
+      "text": "Dépendances en ressources"
+    },
+    {
+      "id": "npc_structures-0117",
+      "text": "Dépendances en information"
+    },
+    {
+      "id": "npc_structures-0118",
+      "text": "Relations de protection"
+    },
+    {
+      "id": "npc_structures-0119",
+      "text": "Relations de sécurité"
+    },
+    {
+      "id": "npc_structures-0120",
+      "text": "Alliances politiques"
+    },
+    {
+      "id": "npc_structures-0121",
+      "text": "Groupes d'électeurs"
+    },
+    {
+      "id": "npc_structures-0122",
+      "text": "Partisans"
+    },
+    {
+      "id": "npc_structures-0123",
+      "text": "Opposants"
+    },
+    {
+      "id": "npc_structures-0124",
+      "text": "Relations de lobbying"
+    },
+    {
+      "id": "npc_structures-0125",
+      "text": "Relations diplomatiques"
+    },
+    {
+      "id": "npc_structures-0126",
+      "text": "Contacts internationaux"
+    },
+    {
+      "id": "npc_structures-0127",
+      "text": "Relations entre factions"
+    },
+    {
+      "id": "npc_structures-0128",
+      "text": "Cliques au sein des factions"
+    },
+    {
+      "id": "npc_structures-0129",
+      "text": "Cercles intimes"
+    },
+    {
+      "id": "npc_structures-0130",
+      "text": "Groupes d'opposition"
+    },
+    {
+      "id": "npc_structures-0131",
+      "text": "Cellules rebelles"
+    },
+    {
+      "id": "npc_structures-0132",
+      "text": "Équipes de direction"
+    },
+    {
+      "id": "npc_structures-0133",
+      "text": "Conseils"
+    },
+    {
+      "id": "npc_structures-0134",
+      "text": "Comités"
+    },
+    {
+      "id": "npc_structures-0135",
+      "text": "Hiérarchies héréditaires"
+    },
+    {
+      "id": "npc_structures-0136",
+      "text": "Ordres hiérarchiques"
+    },
+    {
+      "id": "npc_structures-0137",
+      "text": "Hiérarchies militaires"
+    },
+    {
+      "id": "npc_structures-0138",
+      "text": "Hiérarchies religieuses"
+    },
+    {
+      "id": "npc_structures-0139",
+      "text": "Hiérarchies d'entreprise"
+    },
+    {
+      "id": "npc_structures-0140",
+      "text": "Hiérarchies bureaucratiques"
+    },
+    {
+      "id": "npc_structures-0141",
+      "text": "Hiérarchies criminelles"
+    },
+    {
+      "id": "npc_structures-0142",
+      "text": "Hiérarchies informelles"
+    },
+    {
+      "id": "npc_structures-0143",
+      "text": "Hiérarchies de réputation"
+    },
+    {
+      "id": "npc_structures-0144",
+      "text": "Réseaux d'influence"
+    },
+    {
+      "id": "npc_structures-0145",
+      "text": "Réseaux de confiance"
+    },
+    {
+      "id": "npc_structures-0146",
+      "text": "Réseaux de peur"
+    },
+    {
+      "id": "npc_structures-0147",
+      "text": "Réseaux de dettes"
+    },
+    {
+      "id": "npc_structures-0148",
+      "text": "Réseaux de secrets"
+    },
+    {
+      "id": "npc_structures-0149",
+      "text": "Réseaux de rumeurs"
+    },
+    {
+      "id": "npc_structures-0150",
+      "text": "Réseaux de parenté"
+    },
+    {
+      "id": "npc_structures-0151",
+      "text": "Réseaux d'amitié"
+    },
+    {
+      "id": "npc_structures-0152",
+      "text": "Réseaux d'inimitié"
+    },
+    {
+      "id": "npc_structures-0153",
+      "text": "Réseaux commerciaux"
+    },
+    {
+      "id": "npc_structures-0154",
+      "text": "Réseaux de renseignement"
+    },
+    {
+      "id": "npc_structures-0155",
+      "text": "Réseaux criminels"
+    },
+    {
+      "id": "npc_structures-0156",
+      "text": "Réseaux amoureux"
+    },
+    {
+      "id": "npc_structures-0157",
+      "text": "Réseaux de politique de bureau"
+    },
+    {
+      "id": "npc_structures-0158",
+      "text": "Réseaux sociaux du quartier"
+    },
+    {
+      "id": "npc_structures-0159",
+      "text": "Groupes de statut"
+    },
+    {
+      "id": "npc_structures-0160",
+      "text": "Classes sociales"
+    },
+    {
+      "id": "npc_structures-0161",
+      "text": "Classes de richesse"
+    },
+    {
+      "id": "npc_structures-0162",
+      "text": "Niveaux d'éducation"
+    },
+    {
+      "id": "npc_structures-0163",
+      "text": "Groupes professionnels"
+    },
+    {
+      "id": "npc_structures-0164",
+      "text": "Tranches d'âge"
+    },
+    {
+      "id": "npc_structures-0165",
+      "text": "Générations"
+    },
+    {
+      "id": "npc_structures-0166",
+      "text": "Groupes culturels"
+    },
+    {
+      "id": "npc_structures-0167",
+      "text": "Groupes régionaux"
+    },
+    {
+      "id": "npc_structures-0168",
+      "text": "Nouveaux venus et habitants"
+    },
+    {
+      "id": "npc_structures-0169",
+      "text": "Vieilles familles et nouveaux arrivants"
+    },
+    {
+      "id": "npc_structures-0170",
+      "text": "L'élite"
+    },
+    {
+      "id": "npc_structures-0171",
+      "text": "La classe moyenne"
+    },
+    {
+      "id": "npc_structures-0172",
+      "text": "La classe ouvrière"
+    },
+    {
+      "id": "npc_structures-0173",
+      "text": "Groupes marginalisés"
+    },
+    {
+      "id": "npc_structures-0174",
+      "text": "Ceux de l'intérieur et ceux de l'extérieur"
+    },
+    {
+      "id": "npc_structures-0175",
+      "text": "Les respectés et les méprisés"
+    },
+    {
+      "id": "npc_structures-0176",
+      "text": "Les populaires et les impopulaires"
+    },
+    {
+      "id": "npc_structures-0177",
+      "text": "Les craints et les protégés"
+    },
+    {
+      "id": "npc_structures-0178",
+      "text": "Chefs et suiveurs"
+    },
+    {
+      "id": "npc_structures-0179",
+      "text": "Dissidents"
+    },
+    {
+      "id": "npc_structures-0180",
+      "text": "Exilés"
+    },
+    {
+      "id": "npc_structures-0181",
+      "text": "Anciens membres"
+    },
+    {
+      "id": "npc_structures-0182",
+      "text": "Transfuges"
+    },
+    {
+      "id": "npc_structures-0183",
+      "text": "Traîtres"
+    },
+    {
+      "id": "npc_structures-0184",
+      "text": "Vétérans loyaux"
+    },
+    {
+      "id": "npc_structures-0185",
+      "text": "Nouveaux membres"
+    },
+    {
+      "id": "npc_structures-0186",
+      "text": "Membres fondateurs"
+    },
+    {
+      "id": "npc_structures-0187",
+      "text": "Héritiers"
+    },
+    {
+      "id": "npc_structures-0188",
+      "text": "Candidats à la succession"
+    },
+    {
+      "id": "npc_structures-0189",
+      "text": "Rivaux pour le pouvoir"
+    },
+    {
+      "id": "npc_structures-0190",
+      "text": "Tensions entre générations"
+    },
+    {
+      "id": "npc_structures-0191",
+      "text": "Vieille rancune"
+    },
+    {
+      "id": "npc_structures-0192",
+      "text": "Inimitiés historiques"
+    },
+    {
+      "id": "npc_structures-0193",
+      "text": "Haine héritée"
+    },
+    {
+      "id": "npc_structures-0194",
+      "text": "Loyauté héritée"
+    },
+    {
+      "id": "npc_structures-0195",
+      "text": "Dette héritée"
+    },
+    {
+      "id": "npc_structures-0196",
+      "text": "Secret hérité"
+    },
+    {
+      "id": "npc_structures-0197",
+      "text": "Statut hérité"
+    },
+    {
+      "id": "npc_structures-0198",
+      "text": "Réputation héritée"
+    },
+    {
+      "id": "npc_structures-0199",
+      "text": "Responsabilité héritée"
+    },
+    {
+      "id": "npc_structures-0200",
+      "text": "Crime hérité"
+    },
+    {
+      "id": "npc_structures-0201",
+      "text": "Traumatisme intergénérationnel"
+    },
+    {
+      "id": "npc_structures-0202",
+      "text": "Histoire commune"
+    },
+    {
+      "id": "npc_structures-0203",
+      "text": "Tragédie commune"
+    },
+    {
+      "id": "npc_structures-0204",
+      "text": "Crime commun"
+    },
+    {
+      "id": "npc_structures-0205",
+      "text": "Victoire commune"
+    },
+    {
+      "id": "npc_structures-0206",
+      "text": "Ennemi commun"
+    },
+    {
+      "id": "npc_structures-0207",
+      "text": "Secret commun"
+    },
+    {
+      "id": "npc_structures-0208",
+      "text": "Objectif commun"
+    },
+    {
+      "id": "npc_structures-0209",
+      "text": "Objectifs contradictoires"
+    },
+    {
+      "id": "npc_structures-0210",
+      "text": "Objectifs concurrents"
+    },
+    {
+      "id": "npc_structures-0211",
+      "text": "Alliances temporaires"
+    },
+    {
+      "id": "npc_structures-0212",
+      "text": "Alliances forcées"
+    },
+    {
+      "id": "npc_structures-0213",
+      "text": "Alliances contre nature"
+    },
+    {
+      "id": "npc_structures-0214",
+      "text": "Mariages de convenance"
+    },
+    {
+      "id": "npc_structures-0215",
+      "text": "Mariages politiques"
+    },
+    {
+      "id": "npc_structures-0216",
+      "text": "Relations garantes de la paix"
+    },
+    {
+      "id": "npc_structures-0217",
+      "text": "Relations d'otages"
+    },
+    {
+      "id": "npc_structures-0218",
+      "text": "Gages"
+    },
+    {
+      "id": "npc_structures-0219",
+      "text": "Chantage mutuel"
+    },
+    {
+      "id": "npc_structures-0220",
+      "text": "Dépendance mutuelle"
+    },
+    {
+      "id": "npc_structures-0221",
+      "text": "Dissuasion mutuelle"
+    },
+    {
+      "id": "npc_structures-0222",
+      "text": "Bénéfice mutuel"
+    },
+    {
+      "id": "npc_structures-0223",
+      "text": "Bénéfice unilatéral"
+    },
+    {
+      "id": "npc_structures-0224",
+      "text": "Relations d'exploitation"
+    },
+    {
+      "id": "npc_structures-0225",
+      "text": "Relations de manipulation"
+    },
+    {
+      "id": "npc_structures-0226",
+      "text": "Relations de contrôle"
+    },
+    {
+      "id": "npc_structures-0227",
+      "text": "Relations protectrices"
+    },
+    {
+      "id": "npc_structures-0228",
+      "text": "Accords secrets"
+    },
+    {
+      "id": "npc_structures-0229",
+      "text": "Relations de troc"
+    },
+    {
+      "id": "npc_structures-0230",
+      "text": "Échange de services"
+    },
+    {
+      "id": "npc_structures-0231",
+      "text": "Commerce d'informations"
+    },
+    {
+      "id": "npc_structures-0232",
+      "text": "Échange de secrets"
+    },
+    {
+      "id": "npc_structures-0233",
+      "text": "Échange de faveurs politiques"
+    },
+    {
+      "id": "npc_structures-0234",
+      "text": "Relations corrompues"
+    },
+    {
+      "id": "npc_structures-0235",
+      "text": "Réseaux de pots-de-vin"
+    },
+    {
+      "id": "npc_structures-0236",
+      "text": "Népotisme"
+    },
+    {
+      "id": "npc_structures-0237",
+      "text": "Favoritisme"
+    },
+    {
+      "id": "npc_structures-0238",
+      "text": "Favoritisme familial"
+    },
+    {
+      "id": "npc_structures-0239",
+      "text": "Formation de cliques"
+    },
+    {
+      "id": "npc_structures-0240",
+      "text": "Avantage des initiés"
+    },
+    {
+      "id": "npc_structures-0241",
+      "text": "Contrôle de l'accès"
+    },
+    {
+      "id": "npc_structures-0242",
+      "text": "Isolement social"
+    },
+    {
+      "id": "npc_structures-0243",
+      "text": "Sabotage de réputation"
+    },
+    {
+      "id": "npc_structures-0244",
+      "text": "Campagnes de rumeurs"
+    },
+    {
+      "id": "npc_structures-0245",
+      "text": "Campagnes de dénigrement"
+    },
+    {
+      "id": "npc_structures-0246",
+      "text": "Manipulation sociale"
+    },
+    {
+      "id": "npc_structures-0247",
+      "text": "Pression du groupe"
+    },
+    {
+      "id": "npc_structures-0248",
+      "text": "Comportement grégaire"
+    },
+    {
+      "id": "npc_structures-0249",
+      "text": "Conformisme"
+    },
+    {
+      "id": "npc_structures-0250",
+      "text": "Esprit de rébellion"
+    },
+    {
+      "id": "npc_structures-0251",
+      "text": "Loyauté idéologique"
+    },
+    {
+      "id": "npc_structures-0252",
+      "text": "Conviction religieuse"
+    },
+    {
+      "id": "npc_structures-0253",
+      "text": "Conviction politique"
+    },
+    {
+      "id": "npc_structures-0254",
+      "text": "Identité professionnelle"
+    },
+    {
+      "id": "npc_structures-0255",
+      "text": "Loyauté envers la famille"
+    },
+    {
+      "id": "npc_structures-0256",
+      "text": "Loyauté locale"
+    },
+    {
+      "id": "npc_structures-0257",
+      "text": "Loyauté nationale"
+    },
+    {
+      "id": "npc_structures-0258",
+      "text": "Loyauté envers l'organisation"
+    },
+    {
+      "id": "npc_structures-0259",
+      "text": "Loyauté personnelle"
+    },
+    {
+      "id": "npc_structures-0260",
+      "text": "Loyauté conditionnelle"
+    },
+    {
+      "id": "npc_structures-0261",
+      "text": "Loyauté achetée"
+    },
+    {
+      "id": "npc_structures-0262",
+      "text": "Loyauté forcée"
+    },
+    {
+      "id": "npc_structures-0263",
+      "text": "Loyauté cachée"
+    },
+    {
+      "id": "npc_structures-0264",
+      "text": "Loyauté partagée"
+    },
+    {
+      "id": "npc_structures-0265",
+      "text": "Loyauté changeante"
+    },
+    {
+      "id": "npc_structures-0266",
+      "text": "Points de rupture"
+    },
+    {
+      "id": "npc_structures-0267",
+      "text": "Effet du stress sur les relations"
+    },
+    {
+      "id": "npc_structures-0268",
+      "text": "Effet de la peur sur les relations"
+    },
+    {
+      "id": "npc_structures-0269",
+      "text": "Effet de l'argent sur les relations"
+    },
+    {
+      "id": "npc_structures-0270",
+      "text": "Effet de la réputation sur les relations"
+    },
+    {
+      "id": "npc_structures-0271",
+      "text": "Effet du pouvoir sur les relations"
+    },
+    {
+      "id": "npc_structures-0272",
+      "text": "Effet des secrets sur les relations"
+    },
+    {
+      "id": "npc_structures-0273",
+      "text": "Effet de l'information sur les relations"
+    },
+    {
+      "id": "npc_structures-0274",
+      "text": "Effet d'une catastrophe sur les relations"
+    },
+    {
+      "id": "npc_structures-0275",
+      "text": "Effet de la guerre sur les relations"
+    },
+    {
+      "id": "npc_structures-0276",
+      "text": "Effet d'une épidémie sur les relations"
+    },
+    {
+      "id": "npc_structures-0277",
+      "text": "Effet de la pénurie sur les relations"
+    },
+    {
+      "id": "npc_structures-0278",
+      "text": "Effet de la perte sur les relations"
+    },
+    {
+      "id": "npc_structures-0279",
+      "text": "Effet d'un décès sur le réseau"
+    },
+    {
+      "id": "npc_structures-0280",
+      "text": "Effet d'une naissance sur le réseau"
+    },
+    {
+      "id": "npc_structures-0281",
+      "text": "Effet d'un mariage sur le réseau"
+    },
+    {
+      "id": "npc_structures-0282",
+      "text": "Effet d'une rupture sur le réseau"
+    },
+    {
+      "id": "npc_structures-0283",
+      "text": "Effet d'une promotion sur le réseau"
+    },
+    {
+      "id": "npc_structures-0284",
+      "text": "Effet d'un licenciement sur le réseau"
+    },
+    {
+      "id": "npc_structures-0285",
+      "text": "Effet d'un crime sur le réseau"
+    },
+    {
+      "id": "npc_structures-0286",
+      "text": "Effet d'une révélation sur le réseau"
+    },
+    {
+      "id": "npc_structures-0287",
+      "text": "Effet des actions du joueur sur les relations"
+    },
+    {
+      "id": "npc_structures-0288",
+      "text": "Les relations des PNJ évoluent de manière autonome"
+    },
+    {
+      "id": "npc_structures-0289",
+      "text": "Les PNJ nouent de nouvelles relations sans le joueur"
+    },
+    {
+      "id": "npc_structures-0290",
+      "text": "Les PNJ rompent des relations sans le joueur"
+    },
+    {
+      "id": "npc_structures-0291",
+      "text": "Les PNJ changent de faction"
+    },
+    {
+      "id": "npc_structures-0292",
+      "text": "Les PNJ changent d'emploi"
+    },
+    {
+      "id": "npc_structures-0293",
+      "text": "Les PNJ fondent des familles"
+    },
+    {
+      "id": "npc_structures-0294",
+      "text": "Les PNJ divorcent"
+    },
+    {
+      "id": "npc_structures-0295",
+      "text": "Les PNJ ont des enfants"
+    },
+    {
+      "id": "npc_structures-0296",
+      "text": "Les PNJ meurent"
+    },
+    {
+      "id": "npc_structures-0297",
+      "text": "Les PNJ héritent de postes"
+    },
+    {
+      "id": "npc_structures-0298",
+      "text": "Les PNJ héritent de biens"
+    },
+    {
+      "id": "npc_structures-0299",
+      "text": "Les PNJ héritent de conflits"
+    },
+    {
+      "id": "npc_structures-0300",
+      "text": "Les PNJ fondent de nouvelles organisations"
+    },
+    {
+      "id": "npc_structures-0301",
+      "text": "Les PNJ dissolvent des organisations"
+    },
+    {
+      "id": "npc_structures-0302",
+      "text": "Les PNJ forment des cliques secrètes"
+    },
+    {
+      "id": "npc_structures-0303",
+      "text": "Les PNJ bâtissent leurs propres réseaux"
+    },
+    {
+      "id": "npc_structures-0304",
+      "text": "Les PNJ diffusent l'information de manière autonome"
+    },
+    {
+      "id": "npc_structures-0305",
+      "text": "Les PNJ se souviennent des insultes"
+    },
+    {
+      "id": "npc_structures-0306",
+      "text": "Les PNJ se souviennent des faveurs"
+    },
+    {
+      "id": "npc_structures-0307",
+      "text": "Les PNJ se souviennent d'avoir été sauvés"
+    },
+    {
+      "id": "npc_structures-0308",
+      "text": "Les PNJ se souviennent des trahisons"
+    },
+    {
+      "id": "npc_structures-0309",
+      "text": "Les PNJ se souviennent des promesses"
+    },
+    {
+      "id": "npc_structures-0310",
+      "text": "Les PNJ changent d'avis"
+    },
+    {
+      "id": "npc_structures-0311",
+      "text": "Les PNJ changent de loyauté"
+    },
+    {
+      "id": "npc_structures-0312",
+      "text": "Les PNJ peuvent pardonner"
+    },
+    {
+      "id": "npc_structures-0313",
+      "text": "Les PNJ peuvent se venger des années plus tard"
+    },
+    {
+      "id": "npc_structures-0314",
+      "text": "Les PNJ peuvent hériter des inimitiés des autres"
+    },
+    {
+      "id": "npc_structures-0315",
+      "text": "Les PNJ peuvent hériter des amitiés des autres"
+    },
+    {
+      "id": "npc_structures-0316",
+      "text": "Les PNJ peuvent cacher leurs véritables relations"
+    },
+    {
+      "id": "npc_structures-0317",
+      "text": "Les PNJ peuvent faire semblant d'être ennemis tout en étant alliés"
+    },
+    {
+      "id": "npc_structures-0318",
+      "text": "Les PNJ peuvent faire semblant d'être amis tout en étant ennemis"
+    },
+    {
+      "id": "npc_structures-0319",
+      "text": "Les PNJ peuvent travailler pour plusieurs factions"
+    },
+    {
+      "id": "npc_structures-0320",
+      "text": "Les PNJ peuvent appartenir à plusieurs organisations"
+    },
+    {
+      "id": "npc_structures-0321",
+      "text": "Les PNJ peuvent être tiraillés entre famille et organisation"
+    },
+    {
+      "id": "npc_structures-0322",
+      "text": "Les PNJ peuvent devoir choisir entre leurs loyautés"
+    },
+    {
+      "id": "npc_structures-0323",
+      "text": "Les PNJ peuvent se faire chanter mutuellement"
+    },
+    {
+      "id": "npc_structures-0324",
+      "text": "Les PNJ peuvent se protéger mutuellement"
+    },
+    {
+      "id": "npc_structures-0325",
+      "text": "Les PNJ peuvent se sacrifier les uns les autres"
+    },
+    {
+      "id": "npc_structures-0326",
+      "text": "Les PNJ peuvent former des coalitions temporaires"
+    },
+    {
+      "id": "npc_structures-0327",
+      "text": "Les PNJ peuvent prendre le pouvoir dans leur groupe"
+    },
+    {
+      "id": "npc_structures-0328",
+      "text": "Les PNJ peuvent monter dans la hiérarchie"
+    },
+    {
+      "id": "npc_structures-0329",
+      "text": "Les PNJ peuvent descendre dans la hiérarchie"
+    },
+    {
+      "id": "npc_structures-0330",
+      "text": "Les PNJ peuvent être mis à l'écart de la communauté"
+    },
+    {
+      "id": "npc_structures-0331",
+      "text": "Les PNJ peuvent devenir influents"
+    },
+    {
+      "id": "npc_structures-0332",
+      "text": "Les PNJ peuvent devenir dépendants des autres"
+    },
+    {
+      "id": "npc_structures-0333",
+      "text": "Les PNJ peuvent devenir ennemis par hasard"
+    },
+    {
+      "id": "npc_structures-0334",
+      "text": "Les PNJ peuvent devenir amis grâce à une crise commune"
+    },
+    {
+      "id": "npc_structures-0335",
+      "text": "Les PNJ peuvent se haïr pour des raisons historiques"
+    },
+    {
+      "id": "npc_structures-0336",
+      "text": "Les PNJ peuvent nouer des relations fondées sur des malentendus"
+    },
+    {
+      "id": "npc_structures-0337",
+      "text": "Les PNJ peuvent croire de fausses rumeurs les uns sur les autres"
+    },
+    {
+      "id": "npc_structures-0338",
+      "text": "Les PNJ peuvent tenter de redorer leur réputation"
+    },
+    {
+      "id": "npc_structures-0339",
+      "text": "Les PNJ peuvent accumuler du capital politique"
+    },
+    {
+      "id": "npc_structures-0340",
+      "text": "Les PNJ peuvent se constituer leur propre groupe de partisans"
+    },
+    {
+      "id": "npc_structures-0341",
+      "text": "Les PNJ peuvent se servir des autres comme intermédiaires"
+    },
+    {
+      "id": "npc_structures-0342",
+      "text": "Les PNJ peuvent déléguer des tâches à leurs propres réseaux"
+    },
+    {
+      "id": "npc_structures-0343",
+      "text": "Les PNJ peuvent se fixer leurs propres objectifs en fonction de leurs relations"
+    }
   ]
 }

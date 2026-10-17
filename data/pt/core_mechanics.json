@@ -1,311 +1,1232 @@
 {
   "core_mechanics": [
-    "Conversa",
-    "Comércio",
-    "Investigação",
-    "Distribuição de recursos",
-    "Exploração do mapa",
-    "Comparação de documentos",
-    "Construção",
-    "Gestão do tempo",
-    "Programação",
-    "Gestão de trabalhadores",
-    "Monitoramento de câmeras de segurança",
-    "Combinação de pistas",
-    "Coleta de provas",
-    "Interrogatório",
-    "Detecção de mentiras",
-    "Tomada de decisões",
-    "Negociação",
-    "Persuasão",
-    "Ameaças",
-    "Suborno",
-    "Manipulação",
-    "Gestão da reputação",
-    "Construção de confiança",
-    "Gestão de relacionamentos",
-    "Disseminação de boatos",
-    "Ocultação de informações",
-    "Compartilhamento de informações",
-    "Avaliação de fontes",
-    "Leitura de relatórios",
-    "Redação de relatórios",
-    "Inspeção de documentos",
-    "Processamento de formulários",
-    "Aprovação de solicitações",
-    "Rejeição de solicitações",
-    "Verificação de passaportes",
-    "Comparação de identidades",
-    "Auditoria contábil",
-    "Elaboração de orçamentos",
-    "Precificação",
-    "Compra",
-    "Venda",
-    "Pechincha",
-    "Investimento",
-    "Gestão de dívidas",
-    "Gestão de estoque",
-    "Realização de pedidos",
-    "Gestão da cadeia de suprimentos",
-    "Planejamento logístico",
-    "Planejamento de rotas de transporte",
-    "Construção de cadeias de produção",
-    "Otimização da produção",
-    "Automação",
-    "Construção de máquinas",
-    "Conserto de máquinas",
-    "Manutenção de equipamentos",
-    "Diagnóstico de falhas",
-    "Roteamento de eletricidade",
-    "Roteamento de água",
-    "Construção de tubulações",
-    "Conexão de fios",
-    "Construção de circuitos",
-    "Escrita de código",
-    "Depuração de código",
-    "Uso da linha de comando",
-    "Hacking",
-    "Invasão de sistemas de informação",
-    "Descoberta de senhas",
-    "Exploração de redes",
-    "Configuração de sistemas",
-    "Busca de arquivos",
-    "Exploração de bancos de dados",
-    "Combinação de informações",
-    "Análise de dados",
-    "Interpretação de estatísticas",
-    "Busca de anomalias",
-    "Reconhecimento de padrões",
-    "Montagem de uma árvore genealógica",
-    "Montagem de uma rede de relacionamentos",
-    "Montagem de uma cadeia de eventos",
-    "Montagem de uma linha do tempo",
-    "Comparação de mapas",
-    "Desenho de mapas",
-    "Mapeamento de áreas",
-    "Busca de rotas",
-    "Navegação",
-    "Desbloqueio de lugares",
-    "Busca de passagens secretas",
-    "Exame de objetos",
-    "Observação do ambiente",
-    "Atenção aos detalhes",
-    "Escuta de sons",
-    "Rastreamento de pegadas",
-    "Seguir pessoas",
-    "Escuta clandestina",
-    "Vigilância disfarçada",
-    "Esconder-se",
-    "Furtividade",
-    "Disfarce",
-    "Infiltração",
-    "Contornar sistemas de segurança",
-    "Controle de câmeras",
-    "Monitoramento de sensores",
-    "Monitoramento de radar",
-    "Monitoramento de sonar",
-    "Monitoramento de medidores",
-    "Gestão de alarmes",
-    "Controle de portas",
-    "Arrombamento de fechaduras",
-    "Gestão de permissões de acesso",
-    "Posicionamento de guardas",
-    "Planejamento de patrulhas",
-    "Planejamento de turnos de trabalho",
-    "Atribuição de tarefas",
-    "Contratação de pessoal",
-    "Treinamento de pessoal",
-    "Demissão de pessoal",
-    "Motivação de trabalhadores",
-    "Avaliação de trabalhadores",
-    "Formação de equipes",
-    "Atribuição de papéis",
-    "Priorização",
-    "Gestão do calendário",
-    "Agendamento",
-    "Gestão de prazos",
-    "Otimização de turnos",
-    "Controle da passagem do tempo",
-    "Enfileirar ações",
-    "Tomada de decisões por turnos",
-    "Tomada de decisões em tempo real",
-    "Pausar e dar ordens",
-    "Coleta de recursos",
-    "Consumo de recursos",
-    "Armazenamento de recursos",
-    "Priorização de recursos",
-    "Troca de recursos",
-    "Racionamento de recursos",
-    "Distribuição de comida",
-    "Distribuição de água",
-    "Distribuição de energia",
-    "Distribuição de medicamentos",
-    "Distribuição de dinheiro",
-    "Distribuição de mão de obra",
-    "Posicionamento de prédios",
-    "Projeto de cômodos",
-    "Ampliação de espaços",
-    "Melhoria de prédios",
-    "Demolição de prédios",
-    "Construção de infraestrutura",
-    "Construção de estradas",
-    "Construção de defesas",
-    "Desenvolvimento de uma base",
-    "Planejamento urbano",
-    "Zoneamento",
-    "Fabricação de itens",
-    "Crafting",
-    "Experimentação com receitas",
-    "Combinação de ingredientes",
-    "Desmontagem de itens",
-    "Conserto de itens",
-    "Melhoria de itens",
-    "Uso de ferramentas",
-    "Gestão do inventário",
-    "Escolha de equipamento",
-    "Classificação de itens",
-    "Identificação de itens",
-    "Decifrar números e códigos",
-    "Resolução de quebra-cabeças de lógica",
-    "Resolução de quebra-cabeças mecânicos",
-    "Resolução de quebra-cabeças espaciais",
-    "Resolução de quebra-cabeças de palavras",
-    "Decifração de cifras",
-    "Interpretação de símbolos",
-    "Identificação de motivos visuais",
-    "Resolução de quebra-cabeças de memória",
-    "Descobrir a ordem certa",
-    "Resolução de quebra-cabeças de combinação",
-    "Jogar cartas",
-    "Construção de baralhos",
-    "Uso de dados",
-    "Avaliação de riscos",
-    "Gestão de probabilidades",
-    "Apostas",
-    "Decisões de testar a sorte",
-    "Controle de áreas",
-    "Posicionamento de tropas",
-    "Movimentação de unidades",
-    "Planejamento de batalhas",
-    "Construção de linhas de defesa",
-    "Diplomacia",
-    "Construção de alianças",
-    "Fechamento de acordos",
-    "Quebra de acordos",
-    "Tomada de decisões políticas",
-    "Aprovação de leis",
-    "Definição de impostos",
-    "Distribuição de orçamentos",
-    "Gestão da aprovação popular",
-    "Campanha eleitoral",
-    "Produção de propaganda",
-    "Direcionamento da opinião",
-    "Equilíbrio entre facções",
-    "Gestão de uma rebelião",
-    "Resolução de crises",
-    "Gestão de riscos",
-    "Resposta a catástrofes",
-    "Planejamento de evacuações",
-    "Coordenação de operações de resgate",
-    "Triagem de pacientes",
-    "Diagnóstico de pacientes",
-    "Tratamento de pacientes",
-    "Escolha de medicamentos",
-    "Realização de cirurgias",
-    "Acompanhamento de uma epidemia",
-    "Rastreamento de contatos",
-    "Escolha de projetos de pesquisa",
-    "Pesquisa de tecnologias",
-    "Realização de experimentos",
-    "Análise de amostras",
-    "Teste de hipóteses",
-    "Criação de espécies",
-    "Equilíbrio de um ecossistema",
-    "Cultivo de plantas",
-    "Cuidado de animais",
-    "Agricultura",
-    "Colheita",
-    "Caça",
-    "Pesca",
-    "Armadilhas",
-    "Culinária",
-    "Conservação de alimentos",
-    "Acompanhamento do clima",
-    "Controle de temperatura",
-    "Gestão do oxigênio",
-    "Gestão da pressão",
-    "Gestão da radiação",
-    "Gestão do combustível",
-    "Monitoramento de sinais vitais",
-    "Gestão do moral da tripulação",
-    "Equilíbrio das necessidades da tripulação",
-    "Atender às necessidades dos personagens",
-    "Acompanhamento das rotinas dos personagens",
-    "Acompanhamento dos horários dos NPCs",
-    "Acompanhamento das relações dos NPCs",
-    "Interpretação do comportamento dos NPCs",
-    "Dar ordens aos NPCs",
-    "Recrutamento de NPCs",
-    "Persuasão de NPCs",
-    "Interrogatório de NPCs",
-    "Suborno de NPCs",
-    "Chantagem de NPCs",
-    "Juntar personagens em casais",
-    "Construção de relacionamentos amorosos",
-    "Formação de famílias",
-    "Construção de uma dinastia",
-    "Gestão da sucessão",
-    "Gestão de pontos de reputação",
-    "Gestão da lealdade",
-    "Gestão do medo",
-    "Exercer influência",
-    "Coleta de segredos",
-    "Troca de segredos",
-    "Uso de segredos para chantagem",
-    "Escolhas no diálogo",
-    "Desbloqueio de opções de diálogo",
-    "Traçar o perfil de pessoas",
-    "Leitura de personalidades",
-    "Leitura de emoções",
-    "Previsão de reações",
-    "Exploração de memórias",
-    "Exploração de sonhos",
-    "Comparação de linhas do tempo",
-    "Viagem no tempo",
-    "Aproveitar um loop temporal",
-    "Repetição de eventos",
-    "Mudar o passado",
-    "Prever o futuro",
-    "Testar as regras da simulação",
-    "Quebrar as regras do mundo",
-    "Modificar o estado do mundo",
-    "Desencadear eventos",
-    "Experimentar com causa e efeito",
-    "Observar o mundo sem controle direto",
-    "Observar personagens autônomos",
-    "Experimentar com o sistema",
-    "Manipular o mundo do jogo indiretamente",
-    "Digitar comandos",
-    "Jogar por meio de uma área de trabalho",
-    "Gerenciamento de e-mails",
-    "Atender ligações",
-    "Gerenciamento de mensagens de rádio",
-    "Decodificação de mensagens",
-    "Retransmissão de mensagens",
-    "Censura de mensagens",
-    "Seleção de notícias",
-    "Redação de manchetes",
-    "Moderação de conteúdo",
-    "Assinatura de decisões",
-    "Carimbar documentos",
-    "Classificação de casos",
-    "Gestão de filas",
-    "Atendimento ao cliente",
-    "Processamento de pedidos",
-    "Gerenciamento de reclamações",
-    "Priorização de solicitações",
-    "Delegação de tarefas",
-    "Escolher a ordem das tarefas",
-    "Otimização da rotina diária"
+    {
+      "id": "core_mechanics-0001",
+      "text": "Conversa"
+    },
+    {
+      "id": "core_mechanics-0002",
+      "text": "Comércio"
+    },
+    {
+      "id": "core_mechanics-0003",
+      "text": "Investigação"
+    },
+    {
+      "id": "core_mechanics-0004",
+      "text": "Distribuição de recursos"
+    },
+    {
+      "id": "core_mechanics-0005",
+      "text": "Exploração do mapa"
+    },
+    {
+      "id": "core_mechanics-0006",
+      "text": "Comparação de documentos"
+    },
+    {
+      "id": "core_mechanics-0007",
+      "text": "Construção"
+    },
+    {
+      "id": "core_mechanics-0008",
+      "text": "Gestão do tempo"
+    },
+    {
+      "id": "core_mechanics-0009",
+      "text": "Programação"
+    },
+    {
+      "id": "core_mechanics-0010",
+      "text": "Gestão de trabalhadores"
+    },
+    {
+      "id": "core_mechanics-0011",
+      "text": "Monitoramento de câmeras de segurança"
+    },
+    {
+      "id": "core_mechanics-0012",
+      "text": "Combinação de pistas"
+    },
+    {
+      "id": "core_mechanics-0013",
+      "text": "Coleta de provas"
+    },
+    {
+      "id": "core_mechanics-0014",
+      "text": "Interrogatório"
+    },
+    {
+      "id": "core_mechanics-0015",
+      "text": "Detecção de mentiras"
+    },
+    {
+      "id": "core_mechanics-0016",
+      "text": "Tomada de decisões"
+    },
+    {
+      "id": "core_mechanics-0017",
+      "text": "Negociação"
+    },
+    {
+      "id": "core_mechanics-0018",
+      "text": "Persuasão"
+    },
+    {
+      "id": "core_mechanics-0019",
+      "text": "Ameaças"
+    },
+    {
+      "id": "core_mechanics-0020",
+      "text": "Suborno"
+    },
+    {
+      "id": "core_mechanics-0021",
+      "text": "Manipulação"
+    },
+    {
+      "id": "core_mechanics-0022",
+      "text": "Gestão da reputação"
+    },
+    {
+      "id": "core_mechanics-0023",
+      "text": "Construção de confiança"
+    },
+    {
+      "id": "core_mechanics-0024",
+      "text": "Gestão de relacionamentos"
+    },
+    {
+      "id": "core_mechanics-0025",
+      "text": "Disseminação de boatos"
+    },
+    {
+      "id": "core_mechanics-0026",
+      "text": "Ocultação de informações"
+    },
+    {
+      "id": "core_mechanics-0027",
+      "text": "Compartilhamento de informações"
+    },
+    {
+      "id": "core_mechanics-0028",
+      "text": "Avaliação de fontes"
+    },
+    {
+      "id": "core_mechanics-0029",
+      "text": "Leitura de relatórios"
+    },
+    {
+      "id": "core_mechanics-0030",
+      "text": "Redação de relatórios"
+    },
+    {
+      "id": "core_mechanics-0031",
+      "text": "Inspeção de documentos"
+    },
+    {
+      "id": "core_mechanics-0032",
+      "text": "Processamento de formulários"
+    },
+    {
+      "id": "core_mechanics-0033",
+      "text": "Aprovação de solicitações"
+    },
+    {
+      "id": "core_mechanics-0034",
+      "text": "Rejeição de solicitações"
+    },
+    {
+      "id": "core_mechanics-0035",
+      "text": "Verificação de passaportes"
+    },
+    {
+      "id": "core_mechanics-0036",
+      "text": "Comparação de identidades"
+    },
+    {
+      "id": "core_mechanics-0037",
+      "text": "Auditoria contábil"
+    },
+    {
+      "id": "core_mechanics-0038",
+      "text": "Elaboração de orçamentos"
+    },
+    {
+      "id": "core_mechanics-0039",
+      "text": "Precificação"
+    },
+    {
+      "id": "core_mechanics-0040",
+      "text": "Compra"
+    },
+    {
+      "id": "core_mechanics-0041",
+      "text": "Venda"
+    },
+    {
+      "id": "core_mechanics-0042",
+      "text": "Pechincha"
+    },
+    {
+      "id": "core_mechanics-0043",
+      "text": "Investimento"
+    },
+    {
+      "id": "core_mechanics-0044",
+      "text": "Gestão de dívidas"
+    },
+    {
+      "id": "core_mechanics-0045",
+      "text": "Gestão de estoque"
+    },
+    {
+      "id": "core_mechanics-0046",
+      "text": "Realização de pedidos"
+    },
+    {
+      "id": "core_mechanics-0047",
+      "text": "Gestão da cadeia de suprimentos"
+    },
+    {
+      "id": "core_mechanics-0048",
+      "text": "Planejamento logístico"
+    },
+    {
+      "id": "core_mechanics-0049",
+      "text": "Planejamento de rotas de transporte"
+    },
+    {
+      "id": "core_mechanics-0050",
+      "text": "Construção de cadeias de produção"
+    },
+    {
+      "id": "core_mechanics-0051",
+      "text": "Otimização da produção"
+    },
+    {
+      "id": "core_mechanics-0052",
+      "text": "Automação"
+    },
+    {
+      "id": "core_mechanics-0053",
+      "text": "Construção de máquinas"
+    },
+    {
+      "id": "core_mechanics-0054",
+      "text": "Conserto de máquinas"
+    },
+    {
+      "id": "core_mechanics-0055",
+      "text": "Manutenção de equipamentos"
+    },
+    {
+      "id": "core_mechanics-0056",
+      "text": "Diagnóstico de falhas"
+    },
+    {
+      "id": "core_mechanics-0057",
+      "text": "Roteamento de eletricidade"
+    },
+    {
+      "id": "core_mechanics-0058",
+      "text": "Roteamento de água"
+    },
+    {
+      "id": "core_mechanics-0059",
+      "text": "Construção de tubulações"
+    },
+    {
+      "id": "core_mechanics-0060",
+      "text": "Conexão de fios"
+    },
+    {
+      "id": "core_mechanics-0061",
+      "text": "Construção de circuitos"
+    },
+    {
+      "id": "core_mechanics-0062",
+      "text": "Escrita de código"
+    },
+    {
+      "id": "core_mechanics-0063",
+      "text": "Depuração de código"
+    },
+    {
+      "id": "core_mechanics-0064",
+      "text": "Uso da linha de comando"
+    },
+    {
+      "id": "core_mechanics-0065",
+      "text": "Hacking"
+    },
+    {
+      "id": "core_mechanics-0066",
+      "text": "Invasão de sistemas de informação"
+    },
+    {
+      "id": "core_mechanics-0067",
+      "text": "Descoberta de senhas"
+    },
+    {
+      "id": "core_mechanics-0068",
+      "text": "Exploração de redes"
+    },
+    {
+      "id": "core_mechanics-0069",
+      "text": "Configuração de sistemas"
+    },
+    {
+      "id": "core_mechanics-0070",
+      "text": "Busca de arquivos"
+    },
+    {
+      "id": "core_mechanics-0071",
+      "text": "Exploração de bancos de dados"
+    },
+    {
+      "id": "core_mechanics-0072",
+      "text": "Combinação de informações"
+    },
+    {
+      "id": "core_mechanics-0073",
+      "text": "Análise de dados"
+    },
+    {
+      "id": "core_mechanics-0074",
+      "text": "Interpretação de estatísticas"
+    },
+    {
+      "id": "core_mechanics-0075",
+      "text": "Busca de anomalias"
+    },
+    {
+      "id": "core_mechanics-0076",
+      "text": "Reconhecimento de padrões"
+    },
+    {
+      "id": "core_mechanics-0077",
+      "text": "Montagem de uma árvore genealógica"
+    },
+    {
+      "id": "core_mechanics-0078",
+      "text": "Montagem de uma rede de relacionamentos"
+    },
+    {
+      "id": "core_mechanics-0079",
+      "text": "Montagem de uma cadeia de eventos"
+    },
+    {
+      "id": "core_mechanics-0080",
+      "text": "Montagem de uma linha do tempo"
+    },
+    {
+      "id": "core_mechanics-0081",
+      "text": "Comparação de mapas"
+    },
+    {
+      "id": "core_mechanics-0082",
+      "text": "Desenho de mapas"
+    },
+    {
+      "id": "core_mechanics-0083",
+      "text": "Mapeamento de áreas"
+    },
+    {
+      "id": "core_mechanics-0084",
+      "text": "Busca de rotas"
+    },
+    {
+      "id": "core_mechanics-0085",
+      "text": "Navegação"
+    },
+    {
+      "id": "core_mechanics-0086",
+      "text": "Desbloqueio de lugares"
+    },
+    {
+      "id": "core_mechanics-0087",
+      "text": "Busca de passagens secretas"
+    },
+    {
+      "id": "core_mechanics-0088",
+      "text": "Exame de objetos"
+    },
+    {
+      "id": "core_mechanics-0089",
+      "text": "Observação do ambiente"
+    },
+    {
+      "id": "core_mechanics-0090",
+      "text": "Atenção aos detalhes"
+    },
+    {
+      "id": "core_mechanics-0091",
+      "text": "Escuta de sons"
+    },
+    {
+      "id": "core_mechanics-0092",
+      "text": "Rastreamento de pegadas"
+    },
+    {
+      "id": "core_mechanics-0093",
+      "text": "Seguir pessoas"
+    },
+    {
+      "id": "core_mechanics-0094",
+      "text": "Escuta clandestina"
+    },
+    {
+      "id": "core_mechanics-0095",
+      "text": "Vigilância disfarçada"
+    },
+    {
+      "id": "core_mechanics-0096",
+      "text": "Esconder-se"
+    },
+    {
+      "id": "core_mechanics-0097",
+      "text": "Furtividade"
+    },
+    {
+      "id": "core_mechanics-0098",
+      "text": "Disfarce"
+    },
+    {
+      "id": "core_mechanics-0099",
+      "text": "Infiltração"
+    },
+    {
+      "id": "core_mechanics-0100",
+      "text": "Contornar sistemas de segurança"
+    },
+    {
+      "id": "core_mechanics-0101",
+      "text": "Controle de câmeras"
+    },
+    {
+      "id": "core_mechanics-0102",
+      "text": "Monitoramento de sensores"
+    },
+    {
+      "id": "core_mechanics-0103",
+      "text": "Monitoramento de radar"
+    },
+    {
+      "id": "core_mechanics-0104",
+      "text": "Monitoramento de sonar"
+    },
+    {
+      "id": "core_mechanics-0105",
+      "text": "Monitoramento de medidores"
+    },
+    {
+      "id": "core_mechanics-0106",
+      "text": "Gestão de alarmes"
+    },
+    {
+      "id": "core_mechanics-0107",
+      "text": "Controle de portas"
+    },
+    {
+      "id": "core_mechanics-0108",
+      "text": "Arrombamento de fechaduras"
+    },
+    {
+      "id": "core_mechanics-0109",
+      "text": "Gestão de permissões de acesso"
+    },
+    {
+      "id": "core_mechanics-0110",
+      "text": "Posicionamento de guardas"
+    },
+    {
+      "id": "core_mechanics-0111",
+      "text": "Planejamento de patrulhas"
+    },
+    {
+      "id": "core_mechanics-0112",
+      "text": "Planejamento de turnos de trabalho"
+    },
+    {
+      "id": "core_mechanics-0113",
+      "text": "Atribuição de tarefas"
+    },
+    {
+      "id": "core_mechanics-0114",
+      "text": "Contratação de pessoal"
+    },
+    {
+      "id": "core_mechanics-0115",
+      "text": "Treinamento de pessoal"
+    },
+    {
+      "id": "core_mechanics-0116",
+      "text": "Demissão de pessoal"
+    },
+    {
+      "id": "core_mechanics-0117",
+      "text": "Motivação de trabalhadores"
+    },
+    {
+      "id": "core_mechanics-0118",
+      "text": "Avaliação de trabalhadores"
+    },
+    {
+      "id": "core_mechanics-0119",
+      "text": "Formação de equipes"
+    },
+    {
+      "id": "core_mechanics-0120",
+      "text": "Atribuição de papéis"
+    },
+    {
+      "id": "core_mechanics-0121",
+      "text": "Priorização"
+    },
+    {
+      "id": "core_mechanics-0122",
+      "text": "Gestão do calendário"
+    },
+    {
+      "id": "core_mechanics-0123",
+      "text": "Agendamento"
+    },
+    {
+      "id": "core_mechanics-0124",
+      "text": "Gestão de prazos"
+    },
+    {
+      "id": "core_mechanics-0125",
+      "text": "Otimização de turnos"
+    },
+    {
+      "id": "core_mechanics-0126",
+      "text": "Controle da passagem do tempo"
+    },
+    {
+      "id": "core_mechanics-0127",
+      "text": "Enfileirar ações"
+    },
+    {
+      "id": "core_mechanics-0128",
+      "text": "Tomada de decisões por turnos"
+    },
+    {
+      "id": "core_mechanics-0129",
+      "text": "Tomada de decisões em tempo real"
+    },
+    {
+      "id": "core_mechanics-0130",
+      "text": "Pausar e dar ordens"
+    },
+    {
+      "id": "core_mechanics-0131",
+      "text": "Coleta de recursos"
+    },
+    {
+      "id": "core_mechanics-0132",
+      "text": "Consumo de recursos"
+    },
+    {
+      "id": "core_mechanics-0133",
+      "text": "Armazenamento de recursos"
+    },
+    {
+      "id": "core_mechanics-0134",
+      "text": "Priorização de recursos"
+    },
+    {
+      "id": "core_mechanics-0135",
+      "text": "Troca de recursos"
+    },
+    {
+      "id": "core_mechanics-0136",
+      "text": "Racionamento de recursos"
+    },
+    {
+      "id": "core_mechanics-0137",
+      "text": "Distribuição de comida"
+    },
+    {
+      "id": "core_mechanics-0138",
+      "text": "Distribuição de água"
+    },
+    {
+      "id": "core_mechanics-0139",
+      "text": "Distribuição de energia"
+    },
+    {
+      "id": "core_mechanics-0140",
+      "text": "Distribuição de medicamentos"
+    },
+    {
+      "id": "core_mechanics-0141",
+      "text": "Distribuição de dinheiro"
+    },
+    {
+      "id": "core_mechanics-0142",
+      "text": "Distribuição de mão de obra"
+    },
+    {
+      "id": "core_mechanics-0143",
+      "text": "Posicionamento de prédios"
+    },
+    {
+      "id": "core_mechanics-0144",
+      "text": "Projeto de cômodos"
+    },
+    {
+      "id": "core_mechanics-0145",
+      "text": "Ampliação de espaços"
+    },
+    {
+      "id": "core_mechanics-0146",
+      "text": "Melhoria de prédios"
+    },
+    {
+      "id": "core_mechanics-0147",
+      "text": "Demolição de prédios"
+    },
+    {
+      "id": "core_mechanics-0148",
+      "text": "Construção de infraestrutura"
+    },
+    {
+      "id": "core_mechanics-0149",
+      "text": "Construção de estradas"
+    },
+    {
+      "id": "core_mechanics-0150",
+      "text": "Construção de defesas"
+    },
+    {
+      "id": "core_mechanics-0151",
+      "text": "Desenvolvimento de uma base"
+    },
+    {
+      "id": "core_mechanics-0152",
+      "text": "Planejamento urbano"
+    },
+    {
+      "id": "core_mechanics-0153",
+      "text": "Zoneamento"
+    },
+    {
+      "id": "core_mechanics-0154",
+      "text": "Fabricação de itens"
+    },
+    {
+      "id": "core_mechanics-0155",
+      "text": "Crafting"
+    },
+    {
+      "id": "core_mechanics-0156",
+      "text": "Experimentação com receitas"
+    },
+    {
+      "id": "core_mechanics-0157",
+      "text": "Combinação de ingredientes"
+    },
+    {
+      "id": "core_mechanics-0158",
+      "text": "Desmontagem de itens"
+    },
+    {
+      "id": "core_mechanics-0159",
+      "text": "Conserto de itens"
+    },
+    {
+      "id": "core_mechanics-0160",
+      "text": "Melhoria de itens"
+    },
+    {
+      "id": "core_mechanics-0161",
+      "text": "Uso de ferramentas"
+    },
+    {
+      "id": "core_mechanics-0162",
+      "text": "Gestão do inventário"
+    },
+    {
+      "id": "core_mechanics-0163",
+      "text": "Escolha de equipamento"
+    },
+    {
+      "id": "core_mechanics-0164",
+      "text": "Classificação de itens"
+    },
+    {
+      "id": "core_mechanics-0165",
+      "text": "Identificação de itens"
+    },
+    {
+      "id": "core_mechanics-0166",
+      "text": "Decifrar números e códigos"
+    },
+    {
+      "id": "core_mechanics-0167",
+      "text": "Resolução de quebra-cabeças de lógica"
+    },
+    {
+      "id": "core_mechanics-0168",
+      "text": "Resolução de quebra-cabeças mecânicos"
+    },
+    {
+      "id": "core_mechanics-0169",
+      "text": "Resolução de quebra-cabeças espaciais"
+    },
+    {
+      "id": "core_mechanics-0170",
+      "text": "Resolução de quebra-cabeças de palavras"
+    },
+    {
+      "id": "core_mechanics-0171",
+      "text": "Decifração de cifras"
+    },
+    {
+      "id": "core_mechanics-0172",
+      "text": "Interpretação de símbolos"
+    },
+    {
+      "id": "core_mechanics-0173",
+      "text": "Identificação de motivos visuais"
+    },
+    {
+      "id": "core_mechanics-0174",
+      "text": "Resolução de quebra-cabeças de memória"
+    },
+    {
+      "id": "core_mechanics-0175",
+      "text": "Descobrir a ordem certa"
+    },
+    {
+      "id": "core_mechanics-0176",
+      "text": "Resolução de quebra-cabeças de combinação"
+    },
+    {
+      "id": "core_mechanics-0177",
+      "text": "Jogar cartas"
+    },
+    {
+      "id": "core_mechanics-0178",
+      "text": "Construção de baralhos"
+    },
+    {
+      "id": "core_mechanics-0179",
+      "text": "Uso de dados"
+    },
+    {
+      "id": "core_mechanics-0180",
+      "text": "Avaliação de riscos"
+    },
+    {
+      "id": "core_mechanics-0181",
+      "text": "Gestão de probabilidades"
+    },
+    {
+      "id": "core_mechanics-0182",
+      "text": "Apostas"
+    },
+    {
+      "id": "core_mechanics-0183",
+      "text": "Decisões de testar a sorte"
+    },
+    {
+      "id": "core_mechanics-0184",
+      "text": "Controle de áreas"
+    },
+    {
+      "id": "core_mechanics-0185",
+      "text": "Posicionamento de tropas"
+    },
+    {
+      "id": "core_mechanics-0186",
+      "text": "Movimentação de unidades"
+    },
+    {
+      "id": "core_mechanics-0187",
+      "text": "Planejamento de batalhas"
+    },
+    {
+      "id": "core_mechanics-0188",
+      "text": "Construção de linhas de defesa"
+    },
+    {
+      "id": "core_mechanics-0189",
+      "text": "Diplomacia"
+    },
+    {
+      "id": "core_mechanics-0190",
+      "text": "Construção de alianças"
+    },
+    {
+      "id": "core_mechanics-0191",
+      "text": "Fechamento de acordos"
+    },
+    {
+      "id": "core_mechanics-0192",
+      "text": "Quebra de acordos"
+    },
+    {
+      "id": "core_mechanics-0193",
+      "text": "Tomada de decisões políticas"
+    },
+    {
+      "id": "core_mechanics-0194",
+      "text": "Aprovação de leis"
+    },
+    {
+      "id": "core_mechanics-0195",
+      "text": "Definição de impostos"
+    },
+    {
+      "id": "core_mechanics-0196",
+      "text": "Distribuição de orçamentos"
+    },
+    {
+      "id": "core_mechanics-0197",
+      "text": "Gestão da aprovação popular"
+    },
+    {
+      "id": "core_mechanics-0198",
+      "text": "Campanha eleitoral"
+    },
+    {
+      "id": "core_mechanics-0199",
+      "text": "Produção de propaganda"
+    },
+    {
+      "id": "core_mechanics-0200",
+      "text": "Direcionamento da opinião"
+    },
+    {
+      "id": "core_mechanics-0201",
+      "text": "Equilíbrio entre facções"
+    },
+    {
+      "id": "core_mechanics-0202",
+      "text": "Gestão de uma rebelião"
+    },
+    {
+      "id": "core_mechanics-0203",
+      "text": "Resolução de crises"
+    },
+    {
+      "id": "core_mechanics-0204",
+      "text": "Gestão de riscos"
+    },
+    {
+      "id": "core_mechanics-0205",
+      "text": "Resposta a catástrofes"
+    },
+    {
+      "id": "core_mechanics-0206",
+      "text": "Planejamento de evacuações"
+    },
+    {
+      "id": "core_mechanics-0207",
+      "text": "Coordenação de operações de resgate"
+    },
+    {
+      "id": "core_mechanics-0208",
+      "text": "Triagem de pacientes"
+    },
+    {
+      "id": "core_mechanics-0209",
+      "text": "Diagnóstico de pacientes"
+    },
+    {
+      "id": "core_mechanics-0210",
+      "text": "Tratamento de pacientes"
+    },
+    {
+      "id": "core_mechanics-0211",
+      "text": "Escolha de medicamentos"
+    },
+    {
+      "id": "core_mechanics-0212",
+      "text": "Realização de cirurgias"
+    },
+    {
+      "id": "core_mechanics-0213",
+      "text": "Acompanhamento de uma epidemia"
+    },
+    {
+      "id": "core_mechanics-0214",
+      "text": "Rastreamento de contatos"
+    },
+    {
+      "id": "core_mechanics-0215",
+      "text": "Escolha de projetos de pesquisa"
+    },
+    {
+      "id": "core_mechanics-0216",
+      "text": "Pesquisa de tecnologias"
+    },
+    {
+      "id": "core_mechanics-0217",
+      "text": "Realização de experimentos"
+    },
+    {
+      "id": "core_mechanics-0218",
+      "text": "Análise de amostras"
+    },
+    {
+      "id": "core_mechanics-0219",
+      "text": "Teste de hipóteses"
+    },
+    {
+      "id": "core_mechanics-0220",
+      "text": "Criação de espécies"
+    },
+    {
+      "id": "core_mechanics-0221",
+      "text": "Equilíbrio de um ecossistema"
+    },
+    {
+      "id": "core_mechanics-0222",
+      "text": "Cultivo de plantas"
+    },
+    {
+      "id": "core_mechanics-0223",
+      "text": "Cuidado de animais"
+    },
+    {
+      "id": "core_mechanics-0224",
+      "text": "Agricultura"
+    },
+    {
+      "id": "core_mechanics-0225",
+      "text": "Colheita"
+    },
+    {
+      "id": "core_mechanics-0226",
+      "text": "Caça"
+    },
+    {
+      "id": "core_mechanics-0227",
+      "text": "Pesca"
+    },
+    {
+      "id": "core_mechanics-0228",
+      "text": "Armadilhas"
+    },
+    {
+      "id": "core_mechanics-0229",
+      "text": "Culinária"
+    },
+    {
+      "id": "core_mechanics-0230",
+      "text": "Conservação de alimentos"
+    },
+    {
+      "id": "core_mechanics-0231",
+      "text": "Acompanhamento do clima"
+    },
+    {
+      "id": "core_mechanics-0232",
+      "text": "Controle de temperatura"
+    },
+    {
+      "id": "core_mechanics-0233",
+      "text": "Gestão do oxigênio"
+    },
+    {
+      "id": "core_mechanics-0234",
+      "text": "Gestão da pressão"
+    },
+    {
+      "id": "core_mechanics-0235",
+      "text": "Gestão da radiação"
+    },
+    {
+      "id": "core_mechanics-0236",
+      "text": "Gestão do combustível"
+    },
+    {
+      "id": "core_mechanics-0237",
+      "text": "Monitoramento de sinais vitais"
+    },
+    {
+      "id": "core_mechanics-0238",
+      "text": "Gestão do moral da tripulação"
+    },
+    {
+      "id": "core_mechanics-0239",
+      "text": "Equilíbrio das necessidades da tripulação"
+    },
+    {
+      "id": "core_mechanics-0240",
+      "text": "Atender às necessidades dos personagens"
+    },
+    {
+      "id": "core_mechanics-0241",
+      "text": "Acompanhamento das rotinas dos personagens"
+    },
+    {
+      "id": "core_mechanics-0242",
+      "text": "Acompanhamento dos horários dos NPCs"
+    },
+    {
+      "id": "core_mechanics-0243",
+      "text": "Acompanhamento das relações dos NPCs"
+    },
+    {
+      "id": "core_mechanics-0244",
+      "text": "Interpretação do comportamento dos NPCs"
+    },
+    {
+      "id": "core_mechanics-0245",
+      "text": "Dar ordens aos NPCs"
+    },
+    {
+      "id": "core_mechanics-0246",
+      "text": "Recrutamento de NPCs"
+    },
+    {
+      "id": "core_mechanics-0247",
+      "text": "Persuasão de NPCs"
+    },
+    {
+      "id": "core_mechanics-0248",
+      "text": "Interrogatório de NPCs"
+    },
+    {
+      "id": "core_mechanics-0249",
+      "text": "Suborno de NPCs"
+    },
+    {
+      "id": "core_mechanics-0250",
+      "text": "Chantagem de NPCs"
+    },
+    {
+      "id": "core_mechanics-0251",
+      "text": "Juntar personagens em casais"
+    },
+    {
+      "id": "core_mechanics-0252",
+      "text": "Construção de relacionamentos amorosos"
+    },
+    {
+      "id": "core_mechanics-0253",
+      "text": "Formação de famílias"
+    },
+    {
+      "id": "core_mechanics-0254",
+      "text": "Construção de uma dinastia"
+    },
+    {
+      "id": "core_mechanics-0255",
+      "text": "Gestão da sucessão"
+    },
+    {
+      "id": "core_mechanics-0256",
+      "text": "Gestão de pontos de reputação"
+    },
+    {
+      "id": "core_mechanics-0257",
+      "text": "Gestão da lealdade"
+    },
+    {
+      "id": "core_mechanics-0258",
+      "text": "Gestão do medo"
+    },
+    {
+      "id": "core_mechanics-0259",
+      "text": "Exercer influência"
+    },
+    {
+      "id": "core_mechanics-0260",
+      "text": "Coleta de segredos"
+    },
+    {
+      "id": "core_mechanics-0261",
+      "text": "Troca de segredos"
+    },
+    {
+      "id": "core_mechanics-0262",
+      "text": "Uso de segredos para chantagem"
+    },
+    {
+      "id": "core_mechanics-0263",
+      "text": "Escolhas no diálogo"
+    },
+    {
+      "id": "core_mechanics-0264",
+      "text": "Desbloqueio de opções de diálogo"
+    },
+    {
+      "id": "core_mechanics-0265",
+      "text": "Traçar o perfil de pessoas"
+    },
+    {
+      "id": "core_mechanics-0266",
+      "text": "Leitura de personalidades"
+    },
+    {
+      "id": "core_mechanics-0267",
+      "text": "Leitura de emoções"
+    },
+    {
+      "id": "core_mechanics-0268",
+      "text": "Previsão de reações"
+    },
+    {
+      "id": "core_mechanics-0269",
+      "text": "Exploração de memórias"
+    },
+    {
+      "id": "core_mechanics-0270",
+      "text": "Exploração de sonhos"
+    },
+    {
+      "id": "core_mechanics-0271",
+      "text": "Comparação de linhas do tempo"
+    },
+    {
+      "id": "core_mechanics-0272",
+      "text": "Viagem no tempo"
+    },
+    {
+      "id": "core_mechanics-0273",
+      "text": "Aproveitar um loop temporal"
+    },
+    {
+      "id": "core_mechanics-0274",
+      "text": "Repetição de eventos"
+    },
+    {
+      "id": "core_mechanics-0275",
+      "text": "Mudar o passado"
+    },
+    {
+      "id": "core_mechanics-0276",
+      "text": "Prever o futuro"
+    },
+    {
+      "id": "core_mechanics-0277",
+      "text": "Testar as regras da simulação"
+    },
+    {
+      "id": "core_mechanics-0278",
+      "text": "Quebrar as regras do mundo"
+    },
+    {
+      "id": "core_mechanics-0279",
+      "text": "Modificar o estado do mundo"
+    },
+    {
+      "id": "core_mechanics-0280",
+      "text": "Desencadear eventos"
+    },
+    {
+      "id": "core_mechanics-0281",
+      "text": "Experimentar com causa e efeito"
+    },
+    {
+      "id": "core_mechanics-0282",
+      "text": "Observar o mundo sem controle direto"
+    },
+    {
+      "id": "core_mechanics-0283",
+      "text": "Observar personagens autônomos"
+    },
+    {
+      "id": "core_mechanics-0284",
+      "text": "Experimentar com o sistema"
+    },
+    {
+      "id": "core_mechanics-0285",
+      "text": "Manipular o mundo do jogo indiretamente"
+    },
+    {
+      "id": "core_mechanics-0286",
+      "text": "Digitar comandos"
+    },
+    {
+      "id": "core_mechanics-0287",
+      "text": "Jogar por meio de uma área de trabalho"
+    },
+    {
+      "id": "core_mechanics-0288",
+      "text": "Gerenciamento de e-mails"
+    },
+    {
+      "id": "core_mechanics-0289",
+      "text": "Atender ligações"
+    },
+    {
+      "id": "core_mechanics-0290",
+      "text": "Gerenciamento de mensagens de rádio"
+    },
+    {
+      "id": "core_mechanics-0291",
+      "text": "Decodificação de mensagens"
+    },
+    {
+      "id": "core_mechanics-0292",
+      "text": "Retransmissão de mensagens"
+    },
+    {
+      "id": "core_mechanics-0293",
+      "text": "Censura de mensagens"
+    },
+    {
+      "id": "core_mechanics-0294",
+      "text": "Seleção de notícias"
+    },
+    {
+      "id": "core_mechanics-0295",
+      "text": "Redação de manchetes"
+    },
+    {
+      "id": "core_mechanics-0296",
+      "text": "Moderação de conteúdo"
+    },
+    {
+      "id": "core_mechanics-0297",
+      "text": "Assinatura de decisões"
+    },
+    {
+      "id": "core_mechanics-0298",
+      "text": "Carimbar documentos"
+    },
+    {
+      "id": "core_mechanics-0299",
+      "text": "Classificação de casos"
+    },
+    {
+      "id": "core_mechanics-0300",
+      "text": "Gestão de filas"
+    },
+    {
+      "id": "core_mechanics-0301",
+      "text": "Atendimento ao cliente"
+    },
+    {
+      "id": "core_mechanics-0302",
+      "text": "Processamento de pedidos"
+    },
+    {
+      "id": "core_mechanics-0303",
+      "text": "Gerenciamento de reclamações"
+    },
+    {
+      "id": "core_mechanics-0304",
+      "text": "Priorização de solicitações"
+    },
+    {
+      "id": "core_mechanics-0305",
+      "text": "Delegação de tarefas"
+    },
+    {
+      "id": "core_mechanics-0306",
+      "text": "Escolher a ordem das tarefas"
+    },
+    {
+      "id": "core_mechanics-0307",
+      "text": "Otimização da rotina diária"
+    }
   ]
 }

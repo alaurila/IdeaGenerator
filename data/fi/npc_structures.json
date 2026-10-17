@@ -1,347 +1,1376 @@
 {
   "npc_structures": [
-    "Perheet",
-    "Suvut",
-    "Dynastiat",
-    "Fraktiot",
-    "Puolueet",
-    "Työpaikat",
-    "Yritykset",
-    "Organisaatiot",
-    "Jengit",
-    "Rikollisryhmät",
-    "Kultit",
-    "Uskonnolliset yhteisöt",
-    "Ammattiliitot",
-    "Naapurustot",
-    "Kyläyhteisöt",
-    "Koululuokat",
-    "Tiimit",
-    "Miehistöt",
-    "Sotilasyksiköt",
-    "Tutkimusryhmät",
-    "Ystävyyssuhteet",
-    "Parhaat ystävät",
-    "Tuttavuudet",
-    "Liittolaisuudet",
-    "Mentorisuhteet",
-    "Opettaja-oppilas-suhteet",
-    "Esimies-alainen-suhteet",
-    "Kollegasuhteet",
-    "Kilpailijasuhteet",
-    "Vihamielisyydet",
-    "Katkeruus",
-    "Kosto",
-    "Mustasukkaisuus",
-    "Kateus",
-    "Pelko",
-    "Kunnioitus",
-    "Ihailu",
-    "Luottamus",
-    "Epäluottamus",
-    "Lojaalisuus",
-    "Epälojaalisuus",
-    "Riippuvuus",
-    "Vallan epätasapaino",
-    "Romanttiset suhteet",
-    "Avioliitot",
-    "Salaiset suhteet",
-    "Kolmiodraamat",
-    "Entiset kumppanit",
-    "Yksipuolinen rakkaus",
-    "Perhesiteet",
-    "Vanhempi-lapsi-suhteet",
-    "Sisarussuhteet",
-    "Serkkusuhteet",
-    "Isovanhempi-lapsenlapsi-suhteet",
-    "Adoptiosuhteet",
-    "Biologiset suhteet",
-    "Salatut sukulaisuudet",
-    "Perintösuhteet",
-    "Huoltajuussuhteet",
-    "Velat",
-    "Rahavelat",
-    "Palvelusvelat",
-    "Kiitollisuudenvelat",
-    "Kiristysvelat",
-    "Moraaliset velvoitteet",
-    "Lupaukset",
-    "Sopimukset",
-    "Vala",
-    "Pakotetut sitoumukset",
-    "Salaisuudet",
-    "Jaetut salaisuudet",
-    "Perhesalaisuudet",
-    "Organisaatiosalaisuudet",
-    "Rikokset",
-    "Peitellyt rikokset",
-    "Kaksoiselämät",
-    "Väärät henkilöllisyydet",
-    "Salaiset tavoitteet",
-    "Salaiset liittolaisuudet",
-    "Salaiset vihollisuudet",
-    "Piilotetut motiivit",
-    "Piilotetut suhteet",
-    "Peiteammatit",
-    "Valehenkilöllisyydet",
-    "Vakoojasuhteet",
-    "Informanttisuhteet",
-    "Kaksoisagentit",
-    "Sisäpiiriläiset",
-    "Soluttautuneet jäsenet",
-    "Kontaktiverkostot",
-    "Tietolähteet",
-    "Huhujen levittäjät",
-    "Mielipidevaikuttajat",
-    "Portinvartijat",
-    "Vallanvälittäjät",
-    "Patron-client-suhteet",
-    "Suojelijat",
-    "Suojatit",
-    "Sponsorit",
-    "Rahoittajat",
-    "Velkojat",
-    "Velalliset",
-    "Työnantajat",
-    "Työntekijät",
-    "Johtajat",
-    "Alaiset",
-    "Omistajat",
-    "Osakkaat",
-    "Asiakkaat",
-    "Toimittajat",
-    "Alihankkijat",
-    "Kilpailijat",
-    "Kumppanit",
-    "Yhteistyöverkostot",
-    "Riippuvuussuhteet",
-    "Resurssiriippuvuudet",
-    "Tietoriippuvuudet",
-    "Suojelusuhteet",
-    "Turvallisuussuhteet",
-    "Poliittiset liittoumat",
-    "Äänestäjäryhmät",
-    "Kannattajat",
-    "Vastustajat",
-    "Lobbaussuhteet",
-    "Diplomaattisuhteet",
-    "Kansainväliset kontaktit",
-    "Fraktioiden väliset suhteet",
-    "Fraktioiden sisäiset klikit",
-    "Sisäpiirit",
-    "Oppositioryhmät",
-    "Kapinallissolut",
-    "Johtoryhmät",
-    "Neuvostot",
-    "Komiteat",
-    "Perinnölliset hierarkiat",
-    "Arvojärjestykset",
-    "Sotilashierarkiat",
-    "Uskonnolliset hierarkiat",
-    "Yrityshierarkiat",
-    "Byrokraattiset hierarkiat",
-    "Rikolliset hierarkiat",
-    "Epäviralliset hierarkiat",
-    "Mainehierarkiat",
-    "Vaikutusvaltaverkostot",
-    "Luottamusverkostot",
-    "Pelon verkostot",
-    "Velkaverkostot",
-    "Salaisuusverkostot",
-    "Huhujen verkostot",
-    "Sukulaisuusverkostot",
-    "Ystävyysverkostot",
-    "Vihollisuusverkostot",
-    "Kauppaverkostot",
-    "Tiedusteluverkostot",
-    "Rikollisverkostot",
-    "Romanttiset verkostot",
-    "Työpaikkapolitiikan verkostot",
-    "Naapuruston sosiaaliset verkostot",
-    "Statusryhmät",
-    "Sosiaaliluokat",
-    "Varallisuusluokat",
-    "Koulutustasot",
-    "Ammattiryhmät",
-    "Ikäryhmät",
-    "Sukupolvet",
-    "Kulttuuriryhmät",
-    "Alueelliset ryhmät",
-    "Muuttajat ja paikalliset",
-    "Vanhat suvut ja uudet tulokkaat",
-    "Eliitti",
-    "Keskiluokka",
-    "Työväki",
-    "Marginalisoidut ryhmät",
-    "Sisäpiiriläiset ja ulkopuoliset",
-    "Arvostetut ja halveksitut",
-    "Suositut ja epäsuositut",
-    "Pelätyt ja suojellut",
-    "Johtajat ja seuraajat",
-    "Toisinajattelijat",
-    "Karkotetut",
-    "Entiset jäsenet",
-    "Loikkarit",
-    "Petturit",
-    "Uskolliset veteraanit",
-    "Uudet tulokkaat",
-    "Perustajajäsenet",
-    "Perilliset",
-    "Seuraajaehdokkaat",
-    "Valtakilpailijat",
-    "Sukupolvien väliset jännitteet",
-    "Vanha kauna",
-    "Historialliset vihollisuudet",
-    "Peritty viha",
-    "Peritty lojaalisuus",
-    "Peritty velka",
-    "Peritty salaisuus",
-    "Peritty asema",
-    "Peritty maine",
-    "Peritty vastuu",
-    "Peritty rikos",
-    "Sukupolvien välinen trauma",
-    "Yhteinen historia",
-    "Yhteinen tragedia",
-    "Yhteinen rikos",
-    "Yhteinen voitto",
-    "Yhteinen vihollinen",
-    "Yhteinen salaisuus",
-    "Yhteinen tavoite",
-    "Ristiriitaiset tavoitteet",
-    "Kilpailevat tavoitteet",
-    "Tilapäiset liittoumat",
-    "Pakotetut liittoumat",
-    "Epäpyhät liittoumat",
-    "Sopimusavioliitot",
-    "Poliittiset avioliitot",
-    "Rauhan takaavat suhteet",
-    "Panttisuhteet",
-    "Panttilupaukset",
-    "Keskinäinen kiristys",
-    "Keskinäinen riippuvuus",
-    "Keskinäinen pelote",
-    "Keskinäinen hyöty",
-    "Yksipuolinen hyöty",
-    "Hyväksikäyttösuhteet",
-    "Manipulointisuhteet",
-    "Kontrolloivat suhteet",
-    "Suojelusuhteet",
-    "Salaiset sopimukset",
-    "Vaihtokauppasuhteet",
-    "Palvelusten vaihtaminen",
-    "Tietokauppa",
-    "Salaisuuksien vaihtaminen",
-    "Poliittisten palvelusten vaihtaminen",
-    "Korruptiosuhteet",
-    "Lahjontaverkostot",
-    "Nepotismi",
-    "Suosikkijärjestelmät",
-    "Perhesuosinta",
-    "Klikkiytyminen",
-    "Sisäpiirietu",
-    "Portinvartijuus",
-    "Sosiaalinen eristäminen",
-    "Maineen sabotaasi",
-    "Huhukampanjat",
-    "Mustamaalaus",
-    "Sosiaalinen manipulointi",
-    "Ryhmään kuulumisen paine",
-    "Laumakäyttäytyminen",
-    "Konformismi",
-    "Kapinallisuus",
-    "Ideologinen lojaalisuus",
-    "Uskonnollinen vakaumus",
-    "Poliittinen vakaumus",
-    "Ammatillinen identiteetti",
-    "Sukulaislojaalisuus",
-    "Paikallislojaalisuus",
-    "Kansallinen lojaalisuus",
-    "Organisaatiolojaalisuus",
-    "Henkilökohtainen lojaalisuus",
-    "Ehdollinen lojaalisuus",
-    "Ostettu lojaalisuus",
-    "Pakotettu lojaalisuus",
-    "Piilotettu lojaalisuus",
-    "Kaksoislojaalisuus",
-    "Muuttuva lojaalisuus",
-    "Murtumispisteet",
-    "Stressin vaikutus suhteisiin",
-    "Pelon vaikutus suhteisiin",
-    "Rahan vaikutus suhteisiin",
-    "Maineen vaikutus suhteisiin",
-    "Vallan vaikutus suhteisiin",
-    "Salaisuuksien vaikutus suhteisiin",
-    "Tiedon vaikutus suhteisiin",
-    "Katastrofin vaikutus suhteisiin",
-    "Sodan vaikutus suhteisiin",
-    "Epidemian vaikutus suhteisiin",
-    "Niukkuuden vaikutus suhteisiin",
-    "Menetyksen vaikutus suhteisiin",
-    "Kuoleman vaikutus verkostoon",
-    "Syntymän vaikutus verkostoon",
-    "Avioliiton vaikutus verkostoon",
-    "Eron vaikutus verkostoon",
-    "Ylennyksen vaikutus verkostoon",
-    "Erottamisen vaikutus verkostoon",
-    "Rikoksen vaikutus verkostoon",
-    "Paljastuksen vaikutus verkostoon",
-    "Pelaajan tekojen vaikutus suhteisiin",
-    "NPC:iden suhteiden autonominen muuttuminen",
-    "NPC:t muodostavat uusia suhteita ilman pelaajaa",
-    "NPC:t katkaisevat suhteita ilman pelaajaa",
-    "NPC:t vaihtavat fraktiota",
-    "NPC:t vaihtavat työpaikkaa",
-    "NPC:t perustavat perheitä",
-    "NPC:t eroavat",
-    "NPC:t saavat lapsia",
-    "NPC:t kuolevat",
-    "NPC:t perivät asemia",
-    "NPC:t perivät omaisuutta",
-    "NPC:t perivät konflikteja",
-    "NPC:t perustavat uusia organisaatioita",
-    "NPC:t hajottavat organisaatioita",
-    "NPC:t muodostavat salaisia klikkejä",
-    "NPC:t rakentavat omia verkostojaan",
-    "NPC:t levittävät tietoa autonomisesti",
-    "NPC:t muistavat loukkauksia",
-    "NPC:t muistavat palveluksia",
-    "NPC:t muistavat pelastamiset",
-    "NPC:t muistavat petokset",
-    "NPC:t muistavat lupaukset",
-    "NPC:t muuttavat mielipiteitään",
-    "NPC:t muuttavat lojaalisuuttaan",
-    "NPC:t voivat antaa anteeksi",
-    "NPC:t voivat kostaa vuosien päästä",
-    "NPC:t voivat periä toistensa vihollisuuksia",
-    "NPC:t voivat periä toistensa ystävyyssuhteita",
-    "NPC:t voivat piilottaa todelliset suhteensa",
-    "NPC:t voivat esittää vihollisia vaikka ovat liittolaisia",
-    "NPC:t voivat esittää ystäviä vaikka ovat vihollisia",
-    "NPC:t voivat työskennellä usealle fraktiolle",
-    "NPC:t voivat olla usean organisaation jäseniä",
-    "NPC:t voivat olla perheen ja organisaation ristipaineessa",
-    "NPC:t voivat joutua valitsemaan lojaalisuuksien välillä",
-    "NPC:t voivat kiristää toisiaan",
-    "NPC:t voivat suojella toisiaan",
-    "NPC:t voivat uhrata toisiaan",
-    "NPC:t voivat muodostaa tilapäisiä koalitioita",
-    "NPC:t voivat kaapata vallan ryhmässään",
-    "NPC:t voivat nousta hierarkiassa",
-    "NPC:t voivat pudota hierarkiassa",
-    "NPC:t voivat syrjäytyä yhteisöstä",
-    "NPC:t voivat muuttua vaikutusvaltaisiksi",
-    "NPC:t voivat muuttua riippuvaisiksi toisista",
-    "NPC:t voivat muuttua vihollisiksi sattuman vuoksi",
-    "NPC:t voivat ystävystyä yhteisen kriisin kautta",
-    "NPC:t voivat vihata toisiaan historiallisista syistä",
-    "NPC:t voivat muodostaa suhteita väärinkäsitysten perusteella",
-    "NPC:t voivat uskoa vääriin huhuihin toisistaan",
-    "NPC:t voivat yrittää korjata mainettaan",
-    "NPC:t voivat rakentaa poliittista pääomaa",
-    "NPC:t voivat rakentaa omaa seuraajakuntaa",
-    "NPC:t voivat käyttää muita välikäsinä",
-    "NPC:t voivat delegoida tehtäviä omille verkostoilleen",
-    "NPC:t voivat muodostaa omia tavoitteitaan suhteidensa perusteella"
+    {
+      "id": "npc_structures-0001",
+      "text": "Perheet"
+    },
+    {
+      "id": "npc_structures-0002",
+      "text": "Suvut"
+    },
+    {
+      "id": "npc_structures-0003",
+      "text": "Dynastiat"
+    },
+    {
+      "id": "npc_structures-0004",
+      "text": "Fraktiot"
+    },
+    {
+      "id": "npc_structures-0005",
+      "text": "Puolueet"
+    },
+    {
+      "id": "npc_structures-0006",
+      "text": "Työpaikat"
+    },
+    {
+      "id": "npc_structures-0007",
+      "text": "Yritykset"
+    },
+    {
+      "id": "npc_structures-0008",
+      "text": "Organisaatiot"
+    },
+    {
+      "id": "npc_structures-0009",
+      "text": "Jengit"
+    },
+    {
+      "id": "npc_structures-0010",
+      "text": "Rikollisryhmät"
+    },
+    {
+      "id": "npc_structures-0011",
+      "text": "Kultit"
+    },
+    {
+      "id": "npc_structures-0012",
+      "text": "Uskonnolliset yhteisöt"
+    },
+    {
+      "id": "npc_structures-0013",
+      "text": "Ammattiliitot"
+    },
+    {
+      "id": "npc_structures-0014",
+      "text": "Naapurustot"
+    },
+    {
+      "id": "npc_structures-0015",
+      "text": "Kyläyhteisöt"
+    },
+    {
+      "id": "npc_structures-0016",
+      "text": "Koululuokat"
+    },
+    {
+      "id": "npc_structures-0017",
+      "text": "Tiimit"
+    },
+    {
+      "id": "npc_structures-0018",
+      "text": "Miehistöt"
+    },
+    {
+      "id": "npc_structures-0019",
+      "text": "Sotilasyksiköt"
+    },
+    {
+      "id": "npc_structures-0020",
+      "text": "Tutkimusryhmät"
+    },
+    {
+      "id": "npc_structures-0021",
+      "text": "Ystävyyssuhteet"
+    },
+    {
+      "id": "npc_structures-0022",
+      "text": "Parhaat ystävät"
+    },
+    {
+      "id": "npc_structures-0023",
+      "text": "Tuttavuudet"
+    },
+    {
+      "id": "npc_structures-0024",
+      "text": "Liittolaisuudet"
+    },
+    {
+      "id": "npc_structures-0025",
+      "text": "Mentorisuhteet"
+    },
+    {
+      "id": "npc_structures-0026",
+      "text": "Opettaja-oppilas-suhteet"
+    },
+    {
+      "id": "npc_structures-0027",
+      "text": "Esimies-alainen-suhteet"
+    },
+    {
+      "id": "npc_structures-0028",
+      "text": "Kollegasuhteet"
+    },
+    {
+      "id": "npc_structures-0029",
+      "text": "Kilpailijasuhteet"
+    },
+    {
+      "id": "npc_structures-0030",
+      "text": "Vihamielisyydet"
+    },
+    {
+      "id": "npc_structures-0031",
+      "text": "Katkeruus"
+    },
+    {
+      "id": "npc_structures-0032",
+      "text": "Kosto"
+    },
+    {
+      "id": "npc_structures-0033",
+      "text": "Mustasukkaisuus"
+    },
+    {
+      "id": "npc_structures-0034",
+      "text": "Kateus"
+    },
+    {
+      "id": "npc_structures-0035",
+      "text": "Pelko"
+    },
+    {
+      "id": "npc_structures-0036",
+      "text": "Kunnioitus"
+    },
+    {
+      "id": "npc_structures-0037",
+      "text": "Ihailu"
+    },
+    {
+      "id": "npc_structures-0038",
+      "text": "Luottamus"
+    },
+    {
+      "id": "npc_structures-0039",
+      "text": "Epäluottamus"
+    },
+    {
+      "id": "npc_structures-0040",
+      "text": "Lojaalisuus"
+    },
+    {
+      "id": "npc_structures-0041",
+      "text": "Epälojaalisuus"
+    },
+    {
+      "id": "npc_structures-0042",
+      "text": "Riippuvuus"
+    },
+    {
+      "id": "npc_structures-0043",
+      "text": "Vallan epätasapaino"
+    },
+    {
+      "id": "npc_structures-0044",
+      "text": "Romanttiset suhteet"
+    },
+    {
+      "id": "npc_structures-0045",
+      "text": "Avioliitot"
+    },
+    {
+      "id": "npc_structures-0046",
+      "text": "Salaiset suhteet"
+    },
+    {
+      "id": "npc_structures-0047",
+      "text": "Kolmiodraamat"
+    },
+    {
+      "id": "npc_structures-0048",
+      "text": "Entiset kumppanit"
+    },
+    {
+      "id": "npc_structures-0049",
+      "text": "Yksipuolinen rakkaus"
+    },
+    {
+      "id": "npc_structures-0050",
+      "text": "Perhesiteet"
+    },
+    {
+      "id": "npc_structures-0051",
+      "text": "Vanhempi-lapsi-suhteet"
+    },
+    {
+      "id": "npc_structures-0052",
+      "text": "Sisarussuhteet"
+    },
+    {
+      "id": "npc_structures-0053",
+      "text": "Serkkusuhteet"
+    },
+    {
+      "id": "npc_structures-0054",
+      "text": "Isovanhempi-lapsenlapsi-suhteet"
+    },
+    {
+      "id": "npc_structures-0055",
+      "text": "Adoptiosuhteet"
+    },
+    {
+      "id": "npc_structures-0056",
+      "text": "Biologiset suhteet"
+    },
+    {
+      "id": "npc_structures-0057",
+      "text": "Salatut sukulaisuudet"
+    },
+    {
+      "id": "npc_structures-0058",
+      "text": "Perintösuhteet"
+    },
+    {
+      "id": "npc_structures-0059",
+      "text": "Huoltajuussuhteet"
+    },
+    {
+      "id": "npc_structures-0060",
+      "text": "Velat"
+    },
+    {
+      "id": "npc_structures-0061",
+      "text": "Rahavelat"
+    },
+    {
+      "id": "npc_structures-0062",
+      "text": "Palvelusvelat"
+    },
+    {
+      "id": "npc_structures-0063",
+      "text": "Kiitollisuudenvelat"
+    },
+    {
+      "id": "npc_structures-0064",
+      "text": "Kiristysvelat"
+    },
+    {
+      "id": "npc_structures-0065",
+      "text": "Moraaliset velvoitteet"
+    },
+    {
+      "id": "npc_structures-0066",
+      "text": "Lupaukset"
+    },
+    {
+      "id": "npc_structures-0067",
+      "text": "Sopimukset"
+    },
+    {
+      "id": "npc_structures-0068",
+      "text": "Vala"
+    },
+    {
+      "id": "npc_structures-0069",
+      "text": "Pakotetut sitoumukset"
+    },
+    {
+      "id": "npc_structures-0070",
+      "text": "Salaisuudet"
+    },
+    {
+      "id": "npc_structures-0071",
+      "text": "Jaetut salaisuudet"
+    },
+    {
+      "id": "npc_structures-0072",
+      "text": "Perhesalaisuudet"
+    },
+    {
+      "id": "npc_structures-0073",
+      "text": "Organisaatiosalaisuudet"
+    },
+    {
+      "id": "npc_structures-0074",
+      "text": "Rikokset"
+    },
+    {
+      "id": "npc_structures-0075",
+      "text": "Peitellyt rikokset"
+    },
+    {
+      "id": "npc_structures-0076",
+      "text": "Kaksoiselämät"
+    },
+    {
+      "id": "npc_structures-0077",
+      "text": "Väärät henkilöllisyydet"
+    },
+    {
+      "id": "npc_structures-0078",
+      "text": "Salaiset tavoitteet"
+    },
+    {
+      "id": "npc_structures-0079",
+      "text": "Salaiset liittolaisuudet"
+    },
+    {
+      "id": "npc_structures-0080",
+      "text": "Salaiset vihollisuudet"
+    },
+    {
+      "id": "npc_structures-0081",
+      "text": "Piilotetut motiivit"
+    },
+    {
+      "id": "npc_structures-0082",
+      "text": "Piilotetut suhteet"
+    },
+    {
+      "id": "npc_structures-0083",
+      "text": "Peiteammatit"
+    },
+    {
+      "id": "npc_structures-0084",
+      "text": "Valehenkilöllisyydet"
+    },
+    {
+      "id": "npc_structures-0085",
+      "text": "Vakoojasuhteet"
+    },
+    {
+      "id": "npc_structures-0086",
+      "text": "Informanttisuhteet"
+    },
+    {
+      "id": "npc_structures-0087",
+      "text": "Kaksoisagentit"
+    },
+    {
+      "id": "npc_structures-0088",
+      "text": "Sisäpiiriläiset"
+    },
+    {
+      "id": "npc_structures-0089",
+      "text": "Soluttautuneet jäsenet"
+    },
+    {
+      "id": "npc_structures-0090",
+      "text": "Kontaktiverkostot"
+    },
+    {
+      "id": "npc_structures-0091",
+      "text": "Tietolähteet"
+    },
+    {
+      "id": "npc_structures-0092",
+      "text": "Huhujen levittäjät"
+    },
+    {
+      "id": "npc_structures-0093",
+      "text": "Mielipidevaikuttajat"
+    },
+    {
+      "id": "npc_structures-0094",
+      "text": "Portinvartijat"
+    },
+    {
+      "id": "npc_structures-0095",
+      "text": "Vallanvälittäjät"
+    },
+    {
+      "id": "npc_structures-0096",
+      "text": "Patron-client-suhteet"
+    },
+    {
+      "id": "npc_structures-0097",
+      "text": "Suojelijat"
+    },
+    {
+      "id": "npc_structures-0098",
+      "text": "Suojatit"
+    },
+    {
+      "id": "npc_structures-0099",
+      "text": "Sponsorit"
+    },
+    {
+      "id": "npc_structures-0100",
+      "text": "Rahoittajat"
+    },
+    {
+      "id": "npc_structures-0101",
+      "text": "Velkojat"
+    },
+    {
+      "id": "npc_structures-0102",
+      "text": "Velalliset"
+    },
+    {
+      "id": "npc_structures-0103",
+      "text": "Työnantajat"
+    },
+    {
+      "id": "npc_structures-0104",
+      "text": "Työntekijät"
+    },
+    {
+      "id": "npc_structures-0105",
+      "text": "Johtajat"
+    },
+    {
+      "id": "npc_structures-0106",
+      "text": "Alaiset"
+    },
+    {
+      "id": "npc_structures-0107",
+      "text": "Omistajat"
+    },
+    {
+      "id": "npc_structures-0108",
+      "text": "Osakkaat"
+    },
+    {
+      "id": "npc_structures-0109",
+      "text": "Asiakkaat"
+    },
+    {
+      "id": "npc_structures-0110",
+      "text": "Toimittajat"
+    },
+    {
+      "id": "npc_structures-0111",
+      "text": "Alihankkijat"
+    },
+    {
+      "id": "npc_structures-0112",
+      "text": "Kilpailijat"
+    },
+    {
+      "id": "npc_structures-0113",
+      "text": "Kumppanit"
+    },
+    {
+      "id": "npc_structures-0114",
+      "text": "Yhteistyöverkostot"
+    },
+    {
+      "id": "npc_structures-0115",
+      "text": "Riippuvuussuhteet"
+    },
+    {
+      "id": "npc_structures-0116",
+      "text": "Resurssiriippuvuudet"
+    },
+    {
+      "id": "npc_structures-0117",
+      "text": "Tietoriippuvuudet"
+    },
+    {
+      "id": "npc_structures-0118",
+      "text": "Suojelusuhteet"
+    },
+    {
+      "id": "npc_structures-0119",
+      "text": "Turvallisuussuhteet"
+    },
+    {
+      "id": "npc_structures-0120",
+      "text": "Poliittiset liittoumat"
+    },
+    {
+      "id": "npc_structures-0121",
+      "text": "Äänestäjäryhmät"
+    },
+    {
+      "id": "npc_structures-0122",
+      "text": "Kannattajat"
+    },
+    {
+      "id": "npc_structures-0123",
+      "text": "Vastustajat"
+    },
+    {
+      "id": "npc_structures-0124",
+      "text": "Lobbaussuhteet"
+    },
+    {
+      "id": "npc_structures-0125",
+      "text": "Diplomaattisuhteet"
+    },
+    {
+      "id": "npc_structures-0126",
+      "text": "Kansainväliset kontaktit"
+    },
+    {
+      "id": "npc_structures-0127",
+      "text": "Fraktioiden väliset suhteet"
+    },
+    {
+      "id": "npc_structures-0128",
+      "text": "Fraktioiden sisäiset klikit"
+    },
+    {
+      "id": "npc_structures-0129",
+      "text": "Sisäpiirit"
+    },
+    {
+      "id": "npc_structures-0130",
+      "text": "Oppositioryhmät"
+    },
+    {
+      "id": "npc_structures-0131",
+      "text": "Kapinallissolut"
+    },
+    {
+      "id": "npc_structures-0132",
+      "text": "Johtoryhmät"
+    },
+    {
+      "id": "npc_structures-0133",
+      "text": "Neuvostot"
+    },
+    {
+      "id": "npc_structures-0134",
+      "text": "Komiteat"
+    },
+    {
+      "id": "npc_structures-0135",
+      "text": "Perinnölliset hierarkiat"
+    },
+    {
+      "id": "npc_structures-0136",
+      "text": "Arvojärjestykset"
+    },
+    {
+      "id": "npc_structures-0137",
+      "text": "Sotilashierarkiat"
+    },
+    {
+      "id": "npc_structures-0138",
+      "text": "Uskonnolliset hierarkiat"
+    },
+    {
+      "id": "npc_structures-0139",
+      "text": "Yrityshierarkiat"
+    },
+    {
+      "id": "npc_structures-0140",
+      "text": "Byrokraattiset hierarkiat"
+    },
+    {
+      "id": "npc_structures-0141",
+      "text": "Rikolliset hierarkiat"
+    },
+    {
+      "id": "npc_structures-0142",
+      "text": "Epäviralliset hierarkiat"
+    },
+    {
+      "id": "npc_structures-0143",
+      "text": "Mainehierarkiat"
+    },
+    {
+      "id": "npc_structures-0144",
+      "text": "Vaikutusvaltaverkostot"
+    },
+    {
+      "id": "npc_structures-0145",
+      "text": "Luottamusverkostot"
+    },
+    {
+      "id": "npc_structures-0146",
+      "text": "Pelon verkostot"
+    },
+    {
+      "id": "npc_structures-0147",
+      "text": "Velkaverkostot"
+    },
+    {
+      "id": "npc_structures-0148",
+      "text": "Salaisuusverkostot"
+    },
+    {
+      "id": "npc_structures-0149",
+      "text": "Huhujen verkostot"
+    },
+    {
+      "id": "npc_structures-0150",
+      "text": "Sukulaisuusverkostot"
+    },
+    {
+      "id": "npc_structures-0151",
+      "text": "Ystävyysverkostot"
+    },
+    {
+      "id": "npc_structures-0152",
+      "text": "Vihollisuusverkostot"
+    },
+    {
+      "id": "npc_structures-0153",
+      "text": "Kauppaverkostot"
+    },
+    {
+      "id": "npc_structures-0154",
+      "text": "Tiedusteluverkostot"
+    },
+    {
+      "id": "npc_structures-0155",
+      "text": "Rikollisverkostot"
+    },
+    {
+      "id": "npc_structures-0156",
+      "text": "Romanttiset verkostot"
+    },
+    {
+      "id": "npc_structures-0157",
+      "text": "Työpaikkapolitiikan verkostot"
+    },
+    {
+      "id": "npc_structures-0158",
+      "text": "Naapuruston sosiaaliset verkostot"
+    },
+    {
+      "id": "npc_structures-0159",
+      "text": "Statusryhmät"
+    },
+    {
+      "id": "npc_structures-0160",
+      "text": "Sosiaaliluokat"
+    },
+    {
+      "id": "npc_structures-0161",
+      "text": "Varallisuusluokat"
+    },
+    {
+      "id": "npc_structures-0162",
+      "text": "Koulutustasot"
+    },
+    {
+      "id": "npc_structures-0163",
+      "text": "Ammattiryhmät"
+    },
+    {
+      "id": "npc_structures-0164",
+      "text": "Ikäryhmät"
+    },
+    {
+      "id": "npc_structures-0165",
+      "text": "Sukupolvet"
+    },
+    {
+      "id": "npc_structures-0166",
+      "text": "Kulttuuriryhmät"
+    },
+    {
+      "id": "npc_structures-0167",
+      "text": "Alueelliset ryhmät"
+    },
+    {
+      "id": "npc_structures-0168",
+      "text": "Muuttajat ja paikalliset"
+    },
+    {
+      "id": "npc_structures-0169",
+      "text": "Vanhat suvut ja uudet tulokkaat"
+    },
+    {
+      "id": "npc_structures-0170",
+      "text": "Eliitti"
+    },
+    {
+      "id": "npc_structures-0171",
+      "text": "Keskiluokka"
+    },
+    {
+      "id": "npc_structures-0172",
+      "text": "Työväki"
+    },
+    {
+      "id": "npc_structures-0173",
+      "text": "Marginalisoidut ryhmät"
+    },
+    {
+      "id": "npc_structures-0174",
+      "text": "Sisäpiiriläiset ja ulkopuoliset"
+    },
+    {
+      "id": "npc_structures-0175",
+      "text": "Arvostetut ja halveksitut"
+    },
+    {
+      "id": "npc_structures-0176",
+      "text": "Suositut ja epäsuositut"
+    },
+    {
+      "id": "npc_structures-0177",
+      "text": "Pelätyt ja suojellut"
+    },
+    {
+      "id": "npc_structures-0178",
+      "text": "Johtajat ja seuraajat"
+    },
+    {
+      "id": "npc_structures-0179",
+      "text": "Toisinajattelijat"
+    },
+    {
+      "id": "npc_structures-0180",
+      "text": "Karkotetut"
+    },
+    {
+      "id": "npc_structures-0181",
+      "text": "Entiset jäsenet"
+    },
+    {
+      "id": "npc_structures-0182",
+      "text": "Loikkarit"
+    },
+    {
+      "id": "npc_structures-0183",
+      "text": "Petturit"
+    },
+    {
+      "id": "npc_structures-0184",
+      "text": "Uskolliset veteraanit"
+    },
+    {
+      "id": "npc_structures-0185",
+      "text": "Uudet tulokkaat"
+    },
+    {
+      "id": "npc_structures-0186",
+      "text": "Perustajajäsenet"
+    },
+    {
+      "id": "npc_structures-0187",
+      "text": "Perilliset"
+    },
+    {
+      "id": "npc_structures-0188",
+      "text": "Seuraajaehdokkaat"
+    },
+    {
+      "id": "npc_structures-0189",
+      "text": "Valtakilpailijat"
+    },
+    {
+      "id": "npc_structures-0190",
+      "text": "Sukupolvien väliset jännitteet"
+    },
+    {
+      "id": "npc_structures-0191",
+      "text": "Vanha kauna"
+    },
+    {
+      "id": "npc_structures-0192",
+      "text": "Historialliset vihollisuudet"
+    },
+    {
+      "id": "npc_structures-0193",
+      "text": "Peritty viha"
+    },
+    {
+      "id": "npc_structures-0194",
+      "text": "Peritty lojaalisuus"
+    },
+    {
+      "id": "npc_structures-0195",
+      "text": "Peritty velka"
+    },
+    {
+      "id": "npc_structures-0196",
+      "text": "Peritty salaisuus"
+    },
+    {
+      "id": "npc_structures-0197",
+      "text": "Peritty asema"
+    },
+    {
+      "id": "npc_structures-0198",
+      "text": "Peritty maine"
+    },
+    {
+      "id": "npc_structures-0199",
+      "text": "Peritty vastuu"
+    },
+    {
+      "id": "npc_structures-0200",
+      "text": "Peritty rikos"
+    },
+    {
+      "id": "npc_structures-0201",
+      "text": "Sukupolvien välinen trauma"
+    },
+    {
+      "id": "npc_structures-0202",
+      "text": "Yhteinen historia"
+    },
+    {
+      "id": "npc_structures-0203",
+      "text": "Yhteinen tragedia"
+    },
+    {
+      "id": "npc_structures-0204",
+      "text": "Yhteinen rikos"
+    },
+    {
+      "id": "npc_structures-0205",
+      "text": "Yhteinen voitto"
+    },
+    {
+      "id": "npc_structures-0206",
+      "text": "Yhteinen vihollinen"
+    },
+    {
+      "id": "npc_structures-0207",
+      "text": "Yhteinen salaisuus"
+    },
+    {
+      "id": "npc_structures-0208",
+      "text": "Yhteinen tavoite"
+    },
+    {
+      "id": "npc_structures-0209",
+      "text": "Ristiriitaiset tavoitteet"
+    },
+    {
+      "id": "npc_structures-0210",
+      "text": "Kilpailevat tavoitteet"
+    },
+    {
+      "id": "npc_structures-0211",
+      "text": "Tilapäiset liittoumat"
+    },
+    {
+      "id": "npc_structures-0212",
+      "text": "Pakotetut liittoumat"
+    },
+    {
+      "id": "npc_structures-0213",
+      "text": "Epäpyhät liittoumat"
+    },
+    {
+      "id": "npc_structures-0214",
+      "text": "Sopimusavioliitot"
+    },
+    {
+      "id": "npc_structures-0215",
+      "text": "Poliittiset avioliitot"
+    },
+    {
+      "id": "npc_structures-0216",
+      "text": "Rauhan takaavat suhteet"
+    },
+    {
+      "id": "npc_structures-0217",
+      "text": "Panttisuhteet"
+    },
+    {
+      "id": "npc_structures-0218",
+      "text": "Panttilupaukset"
+    },
+    {
+      "id": "npc_structures-0219",
+      "text": "Keskinäinen kiristys"
+    },
+    {
+      "id": "npc_structures-0220",
+      "text": "Keskinäinen riippuvuus"
+    },
+    {
+      "id": "npc_structures-0221",
+      "text": "Keskinäinen pelote"
+    },
+    {
+      "id": "npc_structures-0222",
+      "text": "Keskinäinen hyöty"
+    },
+    {
+      "id": "npc_structures-0223",
+      "text": "Yksipuolinen hyöty"
+    },
+    {
+      "id": "npc_structures-0224",
+      "text": "Hyväksikäyttösuhteet"
+    },
+    {
+      "id": "npc_structures-0225",
+      "text": "Manipulointisuhteet"
+    },
+    {
+      "id": "npc_structures-0226",
+      "text": "Kontrolloivat suhteet"
+    },
+    {
+      "id": "npc_structures-0227",
+      "text": "Suojelusuhteet"
+    },
+    {
+      "id": "npc_structures-0228",
+      "text": "Salaiset sopimukset"
+    },
+    {
+      "id": "npc_structures-0229",
+      "text": "Vaihtokauppasuhteet"
+    },
+    {
+      "id": "npc_structures-0230",
+      "text": "Palvelusten vaihtaminen"
+    },
+    {
+      "id": "npc_structures-0231",
+      "text": "Tietokauppa"
+    },
+    {
+      "id": "npc_structures-0232",
+      "text": "Salaisuuksien vaihtaminen"
+    },
+    {
+      "id": "npc_structures-0233",
+      "text": "Poliittisten palvelusten vaihtaminen"
+    },
+    {
+      "id": "npc_structures-0234",
+      "text": "Korruptiosuhteet"
+    },
+    {
+      "id": "npc_structures-0235",
+      "text": "Lahjontaverkostot"
+    },
+    {
+      "id": "npc_structures-0236",
+      "text": "Nepotismi"
+    },
+    {
+      "id": "npc_structures-0237",
+      "text": "Suosikkijärjestelmät"
+    },
+    {
+      "id": "npc_structures-0238",
+      "text": "Perhesuosinta"
+    },
+    {
+      "id": "npc_structures-0239",
+      "text": "Klikkiytyminen"
+    },
+    {
+      "id": "npc_structures-0240",
+      "text": "Sisäpiirietu"
+    },
+    {
+      "id": "npc_structures-0241",
+      "text": "Portinvartijuus"
+    },
+    {
+      "id": "npc_structures-0242",
+      "text": "Sosiaalinen eristäminen"
+    },
+    {
+      "id": "npc_structures-0243",
+      "text": "Maineen sabotaasi"
+    },
+    {
+      "id": "npc_structures-0244",
+      "text": "Huhukampanjat"
+    },
+    {
+      "id": "npc_structures-0245",
+      "text": "Mustamaalaus"
+    },
+    {
+      "id": "npc_structures-0246",
+      "text": "Sosiaalinen manipulointi"
+    },
+    {
+      "id": "npc_structures-0247",
+      "text": "Ryhmään kuulumisen paine"
+    },
+    {
+      "id": "npc_structures-0248",
+      "text": "Laumakäyttäytyminen"
+    },
+    {
+      "id": "npc_structures-0249",
+      "text": "Konformismi"
+    },
+    {
+      "id": "npc_structures-0250",
+      "text": "Kapinallisuus"
+    },
+    {
+      "id": "npc_structures-0251",
+      "text": "Ideologinen lojaalisuus"
+    },
+    {
+      "id": "npc_structures-0252",
+      "text": "Uskonnollinen vakaumus"
+    },
+    {
+      "id": "npc_structures-0253",
+      "text": "Poliittinen vakaumus"
+    },
+    {
+      "id": "npc_structures-0254",
+      "text": "Ammatillinen identiteetti"
+    },
+    {
+      "id": "npc_structures-0255",
+      "text": "Sukulaislojaalisuus"
+    },
+    {
+      "id": "npc_structures-0256",
+      "text": "Paikallislojaalisuus"
+    },
+    {
+      "id": "npc_structures-0257",
+      "text": "Kansallinen lojaalisuus"
+    },
+    {
+      "id": "npc_structures-0258",
+      "text": "Organisaatiolojaalisuus"
+    },
+    {
+      "id": "npc_structures-0259",
+      "text": "Henkilökohtainen lojaalisuus"
+    },
+    {
+      "id": "npc_structures-0260",
+      "text": "Ehdollinen lojaalisuus"
+    },
+    {
+      "id": "npc_structures-0261",
+      "text": "Ostettu lojaalisuus"
+    },
+    {
+      "id": "npc_structures-0262",
+      "text": "Pakotettu lojaalisuus"
+    },
+    {
+      "id": "npc_structures-0263",
+      "text": "Piilotettu lojaalisuus"
+    },
+    {
+      "id": "npc_structures-0264",
+      "text": "Kaksoislojaalisuus"
+    },
+    {
+      "id": "npc_structures-0265",
+      "text": "Muuttuva lojaalisuus"
+    },
+    {
+      "id": "npc_structures-0266",
+      "text": "Murtumispisteet"
+    },
+    {
+      "id": "npc_structures-0267",
+      "text": "Stressin vaikutus suhteisiin"
+    },
+    {
+      "id": "npc_structures-0268",
+      "text": "Pelon vaikutus suhteisiin"
+    },
+    {
+      "id": "npc_structures-0269",
+      "text": "Rahan vaikutus suhteisiin"
+    },
+    {
+      "id": "npc_structures-0270",
+      "text": "Maineen vaikutus suhteisiin"
+    },
+    {
+      "id": "npc_structures-0271",
+      "text": "Vallan vaikutus suhteisiin"
+    },
+    {
+      "id": "npc_structures-0272",
+      "text": "Salaisuuksien vaikutus suhteisiin"
+    },
+    {
+      "id": "npc_structures-0273",
+      "text": "Tiedon vaikutus suhteisiin"
+    },
+    {
+      "id": "npc_structures-0274",
+      "text": "Katastrofin vaikutus suhteisiin"
+    },
+    {
+      "id": "npc_structures-0275",
+      "text": "Sodan vaikutus suhteisiin"
+    },
+    {
+      "id": "npc_structures-0276",
+      "text": "Epidemian vaikutus suhteisiin"
+    },
+    {
+      "id": "npc_structures-0277",
+      "text": "Niukkuuden vaikutus suhteisiin"
+    },
+    {
+      "id": "npc_structures-0278",
+      "text": "Menetyksen vaikutus suhteisiin"
+    },
+    {
+      "id": "npc_structures-0279",
+      "text": "Kuoleman vaikutus verkostoon"
+    },
+    {
+      "id": "npc_structures-0280",
+      "text": "Syntymän vaikutus verkostoon"
+    },
+    {
+      "id": "npc_structures-0281",
+      "text": "Avioliiton vaikutus verkostoon"
+    },
+    {
+      "id": "npc_structures-0282",
+      "text": "Eron vaikutus verkostoon"
+    },
+    {
+      "id": "npc_structures-0283",
+      "text": "Ylennyksen vaikutus verkostoon"
+    },
+    {
+      "id": "npc_structures-0284",
+      "text": "Erottamisen vaikutus verkostoon"
+    },
+    {
+      "id": "npc_structures-0285",
+      "text": "Rikoksen vaikutus verkostoon"
+    },
+    {
+      "id": "npc_structures-0286",
+      "text": "Paljastuksen vaikutus verkostoon"
+    },
+    {
+      "id": "npc_structures-0287",
+      "text": "Pelaajan tekojen vaikutus suhteisiin"
+    },
+    {
+      "id": "npc_structures-0288",
+      "text": "NPC:iden suhteiden autonominen muuttuminen"
+    },
+    {
+      "id": "npc_structures-0289",
+      "text": "NPC:t muodostavat uusia suhteita ilman pelaajaa"
+    },
+    {
+      "id": "npc_structures-0290",
+      "text": "NPC:t katkaisevat suhteita ilman pelaajaa"
+    },
+    {
+      "id": "npc_structures-0291",
+      "text": "NPC:t vaihtavat fraktiota"
+    },
+    {
+      "id": "npc_structures-0292",
+      "text": "NPC:t vaihtavat työpaikkaa"
+    },
+    {
+      "id": "npc_structures-0293",
+      "text": "NPC:t perustavat perheitä"
+    },
+    {
+      "id": "npc_structures-0294",
+      "text": "NPC:t eroavat"
+    },
+    {
+      "id": "npc_structures-0295",
+      "text": "NPC:t saavat lapsia"
+    },
+    {
+      "id": "npc_structures-0296",
+      "text": "NPC:t kuolevat"
+    },
+    {
+      "id": "npc_structures-0297",
+      "text": "NPC:t perivät asemia"
+    },
+    {
+      "id": "npc_structures-0298",
+      "text": "NPC:t perivät omaisuutta"
+    },
+    {
+      "id": "npc_structures-0299",
+      "text": "NPC:t perivät konflikteja"
+    },
+    {
+      "id": "npc_structures-0300",
+      "text": "NPC:t perustavat uusia organisaatioita"
+    },
+    {
+      "id": "npc_structures-0301",
+      "text": "NPC:t hajottavat organisaatioita"
+    },
+    {
+      "id": "npc_structures-0302",
+      "text": "NPC:t muodostavat salaisia klikkejä"
+    },
+    {
+      "id": "npc_structures-0303",
+      "text": "NPC:t rakentavat omia verkostojaan"
+    },
+    {
+      "id": "npc_structures-0304",
+      "text": "NPC:t levittävät tietoa autonomisesti"
+    },
+    {
+      "id": "npc_structures-0305",
+      "text": "NPC:t muistavat loukkauksia"
+    },
+    {
+      "id": "npc_structures-0306",
+      "text": "NPC:t muistavat palveluksia"
+    },
+    {
+      "id": "npc_structures-0307",
+      "text": "NPC:t muistavat pelastamiset"
+    },
+    {
+      "id": "npc_structures-0308",
+      "text": "NPC:t muistavat petokset"
+    },
+    {
+      "id": "npc_structures-0309",
+      "text": "NPC:t muistavat lupaukset"
+    },
+    {
+      "id": "npc_structures-0310",
+      "text": "NPC:t muuttavat mielipiteitään"
+    },
+    {
+      "id": "npc_structures-0311",
+      "text": "NPC:t muuttavat lojaalisuuttaan"
+    },
+    {
+      "id": "npc_structures-0312",
+      "text": "NPC:t voivat antaa anteeksi"
+    },
+    {
+      "id": "npc_structures-0313",
+      "text": "NPC:t voivat kostaa vuosien päästä"
+    },
+    {
+      "id": "npc_structures-0314",
+      "text": "NPC:t voivat periä toistensa vihollisuuksia"
+    },
+    {
+      "id": "npc_structures-0315",
+      "text": "NPC:t voivat periä toistensa ystävyyssuhteita"
+    },
+    {
+      "id": "npc_structures-0316",
+      "text": "NPC:t voivat piilottaa todelliset suhteensa"
+    },
+    {
+      "id": "npc_structures-0317",
+      "text": "NPC:t voivat esittää vihollisia vaikka ovat liittolaisia"
+    },
+    {
+      "id": "npc_structures-0318",
+      "text": "NPC:t voivat esittää ystäviä vaikka ovat vihollisia"
+    },
+    {
+      "id": "npc_structures-0319",
+      "text": "NPC:t voivat työskennellä usealle fraktiolle"
+    },
+    {
+      "id": "npc_structures-0320",
+      "text": "NPC:t voivat olla usean organisaation jäseniä"
+    },
+    {
+      "id": "npc_structures-0321",
+      "text": "NPC:t voivat olla perheen ja organisaation ristipaineessa"
+    },
+    {
+      "id": "npc_structures-0322",
+      "text": "NPC:t voivat joutua valitsemaan lojaalisuuksien välillä"
+    },
+    {
+      "id": "npc_structures-0323",
+      "text": "NPC:t voivat kiristää toisiaan"
+    },
+    {
+      "id": "npc_structures-0324",
+      "text": "NPC:t voivat suojella toisiaan"
+    },
+    {
+      "id": "npc_structures-0325",
+      "text": "NPC:t voivat uhrata toisiaan"
+    },
+    {
+      "id": "npc_structures-0326",
+      "text": "NPC:t voivat muodostaa tilapäisiä koalitioita"
+    },
+    {
+      "id": "npc_structures-0327",
+      "text": "NPC:t voivat kaapata vallan ryhmässään"
+    },
+    {
+      "id": "npc_structures-0328",
+      "text": "NPC:t voivat nousta hierarkiassa"
+    },
+    {
+      "id": "npc_structures-0329",
+      "text": "NPC:t voivat pudota hierarkiassa"
+    },
+    {
+      "id": "npc_structures-0330",
+      "text": "NPC:t voivat syrjäytyä yhteisöstä"
+    },
+    {
+      "id": "npc_structures-0331",
+      "text": "NPC:t voivat muuttua vaikutusvaltaisiksi"
+    },
+    {
+      "id": "npc_structures-0332",
+      "text": "NPC:t voivat muuttua riippuvaisiksi toisista"
+    },
+    {
+      "id": "npc_structures-0333",
+      "text": "NPC:t voivat muuttua vihollisiksi sattuman vuoksi"
+    },
+    {
+      "id": "npc_structures-0334",
+      "text": "NPC:t voivat ystävystyä yhteisen kriisin kautta"
+    },
+    {
+      "id": "npc_structures-0335",
+      "text": "NPC:t voivat vihata toisiaan historiallisista syistä"
+    },
+    {
+      "id": "npc_structures-0336",
+      "text": "NPC:t voivat muodostaa suhteita väärinkäsitysten perusteella"
+    },
+    {
+      "id": "npc_structures-0337",
+      "text": "NPC:t voivat uskoa vääriin huhuihin toisistaan"
+    },
+    {
+      "id": "npc_structures-0338",
+      "text": "NPC:t voivat yrittää korjata mainettaan"
+    },
+    {
+      "id": "npc_structures-0339",
+      "text": "NPC:t voivat rakentaa poliittista pääomaa"
+    },
+    {
+      "id": "npc_structures-0340",
+      "text": "NPC:t voivat rakentaa omaa seuraajakuntaa"
+    },
+    {
+      "id": "npc_structures-0341",
+      "text": "NPC:t voivat käyttää muita välikäsinä"
+    },
+    {
+      "id": "npc_structures-0342",
+      "text": "NPC:t voivat delegoida tehtäviä omille verkostoilleen"
+    },
+    {
+      "id": "npc_structures-0343",
+      "text": "NPC:t voivat muodostaa omia tavoitteitaan suhteidensa perusteella"
+    }
   ]
 }

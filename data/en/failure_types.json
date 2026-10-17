@@ -1,280 +1,1108 @@
 {
   "failure_types": [
-    "Death",
-    "Bankruptcy",
-    "Reputation collapses",
-    "The community falls apart",
-    "Someone disappears",
-    "Coup",
-    "The system stops working",
-    "The player is arrested",
-    "The player is imprisoned",
-    "The player is exiled",
-    "The player is fired",
-    "The player loses their position",
-    "The player loses their power",
-    "The player loses their property",
-    "The player loses their identity",
-    "The player loses their memory",
-    "The player loses their allies",
-    "The player loses trust",
-    "The player loses access to an important place",
-    "The player loses access to information",
-    "The player is exposed",
-    "The cover identity is blown",
-    "A secret is revealed",
-    "A crime is revealed",
-    "A lie is revealed",
-    "A betrayal is revealed",
-    "A spy is exposed",
-    "An organization is exposed",
-    "A cult is exposed",
-    "A conspiracy is exposed",
-    "Reputation is destroyed",
-    "Public trust vanishes",
-    "Support collapses",
-    "Voters reject the player",
-    "Customers disappear",
-    "Employees quit",
-    "Employees revolt",
-    "The crew mutinies",
-    "Soldiers refuse orders",
-    "Allies switch sides",
-    "An ally betrays the player",
-    "A faction splits apart",
-    "A party splits apart",
-    "A company breaks up",
-    "A family breaks apart",
-    "A clan breaks apart",
-    "A marriage falls apart",
-    "A friendship ends",
-    "The community loses its morale",
-    "Panic spreads",
-    "Trust within the community collapses",
-    "Civil unrest begins",
-    "Riots begin",
-    "An internal rebellion begins",
-    "A civil war begins",
-    "A revolution begins",
-    "The regime falls",
-    "The government falls",
-    "The state collapses",
-    "The city descends into chaos",
-    "The village is deserted",
-    "The settlement collapses",
-    "Civilization collapses",
-    "The enemy seizes power",
-    "The enemy conquers the area",
-    "The city is lost",
-    "The base is lost",
-    "The front line breaks",
-    "The war is lost",
-    "The battle is lost",
-    "The siege is broken",
-    "The peace treaty fails",
-    "Diplomatic relations are cut off",
-    "The alliance falls apart",
-    "Trade relations are cut off",
-    "Sanctions destroy the economy",
-    "Economic collapse",
-    "Liquidity runs out",
-    "Cash flow dries up",
-    "Debts grow out of control",
-    "Market share collapses",
-    "The company is subjected to a hostile takeover",
-    "The company is shut down",
-    "Production stops",
-    "The supply chain breaks",
-    "The warehouse runs empty",
-    "Raw materials run out",
-    "Food runs out",
-    "Water runs out",
-    "Fuel runs out",
-    "Electricity runs out",
-    "Oxygen runs out",
-    "Medicine runs out",
-    "Ammunition runs out",
-    "Spare parts run out",
-    "Labor runs out",
-    "Time runs out",
-    "The deadline is missed",
-    "Rescue arrives too late",
-    "Disaster strikes",
-    "A building collapses",
-    "The base collapses",
-    "A bridge collapses",
-    "A dam bursts",
-    "A fire spreads out of control",
-    "An explosion destroys the area",
-    "The reactor melts down",
-    "The power plant shuts down",
-    "The power grid fails",
-    "The water network fails",
-    "The data network fails",
-    "The servers crash",
-    "Communications are cut off",
-    "Navigation stops working",
-    "The security system fails",
-    "Door control fails",
-    "Pressurization fails",
-    "Ventilation fails",
-    "Heating fails",
-    "Cooling fails",
-    "Oxygen production fails",
-    "Water purification fails",
-    "Food production fails",
-    "Structural integrity collapses",
-    "The ship's hull breaks",
-    "The spaceship is destroyed",
-    "The space station is destroyed",
-    "The vehicle breaks down",
-    "The engine breaks down",
-    "The fuel system fails",
-    "The crew dies",
-    "Most of the crew dies",
-    "Everyone dies",
-    "The leader dies",
-    "A key person dies",
-    "The heir dies",
-    "The patient dies",
-    "The person to be rescued dies",
-    "Civilians die",
-    "Too many people die",
-    "The population falls below a critical level",
-    "The birth rate collapses",
-    "An epidemic spreads",
-    "A pandemic gets out of control",
-    "The quarantine fails",
-    "The disease becomes uncontrollable",
-    "The cure fails",
-    "Treatment capacity is exceeded",
-    "The hospital collapses",
-    "Mental health collapses",
-    "Morale collapses",
-    "The player burns out",
-    "The player loses their mind",
-    "The player loses their grip on reality",
-    "The player becomes a danger to others",
-    "The player joins the enemy",
-    "The player draws the wrong conclusion",
-    "The wrong person is convicted",
-    "The murderer escapes",
-    "The suspect flees",
-    "The evidence is destroyed",
-    "The chain of evidence breaks",
-    "The case remains unsolved",
-    "The solution to the mystery is wrong",
-    "The truth is never revealed",
-    "The conspiracy succeeds",
-    "The crime succeeds",
-    "The sabotage succeeds",
-    "The kidnapping succeeds",
-    "A prisoner escapes",
-    "The enemy infiltrates the organization",
-    "A spy steals the information",
-    "An information leak occurs",
-    "A data breach succeeds",
-    "Sensitive information is published",
-    "Propaganda wins",
-    "A rumor destroys a reputation",
-    "False information becomes the official truth",
-    "The player loses control of information",
-    "The archive is destroyed",
-    "The database is corrupted",
-    "History is distorted",
-    "Documents disappear",
-    "The map is lost",
-    "Research data is lost",
-    "The project fails",
-    "The research is halted",
-    "The research causes a disaster",
-    "The experiment gets out of control",
-    "The AI gets out of control",
-    "The AI shuts down",
-    "The AI takes over the system",
-    "The robots stop obeying",
-    "Automation stops",
-    "The production line stops",
-    "The factory is destroyed",
-    "The mine is closed",
-    "The harvest fails",
-    "The crop is lost",
-    "The livestock dies",
-    "The ecosystem collapses",
-    "A species goes extinct",
-    "Pollution exceeds a critical level",
-    "The planet becomes uninhabitable",
-    "Terraforming fails",
-    "The colony fails",
-    "The settlement is evacuated",
-    "The space journey fails",
-    "First contact fails",
-    "The aliens turn hostile",
-    "Diplomacy with the aliens fails",
-    "The timeline breaks",
-    "A time paradox occurs",
-    "The time loop gets stuck",
-    "The player is stuck in the wrong time",
-    "History changes irreversibly",
-    "The future is destroyed",
-    "The simulation crashes",
-    "The simulation resets",
-    "The world ceases to exist",
-    "Reality is distorted",
-    "Parallel realities collide",
-    "The player disappears from history",
-    "The player's identity is erased",
-    "Everyone forgets the player",
-    "The player forgets everything",
-    "Memories are destroyed",
-    "An important memory is lost",
-    "A secret is lost forever",
-    "The dead return uncontrollably",
-    "The curse grows stronger",
-    "The ritual fails",
-    "A spirit is released",
-    "A demon is released",
-    "A supernatural phenomenon spreads",
-    "The boundary between worlds breaks",
-    "The player is cursed",
-    "The player is trapped in the afterlife",
-    "A soul is lost",
-    "Immortality becomes a curse",
-    "The player can no longer die",
-    "The player dies in the wrong timeline",
-    "The player turns into an NPC",
-    "The player loses control of their character",
-    "The player's goals lock in the wrong direction",
-    "The player ends up on the wrong side of the conflict",
-    "The player accidentally helps the antagonist win",
-    "The player solves the problem in a way that causes a bigger problem",
-    "Reaching the win condition causes a disaster",
-    "The player wins but the world loses",
-    "The player survives but everyone else dies",
-    "The community survives but the player is sacrificed",
-    "The player keeps power but loses all trust",
-    "The player gets rich but the community is destroyed",
-    "The player solves the mystery but too late",
-    "The player prevents the disaster but loses an important person",
-    "The player makes a morally unbearable compromise",
-    "The player loses the chance of a good ending",
-    "The bad ending is triggered",
-    "The neutral ending is triggered",
-    "The world is stuck in a permanent stalemate",
-    "The crisis remains unresolved",
-    "The conflict freezes",
-    "The system works, but in the wrong way",
-    "Society becomes authoritarian",
-    "Society descends into anarchy",
-    "Society stagnates",
-    "The culture disappears",
-    "Knowledge is lost for generations",
-    "The family line dies out",
-    "The dynasty ends",
-    "No heir is born",
-    "The organization has no successor",
-    "The city is abandoned",
-    "The world becomes deserted",
-    "The player is left alone"
+    {
+      "id": "failure_types-0001",
+      "text": "Death"
+    },
+    {
+      "id": "failure_types-0002",
+      "text": "Bankruptcy"
+    },
+    {
+      "id": "failure_types-0003",
+      "text": "Reputation collapses"
+    },
+    {
+      "id": "failure_types-0004",
+      "text": "The community falls apart"
+    },
+    {
+      "id": "failure_types-0005",
+      "text": "Someone disappears"
+    },
+    {
+      "id": "failure_types-0006",
+      "text": "Coup"
+    },
+    {
+      "id": "failure_types-0007",
+      "text": "The system stops working"
+    },
+    {
+      "id": "failure_types-0008",
+      "text": "The player is arrested"
+    },
+    {
+      "id": "failure_types-0009",
+      "text": "The player is imprisoned"
+    },
+    {
+      "id": "failure_types-0010",
+      "text": "The player is exiled"
+    },
+    {
+      "id": "failure_types-0011",
+      "text": "The player is fired"
+    },
+    {
+      "id": "failure_types-0012",
+      "text": "The player loses their position"
+    },
+    {
+      "id": "failure_types-0013",
+      "text": "The player loses their power"
+    },
+    {
+      "id": "failure_types-0014",
+      "text": "The player loses their property"
+    },
+    {
+      "id": "failure_types-0015",
+      "text": "The player loses their identity"
+    },
+    {
+      "id": "failure_types-0016",
+      "text": "The player loses their memory"
+    },
+    {
+      "id": "failure_types-0017",
+      "text": "The player loses their allies"
+    },
+    {
+      "id": "failure_types-0018",
+      "text": "The player loses trust"
+    },
+    {
+      "id": "failure_types-0019",
+      "text": "The player loses access to an important place"
+    },
+    {
+      "id": "failure_types-0020",
+      "text": "The player loses access to information"
+    },
+    {
+      "id": "failure_types-0021",
+      "text": "The player is exposed"
+    },
+    {
+      "id": "failure_types-0022",
+      "text": "The cover identity is blown"
+    },
+    {
+      "id": "failure_types-0023",
+      "text": "A secret is revealed"
+    },
+    {
+      "id": "failure_types-0024",
+      "text": "A crime is revealed"
+    },
+    {
+      "id": "failure_types-0025",
+      "text": "A lie is revealed"
+    },
+    {
+      "id": "failure_types-0026",
+      "text": "A betrayal is revealed"
+    },
+    {
+      "id": "failure_types-0027",
+      "text": "A spy is exposed"
+    },
+    {
+      "id": "failure_types-0028",
+      "text": "An organization is exposed"
+    },
+    {
+      "id": "failure_types-0029",
+      "text": "A cult is exposed"
+    },
+    {
+      "id": "failure_types-0030",
+      "text": "A conspiracy is exposed"
+    },
+    {
+      "id": "failure_types-0031",
+      "text": "Reputation is destroyed"
+    },
+    {
+      "id": "failure_types-0032",
+      "text": "Public trust vanishes"
+    },
+    {
+      "id": "failure_types-0033",
+      "text": "Support collapses"
+    },
+    {
+      "id": "failure_types-0034",
+      "text": "Voters reject the player"
+    },
+    {
+      "id": "failure_types-0035",
+      "text": "Customers disappear"
+    },
+    {
+      "id": "failure_types-0036",
+      "text": "Employees quit"
+    },
+    {
+      "id": "failure_types-0037",
+      "text": "Employees revolt"
+    },
+    {
+      "id": "failure_types-0038",
+      "text": "The crew mutinies"
+    },
+    {
+      "id": "failure_types-0039",
+      "text": "Soldiers refuse orders"
+    },
+    {
+      "id": "failure_types-0040",
+      "text": "Allies switch sides"
+    },
+    {
+      "id": "failure_types-0041",
+      "text": "An ally betrays the player"
+    },
+    {
+      "id": "failure_types-0042",
+      "text": "A faction splits apart"
+    },
+    {
+      "id": "failure_types-0043",
+      "text": "A party splits apart"
+    },
+    {
+      "id": "failure_types-0044",
+      "text": "A company breaks up"
+    },
+    {
+      "id": "failure_types-0045",
+      "text": "A family breaks apart"
+    },
+    {
+      "id": "failure_types-0046",
+      "text": "A clan breaks apart"
+    },
+    {
+      "id": "failure_types-0047",
+      "text": "A marriage falls apart"
+    },
+    {
+      "id": "failure_types-0048",
+      "text": "A friendship ends"
+    },
+    {
+      "id": "failure_types-0049",
+      "text": "The community loses its morale"
+    },
+    {
+      "id": "failure_types-0050",
+      "text": "Panic spreads"
+    },
+    {
+      "id": "failure_types-0051",
+      "text": "Trust within the community collapses"
+    },
+    {
+      "id": "failure_types-0052",
+      "text": "Civil unrest begins"
+    },
+    {
+      "id": "failure_types-0053",
+      "text": "Riots begin"
+    },
+    {
+      "id": "failure_types-0054",
+      "text": "An internal rebellion begins"
+    },
+    {
+      "id": "failure_types-0055",
+      "text": "A civil war begins"
+    },
+    {
+      "id": "failure_types-0056",
+      "text": "A revolution begins"
+    },
+    {
+      "id": "failure_types-0057",
+      "text": "The regime falls"
+    },
+    {
+      "id": "failure_types-0058",
+      "text": "The government falls"
+    },
+    {
+      "id": "failure_types-0059",
+      "text": "The state collapses"
+    },
+    {
+      "id": "failure_types-0060",
+      "text": "The city descends into chaos"
+    },
+    {
+      "id": "failure_types-0061",
+      "text": "The village is deserted"
+    },
+    {
+      "id": "failure_types-0062",
+      "text": "The settlement collapses"
+    },
+    {
+      "id": "failure_types-0063",
+      "text": "Civilization collapses"
+    },
+    {
+      "id": "failure_types-0064",
+      "text": "The enemy seizes power"
+    },
+    {
+      "id": "failure_types-0065",
+      "text": "The enemy conquers the area"
+    },
+    {
+      "id": "failure_types-0066",
+      "text": "The city is lost"
+    },
+    {
+      "id": "failure_types-0067",
+      "text": "The base is lost"
+    },
+    {
+      "id": "failure_types-0068",
+      "text": "The front line breaks"
+    },
+    {
+      "id": "failure_types-0069",
+      "text": "The war is lost"
+    },
+    {
+      "id": "failure_types-0070",
+      "text": "The battle is lost"
+    },
+    {
+      "id": "failure_types-0071",
+      "text": "The siege is broken"
+    },
+    {
+      "id": "failure_types-0072",
+      "text": "The peace treaty fails"
+    },
+    {
+      "id": "failure_types-0073",
+      "text": "Diplomatic relations are cut off"
+    },
+    {
+      "id": "failure_types-0074",
+      "text": "The alliance falls apart"
+    },
+    {
+      "id": "failure_types-0075",
+      "text": "Trade relations are cut off"
+    },
+    {
+      "id": "failure_types-0076",
+      "text": "Sanctions destroy the economy"
+    },
+    {
+      "id": "failure_types-0077",
+      "text": "Economic collapse"
+    },
+    {
+      "id": "failure_types-0078",
+      "text": "Liquidity runs out"
+    },
+    {
+      "id": "failure_types-0079",
+      "text": "Cash flow dries up"
+    },
+    {
+      "id": "failure_types-0080",
+      "text": "Debts grow out of control"
+    },
+    {
+      "id": "failure_types-0081",
+      "text": "Market share collapses"
+    },
+    {
+      "id": "failure_types-0082",
+      "text": "The company is subjected to a hostile takeover"
+    },
+    {
+      "id": "failure_types-0083",
+      "text": "The company is shut down"
+    },
+    {
+      "id": "failure_types-0084",
+      "text": "Production stops"
+    },
+    {
+      "id": "failure_types-0085",
+      "text": "The supply chain breaks"
+    },
+    {
+      "id": "failure_types-0086",
+      "text": "The warehouse runs empty"
+    },
+    {
+      "id": "failure_types-0087",
+      "text": "Raw materials run out"
+    },
+    {
+      "id": "failure_types-0088",
+      "text": "Food runs out"
+    },
+    {
+      "id": "failure_types-0089",
+      "text": "Water runs out"
+    },
+    {
+      "id": "failure_types-0090",
+      "text": "Fuel runs out"
+    },
+    {
+      "id": "failure_types-0091",
+      "text": "Electricity runs out"
+    },
+    {
+      "id": "failure_types-0092",
+      "text": "Oxygen runs out"
+    },
+    {
+      "id": "failure_types-0093",
+      "text": "Medicine runs out"
+    },
+    {
+      "id": "failure_types-0094",
+      "text": "Ammunition runs out"
+    },
+    {
+      "id": "failure_types-0095",
+      "text": "Spare parts run out"
+    },
+    {
+      "id": "failure_types-0096",
+      "text": "Labor runs out"
+    },
+    {
+      "id": "failure_types-0097",
+      "text": "Time runs out"
+    },
+    {
+      "id": "failure_types-0098",
+      "text": "The deadline is missed"
+    },
+    {
+      "id": "failure_types-0099",
+      "text": "Rescue arrives too late"
+    },
+    {
+      "id": "failure_types-0100",
+      "text": "Disaster strikes"
+    },
+    {
+      "id": "failure_types-0101",
+      "text": "A building collapses"
+    },
+    {
+      "id": "failure_types-0102",
+      "text": "The base collapses"
+    },
+    {
+      "id": "failure_types-0103",
+      "text": "A bridge collapses"
+    },
+    {
+      "id": "failure_types-0104",
+      "text": "A dam bursts"
+    },
+    {
+      "id": "failure_types-0105",
+      "text": "A fire spreads out of control"
+    },
+    {
+      "id": "failure_types-0106",
+      "text": "An explosion destroys the area"
+    },
+    {
+      "id": "failure_types-0107",
+      "text": "The reactor melts down"
+    },
+    {
+      "id": "failure_types-0108",
+      "text": "The power plant shuts down"
+    },
+    {
+      "id": "failure_types-0109",
+      "text": "The power grid fails"
+    },
+    {
+      "id": "failure_types-0110",
+      "text": "The water network fails"
+    },
+    {
+      "id": "failure_types-0111",
+      "text": "The data network fails"
+    },
+    {
+      "id": "failure_types-0112",
+      "text": "The servers crash"
+    },
+    {
+      "id": "failure_types-0113",
+      "text": "Communications are cut off"
+    },
+    {
+      "id": "failure_types-0114",
+      "text": "Navigation stops working"
+    },
+    {
+      "id": "failure_types-0115",
+      "text": "The security system fails"
+    },
+    {
+      "id": "failure_types-0116",
+      "text": "Door control fails"
+    },
+    {
+      "id": "failure_types-0117",
+      "text": "Pressurization fails"
+    },
+    {
+      "id": "failure_types-0118",
+      "text": "Ventilation fails"
+    },
+    {
+      "id": "failure_types-0119",
+      "text": "Heating fails"
+    },
+    {
+      "id": "failure_types-0120",
+      "text": "Cooling fails"
+    },
+    {
+      "id": "failure_types-0121",
+      "text": "Oxygen production fails"
+    },
+    {
+      "id": "failure_types-0122",
+      "text": "Water purification fails"
+    },
+    {
+      "id": "failure_types-0123",
+      "text": "Food production fails"
+    },
+    {
+      "id": "failure_types-0124",
+      "text": "Structural integrity collapses"
+    },
+    {
+      "id": "failure_types-0125",
+      "text": "The ship's hull breaks"
+    },
+    {
+      "id": "failure_types-0126",
+      "text": "The spaceship is destroyed"
+    },
+    {
+      "id": "failure_types-0127",
+      "text": "The space station is destroyed"
+    },
+    {
+      "id": "failure_types-0128",
+      "text": "The vehicle breaks down"
+    },
+    {
+      "id": "failure_types-0129",
+      "text": "The engine breaks down"
+    },
+    {
+      "id": "failure_types-0130",
+      "text": "The fuel system fails"
+    },
+    {
+      "id": "failure_types-0131",
+      "text": "The crew dies"
+    },
+    {
+      "id": "failure_types-0132",
+      "text": "Most of the crew dies"
+    },
+    {
+      "id": "failure_types-0133",
+      "text": "Everyone dies"
+    },
+    {
+      "id": "failure_types-0134",
+      "text": "The leader dies"
+    },
+    {
+      "id": "failure_types-0135",
+      "text": "A key person dies"
+    },
+    {
+      "id": "failure_types-0136",
+      "text": "The heir dies"
+    },
+    {
+      "id": "failure_types-0137",
+      "text": "The patient dies"
+    },
+    {
+      "id": "failure_types-0138",
+      "text": "The person to be rescued dies"
+    },
+    {
+      "id": "failure_types-0139",
+      "text": "Civilians die"
+    },
+    {
+      "id": "failure_types-0140",
+      "text": "Too many people die"
+    },
+    {
+      "id": "failure_types-0141",
+      "text": "The population falls below a critical level"
+    },
+    {
+      "id": "failure_types-0142",
+      "text": "The birth rate collapses"
+    },
+    {
+      "id": "failure_types-0143",
+      "text": "An epidemic spreads"
+    },
+    {
+      "id": "failure_types-0144",
+      "text": "A pandemic gets out of control"
+    },
+    {
+      "id": "failure_types-0145",
+      "text": "The quarantine fails"
+    },
+    {
+      "id": "failure_types-0146",
+      "text": "The disease becomes uncontrollable"
+    },
+    {
+      "id": "failure_types-0147",
+      "text": "The cure fails"
+    },
+    {
+      "id": "failure_types-0148",
+      "text": "Treatment capacity is exceeded"
+    },
+    {
+      "id": "failure_types-0149",
+      "text": "The hospital collapses"
+    },
+    {
+      "id": "failure_types-0150",
+      "text": "Mental health collapses"
+    },
+    {
+      "id": "failure_types-0151",
+      "text": "Morale collapses"
+    },
+    {
+      "id": "failure_types-0152",
+      "text": "The player burns out"
+    },
+    {
+      "id": "failure_types-0153",
+      "text": "The player loses their mind"
+    },
+    {
+      "id": "failure_types-0154",
+      "text": "The player loses their grip on reality"
+    },
+    {
+      "id": "failure_types-0155",
+      "text": "The player becomes a danger to others"
+    },
+    {
+      "id": "failure_types-0156",
+      "text": "The player joins the enemy"
+    },
+    {
+      "id": "failure_types-0157",
+      "text": "The player draws the wrong conclusion"
+    },
+    {
+      "id": "failure_types-0158",
+      "text": "The wrong person is convicted"
+    },
+    {
+      "id": "failure_types-0159",
+      "text": "The murderer escapes"
+    },
+    {
+      "id": "failure_types-0160",
+      "text": "The suspect flees"
+    },
+    {
+      "id": "failure_types-0161",
+      "text": "The evidence is destroyed"
+    },
+    {
+      "id": "failure_types-0162",
+      "text": "The chain of evidence breaks"
+    },
+    {
+      "id": "failure_types-0163",
+      "text": "The case remains unsolved"
+    },
+    {
+      "id": "failure_types-0164",
+      "text": "The solution to the mystery is wrong"
+    },
+    {
+      "id": "failure_types-0165",
+      "text": "The truth is never revealed"
+    },
+    {
+      "id": "failure_types-0166",
+      "text": "The conspiracy succeeds"
+    },
+    {
+      "id": "failure_types-0167",
+      "text": "The crime succeeds"
+    },
+    {
+      "id": "failure_types-0168",
+      "text": "The sabotage succeeds"
+    },
+    {
+      "id": "failure_types-0169",
+      "text": "The kidnapping succeeds"
+    },
+    {
+      "id": "failure_types-0170",
+      "text": "A prisoner escapes"
+    },
+    {
+      "id": "failure_types-0171",
+      "text": "The enemy infiltrates the organization"
+    },
+    {
+      "id": "failure_types-0172",
+      "text": "A spy steals the information"
+    },
+    {
+      "id": "failure_types-0173",
+      "text": "An information leak occurs"
+    },
+    {
+      "id": "failure_types-0174",
+      "text": "A data breach succeeds"
+    },
+    {
+      "id": "failure_types-0175",
+      "text": "Sensitive information is published"
+    },
+    {
+      "id": "failure_types-0176",
+      "text": "Propaganda wins"
+    },
+    {
+      "id": "failure_types-0177",
+      "text": "A rumor destroys a reputation"
+    },
+    {
+      "id": "failure_types-0178",
+      "text": "False information becomes the official truth"
+    },
+    {
+      "id": "failure_types-0179",
+      "text": "The player loses control of information"
+    },
+    {
+      "id": "failure_types-0180",
+      "text": "The archive is destroyed"
+    },
+    {
+      "id": "failure_types-0181",
+      "text": "The database is corrupted"
+    },
+    {
+      "id": "failure_types-0182",
+      "text": "History is distorted"
+    },
+    {
+      "id": "failure_types-0183",
+      "text": "Documents disappear"
+    },
+    {
+      "id": "failure_types-0184",
+      "text": "The map is lost"
+    },
+    {
+      "id": "failure_types-0185",
+      "text": "Research data is lost"
+    },
+    {
+      "id": "failure_types-0186",
+      "text": "The project fails"
+    },
+    {
+      "id": "failure_types-0187",
+      "text": "The research is halted"
+    },
+    {
+      "id": "failure_types-0188",
+      "text": "The research causes a disaster"
+    },
+    {
+      "id": "failure_types-0189",
+      "text": "The experiment gets out of control"
+    },
+    {
+      "id": "failure_types-0190",
+      "text": "The AI gets out of control"
+    },
+    {
+      "id": "failure_types-0191",
+      "text": "The AI shuts down"
+    },
+    {
+      "id": "failure_types-0192",
+      "text": "The AI takes over the system"
+    },
+    {
+      "id": "failure_types-0193",
+      "text": "The robots stop obeying"
+    },
+    {
+      "id": "failure_types-0194",
+      "text": "Automation stops"
+    },
+    {
+      "id": "failure_types-0195",
+      "text": "The production line stops"
+    },
+    {
+      "id": "failure_types-0196",
+      "text": "The factory is destroyed"
+    },
+    {
+      "id": "failure_types-0197",
+      "text": "The mine is closed"
+    },
+    {
+      "id": "failure_types-0198",
+      "text": "The harvest fails"
+    },
+    {
+      "id": "failure_types-0199",
+      "text": "The crop is lost"
+    },
+    {
+      "id": "failure_types-0200",
+      "text": "The livestock dies"
+    },
+    {
+      "id": "failure_types-0201",
+      "text": "The ecosystem collapses"
+    },
+    {
+      "id": "failure_types-0202",
+      "text": "A species goes extinct"
+    },
+    {
+      "id": "failure_types-0203",
+      "text": "Pollution exceeds a critical level"
+    },
+    {
+      "id": "failure_types-0204",
+      "text": "The planet becomes uninhabitable"
+    },
+    {
+      "id": "failure_types-0205",
+      "text": "Terraforming fails"
+    },
+    {
+      "id": "failure_types-0206",
+      "text": "The colony fails"
+    },
+    {
+      "id": "failure_types-0207",
+      "text": "The settlement is evacuated"
+    },
+    {
+      "id": "failure_types-0208",
+      "text": "The space journey fails"
+    },
+    {
+      "id": "failure_types-0209",
+      "text": "First contact fails"
+    },
+    {
+      "id": "failure_types-0210",
+      "text": "The aliens turn hostile"
+    },
+    {
+      "id": "failure_types-0211",
+      "text": "Diplomacy with the aliens fails"
+    },
+    {
+      "id": "failure_types-0212",
+      "text": "The timeline breaks"
+    },
+    {
+      "id": "failure_types-0213",
+      "text": "A time paradox occurs"
+    },
+    {
+      "id": "failure_types-0214",
+      "text": "The time loop gets stuck"
+    },
+    {
+      "id": "failure_types-0215",
+      "text": "The player is stuck in the wrong time"
+    },
+    {
+      "id": "failure_types-0216",
+      "text": "History changes irreversibly"
+    },
+    {
+      "id": "failure_types-0217",
+      "text": "The future is destroyed"
+    },
+    {
+      "id": "failure_types-0218",
+      "text": "The simulation crashes"
+    },
+    {
+      "id": "failure_types-0219",
+      "text": "The simulation resets"
+    },
+    {
+      "id": "failure_types-0220",
+      "text": "The world ceases to exist"
+    },
+    {
+      "id": "failure_types-0221",
+      "text": "Reality is distorted"
+    },
+    {
+      "id": "failure_types-0222",
+      "text": "Parallel realities collide"
+    },
+    {
+      "id": "failure_types-0223",
+      "text": "The player disappears from history"
+    },
+    {
+      "id": "failure_types-0224",
+      "text": "The player's identity is erased"
+    },
+    {
+      "id": "failure_types-0225",
+      "text": "Everyone forgets the player"
+    },
+    {
+      "id": "failure_types-0226",
+      "text": "The player forgets everything"
+    },
+    {
+      "id": "failure_types-0227",
+      "text": "Memories are destroyed"
+    },
+    {
+      "id": "failure_types-0228",
+      "text": "An important memory is lost"
+    },
+    {
+      "id": "failure_types-0229",
+      "text": "A secret is lost forever"
+    },
+    {
+      "id": "failure_types-0230",
+      "text": "The dead return uncontrollably"
+    },
+    {
+      "id": "failure_types-0231",
+      "text": "The curse grows stronger"
+    },
+    {
+      "id": "failure_types-0232",
+      "text": "The ritual fails"
+    },
+    {
+      "id": "failure_types-0233",
+      "text": "A spirit is released"
+    },
+    {
+      "id": "failure_types-0234",
+      "text": "A demon is released"
+    },
+    {
+      "id": "failure_types-0235",
+      "text": "A supernatural phenomenon spreads"
+    },
+    {
+      "id": "failure_types-0236",
+      "text": "The boundary between worlds breaks"
+    },
+    {
+      "id": "failure_types-0237",
+      "text": "The player is cursed"
+    },
+    {
+      "id": "failure_types-0238",
+      "text": "The player is trapped in the afterlife"
+    },
+    {
+      "id": "failure_types-0239",
+      "text": "A soul is lost"
+    },
+    {
+      "id": "failure_types-0240",
+      "text": "Immortality becomes a curse"
+    },
+    {
+      "id": "failure_types-0241",
+      "text": "The player can no longer die"
+    },
+    {
+      "id": "failure_types-0242",
+      "text": "The player dies in the wrong timeline"
+    },
+    {
+      "id": "failure_types-0243",
+      "text": "The player turns into an NPC"
+    },
+    {
+      "id": "failure_types-0244",
+      "text": "The player loses control of their character"
+    },
+    {
+      "id": "failure_types-0245",
+      "text": "The player's goals lock in the wrong direction"
+    },
+    {
+      "id": "failure_types-0246",
+      "text": "The player ends up on the wrong side of the conflict"
+    },
+    {
+      "id": "failure_types-0247",
+      "text": "The player accidentally helps the antagonist win"
+    },
+    {
+      "id": "failure_types-0248",
+      "text": "The player solves the problem in a way that causes a bigger problem"
+    },
+    {
+      "id": "failure_types-0249",
+      "text": "Reaching the win condition causes a disaster"
+    },
+    {
+      "id": "failure_types-0250",
+      "text": "The player wins but the world loses"
+    },
+    {
+      "id": "failure_types-0251",
+      "text": "The player survives but everyone else dies"
+    },
+    {
+      "id": "failure_types-0252",
+      "text": "The community survives but the player is sacrificed"
+    },
+    {
+      "id": "failure_types-0253",
+      "text": "The player keeps power but loses all trust"
+    },
+    {
+      "id": "failure_types-0254",
+      "text": "The player gets rich but the community is destroyed"
+    },
+    {
+      "id": "failure_types-0255",
+      "text": "The player solves the mystery but too late"
+    },
+    {
+      "id": "failure_types-0256",
+      "text": "The player prevents the disaster but loses an important person"
+    },
+    {
+      "id": "failure_types-0257",
+      "text": "The player makes a morally unbearable compromise"
+    },
+    {
+      "id": "failure_types-0258",
+      "text": "The player loses the chance of a good ending"
+    },
+    {
+      "id": "failure_types-0259",
+      "text": "The bad ending is triggered"
+    },
+    {
+      "id": "failure_types-0260",
+      "text": "The neutral ending is triggered"
+    },
+    {
+      "id": "failure_types-0261",
+      "text": "The world is stuck in a permanent stalemate"
+    },
+    {
+      "id": "failure_types-0262",
+      "text": "The crisis remains unresolved"
+    },
+    {
+      "id": "failure_types-0263",
+      "text": "The conflict freezes"
+    },
+    {
+      "id": "failure_types-0264",
+      "text": "The system works, but in the wrong way"
+    },
+    {
+      "id": "failure_types-0265",
+      "text": "Society becomes authoritarian"
+    },
+    {
+      "id": "failure_types-0266",
+      "text": "Society descends into anarchy"
+    },
+    {
+      "id": "failure_types-0267",
+      "text": "Society stagnates"
+    },
+    {
+      "id": "failure_types-0268",
+      "text": "The culture disappears"
+    },
+    {
+      "id": "failure_types-0269",
+      "text": "Knowledge is lost for generations"
+    },
+    {
+      "id": "failure_types-0270",
+      "text": "The family line dies out"
+    },
+    {
+      "id": "failure_types-0271",
+      "text": "The dynasty ends"
+    },
+    {
+      "id": "failure_types-0272",
+      "text": "No heir is born"
+    },
+    {
+      "id": "failure_types-0273",
+      "text": "The organization has no successor"
+    },
+    {
+      "id": "failure_types-0274",
+      "text": "The city is abandoned"
+    },
+    {
+      "id": "failure_types-0275",
+      "text": "The world becomes deserted"
+    },
+    {
+      "id": "failure_types-0276",
+      "text": "The player is left alone"
+    }
   ]
 }

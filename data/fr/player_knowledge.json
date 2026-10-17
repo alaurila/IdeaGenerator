@@ -1,238 +1,940 @@
 {
   "player_knowledge": [
-    "Tu vois tout",
-    "Tu ne sais que ce qui concerne ton propre rôle",
-    "L'information arrive sous forme de rapports",
-    "Les PNJ mentent",
-    "Une partie des données n'est pas fiable",
-    "Tu ne vois que ta propre position",
-    "Tu ne vois que les informations de ta propre organisation",
-    "Tu ne vois que ce que ton personnage pourrait savoir de façon réaliste",
-    "Tu vois le monde d'un point de vue divin",
-    "Tu vois la carte mais pas les événements",
-    "Tu vois les événements mais pas leurs causes",
-    "Tu vois les conséquences mais pas les décisions qui les ont provoquées",
-    "Tu vois les décisions mais pas leurs conséquences à l'avance",
-    "Tu vois toutes les ressources avec précision",
-    "Tu ne vois les ressources que sous forme d'estimations",
-    "Tu vois les ressources avec un temps de retard",
-    "Tu ne vois que les indicateurs les plus importants",
-    "Certains indicateurs sont cachés",
-    "Certains indicateurs affichent de fausses informations",
-    "Les indicateurs sont arrondis",
-    "Les indicateurs peuvent être obsolètes",
-    "Les indicateurs dépendent de la qualité des rapports",
-    "L'information arrive par des rumeurs",
-    "L'information arrive par les journaux",
-    "L'information arrive par la radio",
-    "L'information arrive par e-mail",
-    "L'information arrive par courrier",
-    "L'information arrive par téléphone",
-    "L'information arrive par des conversations",
-    "L'information arrive des caméras de surveillance",
-    "L'information arrive des capteurs",
-    "L'information arrive des rapports de renseignement",
-    "L'information arrive des rapports des employés",
-    "L'information arrive des signalements des citoyens",
-    "L'information arrive des documents officiels",
-    "L'information arrive de sources officieuses",
-    "L'information arrive de plusieurs sources contradictoires",
-    "Tu dois reconstituer toi-même l'information à partir de différentes sources",
-    "Tu n'obtiens de l'information qu'en interrogeant les bonnes personnes",
-    "Tu n'obtiens de l'information qu'en examinant l'environnement",
-    "Tu n'obtiens de l'information qu'en y consacrant du temps",
-    "Tu n'obtiens de l'information qu'en payant",
-    "Tu obtiens de l'information en échange de faveurs",
-    "Tu obtiens de l'information par le chantage",
-    "Tu obtiens de l'information par l'espionnage",
-    "Tu obtiens de l'information en piratant des systèmes",
-    "Tu obtiens de l'information par la recherche",
-    "Tu obtiens de l'information par hasard",
-    "L'information n'est disponible qu'à certains endroits",
-    "L'information n'est disponible qu'à certains moments",
-    "L'information n'est disponible qu'auprès de certaines factions",
-    "L'information est classée par niveau de sécurité",
-    "L'accès à l'information dépend de ton poste",
-    "L'accès à l'information dépend de ta réputation",
-    "L'accès à l'information dépend de la confiance",
-    "L'accès à l'information dépend de l'argent",
-    "L'accès à l'information dépend des relations",
-    "L'accès à l'information dépend du pouvoir politique",
-    "L'accès à l'information dépend des compétences techniques",
-    "L'accès à l'information dépend de la position physique",
-    "Le joueur en sait plus que le personnage",
-    "Le personnage en sait plus que le joueur",
-    "Le joueur et le personnage savent des choses différentes",
-    "Le joueur obtient des informations que le personnage ne peut pas utiliser directement",
-    "Le joueur doit faire semblant de ne rien savoir",
-    "Le joueur ne connaît pas ses véritables objectifs",
-    "Le joueur ne connaît pas sa propre identité",
-    "Le joueur ne sait pas qui lui donne les ordres",
-    "Le joueur ne sait pas pourquoi la mission est importante",
-    "Le joueur ne sait pas si les consignes sont vraies",
-    "Le joueur ne sait pas qui est un allié",
-    "Le joueur ne sait pas qui est un ennemi",
-    "Le joueur ne sait pas qui ment",
-    "Le joueur ne sait pas qui dit la vérité",
-    "Le joueur ne sait pas quels PNJ se connaissent",
-    "Le joueur ne connaît pas les véritables objectifs des PNJ",
-    "Le joueur ne connaît pas les opinions des PNJ",
-    "Le joueur ne connaît pas la loyauté des PNJ",
-    "Le joueur ne sait pas ce que craignent les PNJ",
-    "Le joueur ne connaît pas les secrets des PNJ",
-    "Le joueur ne connaît pas la situation financière des PNJ",
-    "Le joueur ne sait pas où se trouvent les PNJ",
-    "Le joueur ne voit que parfois où se trouvent les PNJ",
-    "Il faut apprendre les emplois du temps des PNJ",
-    "Il faut déduire les relations des PNJ",
-    "Il faut déduire les motivations des PNJ",
-    "Il faut deviner l'état d'esprit des PNJ",
-    "Les PNJ peuvent mentir ouvertement",
-    "Les PNJ peuvent passer des choses sous silence",
-    "Les PNJ peuvent se souvenir de travers",
-    "Les PNJ peuvent mal interpréter les événements",
-    "Les PNJ peuvent croire aux rumeurs",
-    "Les PNJ peuvent transmettre de fausses informations sans le vouloir",
-    "Les PNJ peuvent diffuser de la désinformation exprès",
-    "Les PNJ peuvent changer de version",
-    "Les PNJ peuvent s'entendre sur un mensonge commun",
-    "Les PNJ peuvent faire des témoignages contradictoires",
-    "Il faut évaluer la fiabilité de chaque PNJ",
-    "Ce que sait un PNJ dépend de son poste",
-    "Ce que sait un PNJ dépend de sa position",
-    "Ce que sait un PNJ dépend de ses relations",
-    "L'information d'un PNJ peut être obsolète",
-    "Les PNJ savent sur le joueur des choses que le joueur ignore",
-    "Les PNJ peuvent en savoir plus que le joueur",
-    "Les PNJ peuvent en savoir moins qu'ils ne le croient",
-    "Les PNJ peuvent se cacher des informations entre eux",
-    "Les PNJ partagent des informations entre eux",
-    "L'information circule à travers le réseau social",
-    "Les rumeurs changent en se propageant",
-    "L'information se déforme à chaque intermédiaire",
-    "Le joueur voit d'où vient l'information",
-    "Le joueur ne voit pas d'où vient l'information",
-    "Le joueur voit une note de fiabilité pour chaque source",
-    "Le joueur doit juger lui-même la fiabilité des sources",
-    "La fiabilité d'une source peut changer",
-    "Une source fiable peut mentir une fois",
-    "Une source peu fiable peut parfois être la seule à avoir raison",
-    "L'information officielle est généralement fiable",
-    "L'information officielle peut être de la propagande",
-    "L'information officielle est délibérément fausse",
-    "L'information officieuse peut valoir plus que l'information officielle",
-    "L'information secrète peut être fausse",
-    "L'information classifiée n'est pas forcément vraie",
-    "Plusieurs informations contradictoires peuvent être en partie vraies",
-    "On ne peut jamais connaître la vérité avec certitude",
-    "La vérité peut être entièrement découverte",
-    "La vérité ne peut être découverte qu'avec suffisamment de preuves",
-    "La vérité change au cours du jeu",
-    "La vérité dépend du point de vue",
-    "La vérité dépend de qui interprète les faits",
-    "Le joueur doit construire sa propre théorie",
-    "Le joueur doit noter lui-même ses soupçons",
-    "Le joueur doit relier les indices",
-    "Le joueur doit établir une chronologie",
-    "Le joueur doit établir un arbre généalogique",
-    "Le joueur doit établir un réseau de relations",
-    "Le joueur doit tenir son propre carnet de notes",
-    "Le jeu tient une base de données automatique des découvertes",
-    "La base de données du jeu contient aussi de fausses informations",
-    "Le joueur peut corriger les entrées de la base de données",
-    "Le joueur peut marquer une information comme confirmée",
-    "Le joueur peut marquer une information comme suspecte",
-    "Le joueur peut rattacher des sources à une même affirmation",
-    "Le joueur peut oublier des informations avec le temps",
-    "Le personnage peut oublier des informations",
-    "La mémoire est une ressource limitée",
-    "La mémoire peut être déformée",
-    "La mémoire peut être manipulée",
-    "Les souvenirs peuvent se perdre",
-    "Les souvenirs peuvent revenir plus tard",
-    "Le joueur a des flashbacks",
-    "Les flashbacks peuvent ne pas être fiables",
-    "Les rêves contiennent des indices",
-    "Les rêves contiennent des informations vraies et fausses",
-    "Les hallucinations se mêlent à la réalité",
-    "Le joueur ne sait pas toujours si un événement est réel",
-    "La carte ne montre que les zones connues",
-    "La carte se met à jour en explorant",
-    "La carte peut être inexacte",
-    "La carte peut être obsolète",
-    "La carte peut être délibérément fausse",
-    "Les informations de la carte dépendent de son auteur",
-    "Le joueur ne voit que son champ de vision",
-    "Le brouillard de guerre masque les zones inconnues",
-    "Le brouillard de guerre revient sur les zones avec le temps",
-    "Le joueur se souvient des zones déjà vues",
-    "Le joueur ne sait pas ce qui se passe ailleurs dans le monde",
-    "Les événements du monde ne sont connus qu'après coup",
-    "Les événements du monde apparaissent sous forme d'actualités",
-    "Les événements du monde apparaissent comme des changements de ressources",
-    "Les événements du monde se reflètent dans le comportement des PNJ",
-    "Les événements du monde doivent être déduits indirectement",
-    "Le joueur voit tous les événements stratégiques",
-    "Le joueur ne voit que les rapports de sa propre faction",
-    "Le joueur ne voit les informations ennemies que grâce au renseignement",
-    "Le nombre d'unités ennemies apparaît sous forme d'estimation",
-    "Les ressources de l'ennemi sont inconnues",
-    "Les plans de l'ennemi peuvent être interceptés",
-    "Le renseignement peut se tromper",
-    "Les espions peuvent injecter de fausses informations",
-    "La propre organisation du joueur peut fausser les rapports",
-    "Les subordonnés cachent les mauvaises nouvelles",
-    "Les subordonnés embellissent les statistiques",
-    "Les statistiques peuvent sembler bonnes même quand la situation est mauvaise",
-    "Les indicateurs peuvent être manipulés",
-    "Le joueur ne voit que des chiffres agrégés",
-    "Le joueur peut entrer dans le détail",
-    "L'information détaillée coûte du temps",
-    "L'information détaillée coûte des ressources",
-    "Trop d'information submerge le joueur",
-    "Le joueur doit choisir ce qu'il suit",
-    "On ne peut pas tout suivre à la fois",
-    "Des événements importants peuvent passer inaperçus",
-    "Il y a trop d'alertes",
-    "Le joueur doit hiérarchiser les rapports",
-    "Certains rapports sont inutiles",
-    "Certains rapports qui semblent inutiles contiennent des indices cruciaux",
-    "L'information arrive avec du retard",
-    "L'information peut se perdre en route",
-    "Un message peut changer en route",
-    "La communication peut être coupée",
-    "La communication ne fonctionne qu'à certains moments",
-    "La communication a une portée limitée",
-    "L'information doit être transportée physiquement",
-    "Un messager peut disparaître",
-    "Un document peut être un faux",
-    "Un document peut avoir été modifié",
-    "Une signature peut être falsifiée",
-    "Un horodatage peut être erroné",
-    "Une photo peut avoir été manipulée",
-    "Les enregistrements vidéo peuvent être incomplets",
-    "Les caméras de surveillance ne montrent pas tout",
-    "Les caméras de surveillance ont des angles morts",
-    "Les caméras peuvent être sabotées",
-    "Les images des caméras peuvent être falsifiées",
-    "Un capteur peut être cassé",
-    "Un capteur peut donner de faux positifs",
-    "Un capteur peut laisser passer des choses",
-    "Il faut comparer plusieurs capteurs entre eux",
-    "Tu n'obtiens d'informations que sur les événements que tu choisis d'examiner",
-    "L'information non examinée est perdue",
-    "Le joueur ne peut poser qu'un nombre limité de questions",
-    "Le joueur ne peut interroger qu'une partie des PNJ",
-    "Le joueur ne peut pas revenir sur toutes ses décisions",
-    "Une mauvaise conclusion peut verrouiller la bonne information",
-    "L'information ouvre de nouvelles questions",
-    "Une nouvelle information peut renverser une ancienne théorie",
-    "L'information peut changer l'objectif de la mission",
-    "L'information peut révéler un nouvel ennemi",
-    "L'information peut révéler qu'il n'y a aucun ennemi",
-    "À la fin, le joueur sait presque tout",
-    "À la fin, le joueur ne connaît qu'une partie de la vérité",
-    "Une part d'ambiguïté volontaire subsiste à la fin du jeu",
-    "Le joueur doit prendre la décision finale sur la base d'informations incertaines"
+    {
+      "id": "player_knowledge-0001",
+      "text": "Tu vois tout"
+    },
+    {
+      "id": "player_knowledge-0002",
+      "text": "Tu ne sais que ce qui concerne ton propre rôle"
+    },
+    {
+      "id": "player_knowledge-0003",
+      "text": "L'information arrive sous forme de rapports"
+    },
+    {
+      "id": "player_knowledge-0004",
+      "text": "Les PNJ mentent"
+    },
+    {
+      "id": "player_knowledge-0005",
+      "text": "Une partie des données n'est pas fiable"
+    },
+    {
+      "id": "player_knowledge-0006",
+      "text": "Tu ne vois que ta propre position"
+    },
+    {
+      "id": "player_knowledge-0007",
+      "text": "Tu ne vois que les informations de ta propre organisation"
+    },
+    {
+      "id": "player_knowledge-0008",
+      "text": "Tu ne vois que ce que ton personnage pourrait savoir de façon réaliste"
+    },
+    {
+      "id": "player_knowledge-0009",
+      "text": "Tu vois le monde d'un point de vue divin"
+    },
+    {
+      "id": "player_knowledge-0010",
+      "text": "Tu vois la carte mais pas les événements"
+    },
+    {
+      "id": "player_knowledge-0011",
+      "text": "Tu vois les événements mais pas leurs causes"
+    },
+    {
+      "id": "player_knowledge-0012",
+      "text": "Tu vois les conséquences mais pas les décisions qui les ont provoquées"
+    },
+    {
+      "id": "player_knowledge-0013",
+      "text": "Tu vois les décisions mais pas leurs conséquences à l'avance"
+    },
+    {
+      "id": "player_knowledge-0014",
+      "text": "Tu vois toutes les ressources avec précision"
+    },
+    {
+      "id": "player_knowledge-0015",
+      "text": "Tu ne vois les ressources que sous forme d'estimations"
+    },
+    {
+      "id": "player_knowledge-0016",
+      "text": "Tu vois les ressources avec un temps de retard"
+    },
+    {
+      "id": "player_knowledge-0017",
+      "text": "Tu ne vois que les indicateurs les plus importants"
+    },
+    {
+      "id": "player_knowledge-0018",
+      "text": "Certains indicateurs sont cachés"
+    },
+    {
+      "id": "player_knowledge-0019",
+      "text": "Certains indicateurs affichent de fausses informations"
+    },
+    {
+      "id": "player_knowledge-0020",
+      "text": "Les indicateurs sont arrondis"
+    },
+    {
+      "id": "player_knowledge-0021",
+      "text": "Les indicateurs peuvent être obsolètes"
+    },
+    {
+      "id": "player_knowledge-0022",
+      "text": "Les indicateurs dépendent de la qualité des rapports"
+    },
+    {
+      "id": "player_knowledge-0023",
+      "text": "L'information arrive par des rumeurs"
+    },
+    {
+      "id": "player_knowledge-0024",
+      "text": "L'information arrive par les journaux"
+    },
+    {
+      "id": "player_knowledge-0025",
+      "text": "L'information arrive par la radio"
+    },
+    {
+      "id": "player_knowledge-0026",
+      "text": "L'information arrive par e-mail"
+    },
+    {
+      "id": "player_knowledge-0027",
+      "text": "L'information arrive par courrier"
+    },
+    {
+      "id": "player_knowledge-0028",
+      "text": "L'information arrive par téléphone"
+    },
+    {
+      "id": "player_knowledge-0029",
+      "text": "L'information arrive par des conversations"
+    },
+    {
+      "id": "player_knowledge-0030",
+      "text": "L'information arrive des caméras de surveillance"
+    },
+    {
+      "id": "player_knowledge-0031",
+      "text": "L'information arrive des capteurs"
+    },
+    {
+      "id": "player_knowledge-0032",
+      "text": "L'information arrive des rapports de renseignement"
+    },
+    {
+      "id": "player_knowledge-0033",
+      "text": "L'information arrive des rapports des employés"
+    },
+    {
+      "id": "player_knowledge-0034",
+      "text": "L'information arrive des signalements des citoyens"
+    },
+    {
+      "id": "player_knowledge-0035",
+      "text": "L'information arrive des documents officiels"
+    },
+    {
+      "id": "player_knowledge-0036",
+      "text": "L'information arrive de sources officieuses"
+    },
+    {
+      "id": "player_knowledge-0037",
+      "text": "L'information arrive de plusieurs sources contradictoires"
+    },
+    {
+      "id": "player_knowledge-0038",
+      "text": "Tu dois reconstituer toi-même l'information à partir de différentes sources"
+    },
+    {
+      "id": "player_knowledge-0039",
+      "text": "Tu n'obtiens de l'information qu'en interrogeant les bonnes personnes"
+    },
+    {
+      "id": "player_knowledge-0040",
+      "text": "Tu n'obtiens de l'information qu'en examinant l'environnement"
+    },
+    {
+      "id": "player_knowledge-0041",
+      "text": "Tu n'obtiens de l'information qu'en y consacrant du temps"
+    },
+    {
+      "id": "player_knowledge-0042",
+      "text": "Tu n'obtiens de l'information qu'en payant"
+    },
+    {
+      "id": "player_knowledge-0043",
+      "text": "Tu obtiens de l'information en échange de faveurs"
+    },
+    {
+      "id": "player_knowledge-0044",
+      "text": "Tu obtiens de l'information par le chantage"
+    },
+    {
+      "id": "player_knowledge-0045",
+      "text": "Tu obtiens de l'information par l'espionnage"
+    },
+    {
+      "id": "player_knowledge-0046",
+      "text": "Tu obtiens de l'information en piratant des systèmes"
+    },
+    {
+      "id": "player_knowledge-0047",
+      "text": "Tu obtiens de l'information par la recherche"
+    },
+    {
+      "id": "player_knowledge-0048",
+      "text": "Tu obtiens de l'information par hasard"
+    },
+    {
+      "id": "player_knowledge-0049",
+      "text": "L'information n'est disponible qu'à certains endroits"
+    },
+    {
+      "id": "player_knowledge-0050",
+      "text": "L'information n'est disponible qu'à certains moments"
+    },
+    {
+      "id": "player_knowledge-0051",
+      "text": "L'information n'est disponible qu'auprès de certaines factions"
+    },
+    {
+      "id": "player_knowledge-0052",
+      "text": "L'information est classée par niveau de sécurité"
+    },
+    {
+      "id": "player_knowledge-0053",
+      "text": "L'accès à l'information dépend de ton poste"
+    },
+    {
+      "id": "player_knowledge-0054",
+      "text": "L'accès à l'information dépend de ta réputation"
+    },
+    {
+      "id": "player_knowledge-0055",
+      "text": "L'accès à l'information dépend de la confiance"
+    },
+    {
+      "id": "player_knowledge-0056",
+      "text": "L'accès à l'information dépend de l'argent"
+    },
+    {
+      "id": "player_knowledge-0057",
+      "text": "L'accès à l'information dépend des relations"
+    },
+    {
+      "id": "player_knowledge-0058",
+      "text": "L'accès à l'information dépend du pouvoir politique"
+    },
+    {
+      "id": "player_knowledge-0059",
+      "text": "L'accès à l'information dépend des compétences techniques"
+    },
+    {
+      "id": "player_knowledge-0060",
+      "text": "L'accès à l'information dépend de la position physique"
+    },
+    {
+      "id": "player_knowledge-0061",
+      "text": "Le joueur en sait plus que le personnage"
+    },
+    {
+      "id": "player_knowledge-0062",
+      "text": "Le personnage en sait plus que le joueur"
+    },
+    {
+      "id": "player_knowledge-0063",
+      "text": "Le joueur et le personnage savent des choses différentes"
+    },
+    {
+      "id": "player_knowledge-0064",
+      "text": "Le joueur obtient des informations que le personnage ne peut pas utiliser directement"
+    },
+    {
+      "id": "player_knowledge-0065",
+      "text": "Le joueur doit faire semblant de ne rien savoir"
+    },
+    {
+      "id": "player_knowledge-0066",
+      "text": "Le joueur ne connaît pas ses véritables objectifs"
+    },
+    {
+      "id": "player_knowledge-0067",
+      "text": "Le joueur ne connaît pas sa propre identité"
+    },
+    {
+      "id": "player_knowledge-0068",
+      "text": "Le joueur ne sait pas qui lui donne les ordres"
+    },
+    {
+      "id": "player_knowledge-0069",
+      "text": "Le joueur ne sait pas pourquoi la mission est importante"
+    },
+    {
+      "id": "player_knowledge-0070",
+      "text": "Le joueur ne sait pas si les consignes sont vraies"
+    },
+    {
+      "id": "player_knowledge-0071",
+      "text": "Le joueur ne sait pas qui est un allié"
+    },
+    {
+      "id": "player_knowledge-0072",
+      "text": "Le joueur ne sait pas qui est un ennemi"
+    },
+    {
+      "id": "player_knowledge-0073",
+      "text": "Le joueur ne sait pas qui ment"
+    },
+    {
+      "id": "player_knowledge-0074",
+      "text": "Le joueur ne sait pas qui dit la vérité"
+    },
+    {
+      "id": "player_knowledge-0075",
+      "text": "Le joueur ne sait pas quels PNJ se connaissent"
+    },
+    {
+      "id": "player_knowledge-0076",
+      "text": "Le joueur ne connaît pas les véritables objectifs des PNJ"
+    },
+    {
+      "id": "player_knowledge-0077",
+      "text": "Le joueur ne connaît pas les opinions des PNJ"
+    },
+    {
+      "id": "player_knowledge-0078",
+      "text": "Le joueur ne connaît pas la loyauté des PNJ"
+    },
+    {
+      "id": "player_knowledge-0079",
+      "text": "Le joueur ne sait pas ce que craignent les PNJ"
+    },
+    {
+      "id": "player_knowledge-0080",
+      "text": "Le joueur ne connaît pas les secrets des PNJ"
+    },
+    {
+      "id": "player_knowledge-0081",
+      "text": "Le joueur ne connaît pas la situation financière des PNJ"
+    },
+    {
+      "id": "player_knowledge-0082",
+      "text": "Le joueur ne sait pas où se trouvent les PNJ"
+    },
+    {
+      "id": "player_knowledge-0083",
+      "text": "Le joueur ne voit que parfois où se trouvent les PNJ"
+    },
+    {
+      "id": "player_knowledge-0084",
+      "text": "Il faut apprendre les emplois du temps des PNJ"
+    },
+    {
+      "id": "player_knowledge-0085",
+      "text": "Il faut déduire les relations des PNJ"
+    },
+    {
+      "id": "player_knowledge-0086",
+      "text": "Il faut déduire les motivations des PNJ"
+    },
+    {
+      "id": "player_knowledge-0087",
+      "text": "Il faut deviner l'état d'esprit des PNJ"
+    },
+    {
+      "id": "player_knowledge-0088",
+      "text": "Les PNJ peuvent mentir ouvertement"
+    },
+    {
+      "id": "player_knowledge-0089",
+      "text": "Les PNJ peuvent passer des choses sous silence"
+    },
+    {
+      "id": "player_knowledge-0090",
+      "text": "Les PNJ peuvent se souvenir de travers"
+    },
+    {
+      "id": "player_knowledge-0091",
+      "text": "Les PNJ peuvent mal interpréter les événements"
+    },
+    {
+      "id": "player_knowledge-0092",
+      "text": "Les PNJ peuvent croire aux rumeurs"
+    },
+    {
+      "id": "player_knowledge-0093",
+      "text": "Les PNJ peuvent transmettre de fausses informations sans le vouloir"
+    },
+    {
+      "id": "player_knowledge-0094",
+      "text": "Les PNJ peuvent diffuser de la désinformation exprès"
+    },
+    {
+      "id": "player_knowledge-0095",
+      "text": "Les PNJ peuvent changer de version"
+    },
+    {
+      "id": "player_knowledge-0096",
+      "text": "Les PNJ peuvent s'entendre sur un mensonge commun"
+    },
+    {
+      "id": "player_knowledge-0097",
+      "text": "Les PNJ peuvent faire des témoignages contradictoires"
+    },
+    {
+      "id": "player_knowledge-0098",
+      "text": "Il faut évaluer la fiabilité de chaque PNJ"
+    },
+    {
+      "id": "player_knowledge-0099",
+      "text": "Ce que sait un PNJ dépend de son poste"
+    },
+    {
+      "id": "player_knowledge-0100",
+      "text": "Ce que sait un PNJ dépend de sa position"
+    },
+    {
+      "id": "player_knowledge-0101",
+      "text": "Ce que sait un PNJ dépend de ses relations"
+    },
+    {
+      "id": "player_knowledge-0102",
+      "text": "L'information d'un PNJ peut être obsolète"
+    },
+    {
+      "id": "player_knowledge-0103",
+      "text": "Les PNJ savent sur le joueur des choses que le joueur ignore"
+    },
+    {
+      "id": "player_knowledge-0104",
+      "text": "Les PNJ peuvent en savoir plus que le joueur"
+    },
+    {
+      "id": "player_knowledge-0105",
+      "text": "Les PNJ peuvent en savoir moins qu'ils ne le croient"
+    },
+    {
+      "id": "player_knowledge-0106",
+      "text": "Les PNJ peuvent se cacher des informations entre eux"
+    },
+    {
+      "id": "player_knowledge-0107",
+      "text": "Les PNJ partagent des informations entre eux"
+    },
+    {
+      "id": "player_knowledge-0108",
+      "text": "L'information circule à travers le réseau social"
+    },
+    {
+      "id": "player_knowledge-0109",
+      "text": "Les rumeurs changent en se propageant"
+    },
+    {
+      "id": "player_knowledge-0110",
+      "text": "L'information se déforme à chaque intermédiaire"
+    },
+    {
+      "id": "player_knowledge-0111",
+      "text": "Le joueur voit d'où vient l'information"
+    },
+    {
+      "id": "player_knowledge-0112",
+      "text": "Le joueur ne voit pas d'où vient l'information"
+    },
+    {
+      "id": "player_knowledge-0113",
+      "text": "Le joueur voit une note de fiabilité pour chaque source"
+    },
+    {
+      "id": "player_knowledge-0114",
+      "text": "Le joueur doit juger lui-même la fiabilité des sources"
+    },
+    {
+      "id": "player_knowledge-0115",
+      "text": "La fiabilité d'une source peut changer"
+    },
+    {
+      "id": "player_knowledge-0116",
+      "text": "Une source fiable peut mentir une fois"
+    },
+    {
+      "id": "player_knowledge-0117",
+      "text": "Une source peu fiable peut parfois être la seule à avoir raison"
+    },
+    {
+      "id": "player_knowledge-0118",
+      "text": "L'information officielle est généralement fiable"
+    },
+    {
+      "id": "player_knowledge-0119",
+      "text": "L'information officielle peut être de la propagande"
+    },
+    {
+      "id": "player_knowledge-0120",
+      "text": "L'information officielle est délibérément fausse"
+    },
+    {
+      "id": "player_knowledge-0121",
+      "text": "L'information officieuse peut valoir plus que l'information officielle"
+    },
+    {
+      "id": "player_knowledge-0122",
+      "text": "L'information secrète peut être fausse"
+    },
+    {
+      "id": "player_knowledge-0123",
+      "text": "L'information classifiée n'est pas forcément vraie"
+    },
+    {
+      "id": "player_knowledge-0124",
+      "text": "Plusieurs informations contradictoires peuvent être en partie vraies"
+    },
+    {
+      "id": "player_knowledge-0125",
+      "text": "On ne peut jamais connaître la vérité avec certitude"
+    },
+    {
+      "id": "player_knowledge-0126",
+      "text": "La vérité peut être entièrement découverte"
+    },
+    {
+      "id": "player_knowledge-0127",
+      "text": "La vérité ne peut être découverte qu'avec suffisamment de preuves"
+    },
+    {
+      "id": "player_knowledge-0128",
+      "text": "La vérité change au cours du jeu"
+    },
+    {
+      "id": "player_knowledge-0129",
+      "text": "La vérité dépend du point de vue"
+    },
+    {
+      "id": "player_knowledge-0130",
+      "text": "La vérité dépend de qui interprète les faits"
+    },
+    {
+      "id": "player_knowledge-0131",
+      "text": "Le joueur doit construire sa propre théorie"
+    },
+    {
+      "id": "player_knowledge-0132",
+      "text": "Le joueur doit noter lui-même ses soupçons"
+    },
+    {
+      "id": "player_knowledge-0133",
+      "text": "Le joueur doit relier les indices"
+    },
+    {
+      "id": "player_knowledge-0134",
+      "text": "Le joueur doit établir une chronologie"
+    },
+    {
+      "id": "player_knowledge-0135",
+      "text": "Le joueur doit établir un arbre généalogique"
+    },
+    {
+      "id": "player_knowledge-0136",
+      "text": "Le joueur doit établir un réseau de relations"
+    },
+    {
+      "id": "player_knowledge-0137",
+      "text": "Le joueur doit tenir son propre carnet de notes"
+    },
+    {
+      "id": "player_knowledge-0138",
+      "text": "Le jeu tient une base de données automatique des découvertes"
+    },
+    {
+      "id": "player_knowledge-0139",
+      "text": "La base de données du jeu contient aussi de fausses informations"
+    },
+    {
+      "id": "player_knowledge-0140",
+      "text": "Le joueur peut corriger les entrées de la base de données"
+    },
+    {
+      "id": "player_knowledge-0141",
+      "text": "Le joueur peut marquer une information comme confirmée"
+    },
+    {
+      "id": "player_knowledge-0142",
+      "text": "Le joueur peut marquer une information comme suspecte"
+    },
+    {
+      "id": "player_knowledge-0143",
+      "text": "Le joueur peut rattacher des sources à une même affirmation"
+    },
+    {
+      "id": "player_knowledge-0144",
+      "text": "Le joueur peut oublier des informations avec le temps"
+    },
+    {
+      "id": "player_knowledge-0145",
+      "text": "Le personnage peut oublier des informations"
+    },
+    {
+      "id": "player_knowledge-0146",
+      "text": "La mémoire est une ressource limitée"
+    },
+    {
+      "id": "player_knowledge-0147",
+      "text": "La mémoire peut être déformée"
+    },
+    {
+      "id": "player_knowledge-0148",
+      "text": "La mémoire peut être manipulée"
+    },
+    {
+      "id": "player_knowledge-0149",
+      "text": "Les souvenirs peuvent se perdre"
+    },
+    {
+      "id": "player_knowledge-0150",
+      "text": "Les souvenirs peuvent revenir plus tard"
+    },
+    {
+      "id": "player_knowledge-0151",
+      "text": "Le joueur a des flashbacks"
+    },
+    {
+      "id": "player_knowledge-0152",
+      "text": "Les flashbacks peuvent ne pas être fiables"
+    },
+    {
+      "id": "player_knowledge-0153",
+      "text": "Les rêves contiennent des indices"
+    },
+    {
+      "id": "player_knowledge-0154",
+      "text": "Les rêves contiennent des informations vraies et fausses"
+    },
+    {
+      "id": "player_knowledge-0155",
+      "text": "Les hallucinations se mêlent à la réalité"
+    },
+    {
+      "id": "player_knowledge-0156",
+      "text": "Le joueur ne sait pas toujours si un événement est réel"
+    },
+    {
+      "id": "player_knowledge-0157",
+      "text": "La carte ne montre que les zones connues"
+    },
+    {
+      "id": "player_knowledge-0158",
+      "text": "La carte se met à jour en explorant"
+    },
+    {
+      "id": "player_knowledge-0159",
+      "text": "La carte peut être inexacte"
+    },
+    {
+      "id": "player_knowledge-0160",
+      "text": "La carte peut être obsolète"
+    },
+    {
+      "id": "player_knowledge-0161",
+      "text": "La carte peut être délibérément fausse"
+    },
+    {
+      "id": "player_knowledge-0162",
+      "text": "Les informations de la carte dépendent de son auteur"
+    },
+    {
+      "id": "player_knowledge-0163",
+      "text": "Le joueur ne voit que son champ de vision"
+    },
+    {
+      "id": "player_knowledge-0164",
+      "text": "Le brouillard de guerre masque les zones inconnues"
+    },
+    {
+      "id": "player_knowledge-0165",
+      "text": "Le brouillard de guerre revient sur les zones avec le temps"
+    },
+    {
+      "id": "player_knowledge-0166",
+      "text": "Le joueur se souvient des zones déjà vues"
+    },
+    {
+      "id": "player_knowledge-0167",
+      "text": "Le joueur ne sait pas ce qui se passe ailleurs dans le monde"
+    },
+    {
+      "id": "player_knowledge-0168",
+      "text": "Les événements du monde ne sont connus qu'après coup"
+    },
+    {
+      "id": "player_knowledge-0169",
+      "text": "Les événements du monde apparaissent sous forme d'actualités"
+    },
+    {
+      "id": "player_knowledge-0170",
+      "text": "Les événements du monde apparaissent comme des changements de ressources"
+    },
+    {
+      "id": "player_knowledge-0171",
+      "text": "Les événements du monde se reflètent dans le comportement des PNJ"
+    },
+    {
+      "id": "player_knowledge-0172",
+      "text": "Les événements du monde doivent être déduits indirectement"
+    },
+    {
+      "id": "player_knowledge-0173",
+      "text": "Le joueur voit tous les événements stratégiques"
+    },
+    {
+      "id": "player_knowledge-0174",
+      "text": "Le joueur ne voit que les rapports de sa propre faction"
+    },
+    {
+      "id": "player_knowledge-0175",
+      "text": "Le joueur ne voit les informations ennemies que grâce au renseignement"
+    },
+    {
+      "id": "player_knowledge-0176",
+      "text": "Le nombre d'unités ennemies apparaît sous forme d'estimation"
+    },
+    {
+      "id": "player_knowledge-0177",
+      "text": "Les ressources de l'ennemi sont inconnues"
+    },
+    {
+      "id": "player_knowledge-0178",
+      "text": "Les plans de l'ennemi peuvent être interceptés"
+    },
+    {
+      "id": "player_knowledge-0179",
+      "text": "Le renseignement peut se tromper"
+    },
+    {
+      "id": "player_knowledge-0180",
+      "text": "Les espions peuvent injecter de fausses informations"
+    },
+    {
+      "id": "player_knowledge-0181",
+      "text": "La propre organisation du joueur peut fausser les rapports"
+    },
+    {
+      "id": "player_knowledge-0182",
+      "text": "Les subordonnés cachent les mauvaises nouvelles"
+    },
+    {
+      "id": "player_knowledge-0183",
+      "text": "Les subordonnés embellissent les statistiques"
+    },
+    {
+      "id": "player_knowledge-0184",
+      "text": "Les statistiques peuvent sembler bonnes même quand la situation est mauvaise"
+    },
+    {
+      "id": "player_knowledge-0185",
+      "text": "Les indicateurs peuvent être manipulés"
+    },
+    {
+      "id": "player_knowledge-0186",
+      "text": "Le joueur ne voit que des chiffres agrégés"
+    },
+    {
+      "id": "player_knowledge-0187",
+      "text": "Le joueur peut entrer dans le détail"
+    },
+    {
+      "id": "player_knowledge-0188",
+      "text": "L'information détaillée coûte du temps"
+    },
+    {
+      "id": "player_knowledge-0189",
+      "text": "L'information détaillée coûte des ressources"
+    },
+    {
+      "id": "player_knowledge-0190",
+      "text": "Trop d'information submerge le joueur"
+    },
+    {
+      "id": "player_knowledge-0191",
+      "text": "Le joueur doit choisir ce qu'il suit"
+    },
+    {
+      "id": "player_knowledge-0192",
+      "text": "On ne peut pas tout suivre à la fois"
+    },
+    {
+      "id": "player_knowledge-0193",
+      "text": "Des événements importants peuvent passer inaperçus"
+    },
+    {
+      "id": "player_knowledge-0194",
+      "text": "Il y a trop d'alertes"
+    },
+    {
+      "id": "player_knowledge-0195",
+      "text": "Le joueur doit hiérarchiser les rapports"
+    },
+    {
+      "id": "player_knowledge-0196",
+      "text": "Certains rapports sont inutiles"
+    },
+    {
+      "id": "player_knowledge-0197",
+      "text": "Certains rapports qui semblent inutiles contiennent des indices cruciaux"
+    },
+    {
+      "id": "player_knowledge-0198",
+      "text": "L'information arrive avec du retard"
+    },
+    {
+      "id": "player_knowledge-0199",
+      "text": "L'information peut se perdre en route"
+    },
+    {
+      "id": "player_knowledge-0200",
+      "text": "Un message peut changer en route"
+    },
+    {
+      "id": "player_knowledge-0201",
+      "text": "La communication peut être coupée"
+    },
+    {
+      "id": "player_knowledge-0202",
+      "text": "La communication ne fonctionne qu'à certains moments"
+    },
+    {
+      "id": "player_knowledge-0203",
+      "text": "La communication a une portée limitée"
+    },
+    {
+      "id": "player_knowledge-0204",
+      "text": "L'information doit être transportée physiquement"
+    },
+    {
+      "id": "player_knowledge-0205",
+      "text": "Un messager peut disparaître"
+    },
+    {
+      "id": "player_knowledge-0206",
+      "text": "Un document peut être un faux"
+    },
+    {
+      "id": "player_knowledge-0207",
+      "text": "Un document peut avoir été modifié"
+    },
+    {
+      "id": "player_knowledge-0208",
+      "text": "Une signature peut être falsifiée"
+    },
+    {
+      "id": "player_knowledge-0209",
+      "text": "Un horodatage peut être erroné"
+    },
+    {
+      "id": "player_knowledge-0210",
+      "text": "Une photo peut avoir été manipulée"
+    },
+    {
+      "id": "player_knowledge-0211",
+      "text": "Les enregistrements vidéo peuvent être incomplets"
+    },
+    {
+      "id": "player_knowledge-0212",
+      "text": "Les caméras de surveillance ne montrent pas tout"
+    },
+    {
+      "id": "player_knowledge-0213",
+      "text": "Les caméras de surveillance ont des angles morts"
+    },
+    {
+      "id": "player_knowledge-0214",
+      "text": "Les caméras peuvent être sabotées"
+    },
+    {
+      "id": "player_knowledge-0215",
+      "text": "Les images des caméras peuvent être falsifiées"
+    },
+    {
+      "id": "player_knowledge-0216",
+      "text": "Un capteur peut être cassé"
+    },
+    {
+      "id": "player_knowledge-0217",
+      "text": "Un capteur peut donner de faux positifs"
+    },
+    {
+      "id": "player_knowledge-0218",
+      "text": "Un capteur peut laisser passer des choses"
+    },
+    {
+      "id": "player_knowledge-0219",
+      "text": "Il faut comparer plusieurs capteurs entre eux"
+    },
+    {
+      "id": "player_knowledge-0220",
+      "text": "Tu n'obtiens d'informations que sur les événements que tu choisis d'examiner"
+    },
+    {
+      "id": "player_knowledge-0221",
+      "text": "L'information non examinée est perdue"
+    },
+    {
+      "id": "player_knowledge-0222",
+      "text": "Le joueur ne peut poser qu'un nombre limité de questions"
+    },
+    {
+      "id": "player_knowledge-0223",
+      "text": "Le joueur ne peut interroger qu'une partie des PNJ"
+    },
+    {
+      "id": "player_knowledge-0224",
+      "text": "Le joueur ne peut pas revenir sur toutes ses décisions"
+    },
+    {
+      "id": "player_knowledge-0225",
+      "text": "Une mauvaise conclusion peut verrouiller la bonne information"
+    },
+    {
+      "id": "player_knowledge-0226",
+      "text": "L'information ouvre de nouvelles questions"
+    },
+    {
+      "id": "player_knowledge-0227",
+      "text": "Une nouvelle information peut renverser une ancienne théorie"
+    },
+    {
+      "id": "player_knowledge-0228",
+      "text": "L'information peut changer l'objectif de la mission"
+    },
+    {
+      "id": "player_knowledge-0229",
+      "text": "L'information peut révéler un nouvel ennemi"
+    },
+    {
+      "id": "player_knowledge-0230",
+      "text": "L'information peut révéler qu'il n'y a aucun ennemi"
+    },
+    {
+      "id": "player_knowledge-0231",
+      "text": "À la fin, le joueur sait presque tout"
+    },
+    {
+      "id": "player_knowledge-0232",
+      "text": "À la fin, le joueur ne connaît qu'une partie de la vérité"
+    },
+    {
+      "id": "player_knowledge-0233",
+      "text": "Une part d'ambiguïté volontaire subsiste à la fin du jeu"
+    },
+    {
+      "id": "player_knowledge-0234",
+      "text": "Le joueur doit prendre la décision finale sur la base d'informations incertaines"
+    }
   ]
 }

@@ -1,159 +1,624 @@
 {
   "technologies": [
-    "HTML + Vanilla JavaScript + CSS",
-    "HTML + TypeScript + CSS",
-    "HTML + JavaScript + Canvas API",
-    "HTML + JavaScript + WebGL",
-    "HTML + JavaScript + Web Audio API",
-    "HTML + JavaScript + IndexedDB",
-    "HTML + JavaScript + WebSocket",
-    "HTML + JavaScript + Three.js",
-    "HTML + JavaScript + Phaser",
-    "HTML + JavaScript + PixiJS",
-    "HTML + JavaScript + Babylon.js",
-    "HTML + JavaScript + Electron",
-    "HTML + JavaScript + Tauri",
-    "Unity + C#",
-    "Unity 2D + C#",
-    "Unity 3D + C#",
-    "Unity UI + C#",
-    "Unity + Netcode",
-    "Unity + FishNet",
-    "Unity + Mirror",
-    "Godot + GDScript",
-    "Godot + C#",
-    "Godot 2D + GDScript",
-    "Godot 2D + C#",
-    "Godot 3D + GDScript",
-    "Godot 3D + C#",
-    "Unreal Engine + Blueprints",
-    "Unreal Engine + C++",
-    "Python",
-    "Python + Pygame",
-    "Python + Arcade",
-    "Python + Tkinter",
-    "Python + PyQt",
-    "Python + Flask",
-    "Python + FastAPI",
-    "Python + Textual",
-    "Application console en C#",
-    "C# + WinForms",
-    "C# + WPF",
-    "C# + Avalonia",
-    "C# + MonoGame",
-    "C# + Raylib",
-    "C# + Godot",
-    "C++",
-    "C++ + SDL",
-    "C++ + SDL2",
-    "C++ + SFML",
-    "C++ + Raylib",
-    "C++ + OpenGL",
-    "C++ + Unreal Engine",
-    "Java",
-    "Java + JavaFX",
-    "Java + Swing",
-    "Java + LibGDX",
-    "Kotlin",
-    "Kotlin + LibGDX",
-    "Rust",
-    "Rust + Bevy",
-    "Rust + Macroquad",
-    "Rust + Raylib",
-    "Lua",
-    "Lua + Love2D",
-    "Lua + Defold",
-    "TypeScript",
-    "TypeScript + Canvas API",
-    "TypeScript + Phaser",
-    "TypeScript + PixiJS",
-    "TypeScript + Three.js",
-    "TypeScript + Electron",
-    "React + JavaScript",
-    "React + TypeScript",
-    "Vue + JavaScript",
-    "Vue + TypeScript",
-    "Svelte + JavaScript",
-    "Svelte + TypeScript",
-    "Node.js",
-    "Node.js + Express",
-    "Node.js + WebSocket",
-    "Node.js + Socket.IO",
-    "Node.js + PostgreSQL",
-    "Node.js + SQLite",
-    "Node.js + MongoDB",
-    "PHP",
-    "PHP + Laravel",
-    "Ruby",
-    "Ruby + Rails",
-    "Go",
-    "Go + Ebiten",
-    "Swift",
-    "Swift + SpriteKit",
-    "Swift + SwiftUI",
-    "Objective-C",
-    "Dart",
-    "Dart + Flutter",
-    "Ren'Py",
-    "Twine",
-    "Ink",
-    "Inform 7",
-    "RPG Maker",
-    "GameMaker",
-    "Construct",
-    "GDevelop",
-    "Defold",
-    "Love2D",
-    "MonoGame",
-    "LibGDX",
-    "Raylib",
-    "SDL2",
-    "SFML",
-    "OpenGL",
-    "WebGL",
-    "WebGPU",
-    "Application terminal / console",
-    "Jeu de navigateur textuel",
-    "Jeu en ligne de commande",
-    "Application de bureau",
-    "Application web mobile",
-    "Application web progressive (PWA)",
-    "Jeu sur un bot Discord",
-    "Jeu multijoueur sur navigateur",
-    "Jeu multijoueur local sur navigateur",
-    "Jeu solo sur navigateur",
-    "Multijoueur avec serveur faisant autorité",
-    "Multijoueur pair-à-pair (P2P)",
-    "Architecture client-serveur",
-    "Application web fonctionnant hors ligne",
-    "Uniquement HTML + JavaScript statique",
-    "HTML + JavaScript sans backend",
-    "HTML + JavaScript + backend Node.js",
-    "HTML + JavaScript + backend SQLite",
-    "HTML + JavaScript + backend PostgreSQL",
-    "Unity + backend Node.js",
-    "Unity + backend PostgreSQL",
-    "Godot + backend Node.js",
-    "Godot + backend PostgreSQL",
-    "Backend Python + frontend HTML",
-    "Backend FastAPI + frontend Vanilla JavaScript",
-    "Backend Flask + frontend Vanilla JavaScript",
-    "Backend Node.js + frontend Vanilla JavaScript",
-    "Jeu de bureau uniquement local",
-    "Jeu de navigateur uniquement local",
-    "Jeu textuel procédural",
-    "Jeu de simulation axé sur l'interface",
-    "Jeu 2D à base de sprites",
-    "Jeu 2D à base de tuiles",
-    "Jeu 2D en vue de dessus",
-    "Jeu 2D à défilement horizontal",
-    "Jeu 3D à la première personne",
-    "Jeu 3D à la troisième personne",
-    "Jeu isométrique",
-    "Jeu en pixel art",
-    "Jeu ASCII",
-    "Jeu basé sur Canvas",
-    "Jeu basé sur le DOM",
-    "Jeu basé sur SVG"
+    {
+      "id": "technologies-0001",
+      "text": "HTML + Vanilla JavaScript + CSS"
+    },
+    {
+      "id": "technologies-0002",
+      "text": "HTML + TypeScript + CSS"
+    },
+    {
+      "id": "technologies-0003",
+      "text": "HTML + JavaScript + Canvas API"
+    },
+    {
+      "id": "technologies-0004",
+      "text": "HTML + JavaScript + WebGL"
+    },
+    {
+      "id": "technologies-0005",
+      "text": "HTML + JavaScript + Web Audio API"
+    },
+    {
+      "id": "technologies-0006",
+      "text": "HTML + JavaScript + IndexedDB"
+    },
+    {
+      "id": "technologies-0007",
+      "text": "HTML + JavaScript + WebSocket"
+    },
+    {
+      "id": "technologies-0008",
+      "text": "HTML + JavaScript + Three.js"
+    },
+    {
+      "id": "technologies-0009",
+      "text": "HTML + JavaScript + Phaser"
+    },
+    {
+      "id": "technologies-0010",
+      "text": "HTML + JavaScript + PixiJS"
+    },
+    {
+      "id": "technologies-0011",
+      "text": "HTML + JavaScript + Babylon.js"
+    },
+    {
+      "id": "technologies-0012",
+      "text": "HTML + JavaScript + Electron"
+    },
+    {
+      "id": "technologies-0013",
+      "text": "HTML + JavaScript + Tauri"
+    },
+    {
+      "id": "technologies-0014",
+      "text": "Unity + C#"
+    },
+    {
+      "id": "technologies-0015",
+      "text": "Unity 2D + C#"
+    },
+    {
+      "id": "technologies-0016",
+      "text": "Unity 3D + C#"
+    },
+    {
+      "id": "technologies-0017",
+      "text": "Unity UI + C#"
+    },
+    {
+      "id": "technologies-0018",
+      "text": "Unity + Netcode"
+    },
+    {
+      "id": "technologies-0019",
+      "text": "Unity + FishNet"
+    },
+    {
+      "id": "technologies-0020",
+      "text": "Unity + Mirror"
+    },
+    {
+      "id": "technologies-0021",
+      "text": "Godot + GDScript"
+    },
+    {
+      "id": "technologies-0022",
+      "text": "Godot + C#"
+    },
+    {
+      "id": "technologies-0023",
+      "text": "Godot 2D + GDScript"
+    },
+    {
+      "id": "technologies-0024",
+      "text": "Godot 2D + C#"
+    },
+    {
+      "id": "technologies-0025",
+      "text": "Godot 3D + GDScript"
+    },
+    {
+      "id": "technologies-0026",
+      "text": "Godot 3D + C#"
+    },
+    {
+      "id": "technologies-0027",
+      "text": "Unreal Engine + Blueprints"
+    },
+    {
+      "id": "technologies-0028",
+      "text": "Unreal Engine + C++"
+    },
+    {
+      "id": "technologies-0029",
+      "text": "Python"
+    },
+    {
+      "id": "technologies-0030",
+      "text": "Python + Pygame"
+    },
+    {
+      "id": "technologies-0031",
+      "text": "Python + Arcade"
+    },
+    {
+      "id": "technologies-0032",
+      "text": "Python + Tkinter"
+    },
+    {
+      "id": "technologies-0033",
+      "text": "Python + PyQt"
+    },
+    {
+      "id": "technologies-0034",
+      "text": "Python + Flask"
+    },
+    {
+      "id": "technologies-0035",
+      "text": "Python + FastAPI"
+    },
+    {
+      "id": "technologies-0036",
+      "text": "Python + Textual"
+    },
+    {
+      "id": "technologies-0037",
+      "text": "Application console en C#"
+    },
+    {
+      "id": "technologies-0038",
+      "text": "C# + WinForms"
+    },
+    {
+      "id": "technologies-0039",
+      "text": "C# + WPF"
+    },
+    {
+      "id": "technologies-0040",
+      "text": "C# + Avalonia"
+    },
+    {
+      "id": "technologies-0041",
+      "text": "C# + MonoGame"
+    },
+    {
+      "id": "technologies-0042",
+      "text": "C# + Raylib"
+    },
+    {
+      "id": "technologies-0043",
+      "text": "C# + Godot"
+    },
+    {
+      "id": "technologies-0044",
+      "text": "C++"
+    },
+    {
+      "id": "technologies-0045",
+      "text": "C++ + SDL"
+    },
+    {
+      "id": "technologies-0046",
+      "text": "C++ + SDL2"
+    },
+    {
+      "id": "technologies-0047",
+      "text": "C++ + SFML"
+    },
+    {
+      "id": "technologies-0048",
+      "text": "C++ + Raylib"
+    },
+    {
+      "id": "technologies-0049",
+      "text": "C++ + OpenGL"
+    },
+    {
+      "id": "technologies-0050",
+      "text": "C++ + Unreal Engine"
+    },
+    {
+      "id": "technologies-0051",
+      "text": "Java"
+    },
+    {
+      "id": "technologies-0052",
+      "text": "Java + JavaFX"
+    },
+    {
+      "id": "technologies-0053",
+      "text": "Java + Swing"
+    },
+    {
+      "id": "technologies-0054",
+      "text": "Java + LibGDX"
+    },
+    {
+      "id": "technologies-0055",
+      "text": "Kotlin"
+    },
+    {
+      "id": "technologies-0056",
+      "text": "Kotlin + LibGDX"
+    },
+    {
+      "id": "technologies-0057",
+      "text": "Rust"
+    },
+    {
+      "id": "technologies-0058",
+      "text": "Rust + Bevy"
+    },
+    {
+      "id": "technologies-0059",
+      "text": "Rust + Macroquad"
+    },
+    {
+      "id": "technologies-0060",
+      "text": "Rust + Raylib"
+    },
+    {
+      "id": "technologies-0061",
+      "text": "Lua"
+    },
+    {
+      "id": "technologies-0062",
+      "text": "Lua + Love2D"
+    },
+    {
+      "id": "technologies-0063",
+      "text": "Lua + Defold"
+    },
+    {
+      "id": "technologies-0064",
+      "text": "TypeScript"
+    },
+    {
+      "id": "technologies-0065",
+      "text": "TypeScript + Canvas API"
+    },
+    {
+      "id": "technologies-0066",
+      "text": "TypeScript + Phaser"
+    },
+    {
+      "id": "technologies-0067",
+      "text": "TypeScript + PixiJS"
+    },
+    {
+      "id": "technologies-0068",
+      "text": "TypeScript + Three.js"
+    },
+    {
+      "id": "technologies-0069",
+      "text": "TypeScript + Electron"
+    },
+    {
+      "id": "technologies-0070",
+      "text": "React + JavaScript"
+    },
+    {
+      "id": "technologies-0071",
+      "text": "React + TypeScript"
+    },
+    {
+      "id": "technologies-0072",
+      "text": "Vue + JavaScript"
+    },
+    {
+      "id": "technologies-0073",
+      "text": "Vue + TypeScript"
+    },
+    {
+      "id": "technologies-0074",
+      "text": "Svelte + JavaScript"
+    },
+    {
+      "id": "technologies-0075",
+      "text": "Svelte + TypeScript"
+    },
+    {
+      "id": "technologies-0076",
+      "text": "Node.js"
+    },
+    {
+      "id": "technologies-0077",
+      "text": "Node.js + Express"
+    },
+    {
+      "id": "technologies-0078",
+      "text": "Node.js + WebSocket"
+    },
+    {
+      "id": "technologies-0079",
+      "text": "Node.js + Socket.IO"
+    },
+    {
+      "id": "technologies-0080",
+      "text": "Node.js + PostgreSQL"
+    },
+    {
+      "id": "technologies-0081",
+      "text": "Node.js + SQLite"
+    },
+    {
+      "id": "technologies-0082",
+      "text": "Node.js + MongoDB"
+    },
+    {
+      "id": "technologies-0083",
+      "text": "PHP"
+    },
+    {
+      "id": "technologies-0084",
+      "text": "PHP + Laravel"
+    },
+    {
+      "id": "technologies-0085",
+      "text": "Ruby"
+    },
+    {
+      "id": "technologies-0086",
+      "text": "Ruby + Rails"
+    },
+    {
+      "id": "technologies-0087",
+      "text": "Go"
+    },
+    {
+      "id": "technologies-0088",
+      "text": "Go + Ebiten"
+    },
+    {
+      "id": "technologies-0089",
+      "text": "Swift"
+    },
+    {
+      "id": "technologies-0090",
+      "text": "Swift + SpriteKit"
+    },
+    {
+      "id": "technologies-0091",
+      "text": "Swift + SwiftUI"
+    },
+    {
+      "id": "technologies-0092",
+      "text": "Objective-C"
+    },
+    {
+      "id": "technologies-0093",
+      "text": "Dart"
+    },
+    {
+      "id": "technologies-0094",
+      "text": "Dart + Flutter"
+    },
+    {
+      "id": "technologies-0095",
+      "text": "Ren'Py"
+    },
+    {
+      "id": "technologies-0096",
+      "text": "Twine"
+    },
+    {
+      "id": "technologies-0097",
+      "text": "Ink"
+    },
+    {
+      "id": "technologies-0098",
+      "text": "Inform 7"
+    },
+    {
+      "id": "technologies-0099",
+      "text": "RPG Maker"
+    },
+    {
+      "id": "technologies-0100",
+      "text": "GameMaker"
+    },
+    {
+      "id": "technologies-0101",
+      "text": "Construct"
+    },
+    {
+      "id": "technologies-0102",
+      "text": "GDevelop"
+    },
+    {
+      "id": "technologies-0103",
+      "text": "Defold"
+    },
+    {
+      "id": "technologies-0104",
+      "text": "Love2D"
+    },
+    {
+      "id": "technologies-0105",
+      "text": "MonoGame"
+    },
+    {
+      "id": "technologies-0106",
+      "text": "LibGDX"
+    },
+    {
+      "id": "technologies-0107",
+      "text": "Raylib"
+    },
+    {
+      "id": "technologies-0108",
+      "text": "SDL2"
+    },
+    {
+      "id": "technologies-0109",
+      "text": "SFML"
+    },
+    {
+      "id": "technologies-0110",
+      "text": "OpenGL"
+    },
+    {
+      "id": "technologies-0111",
+      "text": "WebGL"
+    },
+    {
+      "id": "technologies-0112",
+      "text": "WebGPU"
+    },
+    {
+      "id": "technologies-0113",
+      "text": "Application terminal / console"
+    },
+    {
+      "id": "technologies-0114",
+      "text": "Jeu de navigateur textuel"
+    },
+    {
+      "id": "technologies-0115",
+      "text": "Jeu en ligne de commande"
+    },
+    {
+      "id": "technologies-0116",
+      "text": "Application de bureau"
+    },
+    {
+      "id": "technologies-0117",
+      "text": "Application web mobile"
+    },
+    {
+      "id": "technologies-0118",
+      "text": "Application web progressive (PWA)"
+    },
+    {
+      "id": "technologies-0119",
+      "text": "Jeu sur un bot Discord"
+    },
+    {
+      "id": "technologies-0120",
+      "text": "Jeu multijoueur sur navigateur"
+    },
+    {
+      "id": "technologies-0121",
+      "text": "Jeu multijoueur local sur navigateur"
+    },
+    {
+      "id": "technologies-0122",
+      "text": "Jeu solo sur navigateur"
+    },
+    {
+      "id": "technologies-0123",
+      "text": "Multijoueur avec serveur faisant autorité"
+    },
+    {
+      "id": "technologies-0124",
+      "text": "Multijoueur pair-à-pair (P2P)"
+    },
+    {
+      "id": "technologies-0125",
+      "text": "Architecture client-serveur"
+    },
+    {
+      "id": "technologies-0126",
+      "text": "Application web fonctionnant hors ligne"
+    },
+    {
+      "id": "technologies-0127",
+      "text": "Uniquement HTML + JavaScript statique"
+    },
+    {
+      "id": "technologies-0128",
+      "text": "HTML + JavaScript sans backend"
+    },
+    {
+      "id": "technologies-0129",
+      "text": "HTML + JavaScript + backend Node.js"
+    },
+    {
+      "id": "technologies-0130",
+      "text": "HTML + JavaScript + backend SQLite"
+    },
+    {
+      "id": "technologies-0131",
+      "text": "HTML + JavaScript + backend PostgreSQL"
+    },
+    {
+      "id": "technologies-0132",
+      "text": "Unity + backend Node.js"
+    },
+    {
+      "id": "technologies-0133",
+      "text": "Unity + backend PostgreSQL"
+    },
+    {
+      "id": "technologies-0134",
+      "text": "Godot + backend Node.js"
+    },
+    {
+      "id": "technologies-0135",
+      "text": "Godot + backend PostgreSQL"
+    },
+    {
+      "id": "technologies-0136",
+      "text": "Backend Python + frontend HTML"
+    },
+    {
+      "id": "technologies-0137",
+      "text": "Backend FastAPI + frontend Vanilla JavaScript"
+    },
+    {
+      "id": "technologies-0138",
+      "text": "Backend Flask + frontend Vanilla JavaScript"
+    },
+    {
+      "id": "technologies-0139",
+      "text": "Backend Node.js + frontend Vanilla JavaScript"
+    },
+    {
+      "id": "technologies-0140",
+      "text": "Jeu de bureau uniquement local"
+    },
+    {
+      "id": "technologies-0141",
+      "text": "Jeu de navigateur uniquement local"
+    },
+    {
+      "id": "technologies-0142",
+      "text": "Jeu textuel procédural"
+    },
+    {
+      "id": "technologies-0143",
+      "text": "Jeu de simulation axé sur l'interface"
+    },
+    {
+      "id": "technologies-0144",
+      "text": "Jeu 2D à base de sprites"
+    },
+    {
+      "id": "technologies-0145",
+      "text": "Jeu 2D à base de tuiles"
+    },
+    {
+      "id": "technologies-0146",
+      "text": "Jeu 2D en vue de dessus"
+    },
+    {
+      "id": "technologies-0147",
+      "text": "Jeu 2D à défilement horizontal"
+    },
+    {
+      "id": "technologies-0148",
+      "text": "Jeu 3D à la première personne"
+    },
+    {
+      "id": "technologies-0149",
+      "text": "Jeu 3D à la troisième personne"
+    },
+    {
+      "id": "technologies-0150",
+      "text": "Jeu isométrique"
+    },
+    {
+      "id": "technologies-0151",
+      "text": "Jeu en pixel art"
+    },
+    {
+      "id": "technologies-0152",
+      "text": "Jeu ASCII"
+    },
+    {
+      "id": "technologies-0153",
+      "text": "Jeu basé sur Canvas"
+    },
+    {
+      "id": "technologies-0154",
+      "text": "Jeu basé sur le DOM"
+    },
+    {
+      "id": "technologies-0155",
+      "text": "Jeu basé sur SVG"
+    }
   ]
 }

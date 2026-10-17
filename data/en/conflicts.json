@@ -1,261 +1,1032 @@
 {
   "conflicts": [
-    "Scarcity",
-    "Rival",
-    "Natural disaster",
-    "Murder",
-    "Political crisis",
-    "Internal rebellion",
-    "Disease",
-    "Betrayal",
-    "Time pressure",
-    "System failure",
-    "Resource shortage",
-    "Food shortage",
-    "Water shortage",
-    "Energy shortage",
-    "Medicine shortage",
-    "Labor shortage",
-    "Money shortage",
-    "Lack of space",
-    "Overpopulation",
-    "Depopulation",
-    "Economic collapse",
-    "Bankruptcy",
-    "Debt crisis",
-    "Inflation",
-    "Market crash",
-    "Strike",
-    "Labor dispute",
-    "Supply chain breakdown",
-    "Production shutdown",
-    "Sabotage",
-    "Theft",
-    "Robbery",
-    "Blackmail",
-    "Kidnapping",
-    "Smuggling",
-    "Corruption",
-    "Espionage",
-    "Information leak",
-    "Data breach",
-    "Identity theft",
-    "Forgery",
-    "Conspiracy",
-    "Cover-up",
-    "Destruction of evidence",
-    "Lying",
-    "Lack of trust",
-    "Crisis of loyalty",
-    "Reputation crisis",
-    "Media scandal",
-    "Disinformation",
-    "Propaganda",
-    "Spreading rumors",
-    "Panic",
-    "Collapse of morale",
-    "Leadership crisis",
-    "Power struggle",
-    "Succession crisis",
-    "Coup",
-    "Revolution",
-    "Civil war",
-    "Border dispute",
-    "War",
-    "Cold war",
-    "Occupation",
-    "Siege",
-    "Terrorist attack",
-    "Insurgency",
-    "Separatism",
-    "Diplomatic crisis",
-    "Trade war",
-    "Sanctions crisis",
-    "Dispute between allies",
-    "Election crisis",
-    "Fall of the government",
-    "Illegal use of power",
-    "Conflict between law and morality",
-    "Conflict between authorities",
-    "Civil unrest",
-    "Demonstrations",
-    "Riots",
-    "Violent protest",
-    "Class conflict",
-    "Generational conflict",
-    "Religious conflict",
-    "Cultural conflict",
-    "Ethnic conflict",
-    "Conflict between locals and newcomers",
-    "Family quarrel",
-    "Feud between clans",
-    "Relationship crisis",
-    "Jealousy",
-    "Divorce",
-    "Inheritance dispute",
-    "Parent–child conflict",
-    "Broken friendship",
-    "Workplace bullying",
-    "Power struggle at work",
-    "Conflict between employees and management",
-    "Conflict between a customer and a company",
-    "Rival organizations",
-    "Rival families",
-    "Rival cities",
-    "Rival nations",
-    "Rival religions",
-    "Rival research groups",
-    "Rival companies",
-    "Rival criminal organizations",
-    "Rival AIs",
-    "Rival colonies",
-    "False accusation",
-    "Unknown enemy",
-    "Hidden enemy",
-    "Traitor within the group",
-    "Double agent",
-    "Enemy in disguise",
-    "Missing person",
-    "Missing item",
-    "Missing information",
-    "Lost memory",
-    "Lost time",
-    "Unknown past",
-    "Identity crisis",
-    "Amnesia",
-    "Weakening grip on reality",
-    "Unreliable information",
-    "Conflicting testimonies",
-    "False lead",
-    "Lack of evidence",
-    "Contradictory evidence",
-    "Unsolved crime",
-    "Serial killer",
-    "Series of disappearances",
-    "Strange death",
-    "Staged accident",
-    "Staged suicide",
-    "Forbidden research",
-    "Secret experiment",
-    "Dangerous invention",
-    "Research gets out of control",
-    "AI gets out of control",
-    "Robot uprising",
-    "Automation failure",
-    "Software bug",
-    "Information system crash",
-    "Network outage",
-    "Power outage",
-    "Reactor failure",
-    "Engine failure",
-    "Oxygen system failure",
-    "Pressure system failure",
-    "Water system failure",
-    "Heating system failure",
-    "Security system failure",
-    "Navigation system failure",
-    "Communication system failure",
-    "Structural damage",
-    "Risk of building collapse",
-    "Hull damage",
-    "Fire",
-    "Explosion",
-    "Storm",
-    "Flood",
-    "Earthquake",
-    "Tsunami",
-    "Volcanic eruption",
-    "Forest fire",
-    "Hurricane",
-    "Blizzard",
-    "Heat wave",
-    "Deep freeze",
-    "Drought",
-    "Landslide",
-    "Avalanche",
-    "Meteor impact",
-    "Solar flare",
-    "Radiation storm",
-    "Space debris",
-    "Gravity anomaly",
-    "Black hole threat",
-    "Collapse of the planet's climate",
-    "Ecosystem collapse",
-    "Pollution",
-    "Toxic environment",
-    "Water contamination",
-    "Air pollution",
-    "Epidemic",
-    "Pandemic",
-    "Unknown disease",
-    "Spreading infection",
-    "Drug resistance",
-    "Poisoning",
-    "Radiation exposure",
-    "Famine",
-    "Mental health crisis",
-    "Insomnia epidemic",
-    "Mass hysteria",
-    "Parasite infestation",
-    "Genetic disorder",
-    "Mutation",
-    "Alien organism",
-    "Unknown life form",
-    "Monster attack",
-    "Attack by a herd of animals",
-    "Zombie infection",
-    "Vampire threat",
-    "Haunting",
-    "Curse",
-    "Possession",
-    "Supernatural phenomenon",
-    "Distortion of reality",
-    "Time loop",
-    "Time paradox",
-    "History changing",
-    "Collision of parallel realities",
-    "Memories changing",
-    "Dreams blending with reality",
-    "Simulation breaking down",
-    "The rules of the world breaking",
-    "NPCs behaving wrongly",
-    "The player's existence is called into question",
-    "Time is running out",
-    "Race against time",
-    "Deadline",
-    "Approaching disaster",
-    "Approaching attack",
-    "Approaching bankruptcy",
-    "Approaching winter",
-    "Approaching epidemic",
-    "Approaching execution",
-    "Approaching exposure",
-    "Approaching evacuation",
-    "Approaching end of the world",
-    "Impossible decision",
-    "Two bad options",
-    "Moral dilemma",
-    "Law versus justice",
-    "Individual versus community",
-    "Security versus freedom",
-    "Truth versus stability",
-    "Love versus duty",
-    "Career versus family",
-    "Survival versus morality",
-    "Short-term gain versus the long term",
-    "Violence versus a peaceful solution",
-    "Common good versus self-interest",
-    "Nature versus industry",
-    "Technology versus humanity",
-    "Science versus faith",
-    "Tradition versus reform",
-    "Central government versus local autonomy",
-    "Human versus machine",
-    "Human versus nature",
-    "Human versus society",
-    "Human versus self",
-    "Human versus fate",
-    "Human versus time",
-    "Human versus the unknown"
+    {
+      "id": "conflicts-0001",
+      "text": "Scarcity"
+    },
+    {
+      "id": "conflicts-0002",
+      "text": "Rival"
+    },
+    {
+      "id": "conflicts-0003",
+      "text": "Natural disaster"
+    },
+    {
+      "id": "conflicts-0004",
+      "text": "Murder"
+    },
+    {
+      "id": "conflicts-0005",
+      "text": "Political crisis"
+    },
+    {
+      "id": "conflicts-0006",
+      "text": "Internal rebellion"
+    },
+    {
+      "id": "conflicts-0007",
+      "text": "Disease"
+    },
+    {
+      "id": "conflicts-0008",
+      "text": "Betrayal"
+    },
+    {
+      "id": "conflicts-0009",
+      "text": "Time pressure"
+    },
+    {
+      "id": "conflicts-0010",
+      "text": "System failure"
+    },
+    {
+      "id": "conflicts-0011",
+      "text": "Resource shortage"
+    },
+    {
+      "id": "conflicts-0012",
+      "text": "Food shortage"
+    },
+    {
+      "id": "conflicts-0013",
+      "text": "Water shortage"
+    },
+    {
+      "id": "conflicts-0014",
+      "text": "Energy shortage"
+    },
+    {
+      "id": "conflicts-0015",
+      "text": "Medicine shortage"
+    },
+    {
+      "id": "conflicts-0016",
+      "text": "Labor shortage"
+    },
+    {
+      "id": "conflicts-0017",
+      "text": "Money shortage"
+    },
+    {
+      "id": "conflicts-0018",
+      "text": "Lack of space"
+    },
+    {
+      "id": "conflicts-0019",
+      "text": "Overpopulation"
+    },
+    {
+      "id": "conflicts-0020",
+      "text": "Depopulation"
+    },
+    {
+      "id": "conflicts-0021",
+      "text": "Economic collapse"
+    },
+    {
+      "id": "conflicts-0022",
+      "text": "Bankruptcy"
+    },
+    {
+      "id": "conflicts-0023",
+      "text": "Debt crisis"
+    },
+    {
+      "id": "conflicts-0024",
+      "text": "Inflation"
+    },
+    {
+      "id": "conflicts-0025",
+      "text": "Market crash"
+    },
+    {
+      "id": "conflicts-0026",
+      "text": "Strike"
+    },
+    {
+      "id": "conflicts-0027",
+      "text": "Labor dispute"
+    },
+    {
+      "id": "conflicts-0028",
+      "text": "Supply chain breakdown"
+    },
+    {
+      "id": "conflicts-0029",
+      "text": "Production shutdown"
+    },
+    {
+      "id": "conflicts-0030",
+      "text": "Sabotage"
+    },
+    {
+      "id": "conflicts-0031",
+      "text": "Theft"
+    },
+    {
+      "id": "conflicts-0032",
+      "text": "Robbery"
+    },
+    {
+      "id": "conflicts-0033",
+      "text": "Blackmail"
+    },
+    {
+      "id": "conflicts-0034",
+      "text": "Kidnapping"
+    },
+    {
+      "id": "conflicts-0035",
+      "text": "Smuggling"
+    },
+    {
+      "id": "conflicts-0036",
+      "text": "Corruption"
+    },
+    {
+      "id": "conflicts-0037",
+      "text": "Espionage"
+    },
+    {
+      "id": "conflicts-0038",
+      "text": "Information leak"
+    },
+    {
+      "id": "conflicts-0039",
+      "text": "Data breach"
+    },
+    {
+      "id": "conflicts-0040",
+      "text": "Identity theft"
+    },
+    {
+      "id": "conflicts-0041",
+      "text": "Forgery"
+    },
+    {
+      "id": "conflicts-0042",
+      "text": "Conspiracy"
+    },
+    {
+      "id": "conflicts-0043",
+      "text": "Cover-up"
+    },
+    {
+      "id": "conflicts-0044",
+      "text": "Destruction of evidence"
+    },
+    {
+      "id": "conflicts-0045",
+      "text": "Lying"
+    },
+    {
+      "id": "conflicts-0046",
+      "text": "Lack of trust"
+    },
+    {
+      "id": "conflicts-0047",
+      "text": "Crisis of loyalty"
+    },
+    {
+      "id": "conflicts-0048",
+      "text": "Reputation crisis"
+    },
+    {
+      "id": "conflicts-0049",
+      "text": "Media scandal"
+    },
+    {
+      "id": "conflicts-0050",
+      "text": "Disinformation"
+    },
+    {
+      "id": "conflicts-0051",
+      "text": "Propaganda"
+    },
+    {
+      "id": "conflicts-0052",
+      "text": "Spreading rumors"
+    },
+    {
+      "id": "conflicts-0053",
+      "text": "Panic"
+    },
+    {
+      "id": "conflicts-0054",
+      "text": "Collapse of morale"
+    },
+    {
+      "id": "conflicts-0055",
+      "text": "Leadership crisis"
+    },
+    {
+      "id": "conflicts-0056",
+      "text": "Power struggle"
+    },
+    {
+      "id": "conflicts-0057",
+      "text": "Succession crisis"
+    },
+    {
+      "id": "conflicts-0058",
+      "text": "Coup"
+    },
+    {
+      "id": "conflicts-0059",
+      "text": "Revolution"
+    },
+    {
+      "id": "conflicts-0060",
+      "text": "Civil war"
+    },
+    {
+      "id": "conflicts-0061",
+      "text": "Border dispute"
+    },
+    {
+      "id": "conflicts-0062",
+      "text": "War"
+    },
+    {
+      "id": "conflicts-0063",
+      "text": "Cold war"
+    },
+    {
+      "id": "conflicts-0064",
+      "text": "Occupation"
+    },
+    {
+      "id": "conflicts-0065",
+      "text": "Siege"
+    },
+    {
+      "id": "conflicts-0066",
+      "text": "Terrorist attack"
+    },
+    {
+      "id": "conflicts-0067",
+      "text": "Insurgency"
+    },
+    {
+      "id": "conflicts-0068",
+      "text": "Separatism"
+    },
+    {
+      "id": "conflicts-0069",
+      "text": "Diplomatic crisis"
+    },
+    {
+      "id": "conflicts-0070",
+      "text": "Trade war"
+    },
+    {
+      "id": "conflicts-0071",
+      "text": "Sanctions crisis"
+    },
+    {
+      "id": "conflicts-0072",
+      "text": "Dispute between allies"
+    },
+    {
+      "id": "conflicts-0073",
+      "text": "Election crisis"
+    },
+    {
+      "id": "conflicts-0074",
+      "text": "Fall of the government"
+    },
+    {
+      "id": "conflicts-0075",
+      "text": "Illegal use of power"
+    },
+    {
+      "id": "conflicts-0076",
+      "text": "Conflict between law and morality"
+    },
+    {
+      "id": "conflicts-0077",
+      "text": "Conflict between authorities"
+    },
+    {
+      "id": "conflicts-0078",
+      "text": "Civil unrest"
+    },
+    {
+      "id": "conflicts-0079",
+      "text": "Demonstrations"
+    },
+    {
+      "id": "conflicts-0080",
+      "text": "Riots"
+    },
+    {
+      "id": "conflicts-0081",
+      "text": "Violent protest"
+    },
+    {
+      "id": "conflicts-0082",
+      "text": "Class conflict"
+    },
+    {
+      "id": "conflicts-0083",
+      "text": "Generational conflict"
+    },
+    {
+      "id": "conflicts-0084",
+      "text": "Religious conflict"
+    },
+    {
+      "id": "conflicts-0085",
+      "text": "Cultural conflict"
+    },
+    {
+      "id": "conflicts-0086",
+      "text": "Ethnic conflict"
+    },
+    {
+      "id": "conflicts-0087",
+      "text": "Conflict between locals and newcomers"
+    },
+    {
+      "id": "conflicts-0088",
+      "text": "Family quarrel"
+    },
+    {
+      "id": "conflicts-0089",
+      "text": "Feud between clans"
+    },
+    {
+      "id": "conflicts-0090",
+      "text": "Relationship crisis"
+    },
+    {
+      "id": "conflicts-0091",
+      "text": "Jealousy"
+    },
+    {
+      "id": "conflicts-0092",
+      "text": "Divorce"
+    },
+    {
+      "id": "conflicts-0093",
+      "text": "Inheritance dispute"
+    },
+    {
+      "id": "conflicts-0094",
+      "text": "Parent–child conflict"
+    },
+    {
+      "id": "conflicts-0095",
+      "text": "Broken friendship"
+    },
+    {
+      "id": "conflicts-0096",
+      "text": "Workplace bullying"
+    },
+    {
+      "id": "conflicts-0097",
+      "text": "Power struggle at work"
+    },
+    {
+      "id": "conflicts-0098",
+      "text": "Conflict between employees and management"
+    },
+    {
+      "id": "conflicts-0099",
+      "text": "Conflict between a customer and a company"
+    },
+    {
+      "id": "conflicts-0100",
+      "text": "Rival organizations"
+    },
+    {
+      "id": "conflicts-0101",
+      "text": "Rival families"
+    },
+    {
+      "id": "conflicts-0102",
+      "text": "Rival cities"
+    },
+    {
+      "id": "conflicts-0103",
+      "text": "Rival nations"
+    },
+    {
+      "id": "conflicts-0104",
+      "text": "Rival religions"
+    },
+    {
+      "id": "conflicts-0105",
+      "text": "Rival research groups"
+    },
+    {
+      "id": "conflicts-0106",
+      "text": "Rival companies"
+    },
+    {
+      "id": "conflicts-0107",
+      "text": "Rival criminal organizations"
+    },
+    {
+      "id": "conflicts-0108",
+      "text": "Rival AIs"
+    },
+    {
+      "id": "conflicts-0109",
+      "text": "Rival colonies"
+    },
+    {
+      "id": "conflicts-0110",
+      "text": "False accusation"
+    },
+    {
+      "id": "conflicts-0111",
+      "text": "Unknown enemy"
+    },
+    {
+      "id": "conflicts-0112",
+      "text": "Hidden enemy"
+    },
+    {
+      "id": "conflicts-0113",
+      "text": "Traitor within the group"
+    },
+    {
+      "id": "conflicts-0114",
+      "text": "Double agent"
+    },
+    {
+      "id": "conflicts-0115",
+      "text": "Enemy in disguise"
+    },
+    {
+      "id": "conflicts-0116",
+      "text": "Missing person"
+    },
+    {
+      "id": "conflicts-0117",
+      "text": "Missing item"
+    },
+    {
+      "id": "conflicts-0118",
+      "text": "Missing information"
+    },
+    {
+      "id": "conflicts-0119",
+      "text": "Lost memory"
+    },
+    {
+      "id": "conflicts-0120",
+      "text": "Lost time"
+    },
+    {
+      "id": "conflicts-0121",
+      "text": "Unknown past"
+    },
+    {
+      "id": "conflicts-0122",
+      "text": "Identity crisis"
+    },
+    {
+      "id": "conflicts-0123",
+      "text": "Amnesia"
+    },
+    {
+      "id": "conflicts-0124",
+      "text": "Weakening grip on reality"
+    },
+    {
+      "id": "conflicts-0125",
+      "text": "Unreliable information"
+    },
+    {
+      "id": "conflicts-0126",
+      "text": "Conflicting testimonies"
+    },
+    {
+      "id": "conflicts-0127",
+      "text": "False lead"
+    },
+    {
+      "id": "conflicts-0128",
+      "text": "Lack of evidence"
+    },
+    {
+      "id": "conflicts-0129",
+      "text": "Contradictory evidence"
+    },
+    {
+      "id": "conflicts-0130",
+      "text": "Unsolved crime"
+    },
+    {
+      "id": "conflicts-0131",
+      "text": "Serial killer"
+    },
+    {
+      "id": "conflicts-0132",
+      "text": "Series of disappearances"
+    },
+    {
+      "id": "conflicts-0133",
+      "text": "Strange death"
+    },
+    {
+      "id": "conflicts-0134",
+      "text": "Staged accident"
+    },
+    {
+      "id": "conflicts-0135",
+      "text": "Staged suicide"
+    },
+    {
+      "id": "conflicts-0136",
+      "text": "Forbidden research"
+    },
+    {
+      "id": "conflicts-0137",
+      "text": "Secret experiment"
+    },
+    {
+      "id": "conflicts-0138",
+      "text": "Dangerous invention"
+    },
+    {
+      "id": "conflicts-0139",
+      "text": "Research gets out of control"
+    },
+    {
+      "id": "conflicts-0140",
+      "text": "AI gets out of control"
+    },
+    {
+      "id": "conflicts-0141",
+      "text": "Robot uprising"
+    },
+    {
+      "id": "conflicts-0142",
+      "text": "Automation failure"
+    },
+    {
+      "id": "conflicts-0143",
+      "text": "Software bug"
+    },
+    {
+      "id": "conflicts-0144",
+      "text": "Information system crash"
+    },
+    {
+      "id": "conflicts-0145",
+      "text": "Network outage"
+    },
+    {
+      "id": "conflicts-0146",
+      "text": "Power outage"
+    },
+    {
+      "id": "conflicts-0147",
+      "text": "Reactor failure"
+    },
+    {
+      "id": "conflicts-0148",
+      "text": "Engine failure"
+    },
+    {
+      "id": "conflicts-0149",
+      "text": "Oxygen system failure"
+    },
+    {
+      "id": "conflicts-0150",
+      "text": "Pressure system failure"
+    },
+    {
+      "id": "conflicts-0151",
+      "text": "Water system failure"
+    },
+    {
+      "id": "conflicts-0152",
+      "text": "Heating system failure"
+    },
+    {
+      "id": "conflicts-0153",
+      "text": "Security system failure"
+    },
+    {
+      "id": "conflicts-0154",
+      "text": "Navigation system failure"
+    },
+    {
+      "id": "conflicts-0155",
+      "text": "Communication system failure"
+    },
+    {
+      "id": "conflicts-0156",
+      "text": "Structural damage"
+    },
+    {
+      "id": "conflicts-0157",
+      "text": "Risk of building collapse"
+    },
+    {
+      "id": "conflicts-0158",
+      "text": "Hull damage"
+    },
+    {
+      "id": "conflicts-0159",
+      "text": "Fire"
+    },
+    {
+      "id": "conflicts-0160",
+      "text": "Explosion"
+    },
+    {
+      "id": "conflicts-0161",
+      "text": "Storm"
+    },
+    {
+      "id": "conflicts-0162",
+      "text": "Flood"
+    },
+    {
+      "id": "conflicts-0163",
+      "text": "Earthquake"
+    },
+    {
+      "id": "conflicts-0164",
+      "text": "Tsunami"
+    },
+    {
+      "id": "conflicts-0165",
+      "text": "Volcanic eruption"
+    },
+    {
+      "id": "conflicts-0166",
+      "text": "Forest fire"
+    },
+    {
+      "id": "conflicts-0167",
+      "text": "Hurricane"
+    },
+    {
+      "id": "conflicts-0168",
+      "text": "Blizzard"
+    },
+    {
+      "id": "conflicts-0169",
+      "text": "Heat wave"
+    },
+    {
+      "id": "conflicts-0170",
+      "text": "Deep freeze"
+    },
+    {
+      "id": "conflicts-0171",
+      "text": "Drought"
+    },
+    {
+      "id": "conflicts-0172",
+      "text": "Landslide"
+    },
+    {
+      "id": "conflicts-0173",
+      "text": "Avalanche"
+    },
+    {
+      "id": "conflicts-0174",
+      "text": "Meteor impact"
+    },
+    {
+      "id": "conflicts-0175",
+      "text": "Solar flare"
+    },
+    {
+      "id": "conflicts-0176",
+      "text": "Radiation storm"
+    },
+    {
+      "id": "conflicts-0177",
+      "text": "Space debris"
+    },
+    {
+      "id": "conflicts-0178",
+      "text": "Gravity anomaly"
+    },
+    {
+      "id": "conflicts-0179",
+      "text": "Black hole threat"
+    },
+    {
+      "id": "conflicts-0180",
+      "text": "Collapse of the planet's climate"
+    },
+    {
+      "id": "conflicts-0181",
+      "text": "Ecosystem collapse"
+    },
+    {
+      "id": "conflicts-0182",
+      "text": "Pollution"
+    },
+    {
+      "id": "conflicts-0183",
+      "text": "Toxic environment"
+    },
+    {
+      "id": "conflicts-0184",
+      "text": "Water contamination"
+    },
+    {
+      "id": "conflicts-0185",
+      "text": "Air pollution"
+    },
+    {
+      "id": "conflicts-0186",
+      "text": "Epidemic"
+    },
+    {
+      "id": "conflicts-0187",
+      "text": "Pandemic"
+    },
+    {
+      "id": "conflicts-0188",
+      "text": "Unknown disease"
+    },
+    {
+      "id": "conflicts-0189",
+      "text": "Spreading infection"
+    },
+    {
+      "id": "conflicts-0190",
+      "text": "Drug resistance"
+    },
+    {
+      "id": "conflicts-0191",
+      "text": "Poisoning"
+    },
+    {
+      "id": "conflicts-0192",
+      "text": "Radiation exposure"
+    },
+    {
+      "id": "conflicts-0193",
+      "text": "Famine"
+    },
+    {
+      "id": "conflicts-0194",
+      "text": "Mental health crisis"
+    },
+    {
+      "id": "conflicts-0195",
+      "text": "Insomnia epidemic"
+    },
+    {
+      "id": "conflicts-0196",
+      "text": "Mass hysteria"
+    },
+    {
+      "id": "conflicts-0197",
+      "text": "Parasite infestation"
+    },
+    {
+      "id": "conflicts-0198",
+      "text": "Genetic disorder"
+    },
+    {
+      "id": "conflicts-0199",
+      "text": "Mutation"
+    },
+    {
+      "id": "conflicts-0200",
+      "text": "Alien organism"
+    },
+    {
+      "id": "conflicts-0201",
+      "text": "Unknown life form"
+    },
+    {
+      "id": "conflicts-0202",
+      "text": "Monster attack"
+    },
+    {
+      "id": "conflicts-0203",
+      "text": "Attack by a herd of animals"
+    },
+    {
+      "id": "conflicts-0204",
+      "text": "Zombie infection"
+    },
+    {
+      "id": "conflicts-0205",
+      "text": "Vampire threat"
+    },
+    {
+      "id": "conflicts-0206",
+      "text": "Haunting"
+    },
+    {
+      "id": "conflicts-0207",
+      "text": "Curse"
+    },
+    {
+      "id": "conflicts-0208",
+      "text": "Possession"
+    },
+    {
+      "id": "conflicts-0209",
+      "text": "Supernatural phenomenon"
+    },
+    {
+      "id": "conflicts-0210",
+      "text": "Distortion of reality"
+    },
+    {
+      "id": "conflicts-0211",
+      "text": "Time loop"
+    },
+    {
+      "id": "conflicts-0212",
+      "text": "Time paradox"
+    },
+    {
+      "id": "conflicts-0213",
+      "text": "History changing"
+    },
+    {
+      "id": "conflicts-0214",
+      "text": "Collision of parallel realities"
+    },
+    {
+      "id": "conflicts-0215",
+      "text": "Memories changing"
+    },
+    {
+      "id": "conflicts-0216",
+      "text": "Dreams blending with reality"
+    },
+    {
+      "id": "conflicts-0217",
+      "text": "Simulation breaking down"
+    },
+    {
+      "id": "conflicts-0218",
+      "text": "The rules of the world breaking"
+    },
+    {
+      "id": "conflicts-0219",
+      "text": "NPCs behaving wrongly"
+    },
+    {
+      "id": "conflicts-0220",
+      "text": "The player's existence is called into question"
+    },
+    {
+      "id": "conflicts-0221",
+      "text": "Time is running out"
+    },
+    {
+      "id": "conflicts-0222",
+      "text": "Race against time"
+    },
+    {
+      "id": "conflicts-0223",
+      "text": "Deadline"
+    },
+    {
+      "id": "conflicts-0224",
+      "text": "Approaching disaster"
+    },
+    {
+      "id": "conflicts-0225",
+      "text": "Approaching attack"
+    },
+    {
+      "id": "conflicts-0226",
+      "text": "Approaching bankruptcy"
+    },
+    {
+      "id": "conflicts-0227",
+      "text": "Approaching winter"
+    },
+    {
+      "id": "conflicts-0228",
+      "text": "Approaching epidemic"
+    },
+    {
+      "id": "conflicts-0229",
+      "text": "Approaching execution"
+    },
+    {
+      "id": "conflicts-0230",
+      "text": "Approaching exposure"
+    },
+    {
+      "id": "conflicts-0231",
+      "text": "Approaching evacuation"
+    },
+    {
+      "id": "conflicts-0232",
+      "text": "Approaching end of the world"
+    },
+    {
+      "id": "conflicts-0233",
+      "text": "Impossible decision"
+    },
+    {
+      "id": "conflicts-0234",
+      "text": "Two bad options"
+    },
+    {
+      "id": "conflicts-0235",
+      "text": "Moral dilemma"
+    },
+    {
+      "id": "conflicts-0236",
+      "text": "Law versus justice"
+    },
+    {
+      "id": "conflicts-0237",
+      "text": "Individual versus community"
+    },
+    {
+      "id": "conflicts-0238",
+      "text": "Security versus freedom"
+    },
+    {
+      "id": "conflicts-0239",
+      "text": "Truth versus stability"
+    },
+    {
+      "id": "conflicts-0240",
+      "text": "Love versus duty"
+    },
+    {
+      "id": "conflicts-0241",
+      "text": "Career versus family"
+    },
+    {
+      "id": "conflicts-0242",
+      "text": "Survival versus morality"
+    },
+    {
+      "id": "conflicts-0243",
+      "text": "Short-term gain versus the long term"
+    },
+    {
+      "id": "conflicts-0244",
+      "text": "Violence versus a peaceful solution"
+    },
+    {
+      "id": "conflicts-0245",
+      "text": "Common good versus self-interest"
+    },
+    {
+      "id": "conflicts-0246",
+      "text": "Nature versus industry"
+    },
+    {
+      "id": "conflicts-0247",
+      "text": "Technology versus humanity"
+    },
+    {
+      "id": "conflicts-0248",
+      "text": "Science versus faith"
+    },
+    {
+      "id": "conflicts-0249",
+      "text": "Tradition versus reform"
+    },
+    {
+      "id": "conflicts-0250",
+      "text": "Central government versus local autonomy"
+    },
+    {
+      "id": "conflicts-0251",
+      "text": "Human versus machine"
+    },
+    {
+      "id": "conflicts-0252",
+      "text": "Human versus nature"
+    },
+    {
+      "id": "conflicts-0253",
+      "text": "Human versus society"
+    },
+    {
+      "id": "conflicts-0254",
+      "text": "Human versus self"
+    },
+    {
+      "id": "conflicts-0255",
+      "text": "Human versus fate"
+    },
+    {
+      "id": "conflicts-0256",
+      "text": "Human versus time"
+    },
+    {
+      "id": "conflicts-0257",
+      "text": "Human versus the unknown"
+    }
   ]
 }

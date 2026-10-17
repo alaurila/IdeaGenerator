@@ -1,322 +1,1276 @@
 {
   "moods": [
-    "Aconchegante",
-    "Sombrio",
-    "Absurdo",
-    "Realista",
-    "Melancólico",
-    "Bem-humorado",
-    "Paranoico",
-    "Romântico",
-    "Opressivo",
-    "Esperançoso",
-    "Caloroso",
-    "Caseiro",
-    "Tranquilo",
-    "Lento",
-    "Meditativo",
-    "De calma onírica",
-    "Seguro",
-    "Nostálgico",
-    "Saudoso",
-    "Pesaroso",
-    "Amargo",
-    "Trágico",
-    "Deprimente",
-    "Desconsolado",
-    "Cruel",
-    "Brutal",
-    "Impiedoso",
-    "Frio",
-    "Desolador",
-    "Angustiante",
-    "Claustrofóbico",
-    "Ameaçador",
-    "Assustador",
-    "Inquieto",
-    "Nervoso",
-    "Estressante",
-    "Agitado",
-    "Caótico",
-    "Incerto",
-    "Desconfiado",
-    "Desconfiado ao ponto da paranoia",
-    "Misterioso",
-    "Místico",
-    "Enigmático",
-    "Estranho",
-    "Peculiar",
-    "Irreal",
-    "Surrealista",
-    "De pesadelo",
-    "Grotesco",
-    "Lovecraftiano",
-    "Cósmico",
-    "Existencial",
-    "Filosófico",
-    "Contemplativo",
-    "Introspectivo",
-    "Psicológico",
-    "Perturbador",
-    "Desconfortável",
-    "Moralmente cinzento",
-    "Cínico",
-    "Niilista",
-    "Distópico",
-    "Totalitário",
-    "Burocrático",
-    "Orwelliano",
-    "Militar",
-    "Severo",
-    "Disciplinado",
-    "Sério",
-    "Documental",
-    "Objetivo e direto",
-    "Clínico",
-    "Técnico",
-    "Científico",
-    "Ficção científica hard",
-    "Histórico",
-    "Pé no chão",
-    "Cotidiano",
-    "Slice of life",
-    "Humanitário",
-    "Humano",
-    "Emotivo",
-    "Sensível",
-    "Comovente",
-    "Sentimental",
-    "Romanticamente saudoso",
-    "Apaixonado",
-    "Paquerador",
-    "Levemente romântico",
-    "De novela",
-    "Dramático",
-    "Melodramático",
-    "Teatral",
-    "Épico",
-    "Majestoso",
-    "Heroico",
-    "Aventureiro",
-    "Otimista",
-    "Inspirador",
-    "Jubiloso",
-    "Enérgico",
-    "Brincalhão",
-    "Leve",
-    "De bom humor",
-    "Afetuoso",
-    "Fofo",
-    "Saudável e afetuoso",
-    "De livro de contos",
-    "Mágico",
-    "Encantado",
-    "Fantástico",
-    "Mítico",
-    "Lendário",
-    "Folclórico",
-    "Gótico",
-    "Gótico romântico",
-    "Folk horror",
-    "Fantasia sombria",
-    "Grimdark",
-    "Ficção estranha",
-    "Weird West",
-    "Noir",
-    "Neo-noir",
-    "Filme noir",
-    "De romance policial",
-    "Pulp",
-    "Clima de espionagem",
-    "Clima de Guerra Fria",
-    "Thriller político",
-    "Conspiratório",
-    "De thriller",
-    "De suspense",
-    "Ameaça rastejante",
-    "Que se revela aos poucos",
-    "Que escurece gradualmente",
-    "Seguro no começo, estranho depois",
-    "Bem-humorado no começo, sério depois",
-    "Realista no começo, sobrenatural depois",
-    "Mundano no começo, pesadelo depois",
-    "Sombrio no começo, esperançoso depois",
-    "Presságio de catástrofe",
-    "De fim do mundo",
-    "Pós-apocalíptico",
-    "De sobrevivência",
-    "Isolado",
-    "Solitário",
-    "Desolado",
-    "Silencioso",
-    "Vazio",
-    "A solidão do espaço",
-    "A solidão da natureza selvagem",
-    "A solidão da cidade",
-    "Ansiedade social",
-    "Comunitário",
-    "Centrado na família",
-    "De vizinhança",
-    "Clima de comunidade pequena",
-    "Fofoqueiro",
-    "Socialmente tenso",
-    "De rivalidade",
-    "Invejoso",
-    "Ciumento",
-    "Traiçoeiro",
-    "Intrigante",
-    "Manipulador",
-    "Cheio de lutas pelo poder",
-    "Politicamente carregado",
-    "Rebelde",
-    "Revolucionário",
-    "Anárquico",
-    "Decadente",
-    "Opulento",
-    "Sujo",
-    "Decrépito",
-    "Industrial",
-    "Enferrujado",
-    "Dieselpunk",
-    "Steampunk",
-    "Atompunk",
-    "Retrofuturista",
-    "Futurismo cassete",
-    "Cyberpunk",
-    "Biopunk",
-    "Solarpunk",
-    "Hopepunk",
-    "Neon-noir",
-    "Analógico",
-    "Retrô",
-    "8 bits",
-    "16 bits",
-    "Anos 90",
-    "Anos 50",
-    "Vitoriano",
-    "Medieval",
-    "Clima do mundo antigo",
-    "Clima de Velho Oeste",
-    "Marítimo",
-    "Tropical",
-    "Invernal",
-    "Outonal",
-    "Veranil",
-    "Primaveril",
-    "Chuvoso",
-    "Nebuloso",
-    "Tempestuoso",
-    "Congelante",
-    "Quente e sufocante",
-    "Realismo sujo",
-    "Realismo urbano",
-    "Realismo social",
-    "Historicamente realista",
-    "Com humor negro",
-    "Com humor seco",
-    "Com humor absurdo",
-    "Satírico",
-    "Sátira política",
-    "Comédia burocrática",
-    "Farsa",
-    "Pastelão",
-    "Humor impassível",
-    "Irônico",
-    "Sarcástico",
-    "Autoconsciente",
-    "Meta",
-    "Que quebra a quarta parede",
-    "Camp",
-    "Kitsch",
-    "Exagerado",
-    "Absurdo levado a sério",
-    "Tragicômico",
-    "Agridoce",
-    "Saudosamente esperançoso",
-    "Com humor sombrio",
-    "Romanticamente sombrio",
-    "De calma mística",
-    "Mistério aconchegante",
-    "Aconchegante sombrio",
-    "Terror aconchegante",
-    "Apocalipse aconchegante",
-    "Ficção científica aconchegante",
-    "Fantasia aconchegante",
-    "Distopia esperançosa",
-    "Terror suave",
-    "Terror de queima lenta",
-    "Thriller psicológico",
-    "Terror existencial",
-    "Pavor cósmico",
-    "Terror corporativo",
-    "Terror burocrático",
-    "Terror doméstico",
-    "Terror tecnológico",
-    "Terror corporal",
-    "Paranormal",
-    "Sobrenatural",
-    "Ocultista",
-    "Religioso",
-    "Ritualístico",
-    "Sagrado",
-    "Profano",
-    "Apocalíptico",
-    "Messiânico",
-    "Fatalista",
-    "Fatídico",
-    "Desesperado",
-    "Desafiador",
-    "Insurgente",
-    "Empoderador",
-    "Heroicamente esperançoso",
-    "Espírito de reconstrução",
-    "Alegria da descoberta",
-    "De expedição",
-    "Cientificamente curioso",
-    "Experimental",
-    "Experimental e brincalhão",
-    "Intelectual",
-    "Analítico",
-    "De quebra-cabeça",
-    "Estratégico",
-    "Tático",
-    "Competitivo",
-    "Implacavelmente competitivo",
-    "De ritmo lento",
-    "De ritmo rápido",
-    "Frenético",
-    "Cheio de adrenalina",
-    "Rítmico",
-    "Hipnótico",
-    "Como um transe",
-    "Onírico e estranho",
-    "Como uma lembrança",
-    "Atemporal",
-    "Como um loop temporal",
-    "Déjà vu",
-    "Instável",
-    "Que questiona a realidade",
-    "Narrador não confiável",
-    "Como uma simulação",
-    "Sistemático",
-    "Mecânico",
-    "Desumano",
-    "Pós-humano",
-    "Alienígena",
-    "De outro mundo",
-    "Medo do desconhecido",
-    "Clima de era das explorações",
-    "Maravilhoso",
-    "Majestosamente estranho",
-    "Uma pessoa pequena num mundo enorme",
-    "Íntimo",
-    "Fechado",
-    "Em pequena escala",
-    "Drama de câmara",
-    "Tensão num único cômodo",
-    "Grandioso",
-    "Global",
-    "Em escala de civilização",
-    "Em escala cósmica"
+    {
+      "id": "moods-0001",
+      "text": "Aconchegante"
+    },
+    {
+      "id": "moods-0002",
+      "text": "Sombrio"
+    },
+    {
+      "id": "moods-0003",
+      "text": "Absurdo"
+    },
+    {
+      "id": "moods-0004",
+      "text": "Realista"
+    },
+    {
+      "id": "moods-0005",
+      "text": "Melancólico"
+    },
+    {
+      "id": "moods-0006",
+      "text": "Bem-humorado"
+    },
+    {
+      "id": "moods-0007",
+      "text": "Paranoico"
+    },
+    {
+      "id": "moods-0008",
+      "text": "Romântico"
+    },
+    {
+      "id": "moods-0009",
+      "text": "Opressivo"
+    },
+    {
+      "id": "moods-0010",
+      "text": "Esperançoso"
+    },
+    {
+      "id": "moods-0011",
+      "text": "Caloroso"
+    },
+    {
+      "id": "moods-0012",
+      "text": "Caseiro"
+    },
+    {
+      "id": "moods-0013",
+      "text": "Tranquilo"
+    },
+    {
+      "id": "moods-0014",
+      "text": "Lento"
+    },
+    {
+      "id": "moods-0015",
+      "text": "Meditativo"
+    },
+    {
+      "id": "moods-0016",
+      "text": "De calma onírica"
+    },
+    {
+      "id": "moods-0017",
+      "text": "Seguro"
+    },
+    {
+      "id": "moods-0018",
+      "text": "Nostálgico"
+    },
+    {
+      "id": "moods-0019",
+      "text": "Saudoso"
+    },
+    {
+      "id": "moods-0020",
+      "text": "Pesaroso"
+    },
+    {
+      "id": "moods-0021",
+      "text": "Amargo"
+    },
+    {
+      "id": "moods-0022",
+      "text": "Trágico"
+    },
+    {
+      "id": "moods-0023",
+      "text": "Deprimente"
+    },
+    {
+      "id": "moods-0024",
+      "text": "Desconsolado"
+    },
+    {
+      "id": "moods-0025",
+      "text": "Cruel"
+    },
+    {
+      "id": "moods-0026",
+      "text": "Brutal"
+    },
+    {
+      "id": "moods-0027",
+      "text": "Impiedoso"
+    },
+    {
+      "id": "moods-0028",
+      "text": "Frio"
+    },
+    {
+      "id": "moods-0029",
+      "text": "Desolador"
+    },
+    {
+      "id": "moods-0030",
+      "text": "Angustiante"
+    },
+    {
+      "id": "moods-0031",
+      "text": "Claustrofóbico"
+    },
+    {
+      "id": "moods-0032",
+      "text": "Ameaçador"
+    },
+    {
+      "id": "moods-0033",
+      "text": "Assustador"
+    },
+    {
+      "id": "moods-0034",
+      "text": "Inquieto"
+    },
+    {
+      "id": "moods-0035",
+      "text": "Nervoso"
+    },
+    {
+      "id": "moods-0036",
+      "text": "Estressante"
+    },
+    {
+      "id": "moods-0037",
+      "text": "Agitado"
+    },
+    {
+      "id": "moods-0038",
+      "text": "Caótico"
+    },
+    {
+      "id": "moods-0039",
+      "text": "Incerto"
+    },
+    {
+      "id": "moods-0040",
+      "text": "Desconfiado"
+    },
+    {
+      "id": "moods-0041",
+      "text": "Desconfiado ao ponto da paranoia"
+    },
+    {
+      "id": "moods-0042",
+      "text": "Misterioso"
+    },
+    {
+      "id": "moods-0043",
+      "text": "Místico"
+    },
+    {
+      "id": "moods-0044",
+      "text": "Enigmático"
+    },
+    {
+      "id": "moods-0045",
+      "text": "Estranho"
+    },
+    {
+      "id": "moods-0046",
+      "text": "Peculiar"
+    },
+    {
+      "id": "moods-0047",
+      "text": "Irreal"
+    },
+    {
+      "id": "moods-0048",
+      "text": "Surrealista"
+    },
+    {
+      "id": "moods-0049",
+      "text": "De pesadelo"
+    },
+    {
+      "id": "moods-0050",
+      "text": "Grotesco"
+    },
+    {
+      "id": "moods-0051",
+      "text": "Lovecraftiano"
+    },
+    {
+      "id": "moods-0052",
+      "text": "Cósmico"
+    },
+    {
+      "id": "moods-0053",
+      "text": "Existencial"
+    },
+    {
+      "id": "moods-0054",
+      "text": "Filosófico"
+    },
+    {
+      "id": "moods-0055",
+      "text": "Contemplativo"
+    },
+    {
+      "id": "moods-0056",
+      "text": "Introspectivo"
+    },
+    {
+      "id": "moods-0057",
+      "text": "Psicológico"
+    },
+    {
+      "id": "moods-0058",
+      "text": "Perturbador"
+    },
+    {
+      "id": "moods-0059",
+      "text": "Desconfortável"
+    },
+    {
+      "id": "moods-0060",
+      "text": "Moralmente cinzento"
+    },
+    {
+      "id": "moods-0061",
+      "text": "Cínico"
+    },
+    {
+      "id": "moods-0062",
+      "text": "Niilista"
+    },
+    {
+      "id": "moods-0063",
+      "text": "Distópico"
+    },
+    {
+      "id": "moods-0064",
+      "text": "Totalitário"
+    },
+    {
+      "id": "moods-0065",
+      "text": "Burocrático"
+    },
+    {
+      "id": "moods-0066",
+      "text": "Orwelliano"
+    },
+    {
+      "id": "moods-0067",
+      "text": "Militar"
+    },
+    {
+      "id": "moods-0068",
+      "text": "Severo"
+    },
+    {
+      "id": "moods-0069",
+      "text": "Disciplinado"
+    },
+    {
+      "id": "moods-0070",
+      "text": "Sério"
+    },
+    {
+      "id": "moods-0071",
+      "text": "Documental"
+    },
+    {
+      "id": "moods-0072",
+      "text": "Objetivo e direto"
+    },
+    {
+      "id": "moods-0073",
+      "text": "Clínico"
+    },
+    {
+      "id": "moods-0074",
+      "text": "Técnico"
+    },
+    {
+      "id": "moods-0075",
+      "text": "Científico"
+    },
+    {
+      "id": "moods-0076",
+      "text": "Ficção científica hard"
+    },
+    {
+      "id": "moods-0077",
+      "text": "Histórico"
+    },
+    {
+      "id": "moods-0078",
+      "text": "Pé no chão"
+    },
+    {
+      "id": "moods-0079",
+      "text": "Cotidiano"
+    },
+    {
+      "id": "moods-0080",
+      "text": "Slice of life"
+    },
+    {
+      "id": "moods-0081",
+      "text": "Humanitário"
+    },
+    {
+      "id": "moods-0082",
+      "text": "Humano"
+    },
+    {
+      "id": "moods-0083",
+      "text": "Emotivo"
+    },
+    {
+      "id": "moods-0084",
+      "text": "Sensível"
+    },
+    {
+      "id": "moods-0085",
+      "text": "Comovente"
+    },
+    {
+      "id": "moods-0086",
+      "text": "Sentimental"
+    },
+    {
+      "id": "moods-0087",
+      "text": "Romanticamente saudoso"
+    },
+    {
+      "id": "moods-0088",
+      "text": "Apaixonado"
+    },
+    {
+      "id": "moods-0089",
+      "text": "Paquerador"
+    },
+    {
+      "id": "moods-0090",
+      "text": "Levemente romântico"
+    },
+    {
+      "id": "moods-0091",
+      "text": "De novela"
+    },
+    {
+      "id": "moods-0092",
+      "text": "Dramático"
+    },
+    {
+      "id": "moods-0093",
+      "text": "Melodramático"
+    },
+    {
+      "id": "moods-0094",
+      "text": "Teatral"
+    },
+    {
+      "id": "moods-0095",
+      "text": "Épico"
+    },
+    {
+      "id": "moods-0096",
+      "text": "Majestoso"
+    },
+    {
+      "id": "moods-0097",
+      "text": "Heroico"
+    },
+    {
+      "id": "moods-0098",
+      "text": "Aventureiro"
+    },
+    {
+      "id": "moods-0099",
+      "text": "Otimista"
+    },
+    {
+      "id": "moods-0100",
+      "text": "Inspirador"
+    },
+    {
+      "id": "moods-0101",
+      "text": "Jubiloso"
+    },
+    {
+      "id": "moods-0102",
+      "text": "Enérgico"
+    },
+    {
+      "id": "moods-0103",
+      "text": "Brincalhão"
+    },
+    {
+      "id": "moods-0104",
+      "text": "Leve"
+    },
+    {
+      "id": "moods-0105",
+      "text": "De bom humor"
+    },
+    {
+      "id": "moods-0106",
+      "text": "Afetuoso"
+    },
+    {
+      "id": "moods-0107",
+      "text": "Fofo"
+    },
+    {
+      "id": "moods-0108",
+      "text": "Saudável e afetuoso"
+    },
+    {
+      "id": "moods-0109",
+      "text": "De livro de contos"
+    },
+    {
+      "id": "moods-0110",
+      "text": "Mágico"
+    },
+    {
+      "id": "moods-0111",
+      "text": "Encantado"
+    },
+    {
+      "id": "moods-0112",
+      "text": "Fantástico"
+    },
+    {
+      "id": "moods-0113",
+      "text": "Mítico"
+    },
+    {
+      "id": "moods-0114",
+      "text": "Lendário"
+    },
+    {
+      "id": "moods-0115",
+      "text": "Folclórico"
+    },
+    {
+      "id": "moods-0116",
+      "text": "Gótico"
+    },
+    {
+      "id": "moods-0117",
+      "text": "Gótico romântico"
+    },
+    {
+      "id": "moods-0118",
+      "text": "Folk horror"
+    },
+    {
+      "id": "moods-0119",
+      "text": "Fantasia sombria"
+    },
+    {
+      "id": "moods-0120",
+      "text": "Grimdark"
+    },
+    {
+      "id": "moods-0121",
+      "text": "Ficção estranha"
+    },
+    {
+      "id": "moods-0122",
+      "text": "Weird West"
+    },
+    {
+      "id": "moods-0123",
+      "text": "Noir"
+    },
+    {
+      "id": "moods-0124",
+      "text": "Neo-noir"
+    },
+    {
+      "id": "moods-0125",
+      "text": "Filme noir"
+    },
+    {
+      "id": "moods-0126",
+      "text": "De romance policial"
+    },
+    {
+      "id": "moods-0127",
+      "text": "Pulp"
+    },
+    {
+      "id": "moods-0128",
+      "text": "Clima de espionagem"
+    },
+    {
+      "id": "moods-0129",
+      "text": "Clima de Guerra Fria"
+    },
+    {
+      "id": "moods-0130",
+      "text": "Thriller político"
+    },
+    {
+      "id": "moods-0131",
+      "text": "Conspiratório"
+    },
+    {
+      "id": "moods-0132",
+      "text": "De thriller"
+    },
+    {
+      "id": "moods-0133",
+      "text": "De suspense"
+    },
+    {
+      "id": "moods-0134",
+      "text": "Ameaça rastejante"
+    },
+    {
+      "id": "moods-0135",
+      "text": "Que se revela aos poucos"
+    },
+    {
+      "id": "moods-0136",
+      "text": "Que escurece gradualmente"
+    },
+    {
+      "id": "moods-0137",
+      "text": "Seguro no começo, estranho depois"
+    },
+    {
+      "id": "moods-0138",
+      "text": "Bem-humorado no começo, sério depois"
+    },
+    {
+      "id": "moods-0139",
+      "text": "Realista no começo, sobrenatural depois"
+    },
+    {
+      "id": "moods-0140",
+      "text": "Mundano no começo, pesadelo depois"
+    },
+    {
+      "id": "moods-0141",
+      "text": "Sombrio no começo, esperançoso depois"
+    },
+    {
+      "id": "moods-0142",
+      "text": "Presságio de catástrofe"
+    },
+    {
+      "id": "moods-0143",
+      "text": "De fim do mundo"
+    },
+    {
+      "id": "moods-0144",
+      "text": "Pós-apocalíptico"
+    },
+    {
+      "id": "moods-0145",
+      "text": "De sobrevivência"
+    },
+    {
+      "id": "moods-0146",
+      "text": "Isolado"
+    },
+    {
+      "id": "moods-0147",
+      "text": "Solitário"
+    },
+    {
+      "id": "moods-0148",
+      "text": "Desolado"
+    },
+    {
+      "id": "moods-0149",
+      "text": "Silencioso"
+    },
+    {
+      "id": "moods-0150",
+      "text": "Vazio"
+    },
+    {
+      "id": "moods-0151",
+      "text": "A solidão do espaço"
+    },
+    {
+      "id": "moods-0152",
+      "text": "A solidão da natureza selvagem"
+    },
+    {
+      "id": "moods-0153",
+      "text": "A solidão da cidade"
+    },
+    {
+      "id": "moods-0154",
+      "text": "Ansiedade social"
+    },
+    {
+      "id": "moods-0155",
+      "text": "Comunitário"
+    },
+    {
+      "id": "moods-0156",
+      "text": "Centrado na família"
+    },
+    {
+      "id": "moods-0157",
+      "text": "De vizinhança"
+    },
+    {
+      "id": "moods-0158",
+      "text": "Clima de comunidade pequena"
+    },
+    {
+      "id": "moods-0159",
+      "text": "Fofoqueiro"
+    },
+    {
+      "id": "moods-0160",
+      "text": "Socialmente tenso"
+    },
+    {
+      "id": "moods-0161",
+      "text": "De rivalidade"
+    },
+    {
+      "id": "moods-0162",
+      "text": "Invejoso"
+    },
+    {
+      "id": "moods-0163",
+      "text": "Ciumento"
+    },
+    {
+      "id": "moods-0164",
+      "text": "Traiçoeiro"
+    },
+    {
+      "id": "moods-0165",
+      "text": "Intrigante"
+    },
+    {
+      "id": "moods-0166",
+      "text": "Manipulador"
+    },
+    {
+      "id": "moods-0167",
+      "text": "Cheio de lutas pelo poder"
+    },
+    {
+      "id": "moods-0168",
+      "text": "Politicamente carregado"
+    },
+    {
+      "id": "moods-0169",
+      "text": "Rebelde"
+    },
+    {
+      "id": "moods-0170",
+      "text": "Revolucionário"
+    },
+    {
+      "id": "moods-0171",
+      "text": "Anárquico"
+    },
+    {
+      "id": "moods-0172",
+      "text": "Decadente"
+    },
+    {
+      "id": "moods-0173",
+      "text": "Opulento"
+    },
+    {
+      "id": "moods-0174",
+      "text": "Sujo"
+    },
+    {
+      "id": "moods-0175",
+      "text": "Decrépito"
+    },
+    {
+      "id": "moods-0176",
+      "text": "Industrial"
+    },
+    {
+      "id": "moods-0177",
+      "text": "Enferrujado"
+    },
+    {
+      "id": "moods-0178",
+      "text": "Dieselpunk"
+    },
+    {
+      "id": "moods-0179",
+      "text": "Steampunk"
+    },
+    {
+      "id": "moods-0180",
+      "text": "Atompunk"
+    },
+    {
+      "id": "moods-0181",
+      "text": "Retrofuturista"
+    },
+    {
+      "id": "moods-0182",
+      "text": "Futurismo cassete"
+    },
+    {
+      "id": "moods-0183",
+      "text": "Cyberpunk"
+    },
+    {
+      "id": "moods-0184",
+      "text": "Biopunk"
+    },
+    {
+      "id": "moods-0185",
+      "text": "Solarpunk"
+    },
+    {
+      "id": "moods-0186",
+      "text": "Hopepunk"
+    },
+    {
+      "id": "moods-0187",
+      "text": "Neon-noir"
+    },
+    {
+      "id": "moods-0188",
+      "text": "Analógico"
+    },
+    {
+      "id": "moods-0189",
+      "text": "Retrô"
+    },
+    {
+      "id": "moods-0190",
+      "text": "8 bits"
+    },
+    {
+      "id": "moods-0191",
+      "text": "16 bits"
+    },
+    {
+      "id": "moods-0192",
+      "text": "Anos 90"
+    },
+    {
+      "id": "moods-0193",
+      "text": "Anos 50"
+    },
+    {
+      "id": "moods-0194",
+      "text": "Vitoriano"
+    },
+    {
+      "id": "moods-0195",
+      "text": "Medieval"
+    },
+    {
+      "id": "moods-0196",
+      "text": "Clima do mundo antigo"
+    },
+    {
+      "id": "moods-0197",
+      "text": "Clima de Velho Oeste"
+    },
+    {
+      "id": "moods-0198",
+      "text": "Marítimo"
+    },
+    {
+      "id": "moods-0199",
+      "text": "Tropical"
+    },
+    {
+      "id": "moods-0200",
+      "text": "Invernal"
+    },
+    {
+      "id": "moods-0201",
+      "text": "Outonal"
+    },
+    {
+      "id": "moods-0202",
+      "text": "Veranil"
+    },
+    {
+      "id": "moods-0203",
+      "text": "Primaveril"
+    },
+    {
+      "id": "moods-0204",
+      "text": "Chuvoso"
+    },
+    {
+      "id": "moods-0205",
+      "text": "Nebuloso"
+    },
+    {
+      "id": "moods-0206",
+      "text": "Tempestuoso"
+    },
+    {
+      "id": "moods-0207",
+      "text": "Congelante"
+    },
+    {
+      "id": "moods-0208",
+      "text": "Quente e sufocante"
+    },
+    {
+      "id": "moods-0209",
+      "text": "Realismo sujo"
+    },
+    {
+      "id": "moods-0210",
+      "text": "Realismo urbano"
+    },
+    {
+      "id": "moods-0211",
+      "text": "Realismo social"
+    },
+    {
+      "id": "moods-0212",
+      "text": "Historicamente realista"
+    },
+    {
+      "id": "moods-0213",
+      "text": "Com humor negro"
+    },
+    {
+      "id": "moods-0214",
+      "text": "Com humor seco"
+    },
+    {
+      "id": "moods-0215",
+      "text": "Com humor absurdo"
+    },
+    {
+      "id": "moods-0216",
+      "text": "Satírico"
+    },
+    {
+      "id": "moods-0217",
+      "text": "Sátira política"
+    },
+    {
+      "id": "moods-0218",
+      "text": "Comédia burocrática"
+    },
+    {
+      "id": "moods-0219",
+      "text": "Farsa"
+    },
+    {
+      "id": "moods-0220",
+      "text": "Pastelão"
+    },
+    {
+      "id": "moods-0221",
+      "text": "Humor impassível"
+    },
+    {
+      "id": "moods-0222",
+      "text": "Irônico"
+    },
+    {
+      "id": "moods-0223",
+      "text": "Sarcástico"
+    },
+    {
+      "id": "moods-0224",
+      "text": "Autoconsciente"
+    },
+    {
+      "id": "moods-0225",
+      "text": "Meta"
+    },
+    {
+      "id": "moods-0226",
+      "text": "Que quebra a quarta parede"
+    },
+    {
+      "id": "moods-0227",
+      "text": "Camp"
+    },
+    {
+      "id": "moods-0228",
+      "text": "Kitsch"
+    },
+    {
+      "id": "moods-0229",
+      "text": "Exagerado"
+    },
+    {
+      "id": "moods-0230",
+      "text": "Absurdo levado a sério"
+    },
+    {
+      "id": "moods-0231",
+      "text": "Tragicômico"
+    },
+    {
+      "id": "moods-0232",
+      "text": "Agridoce"
+    },
+    {
+      "id": "moods-0233",
+      "text": "Saudosamente esperançoso"
+    },
+    {
+      "id": "moods-0234",
+      "text": "Com humor sombrio"
+    },
+    {
+      "id": "moods-0235",
+      "text": "Romanticamente sombrio"
+    },
+    {
+      "id": "moods-0236",
+      "text": "De calma mística"
+    },
+    {
+      "id": "moods-0237",
+      "text": "Mistério aconchegante"
+    },
+    {
+      "id": "moods-0238",
+      "text": "Aconchegante sombrio"
+    },
+    {
+      "id": "moods-0239",
+      "text": "Terror aconchegante"
+    },
+    {
+      "id": "moods-0240",
+      "text": "Apocalipse aconchegante"
+    },
+    {
+      "id": "moods-0241",
+      "text": "Ficção científica aconchegante"
+    },
+    {
+      "id": "moods-0242",
+      "text": "Fantasia aconchegante"
+    },
+    {
+      "id": "moods-0243",
+      "text": "Distopia esperançosa"
+    },
+    {
+      "id": "moods-0244",
+      "text": "Terror suave"
+    },
+    {
+      "id": "moods-0245",
+      "text": "Terror de queima lenta"
+    },
+    {
+      "id": "moods-0246",
+      "text": "Thriller psicológico"
+    },
+    {
+      "id": "moods-0247",
+      "text": "Terror existencial"
+    },
+    {
+      "id": "moods-0248",
+      "text": "Pavor cósmico"
+    },
+    {
+      "id": "moods-0249",
+      "text": "Terror corporativo"
+    },
+    {
+      "id": "moods-0250",
+      "text": "Terror burocrático"
+    },
+    {
+      "id": "moods-0251",
+      "text": "Terror doméstico"
+    },
+    {
+      "id": "moods-0252",
+      "text": "Terror tecnológico"
+    },
+    {
+      "id": "moods-0253",
+      "text": "Terror corporal"
+    },
+    {
+      "id": "moods-0254",
+      "text": "Paranormal"
+    },
+    {
+      "id": "moods-0255",
+      "text": "Sobrenatural"
+    },
+    {
+      "id": "moods-0256",
+      "text": "Ocultista"
+    },
+    {
+      "id": "moods-0257",
+      "text": "Religioso"
+    },
+    {
+      "id": "moods-0258",
+      "text": "Ritualístico"
+    },
+    {
+      "id": "moods-0259",
+      "text": "Sagrado"
+    },
+    {
+      "id": "moods-0260",
+      "text": "Profano"
+    },
+    {
+      "id": "moods-0261",
+      "text": "Apocalíptico"
+    },
+    {
+      "id": "moods-0262",
+      "text": "Messiânico"
+    },
+    {
+      "id": "moods-0263",
+      "text": "Fatalista"
+    },
+    {
+      "id": "moods-0264",
+      "text": "Fatídico"
+    },
+    {
+      "id": "moods-0265",
+      "text": "Desesperado"
+    },
+    {
+      "id": "moods-0266",
+      "text": "Desafiador"
+    },
+    {
+      "id": "moods-0267",
+      "text": "Insurgente"
+    },
+    {
+      "id": "moods-0268",
+      "text": "Empoderador"
+    },
+    {
+      "id": "moods-0269",
+      "text": "Heroicamente esperançoso"
+    },
+    {
+      "id": "moods-0270",
+      "text": "Espírito de reconstrução"
+    },
+    {
+      "id": "moods-0271",
+      "text": "Alegria da descoberta"
+    },
+    {
+      "id": "moods-0272",
+      "text": "De expedição"
+    },
+    {
+      "id": "moods-0273",
+      "text": "Cientificamente curioso"
+    },
+    {
+      "id": "moods-0274",
+      "text": "Experimental"
+    },
+    {
+      "id": "moods-0275",
+      "text": "Experimental e brincalhão"
+    },
+    {
+      "id": "moods-0276",
+      "text": "Intelectual"
+    },
+    {
+      "id": "moods-0277",
+      "text": "Analítico"
+    },
+    {
+      "id": "moods-0278",
+      "text": "De quebra-cabeça"
+    },
+    {
+      "id": "moods-0279",
+      "text": "Estratégico"
+    },
+    {
+      "id": "moods-0280",
+      "text": "Tático"
+    },
+    {
+      "id": "moods-0281",
+      "text": "Competitivo"
+    },
+    {
+      "id": "moods-0282",
+      "text": "Implacavelmente competitivo"
+    },
+    {
+      "id": "moods-0283",
+      "text": "De ritmo lento"
+    },
+    {
+      "id": "moods-0284",
+      "text": "De ritmo rápido"
+    },
+    {
+      "id": "moods-0285",
+      "text": "Frenético"
+    },
+    {
+      "id": "moods-0286",
+      "text": "Cheio de adrenalina"
+    },
+    {
+      "id": "moods-0287",
+      "text": "Rítmico"
+    },
+    {
+      "id": "moods-0288",
+      "text": "Hipnótico"
+    },
+    {
+      "id": "moods-0289",
+      "text": "Como um transe"
+    },
+    {
+      "id": "moods-0290",
+      "text": "Onírico e estranho"
+    },
+    {
+      "id": "moods-0291",
+      "text": "Como uma lembrança"
+    },
+    {
+      "id": "moods-0292",
+      "text": "Atemporal"
+    },
+    {
+      "id": "moods-0293",
+      "text": "Como um loop temporal"
+    },
+    {
+      "id": "moods-0294",
+      "text": "Déjà vu"
+    },
+    {
+      "id": "moods-0295",
+      "text": "Instável"
+    },
+    {
+      "id": "moods-0296",
+      "text": "Que questiona a realidade"
+    },
+    {
+      "id": "moods-0297",
+      "text": "Narrador não confiável"
+    },
+    {
+      "id": "moods-0298",
+      "text": "Como uma simulação"
+    },
+    {
+      "id": "moods-0299",
+      "text": "Sistemático"
+    },
+    {
+      "id": "moods-0300",
+      "text": "Mecânico"
+    },
+    {
+      "id": "moods-0301",
+      "text": "Desumano"
+    },
+    {
+      "id": "moods-0302",
+      "text": "Pós-humano"
+    },
+    {
+      "id": "moods-0303",
+      "text": "Alienígena"
+    },
+    {
+      "id": "moods-0304",
+      "text": "De outro mundo"
+    },
+    {
+      "id": "moods-0305",
+      "text": "Medo do desconhecido"
+    },
+    {
+      "id": "moods-0306",
+      "text": "Clima de era das explorações"
+    },
+    {
+      "id": "moods-0307",
+      "text": "Maravilhoso"
+    },
+    {
+      "id": "moods-0308",
+      "text": "Majestosamente estranho"
+    },
+    {
+      "id": "moods-0309",
+      "text": "Uma pessoa pequena num mundo enorme"
+    },
+    {
+      "id": "moods-0310",
+      "text": "Íntimo"
+    },
+    {
+      "id": "moods-0311",
+      "text": "Fechado"
+    },
+    {
+      "id": "moods-0312",
+      "text": "Em pequena escala"
+    },
+    {
+      "id": "moods-0313",
+      "text": "Drama de câmara"
+    },
+    {
+      "id": "moods-0314",
+      "text": "Tensão num único cômodo"
+    },
+    {
+      "id": "moods-0315",
+      "text": "Grandioso"
+    },
+    {
+      "id": "moods-0316",
+      "text": "Global"
+    },
+    {
+      "id": "moods-0317",
+      "text": "Em escala de civilização"
+    },
+    {
+      "id": "moods-0318",
+      "text": "Em escala cósmica"
+    }
   ]
 }

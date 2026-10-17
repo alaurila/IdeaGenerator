@@ -1,280 +1,1108 @@
 {
   "failure_types": [
-    "Kuolema",
-    "Konkurssi",
-    "Maine romahtaa",
-    "Yhteisö hajoaa",
-    "Joku katoaa",
-    "Vallankaappaus",
-    "Systeemi lakkaa toimimasta",
-    "Pelaaja pidätetään",
-    "Pelaaja vangitaan",
-    "Pelaaja karkotetaan",
-    "Pelaaja erotetaan",
-    "Pelaaja menettää asemansa",
-    "Pelaaja menettää valtansa",
-    "Pelaaja menettää omaisuutensa",
-    "Pelaaja menettää henkilöllisyytensä",
-    "Pelaaja menettää muistinsa",
-    "Pelaaja menettää liittolaisensa",
-    "Pelaaja menettää luottamuksen",
-    "Pelaaja menettää pääsyn tärkeään paikkaan",
-    "Pelaaja menettää pääsyn tietoon",
-    "Pelaaja paljastuu",
-    "Peitehenkilöllisyys paljastuu",
-    "Salaisuus paljastuu",
-    "Rikos paljastuu",
-    "Valhe paljastuu",
-    "Petos paljastuu",
-    "Vakooja paljastuu",
-    "Organisaatio paljastuu",
-    "Kultti paljastuu",
-    "Salaliitto paljastuu",
-    "Maine tuhoutuu",
-    "Yleisön luottamus katoaa",
-    "Kannatus romahtaa",
-    "Äänestäjät hylkäävät pelaajan",
-    "Asiakkaat katoavat",
-    "Työntekijät irtisanoutuvat",
-    "Työntekijät kapinoivat",
-    "Miehistö kapinoi",
-    "Sotilaat kieltäytyvät käskyistä",
-    "Liittolaiset vaihtavat puolta",
-    "Liittolainen pettää",
-    "Fraktio hajoaa",
-    "Puolue hajoaa",
-    "Yritys hajoaa",
-    "Perhe hajoaa",
-    "Suku hajoaa",
-    "Avioliitto hajoaa",
-    "Ystävyyssuhde katkeaa",
-    "Yhteisö menettää moraalin",
-    "Paniikki leviää",
-    "Luottamus yhteisössä romahtaa",
-    "Kansalaislevottomuudet alkavat",
-    "Mellakat alkavat",
-    "Sisäinen kapina alkaa",
-    "Sisällissota alkaa",
-    "Vallankumous alkaa",
-    "Hallinto kaatuu",
-    "Hallitus kaatuu",
-    "Valtio romahtaa",
-    "Kaupunki joutuu kaaokseen",
-    "Kylä autioituu",
-    "Siirtokunta romahtaa",
-    "Sivilisaatio romahtaa",
-    "Vihollinen ottaa vallan",
-    "Vihollinen valloittaa alueen",
-    "Kaupunki menetetään",
-    "Tukikohta menetetään",
-    "Rajalinja murtuu",
-    "Sota hävitään",
-    "Taistelu hävitään",
-    "Piiritys murtuu",
-    "Rauhansopimus epäonnistuu",
-    "Diplomaattiset suhteet katkeavat",
-    "Liittouma hajoaa",
-    "Kauppasuhteet katkeavat",
-    "Pakotteet tuhoavat talouden",
-    "Taloudellinen romahdus",
-    "Likviditeetti loppuu",
-    "Kassavirta loppuu",
-    "Velat kasvavat hallitsemattomiksi",
-    "Markkinaosuus romahtaa",
-    "Yritys joutuu vihamieliseen yritysostoon",
-    "Yritys suljetaan",
-    "Tuotanto pysähtyy",
-    "Toimitusketju katkeaa",
-    "Varasto tyhjenee",
-    "Raaka-aineet loppuvat",
-    "Ruoka loppuu",
-    "Vesi loppuu",
-    "Polttoaine loppuu",
-    "Sähkö loppuu",
-    "Happi loppuu",
-    "Lääkkeet loppuvat",
-    "Ammukset loppuvat",
-    "Varaosat loppuvat",
-    "Työvoima loppuu",
-    "Aika loppuu",
-    "Määräaika ylittyy",
-    "Pelastus saapuu liian myöhään",
-    "Katastrofi tapahtuu",
-    "Rakennus romahtaa",
-    "Tukikohta romahtaa",
-    "Silta romahtaa",
-    "Pato murtuu",
-    "Tulipalo leviää hallitsemattomaksi",
-    "Räjähdys tuhoaa alueen",
-    "Reaktori sulaa",
-    "Voimalaitos sammuu",
-    "Sähköverkko kaatuu",
-    "Vesiverkko kaatuu",
-    "Tietoverkko kaatuu",
-    "Palvelimet kaatuvat",
-    "Kommunikaatio katkeaa",
-    "Navigointi lakkaa toimimasta",
-    "Turvajärjestelmä pettää",
-    "Ovien hallinta pettää",
-    "Paineistus pettää",
-    "Ilmanvaihto pettää",
-    "Lämmitys pettää",
-    "Jäähdytys pettää",
-    "Hapen tuotanto pettää",
-    "Vedenpuhdistus pettää",
-    "Ruokatuotanto pettää",
-    "Rakenteellinen eheys romahtaa",
-    "Aluksen runko rikkoutuu",
-    "Avaruusalus tuhoutuu",
-    "Avaruusasema tuhoutuu",
-    "Ajoneuvo rikkoutuu",
-    "Moottori hajoaa",
-    "Polttoainejärjestelmä pettää",
-    "Miehistö kuolee",
-    "Suurin osa miehistöstä kuolee",
-    "Kaikki kuolevat",
-    "Johtaja kuolee",
-    "Avainhenkilö kuolee",
-    "Perillinen kuolee",
-    "Potilas kuolee",
-    "Pelastettava henkilö kuolee",
-    "Siviilit kuolevat",
-    "Liian moni kuolee",
-    "Väestö laskee alle kriittisen rajan",
-    "Syntyvyys romahtaa",
-    "Epidemia leviää",
-    "Pandemia karkaa hallinnasta",
-    "Karanteeni pettää",
-    "Tauti muuttuu hallitsemattomaksi",
-    "Lääke epäonnistuu",
-    "Hoitokapasiteetti ylittyy",
-    "Sairaala romahtaa",
-    "Mielenterveys romahtaa",
-    "Moraali romahtaa",
-    "Pelaaja uupuu",
-    "Pelaaja menettää järkensä",
-    "Pelaaja menettää todellisuudentajunsa",
-    "Pelaaja muuttuu vaaraksi muille",
-    "Pelaaja liittyy viholliseen",
-    "Pelaaja tekee väärän johtopäätöksen",
-    "Väärä henkilö tuomitaan",
-    "Murhaaja pääsee pakoon",
-    "Epäilty pakenee",
-    "Todisteet tuhoutuvat",
-    "Todisteketju rikkoutuu",
-    "Tapaus jää ratkaisematta",
-    "Mysteerin ratkaisu on väärä",
-    "Totuus jää paljastamatta",
-    "Salaliitto onnistuu",
-    "Rikos onnistuu",
-    "Sabotaasi onnistuu",
-    "Kidnappaus onnistuu",
-    "Vanki pakenee",
-    "Vihollinen soluttautuu organisaatioon",
-    "Vakooja varastaa tiedot",
-    "Tietovuoto tapahtuu",
-    "Tietomurto onnistuu",
-    "Arkaluonteinen tieto julkaistaan",
-    "Propaganda voittaa",
-    "Huhu tuhoaa maineen",
-    "Väärä tieto muuttuu viralliseksi totuudeksi",
-    "Pelaaja menettää tiedonhallinnan",
-    "Arkisto tuhoutuu",
-    "Tietokanta korruptoituu",
-    "Historia vääristyy",
-    "Dokumentit katoavat",
-    "Kartta menetetään",
-    "Tutkimusdata menetetään",
-    "Projekti epäonnistuu",
-    "Tutkimus keskeytetään",
-    "Tutkimus tuottaa katastrofin",
-    "Koe karkaa hallinnasta",
-    "Tekoäly karkaa hallinnasta",
-    "Tekoäly sammuu",
-    "Tekoäly ottaa järjestelmän haltuun",
-    "Robotit lakkaavat tottelemasta",
-    "Automaatio pysähtyy",
-    "Tuotantolinja pysähtyy",
-    "Tehdas tuhoutuu",
-    "Kaivos suljetaan",
-    "Sadonkorjuu epäonnistuu",
-    "Sato menetetään",
-    "Karja kuolee",
-    "Ekosysteemi romahtaa",
-    "Laji kuolee sukupuuttoon",
-    "Saastuminen ylittää kriittisen rajan",
-    "Planeetta muuttuu elinkelvottomaksi",
-    "Terraformaus epäonnistuu",
-    "Kolonia epäonnistuu",
-    "Siirtokunta evakuoidaan",
-    "Avaruusmatka epäonnistuu",
-    "Ensikontakti epäonnistuu",
-    "Vieraat muuttuvat vihamielisiksi",
-    "Diplomatia muukalaisten kanssa epäonnistuu",
-    "Aikajana rikkoutuu",
-    "Aikaparadoksi syntyy",
-    "Aikasilmukka jää päälle",
-    "Pelaaja jää väärään aikaan",
-    "Historia muuttuu peruuttamattomasti",
-    "Tulevaisuus tuhoutuu",
-    "Simulaatio kaatuu",
-    "Simulaatio nollautuu",
-    "Maailma lakkaa olemasta",
-    "Todellisuus vääristyy",
-    "Rinnakkaistodellisuudet törmäävät",
-    "Pelaaja katoaa historiasta",
-    "Pelaajan henkilöllisyys poistuu",
-    "Kaikki unohtavat pelaajan",
-    "Pelaaja unohtaa kaiken",
-    "Muistot tuhoutuvat",
-    "Tärkeä muisto menetetään",
-    "Salaisuus katoaa ikuisesti",
-    "Kuolleet palaavat hallitsemattomasti",
-    "Kirous voimistuu",
-    "Rituaali epäonnistuu",
-    "Henki vapautuu",
-    "Demoni vapautuu",
-    "Yliluonnollinen ilmiö leviää",
-    "Maailmojen välinen raja rikkoutuu",
-    "Pelaaja joutuu kirotuksi",
-    "Pelaaja jää tuonpuoleiseen",
-    "Sielu menetetään",
-    "Kuolemattomuus muuttuu kiroukseksi",
-    "Pelaaja ei voi enää kuolla",
-    "Pelaaja kuolee väärässä aikajanassa",
-    "Pelaaja muuttuu NPC:ksi",
-    "Pelaaja menettää kontrollin hahmostaan",
-    "Pelaajan tavoitteet lukkiutuvat väärään suuntaan",
-    "Pelaaja joutuu väärälle puolelle konfliktia",
-    "Pelaaja auttaa vahingossa antagonistin voittoon",
-    "Pelaaja ratkaisee ongelman tavalla joka aiheuttaa suuremman ongelman",
-    "Voittoehdon saavuttaminen aiheuttaa katastrofin",
-    "Pelaaja voittaa mutta maailma häviää",
-    "Pelaaja selviää mutta kaikki muut kuolevat",
-    "Yhteisö selviää mutta pelaaja uhrataan",
-    "Pelaaja säilyttää vallan mutta menettää kaiken luottamuksen",
-    "Pelaaja rikastuu mutta yhteisö tuhoutuu",
-    "Pelaaja ratkaisee mysteerin mutta liian myöhään",
-    "Pelaaja estää katastrofin mutta menettää tärkeän henkilön",
-    "Pelaaja tekee moraalisesti kestämättömän kompromissin",
-    "Pelaaja menettää mahdollisuuden hyvään loppuun",
-    "Huono loppu aktivoituu",
-    "Neutraali loppu aktivoituu",
-    "Maailma jää pysyvään pattitilanteeseen",
-    "Kriisi jää ratkaisematta",
-    "Konflikti jäätyy",
-    "Järjestelmä toimii mutta väärällä tavalla",
-    "Yhteiskunta muuttuu autoritaariseksi",
-    "Yhteiskunta muuttuu anarkiaksi",
-    "Yhteiskunta pysähtyy",
-    "Kulttuuri katoaa",
-    "Tieto menetetään sukupolvien ajaksi",
-    "Suku sammuu",
-    "Dynastia päättyy",
-    "Perillistä ei synny",
-    "Organisaatiolla ei ole seuraajaa",
-    "Kaupunki hylätään",
-    "Maailma autioituu",
-    "Pelaaja jää yksin"
+    {
+      "id": "failure_types-0001",
+      "text": "Kuolema"
+    },
+    {
+      "id": "failure_types-0002",
+      "text": "Konkurssi"
+    },
+    {
+      "id": "failure_types-0003",
+      "text": "Maine romahtaa"
+    },
+    {
+      "id": "failure_types-0004",
+      "text": "Yhteisö hajoaa"
+    },
+    {
+      "id": "failure_types-0005",
+      "text": "Joku katoaa"
+    },
+    {
+      "id": "failure_types-0006",
+      "text": "Vallankaappaus"
+    },
+    {
+      "id": "failure_types-0007",
+      "text": "Systeemi lakkaa toimimasta"
+    },
+    {
+      "id": "failure_types-0008",
+      "text": "Pelaaja pidätetään"
+    },
+    {
+      "id": "failure_types-0009",
+      "text": "Pelaaja vangitaan"
+    },
+    {
+      "id": "failure_types-0010",
+      "text": "Pelaaja karkotetaan"
+    },
+    {
+      "id": "failure_types-0011",
+      "text": "Pelaaja erotetaan"
+    },
+    {
+      "id": "failure_types-0012",
+      "text": "Pelaaja menettää asemansa"
+    },
+    {
+      "id": "failure_types-0013",
+      "text": "Pelaaja menettää valtansa"
+    },
+    {
+      "id": "failure_types-0014",
+      "text": "Pelaaja menettää omaisuutensa"
+    },
+    {
+      "id": "failure_types-0015",
+      "text": "Pelaaja menettää henkilöllisyytensä"
+    },
+    {
+      "id": "failure_types-0016",
+      "text": "Pelaaja menettää muistinsa"
+    },
+    {
+      "id": "failure_types-0017",
+      "text": "Pelaaja menettää liittolaisensa"
+    },
+    {
+      "id": "failure_types-0018",
+      "text": "Pelaaja menettää luottamuksen"
+    },
+    {
+      "id": "failure_types-0019",
+      "text": "Pelaaja menettää pääsyn tärkeään paikkaan"
+    },
+    {
+      "id": "failure_types-0020",
+      "text": "Pelaaja menettää pääsyn tietoon"
+    },
+    {
+      "id": "failure_types-0021",
+      "text": "Pelaaja paljastuu"
+    },
+    {
+      "id": "failure_types-0022",
+      "text": "Peitehenkilöllisyys paljastuu"
+    },
+    {
+      "id": "failure_types-0023",
+      "text": "Salaisuus paljastuu"
+    },
+    {
+      "id": "failure_types-0024",
+      "text": "Rikos paljastuu"
+    },
+    {
+      "id": "failure_types-0025",
+      "text": "Valhe paljastuu"
+    },
+    {
+      "id": "failure_types-0026",
+      "text": "Petos paljastuu"
+    },
+    {
+      "id": "failure_types-0027",
+      "text": "Vakooja paljastuu"
+    },
+    {
+      "id": "failure_types-0028",
+      "text": "Organisaatio paljastuu"
+    },
+    {
+      "id": "failure_types-0029",
+      "text": "Kultti paljastuu"
+    },
+    {
+      "id": "failure_types-0030",
+      "text": "Salaliitto paljastuu"
+    },
+    {
+      "id": "failure_types-0031",
+      "text": "Maine tuhoutuu"
+    },
+    {
+      "id": "failure_types-0032",
+      "text": "Yleisön luottamus katoaa"
+    },
+    {
+      "id": "failure_types-0033",
+      "text": "Kannatus romahtaa"
+    },
+    {
+      "id": "failure_types-0034",
+      "text": "Äänestäjät hylkäävät pelaajan"
+    },
+    {
+      "id": "failure_types-0035",
+      "text": "Asiakkaat katoavat"
+    },
+    {
+      "id": "failure_types-0036",
+      "text": "Työntekijät irtisanoutuvat"
+    },
+    {
+      "id": "failure_types-0037",
+      "text": "Työntekijät kapinoivat"
+    },
+    {
+      "id": "failure_types-0038",
+      "text": "Miehistö kapinoi"
+    },
+    {
+      "id": "failure_types-0039",
+      "text": "Sotilaat kieltäytyvät käskyistä"
+    },
+    {
+      "id": "failure_types-0040",
+      "text": "Liittolaiset vaihtavat puolta"
+    },
+    {
+      "id": "failure_types-0041",
+      "text": "Liittolainen pettää"
+    },
+    {
+      "id": "failure_types-0042",
+      "text": "Fraktio hajoaa"
+    },
+    {
+      "id": "failure_types-0043",
+      "text": "Puolue hajoaa"
+    },
+    {
+      "id": "failure_types-0044",
+      "text": "Yritys hajoaa"
+    },
+    {
+      "id": "failure_types-0045",
+      "text": "Perhe hajoaa"
+    },
+    {
+      "id": "failure_types-0046",
+      "text": "Suku hajoaa"
+    },
+    {
+      "id": "failure_types-0047",
+      "text": "Avioliitto hajoaa"
+    },
+    {
+      "id": "failure_types-0048",
+      "text": "Ystävyyssuhde katkeaa"
+    },
+    {
+      "id": "failure_types-0049",
+      "text": "Yhteisö menettää moraalin"
+    },
+    {
+      "id": "failure_types-0050",
+      "text": "Paniikki leviää"
+    },
+    {
+      "id": "failure_types-0051",
+      "text": "Luottamus yhteisössä romahtaa"
+    },
+    {
+      "id": "failure_types-0052",
+      "text": "Kansalaislevottomuudet alkavat"
+    },
+    {
+      "id": "failure_types-0053",
+      "text": "Mellakat alkavat"
+    },
+    {
+      "id": "failure_types-0054",
+      "text": "Sisäinen kapina alkaa"
+    },
+    {
+      "id": "failure_types-0055",
+      "text": "Sisällissota alkaa"
+    },
+    {
+      "id": "failure_types-0056",
+      "text": "Vallankumous alkaa"
+    },
+    {
+      "id": "failure_types-0057",
+      "text": "Hallinto kaatuu"
+    },
+    {
+      "id": "failure_types-0058",
+      "text": "Hallitus kaatuu"
+    },
+    {
+      "id": "failure_types-0059",
+      "text": "Valtio romahtaa"
+    },
+    {
+      "id": "failure_types-0060",
+      "text": "Kaupunki joutuu kaaokseen"
+    },
+    {
+      "id": "failure_types-0061",
+      "text": "Kylä autioituu"
+    },
+    {
+      "id": "failure_types-0062",
+      "text": "Siirtokunta romahtaa"
+    },
+    {
+      "id": "failure_types-0063",
+      "text": "Sivilisaatio romahtaa"
+    },
+    {
+      "id": "failure_types-0064",
+      "text": "Vihollinen ottaa vallan"
+    },
+    {
+      "id": "failure_types-0065",
+      "text": "Vihollinen valloittaa alueen"
+    },
+    {
+      "id": "failure_types-0066",
+      "text": "Kaupunki menetetään"
+    },
+    {
+      "id": "failure_types-0067",
+      "text": "Tukikohta menetetään"
+    },
+    {
+      "id": "failure_types-0068",
+      "text": "Rajalinja murtuu"
+    },
+    {
+      "id": "failure_types-0069",
+      "text": "Sota hävitään"
+    },
+    {
+      "id": "failure_types-0070",
+      "text": "Taistelu hävitään"
+    },
+    {
+      "id": "failure_types-0071",
+      "text": "Piiritys murtuu"
+    },
+    {
+      "id": "failure_types-0072",
+      "text": "Rauhansopimus epäonnistuu"
+    },
+    {
+      "id": "failure_types-0073",
+      "text": "Diplomaattiset suhteet katkeavat"
+    },
+    {
+      "id": "failure_types-0074",
+      "text": "Liittouma hajoaa"
+    },
+    {
+      "id": "failure_types-0075",
+      "text": "Kauppasuhteet katkeavat"
+    },
+    {
+      "id": "failure_types-0076",
+      "text": "Pakotteet tuhoavat talouden"
+    },
+    {
+      "id": "failure_types-0077",
+      "text": "Taloudellinen romahdus"
+    },
+    {
+      "id": "failure_types-0078",
+      "text": "Likviditeetti loppuu"
+    },
+    {
+      "id": "failure_types-0079",
+      "text": "Kassavirta loppuu"
+    },
+    {
+      "id": "failure_types-0080",
+      "text": "Velat kasvavat hallitsemattomiksi"
+    },
+    {
+      "id": "failure_types-0081",
+      "text": "Markkinaosuus romahtaa"
+    },
+    {
+      "id": "failure_types-0082",
+      "text": "Yritys joutuu vihamieliseen yritysostoon"
+    },
+    {
+      "id": "failure_types-0083",
+      "text": "Yritys suljetaan"
+    },
+    {
+      "id": "failure_types-0084",
+      "text": "Tuotanto pysähtyy"
+    },
+    {
+      "id": "failure_types-0085",
+      "text": "Toimitusketju katkeaa"
+    },
+    {
+      "id": "failure_types-0086",
+      "text": "Varasto tyhjenee"
+    },
+    {
+      "id": "failure_types-0087",
+      "text": "Raaka-aineet loppuvat"
+    },
+    {
+      "id": "failure_types-0088",
+      "text": "Ruoka loppuu"
+    },
+    {
+      "id": "failure_types-0089",
+      "text": "Vesi loppuu"
+    },
+    {
+      "id": "failure_types-0090",
+      "text": "Polttoaine loppuu"
+    },
+    {
+      "id": "failure_types-0091",
+      "text": "Sähkö loppuu"
+    },
+    {
+      "id": "failure_types-0092",
+      "text": "Happi loppuu"
+    },
+    {
+      "id": "failure_types-0093",
+      "text": "Lääkkeet loppuvat"
+    },
+    {
+      "id": "failure_types-0094",
+      "text": "Ammukset loppuvat"
+    },
+    {
+      "id": "failure_types-0095",
+      "text": "Varaosat loppuvat"
+    },
+    {
+      "id": "failure_types-0096",
+      "text": "Työvoima loppuu"
+    },
+    {
+      "id": "failure_types-0097",
+      "text": "Aika loppuu"
+    },
+    {
+      "id": "failure_types-0098",
+      "text": "Määräaika ylittyy"
+    },
+    {
+      "id": "failure_types-0099",
+      "text": "Pelastus saapuu liian myöhään"
+    },
+    {
+      "id": "failure_types-0100",
+      "text": "Katastrofi tapahtuu"
+    },
+    {
+      "id": "failure_types-0101",
+      "text": "Rakennus romahtaa"
+    },
+    {
+      "id": "failure_types-0102",
+      "text": "Tukikohta romahtaa"
+    },
+    {
+      "id": "failure_types-0103",
+      "text": "Silta romahtaa"
+    },
+    {
+      "id": "failure_types-0104",
+      "text": "Pato murtuu"
+    },
+    {
+      "id": "failure_types-0105",
+      "text": "Tulipalo leviää hallitsemattomaksi"
+    },
+    {
+      "id": "failure_types-0106",
+      "text": "Räjähdys tuhoaa alueen"
+    },
+    {
+      "id": "failure_types-0107",
+      "text": "Reaktori sulaa"
+    },
+    {
+      "id": "failure_types-0108",
+      "text": "Voimalaitos sammuu"
+    },
+    {
+      "id": "failure_types-0109",
+      "text": "Sähköverkko kaatuu"
+    },
+    {
+      "id": "failure_types-0110",
+      "text": "Vesiverkko kaatuu"
+    },
+    {
+      "id": "failure_types-0111",
+      "text": "Tietoverkko kaatuu"
+    },
+    {
+      "id": "failure_types-0112",
+      "text": "Palvelimet kaatuvat"
+    },
+    {
+      "id": "failure_types-0113",
+      "text": "Kommunikaatio katkeaa"
+    },
+    {
+      "id": "failure_types-0114",
+      "text": "Navigointi lakkaa toimimasta"
+    },
+    {
+      "id": "failure_types-0115",
+      "text": "Turvajärjestelmä pettää"
+    },
+    {
+      "id": "failure_types-0116",
+      "text": "Ovien hallinta pettää"
+    },
+    {
+      "id": "failure_types-0117",
+      "text": "Paineistus pettää"
+    },
+    {
+      "id": "failure_types-0118",
+      "text": "Ilmanvaihto pettää"
+    },
+    {
+      "id": "failure_types-0119",
+      "text": "Lämmitys pettää"
+    },
+    {
+      "id": "failure_types-0120",
+      "text": "Jäähdytys pettää"
+    },
+    {
+      "id": "failure_types-0121",
+      "text": "Hapen tuotanto pettää"
+    },
+    {
+      "id": "failure_types-0122",
+      "text": "Vedenpuhdistus pettää"
+    },
+    {
+      "id": "failure_types-0123",
+      "text": "Ruokatuotanto pettää"
+    },
+    {
+      "id": "failure_types-0124",
+      "text": "Rakenteellinen eheys romahtaa"
+    },
+    {
+      "id": "failure_types-0125",
+      "text": "Aluksen runko rikkoutuu"
+    },
+    {
+      "id": "failure_types-0126",
+      "text": "Avaruusalus tuhoutuu"
+    },
+    {
+      "id": "failure_types-0127",
+      "text": "Avaruusasema tuhoutuu"
+    },
+    {
+      "id": "failure_types-0128",
+      "text": "Ajoneuvo rikkoutuu"
+    },
+    {
+      "id": "failure_types-0129",
+      "text": "Moottori hajoaa"
+    },
+    {
+      "id": "failure_types-0130",
+      "text": "Polttoainejärjestelmä pettää"
+    },
+    {
+      "id": "failure_types-0131",
+      "text": "Miehistö kuolee"
+    },
+    {
+      "id": "failure_types-0132",
+      "text": "Suurin osa miehistöstä kuolee"
+    },
+    {
+      "id": "failure_types-0133",
+      "text": "Kaikki kuolevat"
+    },
+    {
+      "id": "failure_types-0134",
+      "text": "Johtaja kuolee"
+    },
+    {
+      "id": "failure_types-0135",
+      "text": "Avainhenkilö kuolee"
+    },
+    {
+      "id": "failure_types-0136",
+      "text": "Perillinen kuolee"
+    },
+    {
+      "id": "failure_types-0137",
+      "text": "Potilas kuolee"
+    },
+    {
+      "id": "failure_types-0138",
+      "text": "Pelastettava henkilö kuolee"
+    },
+    {
+      "id": "failure_types-0139",
+      "text": "Siviilit kuolevat"
+    },
+    {
+      "id": "failure_types-0140",
+      "text": "Liian moni kuolee"
+    },
+    {
+      "id": "failure_types-0141",
+      "text": "Väestö laskee alle kriittisen rajan"
+    },
+    {
+      "id": "failure_types-0142",
+      "text": "Syntyvyys romahtaa"
+    },
+    {
+      "id": "failure_types-0143",
+      "text": "Epidemia leviää"
+    },
+    {
+      "id": "failure_types-0144",
+      "text": "Pandemia karkaa hallinnasta"
+    },
+    {
+      "id": "failure_types-0145",
+      "text": "Karanteeni pettää"
+    },
+    {
+      "id": "failure_types-0146",
+      "text": "Tauti muuttuu hallitsemattomaksi"
+    },
+    {
+      "id": "failure_types-0147",
+      "text": "Lääke epäonnistuu"
+    },
+    {
+      "id": "failure_types-0148",
+      "text": "Hoitokapasiteetti ylittyy"
+    },
+    {
+      "id": "failure_types-0149",
+      "text": "Sairaala romahtaa"
+    },
+    {
+      "id": "failure_types-0150",
+      "text": "Mielenterveys romahtaa"
+    },
+    {
+      "id": "failure_types-0151",
+      "text": "Moraali romahtaa"
+    },
+    {
+      "id": "failure_types-0152",
+      "text": "Pelaaja uupuu"
+    },
+    {
+      "id": "failure_types-0153",
+      "text": "Pelaaja menettää järkensä"
+    },
+    {
+      "id": "failure_types-0154",
+      "text": "Pelaaja menettää todellisuudentajunsa"
+    },
+    {
+      "id": "failure_types-0155",
+      "text": "Pelaaja muuttuu vaaraksi muille"
+    },
+    {
+      "id": "failure_types-0156",
+      "text": "Pelaaja liittyy viholliseen"
+    },
+    {
+      "id": "failure_types-0157",
+      "text": "Pelaaja tekee väärän johtopäätöksen"
+    },
+    {
+      "id": "failure_types-0158",
+      "text": "Väärä henkilö tuomitaan"
+    },
+    {
+      "id": "failure_types-0159",
+      "text": "Murhaaja pääsee pakoon"
+    },
+    {
+      "id": "failure_types-0160",
+      "text": "Epäilty pakenee"
+    },
+    {
+      "id": "failure_types-0161",
+      "text": "Todisteet tuhoutuvat"
+    },
+    {
+      "id": "failure_types-0162",
+      "text": "Todisteketju rikkoutuu"
+    },
+    {
+      "id": "failure_types-0163",
+      "text": "Tapaus jää ratkaisematta"
+    },
+    {
+      "id": "failure_types-0164",
+      "text": "Mysteerin ratkaisu on väärä"
+    },
+    {
+      "id": "failure_types-0165",
+      "text": "Totuus jää paljastamatta"
+    },
+    {
+      "id": "failure_types-0166",
+      "text": "Salaliitto onnistuu"
+    },
+    {
+      "id": "failure_types-0167",
+      "text": "Rikos onnistuu"
+    },
+    {
+      "id": "failure_types-0168",
+      "text": "Sabotaasi onnistuu"
+    },
+    {
+      "id": "failure_types-0169",
+      "text": "Kidnappaus onnistuu"
+    },
+    {
+      "id": "failure_types-0170",
+      "text": "Vanki pakenee"
+    },
+    {
+      "id": "failure_types-0171",
+      "text": "Vihollinen soluttautuu organisaatioon"
+    },
+    {
+      "id": "failure_types-0172",
+      "text": "Vakooja varastaa tiedot"
+    },
+    {
+      "id": "failure_types-0173",
+      "text": "Tietovuoto tapahtuu"
+    },
+    {
+      "id": "failure_types-0174",
+      "text": "Tietomurto onnistuu"
+    },
+    {
+      "id": "failure_types-0175",
+      "text": "Arkaluonteinen tieto julkaistaan"
+    },
+    {
+      "id": "failure_types-0176",
+      "text": "Propaganda voittaa"
+    },
+    {
+      "id": "failure_types-0177",
+      "text": "Huhu tuhoaa maineen"
+    },
+    {
+      "id": "failure_types-0178",
+      "text": "Väärä tieto muuttuu viralliseksi totuudeksi"
+    },
+    {
+      "id": "failure_types-0179",
+      "text": "Pelaaja menettää tiedonhallinnan"
+    },
+    {
+      "id": "failure_types-0180",
+      "text": "Arkisto tuhoutuu"
+    },
+    {
+      "id": "failure_types-0181",
+      "text": "Tietokanta korruptoituu"
+    },
+    {
+      "id": "failure_types-0182",
+      "text": "Historia vääristyy"
+    },
+    {
+      "id": "failure_types-0183",
+      "text": "Dokumentit katoavat"
+    },
+    {
+      "id": "failure_types-0184",
+      "text": "Kartta menetetään"
+    },
+    {
+      "id": "failure_types-0185",
+      "text": "Tutkimusdata menetetään"
+    },
+    {
+      "id": "failure_types-0186",
+      "text": "Projekti epäonnistuu"
+    },
+    {
+      "id": "failure_types-0187",
+      "text": "Tutkimus keskeytetään"
+    },
+    {
+      "id": "failure_types-0188",
+      "text": "Tutkimus tuottaa katastrofin"
+    },
+    {
+      "id": "failure_types-0189",
+      "text": "Koe karkaa hallinnasta"
+    },
+    {
+      "id": "failure_types-0190",
+      "text": "Tekoäly karkaa hallinnasta"
+    },
+    {
+      "id": "failure_types-0191",
+      "text": "Tekoäly sammuu"
+    },
+    {
+      "id": "failure_types-0192",
+      "text": "Tekoäly ottaa järjestelmän haltuun"
+    },
+    {
+      "id": "failure_types-0193",
+      "text": "Robotit lakkaavat tottelemasta"
+    },
+    {
+      "id": "failure_types-0194",
+      "text": "Automaatio pysähtyy"
+    },
+    {
+      "id": "failure_types-0195",
+      "text": "Tuotantolinja pysähtyy"
+    },
+    {
+      "id": "failure_types-0196",
+      "text": "Tehdas tuhoutuu"
+    },
+    {
+      "id": "failure_types-0197",
+      "text": "Kaivos suljetaan"
+    },
+    {
+      "id": "failure_types-0198",
+      "text": "Sadonkorjuu epäonnistuu"
+    },
+    {
+      "id": "failure_types-0199",
+      "text": "Sato menetetään"
+    },
+    {
+      "id": "failure_types-0200",
+      "text": "Karja kuolee"
+    },
+    {
+      "id": "failure_types-0201",
+      "text": "Ekosysteemi romahtaa"
+    },
+    {
+      "id": "failure_types-0202",
+      "text": "Laji kuolee sukupuuttoon"
+    },
+    {
+      "id": "failure_types-0203",
+      "text": "Saastuminen ylittää kriittisen rajan"
+    },
+    {
+      "id": "failure_types-0204",
+      "text": "Planeetta muuttuu elinkelvottomaksi"
+    },
+    {
+      "id": "failure_types-0205",
+      "text": "Terraformaus epäonnistuu"
+    },
+    {
+      "id": "failure_types-0206",
+      "text": "Kolonia epäonnistuu"
+    },
+    {
+      "id": "failure_types-0207",
+      "text": "Siirtokunta evakuoidaan"
+    },
+    {
+      "id": "failure_types-0208",
+      "text": "Avaruusmatka epäonnistuu"
+    },
+    {
+      "id": "failure_types-0209",
+      "text": "Ensikontakti epäonnistuu"
+    },
+    {
+      "id": "failure_types-0210",
+      "text": "Vieraat muuttuvat vihamielisiksi"
+    },
+    {
+      "id": "failure_types-0211",
+      "text": "Diplomatia muukalaisten kanssa epäonnistuu"
+    },
+    {
+      "id": "failure_types-0212",
+      "text": "Aikajana rikkoutuu"
+    },
+    {
+      "id": "failure_types-0213",
+      "text": "Aikaparadoksi syntyy"
+    },
+    {
+      "id": "failure_types-0214",
+      "text": "Aikasilmukka jää päälle"
+    },
+    {
+      "id": "failure_types-0215",
+      "text": "Pelaaja jää väärään aikaan"
+    },
+    {
+      "id": "failure_types-0216",
+      "text": "Historia muuttuu peruuttamattomasti"
+    },
+    {
+      "id": "failure_types-0217",
+      "text": "Tulevaisuus tuhoutuu"
+    },
+    {
+      "id": "failure_types-0218",
+      "text": "Simulaatio kaatuu"
+    },
+    {
+      "id": "failure_types-0219",
+      "text": "Simulaatio nollautuu"
+    },
+    {
+      "id": "failure_types-0220",
+      "text": "Maailma lakkaa olemasta"
+    },
+    {
+      "id": "failure_types-0221",
+      "text": "Todellisuus vääristyy"
+    },
+    {
+      "id": "failure_types-0222",
+      "text": "Rinnakkaistodellisuudet törmäävät"
+    },
+    {
+      "id": "failure_types-0223",
+      "text": "Pelaaja katoaa historiasta"
+    },
+    {
+      "id": "failure_types-0224",
+      "text": "Pelaajan henkilöllisyys poistuu"
+    },
+    {
+      "id": "failure_types-0225",
+      "text": "Kaikki unohtavat pelaajan"
+    },
+    {
+      "id": "failure_types-0226",
+      "text": "Pelaaja unohtaa kaiken"
+    },
+    {
+      "id": "failure_types-0227",
+      "text": "Muistot tuhoutuvat"
+    },
+    {
+      "id": "failure_types-0228",
+      "text": "Tärkeä muisto menetetään"
+    },
+    {
+      "id": "failure_types-0229",
+      "text": "Salaisuus katoaa ikuisesti"
+    },
+    {
+      "id": "failure_types-0230",
+      "text": "Kuolleet palaavat hallitsemattomasti"
+    },
+    {
+      "id": "failure_types-0231",
+      "text": "Kirous voimistuu"
+    },
+    {
+      "id": "failure_types-0232",
+      "text": "Rituaali epäonnistuu"
+    },
+    {
+      "id": "failure_types-0233",
+      "text": "Henki vapautuu"
+    },
+    {
+      "id": "failure_types-0234",
+      "text": "Demoni vapautuu"
+    },
+    {
+      "id": "failure_types-0235",
+      "text": "Yliluonnollinen ilmiö leviää"
+    },
+    {
+      "id": "failure_types-0236",
+      "text": "Maailmojen välinen raja rikkoutuu"
+    },
+    {
+      "id": "failure_types-0237",
+      "text": "Pelaaja joutuu kirotuksi"
+    },
+    {
+      "id": "failure_types-0238",
+      "text": "Pelaaja jää tuonpuoleiseen"
+    },
+    {
+      "id": "failure_types-0239",
+      "text": "Sielu menetetään"
+    },
+    {
+      "id": "failure_types-0240",
+      "text": "Kuolemattomuus muuttuu kiroukseksi"
+    },
+    {
+      "id": "failure_types-0241",
+      "text": "Pelaaja ei voi enää kuolla"
+    },
+    {
+      "id": "failure_types-0242",
+      "text": "Pelaaja kuolee väärässä aikajanassa"
+    },
+    {
+      "id": "failure_types-0243",
+      "text": "Pelaaja muuttuu NPC:ksi"
+    },
+    {
+      "id": "failure_types-0244",
+      "text": "Pelaaja menettää kontrollin hahmostaan"
+    },
+    {
+      "id": "failure_types-0245",
+      "text": "Pelaajan tavoitteet lukkiutuvat väärään suuntaan"
+    },
+    {
+      "id": "failure_types-0246",
+      "text": "Pelaaja joutuu väärälle puolelle konfliktia"
+    },
+    {
+      "id": "failure_types-0247",
+      "text": "Pelaaja auttaa vahingossa antagonistin voittoon"
+    },
+    {
+      "id": "failure_types-0248",
+      "text": "Pelaaja ratkaisee ongelman tavalla joka aiheuttaa suuremman ongelman"
+    },
+    {
+      "id": "failure_types-0249",
+      "text": "Voittoehdon saavuttaminen aiheuttaa katastrofin"
+    },
+    {
+      "id": "failure_types-0250",
+      "text": "Pelaaja voittaa mutta maailma häviää"
+    },
+    {
+      "id": "failure_types-0251",
+      "text": "Pelaaja selviää mutta kaikki muut kuolevat"
+    },
+    {
+      "id": "failure_types-0252",
+      "text": "Yhteisö selviää mutta pelaaja uhrataan"
+    },
+    {
+      "id": "failure_types-0253",
+      "text": "Pelaaja säilyttää vallan mutta menettää kaiken luottamuksen"
+    },
+    {
+      "id": "failure_types-0254",
+      "text": "Pelaaja rikastuu mutta yhteisö tuhoutuu"
+    },
+    {
+      "id": "failure_types-0255",
+      "text": "Pelaaja ratkaisee mysteerin mutta liian myöhään"
+    },
+    {
+      "id": "failure_types-0256",
+      "text": "Pelaaja estää katastrofin mutta menettää tärkeän henkilön"
+    },
+    {
+      "id": "failure_types-0257",
+      "text": "Pelaaja tekee moraalisesti kestämättömän kompromissin"
+    },
+    {
+      "id": "failure_types-0258",
+      "text": "Pelaaja menettää mahdollisuuden hyvään loppuun"
+    },
+    {
+      "id": "failure_types-0259",
+      "text": "Huono loppu aktivoituu"
+    },
+    {
+      "id": "failure_types-0260",
+      "text": "Neutraali loppu aktivoituu"
+    },
+    {
+      "id": "failure_types-0261",
+      "text": "Maailma jää pysyvään pattitilanteeseen"
+    },
+    {
+      "id": "failure_types-0262",
+      "text": "Kriisi jää ratkaisematta"
+    },
+    {
+      "id": "failure_types-0263",
+      "text": "Konflikti jäätyy"
+    },
+    {
+      "id": "failure_types-0264",
+      "text": "Järjestelmä toimii mutta väärällä tavalla"
+    },
+    {
+      "id": "failure_types-0265",
+      "text": "Yhteiskunta muuttuu autoritaariseksi"
+    },
+    {
+      "id": "failure_types-0266",
+      "text": "Yhteiskunta muuttuu anarkiaksi"
+    },
+    {
+      "id": "failure_types-0267",
+      "text": "Yhteiskunta pysähtyy"
+    },
+    {
+      "id": "failure_types-0268",
+      "text": "Kulttuuri katoaa"
+    },
+    {
+      "id": "failure_types-0269",
+      "text": "Tieto menetetään sukupolvien ajaksi"
+    },
+    {
+      "id": "failure_types-0270",
+      "text": "Suku sammuu"
+    },
+    {
+      "id": "failure_types-0271",
+      "text": "Dynastia päättyy"
+    },
+    {
+      "id": "failure_types-0272",
+      "text": "Perillistä ei synny"
+    },
+    {
+      "id": "failure_types-0273",
+      "text": "Organisaatiolla ei ole seuraajaa"
+    },
+    {
+      "id": "failure_types-0274",
+      "text": "Kaupunki hylätään"
+    },
+    {
+      "id": "failure_types-0275",
+      "text": "Maailma autioituu"
+    },
+    {
+      "id": "failure_types-0276",
+      "text": "Pelaaja jää yksin"
+    }
   ]
 }

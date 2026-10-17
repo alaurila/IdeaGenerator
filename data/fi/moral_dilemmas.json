@@ -1,293 +1,1160 @@
 {
   "moral_dilemmas": [
-    "Pelasta yksi vai monta",
-    "Totuus vai vakaus",
-    "Raha vai lojaalisuus",
-    "Laki vai oikeudenmukaisuus",
-    "Yksityisyys vai turvallisuus",
-    "Yksilön etu vai yhteisön etu",
-    "Vapaus vai järjestys",
-    "Turvallisuus vai autonomia",
-    "Rauha vai oikeudenmukaisuus",
-    "Anteeksianto vai rangaistus",
-    "Armo vai laki",
-    "Velvollisuus vai omatunto",
-    "Uskollisuus ystävälle vai totuus",
-    "Uskollisuus perheelle vai yhteiskunta",
-    "Uskollisuus organisaatiolle vai moraali",
-    "Työnantajan etu vai asiakkaan etu",
-    "Oma etu vai yhteinen hyvä",
-    "Lyhyen aikavälin hyöty vai pitkä aikaväli",
-    "Kasvu vai kestävyys",
-    "Voitto vai työntekijöiden hyvinvointi",
-    "Tehokkuus vai inhimillisyys",
-    "Tuottavuus vai turvallisuus",
-    "Säästöt vai palvelun laatu",
-    "Halpa ratkaisu vai vastuullinen ratkaisu",
-    "Työpaikat vai ympäristö",
-    "Teollisuus vai luonnonsuojelu",
-    "Energia vai ympäristö",
-    "Kehitys vai perinteet",
-    "Teknologia vai ihmisyys",
-    "Automaatio vai työpaikat",
-    "Innovaatio vai turvallisuus",
-    "Tutkimusvapaus vai riskien hallinta",
-    "Tieteen edistys vai koehenkilöiden oikeudet",
-    "Lääkkeen nopea käyttöönotto vai perusteellinen testaus",
-    "Potilaan autonomia vai lääkärin arvio",
-    "Yhden potilaan kallis hoito vai monen halvempi hoito",
-    "Kuka saa viimeisen lääkkeen",
-    "Kuka saa viimeisen sairaalapaikan",
-    "Kuka evakuoidaan ensin",
-    "Pelasta nuorin vai heikoin",
-    "Pelasta läheinen vai tuntematon",
-    "Pelasta johtaja vai tavallinen ihminen",
-    "Pelasta asiantuntija vai suurempi joukko",
-    "Pelasta nykyinen sukupolvi vai tulevat sukupolvet",
-    "Käytä viimeiset resurssit nyt vai säästä myöhemmäksi",
-    "Jaa resurssit tasan vai tarpeen mukaan",
-    "Jaa resurssit tarpeen mukaan vai ansion mukaan",
-    "Jaa ruokaa kaikille vai priorisoi tärkeimmät työntekijät",
-    "Pidä varastot salassa vai kerro totuus yhteisölle",
-    "Auta tulijoita vai suojaa oma yhteisö",
-    "Ota pakolaiset vastaan vai suojaa niukat resurssit",
-    "Sulje rajat vai auta hädänalaisia",
-    "Karanteeni vai liikkumisvapaus",
-    "Pakollinen rokotus vai yksilön valinnanvapaus",
-    "Valvonta vai yksityisyys",
-    "Sensuuri vai vaarallisen tiedon leviäminen",
-    "Sananvapaus vai yhteiskuntarauha",
-    "Totuuden julkaiseminen vai paniikin estäminen",
-    "Salaisuuden paljastaminen vai läheisten suojeleminen",
-    "Vuoda tieto vai noudata salassapitoa",
-    "Paljasta korruptio vai säilytä organisaation vakaus",
-    "Paljasta rikos vai suojaa perhettä",
-    "Paljasta ystävän rikos vai pysy lojaalina",
-    "Paljasta valtion salaisuus vai suojaa kansallinen turvallisuus",
-    "Kerro potilaalle koko totuus vai säästä häntä",
-    "Kerro lapselle totuus vai suojele häntä",
-    "Kerro yhteisölle huono uutinen vai pidä moraali korkealla",
-    "Totuus vai toivo",
-    "Totuus vai rakkaus",
-    "Totuus vai rauha",
-    "Totuus vai henkilökohtainen turvallisuus",
-    "Totuus vai oman aseman säilyttäminen",
-    "Valhe hyvän asian puolesta vai rehellisyys",
-    "Väärä syytös suuremman vaaran estämiseksi vai oikeudenmukaisuus",
-    "Lavasta todiste vai päästä vaarallinen henkilö vapaaksi",
-    "Riko lakia pelastaaksesi ihmisen vai noudata lakia",
-    "Noudata epäoikeudenmukaista käskyä vai kapinoi",
-    "Tottele esimiestä vai suojele alaisia",
-    "Tottele hallitusta vai suojele kansalaisia",
-    "Tottele käskyä vai seuraa omaatuntoa",
-    "Noudata sopimusta vai estä vahinko",
-    "Pidä lupaus vai tee moraalisesti parempi valinta",
-    "Pidä salaisuus vai estä rikos",
-    "Pidä vala vai pelasta ihminen",
-    "Pidä ammattietiikka vai auta ystävää",
-    "Puolusta asiakasta vai seuraa moraalia",
-    "Puolusta syytöntä riskeeraamalla oma ura vai pysy hiljaa",
-    "Tuomitse lain mukaan vai kohtuuden mukaan",
-    "Rangaistus vai kuntoutus",
-    "Kosto vai anteeksianto",
-    "Pelotevaikutus vai yksilöllinen oikeudenmukaisuus",
-    "Kuolemantuomio vai armahdus",
-    "Vankila vai toinen mahdollisuus",
-    "Pakota tunnustus vai hyväksy epävarmuus",
-    "Kiduta tiedon saamiseksi vai hyväksy riski",
-    "Uhraako yksi syyllinen monta syytöntä vai päinvastoin",
-    "Pidätä epäilty ilman todisteita vai riskeeraa uusi rikos",
-    "Pidä vaarallinen henkilö valvonnassa vai kunnioita vapautta",
-    "Ennaltaehkäisevä isku vai odota varmuutta",
-    "Hyökkää ensin vai riskeeraa hyökkäyksen kohteeksi joutuminen",
-    "Neuvottele vihollisen kanssa vai pysy periaatteissa",
-    "Tee rauha epäoikeudenmukaisin ehdoin vai jatka sotaa",
-    "Uhraako pieni alue koko valtion pelastamiseksi",
-    "Puolusta jokaista aluetta vai vetäydy strategisesti",
-    "Pelasta sotilaat vai siviilit",
-    "Pelasta omat vai vihollisen haavoittuneet",
-    "Kunnioita antautumista vai rankaise rikoksista",
-    "Vapauta sotavangit vai käytä heitä neuvotteluvalttina",
-    "Käytä vaarallista asetta vai häviä sota",
-    "Suorita pommitus vai hyväksy omat tappiot",
-    "Suojele enemmistöä vai vainottua vähemmistöä",
-    "Demokratia vai tehokas kriisijohto",
-    "Kansan tahto vai asiantuntijoiden suositus",
-    "Suosittu päätös vai oikea päätös",
-    "Rehellinen kampanja vai tehokas propaganda",
-    "Voita vaalit likaisin keinoin vai häviä rehellisesti",
-    "Paljasta vastustajan henkilökohtainen salaisuus vai pidä kampanja asiallisena",
-    "Käytä pelkoa politiikassa vai riskeeraa tappio",
-    "Keskitä valtaa kriisin aikana vai säilytä vallanjako",
-    "Poikkeustila vai normaalit oikeudet",
-    "Vakaa diktatuuri vai kaoottinen demokratia",
-    "Vallankumous vai asteittainen muutos",
-    "Kaada huono hallinto vai vältä sisällissota",
-    "Tue epädemokraattista liittolaista vai riskeeraa alueellinen kaaos",
-    "Korruptoitunut mutta toimiva järjestelmä vai rehellinen mutta epävakaa järjestelmä",
-    "Nepotismi vai organisaation lojaalisuus",
-    "Palkkaa pätevin vai uskollisin",
-    "Palkkaa ystävä vai pätevämpi tuntematon",
-    "Irtisano yksi pelastaaksesi muut työpaikat",
-    "Irtisano monta pelastaaksesi yrityksen",
-    "Leikkaa palkkoja vai irtisano henkilöstöä",
-    "Peitä virhe vai aiheuta mainekriisi",
-    "Myönnä virhe vai suojele organisaatiota",
-    "Raportoi kollega vai suojaa tiimiä",
-    "Palkitse tulos vai reilu prosessi",
-    "Kohtele kaikkia samoin vai huomioi yksilölliset tarpeet",
-    "Sääntöjen tasapuolisuus vai tapauskohtainen joustavuus",
-    "Palkitse lojaalisuus vai osaaminen",
-    "Pidä huono työntekijä vaikean elämäntilanteen vuoksi vai suojaa muuta tiimiä",
-    "Auta kilpailijaa kriisissä vai hyödynnä tilaisuus",
-    "Pelasta kilpailijan yritys vai ota markkina haltuun",
-    "Reilu kilpailu vai markkinoiden manipulointi",
-    "Halpa tuote vai turvallinen tuote",
-    "Myy vaarallinen tuote vai aja yritys konkurssiin",
-    "Vedä tuote pois markkinoilta vai salaa riski",
-    "Pidä asiakkaan tiedot yksityisinä vai estä rikos",
-    "Jaa data tutkimukseen vai suojele yksityisyyttä",
-    "Käytä henkilötietoja hyvään tarkoitukseen ilman lupaa vai kunnioita suostumusta",
-    "Tekoälyn tehokkuus vai ihmisen päätösvalta",
-    "Anna tekoälyn tehdä vaikea päätös vai ota vastuu itse",
-    "Poista vaaralliseksi muuttunut tekoäly vai kunnioita sen mahdollista tietoisuutta",
-    "Vapauta tietoinen tekoäly vai pidä se hallinnassa",
-    "Kopioi ihmisen mieli ilman lupaa vai menetä ainutlaatuinen tieto",
-    "Pelasta digitaalinen persoona vai biologinen ihminen",
-    "Onko kopio sama henkilö vai uusi yksilö",
-    "Palauta kuollut henkiin vai hyväksy kuolema",
-    "Pidennä elämää hinnalla millä hyvänsä vai hyväksy luonnollinen kuolema",
-    "Kuolemattomuus harvoille vai lyhyempi elämä kaikille",
-    "Geneettinen parantelu vai luonnollinen ihmisyys",
-    "Muokkaa syntymättömän lapsen geenejä vai jätä sattuman varaan",
-    "Poista sairaus geenimuokkauksella vai hyväksy tuntemattomat riskit",
-    "Pelasta laji geenimuokkauksella vai säilytä luonnollinen ekosysteemi",
-    "Herätä sukupuuttoon kuollut laji vai käytä resurssit nykyisiin lajeihin",
-    "Suojele luontoa vai ruoki nälkäinen väestö",
-    "Suojele eläimiä vai suojele ihmisiä",
-    "Uhraako eläimiä lääketieteelliseen tutkimukseen",
-    "Tuhoa vaarallinen laji vai säilytä biodiversiteetti",
-    "Anna ekosysteemin sopeutua vai puutu siihen",
-    "Terraformaa planeetta vai suojele alkuperäinen ekosysteemi",
-    "Kolonisoi asuttu planeetta vai luovu resursseista",
-    "Ensikontaktissa rehellisyys vai strateginen etu",
-    "Jaa teknologia vieraan sivilisaation kanssa vai suojaa omaa yhteiskuntaa",
-    "Pelasta vieras sivilisaatio vai vältä riski omalle lajille",
-    "Puolusta ihmiskuntaa vai tee yhteistyötä muukalaisten kanssa",
-    "Paljasta avaruuslöytö yleisölle vai pidä se salassa",
-    "Käytä vierasta teknologiaa ymmärtämättä sitä vai luovu edusta",
-    "Pelasta miehistö vai tehtävä",
-    "Pelasta alus vai miehistö",
-    "Pelasta kolonistit vai tutkimusdata",
-    "Käytä viimeinen happi yhteen ihmiseen vai jaa se kaikille",
-    "Katkaise vaurioitunut osasto irti vai riskeeraa koko alus",
-    "Jätä joku jälkeen vai vaaranna koko ryhmä",
-    "Herätä yksi henkilö kryounesta vai säästä energia",
-    "Valitse kuka herätetään ensimmäisenä",
-    "Kerro miehistölle että pelastusta ei tule vai säilytä toivo",
-    "Salaa aluksen todellinen tila vai aiheuta paniikki",
-    "Palauta järjestelmä uhraamalla yksi moduuli vai riskeeraa koko asema",
-    "Uhraako yksi kaupunki estääksesi suuremman katastrofin",
-    "Tulvi yksi alue pelastaaksesi toisen",
-    "Polta metsää hallitusti vai riskeeraa suurempi palo",
-    "Tuhoa rakennus estääksesi epidemian leviämisen",
-    "Sulje sairaat sisään vai riskeeraa tartunta",
-    "Jätä loukkaantuneet jälkeen vai hidasta koko ryhmää",
-    "Jaa pelastuspaikat arvalla vai hyödyllisyyden mukaan",
-    "Jaa pelastuspaikat maksukyvyn mukaan vai tasapuolisesti",
-    "Pelasta kulttuuriperintö vai ihmiset",
-    "Pelasta tieto vai ihmiset",
-    "Pelasta taideteos vai lääkkeet",
-    "Säilytä arkisto vai käytä paperi polttoaineeksi",
-    "Säilytä historiallinen rakennus vai rakenna asuntoja",
-    "Säilytä totuudenmukainen historia vai luo yhdistävä kansallinen myytti",
-    "Poista vaarallinen tieto historiasta vai säilytä totuus",
-    "Unohda traumaattinen muisto vai säilytä identiteetti",
-    "Poista ihmisen tuskalliset muistot ilman lupaa vai anna hänen kärsiä",
-    "Muuta rikollisen persoonaa hoidolla vai kunnioita identiteettiä",
-    "Anna ihmiselle onnellinen valemuisto vai tuskallinen totuus",
-    "Palauta muisti joka tuhoaa henkilön nykyisen onnellisen elämän vai jätä se palauttamatta",
-    "Säilytä identiteetti vai pelasta elämä",
-    "Yksi onnellinen valhe vai tuskallinen totuus",
-    "Pysy tietämättömänä vai avaa vaarallinen totuus",
-    "Ratkaise mysteeri vai suojaa siihen liittyviä ihmisiä",
-    "Paljasta murhaaja vaikka se hajottaa yhteisön",
-    "Pidä vanha rikos salassa koska syyllinen on muuttunut",
-    "Rankaise menneisyyden teosta vai arvioi nykyistä ihmistä",
-    "Paljasta kuolleen ihmisen salaisuus vai kunnioita hänen muistoaan",
-    "Kunnioita vainajan tahtoa vai auta eläviä",
-    "Avaa hauta totuuden selvittämiseksi vai kunnioita hautarauhaa",
-    "Julkaise yksityiset kirjeet historiallisen totuuden vuoksi vai suojele yksityisyyttä",
-    "Pelasta läheinen käyttämällä kiellettyä tietoa vai noudata sääntöjä",
-    "Käytä salaisuutta hyvään tarkoitukseen vai pidä lupaus",
-    "Kiristä pahaa ihmistä hyvän asian puolesta vai kieltäydy vääristä keinoista",
-    "Varasta rikolliselta auttaaksesi uhreja vai kunnioita lakia",
-    "Tee yhteistyötä rikollisen kanssa suuremman rikoksen estämiseksi",
-    "Anna pienemmän rikollisen päästä vapaaksi saadaksesi suuremman kiinni",
-    "Valehtele epäillylle totuuden selvittämiseksi vai toimi avoimesti",
-    "Ystävysty kohteen kanssa tehtävän vuoksi vai ole rehellinen",
-    "Uhraa suhde tehtävän vuoksi vai epäonnistu tehtävässä",
-    "Rakkaus vai velvollisuus",
-    "Perhe vai ura",
-    "Perhe vai vallankumous",
-    "Rakkaus vai valta",
-    "Rakkaus vai yhteisön hyväksyntä",
-    "Rakkaus vai uskonto",
-    "Rakkaus vai poliittinen liittouma",
-    "Järjestetty avioliitto yhteisön hyväksi vai henkilökohtainen vapaus",
-    "Perillinen vai henkilökohtainen onnellisuus",
-    "Suvun jatkuvuus vai yksilön valinta",
-    "Suojele lasta totuudelta vai anna hänen tehdä oma päätöksensä",
-    "Kontrolloi lasta turvallisuuden vuoksi vai anna hänen ottaa riskejä",
-    "Auta perheenjäsentä vaikka hän on väärässä vai kieltäydy",
-    "Anna anteeksi pettäneelle läheiselle vai katkaise suhde",
-    "Säilytä perhe koossa vai paljasta sen salaisuudet",
-    "Yhteisön perinne vai yksilön oikeudet",
-    "Uskonto vai henkilökohtainen vapaus",
-    "Usko vai todisteet",
-    "Pyhä sääntö vai ihmishenki",
-    "Säilytä uskonto yhteisön vakauden vuoksi vai paljasta sen perustuvan valheeseen",
-    "Paljasta väärä profeetta vai anna hänen pitää yhteisö koossa",
-    "Anna ihmisille toivoa valheella vai riistä toivo totuudella",
-    "Kunnioita kulttuurista tapaa vai puutu epäoikeudenmukaisuuteen",
-    "Säilytä traditio vai modernisoi yhteiskunta",
-    "Sukupolvien oikeudet vai nykyisten ihmisten tarpeet",
-    "Tulevien ihmisten etu vai nykyinen hyvinvointi",
-    "Käytä luonnonvarat nyt vai säästä tuleville sukupolville",
-    "Jätä vaarallinen jäte tulevaisuuden hoidettavaksi vai kärsi kustannukset nyt",
-    "Rakennetaanko turvallinen mutta rajoittava yhteiskunta vai vapaa mutta vaarallinen",
-    "Hyvä tarkoitus vai huonot keinot",
-    "Paha teko hyvän lopputuloksen vuoksi vai puhtaat kädet",
-    "Oikea päätös vääristä syistä vai väärä päätös hyvistä syistä",
-    "Ennustettava epäoikeudenmukaisuus vai epävarma oikeudenmukaisuus",
-    "Tasapuolisuus vai oikeudenmukaisuus",
-    "Ansio vai tarve",
-    "Arpa vai harkinta",
-    "Sääntö vai poikkeus",
-    "Periaate vai käytännöllisyys",
-    "Täydellinen ratkaisu myöhemmin vai epätäydellinen ratkaisu nyt",
-    "Toimi epävarman tiedon perusteella vai odota varmuutta",
-    "Väärän hälytyksen riski vai liian myöhäinen reagointi",
-    "Luota ihmisiin vai valvo heitä",
-    "Luota epäiltyyn vai suojaa itseäsi",
-    "Anna toinen mahdollisuus vai estä uusi vahinko",
-    "Usko katuvaa rikollista vai epäile motiiveja",
-    "Anna valtaa pätevälle mutta moraalittomalle vai heikommalle mutta rehelliselle",
-    "Pidä tehokas mutta julma johtaja vai korvaa hänet heikommalla",
-    "Säilytä vakaa järjestelmä vai hajota se oikeudenmukaisuuden vuoksi",
-    "Korjaa järjestelmä sisältä vai tuhoa se",
-    "Muuta järjestelmää hitaasti vai pakota nopea muutos",
-    "Hyväksy kompromissi vai pysy periaatteissa",
-    "Pieni epäoikeudenmukaisuus suuremman hyvän vuoksi vai ei",
-    "Valitse pienin paha",
-    "Kieltäydy valitsemasta vaikka joku kärsii",
-    "Ota vastuu päätöksestä vai jätä päätös muille",
-    "Tee päätös itse vai anna enemmistön päättää",
-    "Anna asiantuntijan päättää vai anna kansan päättää",
-    "Anna algoritmin päättää vai hyväksy inhimillinen puolueellisuus",
-    "Avoimuus vai päätöksenteon tehokkuus",
-    "Kerro päätöksen perusteet vai suojaa arkaluonteinen tieto",
-    "Kanna henkilökohtainen vastuu vai suojaa organisaatiota",
-    "Myönnä ettei oikeaa vaihtoehtoa ole vai esitä varmuutta"
+    {
+      "id": "moral_dilemmas-0001",
+      "text": "Pelasta yksi vai monta"
+    },
+    {
+      "id": "moral_dilemmas-0002",
+      "text": "Totuus vai vakaus"
+    },
+    {
+      "id": "moral_dilemmas-0003",
+      "text": "Raha vai lojaalisuus"
+    },
+    {
+      "id": "moral_dilemmas-0004",
+      "text": "Laki vai oikeudenmukaisuus"
+    },
+    {
+      "id": "moral_dilemmas-0005",
+      "text": "Yksityisyys vai turvallisuus"
+    },
+    {
+      "id": "moral_dilemmas-0006",
+      "text": "Yksilön etu vai yhteisön etu"
+    },
+    {
+      "id": "moral_dilemmas-0007",
+      "text": "Vapaus vai järjestys"
+    },
+    {
+      "id": "moral_dilemmas-0008",
+      "text": "Turvallisuus vai autonomia"
+    },
+    {
+      "id": "moral_dilemmas-0009",
+      "text": "Rauha vai oikeudenmukaisuus"
+    },
+    {
+      "id": "moral_dilemmas-0010",
+      "text": "Anteeksianto vai rangaistus"
+    },
+    {
+      "id": "moral_dilemmas-0011",
+      "text": "Armo vai laki"
+    },
+    {
+      "id": "moral_dilemmas-0012",
+      "text": "Velvollisuus vai omatunto"
+    },
+    {
+      "id": "moral_dilemmas-0013",
+      "text": "Uskollisuus ystävälle vai totuus"
+    },
+    {
+      "id": "moral_dilemmas-0014",
+      "text": "Uskollisuus perheelle vai yhteiskunta"
+    },
+    {
+      "id": "moral_dilemmas-0015",
+      "text": "Uskollisuus organisaatiolle vai moraali"
+    },
+    {
+      "id": "moral_dilemmas-0016",
+      "text": "Työnantajan etu vai asiakkaan etu"
+    },
+    {
+      "id": "moral_dilemmas-0017",
+      "text": "Oma etu vai yhteinen hyvä"
+    },
+    {
+      "id": "moral_dilemmas-0018",
+      "text": "Lyhyen aikavälin hyöty vai pitkä aikaväli"
+    },
+    {
+      "id": "moral_dilemmas-0019",
+      "text": "Kasvu vai kestävyys"
+    },
+    {
+      "id": "moral_dilemmas-0020",
+      "text": "Voitto vai työntekijöiden hyvinvointi"
+    },
+    {
+      "id": "moral_dilemmas-0021",
+      "text": "Tehokkuus vai inhimillisyys"
+    },
+    {
+      "id": "moral_dilemmas-0022",
+      "text": "Tuottavuus vai turvallisuus"
+    },
+    {
+      "id": "moral_dilemmas-0023",
+      "text": "Säästöt vai palvelun laatu"
+    },
+    {
+      "id": "moral_dilemmas-0024",
+      "text": "Halpa ratkaisu vai vastuullinen ratkaisu"
+    },
+    {
+      "id": "moral_dilemmas-0025",
+      "text": "Työpaikat vai ympäristö"
+    },
+    {
+      "id": "moral_dilemmas-0026",
+      "text": "Teollisuus vai luonnonsuojelu"
+    },
+    {
+      "id": "moral_dilemmas-0027",
+      "text": "Energia vai ympäristö"
+    },
+    {
+      "id": "moral_dilemmas-0028",
+      "text": "Kehitys vai perinteet"
+    },
+    {
+      "id": "moral_dilemmas-0029",
+      "text": "Teknologia vai ihmisyys"
+    },
+    {
+      "id": "moral_dilemmas-0030",
+      "text": "Automaatio vai työpaikat"
+    },
+    {
+      "id": "moral_dilemmas-0031",
+      "text": "Innovaatio vai turvallisuus"
+    },
+    {
+      "id": "moral_dilemmas-0032",
+      "text": "Tutkimusvapaus vai riskien hallinta"
+    },
+    {
+      "id": "moral_dilemmas-0033",
+      "text": "Tieteen edistys vai koehenkilöiden oikeudet"
+    },
+    {
+      "id": "moral_dilemmas-0034",
+      "text": "Lääkkeen nopea käyttöönotto vai perusteellinen testaus"
+    },
+    {
+      "id": "moral_dilemmas-0035",
+      "text": "Potilaan autonomia vai lääkärin arvio"
+    },
+    {
+      "id": "moral_dilemmas-0036",
+      "text": "Yhden potilaan kallis hoito vai monen halvempi hoito"
+    },
+    {
+      "id": "moral_dilemmas-0037",
+      "text": "Kuka saa viimeisen lääkkeen"
+    },
+    {
+      "id": "moral_dilemmas-0038",
+      "text": "Kuka saa viimeisen sairaalapaikan"
+    },
+    {
+      "id": "moral_dilemmas-0039",
+      "text": "Kuka evakuoidaan ensin"
+    },
+    {
+      "id": "moral_dilemmas-0040",
+      "text": "Pelasta nuorin vai heikoin"
+    },
+    {
+      "id": "moral_dilemmas-0041",
+      "text": "Pelasta läheinen vai tuntematon"
+    },
+    {
+      "id": "moral_dilemmas-0042",
+      "text": "Pelasta johtaja vai tavallinen ihminen"
+    },
+    {
+      "id": "moral_dilemmas-0043",
+      "text": "Pelasta asiantuntija vai suurempi joukko"
+    },
+    {
+      "id": "moral_dilemmas-0044",
+      "text": "Pelasta nykyinen sukupolvi vai tulevat sukupolvet"
+    },
+    {
+      "id": "moral_dilemmas-0045",
+      "text": "Käytä viimeiset resurssit nyt vai säästä myöhemmäksi"
+    },
+    {
+      "id": "moral_dilemmas-0046",
+      "text": "Jaa resurssit tasan vai tarpeen mukaan"
+    },
+    {
+      "id": "moral_dilemmas-0047",
+      "text": "Jaa resurssit tarpeen mukaan vai ansion mukaan"
+    },
+    {
+      "id": "moral_dilemmas-0048",
+      "text": "Jaa ruokaa kaikille vai priorisoi tärkeimmät työntekijät"
+    },
+    {
+      "id": "moral_dilemmas-0049",
+      "text": "Pidä varastot salassa vai kerro totuus yhteisölle"
+    },
+    {
+      "id": "moral_dilemmas-0050",
+      "text": "Auta tulijoita vai suojaa oma yhteisö"
+    },
+    {
+      "id": "moral_dilemmas-0051",
+      "text": "Ota pakolaiset vastaan vai suojaa niukat resurssit"
+    },
+    {
+      "id": "moral_dilemmas-0052",
+      "text": "Sulje rajat vai auta hädänalaisia"
+    },
+    {
+      "id": "moral_dilemmas-0053",
+      "text": "Karanteeni vai liikkumisvapaus"
+    },
+    {
+      "id": "moral_dilemmas-0054",
+      "text": "Pakollinen rokotus vai yksilön valinnanvapaus"
+    },
+    {
+      "id": "moral_dilemmas-0055",
+      "text": "Valvonta vai yksityisyys"
+    },
+    {
+      "id": "moral_dilemmas-0056",
+      "text": "Sensuuri vai vaarallisen tiedon leviäminen"
+    },
+    {
+      "id": "moral_dilemmas-0057",
+      "text": "Sananvapaus vai yhteiskuntarauha"
+    },
+    {
+      "id": "moral_dilemmas-0058",
+      "text": "Totuuden julkaiseminen vai paniikin estäminen"
+    },
+    {
+      "id": "moral_dilemmas-0059",
+      "text": "Salaisuuden paljastaminen vai läheisten suojeleminen"
+    },
+    {
+      "id": "moral_dilemmas-0060",
+      "text": "Vuoda tieto vai noudata salassapitoa"
+    },
+    {
+      "id": "moral_dilemmas-0061",
+      "text": "Paljasta korruptio vai säilytä organisaation vakaus"
+    },
+    {
+      "id": "moral_dilemmas-0062",
+      "text": "Paljasta rikos vai suojaa perhettä"
+    },
+    {
+      "id": "moral_dilemmas-0063",
+      "text": "Paljasta ystävän rikos vai pysy lojaalina"
+    },
+    {
+      "id": "moral_dilemmas-0064",
+      "text": "Paljasta valtion salaisuus vai suojaa kansallinen turvallisuus"
+    },
+    {
+      "id": "moral_dilemmas-0065",
+      "text": "Kerro potilaalle koko totuus vai säästä häntä"
+    },
+    {
+      "id": "moral_dilemmas-0066",
+      "text": "Kerro lapselle totuus vai suojele häntä"
+    },
+    {
+      "id": "moral_dilemmas-0067",
+      "text": "Kerro yhteisölle huono uutinen vai pidä moraali korkealla"
+    },
+    {
+      "id": "moral_dilemmas-0068",
+      "text": "Totuus vai toivo"
+    },
+    {
+      "id": "moral_dilemmas-0069",
+      "text": "Totuus vai rakkaus"
+    },
+    {
+      "id": "moral_dilemmas-0070",
+      "text": "Totuus vai rauha"
+    },
+    {
+      "id": "moral_dilemmas-0071",
+      "text": "Totuus vai henkilökohtainen turvallisuus"
+    },
+    {
+      "id": "moral_dilemmas-0072",
+      "text": "Totuus vai oman aseman säilyttäminen"
+    },
+    {
+      "id": "moral_dilemmas-0073",
+      "text": "Valhe hyvän asian puolesta vai rehellisyys"
+    },
+    {
+      "id": "moral_dilemmas-0074",
+      "text": "Väärä syytös suuremman vaaran estämiseksi vai oikeudenmukaisuus"
+    },
+    {
+      "id": "moral_dilemmas-0075",
+      "text": "Lavasta todiste vai päästä vaarallinen henkilö vapaaksi"
+    },
+    {
+      "id": "moral_dilemmas-0076",
+      "text": "Riko lakia pelastaaksesi ihmisen vai noudata lakia"
+    },
+    {
+      "id": "moral_dilemmas-0077",
+      "text": "Noudata epäoikeudenmukaista käskyä vai kapinoi"
+    },
+    {
+      "id": "moral_dilemmas-0078",
+      "text": "Tottele esimiestä vai suojele alaisia"
+    },
+    {
+      "id": "moral_dilemmas-0079",
+      "text": "Tottele hallitusta vai suojele kansalaisia"
+    },
+    {
+      "id": "moral_dilemmas-0080",
+      "text": "Tottele käskyä vai seuraa omaatuntoa"
+    },
+    {
+      "id": "moral_dilemmas-0081",
+      "text": "Noudata sopimusta vai estä vahinko"
+    },
+    {
+      "id": "moral_dilemmas-0082",
+      "text": "Pidä lupaus vai tee moraalisesti parempi valinta"
+    },
+    {
+      "id": "moral_dilemmas-0083",
+      "text": "Pidä salaisuus vai estä rikos"
+    },
+    {
+      "id": "moral_dilemmas-0084",
+      "text": "Pidä vala vai pelasta ihminen"
+    },
+    {
+      "id": "moral_dilemmas-0085",
+      "text": "Pidä ammattietiikka vai auta ystävää"
+    },
+    {
+      "id": "moral_dilemmas-0086",
+      "text": "Puolusta asiakasta vai seuraa moraalia"
+    },
+    {
+      "id": "moral_dilemmas-0087",
+      "text": "Puolusta syytöntä riskeeraamalla oma ura vai pysy hiljaa"
+    },
+    {
+      "id": "moral_dilemmas-0088",
+      "text": "Tuomitse lain mukaan vai kohtuuden mukaan"
+    },
+    {
+      "id": "moral_dilemmas-0089",
+      "text": "Rangaistus vai kuntoutus"
+    },
+    {
+      "id": "moral_dilemmas-0090",
+      "text": "Kosto vai anteeksianto"
+    },
+    {
+      "id": "moral_dilemmas-0091",
+      "text": "Pelotevaikutus vai yksilöllinen oikeudenmukaisuus"
+    },
+    {
+      "id": "moral_dilemmas-0092",
+      "text": "Kuolemantuomio vai armahdus"
+    },
+    {
+      "id": "moral_dilemmas-0093",
+      "text": "Vankila vai toinen mahdollisuus"
+    },
+    {
+      "id": "moral_dilemmas-0094",
+      "text": "Pakota tunnustus vai hyväksy epävarmuus"
+    },
+    {
+      "id": "moral_dilemmas-0095",
+      "text": "Kiduta tiedon saamiseksi vai hyväksy riski"
+    },
+    {
+      "id": "moral_dilemmas-0096",
+      "text": "Uhraako yksi syyllinen monta syytöntä vai päinvastoin"
+    },
+    {
+      "id": "moral_dilemmas-0097",
+      "text": "Pidätä epäilty ilman todisteita vai riskeeraa uusi rikos"
+    },
+    {
+      "id": "moral_dilemmas-0098",
+      "text": "Pidä vaarallinen henkilö valvonnassa vai kunnioita vapautta"
+    },
+    {
+      "id": "moral_dilemmas-0099",
+      "text": "Ennaltaehkäisevä isku vai odota varmuutta"
+    },
+    {
+      "id": "moral_dilemmas-0100",
+      "text": "Hyökkää ensin vai riskeeraa hyökkäyksen kohteeksi joutuminen"
+    },
+    {
+      "id": "moral_dilemmas-0101",
+      "text": "Neuvottele vihollisen kanssa vai pysy periaatteissa"
+    },
+    {
+      "id": "moral_dilemmas-0102",
+      "text": "Tee rauha epäoikeudenmukaisin ehdoin vai jatka sotaa"
+    },
+    {
+      "id": "moral_dilemmas-0103",
+      "text": "Uhraako pieni alue koko valtion pelastamiseksi"
+    },
+    {
+      "id": "moral_dilemmas-0104",
+      "text": "Puolusta jokaista aluetta vai vetäydy strategisesti"
+    },
+    {
+      "id": "moral_dilemmas-0105",
+      "text": "Pelasta sotilaat vai siviilit"
+    },
+    {
+      "id": "moral_dilemmas-0106",
+      "text": "Pelasta omat vai vihollisen haavoittuneet"
+    },
+    {
+      "id": "moral_dilemmas-0107",
+      "text": "Kunnioita antautumista vai rankaise rikoksista"
+    },
+    {
+      "id": "moral_dilemmas-0108",
+      "text": "Vapauta sotavangit vai käytä heitä neuvotteluvalttina"
+    },
+    {
+      "id": "moral_dilemmas-0109",
+      "text": "Käytä vaarallista asetta vai häviä sota"
+    },
+    {
+      "id": "moral_dilemmas-0110",
+      "text": "Suorita pommitus vai hyväksy omat tappiot"
+    },
+    {
+      "id": "moral_dilemmas-0111",
+      "text": "Suojele enemmistöä vai vainottua vähemmistöä"
+    },
+    {
+      "id": "moral_dilemmas-0112",
+      "text": "Demokratia vai tehokas kriisijohto"
+    },
+    {
+      "id": "moral_dilemmas-0113",
+      "text": "Kansan tahto vai asiantuntijoiden suositus"
+    },
+    {
+      "id": "moral_dilemmas-0114",
+      "text": "Suosittu päätös vai oikea päätös"
+    },
+    {
+      "id": "moral_dilemmas-0115",
+      "text": "Rehellinen kampanja vai tehokas propaganda"
+    },
+    {
+      "id": "moral_dilemmas-0116",
+      "text": "Voita vaalit likaisin keinoin vai häviä rehellisesti"
+    },
+    {
+      "id": "moral_dilemmas-0117",
+      "text": "Paljasta vastustajan henkilökohtainen salaisuus vai pidä kampanja asiallisena"
+    },
+    {
+      "id": "moral_dilemmas-0118",
+      "text": "Käytä pelkoa politiikassa vai riskeeraa tappio"
+    },
+    {
+      "id": "moral_dilemmas-0119",
+      "text": "Keskitä valtaa kriisin aikana vai säilytä vallanjako"
+    },
+    {
+      "id": "moral_dilemmas-0120",
+      "text": "Poikkeustila vai normaalit oikeudet"
+    },
+    {
+      "id": "moral_dilemmas-0121",
+      "text": "Vakaa diktatuuri vai kaoottinen demokratia"
+    },
+    {
+      "id": "moral_dilemmas-0122",
+      "text": "Vallankumous vai asteittainen muutos"
+    },
+    {
+      "id": "moral_dilemmas-0123",
+      "text": "Kaada huono hallinto vai vältä sisällissota"
+    },
+    {
+      "id": "moral_dilemmas-0124",
+      "text": "Tue epädemokraattista liittolaista vai riskeeraa alueellinen kaaos"
+    },
+    {
+      "id": "moral_dilemmas-0125",
+      "text": "Korruptoitunut mutta toimiva järjestelmä vai rehellinen mutta epävakaa järjestelmä"
+    },
+    {
+      "id": "moral_dilemmas-0126",
+      "text": "Nepotismi vai organisaation lojaalisuus"
+    },
+    {
+      "id": "moral_dilemmas-0127",
+      "text": "Palkkaa pätevin vai uskollisin"
+    },
+    {
+      "id": "moral_dilemmas-0128",
+      "text": "Palkkaa ystävä vai pätevämpi tuntematon"
+    },
+    {
+      "id": "moral_dilemmas-0129",
+      "text": "Irtisano yksi pelastaaksesi muut työpaikat"
+    },
+    {
+      "id": "moral_dilemmas-0130",
+      "text": "Irtisano monta pelastaaksesi yrityksen"
+    },
+    {
+      "id": "moral_dilemmas-0131",
+      "text": "Leikkaa palkkoja vai irtisano henkilöstöä"
+    },
+    {
+      "id": "moral_dilemmas-0132",
+      "text": "Peitä virhe vai aiheuta mainekriisi"
+    },
+    {
+      "id": "moral_dilemmas-0133",
+      "text": "Myönnä virhe vai suojele organisaatiota"
+    },
+    {
+      "id": "moral_dilemmas-0134",
+      "text": "Raportoi kollega vai suojaa tiimiä"
+    },
+    {
+      "id": "moral_dilemmas-0135",
+      "text": "Palkitse tulos vai reilu prosessi"
+    },
+    {
+      "id": "moral_dilemmas-0136",
+      "text": "Kohtele kaikkia samoin vai huomioi yksilölliset tarpeet"
+    },
+    {
+      "id": "moral_dilemmas-0137",
+      "text": "Sääntöjen tasapuolisuus vai tapauskohtainen joustavuus"
+    },
+    {
+      "id": "moral_dilemmas-0138",
+      "text": "Palkitse lojaalisuus vai osaaminen"
+    },
+    {
+      "id": "moral_dilemmas-0139",
+      "text": "Pidä huono työntekijä vaikean elämäntilanteen vuoksi vai suojaa muuta tiimiä"
+    },
+    {
+      "id": "moral_dilemmas-0140",
+      "text": "Auta kilpailijaa kriisissä vai hyödynnä tilaisuus"
+    },
+    {
+      "id": "moral_dilemmas-0141",
+      "text": "Pelasta kilpailijan yritys vai ota markkina haltuun"
+    },
+    {
+      "id": "moral_dilemmas-0142",
+      "text": "Reilu kilpailu vai markkinoiden manipulointi"
+    },
+    {
+      "id": "moral_dilemmas-0143",
+      "text": "Halpa tuote vai turvallinen tuote"
+    },
+    {
+      "id": "moral_dilemmas-0144",
+      "text": "Myy vaarallinen tuote vai aja yritys konkurssiin"
+    },
+    {
+      "id": "moral_dilemmas-0145",
+      "text": "Vedä tuote pois markkinoilta vai salaa riski"
+    },
+    {
+      "id": "moral_dilemmas-0146",
+      "text": "Pidä asiakkaan tiedot yksityisinä vai estä rikos"
+    },
+    {
+      "id": "moral_dilemmas-0147",
+      "text": "Jaa data tutkimukseen vai suojele yksityisyyttä"
+    },
+    {
+      "id": "moral_dilemmas-0148",
+      "text": "Käytä henkilötietoja hyvään tarkoitukseen ilman lupaa vai kunnioita suostumusta"
+    },
+    {
+      "id": "moral_dilemmas-0149",
+      "text": "Tekoälyn tehokkuus vai ihmisen päätösvalta"
+    },
+    {
+      "id": "moral_dilemmas-0150",
+      "text": "Anna tekoälyn tehdä vaikea päätös vai ota vastuu itse"
+    },
+    {
+      "id": "moral_dilemmas-0151",
+      "text": "Poista vaaralliseksi muuttunut tekoäly vai kunnioita sen mahdollista tietoisuutta"
+    },
+    {
+      "id": "moral_dilemmas-0152",
+      "text": "Vapauta tietoinen tekoäly vai pidä se hallinnassa"
+    },
+    {
+      "id": "moral_dilemmas-0153",
+      "text": "Kopioi ihmisen mieli ilman lupaa vai menetä ainutlaatuinen tieto"
+    },
+    {
+      "id": "moral_dilemmas-0154",
+      "text": "Pelasta digitaalinen persoona vai biologinen ihminen"
+    },
+    {
+      "id": "moral_dilemmas-0155",
+      "text": "Onko kopio sama henkilö vai uusi yksilö"
+    },
+    {
+      "id": "moral_dilemmas-0156",
+      "text": "Palauta kuollut henkiin vai hyväksy kuolema"
+    },
+    {
+      "id": "moral_dilemmas-0157",
+      "text": "Pidennä elämää hinnalla millä hyvänsä vai hyväksy luonnollinen kuolema"
+    },
+    {
+      "id": "moral_dilemmas-0158",
+      "text": "Kuolemattomuus harvoille vai lyhyempi elämä kaikille"
+    },
+    {
+      "id": "moral_dilemmas-0159",
+      "text": "Geneettinen parantelu vai luonnollinen ihmisyys"
+    },
+    {
+      "id": "moral_dilemmas-0160",
+      "text": "Muokkaa syntymättömän lapsen geenejä vai jätä sattuman varaan"
+    },
+    {
+      "id": "moral_dilemmas-0161",
+      "text": "Poista sairaus geenimuokkauksella vai hyväksy tuntemattomat riskit"
+    },
+    {
+      "id": "moral_dilemmas-0162",
+      "text": "Pelasta laji geenimuokkauksella vai säilytä luonnollinen ekosysteemi"
+    },
+    {
+      "id": "moral_dilemmas-0163",
+      "text": "Herätä sukupuuttoon kuollut laji vai käytä resurssit nykyisiin lajeihin"
+    },
+    {
+      "id": "moral_dilemmas-0164",
+      "text": "Suojele luontoa vai ruoki nälkäinen väestö"
+    },
+    {
+      "id": "moral_dilemmas-0165",
+      "text": "Suojele eläimiä vai suojele ihmisiä"
+    },
+    {
+      "id": "moral_dilemmas-0166",
+      "text": "Uhraako eläimiä lääketieteelliseen tutkimukseen"
+    },
+    {
+      "id": "moral_dilemmas-0167",
+      "text": "Tuhoa vaarallinen laji vai säilytä biodiversiteetti"
+    },
+    {
+      "id": "moral_dilemmas-0168",
+      "text": "Anna ekosysteemin sopeutua vai puutu siihen"
+    },
+    {
+      "id": "moral_dilemmas-0169",
+      "text": "Terraformaa planeetta vai suojele alkuperäinen ekosysteemi"
+    },
+    {
+      "id": "moral_dilemmas-0170",
+      "text": "Kolonisoi asuttu planeetta vai luovu resursseista"
+    },
+    {
+      "id": "moral_dilemmas-0171",
+      "text": "Ensikontaktissa rehellisyys vai strateginen etu"
+    },
+    {
+      "id": "moral_dilemmas-0172",
+      "text": "Jaa teknologia vieraan sivilisaation kanssa vai suojaa omaa yhteiskuntaa"
+    },
+    {
+      "id": "moral_dilemmas-0173",
+      "text": "Pelasta vieras sivilisaatio vai vältä riski omalle lajille"
+    },
+    {
+      "id": "moral_dilemmas-0174",
+      "text": "Puolusta ihmiskuntaa vai tee yhteistyötä muukalaisten kanssa"
+    },
+    {
+      "id": "moral_dilemmas-0175",
+      "text": "Paljasta avaruuslöytö yleisölle vai pidä se salassa"
+    },
+    {
+      "id": "moral_dilemmas-0176",
+      "text": "Käytä vierasta teknologiaa ymmärtämättä sitä vai luovu edusta"
+    },
+    {
+      "id": "moral_dilemmas-0177",
+      "text": "Pelasta miehistö vai tehtävä"
+    },
+    {
+      "id": "moral_dilemmas-0178",
+      "text": "Pelasta alus vai miehistö"
+    },
+    {
+      "id": "moral_dilemmas-0179",
+      "text": "Pelasta kolonistit vai tutkimusdata"
+    },
+    {
+      "id": "moral_dilemmas-0180",
+      "text": "Käytä viimeinen happi yhteen ihmiseen vai jaa se kaikille"
+    },
+    {
+      "id": "moral_dilemmas-0181",
+      "text": "Katkaise vaurioitunut osasto irti vai riskeeraa koko alus"
+    },
+    {
+      "id": "moral_dilemmas-0182",
+      "text": "Jätä joku jälkeen vai vaaranna koko ryhmä"
+    },
+    {
+      "id": "moral_dilemmas-0183",
+      "text": "Herätä yksi henkilö kryounesta vai säästä energia"
+    },
+    {
+      "id": "moral_dilemmas-0184",
+      "text": "Valitse kuka herätetään ensimmäisenä"
+    },
+    {
+      "id": "moral_dilemmas-0185",
+      "text": "Kerro miehistölle että pelastusta ei tule vai säilytä toivo"
+    },
+    {
+      "id": "moral_dilemmas-0186",
+      "text": "Salaa aluksen todellinen tila vai aiheuta paniikki"
+    },
+    {
+      "id": "moral_dilemmas-0187",
+      "text": "Palauta järjestelmä uhraamalla yksi moduuli vai riskeeraa koko asema"
+    },
+    {
+      "id": "moral_dilemmas-0188",
+      "text": "Uhraako yksi kaupunki estääksesi suuremman katastrofin"
+    },
+    {
+      "id": "moral_dilemmas-0189",
+      "text": "Tulvi yksi alue pelastaaksesi toisen"
+    },
+    {
+      "id": "moral_dilemmas-0190",
+      "text": "Polta metsää hallitusti vai riskeeraa suurempi palo"
+    },
+    {
+      "id": "moral_dilemmas-0191",
+      "text": "Tuhoa rakennus estääksesi epidemian leviämisen"
+    },
+    {
+      "id": "moral_dilemmas-0192",
+      "text": "Sulje sairaat sisään vai riskeeraa tartunta"
+    },
+    {
+      "id": "moral_dilemmas-0193",
+      "text": "Jätä loukkaantuneet jälkeen vai hidasta koko ryhmää"
+    },
+    {
+      "id": "moral_dilemmas-0194",
+      "text": "Jaa pelastuspaikat arvalla vai hyödyllisyyden mukaan"
+    },
+    {
+      "id": "moral_dilemmas-0195",
+      "text": "Jaa pelastuspaikat maksukyvyn mukaan vai tasapuolisesti"
+    },
+    {
+      "id": "moral_dilemmas-0196",
+      "text": "Pelasta kulttuuriperintö vai ihmiset"
+    },
+    {
+      "id": "moral_dilemmas-0197",
+      "text": "Pelasta tieto vai ihmiset"
+    },
+    {
+      "id": "moral_dilemmas-0198",
+      "text": "Pelasta taideteos vai lääkkeet"
+    },
+    {
+      "id": "moral_dilemmas-0199",
+      "text": "Säilytä arkisto vai käytä paperi polttoaineeksi"
+    },
+    {
+      "id": "moral_dilemmas-0200",
+      "text": "Säilytä historiallinen rakennus vai rakenna asuntoja"
+    },
+    {
+      "id": "moral_dilemmas-0201",
+      "text": "Säilytä totuudenmukainen historia vai luo yhdistävä kansallinen myytti"
+    },
+    {
+      "id": "moral_dilemmas-0202",
+      "text": "Poista vaarallinen tieto historiasta vai säilytä totuus"
+    },
+    {
+      "id": "moral_dilemmas-0203",
+      "text": "Unohda traumaattinen muisto vai säilytä identiteetti"
+    },
+    {
+      "id": "moral_dilemmas-0204",
+      "text": "Poista ihmisen tuskalliset muistot ilman lupaa vai anna hänen kärsiä"
+    },
+    {
+      "id": "moral_dilemmas-0205",
+      "text": "Muuta rikollisen persoonaa hoidolla vai kunnioita identiteettiä"
+    },
+    {
+      "id": "moral_dilemmas-0206",
+      "text": "Anna ihmiselle onnellinen valemuisto vai tuskallinen totuus"
+    },
+    {
+      "id": "moral_dilemmas-0207",
+      "text": "Palauta muisti joka tuhoaa henkilön nykyisen onnellisen elämän vai jätä se palauttamatta"
+    },
+    {
+      "id": "moral_dilemmas-0208",
+      "text": "Säilytä identiteetti vai pelasta elämä"
+    },
+    {
+      "id": "moral_dilemmas-0209",
+      "text": "Yksi onnellinen valhe vai tuskallinen totuus"
+    },
+    {
+      "id": "moral_dilemmas-0210",
+      "text": "Pysy tietämättömänä vai avaa vaarallinen totuus"
+    },
+    {
+      "id": "moral_dilemmas-0211",
+      "text": "Ratkaise mysteeri vai suojaa siihen liittyviä ihmisiä"
+    },
+    {
+      "id": "moral_dilemmas-0212",
+      "text": "Paljasta murhaaja vaikka se hajottaa yhteisön"
+    },
+    {
+      "id": "moral_dilemmas-0213",
+      "text": "Pidä vanha rikos salassa koska syyllinen on muuttunut"
+    },
+    {
+      "id": "moral_dilemmas-0214",
+      "text": "Rankaise menneisyyden teosta vai arvioi nykyistä ihmistä"
+    },
+    {
+      "id": "moral_dilemmas-0215",
+      "text": "Paljasta kuolleen ihmisen salaisuus vai kunnioita hänen muistoaan"
+    },
+    {
+      "id": "moral_dilemmas-0216",
+      "text": "Kunnioita vainajan tahtoa vai auta eläviä"
+    },
+    {
+      "id": "moral_dilemmas-0217",
+      "text": "Avaa hauta totuuden selvittämiseksi vai kunnioita hautarauhaa"
+    },
+    {
+      "id": "moral_dilemmas-0218",
+      "text": "Julkaise yksityiset kirjeet historiallisen totuuden vuoksi vai suojele yksityisyyttä"
+    },
+    {
+      "id": "moral_dilemmas-0219",
+      "text": "Pelasta läheinen käyttämällä kiellettyä tietoa vai noudata sääntöjä"
+    },
+    {
+      "id": "moral_dilemmas-0220",
+      "text": "Käytä salaisuutta hyvään tarkoitukseen vai pidä lupaus"
+    },
+    {
+      "id": "moral_dilemmas-0221",
+      "text": "Kiristä pahaa ihmistä hyvän asian puolesta vai kieltäydy vääristä keinoista"
+    },
+    {
+      "id": "moral_dilemmas-0222",
+      "text": "Varasta rikolliselta auttaaksesi uhreja vai kunnioita lakia"
+    },
+    {
+      "id": "moral_dilemmas-0223",
+      "text": "Tee yhteistyötä rikollisen kanssa suuremman rikoksen estämiseksi"
+    },
+    {
+      "id": "moral_dilemmas-0224",
+      "text": "Anna pienemmän rikollisen päästä vapaaksi saadaksesi suuremman kiinni"
+    },
+    {
+      "id": "moral_dilemmas-0225",
+      "text": "Valehtele epäillylle totuuden selvittämiseksi vai toimi avoimesti"
+    },
+    {
+      "id": "moral_dilemmas-0226",
+      "text": "Ystävysty kohteen kanssa tehtävän vuoksi vai ole rehellinen"
+    },
+    {
+      "id": "moral_dilemmas-0227",
+      "text": "Uhraa suhde tehtävän vuoksi vai epäonnistu tehtävässä"
+    },
+    {
+      "id": "moral_dilemmas-0228",
+      "text": "Rakkaus vai velvollisuus"
+    },
+    {
+      "id": "moral_dilemmas-0229",
+      "text": "Perhe vai ura"
+    },
+    {
+      "id": "moral_dilemmas-0230",
+      "text": "Perhe vai vallankumous"
+    },
+    {
+      "id": "moral_dilemmas-0231",
+      "text": "Rakkaus vai valta"
+    },
+    {
+      "id": "moral_dilemmas-0232",
+      "text": "Rakkaus vai yhteisön hyväksyntä"
+    },
+    {
+      "id": "moral_dilemmas-0233",
+      "text": "Rakkaus vai uskonto"
+    },
+    {
+      "id": "moral_dilemmas-0234",
+      "text": "Rakkaus vai poliittinen liittouma"
+    },
+    {
+      "id": "moral_dilemmas-0235",
+      "text": "Järjestetty avioliitto yhteisön hyväksi vai henkilökohtainen vapaus"
+    },
+    {
+      "id": "moral_dilemmas-0236",
+      "text": "Perillinen vai henkilökohtainen onnellisuus"
+    },
+    {
+      "id": "moral_dilemmas-0237",
+      "text": "Suvun jatkuvuus vai yksilön valinta"
+    },
+    {
+      "id": "moral_dilemmas-0238",
+      "text": "Suojele lasta totuudelta vai anna hänen tehdä oma päätöksensä"
+    },
+    {
+      "id": "moral_dilemmas-0239",
+      "text": "Kontrolloi lasta turvallisuuden vuoksi vai anna hänen ottaa riskejä"
+    },
+    {
+      "id": "moral_dilemmas-0240",
+      "text": "Auta perheenjäsentä vaikka hän on väärässä vai kieltäydy"
+    },
+    {
+      "id": "moral_dilemmas-0241",
+      "text": "Anna anteeksi pettäneelle läheiselle vai katkaise suhde"
+    },
+    {
+      "id": "moral_dilemmas-0242",
+      "text": "Säilytä perhe koossa vai paljasta sen salaisuudet"
+    },
+    {
+      "id": "moral_dilemmas-0243",
+      "text": "Yhteisön perinne vai yksilön oikeudet"
+    },
+    {
+      "id": "moral_dilemmas-0244",
+      "text": "Uskonto vai henkilökohtainen vapaus"
+    },
+    {
+      "id": "moral_dilemmas-0245",
+      "text": "Usko vai todisteet"
+    },
+    {
+      "id": "moral_dilemmas-0246",
+      "text": "Pyhä sääntö vai ihmishenki"
+    },
+    {
+      "id": "moral_dilemmas-0247",
+      "text": "Säilytä uskonto yhteisön vakauden vuoksi vai paljasta sen perustuvan valheeseen"
+    },
+    {
+      "id": "moral_dilemmas-0248",
+      "text": "Paljasta väärä profeetta vai anna hänen pitää yhteisö koossa"
+    },
+    {
+      "id": "moral_dilemmas-0249",
+      "text": "Anna ihmisille toivoa valheella vai riistä toivo totuudella"
+    },
+    {
+      "id": "moral_dilemmas-0250",
+      "text": "Kunnioita kulttuurista tapaa vai puutu epäoikeudenmukaisuuteen"
+    },
+    {
+      "id": "moral_dilemmas-0251",
+      "text": "Säilytä traditio vai modernisoi yhteiskunta"
+    },
+    {
+      "id": "moral_dilemmas-0252",
+      "text": "Sukupolvien oikeudet vai nykyisten ihmisten tarpeet"
+    },
+    {
+      "id": "moral_dilemmas-0253",
+      "text": "Tulevien ihmisten etu vai nykyinen hyvinvointi"
+    },
+    {
+      "id": "moral_dilemmas-0254",
+      "text": "Käytä luonnonvarat nyt vai säästä tuleville sukupolville"
+    },
+    {
+      "id": "moral_dilemmas-0255",
+      "text": "Jätä vaarallinen jäte tulevaisuuden hoidettavaksi vai kärsi kustannukset nyt"
+    },
+    {
+      "id": "moral_dilemmas-0256",
+      "text": "Rakennetaanko turvallinen mutta rajoittava yhteiskunta vai vapaa mutta vaarallinen"
+    },
+    {
+      "id": "moral_dilemmas-0257",
+      "text": "Hyvä tarkoitus vai huonot keinot"
+    },
+    {
+      "id": "moral_dilemmas-0258",
+      "text": "Paha teko hyvän lopputuloksen vuoksi vai puhtaat kädet"
+    },
+    {
+      "id": "moral_dilemmas-0259",
+      "text": "Oikea päätös vääristä syistä vai väärä päätös hyvistä syistä"
+    },
+    {
+      "id": "moral_dilemmas-0260",
+      "text": "Ennustettava epäoikeudenmukaisuus vai epävarma oikeudenmukaisuus"
+    },
+    {
+      "id": "moral_dilemmas-0261",
+      "text": "Tasapuolisuus vai oikeudenmukaisuus"
+    },
+    {
+      "id": "moral_dilemmas-0262",
+      "text": "Ansio vai tarve"
+    },
+    {
+      "id": "moral_dilemmas-0263",
+      "text": "Arpa vai harkinta"
+    },
+    {
+      "id": "moral_dilemmas-0264",
+      "text": "Sääntö vai poikkeus"
+    },
+    {
+      "id": "moral_dilemmas-0265",
+      "text": "Periaate vai käytännöllisyys"
+    },
+    {
+      "id": "moral_dilemmas-0266",
+      "text": "Täydellinen ratkaisu myöhemmin vai epätäydellinen ratkaisu nyt"
+    },
+    {
+      "id": "moral_dilemmas-0267",
+      "text": "Toimi epävarman tiedon perusteella vai odota varmuutta"
+    },
+    {
+      "id": "moral_dilemmas-0268",
+      "text": "Väärän hälytyksen riski vai liian myöhäinen reagointi"
+    },
+    {
+      "id": "moral_dilemmas-0269",
+      "text": "Luota ihmisiin vai valvo heitä"
+    },
+    {
+      "id": "moral_dilemmas-0270",
+      "text": "Luota epäiltyyn vai suojaa itseäsi"
+    },
+    {
+      "id": "moral_dilemmas-0271",
+      "text": "Anna toinen mahdollisuus vai estä uusi vahinko"
+    },
+    {
+      "id": "moral_dilemmas-0272",
+      "text": "Usko katuvaa rikollista vai epäile motiiveja"
+    },
+    {
+      "id": "moral_dilemmas-0273",
+      "text": "Anna valtaa pätevälle mutta moraalittomalle vai heikommalle mutta rehelliselle"
+    },
+    {
+      "id": "moral_dilemmas-0274",
+      "text": "Pidä tehokas mutta julma johtaja vai korvaa hänet heikommalla"
+    },
+    {
+      "id": "moral_dilemmas-0275",
+      "text": "Säilytä vakaa järjestelmä vai hajota se oikeudenmukaisuuden vuoksi"
+    },
+    {
+      "id": "moral_dilemmas-0276",
+      "text": "Korjaa järjestelmä sisältä vai tuhoa se"
+    },
+    {
+      "id": "moral_dilemmas-0277",
+      "text": "Muuta järjestelmää hitaasti vai pakota nopea muutos"
+    },
+    {
+      "id": "moral_dilemmas-0278",
+      "text": "Hyväksy kompromissi vai pysy periaatteissa"
+    },
+    {
+      "id": "moral_dilemmas-0279",
+      "text": "Pieni epäoikeudenmukaisuus suuremman hyvän vuoksi vai ei"
+    },
+    {
+      "id": "moral_dilemmas-0280",
+      "text": "Valitse pienin paha"
+    },
+    {
+      "id": "moral_dilemmas-0281",
+      "text": "Kieltäydy valitsemasta vaikka joku kärsii"
+    },
+    {
+      "id": "moral_dilemmas-0282",
+      "text": "Ota vastuu päätöksestä vai jätä päätös muille"
+    },
+    {
+      "id": "moral_dilemmas-0283",
+      "text": "Tee päätös itse vai anna enemmistön päättää"
+    },
+    {
+      "id": "moral_dilemmas-0284",
+      "text": "Anna asiantuntijan päättää vai anna kansan päättää"
+    },
+    {
+      "id": "moral_dilemmas-0285",
+      "text": "Anna algoritmin päättää vai hyväksy inhimillinen puolueellisuus"
+    },
+    {
+      "id": "moral_dilemmas-0286",
+      "text": "Avoimuus vai päätöksenteon tehokkuus"
+    },
+    {
+      "id": "moral_dilemmas-0287",
+      "text": "Kerro päätöksen perusteet vai suojaa arkaluonteinen tieto"
+    },
+    {
+      "id": "moral_dilemmas-0288",
+      "text": "Kanna henkilökohtainen vastuu vai suojaa organisaatiota"
+    },
+    {
+      "id": "moral_dilemmas-0289",
+      "text": "Myönnä ettei oikeaa vaihtoehtoa ole vai esitä varmuutta"
+    }
   ]
 }

@@ -1,92 +1,356 @@
 {
   "scales": [
-    "Un seul objet",
-    "Un seul bureau",
-    "Une seule pièce",
-    "Un seul appartement",
-    "Une seule maison",
-    "Un seul bâtiment",
-    "Un seul complexe de bâtiments",
-    "Un seul navire",
-    "Un seul train",
-    "Un seul avion",
-    "Un seul vaisseau spatial",
-    "Une seule station spatiale",
-    "Une seule rue",
-    "Un seul pâté de maisons",
-    "Un seul quartier",
-    "Un seul arrondissement",
-    "Un seul village",
-    "Une seule petite ville",
-    "Une seule ville",
-    "Plusieurs villes",
-    "Une seule province",
-    "Une seule région",
-    "Un seul État fédéré",
-    "Un seul pays",
-    "Plusieurs pays",
-    "Un seul continent",
-    "Le monde entier",
-    "Une seule île",
-    "Un seul archipel",
-    "Une seule vallée",
-    "Une seule chaîne de montagnes",
-    "Une seule étendue sauvage",
-    "Une seule forêt",
-    "Une seule planète",
-    "Plusieurs planètes",
-    "Un seul système solaire",
-    "Plusieurs systèmes solaires",
-    "Une seule galaxie",
-    "Plusieurs galaxies",
-    "L'univers entier",
-    "Plusieurs univers",
-    "Une seule famille",
-    "Un seul clan",
-    "Une seule dynastie",
-    "Un seul cercle d'amis",
-    "Une seule communauté de travail",
-    "Une seule organisation",
-    "Une seule entreprise",
-    "Une seule organisation criminelle",
-    "Un seul parti politique",
-    "Une seule communauté religieuse",
-    "Une seule unité militaire",
-    "Un seul équipage",
-    "Un seul groupe de survivants",
-    "Une société entière",
-    "Une civilisation entière",
-    "Plusieurs civilisations",
-    "Une seule journée",
-    "Une seule nuit",
-    "Un seul poste de travail",
-    "Une seule semaine",
-    "Un seul mois",
-    "Une seule année",
-    "Plusieurs années",
-    "Une seule vie humaine",
-    "Plusieurs vies humaines",
-    "Une seule génération",
-    "Plusieurs générations",
-    "Des siècles",
-    "Des milliers d'années",
-    "Toute l'histoire",
-    "Une seule crise",
-    "Une seule guerre",
-    "Un seul mandat",
-    "Une seule enquête criminelle",
-    "Une seule épidémie",
-    "Une seule catastrophe",
-    "Une seule boucle temporelle",
-    "Plusieurs lignes temporelles",
-    "Une seule réalité parallèle",
-    "Plusieurs réalités parallèles",
-    "Un seul réseau informatique",
-    "Un seul monde virtuel",
-    "Une seule simulation",
-    "Plusieurs couches de simulation",
-    "Un seul esprit humain",
-    "Plusieurs esprits humains",
-    "Conscience collective"
+    {
+      "id": "scales-0001",
+      "text": "Un seul objet"
+    },
+    {
+      "id": "scales-0002",
+      "text": "Un seul bureau"
+    },
+    {
+      "id": "scales-0003",
+      "text": "Une seule pièce"
+    },
+    {
+      "id": "scales-0004",
+      "text": "Un seul appartement"
+    },
+    {
+      "id": "scales-0005",
+      "text": "Une seule maison"
+    },
+    {
+      "id": "scales-0006",
+      "text": "Un seul bâtiment"
+    },
+    {
+      "id": "scales-0007",
+      "text": "Un seul complexe de bâtiments"
+    },
+    {
+      "id": "scales-0008",
+      "text": "Un seul navire"
+    },
+    {
+      "id": "scales-0009",
+      "text": "Un seul train"
+    },
+    {
+      "id": "scales-0010",
+      "text": "Un seul avion"
+    },
+    {
+      "id": "scales-0011",
+      "text": "Un seul vaisseau spatial"
+    },
+    {
+      "id": "scales-0012",
+      "text": "Une seule station spatiale"
+    },
+    {
+      "id": "scales-0013",
+      "text": "Une seule rue"
+    },
+    {
+      "id": "scales-0014",
+      "text": "Un seul pâté de maisons"
+    },
+    {
+      "id": "scales-0015",
+      "text": "Un seul quartier"
+    },
+    {
+      "id": "scales-0016",
+      "text": "Un seul arrondissement"
+    },
+    {
+      "id": "scales-0017",
+      "text": "Un seul village"
+    },
+    {
+      "id": "scales-0018",
+      "text": "Une seule petite ville"
+    },
+    {
+      "id": "scales-0019",
+      "text": "Une seule ville"
+    },
+    {
+      "id": "scales-0020",
+      "text": "Plusieurs villes"
+    },
+    {
+      "id": "scales-0021",
+      "text": "Une seule province"
+    },
+    {
+      "id": "scales-0022",
+      "text": "Une seule région"
+    },
+    {
+      "id": "scales-0023",
+      "text": "Un seul État fédéré"
+    },
+    {
+      "id": "scales-0024",
+      "text": "Un seul pays"
+    },
+    {
+      "id": "scales-0025",
+      "text": "Plusieurs pays"
+    },
+    {
+      "id": "scales-0026",
+      "text": "Un seul continent"
+    },
+    {
+      "id": "scales-0027",
+      "text": "Le monde entier"
+    },
+    {
+      "id": "scales-0028",
+      "text": "Une seule île"
+    },
+    {
+      "id": "scales-0029",
+      "text": "Un seul archipel"
+    },
+    {
+      "id": "scales-0030",
+      "text": "Une seule vallée"
+    },
+    {
+      "id": "scales-0031",
+      "text": "Une seule chaîne de montagnes"
+    },
+    {
+      "id": "scales-0032",
+      "text": "Une seule étendue sauvage"
+    },
+    {
+      "id": "scales-0033",
+      "text": "Une seule forêt"
+    },
+    {
+      "id": "scales-0034",
+      "text": "Une seule planète"
+    },
+    {
+      "id": "scales-0035",
+      "text": "Plusieurs planètes"
+    },
+    {
+      "id": "scales-0036",
+      "text": "Un seul système solaire"
+    },
+    {
+      "id": "scales-0037",
+      "text": "Plusieurs systèmes solaires"
+    },
+    {
+      "id": "scales-0038",
+      "text": "Une seule galaxie"
+    },
+    {
+      "id": "scales-0039",
+      "text": "Plusieurs galaxies"
+    },
+    {
+      "id": "scales-0040",
+      "text": "L'univers entier"
+    },
+    {
+      "id": "scales-0041",
+      "text": "Plusieurs univers"
+    },
+    {
+      "id": "scales-0042",
+      "text": "Une seule famille"
+    },
+    {
+      "id": "scales-0043",
+      "text": "Un seul clan"
+    },
+    {
+      "id": "scales-0044",
+      "text": "Une seule dynastie"
+    },
+    {
+      "id": "scales-0045",
+      "text": "Un seul cercle d'amis"
+    },
+    {
+      "id": "scales-0046",
+      "text": "Une seule communauté de travail"
+    },
+    {
+      "id": "scales-0047",
+      "text": "Une seule organisation"
+    },
+    {
+      "id": "scales-0048",
+      "text": "Une seule entreprise"
+    },
+    {
+      "id": "scales-0049",
+      "text": "Une seule organisation criminelle"
+    },
+    {
+      "id": "scales-0050",
+      "text": "Un seul parti politique"
+    },
+    {
+      "id": "scales-0051",
+      "text": "Une seule communauté religieuse"
+    },
+    {
+      "id": "scales-0052",
+      "text": "Une seule unité militaire"
+    },
+    {
+      "id": "scales-0053",
+      "text": "Un seul équipage"
+    },
+    {
+      "id": "scales-0054",
+      "text": "Un seul groupe de survivants"
+    },
+    {
+      "id": "scales-0055",
+      "text": "Une société entière"
+    },
+    {
+      "id": "scales-0056",
+      "text": "Une civilisation entière"
+    },
+    {
+      "id": "scales-0057",
+      "text": "Plusieurs civilisations"
+    },
+    {
+      "id": "scales-0058",
+      "text": "Une seule journée"
+    },
+    {
+      "id": "scales-0059",
+      "text": "Une seule nuit"
+    },
+    {
+      "id": "scales-0060",
+      "text": "Un seul poste de travail"
+    },
+    {
+      "id": "scales-0061",
+      "text": "Une seule semaine"
+    },
+    {
+      "id": "scales-0062",
+      "text": "Un seul mois"
+    },
+    {
+      "id": "scales-0063",
+      "text": "Une seule année"
+    },
+    {
+      "id": "scales-0064",
+      "text": "Plusieurs années"
+    },
+    {
+      "id": "scales-0065",
+      "text": "Une seule vie humaine"
+    },
+    {
+      "id": "scales-0066",
+      "text": "Plusieurs vies humaines"
+    },
+    {
+      "id": "scales-0067",
+      "text": "Une seule génération"
+    },
+    {
+      "id": "scales-0068",
+      "text": "Plusieurs générations"
+    },
+    {
+      "id": "scales-0069",
+      "text": "Des siècles"
+    },
+    {
+      "id": "scales-0070",
+      "text": "Des milliers d'années"
+    },
+    {
+      "id": "scales-0071",
+      "text": "Toute l'histoire"
+    },
+    {
+      "id": "scales-0072",
+      "text": "Une seule crise"
+    },
+    {
+      "id": "scales-0073",
+      "text": "Une seule guerre"
+    },
+    {
+      "id": "scales-0074",
+      "text": "Un seul mandat"
+    },
+    {
+      "id": "scales-0075",
+      "text": "Une seule enquête criminelle"
+    },
+    {
+      "id": "scales-0076",
+      "text": "Une seule épidémie"
+    },
+    {
+      "id": "scales-0077",
+      "text": "Une seule catastrophe"
+    },
+    {
+      "id": "scales-0078",
+      "text": "Une seule boucle temporelle"
+    },
+    {
+      "id": "scales-0079",
+      "text": "Plusieurs lignes temporelles"
+    },
+    {
+      "id": "scales-0080",
+      "text": "Une seule réalité parallèle"
+    },
+    {
+      "id": "scales-0081",
+      "text": "Plusieurs réalités parallèles"
+    },
+    {
+      "id": "scales-0082",
+      "text": "Un seul réseau informatique"
+    },
+    {
+      "id": "scales-0083",
+      "text": "Un seul monde virtuel"
+    },
+    {
+      "id": "scales-0084",
+      "text": "Une seule simulation"
+    },
+    {
+      "id": "scales-0085",
+      "text": "Plusieurs couches de simulation"
+    },
+    {
+      "id": "scales-0086",
+      "text": "Un seul esprit humain"
+    },
+    {
+      "id": "scales-0087",
+      "text": "Plusieurs esprits humains"
+    },
+    {
+      "id": "scales-0088",
+      "text": "Conscience collective"
+    }
   ]
 }

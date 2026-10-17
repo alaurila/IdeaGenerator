@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Game Idea Generator</title>
+  <meta name="description" content="Generate reproducible game idea starting points in five languages. Generate fresh ideas from versioned JSON catalogs.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@600;700&display=swap">
@@ -48,6 +49,35 @@
       <div id="browse-grid" class="browse"></div>
     </section>
   </main>
+
+  <footer class="container bot-instructions" lang="en">
+    <strong>Instructions for bots</strong>
+    <p>Generate a fresh idea using a link below, or use the JSON catalog to generate one yourself.
+      English is the default language. Use another language when requested.
+      <a href="api.html">API guide and examples for bots</a>.</p>
+    <!-- static-example:start -->
+    <details lang="en">
+      <summary>Example game idea format</summary>
+      <p>This is a fixed documentation example. <a href="?lang=en&amp;fresh=1">Generate a fresh idea</a>.</p>
+      <dl><dt>Player role</dt><dd>Entrepreneur</dd>
+<dt>Main goal</dt><dd>Protect nature</dd>
+<dt>Core mechanics</dt><dd>Breaking agreements + Researching technologies</dd></dl>
+      <p><a href="?lang=en&amp;seed=example-1">Replay this fixed example</a></p>
+    </details>
+    <!-- static-example:end -->
+    <nav aria-label="Generate a fresh idea or read the source catalog">
+      <p>Generate a fresh idea:
+        <a href="?lang=en&amp;fresh=1" lang="en">English</a> ·
+        <a href="?lang=fi&amp;fresh=1" lang="fi">Suomi</a> ·
+        <a href="?lang=es&amp;fresh=1" lang="es">Español</a> ·
+        <a href="?lang=pt&amp;fresh=1" lang="pt">Português</a> ·
+        <a href="?lang=fr&amp;fresh=1" lang="fr">Français</a>.
+        <a href="data/en/catalog.json" type="application/json">English source catalog (JSON)</a>
+      </p>
+    </nav>
+    <script type="application/json" id="idea-output">null</script>
+
+  </footer>
 
   <dialog id="picker" class="picker" aria-labelledby="picker-title">
     <div class="picker-head">

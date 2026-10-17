@@ -1,10 +1,10 @@
 // Sovelluksen käynnistys: lataa kielen ja datan, palauttaa tilan ja kytkee tapahtumat.
 
-import { rawLists, loadAllLists } from './dataLoader.js';
-import { initState, subscribe } from './state.js';
+import { catalog, loadAllLists } from './dataLoader.js';
+import { state, initState, subscribe } from './state.js';
 import {
   rollAll, rollCategory, fillMissing, newIdea, unlockAll,
-  toggleLock, changeCount, toggleExcluded, translateValues, exampleIdea,
+  toggleLock, changeCount, toggleExcluded, translateValues,
   toggleUnlockedExcluded, allUnlockedExcluded
 } from './generator.js';
 import { buildCards, updateCards, showToast } from './ui.js';
@@ -13,12 +13,47 @@ import { buildPrompt } from './promptBuilder.js';
 import { initBrowser, buildBrowser, refreshBrowser } from './listBrowser.js';
 import { LANGUAGES, currentLanguage, savedLanguage, loadLanguage, applyStaticTexts, t } from './i18n.js';
 import { escapeHtml } from './dom.js';
+import { readIdeaUrl, updateIdeaUrl } from './ideaUrl.js';
+import { SCHEMA_VERSION, GENERATOR_VERSION } from './ideaEngine.js';
 
 const grid = document.getElementById('generator-grid');
 const promptEl = document.getElementById('prompt-output');
 const browser = document.getElementById('browse-grid');
 const languageSwitch = document.getElementById('language-switch');
 const emptyUnlockedBtn = document.getElementById('empty-unlocked');
+let sharedSeed = null;
+let sharedSnapshot = null;
+
+function ideaSnapshot() {
+  return JSON.stringify(Object.entries(state).map(([key, entry]) =>
+    [key, entry.values, entry.excluded]));
+}
+
+function syncUrl() {
+  // An edited idea can no longer be reproduced with its original seed.
+  if (sharedSnapshot !== ideaSnapshot()) sharedSeed = null;
+  const url = updateIdeaUrl(new URL(window.location.href), currentLanguage, sharedSeed);
+  window.history.replaceState(null, '', url);
+  document.getElementById('idea-output').textContent = JSON.stringify({
+    schemaVersion: SCHEMA_VERSION,
+    generatorVersion: GENERATOR_VERSION,
+    catalogVersion: catalog.catalogVersion,
+    language: currentLanguage,
+    seed: sharedSeed,
+    categories: Object.fromEntries(Object.entries(state).map(([key, entry]) =>
+      [key, entry.excluded ? [] : entry.values.map((text, index) => ({
+        id: entry.ids?.[index] ?? catalog.categories[key].find(option => option.text === text)?.id,
+        text
+      }))]))
+  });
+}
+
+function startNewIdea(seed) {
+  const idea = newIdea(seed);
+  sharedSeed = idea.seed;
+  sharedSnapshot = ideaSnapshot();
+  syncUrl();
+}
 
 async function copyText(text) {
   try {
@@ -53,6 +88,7 @@ function render(changedKeys) {
   updateEmptyUnlockedButton();
   promptEl.textContent = buildPrompt();
   refreshBrowser();
+  syncUrl();
 }
 
 function renderLanguageSwitch() {
@@ -72,7 +108,8 @@ function renderLanguage() {
 
 async function changeLanguage(code) {
   if (code === currentLanguage) return;
-  const oldRawLists = { ...rawLists };
+  const seed = sharedSeed;
+  const oldCatalog = catalog;
   try {
     await Promise.all([loadLanguage(code), loadAllLists(code)]);
   } catch (error) {
@@ -80,13 +117,14 @@ async function changeLanguage(code) {
     return;
   }
   renderLanguage();
-  translateValues(oldRawLists);
+  if (seed !== null) startNewIdea(seed);
+  else translateValues(oldCatalog);
 }
 
 function bindEvents() {
   document.getElementById('roll-all').addEventListener('click', rollAll);
   document.getElementById('unlock-all').addEventListener('click', unlockAll);
-  document.getElementById('new-idea').addEventListener('click', newIdea);
+  document.getElementById('new-idea').addEventListener('click', () => startNewIdea());
   emptyUnlockedBtn.addEventListener('click', toggleUnlockedExcluded);
   document.querySelectorAll('[data-copy-prompt]').forEach(btn => btn.addEventListener('click', copyPrompt));
 
@@ -111,7 +149,8 @@ function bindEvents() {
 }
 
 async function start() {
-  const language = savedLanguage();
+  const requested = readIdeaUrl(new URL(window.location.href), LANGUAGES.map(l => l.code), savedLanguage());
+  const language = requested.language;
   try {
     await Promise.all([loadLanguage(language), loadAllLists(language)]);
   } catch (error) {
@@ -129,11 +168,15 @@ async function start() {
   bindEvents();
   subscribe(render);
 
-  if (restored) {
+  if (requested.fresh) {
+    startNewIdea();
+  } else if (requested.seed !== null) {
+    startNewIdea(requested.seed);
+  } else if (restored) {
     fillMissing();
     render([]);
   } else {
-    exampleIdea();
+    startNewIdea();
   }
 }
 

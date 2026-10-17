@@ -1,290 +1,1148 @@
 {
   "main_goals": [
-    "Survive",
-    "Get rich",
-    "Solve a mystery",
-    "Hold the organization together",
-    "Uncover a secret",
-    "Build a community",
-    "Prevent a disaster",
-    "Escape",
-    "Find someone",
-    "Manipulate the system",
-    "Save someone",
-    "Protect the community",
-    "Conquer a territory",
-    "Defend a territory",
-    "Rise to power",
-    "Hold on to your power",
-    "Win the election",
-    "Overthrow the regime",
-    "Build a kingdom",
-    "Lead a nation",
-    "Create a new society",
-    "Keep the peace",
-    "Win the war",
-    "Prevent a war",
-    "Form an alliance",
-    "Break up an alliance",
-    "Restore order",
-    "Create chaos",
-    "Find out who is lying",
-    "Unmask the murderer",
-    "Prove your innocence",
-    "Cover up a crime",
-    "Commit the perfect crime",
-    "Escape justice",
-    "Catch a criminal",
-    "Build a criminal network",
-    "Destroy a criminal network",
-    "Gather evidence",
-    "Solve a disappearance",
-    "Find a lost object",
-    "Find a missing person",
-    "Find the truth about the past",
-    "Discover your own identity",
-    "Recover your memory",
-    "Find out what happened",
-    "Find out who you are",
-    "Find out where you are",
-    "Find out why you are there",
-    "Leave the place",
-    "Return home",
-    "Reach a sanctuary",
-    "Escape before the deadline",
-    "Find a way out",
-    "Open a sealed area",
-    "Break in",
-    "Break out",
-    "Infiltrate an organization",
-    "Sabotage the system",
-    "Repair the system",
-    "Keep the system running",
-    "Restart the system",
-    "Prevent the system from collapsing",
-    "Automate the system",
-    "Optimize production",
-    "Grow the company",
-    "Save the company from bankruptcy",
-    "Found a company",
-    "Dominate the market",
-    "Build a monopoly",
-    "Maximize profit",
-    "Pay off your debts",
-    "Amass a fortune",
-    "Earn a specific sum of money",
-    "Achieve financial independence",
-    "Build a city",
-    "Grow a village into a city",
-    "Found a colony",
-    "Keep the colony alive",
-    "Build a base",
-    "Expand the base",
-    "Build a home",
-    "Build a safe haven",
-    "Build working infrastructure",
-    "Build a production chain",
-    "Build a transport network",
-    "Build a society from scratch",
-    "Terraform a planet",
-    "Colonize a planet",
-    "Explore the world",
-    "Map the area",
-    "Discover a new place",
-    "Discover a new world",
-    "Reach the edge of the map",
-    "Explore every region",
-    "Gather all the important information",
-    "Document the world",
-    "Find an ancient site",
-    "Find a lost civilization",
-    "Find an artifact",
-    "Activate an artifact",
-    "Destroy an artifact",
-    "Prevent the artifact from being used",
-    "Solve an ancient riddle",
-    "Expose a conspiracy",
-    "Build a conspiracy",
-    "Thwart a conspiracy",
-    "Manipulate people",
-    "Manipulate the markets",
-    "Manipulate politics",
-    "Manipulate the media",
-    "Spread a rumor",
-    "Stop a rumor",
-    "Change public opinion",
-    "Grow your influence",
-    "Achieve maximum fame",
-    "Restore your reputation",
-    "Keep your secrets hidden",
-    "Expose other people's secrets",
-    "Gather as much information as possible",
-    "Control the flow of information",
-    "Stop information from spreading",
-    "Spread information",
-    "Build a spy network",
-    "Expose the spies",
-    "Steal intelligence",
-    "Prevent a leak",
-    "Find the traitor",
-    "Maintain loyalty",
-    "Earn trust",
-    "Break trust",
-    "Reconcile people",
-    "Break up a relationship",
-    "Build a friendship",
-    "Find a partner",
-    "Start a family",
-    "Keep the family together",
-    "Save a marriage",
-    "Build a dynasty",
-    "Continue the bloodline",
-    "Uncover your family's history",
-    "Find your biological family",
-    "Reconcile the family",
-    "Create an influential family",
-    "Keep the crew alive",
-    "Keep the crew happy",
-    "Keep morale high",
-    "Prevent a mutiny",
-    "Lead a rebellion",
-    "Find a leader",
-    "Become the leader",
-    "Give up power safely",
-    "Keep everyone alive",
-    "Save as many as possible",
-    "Choose who survives",
-    "Survive a set number of days",
-    "Survive the winter",
-    "Survive the night",
-    "Survive the epidemic",
-    "Survive the siege",
-    "Survive a natural disaster",
-    "Survive in space",
-    "Survive on a desert island",
-    "Survive in a hostile city",
-    "Find food",
-    "Find water",
-    "Keep resources sufficient",
-    "Make the resources last until the end",
-    "Create a sustainable food supply",
-    "Create working energy production",
-    "Restore power",
-    "Restore the water supply",
-    "Restore communications",
-    "Repair the spaceship",
-    "Repair the vehicle",
-    "Repair the city",
-    "Start the reactor",
-    "Shut down the reactor",
-    "Prevent a nuclear accident",
-    "Prevent an epidemic",
-    "Cure the epidemic",
-    "Find a cure",
-    "Save the patient",
-    "Heal the community",
-    "Keep the hospital running",
-    "Manage the crisis",
-    "Evacuate the area",
-    "Coordinate a rescue operation",
-    "Prevent the building from collapsing",
-    "Prevent a fire",
-    "Put out the fire",
-    "Prevent a flood",
-    "Prevent an environmental disaster",
-    "Protect nature",
-    "Restore the ecosystem",
-    "Breed a species",
-    "Prevent a species from going extinct",
-    "Eradicate a dangerous species",
-    "Study an unknown organism",
-    "Understand an alien life form",
-    "Create a new species",
-    "Grow the population",
-    "Balance the ecosystem",
-    "Achieve a technological breakthrough",
-    "Research every technology",
-    "Build a new invention",
-    "Create an AI",
-    "Stop an AI",
-    "Free an AI",
-    "Keep an AI under control",
-    "Prove that you are conscious",
-    "Hide your consciousness",
-    "Get out of the simulation",
-    "Keep the simulation running",
-    "Find out whether you are in a simulation",
-    "Break the rules of the simulation",
-    "Repair the timeline",
-    "Change history",
-    "Prevent history from being changed",
-    "Return to your own time",
-    "Break the time loop",
-    "Keep the time loop going",
-    "Save the future",
-    "Change the future",
-    "Prevent the end of the world",
-    "Cause the end of the world",
-    "Prepare for the end of the world",
-    "Build a new world after the disaster",
-    "Find other survivors",
-    "Unite scattered communities",
-    "Found a new state",
-    "Restore the old state",
-    "Create a new religion",
-    "Grow a cult",
-    "Break up a cult",
-    "Expose a false prophet",
-    "Fulfill a prophecy",
-    "Prevent a prophecy",
-    "Prove a prophecy wrong",
-    "Achieve immortality",
-    "Break a curse",
-    "Cast a curse",
-    "Escape death",
-    "Find a way to die",
-    "Bring the dead back to life",
-    "Help a spirit move on",
-    "Gather the lost souls",
-    "Escape the afterlife",
-    "Earn entry into heaven",
-    "Avoid ending up in hell",
-    "Organize the world of the dead",
-    "Solve a supernatural phenomenon",
-    "Prove that a supernatural phenomenon is real",
-    "Prove that a supernatural phenomenon is not real",
-    "Create a masterpiece",
-    "Build the best restaurant in the world",
-    "Build the best hotel in the world",
-    "Manage the best sports team",
-    "Win the championship",
-    "Break a record",
-    "Become famous",
-    "Become a legend",
-    "Create a work of art",
-    "Finish your life's work",
-    "Solve an impossible problem",
-    "Achieve a perfect performance",
-    "Collect everything",
-    "Complete the whole collection",
-    "Complete the archive",
-    "Find all the secrets",
-    "Unlock every area",
-    "Reach the highest rank",
-    "Complete the mission without anyone noticing",
-    "Complete the mission without violence",
-    "Complete the mission before time runs out",
-    "Keep all parties satisfied",
-    "Make an impossible compromise",
-    "Choose the lesser evil",
-    "Decide who deserves your help",
-    "Decide whose side you are on",
-    "Change the system from within",
-    "Destroy the system from within",
-    "Take over the system",
-    "Escape the system",
-    "Prove that the system is corrupt",
-    "Keep the truth hidden",
-    "Reveal the truth to the world"
+    {
+      "id": "main_goals-0001",
+      "text": "Survive"
+    },
+    {
+      "id": "main_goals-0002",
+      "text": "Get rich"
+    },
+    {
+      "id": "main_goals-0003",
+      "text": "Solve a mystery"
+    },
+    {
+      "id": "main_goals-0004",
+      "text": "Hold the organization together"
+    },
+    {
+      "id": "main_goals-0005",
+      "text": "Uncover a secret"
+    },
+    {
+      "id": "main_goals-0006",
+      "text": "Build a community"
+    },
+    {
+      "id": "main_goals-0007",
+      "text": "Prevent a disaster"
+    },
+    {
+      "id": "main_goals-0008",
+      "text": "Escape"
+    },
+    {
+      "id": "main_goals-0009",
+      "text": "Find someone"
+    },
+    {
+      "id": "main_goals-0010",
+      "text": "Manipulate the system"
+    },
+    {
+      "id": "main_goals-0011",
+      "text": "Save someone"
+    },
+    {
+      "id": "main_goals-0012",
+      "text": "Protect the community"
+    },
+    {
+      "id": "main_goals-0013",
+      "text": "Conquer a territory"
+    },
+    {
+      "id": "main_goals-0014",
+      "text": "Defend a territory"
+    },
+    {
+      "id": "main_goals-0015",
+      "text": "Rise to power"
+    },
+    {
+      "id": "main_goals-0016",
+      "text": "Hold on to your power"
+    },
+    {
+      "id": "main_goals-0017",
+      "text": "Win the election"
+    },
+    {
+      "id": "main_goals-0018",
+      "text": "Overthrow the regime"
+    },
+    {
+      "id": "main_goals-0019",
+      "text": "Build a kingdom"
+    },
+    {
+      "id": "main_goals-0020",
+      "text": "Lead a nation"
+    },
+    {
+      "id": "main_goals-0021",
+      "text": "Create a new society"
+    },
+    {
+      "id": "main_goals-0022",
+      "text": "Keep the peace"
+    },
+    {
+      "id": "main_goals-0023",
+      "text": "Win the war"
+    },
+    {
+      "id": "main_goals-0024",
+      "text": "Prevent a war"
+    },
+    {
+      "id": "main_goals-0025",
+      "text": "Form an alliance"
+    },
+    {
+      "id": "main_goals-0026",
+      "text": "Break up an alliance"
+    },
+    {
+      "id": "main_goals-0027",
+      "text": "Restore order"
+    },
+    {
+      "id": "main_goals-0028",
+      "text": "Create chaos"
+    },
+    {
+      "id": "main_goals-0029",
+      "text": "Find out who is lying"
+    },
+    {
+      "id": "main_goals-0030",
+      "text": "Unmask the murderer"
+    },
+    {
+      "id": "main_goals-0031",
+      "text": "Prove your innocence"
+    },
+    {
+      "id": "main_goals-0032",
+      "text": "Cover up a crime"
+    },
+    {
+      "id": "main_goals-0033",
+      "text": "Commit the perfect crime"
+    },
+    {
+      "id": "main_goals-0034",
+      "text": "Escape justice"
+    },
+    {
+      "id": "main_goals-0035",
+      "text": "Catch a criminal"
+    },
+    {
+      "id": "main_goals-0036",
+      "text": "Build a criminal network"
+    },
+    {
+      "id": "main_goals-0037",
+      "text": "Destroy a criminal network"
+    },
+    {
+      "id": "main_goals-0038",
+      "text": "Gather evidence"
+    },
+    {
+      "id": "main_goals-0039",
+      "text": "Solve a disappearance"
+    },
+    {
+      "id": "main_goals-0040",
+      "text": "Find a lost object"
+    },
+    {
+      "id": "main_goals-0041",
+      "text": "Find a missing person"
+    },
+    {
+      "id": "main_goals-0042",
+      "text": "Find the truth about the past"
+    },
+    {
+      "id": "main_goals-0043",
+      "text": "Discover your own identity"
+    },
+    {
+      "id": "main_goals-0044",
+      "text": "Recover your memory"
+    },
+    {
+      "id": "main_goals-0045",
+      "text": "Find out what happened"
+    },
+    {
+      "id": "main_goals-0046",
+      "text": "Find out who you are"
+    },
+    {
+      "id": "main_goals-0047",
+      "text": "Find out where you are"
+    },
+    {
+      "id": "main_goals-0048",
+      "text": "Find out why you are there"
+    },
+    {
+      "id": "main_goals-0049",
+      "text": "Leave the place"
+    },
+    {
+      "id": "main_goals-0050",
+      "text": "Return home"
+    },
+    {
+      "id": "main_goals-0051",
+      "text": "Reach a sanctuary"
+    },
+    {
+      "id": "main_goals-0052",
+      "text": "Escape before the deadline"
+    },
+    {
+      "id": "main_goals-0053",
+      "text": "Find a way out"
+    },
+    {
+      "id": "main_goals-0054",
+      "text": "Open a sealed area"
+    },
+    {
+      "id": "main_goals-0055",
+      "text": "Break in"
+    },
+    {
+      "id": "main_goals-0056",
+      "text": "Break out"
+    },
+    {
+      "id": "main_goals-0057",
+      "text": "Infiltrate an organization"
+    },
+    {
+      "id": "main_goals-0058",
+      "text": "Sabotage the system"
+    },
+    {
+      "id": "main_goals-0059",
+      "text": "Repair the system"
+    },
+    {
+      "id": "main_goals-0060",
+      "text": "Keep the system running"
+    },
+    {
+      "id": "main_goals-0061",
+      "text": "Restart the system"
+    },
+    {
+      "id": "main_goals-0062",
+      "text": "Prevent the system from collapsing"
+    },
+    {
+      "id": "main_goals-0063",
+      "text": "Automate the system"
+    },
+    {
+      "id": "main_goals-0064",
+      "text": "Optimize production"
+    },
+    {
+      "id": "main_goals-0065",
+      "text": "Grow the company"
+    },
+    {
+      "id": "main_goals-0066",
+      "text": "Save the company from bankruptcy"
+    },
+    {
+      "id": "main_goals-0067",
+      "text": "Found a company"
+    },
+    {
+      "id": "main_goals-0068",
+      "text": "Dominate the market"
+    },
+    {
+      "id": "main_goals-0069",
+      "text": "Build a monopoly"
+    },
+    {
+      "id": "main_goals-0070",
+      "text": "Maximize profit"
+    },
+    {
+      "id": "main_goals-0071",
+      "text": "Pay off your debts"
+    },
+    {
+      "id": "main_goals-0072",
+      "text": "Amass a fortune"
+    },
+    {
+      "id": "main_goals-0073",
+      "text": "Earn a specific sum of money"
+    },
+    {
+      "id": "main_goals-0074",
+      "text": "Achieve financial independence"
+    },
+    {
+      "id": "main_goals-0075",
+      "text": "Build a city"
+    },
+    {
+      "id": "main_goals-0076",
+      "text": "Grow a village into a city"
+    },
+    {
+      "id": "main_goals-0077",
+      "text": "Found a colony"
+    },
+    {
+      "id": "main_goals-0078",
+      "text": "Keep the colony alive"
+    },
+    {
+      "id": "main_goals-0079",
+      "text": "Build a base"
+    },
+    {
+      "id": "main_goals-0080",
+      "text": "Expand the base"
+    },
+    {
+      "id": "main_goals-0081",
+      "text": "Build a home"
+    },
+    {
+      "id": "main_goals-0082",
+      "text": "Build a safe haven"
+    },
+    {
+      "id": "main_goals-0083",
+      "text": "Build working infrastructure"
+    },
+    {
+      "id": "main_goals-0084",
+      "text": "Build a production chain"
+    },
+    {
+      "id": "main_goals-0085",
+      "text": "Build a transport network"
+    },
+    {
+      "id": "main_goals-0086",
+      "text": "Build a society from scratch"
+    },
+    {
+      "id": "main_goals-0087",
+      "text": "Terraform a planet"
+    },
+    {
+      "id": "main_goals-0088",
+      "text": "Colonize a planet"
+    },
+    {
+      "id": "main_goals-0089",
+      "text": "Explore the world"
+    },
+    {
+      "id": "main_goals-0090",
+      "text": "Map the area"
+    },
+    {
+      "id": "main_goals-0091",
+      "text": "Discover a new place"
+    },
+    {
+      "id": "main_goals-0092",
+      "text": "Discover a new world"
+    },
+    {
+      "id": "main_goals-0093",
+      "text": "Reach the edge of the map"
+    },
+    {
+      "id": "main_goals-0094",
+      "text": "Explore every region"
+    },
+    {
+      "id": "main_goals-0095",
+      "text": "Gather all the important information"
+    },
+    {
+      "id": "main_goals-0096",
+      "text": "Document the world"
+    },
+    {
+      "id": "main_goals-0097",
+      "text": "Find an ancient site"
+    },
+    {
+      "id": "main_goals-0098",
+      "text": "Find a lost civilization"
+    },
+    {
+      "id": "main_goals-0099",
+      "text": "Find an artifact"
+    },
+    {
+      "id": "main_goals-0100",
+      "text": "Activate an artifact"
+    },
+    {
+      "id": "main_goals-0101",
+      "text": "Destroy an artifact"
+    },
+    {
+      "id": "main_goals-0102",
+      "text": "Prevent the artifact from being used"
+    },
+    {
+      "id": "main_goals-0103",
+      "text": "Solve an ancient riddle"
+    },
+    {
+      "id": "main_goals-0104",
+      "text": "Expose a conspiracy"
+    },
+    {
+      "id": "main_goals-0105",
+      "text": "Build a conspiracy"
+    },
+    {
+      "id": "main_goals-0106",
+      "text": "Thwart a conspiracy"
+    },
+    {
+      "id": "main_goals-0107",
+      "text": "Manipulate people"
+    },
+    {
+      "id": "main_goals-0108",
+      "text": "Manipulate the markets"
+    },
+    {
+      "id": "main_goals-0109",
+      "text": "Manipulate politics"
+    },
+    {
+      "id": "main_goals-0110",
+      "text": "Manipulate the media"
+    },
+    {
+      "id": "main_goals-0111",
+      "text": "Spread a rumor"
+    },
+    {
+      "id": "main_goals-0112",
+      "text": "Stop a rumor"
+    },
+    {
+      "id": "main_goals-0113",
+      "text": "Change public opinion"
+    },
+    {
+      "id": "main_goals-0114",
+      "text": "Grow your influence"
+    },
+    {
+      "id": "main_goals-0115",
+      "text": "Achieve maximum fame"
+    },
+    {
+      "id": "main_goals-0116",
+      "text": "Restore your reputation"
+    },
+    {
+      "id": "main_goals-0117",
+      "text": "Keep your secrets hidden"
+    },
+    {
+      "id": "main_goals-0118",
+      "text": "Expose other people's secrets"
+    },
+    {
+      "id": "main_goals-0119",
+      "text": "Gather as much information as possible"
+    },
+    {
+      "id": "main_goals-0120",
+      "text": "Control the flow of information"
+    },
+    {
+      "id": "main_goals-0121",
+      "text": "Stop information from spreading"
+    },
+    {
+      "id": "main_goals-0122",
+      "text": "Spread information"
+    },
+    {
+      "id": "main_goals-0123",
+      "text": "Build a spy network"
+    },
+    {
+      "id": "main_goals-0124",
+      "text": "Expose the spies"
+    },
+    {
+      "id": "main_goals-0125",
+      "text": "Steal intelligence"
+    },
+    {
+      "id": "main_goals-0126",
+      "text": "Prevent a leak"
+    },
+    {
+      "id": "main_goals-0127",
+      "text": "Find the traitor"
+    },
+    {
+      "id": "main_goals-0128",
+      "text": "Maintain loyalty"
+    },
+    {
+      "id": "main_goals-0129",
+      "text": "Earn trust"
+    },
+    {
+      "id": "main_goals-0130",
+      "text": "Break trust"
+    },
+    {
+      "id": "main_goals-0131",
+      "text": "Reconcile people"
+    },
+    {
+      "id": "main_goals-0132",
+      "text": "Break up a relationship"
+    },
+    {
+      "id": "main_goals-0133",
+      "text": "Build a friendship"
+    },
+    {
+      "id": "main_goals-0134",
+      "text": "Find a partner"
+    },
+    {
+      "id": "main_goals-0135",
+      "text": "Start a family"
+    },
+    {
+      "id": "main_goals-0136",
+      "text": "Keep the family together"
+    },
+    {
+      "id": "main_goals-0137",
+      "text": "Save a marriage"
+    },
+    {
+      "id": "main_goals-0138",
+      "text": "Build a dynasty"
+    },
+    {
+      "id": "main_goals-0139",
+      "text": "Continue the bloodline"
+    },
+    {
+      "id": "main_goals-0140",
+      "text": "Uncover your family's history"
+    },
+    {
+      "id": "main_goals-0141",
+      "text": "Find your biological family"
+    },
+    {
+      "id": "main_goals-0142",
+      "text": "Reconcile the family"
+    },
+    {
+      "id": "main_goals-0143",
+      "text": "Create an influential family"
+    },
+    {
+      "id": "main_goals-0144",
+      "text": "Keep the crew alive"
+    },
+    {
+      "id": "main_goals-0145",
+      "text": "Keep the crew happy"
+    },
+    {
+      "id": "main_goals-0146",
+      "text": "Keep morale high"
+    },
+    {
+      "id": "main_goals-0147",
+      "text": "Prevent a mutiny"
+    },
+    {
+      "id": "main_goals-0148",
+      "text": "Lead a rebellion"
+    },
+    {
+      "id": "main_goals-0149",
+      "text": "Find a leader"
+    },
+    {
+      "id": "main_goals-0150",
+      "text": "Become the leader"
+    },
+    {
+      "id": "main_goals-0151",
+      "text": "Give up power safely"
+    },
+    {
+      "id": "main_goals-0152",
+      "text": "Keep everyone alive"
+    },
+    {
+      "id": "main_goals-0153",
+      "text": "Save as many as possible"
+    },
+    {
+      "id": "main_goals-0154",
+      "text": "Choose who survives"
+    },
+    {
+      "id": "main_goals-0155",
+      "text": "Survive a set number of days"
+    },
+    {
+      "id": "main_goals-0156",
+      "text": "Survive the winter"
+    },
+    {
+      "id": "main_goals-0157",
+      "text": "Survive the night"
+    },
+    {
+      "id": "main_goals-0158",
+      "text": "Survive the epidemic"
+    },
+    {
+      "id": "main_goals-0159",
+      "text": "Survive the siege"
+    },
+    {
+      "id": "main_goals-0160",
+      "text": "Survive a natural disaster"
+    },
+    {
+      "id": "main_goals-0161",
+      "text": "Survive in space"
+    },
+    {
+      "id": "main_goals-0162",
+      "text": "Survive on a desert island"
+    },
+    {
+      "id": "main_goals-0163",
+      "text": "Survive in a hostile city"
+    },
+    {
+      "id": "main_goals-0164",
+      "text": "Find food"
+    },
+    {
+      "id": "main_goals-0165",
+      "text": "Find water"
+    },
+    {
+      "id": "main_goals-0166",
+      "text": "Keep resources sufficient"
+    },
+    {
+      "id": "main_goals-0167",
+      "text": "Make the resources last until the end"
+    },
+    {
+      "id": "main_goals-0168",
+      "text": "Create a sustainable food supply"
+    },
+    {
+      "id": "main_goals-0169",
+      "text": "Create working energy production"
+    },
+    {
+      "id": "main_goals-0170",
+      "text": "Restore power"
+    },
+    {
+      "id": "main_goals-0171",
+      "text": "Restore the water supply"
+    },
+    {
+      "id": "main_goals-0172",
+      "text": "Restore communications"
+    },
+    {
+      "id": "main_goals-0173",
+      "text": "Repair the spaceship"
+    },
+    {
+      "id": "main_goals-0174",
+      "text": "Repair the vehicle"
+    },
+    {
+      "id": "main_goals-0175",
+      "text": "Repair the city"
+    },
+    {
+      "id": "main_goals-0176",
+      "text": "Start the reactor"
+    },
+    {
+      "id": "main_goals-0177",
+      "text": "Shut down the reactor"
+    },
+    {
+      "id": "main_goals-0178",
+      "text": "Prevent a nuclear accident"
+    },
+    {
+      "id": "main_goals-0179",
+      "text": "Prevent an epidemic"
+    },
+    {
+      "id": "main_goals-0180",
+      "text": "Cure the epidemic"
+    },
+    {
+      "id": "main_goals-0181",
+      "text": "Find a cure"
+    },
+    {
+      "id": "main_goals-0182",
+      "text": "Save the patient"
+    },
+    {
+      "id": "main_goals-0183",
+      "text": "Heal the community"
+    },
+    {
+      "id": "main_goals-0184",
+      "text": "Keep the hospital running"
+    },
+    {
+      "id": "main_goals-0185",
+      "text": "Manage the crisis"
+    },
+    {
+      "id": "main_goals-0186",
+      "text": "Evacuate the area"
+    },
+    {
+      "id": "main_goals-0187",
+      "text": "Coordinate a rescue operation"
+    },
+    {
+      "id": "main_goals-0188",
+      "text": "Prevent the building from collapsing"
+    },
+    {
+      "id": "main_goals-0189",
+      "text": "Prevent a fire"
+    },
+    {
+      "id": "main_goals-0190",
+      "text": "Put out the fire"
+    },
+    {
+      "id": "main_goals-0191",
+      "text": "Prevent a flood"
+    },
+    {
+      "id": "main_goals-0192",
+      "text": "Prevent an environmental disaster"
+    },
+    {
+      "id": "main_goals-0193",
+      "text": "Protect nature"
+    },
+    {
+      "id": "main_goals-0194",
+      "text": "Restore the ecosystem"
+    },
+    {
+      "id": "main_goals-0195",
+      "text": "Breed a species"
+    },
+    {
+      "id": "main_goals-0196",
+      "text": "Prevent a species from going extinct"
+    },
+    {
+      "id": "main_goals-0197",
+      "text": "Eradicate a dangerous species"
+    },
+    {
+      "id": "main_goals-0198",
+      "text": "Study an unknown organism"
+    },
+    {
+      "id": "main_goals-0199",
+      "text": "Understand an alien life form"
+    },
+    {
+      "id": "main_goals-0200",
+      "text": "Create a new species"
+    },
+    {
+      "id": "main_goals-0201",
+      "text": "Grow the population"
+    },
+    {
+      "id": "main_goals-0202",
+      "text": "Balance the ecosystem"
+    },
+    {
+      "id": "main_goals-0203",
+      "text": "Achieve a technological breakthrough"
+    },
+    {
+      "id": "main_goals-0204",
+      "text": "Research every technology"
+    },
+    {
+      "id": "main_goals-0205",
+      "text": "Build a new invention"
+    },
+    {
+      "id": "main_goals-0206",
+      "text": "Create an AI"
+    },
+    {
+      "id": "main_goals-0207",
+      "text": "Stop an AI"
+    },
+    {
+      "id": "main_goals-0208",
+      "text": "Free an AI"
+    },
+    {
+      "id": "main_goals-0209",
+      "text": "Keep an AI under control"
+    },
+    {
+      "id": "main_goals-0210",
+      "text": "Prove that you are conscious"
+    },
+    {
+      "id": "main_goals-0211",
+      "text": "Hide your consciousness"
+    },
+    {
+      "id": "main_goals-0212",
+      "text": "Get out of the simulation"
+    },
+    {
+      "id": "main_goals-0213",
+      "text": "Keep the simulation running"
+    },
+    {
+      "id": "main_goals-0214",
+      "text": "Find out whether you are in a simulation"
+    },
+    {
+      "id": "main_goals-0215",
+      "text": "Break the rules of the simulation"
+    },
+    {
+      "id": "main_goals-0216",
+      "text": "Repair the timeline"
+    },
+    {
+      "id": "main_goals-0217",
+      "text": "Change history"
+    },
+    {
+      "id": "main_goals-0218",
+      "text": "Prevent history from being changed"
+    },
+    {
+      "id": "main_goals-0219",
+      "text": "Return to your own time"
+    },
+    {
+      "id": "main_goals-0220",
+      "text": "Break the time loop"
+    },
+    {
+      "id": "main_goals-0221",
+      "text": "Keep the time loop going"
+    },
+    {
+      "id": "main_goals-0222",
+      "text": "Save the future"
+    },
+    {
+      "id": "main_goals-0223",
+      "text": "Change the future"
+    },
+    {
+      "id": "main_goals-0224",
+      "text": "Prevent the end of the world"
+    },
+    {
+      "id": "main_goals-0225",
+      "text": "Cause the end of the world"
+    },
+    {
+      "id": "main_goals-0226",
+      "text": "Prepare for the end of the world"
+    },
+    {
+      "id": "main_goals-0227",
+      "text": "Build a new world after the disaster"
+    },
+    {
+      "id": "main_goals-0228",
+      "text": "Find other survivors"
+    },
+    {
+      "id": "main_goals-0229",
+      "text": "Unite scattered communities"
+    },
+    {
+      "id": "main_goals-0230",
+      "text": "Found a new state"
+    },
+    {
+      "id": "main_goals-0231",
+      "text": "Restore the old state"
+    },
+    {
+      "id": "main_goals-0232",
+      "text": "Create a new religion"
+    },
+    {
+      "id": "main_goals-0233",
+      "text": "Grow a cult"
+    },
+    {
+      "id": "main_goals-0234",
+      "text": "Break up a cult"
+    },
+    {
+      "id": "main_goals-0235",
+      "text": "Expose a false prophet"
+    },
+    {
+      "id": "main_goals-0236",
+      "text": "Fulfill a prophecy"
+    },
+    {
+      "id": "main_goals-0237",
+      "text": "Prevent a prophecy"
+    },
+    {
+      "id": "main_goals-0238",
+      "text": "Prove a prophecy wrong"
+    },
+    {
+      "id": "main_goals-0239",
+      "text": "Achieve immortality"
+    },
+    {
+      "id": "main_goals-0240",
+      "text": "Break a curse"
+    },
+    {
+      "id": "main_goals-0241",
+      "text": "Cast a curse"
+    },
+    {
+      "id": "main_goals-0242",
+      "text": "Escape death"
+    },
+    {
+      "id": "main_goals-0243",
+      "text": "Find a way to die"
+    },
+    {
+      "id": "main_goals-0244",
+      "text": "Bring the dead back to life"
+    },
+    {
+      "id": "main_goals-0245",
+      "text": "Help a spirit move on"
+    },
+    {
+      "id": "main_goals-0246",
+      "text": "Gather the lost souls"
+    },
+    {
+      "id": "main_goals-0247",
+      "text": "Escape the afterlife"
+    },
+    {
+      "id": "main_goals-0248",
+      "text": "Earn entry into heaven"
+    },
+    {
+      "id": "main_goals-0249",
+      "text": "Avoid ending up in hell"
+    },
+    {
+      "id": "main_goals-0250",
+      "text": "Organize the world of the dead"
+    },
+    {
+      "id": "main_goals-0251",
+      "text": "Solve a supernatural phenomenon"
+    },
+    {
+      "id": "main_goals-0252",
+      "text": "Prove that a supernatural phenomenon is real"
+    },
+    {
+      "id": "main_goals-0253",
+      "text": "Prove that a supernatural phenomenon is not real"
+    },
+    {
+      "id": "main_goals-0254",
+      "text": "Create a masterpiece"
+    },
+    {
+      "id": "main_goals-0255",
+      "text": "Build the best restaurant in the world"
+    },
+    {
+      "id": "main_goals-0256",
+      "text": "Build the best hotel in the world"
+    },
+    {
+      "id": "main_goals-0257",
+      "text": "Manage the best sports team"
+    },
+    {
+      "id": "main_goals-0258",
+      "text": "Win the championship"
+    },
+    {
+      "id": "main_goals-0259",
+      "text": "Break a record"
+    },
+    {
+      "id": "main_goals-0260",
+      "text": "Become famous"
+    },
+    {
+      "id": "main_goals-0261",
+      "text": "Become a legend"
+    },
+    {
+      "id": "main_goals-0262",
+      "text": "Create a work of art"
+    },
+    {
+      "id": "main_goals-0263",
+      "text": "Finish your life's work"
+    },
+    {
+      "id": "main_goals-0264",
+      "text": "Solve an impossible problem"
+    },
+    {
+      "id": "main_goals-0265",
+      "text": "Achieve a perfect performance"
+    },
+    {
+      "id": "main_goals-0266",
+      "text": "Collect everything"
+    },
+    {
+      "id": "main_goals-0267",
+      "text": "Complete the whole collection"
+    },
+    {
+      "id": "main_goals-0268",
+      "text": "Complete the archive"
+    },
+    {
+      "id": "main_goals-0269",
+      "text": "Find all the secrets"
+    },
+    {
+      "id": "main_goals-0270",
+      "text": "Unlock every area"
+    },
+    {
+      "id": "main_goals-0271",
+      "text": "Reach the highest rank"
+    },
+    {
+      "id": "main_goals-0272",
+      "text": "Complete the mission without anyone noticing"
+    },
+    {
+      "id": "main_goals-0273",
+      "text": "Complete the mission without violence"
+    },
+    {
+      "id": "main_goals-0274",
+      "text": "Complete the mission before time runs out"
+    },
+    {
+      "id": "main_goals-0275",
+      "text": "Keep all parties satisfied"
+    },
+    {
+      "id": "main_goals-0276",
+      "text": "Make an impossible compromise"
+    },
+    {
+      "id": "main_goals-0277",
+      "text": "Choose the lesser evil"
+    },
+    {
+      "id": "main_goals-0278",
+      "text": "Decide who deserves your help"
+    },
+    {
+      "id": "main_goals-0279",
+      "text": "Decide whose side you are on"
+    },
+    {
+      "id": "main_goals-0280",
+      "text": "Change the system from within"
+    },
+    {
+      "id": "main_goals-0281",
+      "text": "Destroy the system from within"
+    },
+    {
+      "id": "main_goals-0282",
+      "text": "Take over the system"
+    },
+    {
+      "id": "main_goals-0283",
+      "text": "Escape the system"
+    },
+    {
+      "id": "main_goals-0284",
+      "text": "Prove that the system is corrupt"
+    },
+    {
+      "id": "main_goals-0285",
+      "text": "Keep the truth hidden"
+    },
+    {
+      "id": "main_goals-0286",
+      "text": "Reveal the truth to the world"
+    }
   ]
 }

@@ -1,396 +1,1434 @@
 {
   "places": {
     "settlements": [
-      "City",
-      "Small town",
-      "Village",
-      "Suburb",
-      "Slum",
-      "City center",
-      "Old town",
-      "Industrial area",
-      "Port city",
-      "Border town",
-      "Mining town",
-      "University town",
-      "Resort town",
-      "Abandoned city",
-      "Underground city",
-      "Floating city",
-      "Space city",
-      "Domed city",
-      "Megacity",
-      "City-state"
+      {
+        "id": "settings-0001",
+        "text": "City"
+      },
+      {
+        "id": "settings-0002",
+        "text": "Small town"
+      },
+      {
+        "id": "settings-0003",
+        "text": "Village"
+      },
+      {
+        "id": "settings-0004",
+        "text": "Suburb"
+      },
+      {
+        "id": "settings-0005",
+        "text": "Slum"
+      },
+      {
+        "id": "settings-0006",
+        "text": "City center"
+      },
+      {
+        "id": "settings-0007",
+        "text": "Old town"
+      },
+      {
+        "id": "settings-0008",
+        "text": "Industrial area"
+      },
+      {
+        "id": "settings-0009",
+        "text": "Port city"
+      },
+      {
+        "id": "settings-0010",
+        "text": "Border town"
+      },
+      {
+        "id": "settings-0011",
+        "text": "Mining town"
+      },
+      {
+        "id": "settings-0012",
+        "text": "University town"
+      },
+      {
+        "id": "settings-0013",
+        "text": "Resort town"
+      },
+      {
+        "id": "settings-0014",
+        "text": "Abandoned city"
+      },
+      {
+        "id": "settings-0015",
+        "text": "Underground city"
+      },
+      {
+        "id": "settings-0016",
+        "text": "Floating city"
+      },
+      {
+        "id": "settings-0017",
+        "text": "Space city"
+      },
+      {
+        "id": "settings-0018",
+        "text": "Domed city"
+      },
+      {
+        "id": "settings-0019",
+        "text": "Megacity"
+      },
+      {
+        "id": "settings-0020",
+        "text": "City-state"
+      }
     ],
     "residential_and_religious": [
-      "Apartment building",
-      "Detached house",
-      "Manor",
-      "Castle",
-      "Palace",
-      "Villa",
-      "Cabin",
-      "Inn",
-      "Hotel",
-      "Motel",
-      "Hostel",
-      "Dormitory",
-      "Orphanage",
-      "Retirement home",
-      "Women's shelter",
-      "Monastery",
-      "Temple",
-      "Church",
-      "Cemetery",
-      "Crypt"
+      {
+        "id": "settings-0021",
+        "text": "Apartment building"
+      },
+      {
+        "id": "settings-0022",
+        "text": "Detached house"
+      },
+      {
+        "id": "settings-0023",
+        "text": "Manor"
+      },
+      {
+        "id": "settings-0024",
+        "text": "Castle"
+      },
+      {
+        "id": "settings-0025",
+        "text": "Palace"
+      },
+      {
+        "id": "settings-0026",
+        "text": "Villa"
+      },
+      {
+        "id": "settings-0027",
+        "text": "Cabin"
+      },
+      {
+        "id": "settings-0028",
+        "text": "Inn"
+      },
+      {
+        "id": "settings-0029",
+        "text": "Hotel"
+      },
+      {
+        "id": "settings-0030",
+        "text": "Motel"
+      },
+      {
+        "id": "settings-0031",
+        "text": "Hostel"
+      },
+      {
+        "id": "settings-0032",
+        "text": "Dormitory"
+      },
+      {
+        "id": "settings-0033",
+        "text": "Orphanage"
+      },
+      {
+        "id": "settings-0034",
+        "text": "Retirement home"
+      },
+      {
+        "id": "settings-0035",
+        "text": "Women's shelter"
+      },
+      {
+        "id": "settings-0036",
+        "text": "Monastery"
+      },
+      {
+        "id": "settings-0037",
+        "text": "Temple"
+      },
+      {
+        "id": "settings-0038",
+        "text": "Church"
+      },
+      {
+        "id": "settings-0039",
+        "text": "Cemetery"
+      },
+      {
+        "id": "settings-0040",
+        "text": "Crypt"
+      }
     ],
     "commercial_and_leisure": [
-      "Shop",
-      "Supermarket",
-      "Shopping mall",
-      "Department store",
-      "Flea market",
-      "Antique shop",
-      "Pawnshop",
-      "Auction house",
-      "Bar",
-      "Pub",
-      "Restaurant",
-      "Café",
-      "Nightclub",
-      "Casino",
-      "Brothel",
-      "Barbershop",
-      "Laundromat",
-      "Pharmacy",
-      "Car repair shop"
+      {
+        "id": "settings-0041",
+        "text": "Shop"
+      },
+      {
+        "id": "settings-0042",
+        "text": "Supermarket"
+      },
+      {
+        "id": "settings-0043",
+        "text": "Shopping mall"
+      },
+      {
+        "id": "settings-0044",
+        "text": "Department store"
+      },
+      {
+        "id": "settings-0045",
+        "text": "Flea market"
+      },
+      {
+        "id": "settings-0046",
+        "text": "Antique shop"
+      },
+      {
+        "id": "settings-0047",
+        "text": "Pawnshop"
+      },
+      {
+        "id": "settings-0048",
+        "text": "Auction house"
+      },
+      {
+        "id": "settings-0049",
+        "text": "Bar"
+      },
+      {
+        "id": "settings-0050",
+        "text": "Pub"
+      },
+      {
+        "id": "settings-0051",
+        "text": "Restaurant"
+      },
+      {
+        "id": "settings-0052",
+        "text": "Café"
+      },
+      {
+        "id": "settings-0053",
+        "text": "Nightclub"
+      },
+      {
+        "id": "settings-0054",
+        "text": "Casino"
+      },
+      {
+        "id": "settings-0055",
+        "text": "Brothel"
+      },
+      {
+        "id": "settings-0056",
+        "text": "Barbershop"
+      },
+      {
+        "id": "settings-0057",
+        "text": "Laundromat"
+      },
+      {
+        "id": "settings-0058",
+        "text": "Pharmacy"
+      },
+      {
+        "id": "settings-0059",
+        "text": "Car repair shop"
+      }
     ],
     "offices_and_culture": [
-      "Office",
-      "Government agency",
-      "Ministry",
-      "City hall",
-      "Municipal office",
-      "Tax office",
-      "Bank",
-      "Insurance company",
-      "Law firm",
-      "Newspaper office",
-      "Radio station",
-      "TV studio",
-      "Advertising agency",
-      "Archive",
-      "Library",
-      "Museum",
-      "Gallery",
-      "Theater",
-      "Movie theater"
+      {
+        "id": "settings-0060",
+        "text": "Office"
+      },
+      {
+        "id": "settings-0061",
+        "text": "Government agency"
+      },
+      {
+        "id": "settings-0062",
+        "text": "Ministry"
+      },
+      {
+        "id": "settings-0063",
+        "text": "City hall"
+      },
+      {
+        "id": "settings-0064",
+        "text": "Municipal office"
+      },
+      {
+        "id": "settings-0065",
+        "text": "Tax office"
+      },
+      {
+        "id": "settings-0066",
+        "text": "Bank"
+      },
+      {
+        "id": "settings-0067",
+        "text": "Insurance company"
+      },
+      {
+        "id": "settings-0068",
+        "text": "Law firm"
+      },
+      {
+        "id": "settings-0069",
+        "text": "Newspaper office"
+      },
+      {
+        "id": "settings-0070",
+        "text": "Radio station"
+      },
+      {
+        "id": "settings-0071",
+        "text": "TV studio"
+      },
+      {
+        "id": "settings-0072",
+        "text": "Advertising agency"
+      },
+      {
+        "id": "settings-0073",
+        "text": "Archive"
+      },
+      {
+        "id": "settings-0074",
+        "text": "Library"
+      },
+      {
+        "id": "settings-0075",
+        "text": "Museum"
+      },
+      {
+        "id": "settings-0076",
+        "text": "Gallery"
+      },
+      {
+        "id": "settings-0077",
+        "text": "Theater"
+      },
+      {
+        "id": "settings-0078",
+        "text": "Movie theater"
+      }
     ],
     "institutions": [
-      "School",
-      "University",
-      "Boarding school",
-      "Daycare center",
-      "Army barracks",
-      "Police station",
-      "Fire station",
-      "Courthouse",
-      "Prison",
-      "Psychiatric hospital",
-      "Hospital",
-      "Clinic",
-      "Autopsy room",
-      "Laboratory",
-      "Research institute",
-      "Secret research facility"
+      {
+        "id": "settings-0079",
+        "text": "School"
+      },
+      {
+        "id": "settings-0080",
+        "text": "University"
+      },
+      {
+        "id": "settings-0081",
+        "text": "Boarding school"
+      },
+      {
+        "id": "settings-0082",
+        "text": "Daycare center"
+      },
+      {
+        "id": "settings-0083",
+        "text": "Army barracks"
+      },
+      {
+        "id": "settings-0084",
+        "text": "Police station"
+      },
+      {
+        "id": "settings-0085",
+        "text": "Fire station"
+      },
+      {
+        "id": "settings-0086",
+        "text": "Courthouse"
+      },
+      {
+        "id": "settings-0087",
+        "text": "Prison"
+      },
+      {
+        "id": "settings-0088",
+        "text": "Psychiatric hospital"
+      },
+      {
+        "id": "settings-0089",
+        "text": "Hospital"
+      },
+      {
+        "id": "settings-0090",
+        "text": "Clinic"
+      },
+      {
+        "id": "settings-0091",
+        "text": "Autopsy room"
+      },
+      {
+        "id": "settings-0092",
+        "text": "Laboratory"
+      },
+      {
+        "id": "settings-0093",
+        "text": "Research institute"
+      },
+      {
+        "id": "settings-0094",
+        "text": "Secret research facility"
+      }
     ],
     "industry_and_infrastructure": [
-      "Factory",
-      "Power plant",
-      "Nuclear power plant",
-      "Hydroelectric plant",
-      "Refinery",
-      "Mine",
-      "Sawmill",
-      "Shipyard",
-      "Warehouse",
-      "Logistics center",
-      "Distribution center",
-      "Waste station",
-      "Landfill",
-      "Recycling center",
-      "Data center",
-      "Server hall"
+      {
+        "id": "settings-0095",
+        "text": "Factory"
+      },
+      {
+        "id": "settings-0096",
+        "text": "Power plant"
+      },
+      {
+        "id": "settings-0097",
+        "text": "Nuclear power plant"
+      },
+      {
+        "id": "settings-0098",
+        "text": "Hydroelectric plant"
+      },
+      {
+        "id": "settings-0099",
+        "text": "Refinery"
+      },
+      {
+        "id": "settings-0100",
+        "text": "Mine"
+      },
+      {
+        "id": "settings-0101",
+        "text": "Sawmill"
+      },
+      {
+        "id": "settings-0102",
+        "text": "Shipyard"
+      },
+      {
+        "id": "settings-0103",
+        "text": "Warehouse"
+      },
+      {
+        "id": "settings-0104",
+        "text": "Logistics center"
+      },
+      {
+        "id": "settings-0105",
+        "text": "Distribution center"
+      },
+      {
+        "id": "settings-0106",
+        "text": "Waste station"
+      },
+      {
+        "id": "settings-0107",
+        "text": "Landfill"
+      },
+      {
+        "id": "settings-0108",
+        "text": "Recycling center"
+      },
+      {
+        "id": "settings-0109",
+        "text": "Data center"
+      },
+      {
+        "id": "settings-0110",
+        "text": "Server hall"
+      }
     ],
     "transport_locations": [
-      "Railway station",
-      "Metro station",
-      "Bus station",
-      "Airport",
-      "Harbor",
-      "Ferry terminal",
-      "Gas station",
-      "Roadside rest stop",
-      "Border crossing",
-      "Customs",
-      "Highway",
-      "Country road",
-      "Railway",
-      "Tunnel",
-      "Bridge",
-      "Canal"
+      {
+        "id": "settings-0111",
+        "text": "Railway station"
+      },
+      {
+        "id": "settings-0112",
+        "text": "Metro station"
+      },
+      {
+        "id": "settings-0113",
+        "text": "Bus station"
+      },
+      {
+        "id": "settings-0114",
+        "text": "Airport"
+      },
+      {
+        "id": "settings-0115",
+        "text": "Harbor"
+      },
+      {
+        "id": "settings-0116",
+        "text": "Ferry terminal"
+      },
+      {
+        "id": "settings-0117",
+        "text": "Gas station"
+      },
+      {
+        "id": "settings-0118",
+        "text": "Roadside rest stop"
+      },
+      {
+        "id": "settings-0119",
+        "text": "Border crossing"
+      },
+      {
+        "id": "settings-0120",
+        "text": "Customs"
+      },
+      {
+        "id": "settings-0121",
+        "text": "Highway"
+      },
+      {
+        "id": "settings-0122",
+        "text": "Country road"
+      },
+      {
+        "id": "settings-0123",
+        "text": "Railway"
+      },
+      {
+        "id": "settings-0124",
+        "text": "Tunnel"
+      },
+      {
+        "id": "settings-0125",
+        "text": "Bridge"
+      },
+      {
+        "id": "settings-0126",
+        "text": "Canal"
+      }
     ],
     "vehicles": [
-      "Train",
-      "Metro",
-      "Bus",
-      "Taxi",
-      "Airplane",
-      "Helicopter",
-      "Ship",
-      "Cruise ship",
-      "Cargo ship",
-      "Submarine",
-      "Oil rig",
-      "Spaceship",
-      "Space station",
-      "Generation ship",
-      "Lifeboat",
-      "Armored train"
+      {
+        "id": "settings-0127",
+        "text": "Train"
+      },
+      {
+        "id": "settings-0128",
+        "text": "Metro"
+      },
+      {
+        "id": "settings-0129",
+        "text": "Bus"
+      },
+      {
+        "id": "settings-0130",
+        "text": "Taxi"
+      },
+      {
+        "id": "settings-0131",
+        "text": "Airplane"
+      },
+      {
+        "id": "settings-0132",
+        "text": "Helicopter"
+      },
+      {
+        "id": "settings-0133",
+        "text": "Ship"
+      },
+      {
+        "id": "settings-0134",
+        "text": "Cruise ship"
+      },
+      {
+        "id": "settings-0135",
+        "text": "Cargo ship"
+      },
+      {
+        "id": "settings-0136",
+        "text": "Submarine"
+      },
+      {
+        "id": "settings-0137",
+        "text": "Oil rig"
+      },
+      {
+        "id": "settings-0138",
+        "text": "Spaceship"
+      },
+      {
+        "id": "settings-0139",
+        "text": "Space station"
+      },
+      {
+        "id": "settings-0140",
+        "text": "Generation ship"
+      },
+      {
+        "id": "settings-0141",
+        "text": "Lifeboat"
+      },
+      {
+        "id": "settings-0142",
+        "text": "Armored train"
+      }
     ],
     "nature": [
-      "Forest",
-      "Rainforest",
-      "Desert",
-      "Tundra",
-      "Taiga",
-      "Swamp",
-      "Mountains",
-      "Canyon",
-      "Cave",
-      "Glacier",
-      "Island",
-      "Desert island",
-      "Archipelago",
-      "Beach",
-      "River",
-      "Lake",
-      "Seabed",
-      "Volcano",
-      "Crater",
-      "Wilderness"
+      {
+        "id": "settings-0143",
+        "text": "Forest"
+      },
+      {
+        "id": "settings-0144",
+        "text": "Rainforest"
+      },
+      {
+        "id": "settings-0145",
+        "text": "Desert"
+      },
+      {
+        "id": "settings-0146",
+        "text": "Tundra"
+      },
+      {
+        "id": "settings-0147",
+        "text": "Taiga"
+      },
+      {
+        "id": "settings-0148",
+        "text": "Swamp"
+      },
+      {
+        "id": "settings-0149",
+        "text": "Mountains"
+      },
+      {
+        "id": "settings-0150",
+        "text": "Canyon"
+      },
+      {
+        "id": "settings-0151",
+        "text": "Cave"
+      },
+      {
+        "id": "settings-0152",
+        "text": "Glacier"
+      },
+      {
+        "id": "settings-0153",
+        "text": "Island"
+      },
+      {
+        "id": "settings-0154",
+        "text": "Desert island"
+      },
+      {
+        "id": "settings-0155",
+        "text": "Archipelago"
+      },
+      {
+        "id": "settings-0156",
+        "text": "Beach"
+      },
+      {
+        "id": "settings-0157",
+        "text": "River"
+      },
+      {
+        "id": "settings-0158",
+        "text": "Lake"
+      },
+      {
+        "id": "settings-0159",
+        "text": "Seabed"
+      },
+      {
+        "id": "settings-0160",
+        "text": "Volcano"
+      },
+      {
+        "id": "settings-0161",
+        "text": "Crater"
+      },
+      {
+        "id": "settings-0162",
+        "text": "Wilderness"
+      }
     ],
     "rural_and_agricultural": [
-      "National park",
-      "Nature reserve",
-      "Hunting ground",
-      "Fishing village",
-      "Farm",
-      "Ranch",
-      "Vineyard",
-      "Greenhouse",
-      "Garden",
-      "Orchard",
-      "Game farm"
+      {
+        "id": "settings-0163",
+        "text": "National park"
+      },
+      {
+        "id": "settings-0164",
+        "text": "Nature reserve"
+      },
+      {
+        "id": "settings-0165",
+        "text": "Hunting ground"
+      },
+      {
+        "id": "settings-0166",
+        "text": "Fishing village"
+      },
+      {
+        "id": "settings-0167",
+        "text": "Farm"
+      },
+      {
+        "id": "settings-0168",
+        "text": "Ranch"
+      },
+      {
+        "id": "settings-0169",
+        "text": "Vineyard"
+      },
+      {
+        "id": "settings-0170",
+        "text": "Greenhouse"
+      },
+      {
+        "id": "settings-0171",
+        "text": "Garden"
+      },
+      {
+        "id": "settings-0172",
+        "text": "Orchard"
+      },
+      {
+        "id": "settings-0173",
+        "text": "Game farm"
+      }
     ],
     "entertainment_and_sports": [
-      "Amusement park",
-      "Theme park",
-      "Zoo",
-      "Aquarium",
-      "Circus",
-      "Festival grounds",
-      "Convention center",
-      "Stadium",
-      "Sports hall",
-      "Racetrack",
-      "Golf course",
-      "Ski resort",
-      "Spa",
-      "Holiday resort",
-      "Campsite"
+      {
+        "id": "settings-0174",
+        "text": "Amusement park"
+      },
+      {
+        "id": "settings-0175",
+        "text": "Theme park"
+      },
+      {
+        "id": "settings-0176",
+        "text": "Zoo"
+      },
+      {
+        "id": "settings-0177",
+        "text": "Aquarium"
+      },
+      {
+        "id": "settings-0178",
+        "text": "Circus"
+      },
+      {
+        "id": "settings-0179",
+        "text": "Festival grounds"
+      },
+      {
+        "id": "settings-0180",
+        "text": "Convention center"
+      },
+      {
+        "id": "settings-0181",
+        "text": "Stadium"
+      },
+      {
+        "id": "settings-0182",
+        "text": "Sports hall"
+      },
+      {
+        "id": "settings-0183",
+        "text": "Racetrack"
+      },
+      {
+        "id": "settings-0184",
+        "text": "Golf course"
+      },
+      {
+        "id": "settings-0185",
+        "text": "Ski resort"
+      },
+      {
+        "id": "settings-0186",
+        "text": "Spa"
+      },
+      {
+        "id": "settings-0187",
+        "text": "Holiday resort"
+      },
+      {
+        "id": "settings-0188",
+        "text": "Campsite"
+      }
     ],
     "military_and_security": [
-      "Bunker",
-      "Civil defense shelter",
-      "Bomb shelter",
-      "Missile silo",
-      "Command center",
-      "Radar station",
-      "Military base",
-      "Forward outpost",
-      "Border guard station",
-      "Watchtower",
-      "Fortress",
-      "Trench",
-      "Battlefield",
-      "Occupied city",
-      "Demilitarized zone"
+      {
+        "id": "settings-0189",
+        "text": "Bunker"
+      },
+      {
+        "id": "settings-0190",
+        "text": "Civil defense shelter"
+      },
+      {
+        "id": "settings-0191",
+        "text": "Bomb shelter"
+      },
+      {
+        "id": "settings-0192",
+        "text": "Missile silo"
+      },
+      {
+        "id": "settings-0193",
+        "text": "Command center"
+      },
+      {
+        "id": "settings-0194",
+        "text": "Radar station"
+      },
+      {
+        "id": "settings-0195",
+        "text": "Military base"
+      },
+      {
+        "id": "settings-0196",
+        "text": "Forward outpost"
+      },
+      {
+        "id": "settings-0197",
+        "text": "Border guard station"
+      },
+      {
+        "id": "settings-0198",
+        "text": "Watchtower"
+      },
+      {
+        "id": "settings-0199",
+        "text": "Fortress"
+      },
+      {
+        "id": "settings-0200",
+        "text": "Trench"
+      },
+      {
+        "id": "settings-0201",
+        "text": "Battlefield"
+      },
+      {
+        "id": "settings-0202",
+        "text": "Occupied city"
+      },
+      {
+        "id": "settings-0203",
+        "text": "Demilitarized zone"
+      }
     ],
     "political_and_power": [
-      "Political party",
-      "Parliament",
-      "Presidential palace",
-      "Royal house",
-      "Royal court",
-      "Diplomatic mission",
-      "Embassy",
-      "Secret service",
-      "Intelligence agency",
-      "Revolutionary movement",
-      "Insurgent movement",
-      "Underground resistance"
+      {
+        "id": "settings-0204",
+        "text": "Political party"
+      },
+      {
+        "id": "settings-0205",
+        "text": "Parliament"
+      },
+      {
+        "id": "settings-0206",
+        "text": "Presidential palace"
+      },
+      {
+        "id": "settings-0207",
+        "text": "Royal house"
+      },
+      {
+        "id": "settings-0208",
+        "text": "Royal court"
+      },
+      {
+        "id": "settings-0209",
+        "text": "Diplomatic mission"
+      },
+      {
+        "id": "settings-0210",
+        "text": "Embassy"
+      },
+      {
+        "id": "settings-0211",
+        "text": "Secret service"
+      },
+      {
+        "id": "settings-0212",
+        "text": "Intelligence agency"
+      },
+      {
+        "id": "settings-0213",
+        "text": "Revolutionary movement"
+      },
+      {
+        "id": "settings-0214",
+        "text": "Insurgent movement"
+      },
+      {
+        "id": "settings-0215",
+        "text": "Underground resistance"
+      }
     ],
     "organizations": [
-      "Company",
-      "Startup",
-      "Multinational corporation",
-      "Family business",
-      "Criminal organization",
-      "Mafia",
-      "Gang",
-      "Cult",
-      "Secret society",
-      "Labor union",
-      "Religious community",
-      "Scientific society",
-      "Community",
-      "Commune",
-      "Colony"
+      {
+        "id": "settings-0216",
+        "text": "Company"
+      },
+      {
+        "id": "settings-0217",
+        "text": "Startup"
+      },
+      {
+        "id": "settings-0218",
+        "text": "Multinational corporation"
+      },
+      {
+        "id": "settings-0219",
+        "text": "Family business"
+      },
+      {
+        "id": "settings-0220",
+        "text": "Criminal organization"
+      },
+      {
+        "id": "settings-0221",
+        "text": "Mafia"
+      },
+      {
+        "id": "settings-0222",
+        "text": "Gang"
+      },
+      {
+        "id": "settings-0223",
+        "text": "Cult"
+      },
+      {
+        "id": "settings-0224",
+        "text": "Secret society"
+      },
+      {
+        "id": "settings-0225",
+        "text": "Labor union"
+      },
+      {
+        "id": "settings-0226",
+        "text": "Religious community"
+      },
+      {
+        "id": "settings-0227",
+        "text": "Scientific society"
+      },
+      {
+        "id": "settings-0228",
+        "text": "Community"
+      },
+      {
+        "id": "settings-0229",
+        "text": "Commune"
+      },
+      {
+        "id": "settings-0230",
+        "text": "Colony"
+      }
     ],
     "social_units": [
-      "Family",
-      "Clan",
-      "Dynasty",
-      "Neighborhood",
-      "Workplace",
-      "Classroom",
-      "Football team",
-      "Army unit",
-      "Police department unit",
-      "Hospital ward",
-      "Spaceship crew",
-      "Group of survivors",
-      "Criminal gang"
+      {
+        "id": "settings-0231",
+        "text": "Family"
+      },
+      {
+        "id": "settings-0232",
+        "text": "Clan"
+      },
+      {
+        "id": "settings-0233",
+        "text": "Dynasty"
+      },
+      {
+        "id": "settings-0234",
+        "text": "Neighborhood"
+      },
+      {
+        "id": "settings-0235",
+        "text": "Workplace"
+      },
+      {
+        "id": "settings-0236",
+        "text": "Classroom"
+      },
+      {
+        "id": "settings-0237",
+        "text": "Football team"
+      },
+      {
+        "id": "settings-0238",
+        "text": "Army unit"
+      },
+      {
+        "id": "settings-0239",
+        "text": "Police department unit"
+      },
+      {
+        "id": "settings-0240",
+        "text": "Hospital ward"
+      },
+      {
+        "id": "settings-0241",
+        "text": "Spaceship crew"
+      },
+      {
+        "id": "settings-0242",
+        "text": "Group of survivors"
+      },
+      {
+        "id": "settings-0243",
+        "text": "Criminal gang"
+      }
     ],
     "digital_and_virtual": [
-      "Internet",
-      "Social media",
-      "Discussion forum",
-      "Chat service",
-      "Virtual world",
-      "MMORPG world",
-      "Simulated reality",
-      "Metaverse",
-      "Database",
-      "Computer network",
-      "Operating system",
-      "Inner world of an AI"
+      {
+        "id": "settings-0244",
+        "text": "Internet"
+      },
+      {
+        "id": "settings-0245",
+        "text": "Social media"
+      },
+      {
+        "id": "settings-0246",
+        "text": "Discussion forum"
+      },
+      {
+        "id": "settings-0247",
+        "text": "Chat service"
+      },
+      {
+        "id": "settings-0248",
+        "text": "Virtual world"
+      },
+      {
+        "id": "settings-0249",
+        "text": "MMORPG world"
+      },
+      {
+        "id": "settings-0250",
+        "text": "Simulated reality"
+      },
+      {
+        "id": "settings-0251",
+        "text": "Metaverse"
+      },
+      {
+        "id": "settings-0252",
+        "text": "Database"
+      },
+      {
+        "id": "settings-0253",
+        "text": "Computer network"
+      },
+      {
+        "id": "settings-0254",
+        "text": "Operating system"
+      },
+      {
+        "id": "settings-0255",
+        "text": "Inner world of an AI"
+      }
     ],
     "mental_and_abstract_worlds": [
-      "Human mind",
-      "Dream",
-      "Nightmare",
-      "Memory",
-      "Subconscious",
-      "Imagination",
-      "Collective mind",
-      "Hallucination",
-      "The last minutes of a dying person",
-      "Archive of memories"
+      {
+        "id": "settings-0256",
+        "text": "Human mind"
+      },
+      {
+        "id": "settings-0257",
+        "text": "Dream"
+      },
+      {
+        "id": "settings-0258",
+        "text": "Nightmare"
+      },
+      {
+        "id": "settings-0259",
+        "text": "Memory"
+      },
+      {
+        "id": "settings-0260",
+        "text": "Subconscious"
+      },
+      {
+        "id": "settings-0261",
+        "text": "Imagination"
+      },
+      {
+        "id": "settings-0262",
+        "text": "Collective mind"
+      },
+      {
+        "id": "settings-0263",
+        "text": "Hallucination"
+      },
+      {
+        "id": "settings-0264",
+        "text": "The last minutes of a dying person"
+      },
+      {
+        "id": "settings-0265",
+        "text": "Archive of memories"
+      }
     ],
     "time_based_settings": [
-      "The past",
-      "The future",
-      "Alternate history",
-      "Parallel reality",
-      "Time loop",
-      "A single day",
-      "A single night",
-      "The last week before a disaster",
-      "The first day after a disaster",
-      "A timeline spanning generations"
+      {
+        "id": "settings-0266",
+        "text": "The past"
+      },
+      {
+        "id": "settings-0267",
+        "text": "The future"
+      },
+      {
+        "id": "settings-0268",
+        "text": "Alternate history"
+      },
+      {
+        "id": "settings-0269",
+        "text": "Parallel reality"
+      },
+      {
+        "id": "settings-0270",
+        "text": "Time loop"
+      },
+      {
+        "id": "settings-0271",
+        "text": "A single day"
+      },
+      {
+        "id": "settings-0272",
+        "text": "A single night"
+      },
+      {
+        "id": "settings-0273",
+        "text": "The last week before a disaster"
+      },
+      {
+        "id": "settings-0274",
+        "text": "The first day after a disaster"
+      },
+      {
+        "id": "settings-0275",
+        "text": "A timeline spanning generations"
+      }
     ],
     "supernatural_and_metaphysical": [
-      "Heaven",
-      "Hell",
-      "Purgatory",
-      "The afterlife",
-      "Limbo",
-      "Spirit world",
-      "World of the gods",
-      "Dream world",
-      "Shadow world",
-      "Mirror world",
-      "Parallel dimension",
-      "The void"
+      {
+        "id": "settings-0276",
+        "text": "Heaven"
+      },
+      {
+        "id": "settings-0277",
+        "text": "Hell"
+      },
+      {
+        "id": "settings-0278",
+        "text": "Purgatory"
+      },
+      {
+        "id": "settings-0279",
+        "text": "The afterlife"
+      },
+      {
+        "id": "settings-0280",
+        "text": "Limbo"
+      },
+      {
+        "id": "settings-0281",
+        "text": "Spirit world"
+      },
+      {
+        "id": "settings-0282",
+        "text": "World of the gods"
+      },
+      {
+        "id": "settings-0283",
+        "text": "Dream world"
+      },
+      {
+        "id": "settings-0284",
+        "text": "Shadow world"
+      },
+      {
+        "id": "settings-0285",
+        "text": "Mirror world"
+      },
+      {
+        "id": "settings-0286",
+        "text": "Parallel dimension"
+      },
+      {
+        "id": "settings-0287",
+        "text": "The void"
+      }
     ],
     "space": [
-      "Planet",
-      "Moon",
-      "Asteroid",
-      "Comet",
-      "Space station",
-      "Mars colony",
-      "Moon base",
-      "Alien planet",
-      "Planet being terraformed",
-      "Space debris field",
-      "Vicinity of a black hole",
-      "Generation ship",
-      "Dyson structure",
-      "Giant artificial world"
+      {
+        "id": "settings-0288",
+        "text": "Planet"
+      },
+      {
+        "id": "settings-0289",
+        "text": "Moon"
+      },
+      {
+        "id": "settings-0290",
+        "text": "Asteroid"
+      },
+      {
+        "id": "settings-0291",
+        "text": "Comet"
+      },
+      {
+        "id": "settings-0292",
+        "text": "Space station"
+      },
+      {
+        "id": "settings-0293",
+        "text": "Mars colony"
+      },
+      {
+        "id": "settings-0294",
+        "text": "Moon base"
+      },
+      {
+        "id": "settings-0295",
+        "text": "Alien planet"
+      },
+      {
+        "id": "settings-0296",
+        "text": "Planet being terraformed"
+      },
+      {
+        "id": "settings-0297",
+        "text": "Space debris field"
+      },
+      {
+        "id": "settings-0298",
+        "text": "Vicinity of a black hole"
+      },
+      {
+        "id": "settings-0299",
+        "text": "Generation ship"
+      },
+      {
+        "id": "settings-0300",
+        "text": "Dyson structure"
+      },
+      {
+        "id": "settings-0301",
+        "text": "Giant artificial world"
+      }
     ],
     "historical_settings": [
-      "Medieval village",
-      "Feudal kingdom",
-      "Ancient city",
-      "Roman city",
-      "Viking village",
-      "Wild West town",
-      "1920s metropolis",
-      "1950s small town",
-      "Cold War state",
-      "Soviet-style city",
-      "1980s suburb",
-      "1990s office",
-      "Post-apocalyptic society"
+      {
+        "id": "settings-0302",
+        "text": "Medieval village"
+      },
+      {
+        "id": "settings-0303",
+        "text": "Feudal kingdom"
+      },
+      {
+        "id": "settings-0304",
+        "text": "Ancient city"
+      },
+      {
+        "id": "settings-0305",
+        "text": "Roman city"
+      },
+      {
+        "id": "settings-0306",
+        "text": "Viking village"
+      },
+      {
+        "id": "settings-0307",
+        "text": "Wild West town"
+      },
+      {
+        "id": "settings-0308",
+        "text": "1920s metropolis"
+      },
+      {
+        "id": "settings-0309",
+        "text": "1950s small town"
+      },
+      {
+        "id": "settings-0310",
+        "text": "Cold War state"
+      },
+      {
+        "id": "settings-0311",
+        "text": "Soviet-style city"
+      },
+      {
+        "id": "settings-0312",
+        "text": "1980s suburb"
+      },
+      {
+        "id": "settings-0313",
+        "text": "1990s office"
+      },
+      {
+        "id": "settings-0314",
+        "text": "Post-apocalyptic society"
+      }
     ],
     "small_scale_settings": [
-      "A world the size of a city block",
-      "A single building",
-      "A single room",
-      "A single desk",
-      "A single elevator",
-      "A single train car",
-      "A single hospital ward",
-      "A single command room",
-      "A single control room",
-      "A single archive",
-      "A single shop",
-      "A single restaurant"
+      {
+        "id": "settings-0315",
+        "text": "A world the size of a city block"
+      },
+      {
+        "id": "settings-0316",
+        "text": "A single building"
+      },
+      {
+        "id": "settings-0317",
+        "text": "A single room"
+      },
+      {
+        "id": "settings-0318",
+        "text": "A single desk"
+      },
+      {
+        "id": "settings-0319",
+        "text": "A single elevator"
+      },
+      {
+        "id": "settings-0320",
+        "text": "A single train car"
+      },
+      {
+        "id": "settings-0321",
+        "text": "A single hospital ward"
+      },
+      {
+        "id": "settings-0322",
+        "text": "A single command room"
+      },
+      {
+        "id": "settings-0323",
+        "text": "A single control room"
+      },
+      {
+        "id": "settings-0324",
+        "text": "A single archive"
+      },
+      {
+        "id": "settings-0325",
+        "text": "A single shop"
+      },
+      {
+        "id": "settings-0326",
+        "text": "A single restaurant"
+      }
     ],
     "abstract_game_spaces": [
-      "A budget",
-      "An organization chart",
-      "A family tree",
-      "A network of relationships",
-      "A political system",
-      "An economic system",
-      "A stock market",
-      "A supply chain",
-      "A news feed",
-      "A network of rumors",
-      "A criminal investigation",
-      "A trial",
-      "An election campaign",
-      "A war",
-      "Peace negotiations",
-      "An epidemic",
-      "A disaster",
-      "A company bankruptcy",
-      "A coup",
-      "A family feud"
+      {
+        "id": "settings-0327",
+        "text": "A budget"
+      },
+      {
+        "id": "settings-0328",
+        "text": "An organization chart"
+      },
+      {
+        "id": "settings-0329",
+        "text": "A family tree"
+      },
+      {
+        "id": "settings-0330",
+        "text": "A network of relationships"
+      },
+      {
+        "id": "settings-0331",
+        "text": "A political system"
+      },
+      {
+        "id": "settings-0332",
+        "text": "An economic system"
+      },
+      {
+        "id": "settings-0333",
+        "text": "A stock market"
+      },
+      {
+        "id": "settings-0334",
+        "text": "A supply chain"
+      },
+      {
+        "id": "settings-0335",
+        "text": "A news feed"
+      },
+      {
+        "id": "settings-0336",
+        "text": "A network of rumors"
+      },
+      {
+        "id": "settings-0337",
+        "text": "A criminal investigation"
+      },
+      {
+        "id": "settings-0338",
+        "text": "A trial"
+      },
+      {
+        "id": "settings-0339",
+        "text": "An election campaign"
+      },
+      {
+        "id": "settings-0340",
+        "text": "A war"
+      },
+      {
+        "id": "settings-0341",
+        "text": "Peace negotiations"
+      },
+      {
+        "id": "settings-0342",
+        "text": "An epidemic"
+      },
+      {
+        "id": "settings-0343",
+        "text": "A disaster"
+      },
+      {
+        "id": "settings-0344",
+        "text": "A company bankruptcy"
+      },
+      {
+        "id": "settings-0345",
+        "text": "A coup"
+      },
+      {
+        "id": "settings-0346",
+        "text": "A family feud"
+      }
     ]
   }
 }

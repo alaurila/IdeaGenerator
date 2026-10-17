@@ -1,311 +1,1232 @@
 {
   "core_mechanics": [
-    "Conversation",
-    "Trading",
-    "Investigation",
-    "Resource allocation",
-    "Map exploration",
-    "Comparing documents",
-    "Building",
-    "Time management",
-    "Programming",
-    "Managing workers",
-    "Monitoring security cameras",
-    "Combining clues",
-    "Collecting evidence",
-    "Interrogation",
-    "Detecting lies",
-    "Decision-making",
-    "Negotiation",
-    "Persuasion",
-    "Threatening",
-    "Bribery",
-    "Manipulation",
-    "Reputation management",
-    "Building trust",
-    "Managing relationships",
-    "Spreading rumors",
-    "Concealing information",
-    "Sharing information",
-    "Evaluating sources",
-    "Reading reports",
-    "Writing reports",
-    "Inspecting documents",
-    "Processing forms",
-    "Approving applications",
-    "Rejecting applications",
-    "Checking passports",
-    "Comparing identities",
-    "Auditing the books",
-    "Budgeting",
-    "Pricing",
-    "Buying",
-    "Selling",
-    "Haggling",
-    "Investing",
-    "Debt management",
-    "Inventory management",
-    "Placing orders",
-    "Supply chain management",
-    "Logistics planning",
-    "Planning transport routes",
-    "Building production chains",
-    "Optimizing production",
-    "Automation",
-    "Building machines",
-    "Repairing machines",
-    "Maintaining equipment",
-    "Diagnosing faults",
-    "Routing electricity",
-    "Routing water",
-    "Building pipelines",
-    "Connecting wires",
-    "Building circuits",
-    "Writing code",
-    "Debugging code",
-    "Using the command line",
-    "Hacking",
-    "Breaking into information systems",
-    "Figuring out passwords",
-    "Exploring networks",
-    "Configuring systems",
-    "Searching for files",
-    "Exploring databases",
-    "Combining information",
-    "Analyzing data",
-    "Interpreting statistics",
-    "Finding anomalies",
-    "Recognizing patterns",
-    "Building a family tree",
-    "Building a network of relationships",
-    "Building a chain of events",
-    "Building a timeline",
-    "Comparing maps",
-    "Drawing maps",
-    "Surveying areas",
-    "Pathfinding",
-    "Navigation",
-    "Unlocking places",
-    "Finding secret passages",
-    "Examining objects",
-    "Observing the environment",
-    "Noticing details",
-    "Listening to sounds",
-    "Following tracks",
-    "Following people",
-    "Eavesdropping",
-    "Shadowing",
-    "Hiding",
-    "Sneaking",
-    "Disguising",
-    "Infiltration",
-    "Bypassing security systems",
-    "Controlling cameras",
-    "Monitoring sensors",
-    "Monitoring radar",
-    "Monitoring sonar",
-    "Monitoring gauges",
-    "Managing alarms",
-    "Controlling doors",
-    "Picking locks",
-    "Managing access rights",
-    "Positioning guards",
-    "Planning patrols",
-    "Planning work shifts",
-    "Assigning tasks",
-    "Hiring staff",
-    "Training staff",
-    "Firing staff",
-    "Motivating workers",
-    "Evaluating workers",
-    "Forming teams",
-    "Assigning roles",
-    "Prioritization",
-    "Calendar management",
-    "Scheduling",
-    "Managing deadlines",
-    "Turn optimization",
-    "Controlling the passage of time",
-    "Queuing actions",
-    "Turn-based decision-making",
-    "Real-time decision-making",
-    "Pausing and giving orders",
-    "Gathering resources",
-    "Consuming resources",
-    "Stockpiling resources",
-    "Prioritizing resources",
-    "Trading resources",
-    "Rationing resources",
-    "Distributing food",
-    "Distributing water",
-    "Distributing energy",
-    "Distributing medicine",
-    "Distributing money",
-    "Distributing labor",
-    "Placing buildings",
-    "Designing rooms",
-    "Expanding spaces",
-    "Upgrading buildings",
-    "Demolishing buildings",
-    "Building infrastructure",
-    "Building roads",
-    "Building defenses",
-    "Developing a base",
-    "City planning",
-    "Zoning",
-    "Manufacturing items",
-    "Crafting",
-    "Experimenting with recipes",
-    "Combining ingredients",
-    "Dismantling items",
-    "Repairing items",
-    "Upgrading items",
-    "Using tools",
-    "Inventory management (items)",
-    "Choosing equipment",
-    "Sorting items",
-    "Identifying items",
-    "Cracking numbers and codes",
-    "Solving logic puzzles",
-    "Solving mechanical puzzles",
-    "Solving spatial puzzles",
-    "Solving word puzzles",
-    "Deciphering ciphers",
-    "Interpreting symbols",
-    "Identifying visual motifs",
-    "Solving memory puzzles",
-    "Figuring out the right order",
-    "Solving combination puzzles",
-    "Playing cards",
-    "Deckbuilding",
-    "Using dice",
-    "Assessing risk",
-    "Managing probabilities",
-    "Betting",
-    "Push-your-luck decisions",
-    "Area control",
-    "Deploying troops",
-    "Moving units",
-    "Planning battles",
-    "Building defensive lines",
-    "Conducting diplomacy",
-    "Building alliances",
-    "Making agreements",
-    "Breaking agreements",
-    "Making political decisions",
-    "Passing laws",
-    "Setting taxes",
-    "Allocating budgets",
-    "Managing public approval",
-    "Election campaigning",
-    "Producing propaganda",
-    "Steering opinions",
-    "Balancing factions",
-    "Managing a rebellion",
-    "Resolving crises",
-    "Risk management",
-    "Responding to disasters",
-    "Planning evacuations",
-    "Coordinating rescue operations",
-    "Triaging patients",
-    "Diagnosing patients",
-    "Treating patients",
-    "Choosing medicines",
-    "Performing surgery",
-    "Tracking an epidemic",
-    "Contact tracing",
-    "Choosing research projects",
-    "Researching technologies",
-    "Running experiments",
-    "Analyzing samples",
-    "Testing hypotheses",
-    "Breeding species",
-    "Balancing an ecosystem",
-    "Growing plants",
-    "Caring for animals",
-    "Farming",
-    "Harvesting",
-    "Hunting",
-    "Fishing",
-    "Trapping",
-    "Cooking",
-    "Preserving food",
-    "Tracking the weather",
-    "Temperature control",
-    "Oxygen management",
-    "Pressure management",
-    "Radiation management",
-    "Fuel management",
-    "Monitoring vital signs",
-    "Managing crew morale",
-    "Balancing crew needs",
-    "Meeting characters' needs",
-    "Following characters' routines",
-    "Following NPC schedules",
-    "Tracking NPC relationships",
-    "Interpreting NPC behavior",
-    "Commanding NPCs",
-    "Recruiting NPCs",
-    "Persuading NPCs",
-    "Interrogating NPCs",
-    "Bribing NPCs",
-    "Blackmailing NPCs",
-    "Matchmaking characters",
-    "Building romantic relationships",
-    "Forming families",
-    "Building a dynasty",
-    "Managing succession",
-    "Managing reputation points",
-    "Managing loyalty",
-    "Managing fear",
-    "Wielding influence",
-    "Collecting secrets",
-    "Trading secrets",
-    "Using secrets for blackmail",
-    "Making choices in dialogue",
-    "Unlocking dialogue options",
-    "Profiling people",
-    "Reading personalities",
-    "Reading emotions",
-    "Predicting reactions",
-    "Exploring memories",
-    "Exploring dreams",
-    "Comparing timelines",
-    "Time travel",
-    "Exploiting a time loop",
-    "Replaying events",
-    "Changing the past",
-    "Predicting the future",
-    "Testing the rules of the simulation",
-    "Breaking the rules of the world",
-    "Modifying the state of the world",
-    "Triggering events",
-    "Experimenting with cause and effect",
-    "Watching the world without direct control",
-    "Observing autonomous characters",
-    "Experimenting with the system",
-    "Manipulating the game world indirectly",
-    "Typing commands",
-    "Playing through a desktop",
-    "Handling emails",
-    "Answering phone calls",
-    "Handling radio messages",
-    "Decoding messages",
-    "Relaying messages",
-    "Censoring messages",
-    "Choosing news stories",
-    "Writing headlines",
-    "Content moderation",
-    "Signing decisions",
-    "Stamping documents",
-    "Sorting cases",
-    "Queue management",
-    "Serving customers",
-    "Processing orders",
-    "Handling complaints",
-    "Prioritizing applications",
-    "Delegating tasks",
-    "Choosing the order of tasks",
-    "Optimizing the daily routine"
+    {
+      "id": "core_mechanics-0001",
+      "text": "Conversation"
+    },
+    {
+      "id": "core_mechanics-0002",
+      "text": "Trading"
+    },
+    {
+      "id": "core_mechanics-0003",
+      "text": "Investigation"
+    },
+    {
+      "id": "core_mechanics-0004",
+      "text": "Resource allocation"
+    },
+    {
+      "id": "core_mechanics-0005",
+      "text": "Map exploration"
+    },
+    {
+      "id": "core_mechanics-0006",
+      "text": "Comparing documents"
+    },
+    {
+      "id": "core_mechanics-0007",
+      "text": "Building"
+    },
+    {
+      "id": "core_mechanics-0008",
+      "text": "Time management"
+    },
+    {
+      "id": "core_mechanics-0009",
+      "text": "Programming"
+    },
+    {
+      "id": "core_mechanics-0010",
+      "text": "Managing workers"
+    },
+    {
+      "id": "core_mechanics-0011",
+      "text": "Monitoring security cameras"
+    },
+    {
+      "id": "core_mechanics-0012",
+      "text": "Combining clues"
+    },
+    {
+      "id": "core_mechanics-0013",
+      "text": "Collecting evidence"
+    },
+    {
+      "id": "core_mechanics-0014",
+      "text": "Interrogation"
+    },
+    {
+      "id": "core_mechanics-0015",
+      "text": "Detecting lies"
+    },
+    {
+      "id": "core_mechanics-0016",
+      "text": "Decision-making"
+    },
+    {
+      "id": "core_mechanics-0017",
+      "text": "Negotiation"
+    },
+    {
+      "id": "core_mechanics-0018",
+      "text": "Persuasion"
+    },
+    {
+      "id": "core_mechanics-0019",
+      "text": "Threatening"
+    },
+    {
+      "id": "core_mechanics-0020",
+      "text": "Bribery"
+    },
+    {
+      "id": "core_mechanics-0021",
+      "text": "Manipulation"
+    },
+    {
+      "id": "core_mechanics-0022",
+      "text": "Reputation management"
+    },
+    {
+      "id": "core_mechanics-0023",
+      "text": "Building trust"
+    },
+    {
+      "id": "core_mechanics-0024",
+      "text": "Managing relationships"
+    },
+    {
+      "id": "core_mechanics-0025",
+      "text": "Spreading rumors"
+    },
+    {
+      "id": "core_mechanics-0026",
+      "text": "Concealing information"
+    },
+    {
+      "id": "core_mechanics-0027",
+      "text": "Sharing information"
+    },
+    {
+      "id": "core_mechanics-0028",
+      "text": "Evaluating sources"
+    },
+    {
+      "id": "core_mechanics-0029",
+      "text": "Reading reports"
+    },
+    {
+      "id": "core_mechanics-0030",
+      "text": "Writing reports"
+    },
+    {
+      "id": "core_mechanics-0031",
+      "text": "Inspecting documents"
+    },
+    {
+      "id": "core_mechanics-0032",
+      "text": "Processing forms"
+    },
+    {
+      "id": "core_mechanics-0033",
+      "text": "Approving applications"
+    },
+    {
+      "id": "core_mechanics-0034",
+      "text": "Rejecting applications"
+    },
+    {
+      "id": "core_mechanics-0035",
+      "text": "Checking passports"
+    },
+    {
+      "id": "core_mechanics-0036",
+      "text": "Comparing identities"
+    },
+    {
+      "id": "core_mechanics-0037",
+      "text": "Auditing the books"
+    },
+    {
+      "id": "core_mechanics-0038",
+      "text": "Budgeting"
+    },
+    {
+      "id": "core_mechanics-0039",
+      "text": "Pricing"
+    },
+    {
+      "id": "core_mechanics-0040",
+      "text": "Buying"
+    },
+    {
+      "id": "core_mechanics-0041",
+      "text": "Selling"
+    },
+    {
+      "id": "core_mechanics-0042",
+      "text": "Haggling"
+    },
+    {
+      "id": "core_mechanics-0043",
+      "text": "Investing"
+    },
+    {
+      "id": "core_mechanics-0044",
+      "text": "Debt management"
+    },
+    {
+      "id": "core_mechanics-0045",
+      "text": "Inventory management"
+    },
+    {
+      "id": "core_mechanics-0046",
+      "text": "Placing orders"
+    },
+    {
+      "id": "core_mechanics-0047",
+      "text": "Supply chain management"
+    },
+    {
+      "id": "core_mechanics-0048",
+      "text": "Logistics planning"
+    },
+    {
+      "id": "core_mechanics-0049",
+      "text": "Planning transport routes"
+    },
+    {
+      "id": "core_mechanics-0050",
+      "text": "Building production chains"
+    },
+    {
+      "id": "core_mechanics-0051",
+      "text": "Optimizing production"
+    },
+    {
+      "id": "core_mechanics-0052",
+      "text": "Automation"
+    },
+    {
+      "id": "core_mechanics-0053",
+      "text": "Building machines"
+    },
+    {
+      "id": "core_mechanics-0054",
+      "text": "Repairing machines"
+    },
+    {
+      "id": "core_mechanics-0055",
+      "text": "Maintaining equipment"
+    },
+    {
+      "id": "core_mechanics-0056",
+      "text": "Diagnosing faults"
+    },
+    {
+      "id": "core_mechanics-0057",
+      "text": "Routing electricity"
+    },
+    {
+      "id": "core_mechanics-0058",
+      "text": "Routing water"
+    },
+    {
+      "id": "core_mechanics-0059",
+      "text": "Building pipelines"
+    },
+    {
+      "id": "core_mechanics-0060",
+      "text": "Connecting wires"
+    },
+    {
+      "id": "core_mechanics-0061",
+      "text": "Building circuits"
+    },
+    {
+      "id": "core_mechanics-0062",
+      "text": "Writing code"
+    },
+    {
+      "id": "core_mechanics-0063",
+      "text": "Debugging code"
+    },
+    {
+      "id": "core_mechanics-0064",
+      "text": "Using the command line"
+    },
+    {
+      "id": "core_mechanics-0065",
+      "text": "Hacking"
+    },
+    {
+      "id": "core_mechanics-0066",
+      "text": "Breaking into information systems"
+    },
+    {
+      "id": "core_mechanics-0067",
+      "text": "Figuring out passwords"
+    },
+    {
+      "id": "core_mechanics-0068",
+      "text": "Exploring networks"
+    },
+    {
+      "id": "core_mechanics-0069",
+      "text": "Configuring systems"
+    },
+    {
+      "id": "core_mechanics-0070",
+      "text": "Searching for files"
+    },
+    {
+      "id": "core_mechanics-0071",
+      "text": "Exploring databases"
+    },
+    {
+      "id": "core_mechanics-0072",
+      "text": "Combining information"
+    },
+    {
+      "id": "core_mechanics-0073",
+      "text": "Analyzing data"
+    },
+    {
+      "id": "core_mechanics-0074",
+      "text": "Interpreting statistics"
+    },
+    {
+      "id": "core_mechanics-0075",
+      "text": "Finding anomalies"
+    },
+    {
+      "id": "core_mechanics-0076",
+      "text": "Recognizing patterns"
+    },
+    {
+      "id": "core_mechanics-0077",
+      "text": "Building a family tree"
+    },
+    {
+      "id": "core_mechanics-0078",
+      "text": "Building a network of relationships"
+    },
+    {
+      "id": "core_mechanics-0079",
+      "text": "Building a chain of events"
+    },
+    {
+      "id": "core_mechanics-0080",
+      "text": "Building a timeline"
+    },
+    {
+      "id": "core_mechanics-0081",
+      "text": "Comparing maps"
+    },
+    {
+      "id": "core_mechanics-0082",
+      "text": "Drawing maps"
+    },
+    {
+      "id": "core_mechanics-0083",
+      "text": "Surveying areas"
+    },
+    {
+      "id": "core_mechanics-0084",
+      "text": "Pathfinding"
+    },
+    {
+      "id": "core_mechanics-0085",
+      "text": "Navigation"
+    },
+    {
+      "id": "core_mechanics-0086",
+      "text": "Unlocking places"
+    },
+    {
+      "id": "core_mechanics-0087",
+      "text": "Finding secret passages"
+    },
+    {
+      "id": "core_mechanics-0088",
+      "text": "Examining objects"
+    },
+    {
+      "id": "core_mechanics-0089",
+      "text": "Observing the environment"
+    },
+    {
+      "id": "core_mechanics-0090",
+      "text": "Noticing details"
+    },
+    {
+      "id": "core_mechanics-0091",
+      "text": "Listening to sounds"
+    },
+    {
+      "id": "core_mechanics-0092",
+      "text": "Following tracks"
+    },
+    {
+      "id": "core_mechanics-0093",
+      "text": "Following people"
+    },
+    {
+      "id": "core_mechanics-0094",
+      "text": "Eavesdropping"
+    },
+    {
+      "id": "core_mechanics-0095",
+      "text": "Shadowing"
+    },
+    {
+      "id": "core_mechanics-0096",
+      "text": "Hiding"
+    },
+    {
+      "id": "core_mechanics-0097",
+      "text": "Sneaking"
+    },
+    {
+      "id": "core_mechanics-0098",
+      "text": "Disguising"
+    },
+    {
+      "id": "core_mechanics-0099",
+      "text": "Infiltration"
+    },
+    {
+      "id": "core_mechanics-0100",
+      "text": "Bypassing security systems"
+    },
+    {
+      "id": "core_mechanics-0101",
+      "text": "Controlling cameras"
+    },
+    {
+      "id": "core_mechanics-0102",
+      "text": "Monitoring sensors"
+    },
+    {
+      "id": "core_mechanics-0103",
+      "text": "Monitoring radar"
+    },
+    {
+      "id": "core_mechanics-0104",
+      "text": "Monitoring sonar"
+    },
+    {
+      "id": "core_mechanics-0105",
+      "text": "Monitoring gauges"
+    },
+    {
+      "id": "core_mechanics-0106",
+      "text": "Managing alarms"
+    },
+    {
+      "id": "core_mechanics-0107",
+      "text": "Controlling doors"
+    },
+    {
+      "id": "core_mechanics-0108",
+      "text": "Picking locks"
+    },
+    {
+      "id": "core_mechanics-0109",
+      "text": "Managing access rights"
+    },
+    {
+      "id": "core_mechanics-0110",
+      "text": "Positioning guards"
+    },
+    {
+      "id": "core_mechanics-0111",
+      "text": "Planning patrols"
+    },
+    {
+      "id": "core_mechanics-0112",
+      "text": "Planning work shifts"
+    },
+    {
+      "id": "core_mechanics-0113",
+      "text": "Assigning tasks"
+    },
+    {
+      "id": "core_mechanics-0114",
+      "text": "Hiring staff"
+    },
+    {
+      "id": "core_mechanics-0115",
+      "text": "Training staff"
+    },
+    {
+      "id": "core_mechanics-0116",
+      "text": "Firing staff"
+    },
+    {
+      "id": "core_mechanics-0117",
+      "text": "Motivating workers"
+    },
+    {
+      "id": "core_mechanics-0118",
+      "text": "Evaluating workers"
+    },
+    {
+      "id": "core_mechanics-0119",
+      "text": "Forming teams"
+    },
+    {
+      "id": "core_mechanics-0120",
+      "text": "Assigning roles"
+    },
+    {
+      "id": "core_mechanics-0121",
+      "text": "Prioritization"
+    },
+    {
+      "id": "core_mechanics-0122",
+      "text": "Calendar management"
+    },
+    {
+      "id": "core_mechanics-0123",
+      "text": "Scheduling"
+    },
+    {
+      "id": "core_mechanics-0124",
+      "text": "Managing deadlines"
+    },
+    {
+      "id": "core_mechanics-0125",
+      "text": "Turn optimization"
+    },
+    {
+      "id": "core_mechanics-0126",
+      "text": "Controlling the passage of time"
+    },
+    {
+      "id": "core_mechanics-0127",
+      "text": "Queuing actions"
+    },
+    {
+      "id": "core_mechanics-0128",
+      "text": "Turn-based decision-making"
+    },
+    {
+      "id": "core_mechanics-0129",
+      "text": "Real-time decision-making"
+    },
+    {
+      "id": "core_mechanics-0130",
+      "text": "Pausing and giving orders"
+    },
+    {
+      "id": "core_mechanics-0131",
+      "text": "Gathering resources"
+    },
+    {
+      "id": "core_mechanics-0132",
+      "text": "Consuming resources"
+    },
+    {
+      "id": "core_mechanics-0133",
+      "text": "Stockpiling resources"
+    },
+    {
+      "id": "core_mechanics-0134",
+      "text": "Prioritizing resources"
+    },
+    {
+      "id": "core_mechanics-0135",
+      "text": "Trading resources"
+    },
+    {
+      "id": "core_mechanics-0136",
+      "text": "Rationing resources"
+    },
+    {
+      "id": "core_mechanics-0137",
+      "text": "Distributing food"
+    },
+    {
+      "id": "core_mechanics-0138",
+      "text": "Distributing water"
+    },
+    {
+      "id": "core_mechanics-0139",
+      "text": "Distributing energy"
+    },
+    {
+      "id": "core_mechanics-0140",
+      "text": "Distributing medicine"
+    },
+    {
+      "id": "core_mechanics-0141",
+      "text": "Distributing money"
+    },
+    {
+      "id": "core_mechanics-0142",
+      "text": "Distributing labor"
+    },
+    {
+      "id": "core_mechanics-0143",
+      "text": "Placing buildings"
+    },
+    {
+      "id": "core_mechanics-0144",
+      "text": "Designing rooms"
+    },
+    {
+      "id": "core_mechanics-0145",
+      "text": "Expanding spaces"
+    },
+    {
+      "id": "core_mechanics-0146",
+      "text": "Upgrading buildings"
+    },
+    {
+      "id": "core_mechanics-0147",
+      "text": "Demolishing buildings"
+    },
+    {
+      "id": "core_mechanics-0148",
+      "text": "Building infrastructure"
+    },
+    {
+      "id": "core_mechanics-0149",
+      "text": "Building roads"
+    },
+    {
+      "id": "core_mechanics-0150",
+      "text": "Building defenses"
+    },
+    {
+      "id": "core_mechanics-0151",
+      "text": "Developing a base"
+    },
+    {
+      "id": "core_mechanics-0152",
+      "text": "City planning"
+    },
+    {
+      "id": "core_mechanics-0153",
+      "text": "Zoning"
+    },
+    {
+      "id": "core_mechanics-0154",
+      "text": "Manufacturing items"
+    },
+    {
+      "id": "core_mechanics-0155",
+      "text": "Crafting"
+    },
+    {
+      "id": "core_mechanics-0156",
+      "text": "Experimenting with recipes"
+    },
+    {
+      "id": "core_mechanics-0157",
+      "text": "Combining ingredients"
+    },
+    {
+      "id": "core_mechanics-0158",
+      "text": "Dismantling items"
+    },
+    {
+      "id": "core_mechanics-0159",
+      "text": "Repairing items"
+    },
+    {
+      "id": "core_mechanics-0160",
+      "text": "Upgrading items"
+    },
+    {
+      "id": "core_mechanics-0161",
+      "text": "Using tools"
+    },
+    {
+      "id": "core_mechanics-0162",
+      "text": "Inventory management (items)"
+    },
+    {
+      "id": "core_mechanics-0163",
+      "text": "Choosing equipment"
+    },
+    {
+      "id": "core_mechanics-0164",
+      "text": "Sorting items"
+    },
+    {
+      "id": "core_mechanics-0165",
+      "text": "Identifying items"
+    },
+    {
+      "id": "core_mechanics-0166",
+      "text": "Cracking numbers and codes"
+    },
+    {
+      "id": "core_mechanics-0167",
+      "text": "Solving logic puzzles"
+    },
+    {
+      "id": "core_mechanics-0168",
+      "text": "Solving mechanical puzzles"
+    },
+    {
+      "id": "core_mechanics-0169",
+      "text": "Solving spatial puzzles"
+    },
+    {
+      "id": "core_mechanics-0170",
+      "text": "Solving word puzzles"
+    },
+    {
+      "id": "core_mechanics-0171",
+      "text": "Deciphering ciphers"
+    },
+    {
+      "id": "core_mechanics-0172",
+      "text": "Interpreting symbols"
+    },
+    {
+      "id": "core_mechanics-0173",
+      "text": "Identifying visual motifs"
+    },
+    {
+      "id": "core_mechanics-0174",
+      "text": "Solving memory puzzles"
+    },
+    {
+      "id": "core_mechanics-0175",
+      "text": "Figuring out the right order"
+    },
+    {
+      "id": "core_mechanics-0176",
+      "text": "Solving combination puzzles"
+    },
+    {
+      "id": "core_mechanics-0177",
+      "text": "Playing cards"
+    },
+    {
+      "id": "core_mechanics-0178",
+      "text": "Deckbuilding"
+    },
+    {
+      "id": "core_mechanics-0179",
+      "text": "Using dice"
+    },
+    {
+      "id": "core_mechanics-0180",
+      "text": "Assessing risk"
+    },
+    {
+      "id": "core_mechanics-0181",
+      "text": "Managing probabilities"
+    },
+    {
+      "id": "core_mechanics-0182",
+      "text": "Betting"
+    },
+    {
+      "id": "core_mechanics-0183",
+      "text": "Push-your-luck decisions"
+    },
+    {
+      "id": "core_mechanics-0184",
+      "text": "Area control"
+    },
+    {
+      "id": "core_mechanics-0185",
+      "text": "Deploying troops"
+    },
+    {
+      "id": "core_mechanics-0186",
+      "text": "Moving units"
+    },
+    {
+      "id": "core_mechanics-0187",
+      "text": "Planning battles"
+    },
+    {
+      "id": "core_mechanics-0188",
+      "text": "Building defensive lines"
+    },
+    {
+      "id": "core_mechanics-0189",
+      "text": "Conducting diplomacy"
+    },
+    {
+      "id": "core_mechanics-0190",
+      "text": "Building alliances"
+    },
+    {
+      "id": "core_mechanics-0191",
+      "text": "Making agreements"
+    },
+    {
+      "id": "core_mechanics-0192",
+      "text": "Breaking agreements"
+    },
+    {
+      "id": "core_mechanics-0193",
+      "text": "Making political decisions"
+    },
+    {
+      "id": "core_mechanics-0194",
+      "text": "Passing laws"
+    },
+    {
+      "id": "core_mechanics-0195",
+      "text": "Setting taxes"
+    },
+    {
+      "id": "core_mechanics-0196",
+      "text": "Allocating budgets"
+    },
+    {
+      "id": "core_mechanics-0197",
+      "text": "Managing public approval"
+    },
+    {
+      "id": "core_mechanics-0198",
+      "text": "Election campaigning"
+    },
+    {
+      "id": "core_mechanics-0199",
+      "text": "Producing propaganda"
+    },
+    {
+      "id": "core_mechanics-0200",
+      "text": "Steering opinions"
+    },
+    {
+      "id": "core_mechanics-0201",
+      "text": "Balancing factions"
+    },
+    {
+      "id": "core_mechanics-0202",
+      "text": "Managing a rebellion"
+    },
+    {
+      "id": "core_mechanics-0203",
+      "text": "Resolving crises"
+    },
+    {
+      "id": "core_mechanics-0204",
+      "text": "Risk management"
+    },
+    {
+      "id": "core_mechanics-0205",
+      "text": "Responding to disasters"
+    },
+    {
+      "id": "core_mechanics-0206",
+      "text": "Planning evacuations"
+    },
+    {
+      "id": "core_mechanics-0207",
+      "text": "Coordinating rescue operations"
+    },
+    {
+      "id": "core_mechanics-0208",
+      "text": "Triaging patients"
+    },
+    {
+      "id": "core_mechanics-0209",
+      "text": "Diagnosing patients"
+    },
+    {
+      "id": "core_mechanics-0210",
+      "text": "Treating patients"
+    },
+    {
+      "id": "core_mechanics-0211",
+      "text": "Choosing medicines"
+    },
+    {
+      "id": "core_mechanics-0212",
+      "text": "Performing surgery"
+    },
+    {
+      "id": "core_mechanics-0213",
+      "text": "Tracking an epidemic"
+    },
+    {
+      "id": "core_mechanics-0214",
+      "text": "Contact tracing"
+    },
+    {
+      "id": "core_mechanics-0215",
+      "text": "Choosing research projects"
+    },
+    {
+      "id": "core_mechanics-0216",
+      "text": "Researching technologies"
+    },
+    {
+      "id": "core_mechanics-0217",
+      "text": "Running experiments"
+    },
+    {
+      "id": "core_mechanics-0218",
+      "text": "Analyzing samples"
+    },
+    {
+      "id": "core_mechanics-0219",
+      "text": "Testing hypotheses"
+    },
+    {
+      "id": "core_mechanics-0220",
+      "text": "Breeding species"
+    },
+    {
+      "id": "core_mechanics-0221",
+      "text": "Balancing an ecosystem"
+    },
+    {
+      "id": "core_mechanics-0222",
+      "text": "Growing plants"
+    },
+    {
+      "id": "core_mechanics-0223",
+      "text": "Caring for animals"
+    },
+    {
+      "id": "core_mechanics-0224",
+      "text": "Farming"
+    },
+    {
+      "id": "core_mechanics-0225",
+      "text": "Harvesting"
+    },
+    {
+      "id": "core_mechanics-0226",
+      "text": "Hunting"
+    },
+    {
+      "id": "core_mechanics-0227",
+      "text": "Fishing"
+    },
+    {
+      "id": "core_mechanics-0228",
+      "text": "Trapping"
+    },
+    {
+      "id": "core_mechanics-0229",
+      "text": "Cooking"
+    },
+    {
+      "id": "core_mechanics-0230",
+      "text": "Preserving food"
+    },
+    {
+      "id": "core_mechanics-0231",
+      "text": "Tracking the weather"
+    },
+    {
+      "id": "core_mechanics-0232",
+      "text": "Temperature control"
+    },
+    {
+      "id": "core_mechanics-0233",
+      "text": "Oxygen management"
+    },
+    {
+      "id": "core_mechanics-0234",
+      "text": "Pressure management"
+    },
+    {
+      "id": "core_mechanics-0235",
+      "text": "Radiation management"
+    },
+    {
+      "id": "core_mechanics-0236",
+      "text": "Fuel management"
+    },
+    {
+      "id": "core_mechanics-0237",
+      "text": "Monitoring vital signs"
+    },
+    {
+      "id": "core_mechanics-0238",
+      "text": "Managing crew morale"
+    },
+    {
+      "id": "core_mechanics-0239",
+      "text": "Balancing crew needs"
+    },
+    {
+      "id": "core_mechanics-0240",
+      "text": "Meeting characters' needs"
+    },
+    {
+      "id": "core_mechanics-0241",
+      "text": "Following characters' routines"
+    },
+    {
+      "id": "core_mechanics-0242",
+      "text": "Following NPC schedules"
+    },
+    {
+      "id": "core_mechanics-0243",
+      "text": "Tracking NPC relationships"
+    },
+    {
+      "id": "core_mechanics-0244",
+      "text": "Interpreting NPC behavior"
+    },
+    {
+      "id": "core_mechanics-0245",
+      "text": "Commanding NPCs"
+    },
+    {
+      "id": "core_mechanics-0246",
+      "text": "Recruiting NPCs"
+    },
+    {
+      "id": "core_mechanics-0247",
+      "text": "Persuading NPCs"
+    },
+    {
+      "id": "core_mechanics-0248",
+      "text": "Interrogating NPCs"
+    },
+    {
+      "id": "core_mechanics-0249",
+      "text": "Bribing NPCs"
+    },
+    {
+      "id": "core_mechanics-0250",
+      "text": "Blackmailing NPCs"
+    },
+    {
+      "id": "core_mechanics-0251",
+      "text": "Matchmaking characters"
+    },
+    {
+      "id": "core_mechanics-0252",
+      "text": "Building romantic relationships"
+    },
+    {
+      "id": "core_mechanics-0253",
+      "text": "Forming families"
+    },
+    {
+      "id": "core_mechanics-0254",
+      "text": "Building a dynasty"
+    },
+    {
+      "id": "core_mechanics-0255",
+      "text": "Managing succession"
+    },
+    {
+      "id": "core_mechanics-0256",
+      "text": "Managing reputation points"
+    },
+    {
+      "id": "core_mechanics-0257",
+      "text": "Managing loyalty"
+    },
+    {
+      "id": "core_mechanics-0258",
+      "text": "Managing fear"
+    },
+    {
+      "id": "core_mechanics-0259",
+      "text": "Wielding influence"
+    },
+    {
+      "id": "core_mechanics-0260",
+      "text": "Collecting secrets"
+    },
+    {
+      "id": "core_mechanics-0261",
+      "text": "Trading secrets"
+    },
+    {
+      "id": "core_mechanics-0262",
+      "text": "Using secrets for blackmail"
+    },
+    {
+      "id": "core_mechanics-0263",
+      "text": "Making choices in dialogue"
+    },
+    {
+      "id": "core_mechanics-0264",
+      "text": "Unlocking dialogue options"
+    },
+    {
+      "id": "core_mechanics-0265",
+      "text": "Profiling people"
+    },
+    {
+      "id": "core_mechanics-0266",
+      "text": "Reading personalities"
+    },
+    {
+      "id": "core_mechanics-0267",
+      "text": "Reading emotions"
+    },
+    {
+      "id": "core_mechanics-0268",
+      "text": "Predicting reactions"
+    },
+    {
+      "id": "core_mechanics-0269",
+      "text": "Exploring memories"
+    },
+    {
+      "id": "core_mechanics-0270",
+      "text": "Exploring dreams"
+    },
+    {
+      "id": "core_mechanics-0271",
+      "text": "Comparing timelines"
+    },
+    {
+      "id": "core_mechanics-0272",
+      "text": "Time travel"
+    },
+    {
+      "id": "core_mechanics-0273",
+      "text": "Exploiting a time loop"
+    },
+    {
+      "id": "core_mechanics-0274",
+      "text": "Replaying events"
+    },
+    {
+      "id": "core_mechanics-0275",
+      "text": "Changing the past"
+    },
+    {
+      "id": "core_mechanics-0276",
+      "text": "Predicting the future"
+    },
+    {
+      "id": "core_mechanics-0277",
+      "text": "Testing the rules of the simulation"
+    },
+    {
+      "id": "core_mechanics-0278",
+      "text": "Breaking the rules of the world"
+    },
+    {
+      "id": "core_mechanics-0279",
+      "text": "Modifying the state of the world"
+    },
+    {
+      "id": "core_mechanics-0280",
+      "text": "Triggering events"
+    },
+    {
+      "id": "core_mechanics-0281",
+      "text": "Experimenting with cause and effect"
+    },
+    {
+      "id": "core_mechanics-0282",
+      "text": "Watching the world without direct control"
+    },
+    {
+      "id": "core_mechanics-0283",
+      "text": "Observing autonomous characters"
+    },
+    {
+      "id": "core_mechanics-0284",
+      "text": "Experimenting with the system"
+    },
+    {
+      "id": "core_mechanics-0285",
+      "text": "Manipulating the game world indirectly"
+    },
+    {
+      "id": "core_mechanics-0286",
+      "text": "Typing commands"
+    },
+    {
+      "id": "core_mechanics-0287",
+      "text": "Playing through a desktop"
+    },
+    {
+      "id": "core_mechanics-0288",
+      "text": "Handling emails"
+    },
+    {
+      "id": "core_mechanics-0289",
+      "text": "Answering phone calls"
+    },
+    {
+      "id": "core_mechanics-0290",
+      "text": "Handling radio messages"
+    },
+    {
+      "id": "core_mechanics-0291",
+      "text": "Decoding messages"
+    },
+    {
+      "id": "core_mechanics-0292",
+      "text": "Relaying messages"
+    },
+    {
+      "id": "core_mechanics-0293",
+      "text": "Censoring messages"
+    },
+    {
+      "id": "core_mechanics-0294",
+      "text": "Choosing news stories"
+    },
+    {
+      "id": "core_mechanics-0295",
+      "text": "Writing headlines"
+    },
+    {
+      "id": "core_mechanics-0296",
+      "text": "Content moderation"
+    },
+    {
+      "id": "core_mechanics-0297",
+      "text": "Signing decisions"
+    },
+    {
+      "id": "core_mechanics-0298",
+      "text": "Stamping documents"
+    },
+    {
+      "id": "core_mechanics-0299",
+      "text": "Sorting cases"
+    },
+    {
+      "id": "core_mechanics-0300",
+      "text": "Queue management"
+    },
+    {
+      "id": "core_mechanics-0301",
+      "text": "Serving customers"
+    },
+    {
+      "id": "core_mechanics-0302",
+      "text": "Processing orders"
+    },
+    {
+      "id": "core_mechanics-0303",
+      "text": "Handling complaints"
+    },
+    {
+      "id": "core_mechanics-0304",
+      "text": "Prioritizing applications"
+    },
+    {
+      "id": "core_mechanics-0305",
+      "text": "Delegating tasks"
+    },
+    {
+      "id": "core_mechanics-0306",
+      "text": "Choosing the order of tasks"
+    },
+    {
+      "id": "core_mechanics-0307",
+      "text": "Optimizing the daily routine"
+    }
   ]
 }

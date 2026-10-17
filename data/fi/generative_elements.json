@@ -1,363 +1,1440 @@
 {
   "generative_elements": [
-    "Kartta",
-    "Hahmot",
-    "Suhteet",
-    "Rikos",
-    "Talous",
-    "Poliittinen tilanne",
-    "Katastrofi",
-    "Salaisuudet",
-    "Tehtävät",
-    "Kaupungit",
-    "Kylät",
-    "Rakennukset",
-    "Huoneet",
-    "Kadut",
-    "Naapurustot",
-    "Maasto",
-    "Luolastot",
-    "Saaret",
-    "Planeetat",
-    "Aurinkokunnat",
-    "Sää",
-    "Vuodenajat",
-    "Luonnonvarat",
-    "Resurssien sijainnit",
-    "Kauppareitit",
-    "Liikenneverkko",
-    "Tuotantoketjut",
-    "Infrastruktuuri",
-    "Yritykset",
-    "Organisaatiot",
-    "Fraktiot",
-    "Puolueet",
-    "Jengit",
-    "Kultit",
-    "Perheet",
-    "Suvut",
-    "Dynastiat",
-    "Sukupuut",
-    "Syntymät",
-    "Kuolemat",
-    "Avioliitot",
-    "Erot",
-    "Perinnöt",
-    "Ystävyyssuhteet",
-    "Vihollisuudet",
-    "Romanttiset suhteet",
-    "Kilpailusuhteet",
-    "Lojaalisuudet",
-    "Velat",
-    "Palvelukset",
-    "Luottamus",
-    "Maine",
-    "Motiivit",
-    "Persoonallisuudet",
-    "Pelot",
-    "Toiveet",
-    "Tavoitteet",
-    "Piilotetut tavoitteet",
-    "Ammatit",
-    "Työpaikat",
-    "Roolit",
-    "Arvoasemat",
-    "Osaaminen",
-    "Taustatarinat",
-    "Elämänhistoriat",
-    "Muistot",
-    "Traumat",
-    "Uskomukset",
-    "Arvot",
-    "Ideologiat",
-    "Uskonnot",
-    "Kulttuurit",
-    "Kielet",
-    "Nimet",
-    "Sukunimet",
-    "Paikannimet",
-    "Organisaatioiden nimet",
-    "Yritysten nimet",
-    "Tuotteiden nimet",
-    "Sanomalehtien nimet",
-    "Laivojen nimet",
-    "Avaruusalusten nimet",
-    "Historialliset tapahtumat",
-    "Sodat",
-    "Kapinat",
-    "Vallankumoukset",
-    "Vallankaappaukset",
-    "Vaalit",
-    "Hallituskoalitiot",
-    "Lakimuutokset",
-    "Skandaalit",
-    "Diplomaattiset kriisit",
-    "Liittoumat",
-    "Rauhansopimukset",
-    "Pakotteet",
-    "Kauppasodat",
-    "Poliittiset konfliktit",
-    "Johtajat",
-    "Hallitsijat",
-    "Ministerit",
-    "Poliitikot",
-    "Vaalitulokset",
-    "Kannatusluvut",
-    "Mielipidemittaukset",
-    "Propaganda",
-    "Huhut",
-    "Uutiset",
-    "Lehtiartikkelit",
-    "Radiolähetykset",
-    "Sosiaalisen median keskustelut",
-    "Viestit",
-    "Kirjeet",
-    "Sähköpostit",
-    "Päiväkirjat",
-    "Raportit",
-    "Asiakirjat",
-    "Viralliset dokumentit",
-    "Väärennetyt dokumentit",
-    "Todisteet",
-    "Vihjeet",
-    "Ristiriitaiset vihjeet",
-    "Väärät johtolangat",
-    "Todistajanlausunnot",
-    "Epäillyt",
-    "Uhrit",
-    "Murhaajat",
-    "Rikoksen motiivi",
-    "Rikoksen ajankohta",
-    "Rikoksen paikka",
-    "Rikoksen menetelmä",
-    "Rikoksen peittely",
-    "Rikollisen tekemät virheet",
-    "Rikosverkostot",
-    "Salakuljetusreitit",
-    "Korruptioverkostot",
-    "Vakoojat",
-    "Kaksoisagentit",
-    "Tietolähteet",
-    "Salaliitot",
-    "Salaliittojen jäsenet",
-    "Salaliittojen tavoitteet",
-    "Salaliittojen toimintatavat",
-    "Salaiset kokoukset",
-    "Piilopaikat",
-    "Salaiset huoneet",
-    "Salakäytävät",
-    "Kätköt",
-    "Artefaktit",
-    "Aarteet",
-    "Harvinaiset esineet",
-    "Varusteet",
-    "Työkalut",
-    "Aseet",
-    "Reseptit",
-    "Craftausreseptit",
-    "Rakennussuunnitelmat",
-    "Teknologiat",
-    "Tutkimuspuut",
-    "Keksinnöt",
-    "Lääkkeet",
-    "Taudit",
-    "Epidemiat",
-    "Mutaatioiden ominaisuudet",
-    "Ekosysteemit",
-    "Kasvilajit",
-    "Eläinlajit",
-    "Vieraat elämänmuodot",
-    "Geneettiset ominaisuudet",
-    "Sääilmiöt",
-    "Myrskyt",
-    "Tulvat",
-    "Tulipalot",
-    "Maanjäristykset",
-    "Tulivuorenpurkaukset",
-    "Kuivuudet",
-    "Säteilymyrskyt",
-    "Meteorien iskut",
-    "Tekniset viat",
-    "Järjestelmäviat",
-    "Sähkökatkot",
-    "Moottoriviat",
-    "Reaktoriviat",
-    "Happivuodot",
-    "Runkovauriot",
-    "Sabotaasit",
-    "Onnettomuudet",
-    "Pelastustilanteet",
-    "Kriisit",
-    "Kriisiketjut",
-    "Satunnaistapahtumat",
-    "Päivittäiset tapahtumat",
-    "Viikoittaiset tapahtumat",
-    "Harvinaiset tapahtumat",
-    "Maailmanlaajuiset tapahtumat",
-    "Paikalliset tapahtumat",
-    "Henkilökohtaiset tapahtumat",
-    "Sosiaaliset tapahtumat",
-    "Työpaikkatapahtumat",
-    "Perhetapahtumat",
-    "Juhlat",
-    "Hautajaiset",
-    "Häät",
-    "Syntymäpäivät",
-    "Kokoukset",
-    "Neuvottelut",
-    "Lakot",
-    "Mielenosoitukset",
-    "Mellakat",
-    "Urheilutapahtumat",
-    "Festivaalit",
-    "Markkinapäivät",
-    "Huutokaupat",
-    "Kauppatilanteet",
-    "Hintavaihtelut",
-    "Markkinakriisit",
-    "Taloussyklit",
-    "Inflaatio",
-    "Työttömyys",
-    "Velkakriisit",
-    "Yritysten konkurssit",
-    "Yrityskaupat",
-    "Uudet yritykset",
-    "Tuotantohäiriöt",
-    "Resurssipulat",
-    "Kulutuskysyntä",
-    "Verotus",
-    "Budjetit",
-    "Palkat",
-    "Hinnat",
-    "Vuokrat",
-    "Osakekurssit",
-    "Valuuttakurssit",
-    "Tehtäväketjut",
-    "Päätehtävät",
-    "Sivutehtävät",
-    "Henkilökohtaiset tehtävät",
-    "Fraktiotehtävät",
-    "Työtehtävät",
-    "Tutkimustehtävät",
-    "Pelastustehtävät",
-    "Salaiset tehtävät",
-    "Aikarajoitetut tehtävät",
-    "Moraaliset valinnat",
-    "Tehtävien palkinnot",
-    "Tehtävien seuraukset",
-    "Tehtävien epäonnistumiset",
-    "Quest giverit",
-    "Tehtävien kohteet",
-    "Tehtävien sijainnit",
-    "Tehtävien esteet",
-    "Tehtävien ratkaisutavat",
-    "Dialogit",
-    "Keskusteluaiheet",
-    "Dialogivaihtoehdot",
-    "NPC-vastaukset",
-    "Väittelyt",
-    "Neuvottelut",
-    "Kuulustelut",
-    "Valheet",
-    "Tunnustukset",
-    "Uhkausten seuraukset",
-    "Lahjonnan seuraukset",
-    "Sosiaaliset tilanteet",
-    "Sosiaalinen status",
-    "Sosiaalinen hierarkia",
-    "Sosiaaliset normit",
-    "Tabut",
-    "Tavat",
-    "Perinteet",
-    "Rituaalit",
-    "Lait",
-    "Säännöt",
-    "Rangaistukset",
-    "Palkinnot",
-    "Byrokratia",
-    "Lupaprosessit",
-    "Hakemukset",
-    "Paperityöt",
-    "Työvuorot",
-    "Aikataulut",
-    "NPC-rutiinit",
-    "NPC-liikkeet",
-    "NPC-päiväohjelmat",
-    "NPC-tarpeet",
-    "NPC-prioriteetit",
-    "NPC-päätökset",
-    "NPC-konfliktit",
-    "NPC-liittoumat",
-    "NPC-petokset",
-    "NPC-mielipiteet",
-    "NPC-muistot",
-    "NPC-huhut",
-    "NPC:n henkilökohtaiset kriisit",
-    "NPC:n urakehitys",
-    "NPC:n rikokset",
-    "NPC:n kuolema",
-    "NPC:n katoaminen",
-    "NPC:n muutto",
-    "NPC:n ylennys",
-    "NPC:n erottaminen",
-    "NPC:n loikkaus",
-    "NPC:n radikalisoituminen",
-    "NPC:n uskonmuutos",
-    "NPC:n poliittinen muutos",
-    "Väestönkehitys",
-    "Muuttoliike",
-    "Syntyvyys",
-    "Kuolleisuus",
-    "Sukupolvien vaihdos",
-    "Kulttuurin muutos",
-    "Kaupungin kasvu",
-    "Kaupungin rappeutuminen",
-    "Rakennusten käyttötarkoitusten muutokset",
-    "Hylätyt rakennukset",
-    "Uudet rakennukset",
-    "Infrastruktuurin kehitys",
-    "Teknologinen kehitys",
-    "Yhteiskunnan kehitys",
-    "Valtakunnan rajat",
-    "Sotien rintamalinjat",
-    "Alueiden hallinta",
-    "Diplomaattiset suhteet",
-    "Fraktioiden voimasuhteet",
-    "Rikollisuuden taso",
-    "Turvallisuustilanne",
-    "Yleinen mielipide",
-    "Moraali",
-    "Luottamus instituutioihin",
-    "Tulevaisuuden ennusteet",
-    "Historia",
-    "Vaihtoehtoinen historia",
-    "Aikajanat",
-    "Rinnakkaiset aikajanat",
-    "Aikaparadoksit",
-    "Muuttuvat historialliset tapahtumat",
-    "Eri pelikertojen historia",
-    "Maailman muistot",
-    "Pelaajan aiempien pelikertojen vaikutukset",
-    "Proseduraaliset mysteerit",
-    "Proseduraaliset murhat",
-    "Proseduraaliset salaliitot",
-    "Proseduraaliset katastrofit",
-    "Proseduraaliset poliittiset kriisit",
-    "Proseduraaliset ihmissuhdedraamat",
-    "Proseduraaliset sukutarinat",
-    "Proseduraaliset työpaikkadraamat",
-    "Proseduraaliset sodan syyt",
-    "Proseduraaliset rauhanneuvottelut",
-    "Proseduraaliset maailmantapahtumat",
-    "Proseduraalinen pääjuoni",
-    "Proseduraalinen sivujuoni",
-    "Proseduraalinen antagonisti",
-    "Proseduraalinen loppuratkaisu",
-    "Proseduraaliset voittotavat",
-    "Proseduraaliset epäonnistumiset",
-    "Proseduraaliset moraaliset dilemmat",
-    "Proseduraaliset henkilökohtaiset tavoitteet",
-    "Proseduraaliset organisaatiotavoitteet",
-    "Proseduraaliset maailmantavoitteet"
+    {
+      "id": "generative_elements-0001",
+      "text": "Kartta"
+    },
+    {
+      "id": "generative_elements-0002",
+      "text": "Hahmot"
+    },
+    {
+      "id": "generative_elements-0003",
+      "text": "Suhteet"
+    },
+    {
+      "id": "generative_elements-0004",
+      "text": "Rikos"
+    },
+    {
+      "id": "generative_elements-0005",
+      "text": "Talous"
+    },
+    {
+      "id": "generative_elements-0006",
+      "text": "Poliittinen tilanne"
+    },
+    {
+      "id": "generative_elements-0007",
+      "text": "Katastrofi"
+    },
+    {
+      "id": "generative_elements-0008",
+      "text": "Salaisuudet"
+    },
+    {
+      "id": "generative_elements-0009",
+      "text": "Tehtävät"
+    },
+    {
+      "id": "generative_elements-0010",
+      "text": "Kaupungit"
+    },
+    {
+      "id": "generative_elements-0011",
+      "text": "Kylät"
+    },
+    {
+      "id": "generative_elements-0012",
+      "text": "Rakennukset"
+    },
+    {
+      "id": "generative_elements-0013",
+      "text": "Huoneet"
+    },
+    {
+      "id": "generative_elements-0014",
+      "text": "Kadut"
+    },
+    {
+      "id": "generative_elements-0015",
+      "text": "Naapurustot"
+    },
+    {
+      "id": "generative_elements-0016",
+      "text": "Maasto"
+    },
+    {
+      "id": "generative_elements-0017",
+      "text": "Luolastot"
+    },
+    {
+      "id": "generative_elements-0018",
+      "text": "Saaret"
+    },
+    {
+      "id": "generative_elements-0019",
+      "text": "Planeetat"
+    },
+    {
+      "id": "generative_elements-0020",
+      "text": "Aurinkokunnat"
+    },
+    {
+      "id": "generative_elements-0021",
+      "text": "Sää"
+    },
+    {
+      "id": "generative_elements-0022",
+      "text": "Vuodenajat"
+    },
+    {
+      "id": "generative_elements-0023",
+      "text": "Luonnonvarat"
+    },
+    {
+      "id": "generative_elements-0024",
+      "text": "Resurssien sijainnit"
+    },
+    {
+      "id": "generative_elements-0025",
+      "text": "Kauppareitit"
+    },
+    {
+      "id": "generative_elements-0026",
+      "text": "Liikenneverkko"
+    },
+    {
+      "id": "generative_elements-0027",
+      "text": "Tuotantoketjut"
+    },
+    {
+      "id": "generative_elements-0028",
+      "text": "Infrastruktuuri"
+    },
+    {
+      "id": "generative_elements-0029",
+      "text": "Yritykset"
+    },
+    {
+      "id": "generative_elements-0030",
+      "text": "Organisaatiot"
+    },
+    {
+      "id": "generative_elements-0031",
+      "text": "Fraktiot"
+    },
+    {
+      "id": "generative_elements-0032",
+      "text": "Puolueet"
+    },
+    {
+      "id": "generative_elements-0033",
+      "text": "Jengit"
+    },
+    {
+      "id": "generative_elements-0034",
+      "text": "Kultit"
+    },
+    {
+      "id": "generative_elements-0035",
+      "text": "Perheet"
+    },
+    {
+      "id": "generative_elements-0036",
+      "text": "Suvut"
+    },
+    {
+      "id": "generative_elements-0037",
+      "text": "Dynastiat"
+    },
+    {
+      "id": "generative_elements-0038",
+      "text": "Sukupuut"
+    },
+    {
+      "id": "generative_elements-0039",
+      "text": "Syntymät"
+    },
+    {
+      "id": "generative_elements-0040",
+      "text": "Kuolemat"
+    },
+    {
+      "id": "generative_elements-0041",
+      "text": "Avioliitot"
+    },
+    {
+      "id": "generative_elements-0042",
+      "text": "Erot"
+    },
+    {
+      "id": "generative_elements-0043",
+      "text": "Perinnöt"
+    },
+    {
+      "id": "generative_elements-0044",
+      "text": "Ystävyyssuhteet"
+    },
+    {
+      "id": "generative_elements-0045",
+      "text": "Vihollisuudet"
+    },
+    {
+      "id": "generative_elements-0046",
+      "text": "Romanttiset suhteet"
+    },
+    {
+      "id": "generative_elements-0047",
+      "text": "Kilpailusuhteet"
+    },
+    {
+      "id": "generative_elements-0048",
+      "text": "Lojaalisuudet"
+    },
+    {
+      "id": "generative_elements-0049",
+      "text": "Velat"
+    },
+    {
+      "id": "generative_elements-0050",
+      "text": "Palvelukset"
+    },
+    {
+      "id": "generative_elements-0051",
+      "text": "Luottamus"
+    },
+    {
+      "id": "generative_elements-0052",
+      "text": "Maine"
+    },
+    {
+      "id": "generative_elements-0053",
+      "text": "Motiivit"
+    },
+    {
+      "id": "generative_elements-0054",
+      "text": "Persoonallisuudet"
+    },
+    {
+      "id": "generative_elements-0055",
+      "text": "Pelot"
+    },
+    {
+      "id": "generative_elements-0056",
+      "text": "Toiveet"
+    },
+    {
+      "id": "generative_elements-0057",
+      "text": "Tavoitteet"
+    },
+    {
+      "id": "generative_elements-0058",
+      "text": "Piilotetut tavoitteet"
+    },
+    {
+      "id": "generative_elements-0059",
+      "text": "Ammatit"
+    },
+    {
+      "id": "generative_elements-0060",
+      "text": "Työpaikat"
+    },
+    {
+      "id": "generative_elements-0061",
+      "text": "Roolit"
+    },
+    {
+      "id": "generative_elements-0062",
+      "text": "Arvoasemat"
+    },
+    {
+      "id": "generative_elements-0063",
+      "text": "Osaaminen"
+    },
+    {
+      "id": "generative_elements-0064",
+      "text": "Taustatarinat"
+    },
+    {
+      "id": "generative_elements-0065",
+      "text": "Elämänhistoriat"
+    },
+    {
+      "id": "generative_elements-0066",
+      "text": "Muistot"
+    },
+    {
+      "id": "generative_elements-0067",
+      "text": "Traumat"
+    },
+    {
+      "id": "generative_elements-0068",
+      "text": "Uskomukset"
+    },
+    {
+      "id": "generative_elements-0069",
+      "text": "Arvot"
+    },
+    {
+      "id": "generative_elements-0070",
+      "text": "Ideologiat"
+    },
+    {
+      "id": "generative_elements-0071",
+      "text": "Uskonnot"
+    },
+    {
+      "id": "generative_elements-0072",
+      "text": "Kulttuurit"
+    },
+    {
+      "id": "generative_elements-0073",
+      "text": "Kielet"
+    },
+    {
+      "id": "generative_elements-0074",
+      "text": "Nimet"
+    },
+    {
+      "id": "generative_elements-0075",
+      "text": "Sukunimet"
+    },
+    {
+      "id": "generative_elements-0076",
+      "text": "Paikannimet"
+    },
+    {
+      "id": "generative_elements-0077",
+      "text": "Organisaatioiden nimet"
+    },
+    {
+      "id": "generative_elements-0078",
+      "text": "Yritysten nimet"
+    },
+    {
+      "id": "generative_elements-0079",
+      "text": "Tuotteiden nimet"
+    },
+    {
+      "id": "generative_elements-0080",
+      "text": "Sanomalehtien nimet"
+    },
+    {
+      "id": "generative_elements-0081",
+      "text": "Laivojen nimet"
+    },
+    {
+      "id": "generative_elements-0082",
+      "text": "Avaruusalusten nimet"
+    },
+    {
+      "id": "generative_elements-0083",
+      "text": "Historialliset tapahtumat"
+    },
+    {
+      "id": "generative_elements-0084",
+      "text": "Sodat"
+    },
+    {
+      "id": "generative_elements-0085",
+      "text": "Kapinat"
+    },
+    {
+      "id": "generative_elements-0086",
+      "text": "Vallankumoukset"
+    },
+    {
+      "id": "generative_elements-0087",
+      "text": "Vallankaappaukset"
+    },
+    {
+      "id": "generative_elements-0088",
+      "text": "Vaalit"
+    },
+    {
+      "id": "generative_elements-0089",
+      "text": "Hallituskoalitiot"
+    },
+    {
+      "id": "generative_elements-0090",
+      "text": "Lakimuutokset"
+    },
+    {
+      "id": "generative_elements-0091",
+      "text": "Skandaalit"
+    },
+    {
+      "id": "generative_elements-0092",
+      "text": "Diplomaattiset kriisit"
+    },
+    {
+      "id": "generative_elements-0093",
+      "text": "Liittoumat"
+    },
+    {
+      "id": "generative_elements-0094",
+      "text": "Rauhansopimukset"
+    },
+    {
+      "id": "generative_elements-0095",
+      "text": "Pakotteet"
+    },
+    {
+      "id": "generative_elements-0096",
+      "text": "Kauppasodat"
+    },
+    {
+      "id": "generative_elements-0097",
+      "text": "Poliittiset konfliktit"
+    },
+    {
+      "id": "generative_elements-0098",
+      "text": "Johtajat"
+    },
+    {
+      "id": "generative_elements-0099",
+      "text": "Hallitsijat"
+    },
+    {
+      "id": "generative_elements-0100",
+      "text": "Ministerit"
+    },
+    {
+      "id": "generative_elements-0101",
+      "text": "Poliitikot"
+    },
+    {
+      "id": "generative_elements-0102",
+      "text": "Vaalitulokset"
+    },
+    {
+      "id": "generative_elements-0103",
+      "text": "Kannatusluvut"
+    },
+    {
+      "id": "generative_elements-0104",
+      "text": "Mielipidemittaukset"
+    },
+    {
+      "id": "generative_elements-0105",
+      "text": "Propaganda"
+    },
+    {
+      "id": "generative_elements-0106",
+      "text": "Huhut"
+    },
+    {
+      "id": "generative_elements-0107",
+      "text": "Uutiset"
+    },
+    {
+      "id": "generative_elements-0108",
+      "text": "Lehtiartikkelit"
+    },
+    {
+      "id": "generative_elements-0109",
+      "text": "Radiolähetykset"
+    },
+    {
+      "id": "generative_elements-0110",
+      "text": "Sosiaalisen median keskustelut"
+    },
+    {
+      "id": "generative_elements-0111",
+      "text": "Viestit"
+    },
+    {
+      "id": "generative_elements-0112",
+      "text": "Kirjeet"
+    },
+    {
+      "id": "generative_elements-0113",
+      "text": "Sähköpostit"
+    },
+    {
+      "id": "generative_elements-0114",
+      "text": "Päiväkirjat"
+    },
+    {
+      "id": "generative_elements-0115",
+      "text": "Raportit"
+    },
+    {
+      "id": "generative_elements-0116",
+      "text": "Asiakirjat"
+    },
+    {
+      "id": "generative_elements-0117",
+      "text": "Viralliset dokumentit"
+    },
+    {
+      "id": "generative_elements-0118",
+      "text": "Väärennetyt dokumentit"
+    },
+    {
+      "id": "generative_elements-0119",
+      "text": "Todisteet"
+    },
+    {
+      "id": "generative_elements-0120",
+      "text": "Vihjeet"
+    },
+    {
+      "id": "generative_elements-0121",
+      "text": "Ristiriitaiset vihjeet"
+    },
+    {
+      "id": "generative_elements-0122",
+      "text": "Väärät johtolangat"
+    },
+    {
+      "id": "generative_elements-0123",
+      "text": "Todistajanlausunnot"
+    },
+    {
+      "id": "generative_elements-0124",
+      "text": "Epäillyt"
+    },
+    {
+      "id": "generative_elements-0125",
+      "text": "Uhrit"
+    },
+    {
+      "id": "generative_elements-0126",
+      "text": "Murhaajat"
+    },
+    {
+      "id": "generative_elements-0127",
+      "text": "Rikoksen motiivi"
+    },
+    {
+      "id": "generative_elements-0128",
+      "text": "Rikoksen ajankohta"
+    },
+    {
+      "id": "generative_elements-0129",
+      "text": "Rikoksen paikka"
+    },
+    {
+      "id": "generative_elements-0130",
+      "text": "Rikoksen menetelmä"
+    },
+    {
+      "id": "generative_elements-0131",
+      "text": "Rikoksen peittely"
+    },
+    {
+      "id": "generative_elements-0132",
+      "text": "Rikollisen tekemät virheet"
+    },
+    {
+      "id": "generative_elements-0133",
+      "text": "Rikosverkostot"
+    },
+    {
+      "id": "generative_elements-0134",
+      "text": "Salakuljetusreitit"
+    },
+    {
+      "id": "generative_elements-0135",
+      "text": "Korruptioverkostot"
+    },
+    {
+      "id": "generative_elements-0136",
+      "text": "Vakoojat"
+    },
+    {
+      "id": "generative_elements-0137",
+      "text": "Kaksoisagentit"
+    },
+    {
+      "id": "generative_elements-0138",
+      "text": "Tietolähteet"
+    },
+    {
+      "id": "generative_elements-0139",
+      "text": "Salaliitot"
+    },
+    {
+      "id": "generative_elements-0140",
+      "text": "Salaliittojen jäsenet"
+    },
+    {
+      "id": "generative_elements-0141",
+      "text": "Salaliittojen tavoitteet"
+    },
+    {
+      "id": "generative_elements-0142",
+      "text": "Salaliittojen toimintatavat"
+    },
+    {
+      "id": "generative_elements-0143",
+      "text": "Salaiset kokoukset"
+    },
+    {
+      "id": "generative_elements-0144",
+      "text": "Piilopaikat"
+    },
+    {
+      "id": "generative_elements-0145",
+      "text": "Salaiset huoneet"
+    },
+    {
+      "id": "generative_elements-0146",
+      "text": "Salakäytävät"
+    },
+    {
+      "id": "generative_elements-0147",
+      "text": "Kätköt"
+    },
+    {
+      "id": "generative_elements-0148",
+      "text": "Artefaktit"
+    },
+    {
+      "id": "generative_elements-0149",
+      "text": "Aarteet"
+    },
+    {
+      "id": "generative_elements-0150",
+      "text": "Harvinaiset esineet"
+    },
+    {
+      "id": "generative_elements-0151",
+      "text": "Varusteet"
+    },
+    {
+      "id": "generative_elements-0152",
+      "text": "Työkalut"
+    },
+    {
+      "id": "generative_elements-0153",
+      "text": "Aseet"
+    },
+    {
+      "id": "generative_elements-0154",
+      "text": "Reseptit"
+    },
+    {
+      "id": "generative_elements-0155",
+      "text": "Craftausreseptit"
+    },
+    {
+      "id": "generative_elements-0156",
+      "text": "Rakennussuunnitelmat"
+    },
+    {
+      "id": "generative_elements-0157",
+      "text": "Teknologiat"
+    },
+    {
+      "id": "generative_elements-0158",
+      "text": "Tutkimuspuut"
+    },
+    {
+      "id": "generative_elements-0159",
+      "text": "Keksinnöt"
+    },
+    {
+      "id": "generative_elements-0160",
+      "text": "Lääkkeet"
+    },
+    {
+      "id": "generative_elements-0161",
+      "text": "Taudit"
+    },
+    {
+      "id": "generative_elements-0162",
+      "text": "Epidemiat"
+    },
+    {
+      "id": "generative_elements-0163",
+      "text": "Mutaatioiden ominaisuudet"
+    },
+    {
+      "id": "generative_elements-0164",
+      "text": "Ekosysteemit"
+    },
+    {
+      "id": "generative_elements-0165",
+      "text": "Kasvilajit"
+    },
+    {
+      "id": "generative_elements-0166",
+      "text": "Eläinlajit"
+    },
+    {
+      "id": "generative_elements-0167",
+      "text": "Vieraat elämänmuodot"
+    },
+    {
+      "id": "generative_elements-0168",
+      "text": "Geneettiset ominaisuudet"
+    },
+    {
+      "id": "generative_elements-0169",
+      "text": "Sääilmiöt"
+    },
+    {
+      "id": "generative_elements-0170",
+      "text": "Myrskyt"
+    },
+    {
+      "id": "generative_elements-0171",
+      "text": "Tulvat"
+    },
+    {
+      "id": "generative_elements-0172",
+      "text": "Tulipalot"
+    },
+    {
+      "id": "generative_elements-0173",
+      "text": "Maanjäristykset"
+    },
+    {
+      "id": "generative_elements-0174",
+      "text": "Tulivuorenpurkaukset"
+    },
+    {
+      "id": "generative_elements-0175",
+      "text": "Kuivuudet"
+    },
+    {
+      "id": "generative_elements-0176",
+      "text": "Säteilymyrskyt"
+    },
+    {
+      "id": "generative_elements-0177",
+      "text": "Meteorien iskut"
+    },
+    {
+      "id": "generative_elements-0178",
+      "text": "Tekniset viat"
+    },
+    {
+      "id": "generative_elements-0179",
+      "text": "Järjestelmäviat"
+    },
+    {
+      "id": "generative_elements-0180",
+      "text": "Sähkökatkot"
+    },
+    {
+      "id": "generative_elements-0181",
+      "text": "Moottoriviat"
+    },
+    {
+      "id": "generative_elements-0182",
+      "text": "Reaktoriviat"
+    },
+    {
+      "id": "generative_elements-0183",
+      "text": "Happivuodot"
+    },
+    {
+      "id": "generative_elements-0184",
+      "text": "Runkovauriot"
+    },
+    {
+      "id": "generative_elements-0185",
+      "text": "Sabotaasit"
+    },
+    {
+      "id": "generative_elements-0186",
+      "text": "Onnettomuudet"
+    },
+    {
+      "id": "generative_elements-0187",
+      "text": "Pelastustilanteet"
+    },
+    {
+      "id": "generative_elements-0188",
+      "text": "Kriisit"
+    },
+    {
+      "id": "generative_elements-0189",
+      "text": "Kriisiketjut"
+    },
+    {
+      "id": "generative_elements-0190",
+      "text": "Satunnaistapahtumat"
+    },
+    {
+      "id": "generative_elements-0191",
+      "text": "Päivittäiset tapahtumat"
+    },
+    {
+      "id": "generative_elements-0192",
+      "text": "Viikoittaiset tapahtumat"
+    },
+    {
+      "id": "generative_elements-0193",
+      "text": "Harvinaiset tapahtumat"
+    },
+    {
+      "id": "generative_elements-0194",
+      "text": "Maailmanlaajuiset tapahtumat"
+    },
+    {
+      "id": "generative_elements-0195",
+      "text": "Paikalliset tapahtumat"
+    },
+    {
+      "id": "generative_elements-0196",
+      "text": "Henkilökohtaiset tapahtumat"
+    },
+    {
+      "id": "generative_elements-0197",
+      "text": "Sosiaaliset tapahtumat"
+    },
+    {
+      "id": "generative_elements-0198",
+      "text": "Työpaikkatapahtumat"
+    },
+    {
+      "id": "generative_elements-0199",
+      "text": "Perhetapahtumat"
+    },
+    {
+      "id": "generative_elements-0200",
+      "text": "Juhlat"
+    },
+    {
+      "id": "generative_elements-0201",
+      "text": "Hautajaiset"
+    },
+    {
+      "id": "generative_elements-0202",
+      "text": "Häät"
+    },
+    {
+      "id": "generative_elements-0203",
+      "text": "Syntymäpäivät"
+    },
+    {
+      "id": "generative_elements-0204",
+      "text": "Kokoukset"
+    },
+    {
+      "id": "generative_elements-0205",
+      "text": "Neuvottelut"
+    },
+    {
+      "id": "generative_elements-0206",
+      "text": "Lakot"
+    },
+    {
+      "id": "generative_elements-0207",
+      "text": "Mielenosoitukset"
+    },
+    {
+      "id": "generative_elements-0208",
+      "text": "Mellakat"
+    },
+    {
+      "id": "generative_elements-0209",
+      "text": "Urheilutapahtumat"
+    },
+    {
+      "id": "generative_elements-0210",
+      "text": "Festivaalit"
+    },
+    {
+      "id": "generative_elements-0211",
+      "text": "Markkinapäivät"
+    },
+    {
+      "id": "generative_elements-0212",
+      "text": "Huutokaupat"
+    },
+    {
+      "id": "generative_elements-0213",
+      "text": "Kauppatilanteet"
+    },
+    {
+      "id": "generative_elements-0214",
+      "text": "Hintavaihtelut"
+    },
+    {
+      "id": "generative_elements-0215",
+      "text": "Markkinakriisit"
+    },
+    {
+      "id": "generative_elements-0216",
+      "text": "Taloussyklit"
+    },
+    {
+      "id": "generative_elements-0217",
+      "text": "Inflaatio"
+    },
+    {
+      "id": "generative_elements-0218",
+      "text": "Työttömyys"
+    },
+    {
+      "id": "generative_elements-0219",
+      "text": "Velkakriisit"
+    },
+    {
+      "id": "generative_elements-0220",
+      "text": "Yritysten konkurssit"
+    },
+    {
+      "id": "generative_elements-0221",
+      "text": "Yrityskaupat"
+    },
+    {
+      "id": "generative_elements-0222",
+      "text": "Uudet yritykset"
+    },
+    {
+      "id": "generative_elements-0223",
+      "text": "Tuotantohäiriöt"
+    },
+    {
+      "id": "generative_elements-0224",
+      "text": "Resurssipulat"
+    },
+    {
+      "id": "generative_elements-0225",
+      "text": "Kulutuskysyntä"
+    },
+    {
+      "id": "generative_elements-0226",
+      "text": "Verotus"
+    },
+    {
+      "id": "generative_elements-0227",
+      "text": "Budjetit"
+    },
+    {
+      "id": "generative_elements-0228",
+      "text": "Palkat"
+    },
+    {
+      "id": "generative_elements-0229",
+      "text": "Hinnat"
+    },
+    {
+      "id": "generative_elements-0230",
+      "text": "Vuokrat"
+    },
+    {
+      "id": "generative_elements-0231",
+      "text": "Osakekurssit"
+    },
+    {
+      "id": "generative_elements-0232",
+      "text": "Valuuttakurssit"
+    },
+    {
+      "id": "generative_elements-0233",
+      "text": "Tehtäväketjut"
+    },
+    {
+      "id": "generative_elements-0234",
+      "text": "Päätehtävät"
+    },
+    {
+      "id": "generative_elements-0235",
+      "text": "Sivutehtävät"
+    },
+    {
+      "id": "generative_elements-0236",
+      "text": "Henkilökohtaiset tehtävät"
+    },
+    {
+      "id": "generative_elements-0237",
+      "text": "Fraktiotehtävät"
+    },
+    {
+      "id": "generative_elements-0238",
+      "text": "Työtehtävät"
+    },
+    {
+      "id": "generative_elements-0239",
+      "text": "Tutkimustehtävät"
+    },
+    {
+      "id": "generative_elements-0240",
+      "text": "Pelastustehtävät"
+    },
+    {
+      "id": "generative_elements-0241",
+      "text": "Salaiset tehtävät"
+    },
+    {
+      "id": "generative_elements-0242",
+      "text": "Aikarajoitetut tehtävät"
+    },
+    {
+      "id": "generative_elements-0243",
+      "text": "Moraaliset valinnat"
+    },
+    {
+      "id": "generative_elements-0244",
+      "text": "Tehtävien palkinnot"
+    },
+    {
+      "id": "generative_elements-0245",
+      "text": "Tehtävien seuraukset"
+    },
+    {
+      "id": "generative_elements-0246",
+      "text": "Tehtävien epäonnistumiset"
+    },
+    {
+      "id": "generative_elements-0247",
+      "text": "Quest giverit"
+    },
+    {
+      "id": "generative_elements-0248",
+      "text": "Tehtävien kohteet"
+    },
+    {
+      "id": "generative_elements-0249",
+      "text": "Tehtävien sijainnit"
+    },
+    {
+      "id": "generative_elements-0250",
+      "text": "Tehtävien esteet"
+    },
+    {
+      "id": "generative_elements-0251",
+      "text": "Tehtävien ratkaisutavat"
+    },
+    {
+      "id": "generative_elements-0252",
+      "text": "Dialogit"
+    },
+    {
+      "id": "generative_elements-0253",
+      "text": "Keskusteluaiheet"
+    },
+    {
+      "id": "generative_elements-0254",
+      "text": "Dialogivaihtoehdot"
+    },
+    {
+      "id": "generative_elements-0255",
+      "text": "NPC-vastaukset"
+    },
+    {
+      "id": "generative_elements-0256",
+      "text": "Väittelyt"
+    },
+    {
+      "id": "generative_elements-0257",
+      "text": "Neuvottelut"
+    },
+    {
+      "id": "generative_elements-0258",
+      "text": "Kuulustelut"
+    },
+    {
+      "id": "generative_elements-0259",
+      "text": "Valheet"
+    },
+    {
+      "id": "generative_elements-0260",
+      "text": "Tunnustukset"
+    },
+    {
+      "id": "generative_elements-0261",
+      "text": "Uhkausten seuraukset"
+    },
+    {
+      "id": "generative_elements-0262",
+      "text": "Lahjonnan seuraukset"
+    },
+    {
+      "id": "generative_elements-0263",
+      "text": "Sosiaaliset tilanteet"
+    },
+    {
+      "id": "generative_elements-0264",
+      "text": "Sosiaalinen status"
+    },
+    {
+      "id": "generative_elements-0265",
+      "text": "Sosiaalinen hierarkia"
+    },
+    {
+      "id": "generative_elements-0266",
+      "text": "Sosiaaliset normit"
+    },
+    {
+      "id": "generative_elements-0267",
+      "text": "Tabut"
+    },
+    {
+      "id": "generative_elements-0268",
+      "text": "Tavat"
+    },
+    {
+      "id": "generative_elements-0269",
+      "text": "Perinteet"
+    },
+    {
+      "id": "generative_elements-0270",
+      "text": "Rituaalit"
+    },
+    {
+      "id": "generative_elements-0271",
+      "text": "Lait"
+    },
+    {
+      "id": "generative_elements-0272",
+      "text": "Säännöt"
+    },
+    {
+      "id": "generative_elements-0273",
+      "text": "Rangaistukset"
+    },
+    {
+      "id": "generative_elements-0274",
+      "text": "Palkinnot"
+    },
+    {
+      "id": "generative_elements-0275",
+      "text": "Byrokratia"
+    },
+    {
+      "id": "generative_elements-0276",
+      "text": "Lupaprosessit"
+    },
+    {
+      "id": "generative_elements-0277",
+      "text": "Hakemukset"
+    },
+    {
+      "id": "generative_elements-0278",
+      "text": "Paperityöt"
+    },
+    {
+      "id": "generative_elements-0279",
+      "text": "Työvuorot"
+    },
+    {
+      "id": "generative_elements-0280",
+      "text": "Aikataulut"
+    },
+    {
+      "id": "generative_elements-0281",
+      "text": "NPC-rutiinit"
+    },
+    {
+      "id": "generative_elements-0282",
+      "text": "NPC-liikkeet"
+    },
+    {
+      "id": "generative_elements-0283",
+      "text": "NPC-päiväohjelmat"
+    },
+    {
+      "id": "generative_elements-0284",
+      "text": "NPC-tarpeet"
+    },
+    {
+      "id": "generative_elements-0285",
+      "text": "NPC-prioriteetit"
+    },
+    {
+      "id": "generative_elements-0286",
+      "text": "NPC-päätökset"
+    },
+    {
+      "id": "generative_elements-0287",
+      "text": "NPC-konfliktit"
+    },
+    {
+      "id": "generative_elements-0288",
+      "text": "NPC-liittoumat"
+    },
+    {
+      "id": "generative_elements-0289",
+      "text": "NPC-petokset"
+    },
+    {
+      "id": "generative_elements-0290",
+      "text": "NPC-mielipiteet"
+    },
+    {
+      "id": "generative_elements-0291",
+      "text": "NPC-muistot"
+    },
+    {
+      "id": "generative_elements-0292",
+      "text": "NPC-huhut"
+    },
+    {
+      "id": "generative_elements-0293",
+      "text": "NPC:n henkilökohtaiset kriisit"
+    },
+    {
+      "id": "generative_elements-0294",
+      "text": "NPC:n urakehitys"
+    },
+    {
+      "id": "generative_elements-0295",
+      "text": "NPC:n rikokset"
+    },
+    {
+      "id": "generative_elements-0296",
+      "text": "NPC:n kuolema"
+    },
+    {
+      "id": "generative_elements-0297",
+      "text": "NPC:n katoaminen"
+    },
+    {
+      "id": "generative_elements-0298",
+      "text": "NPC:n muutto"
+    },
+    {
+      "id": "generative_elements-0299",
+      "text": "NPC:n ylennys"
+    },
+    {
+      "id": "generative_elements-0300",
+      "text": "NPC:n erottaminen"
+    },
+    {
+      "id": "generative_elements-0301",
+      "text": "NPC:n loikkaus"
+    },
+    {
+      "id": "generative_elements-0302",
+      "text": "NPC:n radikalisoituminen"
+    },
+    {
+      "id": "generative_elements-0303",
+      "text": "NPC:n uskonmuutos"
+    },
+    {
+      "id": "generative_elements-0304",
+      "text": "NPC:n poliittinen muutos"
+    },
+    {
+      "id": "generative_elements-0305",
+      "text": "Väestönkehitys"
+    },
+    {
+      "id": "generative_elements-0306",
+      "text": "Muuttoliike"
+    },
+    {
+      "id": "generative_elements-0307",
+      "text": "Syntyvyys"
+    },
+    {
+      "id": "generative_elements-0308",
+      "text": "Kuolleisuus"
+    },
+    {
+      "id": "generative_elements-0309",
+      "text": "Sukupolvien vaihdos"
+    },
+    {
+      "id": "generative_elements-0310",
+      "text": "Kulttuurin muutos"
+    },
+    {
+      "id": "generative_elements-0311",
+      "text": "Kaupungin kasvu"
+    },
+    {
+      "id": "generative_elements-0312",
+      "text": "Kaupungin rappeutuminen"
+    },
+    {
+      "id": "generative_elements-0313",
+      "text": "Rakennusten käyttötarkoitusten muutokset"
+    },
+    {
+      "id": "generative_elements-0314",
+      "text": "Hylätyt rakennukset"
+    },
+    {
+      "id": "generative_elements-0315",
+      "text": "Uudet rakennukset"
+    },
+    {
+      "id": "generative_elements-0316",
+      "text": "Infrastruktuurin kehitys"
+    },
+    {
+      "id": "generative_elements-0317",
+      "text": "Teknologinen kehitys"
+    },
+    {
+      "id": "generative_elements-0318",
+      "text": "Yhteiskunnan kehitys"
+    },
+    {
+      "id": "generative_elements-0319",
+      "text": "Valtakunnan rajat"
+    },
+    {
+      "id": "generative_elements-0320",
+      "text": "Sotien rintamalinjat"
+    },
+    {
+      "id": "generative_elements-0321",
+      "text": "Alueiden hallinta"
+    },
+    {
+      "id": "generative_elements-0322",
+      "text": "Diplomaattiset suhteet"
+    },
+    {
+      "id": "generative_elements-0323",
+      "text": "Fraktioiden voimasuhteet"
+    },
+    {
+      "id": "generative_elements-0324",
+      "text": "Rikollisuuden taso"
+    },
+    {
+      "id": "generative_elements-0325",
+      "text": "Turvallisuustilanne"
+    },
+    {
+      "id": "generative_elements-0326",
+      "text": "Yleinen mielipide"
+    },
+    {
+      "id": "generative_elements-0327",
+      "text": "Moraali"
+    },
+    {
+      "id": "generative_elements-0328",
+      "text": "Luottamus instituutioihin"
+    },
+    {
+      "id": "generative_elements-0329",
+      "text": "Tulevaisuuden ennusteet"
+    },
+    {
+      "id": "generative_elements-0330",
+      "text": "Historia"
+    },
+    {
+      "id": "generative_elements-0331",
+      "text": "Vaihtoehtoinen historia"
+    },
+    {
+      "id": "generative_elements-0332",
+      "text": "Aikajanat"
+    },
+    {
+      "id": "generative_elements-0333",
+      "text": "Rinnakkaiset aikajanat"
+    },
+    {
+      "id": "generative_elements-0334",
+      "text": "Aikaparadoksit"
+    },
+    {
+      "id": "generative_elements-0335",
+      "text": "Muuttuvat historialliset tapahtumat"
+    },
+    {
+      "id": "generative_elements-0336",
+      "text": "Eri pelikertojen historia"
+    },
+    {
+      "id": "generative_elements-0337",
+      "text": "Maailman muistot"
+    },
+    {
+      "id": "generative_elements-0338",
+      "text": "Pelaajan aiempien pelikertojen vaikutukset"
+    },
+    {
+      "id": "generative_elements-0339",
+      "text": "Proseduraaliset mysteerit"
+    },
+    {
+      "id": "generative_elements-0340",
+      "text": "Proseduraaliset murhat"
+    },
+    {
+      "id": "generative_elements-0341",
+      "text": "Proseduraaliset salaliitot"
+    },
+    {
+      "id": "generative_elements-0342",
+      "text": "Proseduraaliset katastrofit"
+    },
+    {
+      "id": "generative_elements-0343",
+      "text": "Proseduraaliset poliittiset kriisit"
+    },
+    {
+      "id": "generative_elements-0344",
+      "text": "Proseduraaliset ihmissuhdedraamat"
+    },
+    {
+      "id": "generative_elements-0345",
+      "text": "Proseduraaliset sukutarinat"
+    },
+    {
+      "id": "generative_elements-0346",
+      "text": "Proseduraaliset työpaikkadraamat"
+    },
+    {
+      "id": "generative_elements-0347",
+      "text": "Proseduraaliset sodan syyt"
+    },
+    {
+      "id": "generative_elements-0348",
+      "text": "Proseduraaliset rauhanneuvottelut"
+    },
+    {
+      "id": "generative_elements-0349",
+      "text": "Proseduraaliset maailmantapahtumat"
+    },
+    {
+      "id": "generative_elements-0350",
+      "text": "Proseduraalinen pääjuoni"
+    },
+    {
+      "id": "generative_elements-0351",
+      "text": "Proseduraalinen sivujuoni"
+    },
+    {
+      "id": "generative_elements-0352",
+      "text": "Proseduraalinen antagonisti"
+    },
+    {
+      "id": "generative_elements-0353",
+      "text": "Proseduraalinen loppuratkaisu"
+    },
+    {
+      "id": "generative_elements-0354",
+      "text": "Proseduraaliset voittotavat"
+    },
+    {
+      "id": "generative_elements-0355",
+      "text": "Proseduraaliset epäonnistumiset"
+    },
+    {
+      "id": "generative_elements-0356",
+      "text": "Proseduraaliset moraaliset dilemmat"
+    },
+    {
+      "id": "generative_elements-0357",
+      "text": "Proseduraaliset henkilökohtaiset tavoitteet"
+    },
+    {
+      "id": "generative_elements-0358",
+      "text": "Proseduraaliset organisaatiotavoitteet"
+    },
+    {
+      "id": "generative_elements-0359",
+      "text": "Proseduraaliset maailmantavoitteet"
+    }
   ]
 }
