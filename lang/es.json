@@ -90,7 +90,7 @@
     "si hace falta, proponiendo uno o dos cambios que harían la idea más interesante"
   ],
   "prompt.goal": "El objetivo es encontrar un concepto realmente jugable, no forzar el uso de cada elemento generado.",
-  "jam.toggle": "Game jam",
+  "jam.toggle": "Modo Game jam",
   "jam.heading": "Límites de la game jam",
   "jam.time": "Tiempo",
   "jam.hours24": "24 horas",
@@ -118,5 +118,17 @@
   "jam.promptInterpret": "Haz que el tema afecte las acciones del jugador. Propón dos interpretaciones y elige una; no lo limites al título o a la historia de fondo.",
   "jam.promptBuild": "Define la versión mínima jugable con un máximo de tres funciones esenciales. Separa los objetivos opcionales y propone un horario aproximado acorde con el tiempo, el equipo y la experiencia.",
   "jam.promptWarning": "Si una elección conservada entra en conflicto con los límites, explica cómo simplificarla. No prometas terminar cualquier combinación dentro del plazo.",
-  "jam.promptCounts": "Respeta la cantidad de valores seleccionada en cada campo. Una sola mecánica principal es una sugerencia de alcance, no un límite a las elecciones del usuario."
+  "jam.promptCounts": "Respeta la cantidad de valores seleccionada en cada campo. Una sola mecánica principal es una sugerencia de alcance, no un límite a las elecciones del usuario.",
+  "share.actions": "Compartir esta idea",
+  "share.copy": "Copiar idea",
+  "share.link": "Copiar enlace",
+  "share.image": "Descargar imagen",
+  "share.title": "Mi idea de juego",
+  "share.credit": "Creado con Game Idea Generator",
+  "share.empty": "No hay campos seleccionados.",
+  "share.copied": "Idea copiada al portapapeles",
+  "share.linkCopied": "Enlace copiado al portapapeles",
+  "share.downloaded": "Imagen descargada",
+  "share.error": "No se pudo compartir la idea. Inténtalo de nuevo.",
+  "share.invalid": "No se pudo abrir la idea compartida. Las opciones originales pueden haber cambiado."
 }

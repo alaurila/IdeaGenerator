@@ -54,8 +54,19 @@ const idea = JSON.parse(await page.locator('#idea-output').textContent());</code
     To reproduce the module's results in another language, port its seeded algorithm and sort each category by ID
     before sampling. Never report the fixed documentation example as a newly generated idea.</p>
 
+  <h2>Share the current idea</h2>
+  <p>The top bar offers <strong>Copy idea</strong> (readable text), <strong>Copy link</strong>
+    (an exact snapshot of the current selections) and <strong>Download image</strong> (PNG).
+    Text and image exports contain every included field, any active jam settings and theme,
+    and a small link to the generator. Excluded fields are omitted.</p>
+  <p>Snapshot links use a versioned <code>#idea=</code> URL fragment containing permanent option IDs,
+    counts, lock/exclusion flags and jam settings. They restore edited ideas and demonstrations
+    independently of saved browser state. JavaScript restores the fragment locally; the server
+    does not receive it. Removed options or malformed snapshots display an error.
+    Existing <code>seed</code> links remain supported.</p>
+
   <h2>Game jam generation</h2>
-  <p>Enable <strong>Game jam</strong> in the top bar, or open
+  <p>Enable <strong>Game jam mode</strong> in the top bar, or open
     <a href="./?lang=en&amp;jam=1&amp;hours=48&amp;team=solo&amp;experience=beginner&amp;fresh=1">a fresh 48-hour solo beginner jam idea</a>.
     All 19 cards remain visible. The constraints panel follows AI Prompt.</p>
   <p>URL parameters: <code>jam=1</code>, <code>hours=24|48|72|168</code>, <code>team=solo|small|large</code>,

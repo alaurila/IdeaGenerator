@@ -19,6 +19,9 @@ import { CATEGORIES } from './config.js';
 import { jam, setJam, loadJam, saveJam, translateJamTheme } from './jamState.js';
 import { JAM_POLICY_VERSION } from './jamPolicy.js';
 import { bindJam, renderJam } from './jamUi.js';
+import { copyText } from './clipboard.js';
+import { createShareUrl, readSharedIdea, resolveSharedIdea } from './shareData.js';
+import { bindSharing } from './shareUi.js';
 
 const grid = document.getElementById('generator');
 const starterKeys = ['genres', 'main_goals', 'twists'];
@@ -56,7 +59,9 @@ function ideaSnapshot() {
 function syncUrl() {
   // An edited idea can no longer be reproduced with its original seed.
   if (sharedSnapshot !== ideaSnapshot()) sharedSeed = null;
-  const url = updateJamUrl(updateIdeaUrl(new URL(window.location.href), currentLanguage, sharedSeed), jam);
+  let url = updateJamUrl(updateIdeaUrl(new URL(window.location.href), currentLanguage, sharedSeed), jam);
+  // Keep a previously opened shared link in sync as the user edits it.
+  if (url.hash.startsWith('#idea=')) url = createShareUrl(url, { state, catalog, language: currentLanguage, jam });
   window.history.replaceState(null, '', url);
   saveJam();
   document.getElementById('idea-output').textContent = JSON.stringify({
@@ -88,24 +93,12 @@ function startExampleIdea() {
   exampleIdea();
 }
 
-async function copyText(text) {
-  try {
-    await navigator.clipboard.writeText(text);
-  } catch {
-    // Varakeino, jos Clipboard API ei ole käytettävissä.
-    const area = document.createElement('textarea');
-    area.value = text;
-    document.body.append(area);
-    area.select();
-    document.execCommand('copy');
-    area.remove();
-  }
-}
-
 async function copyPrompt(event) {
   event.preventDefault(); // ei avaa/sulje AI Prompt -osiota
-  await copyText(buildPrompt());
-  showToast(t('toast.copied'));
+  try {
+    await copyText(buildPrompt());
+    showToast(t('toast.copied'));
+  } catch { showToast(t('share.error')); }
 }
 
 // Nappi näyttää "Näytä kaikki", kun kaikki lukitsemattomat ovat jo tyhjinä.
@@ -151,8 +144,8 @@ async function changeLanguage(code) {
     return;
   }
   translateJamTheme(catalog);
-  renderLanguage();
   translateValues(oldCatalog);
+  renderLanguage();
   if (seed !== null) {
     sharedSeed = seed;
     sharedSnapshot = ideaSnapshot();
@@ -161,6 +154,23 @@ async function changeLanguage(code) {
 }
 
 function bindEvents() {
+  window.addEventListener('hashchange', () => {
+    const url = new URL(window.location.href);
+    if (!url.hash.startsWith('#idea=')) return;
+    try {
+      const snapshot = readSharedIdea(url, LANGUAGES.map(l => l.code));
+      const resolved = resolveSharedIdea(snapshot, catalog);
+      Object.assign(state, resolved.fields);
+      setJam(resolved.jam);
+      sharedSeed = null;
+      sharedSnapshot = null;
+      commit();
+    } catch {
+      url.hash = '';
+      window.history.replaceState(null, '', url);
+      showToast(t('share.invalid'));
+    }
+  });
   bindJam(patch => {
     setJam(patch);
     rollAll();
@@ -197,7 +207,11 @@ function bindEvents() {
 }
 
 async function start() {
-  const requested = readIdeaUrl(new URL(window.location.href), LANGUAGES.map(l => l.code), savedLanguage());
+  const url = new URL(window.location.href);
+  let shared, shareError = false;
+  try { shared = readSharedIdea(url, LANGUAGES.map(l => l.code)); }
+  catch { shareError = true; }
+  const requested = readIdeaUrl(url, LANGUAGES.map(l => l.code), shared?.language ?? savedLanguage());
   const language = requested.language;
   try {
     await Promise.all([loadLanguage(language), loadAllLists(language)]);
@@ -209,6 +223,19 @@ async function start() {
 
   const restored = initState();
   loadJam(new URL(window.location.href), catalog);
+  let restoredShare = false;
+  if (shared) {
+    try {
+      const resolved = resolveSharedIdea(shared, catalog);
+      Object.assign(state, resolved.fields);
+      setJam(resolved.jam);
+      restoredShare = true;
+    } catch { shareError = true; }
+  }
+  if (shareError) {
+    url.hash = '';
+    window.history.replaceState(null, '', url);
+  }
   applyStaticTexts();
   renderLanguageSwitch();
   buildGenerator();
@@ -217,7 +244,9 @@ async function start() {
   bindEvents();
   subscribe(render);
 
-  if (requested.fresh) {
+  if (restoredShare) {
+    commit();
+  } else if (requested.fresh) {
     startNewIdea();
   } else if (requested.seed !== null) {
     startNewIdea(requested.seed);
@@ -229,6 +258,8 @@ async function start() {
   } else {
     startExampleIdea();
   }
+  bindSharing();
+  if (shareError) showToast(t('share.invalid'));
 }
 
 start();

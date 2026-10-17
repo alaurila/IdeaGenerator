@@ -90,7 +90,7 @@
     "ehdottamalla tarvittaessa yhtä tai kahta muutosta, jotka tekisivät ideasta kiinnostavamman"
   ],
   "prompt.goal": "Tavoitteena on löytää ideasta oikeasti pelattava konsepti, ei väkisin käyttää jokaista generoitua elementtiä.",
-  "jam.toggle": "Game jam",
+  "jam.toggle": "Game jam -tila",
   "jam.heading": "Game jamin rajaukset",
   "jam.time": "Aika",
   "jam.hours24": "24 tuntia",
@@ -118,5 +118,17 @@
   "jam.promptInterpret": "Näytä, miten teema vaikuttaa pelaajan tekemiseen. Ehdota kahta tulkintaa ja valitse niistä yksi. Pelkkä nimi tai taustatarina ei riitä.",
   "jam.promptBuild": "Määrittele pienin pelattava versio ja korkeintaan kolme välttämätöntä ominaisuutta. Erottele lisäideat ja ehdota karkea aikataulu valitulle ajalle, tiimille ja kokemustasolle.",
   "jam.promptWarning": "Jos säilytetty valinta on jamirajojen kanssa ristiriidassa, ehdota sen yksinkertaistamista. Älä lupaa kaikkien yhdistelmien valmistuvan aikarajassa.",
-  "jam.promptCounts": "Kunnioita kunkin kentän valittua arvojen määrää. Yksi ydinmekaniikka on laajuussuositus, ei rajoitus käyttäjän valinnoille."
+  "jam.promptCounts": "Kunnioita kunkin kentän valittua arvojen määrää. Yksi ydinmekaniikka on laajuussuositus, ei rajoitus käyttäjän valinnoille.",
+  "share.actions": "Jaa idea",
+  "share.copy": "Kopioi idea",
+  "share.link": "Kopioi linkki",
+  "share.image": "Lataa kuva",
+  "share.title": "Peli-ideani",
+  "share.credit": "Tehty Game Idea Generatorilla",
+  "share.empty": "Kenttiä ei ole valittu.",
+  "share.copied": "Idea kopioitu leikepöydälle",
+  "share.linkCopied": "Idean linkki kopioitu leikepöydälle",
+  "share.downloaded": "Kuva ladattu",
+  "share.error": "Idean jakaminen ei onnistunut. Yritä uudelleen.",
+  "share.invalid": "Jaettua ideaa ei voitu avata. Alkuperäiset vaihtoehdot ovat saattaneet muuttua."
 }

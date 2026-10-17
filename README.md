@@ -54,9 +54,27 @@ Schema version 2 replaces the earlier string values with option records. The cat
 is a SHA-256 hash of the normalized category contents; generator version 1 identifies the current
 algorithm. Reordering source options does not change the hash or seeded result.
 
+## Share an idea
+
+The top bar provides three actions:
+
+- **Copy idea** copies all included fields as readable text, with jam constraints and theme
+  when enabled, plus a small credit and link to the generator.
+- **Copy link** copies a URL that restores the actual selected option IDs, counts, locks,
+  exclusions and jam settings, including custom theme text. It works for edited ideas and
+  demonstration states, not just seeded results. The versioned snapshot is stored in the
+  `#idea=` fragment; no backend or account is required.
+- **Download image** saves a 1200-pixel-wide PNG with all included fields, jam context and
+  a small generator link. Its height adjusts to the content so longer values are not cut off.
+
+Sharing does not reroll or otherwise modify the idea. Shared links resolve permanent IDs
+against the current catalog; options removed from the catalog cannot be restored. A malformed
+or outdated snapshot shows an error instead of partially applying it. Existing seed URLs
+continue to work. The address of an opened snapshot stays in sync with later edits.
+
 ## Game jam mode
 
-Use **Game jam** in the top bar to show the compact constraints panel below AI Prompt.
+Use **Game jam mode** in the top bar to show the compact constraints panel below AI Prompt.
 Choose 24, 48 or 72 hours, or one week; solo, 2–3 or 4+ people; and the team's experience.
 The generator uses curated scope profiles for genres, locations, goals, mechanics, twists,
 scale, structure, NPC relationships, procedural elements, progression and technology. It draws

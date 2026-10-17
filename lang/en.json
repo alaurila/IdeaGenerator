@@ -90,7 +90,7 @@
     "if needed, suggesting one or two changes that would make the idea more interesting"
   ],
   "prompt.goal": "The goal is to find a genuinely playable concept, not to force in every generated element.",
-  "jam.toggle": "Game jam",
+  "jam.toggle": "Game jam mode",
   "jam.heading": "Game jam constraints",
   "jam.time": "Time",
   "jam.hours24": "24 hours",
@@ -118,5 +118,17 @@
   "jam.promptInterpret": "Make the jam theme affect what the player actually does. Suggest two possible interpretations and choose one; a theme is not just a title or backstory.",
   "jam.promptBuild": "Define the smallest playable version with at most three essential features, then separate optional stretch goals. Give a rough time plan suitable for the selected time, team and experience.",
   "jam.promptWarning": "If a retained choice conflicts with the jam scope, explain how to simplify it. Do not promise that every combination can be completed within the time limit.",
-  "jam.promptCounts": "Respect the selected number of values in each category. A single core loop is a scope suggestion, not a limit on the user's selections."
+  "jam.promptCounts": "Respect the selected number of values in each category. A single core loop is a scope suggestion, not a limit on the user's selections.",
+  "share.actions": "Share this idea",
+  "share.copy": "Copy idea",
+  "share.link": "Copy link",
+  "share.image": "Download image",
+  "share.title": "My game idea",
+  "share.credit": "Made with Game Idea Generator",
+  "share.empty": "No fields selected.",
+  "share.copied": "Idea copied to clipboard",
+  "share.linkCopied": "Idea link copied to clipboard",
+  "share.downloaded": "Image downloaded",
+  "share.error": "Could not share the idea. Please try again.",
+  "share.invalid": "This shared idea could not be opened. The original options may have changed."
 }
