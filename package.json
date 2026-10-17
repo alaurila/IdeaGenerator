@@ -3,6 +3,7 @@
   "private": true,
   "type": "module",
   "scripts": {
+    "pretest": "node scripts/build-static.js",
     "generate": "node scripts/generate-idea.js",
     "build": "node scripts/build-static.js",
     "test": "node --test"

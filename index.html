@@ -54,6 +54,7 @@
           <button id="jam-toggle" class="btn" aria-pressed="false" aria-controls="jam-panel" data-i18n="jam.toggle">Game jam mode</button>
           <button id="emphasize-all" class="btn" aria-pressed="false">Emphasize all fields</button>
           <button id="roll-all" class="btn"><i class="fa-solid fa-dice" aria-hidden="true"></i> <span data-i18n="toolbar.rollAll">Roll All</span></button>
+          <button id="smart-roll" class="btn btn--accent" disabled><span aria-hidden="true">🔥</span> <span data-i18n="smart.action">Find a more interesting mix</span></button>
           <button id="unlock-all" class="btn"><i class="fa-solid fa-lock-open" aria-hidden="true"></i> <span data-i18n="toolbar.unlockAll">Unlock All</span></button>
           <button id="empty-unlocked" class="btn"><i class="fa-solid fa-eye-slash" aria-hidden="true"></i> <span>Empty Unlocked</span></button>
         </div>
@@ -74,6 +75,13 @@
       </summary>
       <pre id="prompt-output" class="prompt-output"></pre>
     </details>
+
+    <section id="idea-scores" class="idea-scores" hidden aria-labelledby="scores-heading">
+      <h2 id="scores-heading" data-i18n="smart.heading">Idea scores</h2>
+      <dl class="score-grid" aria-live="polite" aria-atomic="true"></dl>
+      <p class="score-hint" data-i18n="smart.scope">Rule-based estimates for genre, setting, core mechanics, mood and twist.</p>
+      <ul class="score-explanations"></ul>
+    </section>
 
     <section id="jam-panel" class="jam-panel" hidden aria-labelledby="jam-heading">
       <h2 id="jam-heading" data-i18n="jam.heading">Game jam constraints</h2>
@@ -185,6 +193,15 @@
         <code>generateIdea({ catalog, language, seed })</code>; use a fresh random seed for each new idea.</p>
       <p>From a local checkout, this command prints a fresh JSON idea using the default English catalog:</p>
       <pre><code>npm run --silent generate -- --lang en</code></pre>
+      <p>For a scored combination, add <code>--smart</code>. It evaluates 500 candidates locally,
+        randomly picks from the top ten qualifying combinations, and returns <code>scores</code>,
+        <code>explanations</code> (including localized text) and <code>smart</code> search details in the JSON.</p>
+      <pre><code>npm run --silent generate -- --smart --lang en</code></pre>
+      <p>Combine <code>--smart</code> with language, jam or catalog options. To replay a smart result,
+        keep <code>--smart</code> and pass its <code>--seed</code> with the same options and versions;
+        an ordinary browser seed URL runs ordinary generation. Use current catalogs containing
+        scoring metadata. No pre-generated idea or LLM/API call is used for smart search.
+        JavaScript bots can also import <a href="js/smartGeneration.js">generateSmartIdea()</a>.</p>
       <p>Add <code>--jam --hours 48 --team solo --experience beginner</code> for a jam idea,
         or <code>--catalog-url</code> followed by a catalog URL to use the served data.
         Full response fields, theme options and examples are in the <a href="api.html">API and AI usage guide</a>.</p>

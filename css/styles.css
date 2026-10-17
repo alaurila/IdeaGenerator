@@ -121,6 +121,26 @@ h1 i { color: var(--accent); margin-right: 6px; }
 .language-generate .lang-btn { padding: 7px 10px; font-size: 12px; }
 .language-generate .btn { height: 36px; padding: 0 16px; font-size: 13px; white-space: nowrap; }
 
+/* ---------- Compact idea scores ---------- */
+
+.idea-scores { margin: 12px 0; padding: 10px 14px; border: 1px solid var(--border); border-radius: var(--radius-sm); }
+.idea-scores h2 { margin: 0 0 6px; font-size: 12px; color: var(--text-muted); font-weight: 500; }
+.score-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(115px, 1fr)); gap: 8px 20px; margin: 0; }
+.score-metric { min-width: 0; }
+.score-metric dt { display: inline; font-size: 12px; color: var(--text-muted); }
+.score-metric dd { margin: 0; display: inline; font-size: 13px; }
+.score-metric output { margin-left: 6px; font-weight: 600; font-variant-numeric: tabular-nums; }
+.score-max { color: var(--text-muted); font-size: 10px; }
+.score-metric--total output { color: var(--accent-strong); }
+.score-metric progress { display: block; appearance: none; width: 100%; height: 4px; margin-top: 4px; border: 0; border-radius: 2px; overflow: hidden; background: var(--border); color: var(--accent); accent-color: var(--accent); }
+.score-metric progress::-webkit-progress-bar { background: var(--border); }
+.score-metric progress::-webkit-progress-value { background: var(--accent); }
+.score-metric progress::-moz-progress-bar { background: var(--accent); }
+.score-hint { margin: 6px 0 0; color: var(--text-muted); font-size: 11px; }
+.score-explanations { margin: 8px 0 0; padding-left: 16px; color: var(--text-muted); font-size: 12px; overflow-wrap: anywhere; }
+.score-explanations:empty { display: none; }
+.score-explanations li + li { margin-top: 3px; }
+
 /* ---------- Buttons ---------- */
 
 .btn {

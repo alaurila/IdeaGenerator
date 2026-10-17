@@ -23,6 +23,52 @@
   <pre><code>node scripts/generate-idea.js --lang en --catalog-url https://alaurila.github.io/IdeaGenerator/data/en/catalog.json</code></pre>
   <p>Only pass <code>--seed my-idea-123</code> when replaying a specific idea.</p>
 
+  <h2 id="smart-generation">Smart generation and compatibility scores</h2>
+  <p>Add <code>--smart</code> to generate a fresh idea and evaluate 500 candidate combinations.
+    The search chooses randomly from the top ten distinct combinations scoring at least as highly as
+    the initial idea. If none qualify, it keeps the initial idea. Scoring uses genre, setting,
+    core mechanics, mood and twist only. No LLM, API key or external scoring service is used.</p>
+  <pre><code>npm run --silent generate -- --smart
+npm run --silent generate -- --smart --lang fi
+npm run --silent generate -- --smart --jam --hours 48 --team solo --experience beginner
+node scripts/generate-idea.js --smart --catalog-url https://alaurila.github.io/IdeaGenerator/data/en/catalog.json</code></pre>
+  <p>All existing language, jam, theme and catalog options work with <code>--smart</code>.
+    English is the default, and a fresh UUID seed is used unless you explicitly request a replay.
+    These commands generate combinations from the catalog, not saved examples.</p>
+  <p>The versioned idea JSON additionally contains:</p>
+  <ul>
+    <li><code>scores</code>: numeric <code>synergy</code>, <code>tension</code>, <code>novelty</code>,
+      <code>conflict</code> and <code>total</code>, each between 0 and 100. Contrasts increase tension;
+      only explicit conflicts incur a penalty. Commonness is an initial estimate, not measured popularity.</li>
+    <li><code>explanations</code>: one to three objects with a template <code>key</code>, evidence
+      <code>params</code> and readable <code>text</code> translated into the selected language.
+      Metadata trait identifiers in <code>params</code> stay English.</li>
+    <li><code>smart</code>: <code>version</code> (currently 1), <code>candidateCount</code> (500),
+      <code>topCount</code> (10), <code>evaluated</code> (candidate attempts), <code>changed</code>
+      and <code>reason</code> (<code>selected</code> or <code>noImprovement</code>).</li>
+  </ul>
+  <p>Replay with <strong>both</strong> <code>--smart</code> and the returned <code>--seed</code>, keeping
+    the language, catalog, jam/theme options and smart algorithm/scoring version unchanged:</p>
+  <pre><code>npm run --silent generate -- --smart --lang fi --seed my-smart-idea</code></pre>
+  <p>An ordinary <code>?seed=</code> browser link runs ordinary generation, not smart search.
+    Archive the full JSON for exact long-term preservation. The UI's Copy link action shares the
+    actual selections of ideas created in the browser, including Smart Roll results.</p>
+  <p>A current catalog with complete scoring metadata is required. If <code>--smart</code> reports
+    missing scoring metadata, run <code>npm run build</code> for local data or update the served catalog.
+    Without <code>--smart</code>, the command retains ordinary generation and its existing JSON fields.</p>
+  <p>JavaScript bots can use the browser-independent module with the same options as
+    <code>generateIdea()</code>, including optional <code>jam</code> and <code>counts</code>:</p>
+  <pre><code>import { generateSmartIdea } from './js/smartGeneration.js';
+
+const idea = await generateSmartIdea({
+  catalog,
+  language: 'en',
+  seed: crypto.randomUUID()
+});
+const { scores, explanations, smart } = idea;</code></pre>
+  <p>The module returns explanation keys and parameters; the CLI also adds localized text.
+    The module does not fetch catalogs, access the DOM or read storage.</p>
+
   <h2>Generate using browser automation</h2>
   <p>Open <a href="./?lang=en&amp;fresh=1">?lang=en&amp;fresh=1</a> in a JavaScript-capable browser.
     Every navigation to that address generates a fresh seed and overrides previously saved state, even if a
@@ -37,6 +83,9 @@ await page.waitForFunction(() =&gt; {
 const idea = JSON.parse(await page.locator('#idea-output').textContent());</code></pre>
   <p>After manual edits, the current-idea JSON uses <code>seed: null</code> and an empty array for excluded categories.
     JSON is populated at runtime; fetching the original HTML without running JavaScript returns no generated idea.</p>
+  <p>For interactive smart search, click <code>#smart-roll</code> and wait until it is enabled again.
+    The page shows the scores and explanations; <code>#idea-output</code> contains the selected idea.
+    Use the CLI's <code>--smart</code> response when you need scores and explanation text together as JSON.</p>
 
   <h2>Catalogs for bots without browser automation</h2>
   <p>Fetch the appropriate catalog, then generate a combination locally. These files contain all available
@@ -44,9 +93,9 @@ const idea = JSON.parse(await page.locator('#idea-output').textContent());</code
   <ul>
     <li><a href="data/en/catalog.json">English / en (default)</a></li>
     <li><a href="data/fi/catalog.json">Suomi / fi</a></li>
-    <li><a href="data/es/catalog.json">Espa?ol / es</a></li>
-    <li><a href="data/pt/catalog.json">Portugu?s / pt</a></li>
-    <li><a href="data/fr/catalog.json">Fran?ais / fr</a></li>
+    <li><a href="data/es/catalog.json">Español / es</a></li>
+    <li><a href="data/pt/catalog.json">Português / pt</a></li>
+    <li><a href="data/fr/catalog.json">Français / fr</a></li>
   </ul>
   <p>Use the pure generation module described below, or sample options yourself if you cannot run JavaScript.
     For the default category counts, choose two distinct options for <code>genres</code>, <code>core_mechanics</code>,

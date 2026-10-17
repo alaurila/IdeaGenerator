@@ -86,7 +86,11 @@ export function generateIdea({ catalog, language, seed, jam: jamInput, counts = 
     }
     // Sorting IDs makes source file reordering irrelevant to seeded results.
     const ordered = [...jamSelectionOptions(catalog, category.key, jam, count)].sort((a, b) => a.id < b.id ? -1 : a.id > b.id ? 1 : 0);
-    return [category.key, pickUnique(ordered, count, [], random).map(({ id, text }) => ({ id, text }))];
+    return [category.key, pickUnique(ordered, count, [], random).map(option => ({
+      id: option.id, text: option.text,
+      ...(option.tags ? { tags: [...option.tags], contrasts: [...option.contrasts], commonness: option.commonness,
+        ...(option.conflicts ? { conflicts: [...option.conflicts] } : {}) } : {})
+    }))];
   }));
   return { schemaVersion: SCHEMA_VERSION, generatorVersion: GENERATOR_VERSION,
     catalogVersion: catalog.catalogVersion, language, seed, categories,

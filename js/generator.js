@@ -27,6 +27,18 @@ export function rollAll() {
   commit(rolled);
 }
 
+export function applySmartIdea(idea) {
+  const changed = [];
+  CATEGORIES.forEach(({key}) => {
+    const entry = state[key];
+    if (entry.locked || entry.excluded) return;
+    entry.values = idea.categories[key].map(v => v.text);
+    entry.ids = idea.categories[key].map(v => v.id);
+    changed.push(key);
+  });
+  commit(changed);
+}
+
 // Match translations by permanent IDs, independent of source list order.
 export function translateValues(oldCatalog) {
   CATEGORIES.forEach(({ key }) => {

@@ -64,7 +64,6 @@ test('URL language takes priority and seed survives encoding, including empty se
 });
 
 test('published catalogs preserve IDs and bot entry points request fresh generation', async () => {
-  execFileSync(process.execPath, ['scripts/build-static.js'], { cwd: root, stdio: 'pipe' });
   for (const { code } of LANGUAGES) {
     const catalog = await readJson(`data/${code}/catalog.json`);
     for (const c of CATEGORIES) {

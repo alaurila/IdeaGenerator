@@ -1,5 +1,6 @@
-import { readFile, writeFile } from 'node:fs/promises';
+import { readFile, writeFile, rename } from 'node:fs/promises';
 import { createHash } from 'node:crypto';
+import { setTimeout as delay } from 'node:timers/promises';
 import { CATEGORIES } from '../js/config.js';
 import { LANGUAGES, DEFAULT_LANGUAGE } from '../js/i18n.js';
 import { collectOptions, generateIdea, SCHEMA_VERSION } from '../js/ideaEngine.js';
@@ -8,12 +9,23 @@ import { JAM_POLICY_VERSION } from '../js/jamPolicy.js';
 
 const root = new URL('../', import.meta.url);
 const readJson = async path => JSON.parse(await readFile(new URL(path, root), 'utf8'));
-const write = (path, text) => writeFile(new URL(path, root), text, 'utf8');
+const write = async (path, text) => {
+  const temporary = new URL(`${path}.tmp`, root);
+  await writeFile(temporary, text, 'utf8');
+  for (let attempt = 0; ; attempt++) {
+    try { await rename(temporary, new URL(path, root)); break; }
+    catch (error) {
+      if (attempt >= 5 || !['EPERM','EACCES','EBUSY'].includes(error.code)) throw error;
+      await delay(100);
+    }
+  }
+};
 const json = value => JSON.stringify(value, null, 2) + '\n';
 
 let referenceIds;
 let referenceThemeIds;
 const profiles = await readJson('data/jam_profiles.json');
+const smartMetadata = await readJson('data/smart_metadata.json');
 for (const { code } of LANGUAGES) {
   const strings = await readJson(`lang/${code}.json`);
   const catalog = Object.fromEntries(await Promise.all(CATEGORIES.map(async c =>
@@ -24,6 +36,14 @@ for (const { code } of LANGUAGES) {
     if (!options.length || options.some(v => !v.id || !v.text) ||
         new Set(options.map(v => v.id)).size !== options.length) {
       throw new Error(`Invalid or duplicate option IDs: ${code}/${key}`);
+    }
+    if (smartMetadata.categories[key]) {
+      if (options.length !== Object.keys(smartMetadata.categories[key]).length) throw new Error(`Incomplete smart metadata: ${key}`);
+      for (const option of options) {
+        const metadata = smartMetadata.categories[key][option.id];
+        if (!metadata) throw new Error(`Missing smart metadata: ${option.id}`);
+        Object.assign(option, metadata);
+      }
     }
     const profiled = new Set();
     for (const [level, numbers] of Object.entries(profiles[key] ?? {})) {
@@ -73,7 +93,7 @@ for (const { code } of LANGUAGES) {
     </details>
     <!-- static-example:end -->`;
     if (!homepage.includes('<!-- static-example:start -->')) throw new Error('Missing homepage example marker');
-    await writeFile(path, homepage.replace(/<!-- static-example:start -->[\s\S]*?<!-- static-example:end -->/, snippet), 'utf8');
+    await write('index.html', homepage.replace(/<!-- static-example:start -->[\s\S]*?<!-- static-example:end -->/, snippet));
   }
 }
 console.log(`Built a catalog for each of ${LANGUAGES.length} languages.`);

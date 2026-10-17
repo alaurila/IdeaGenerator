@@ -19,6 +19,18 @@ The CLI generates a random UUID seed unless you explicitly supply `--seed` for r
 Use `--catalog-url https://alaurila.github.io/IdeaGenerator/data/en/catalog.json` to fetch the
 published catalog instead of using the local one.
 
+Add `--smart` to evaluate 500 candidates and return a scored selection with explanations:
+
+```sh
+npm run --silent generate -- --smart
+npm run --silent generate -- --smart --lang fi
+npm run --silent generate -- --smart --jam --hours 48 --team solo --experience beginner
+```
+
+The JSON adds `scores`, `explanations` (template `key`, `params` and localized `text`) and
+`smart` (search version, candidate/top counts, evaluated attempts, changed flag and reason).
+English remains the default. Omit `--smart` for ordinary random generation.
+
 For browser automation, open `?lang=en&fresh=1` each time, wait for `#idea-output` to contain
 an object, then parse its text content as JSON. The address changes to a seeded replay URL.
 This overrides stored state and any seed parameter. Reloading the resulting seeded URL replays
@@ -48,7 +60,8 @@ const idea = generateIdea({
 
 `generateIdea()` has no DOM, storage or network dependencies and does not mutate its inputs.
 It returns `{ schemaVersion, generatorVersion, catalogVersion, language, seed, categories }`.
-Each category is an array of `{ id, text }` options. The same language, seed, catalog and algorithm
+Each category is an array of `{ id, text }` options, with scoring metadata on the five core
+categories described below. The same language, seed, catalog and algorithm
 produce the same result. A changed catalog or algorithm can change existing seeded results.
 Schema version 2 replaces the earlier string values with option records. The catalog version
 is a SHA-256 hash of the normalized category contents; generator version 1 identifies the current
@@ -132,7 +145,59 @@ without demonstration locks or exclusions. Roll All respects existing locks and 
 Changing the language keeps the seed for an unedited generated idea. Manual value changes,
 rolls or exclusions remove the seed because it no longer represents the displayed idea.
 The language remains in the URL. A manually edited idea still persists locally, but is not
-encoded as a shareable URL.
+automatically encoded in an ordinary seeded URL; use Copy link to share its actual selections.
+
+## Smart generation
+
+**Find a more interesting mix** is a separate action beside Roll All. It evaluates 500 candidate
+ideas locally and randomly chooses from the ten highest-scoring distinct combinations that
+match or improve the current score. If no candidate qualifies, it keeps the current idea.
+It preserves locked and excluded fields, chosen counts, game jam scope and the current theme.
+Ordinary generation continues to work independently.
+
+A compact panel below AI Prompt shows synergy, tension, novelty and interestingness, with
+one to three short explanations. Conflict penalties appear only for explicit design conflicts;
+unusual contrasts contribute positively to tension. No LLM, API key or network service is used
+for scoring, searching or explanations.
+
+Only genre, setting, core mechanics, mood and twist affect scores in this first version.
+Their English metadata keys are shared by all five languages in `data/smart_metadata.json`.
+Commonness values are initial design estimates rather than measured popularity. Pair weights,
+support rules and the total formula live in `js/scoringConfig.js`. See
+[SMART_GENERATION.md](SMART_GENERATION.md) for the implementation and its limits.
+
+The CLI's `--smart` uses the same search and scoring rules. Combine it with `--lang`, all
+jam options and `--catalog-url`. Smart generation requires the five-category scoring metadata;
+rebuild an outdated local catalog with `npm run build`, or serve/deploy an updated catalog.
+
+Replay a smart result with **both** `--smart` and its `--seed`, keeping the language, catalog,
+jam options and smart algorithm/scoring version the same:
+
+```sh
+npm run --silent generate -- --smart --lang fi --seed my-smart-idea
+```
+
+An ordinary `?seed=` browser link runs ordinary generation, so it does not reproduce the CLI's
+smart search. Keep the complete JSON to archive a smart result. The browser's Copy link action
+shares the actual selections of a smart result created in the UI.
+
+The browser-independent `generateSmartIdea()` module accepts the same options as `generateIdea()`:
+
+```js
+import { generateSmartIdea } from './js/smartGeneration.js';
+
+const idea = await generateSmartIdea({ catalog, language: 'en', seed: crypto.randomUUID() });
+// idea.scores, idea.smart and idea.explanations (template keys and params).
+// The CLI also adds localized text to each explanation.
+```
+
+```js
+import { scoreIdea } from './js/scoring.js';
+import { explainIdea } from './js/scoreExplanations.js';
+
+const scores = scoreIdea(idea); // Pure, independent of the DOM.
+const explanations = explainIdea(idea); // Template keys and supporting evidence.
+```
 
 ## Publish
 

@@ -3,7 +3,7 @@
 import { catalog, loadAllLists } from './dataLoader.js';
 import { state, initState, subscribe, commit } from './state.js';
 import {
-  rollAll, rollCategory, fillMissing, newIdea, exampleIdea, unlockAll,
+  rollAll, rollCategory, fillMissing, newIdea, exampleIdea, unlockAll, applySmartIdea,
   toggleLock, changeCount, toggleExcluded, translateValues,
   toggleUnlockedExcluded, allUnlockedExcluded
 } from './generator.js';
@@ -22,6 +22,8 @@ import { bindJam, renderJam } from './jamUi.js';
 import { copyText } from './clipboard.js';
 import { createShareUrl, readSharedIdea, resolveSharedIdea } from './shareData.js';
 import { bindSharing } from './shareUi.js';
+import { findSmartIdea } from './smartRoll.js';
+import { renderScores } from './scoreUi.js';
 
 const grid = document.getElementById('generator');
 const starterKeys = ['genres', 'main_goals', 'twists'];
@@ -50,6 +52,32 @@ const languageSwitch = document.getElementById('language-switch');
 const emptyUnlockedBtn = document.getElementById('empty-unlocked');
 let sharedSeed = null;
 let sharedSnapshot = null;
+let smartSearch = null;
+
+async function startSmartRoll() {
+  if (smartSearch) return;
+  const button = document.getElementById('smart-roll');
+  const controller = new AbortController();
+  smartSearch = controller;
+  button.disabled = true;
+  button.setAttribute('aria-busy', 'true');
+  button.querySelector('[data-i18n="smart.action"]').textContent = t('smart.searching');
+  const revision = JSON.stringify({state,jam,version:catalog.catalogVersion});
+  try {
+    const result = await findSmartIdea({state:structuredClone(state), catalog, jam:structuredClone(jam), signal:controller.signal});
+    if (controller.signal.aborted || revision !== JSON.stringify({state,jam,version:catalog.catalogVersion})) return;
+    smartSearch = null;
+    if (result.changed) applySmartIdea(result.idea);
+    showToast(t(result.reason === 'noEditable' ? 'smart.noEditable' : result.changed ? 'smart.selected' : 'smart.noImprovement'));
+  } catch (error) {
+    if (error.name !== 'AbortError') showToast(t('smart.error'));
+  } finally {
+    if (smartSearch === controller) smartSearch = null;
+    button.disabled = false;
+    button.removeAttribute('aria-busy');
+    button.querySelector('[data-i18n="smart.action"]').textContent = t('smart.action');
+  }
+}
 
 function ideaSnapshot() {
   return JSON.stringify({ fields: Object.entries(state).map(([key, entry]) =>
@@ -110,9 +138,11 @@ function updateEmptyUnlockedButton() {
 }
 
 function render(changedKeys) {
+  smartSearch?.abort();
   updateCards(grid, changedKeys);
   updateEmptyUnlockedButton();
   promptEl.textContent = buildPrompt();
+  renderScores(state, catalog);
   renderJam();
   refreshBrowser();
   syncUrl();
@@ -135,6 +165,7 @@ function renderLanguage() {
 
 async function changeLanguage(code) {
   if (code === currentLanguage) return;
+  smartSearch?.abort();
   const seed = sharedSeed;
   const oldCatalog = catalog;
   try {
@@ -154,6 +185,7 @@ async function changeLanguage(code) {
 }
 
 function bindEvents() {
+  document.getElementById('smart-roll').addEventListener('click', startSmartRoll);
   window.addEventListener('hashchange', () => {
     const url = new URL(window.location.href);
     if (!url.hash.startsWith('#idea=')) return;
@@ -259,6 +291,7 @@ async function start() {
     startExampleIdea();
   }
   bindSharing();
+  document.getElementById('smart-roll').disabled = false;
   if (shareError) showToast(t('share.invalid'));
 }
 
