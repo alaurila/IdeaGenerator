@@ -1,6 +1,6 @@
 import { CATEGORIES, MIN_COUNT, MAX_COUNT } from './config.js';
 import { normalizeJam } from './jamPolicy.js';
-import { readEasyUrl, updateEasyUrl } from './ideaUrl.js';
+import { readEasyUrl, updateEasyUrl, readHelpUrl } from './ideaUrl.js';
 
 const MAX_PAYLOAD_LENGTH = 16000;
 
@@ -21,8 +21,10 @@ export function createShareUrl(url, { state, catalog, language, jam }) {
   if (encoded.length > MAX_PAYLOAD_LENGTH) throw new Error('Shared idea is too large');
   const result = new URL(url);
   const easy = readEasyUrl(result);
+  const help = readHelpUrl(result);
   result.search = '';
   result.searchParams.set('lang', language);
+  if (help) result.searchParams.set('help', '1');
   result.hash = `idea=${encoded}`;
   return updateEasyUrl(result, easy);
 }

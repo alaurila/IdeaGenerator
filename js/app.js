@@ -13,7 +13,7 @@ import { buildPrompt } from './promptBuilder.js';
 import { initBrowser, buildBrowser, refreshBrowser } from './listBrowser.js';
 import { LANGUAGES, currentLanguage, savedLanguage, loadLanguage, applyStaticTexts, t } from './i18n.js';
 import { escapeHtml } from './dom.js';
-import { readIdeaUrl, updateIdeaUrl, updateJamUrl, readEasyUrl, updateEasyUrl } from './ideaUrl.js';
+import { readIdeaUrl, updateIdeaUrl, updateJamUrl, readEasyUrl, updateEasyUrl, readHelpUrl } from './ideaUrl.js';
 import { SCHEMA_VERSION, GENERATOR_VERSION, pickUnique } from './ideaEngine.js';
 import { CATEGORIES } from './config.js';
 import { jam, setJam, loadJam, saveJam, translateJamTheme } from './jamState.js';
@@ -338,6 +338,7 @@ async function start() {
   document.getElementById('smart-roll').disabled = false;
   document.getElementById('easy-mode').disabled = false;
   tour = initTour({offer:!requested.fresh && requested.seed === null && !shared,
+    force:readHelpUrl(url),
     getEasyMode:()=>easyMode,
     setEasyMode:enabled=>{
       setEasyMode(enabled);

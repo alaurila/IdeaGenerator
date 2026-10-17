@@ -4,7 +4,7 @@ import { placeTourBubble } from './tourPosition.js';
 const STORAGE_KEY = 'gameIdeaGenerator.tour.v1';
 const visible = element => element && element.getClientRects().length && getComputedStyle(element).visibility !== 'hidden';
 
-export function initTour({offer, getEasyMode, setEasyMode}) {
+export function initTour({offer, force = false, getEasyMode, setEasyMode}) {
   const root = document.getElementById('guided-tour');
   const bubble = document.getElementById('tour-bubble');
   const welcome = document.getElementById('tour-welcome');
@@ -188,6 +188,7 @@ export function initTour({offer, getEasyMode, setEasyMode}) {
   help.disabled = false;
   let seen = false;
   try {seen=Boolean(localStorage.getItem(STORAGE_KEY));} catch {}
-  if (offer && !seen) welcome.showModal();
+  if (force) start();
+  else if (offer && !seen) welcome.showModal();
   return {action,refresh:schedule};
 }

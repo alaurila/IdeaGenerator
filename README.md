@@ -79,6 +79,11 @@ The first ordinary visit offers the tour once. Starting, skipping or completing 
 in this browser; Help can restart it at any time. Explicit seed, `fresh=1` and shared snapshot
 entry points skip the invitation so bot generation and direct replays remain unobstructed.
 
+Add `help=1` to start the tour directly at its first step, even if it was already completed or
+skipped: for example `?lang=fi&help=1` or `?lang=en&easy=1&help=1`. This explicit flag also works
+with seed, fresh and shared snapshot URLs and is retained by Copy link. Remove it to return to
+normal startup; while present, it forces the tour again on each page load.
+
 The tour may switch Easy mode or open AI Prompt/Idea scores to reveal a control, but it never
 generates, copies, changes locks or enables jam mode on your behalf. Generate idea still asks
 for confirmation; cancelling returns to the same tour step. Bubbles follow scrolling and resizing,
@@ -105,7 +110,7 @@ the URL stores the mode, not the random choice of visible extra fields.
 
 ## Browse Lists
 
-Click the Browse Lists heading to collapse or expand the list browser. It starts open and
+Click the Browse Lists heading to collapse or expand the list browser. It starts collapsed and
 preserves its open state during rolls, language changes and Easy mode toggles. Collapsing it
 does not reset the selected category, search or page, or change the idea.
 

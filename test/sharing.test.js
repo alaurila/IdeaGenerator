@@ -42,6 +42,11 @@ test('sharing retains Easy mode without changing the underlying idea snapshot', 
   assert.equal(easy.searchParams.get('easy'),'1');
   assert.deepEqual(readSharedIdea(easy,['en']),readSharedIdea(normal,['en']));
   assert.equal(createShareUrl('https://example.org/?easy=0',model).searchParams.has('easy'),false);
+  const forced=createShareUrl('https://example.org/?easy=1&help=1&seed=test',model);
+  assert.equal(forced.searchParams.get('help'),'1');
+  assert.equal(forced.searchParams.get('easy'),'1');
+  assert.deepEqual(readSharedIdea(forced,['en']),readSharedIdea(normal,['en']));
+  assert.equal(createShareUrl('https://example.org/?help=0',model).searchParams.has('help'),false);
 });
 
 test('corrupt and unavailable snapshots fail without modifying application state', () => {

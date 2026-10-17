@@ -5,6 +5,10 @@ export function readEasyUrl(url) {
   return url.searchParams.get('easy') === '1';
 }
 
+export function readHelpUrl(url) {
+  return url.searchParams.get('help') === '1';
+}
+
 export function updateEasyUrl(url, enabled) {
   const result = new URL(url);
   if (enabled) result.searchParams.set('easy', '1');
