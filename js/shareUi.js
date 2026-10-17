@@ -28,7 +28,7 @@ export function captureShareModel() {
   };
 }
 
-export function bindSharing() {
+export function bindSharing(onSuccess = () => {}) {
   const actions = [
     ['copy-idea', model => copyText(buildShareText(model)), 'share.copied'],
     ['copy-idea-link', model => copyText(model.shareUrl), 'share.linkCopied'],
@@ -44,6 +44,7 @@ export function bindSharing() {
         // Capture before any async work, so changing the idea cannot mix two exports.
         await action(captureShareModel());
         showToast(t(success));
+        onSuccess(id);
       } catch {
         showToast(t('share.error'));
       } finally {

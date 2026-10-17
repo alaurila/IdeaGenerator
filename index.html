@@ -60,6 +60,7 @@
           <button id="smart-roll" class="btn btn--accent" disabled><span aria-hidden="true">🔥</span> <span data-i18n="smart.action">Find a more interesting mix</span></button>
           <button id="unlock-all" class="btn"><i class="fa-solid fa-lock-open" aria-hidden="true"></i> <span data-i18n="toolbar.unlockAll">Unlock All</span></button>
           <button id="empty-unlocked" class="btn"><i class="fa-solid fa-eye-slash" aria-hidden="true"></i> <span>Empty Unlocked</span></button>
+          <button id="start-tour" class="btn" disabled aria-haspopup="dialog" aria-controls="tour-bubble" data-i18n="tour.help">Help</button>
         </div>
         <div class="toolbar share-actions" role="group" data-i18n-aria-label="share.actions" aria-label="Share this idea">
           <button id="copy-idea" class="btn" disabled><i class="fa-regular fa-copy" aria-hidden="true"></i> <span data-i18n="share.copy">Copy idea</span></button>
@@ -141,7 +142,7 @@
   <footer class="container bot-instructions site-info" lang="en">
     <details id="about-generator">
       <summary><h2>About the generator</h2></summary>
-      <p>Game Idea Generator is a free browser tool for indie developers, game jam participants,
+      <p>Game Idea Generator is a free browser tool for developers, game jam participants,
         solo creators and small teams looking for a starting point for their next game.
         Combine genres, goals, mechanics, settings and twists across 19 customizable fields.</p>
       <p>Generate idea creates a fresh example with 2–3 locked fields and 2–3 excluded fields to
@@ -231,6 +232,36 @@
     <script type="application/json" id="idea-output">null</script>
 
   </footer>
+
+  <dialog id="tour-welcome" class="confirm-dialog" aria-labelledby="tour-welcome-title" aria-describedby="tour-welcome-copy">
+    <form method="dialog">
+      <h2 id="tour-welcome-title" data-i18n="tour.welcomeTitle">Would you like a quick tour?</h2>
+      <p id="tour-welcome-copy" data-i18n="tour.welcomeText">Small speech bubbles show you how to shape, save and develop your idea. You can skip at any time.</p>
+      <div class="confirm-actions">
+        <button type="submit" class="btn" value="skip" autofocus data-i18n="tour.skip">Skip tour</button>
+        <button type="submit" class="btn btn--primary" value="start" data-i18n="tour.start">Start tour</button>
+      </div>
+    </form>
+  </dialog>
+
+  <div id="guided-tour" class="tour-overlay" hidden>
+    <div class="tour-shade" data-tour-box="top"></div>
+    <div class="tour-shade" data-tour-box="bottom"></div>
+    <div class="tour-shade" data-tour-box="left"></div>
+    <div class="tour-shade" data-tour-box="right"></div>
+    <div class="tour-highlight" data-tour-box="highlight" aria-hidden="true"></div>
+    <section id="tour-bubble" class="tour-bubble" role="dialog" aria-labelledby="tour-heading" aria-describedby="tour-copy">
+      <span class="tour-arrow" aria-hidden="true"></span>
+      <p id="tour-progress" class="tour-progress"></p>
+      <h2 id="tour-heading" tabindex="-1"></h2>
+      <p id="tour-copy"></p>
+      <div class="tour-actions">
+        <button type="button" id="tour-skip" class="tour-skip" data-i18n="tour.skip">Skip tour</button>
+        <button type="button" id="tour-back" class="btn" data-i18n="tour.back">Back</button>
+        <button type="button" id="tour-next" class="btn btn--accent" data-i18n="tour.next">Next</button>
+      </div>
+    </section>
+  </div>
 
   <dialog id="new-idea-dialog" class="confirm-dialog" aria-labelledby="new-idea-title" aria-describedby="new-idea-message">
     <form method="dialog">

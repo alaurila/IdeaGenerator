@@ -24,6 +24,7 @@ import { createShareUrl, readSharedIdea, resolveSharedIdea } from './shareData.j
 import { bindSharing } from './shareUi.js';
 import { findSmartIdea } from './smartRoll.js';
 import { renderScores } from './scoreUi.js';
+import { initTour } from './tour.js';
 
 const grid = document.getElementById('generator');
 const starterKeys = ['genres', 'main_goals', 'twists'];
@@ -73,6 +74,7 @@ const emptyUnlockedBtn = document.getElementById('empty-unlocked');
 let sharedSeed = null;
 let sharedSnapshot = null;
 let smartSearch = null;
+let tour = null;
 
 async function startSmartRoll() {
   if (smartSearch) return;
@@ -89,6 +91,7 @@ async function startSmartRoll() {
     smartSearch = null;
     if (result.changed) applySmartIdea(result.idea);
     showToast(t(result.reason === 'noEditable' ? 'smart.noEditable' : result.changed ? 'smart.selected' : 'smart.noImprovement'));
+    tour?.action('smart');
   } catch (error) {
     if (error.name !== 'AbortError') showToast(t('smart.error'));
   } finally {
@@ -147,6 +150,7 @@ async function copyPrompt(event) {
   try {
     await copyText(buildPrompt());
     showToast(t('toast.copied'));
+    tour?.action('copyPrompt');
   } catch { showToast(t('share.error')); }
 }
 
@@ -210,6 +214,7 @@ function bindEvents() {
     setEasyMode(!easyMode);
     updateEasyMode();
     window.history.replaceState(null, '', updateEasyUrl(new URL(window.location.href), easyMode));
+    tour?.action(easyMode ? 'easyOn' : 'easyOff');
   });
   document.getElementById('smart-roll').addEventListener('click', startSmartRoll);
   window.addEventListener('hashchange', () => {
@@ -246,7 +251,10 @@ function bindEvents() {
   newIdeaDialog.addEventListener('close', () => {
     const confirmed = newIdeaDialog.returnValue === 'generate';
     newIdeaDialog.returnValue = '';
-    if (confirmed) startExampleIdea();
+    if (confirmed) {
+      startExampleIdea();
+      tour?.action('generate');
+    }
   });
   document.getElementById('roll-all').addEventListener('click', rollAll);
   document.getElementById('unlock-all').addEventListener('click', unlockAll);
@@ -263,7 +271,7 @@ function bindEvents() {
     if (!button) return;
     const key = button.closest('.card').dataset.key;
     switch (button.dataset.action) {
-      case 'lock': toggleLock(key); break;
+      case 'lock': toggleLock(key); tour?.action('lock'); break;
       case 'roll': rollCategory(key); break;
       case 'pick': openPicker(key); break;
       case 'exclude': toggleExcluded(key); break;
@@ -326,9 +334,16 @@ async function start() {
   } else {
     startExampleIdea();
   }
-  bindSharing();
+  bindSharing(action => tour?.action(action));
   document.getElementById('smart-roll').disabled = false;
   document.getElementById('easy-mode').disabled = false;
+  tour = initTour({offer:!requested.fresh && requested.seed === null && !shared,
+    getEasyMode:()=>easyMode,
+    setEasyMode:enabled=>{
+      setEasyMode(enabled);
+      updateEasyMode();
+      window.history.replaceState(null,'',updateEasyUrl(new URL(window.location.href),easyMode));
+    }});
   if (shareError) showToast(t('share.invalid'));
 }
 

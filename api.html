@@ -86,6 +86,9 @@ const idea = JSON.parse(await page.locator('#idea-output').textContent());</code
   <p>For interactive smart search, click <code>#smart-roll</code> and wait until it is enabled again.
     The page shows the scores and explanations; <code>#idea-output</code> contains the selected idea.
     Use the CLI's <code>--smart</code> response when you need scores and explanation text together as JSON.</p>
+  <p>The first ordinary visit offers an optional guided tour; Help can restart it later.
+    Explicit seed, <code>fresh=1</code> and shared snapshot entry points do not open that invitation.
+    The tour does not generate ideas or perform copy, lock or jam actions without the user's click.</p>
 
   <h2>Easy mode URL</h2>
   <p>Add <code>easy=1</code> to open the five-card view directly, for example

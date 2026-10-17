@@ -67,6 +67,23 @@ Schema version 2 replaces the earlier string values with option records. The cat
 is a SHA-256 hash of the normalized category contents; generator version 1 identifies the current
 algorithm. Reordering source options does not change the hash or seeded result.
 
+## Guided tour
+
+**Help** in the secondary header row starts a nine-step tour with small arrowed speech bubbles
+beside the relevant controls. It covers Easy mode, generating an idea, locking fields, copying
+the idea, copying AI Prompt, expanding the full view, idea scores, Smart Roll and Game jam mode.
+The highlighted control remains usable; Back, Next, Skip tour and Escape are available throughout.
+Successful actions advance their step, while Next lets you continue without performing them.
+
+The first ordinary visit offers the tour once. Starting, skipping or completing it is remembered
+in this browser; Help can restart it at any time. Explicit seed, `fresh=1` and shared snapshot
+entry points skip the invitation so bot generation and direct replays remain unobstructed.
+
+The tour may switch Easy mode or open AI Prompt/Idea scores to reveal a control, but it never
+generates, copies, changes locks or enables jam mode on your behalf. Generate idea still asks
+for confirmation; cancelling returns to the same tour step. Bubbles follow scrolling and resizing,
+choose a side that fits the screen, and point to the actual control. All five UI languages are supported.
+
 ## Easy mode
 
 **Easy mode** at the far left of the second header row shows only genre, main goal, twist and two other randomly selected
