@@ -399,6 +399,11 @@ h1 i { color: var(--accent); margin-right: 6px; }
 }
 
 .browse-section { margin: 28px 0 64px; }
+.browse-section > summary { list-style: none; cursor: pointer; user-select: none; }
+.browse-section > summary::-webkit-details-marker { display: none; }
+.browse-section > summary h2::before { content: '\25B8'; display: inline-block; margin-right: 8px; color: var(--text-muted); font-size: 14px; transition: transform 0.15s; }
+.browse-section[open] > summary h2::before { transform: rotate(90deg); }
+.browse-section:not([open]) > summary { margin-bottom: 0; }
 
 /* ---------- Browse Lists ---------- */
 

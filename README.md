@@ -103,6 +103,12 @@ locks, exclusions or the AI prompt. Hidden fields remain part of the idea and it
 snapshot. The two extra fields are selected randomly on each activation or `easy=1` page load;
 the URL stores the mode, not the random choice of visible extra fields.
 
+## Browse Lists
+
+Click the Browse Lists heading to collapse or expand the list browser. It starts open and
+preserves its open state during rolls, language changes and Easy mode toggles. Collapsing it
+does not reset the selected category, search or page, or change the idea.
+
 ## Share an idea
 
 The top bar provides three actions:
